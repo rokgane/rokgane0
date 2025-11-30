@@ -5753,7 +5753,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
-			"Adopt [Tradition] adopting [Tradition]>",
+			"Adopt [Tradition]<before adopting [Tradition]>",
 			"Adopt [Liberty]<before adopting [Liberty]>",
 			"Adopt [Honor]<before adopting [Honor]>",
 			"Adopt [Piety]<before adopting [Piety]>",
