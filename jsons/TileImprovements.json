@@ -168,7 +168,7 @@
 
 	{
 		"name": "Bioculture",
-    	"terrainsCanBeBuiltOn": ["Land","Water"],
+		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"techRequired": "xsaUnlocker",
         "Gold": 1, 
         "Production": 1, 

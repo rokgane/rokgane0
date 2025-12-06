@@ -1023,6 +1023,7 @@
 		"quote": "'The canal is an international sea passage, and not a Turkish or an Egyptian canal.' - Ferdinand de Lesseps"
 	},
 */
+
 /*
 	{
 		"name": "Panama Canal Company",
@@ -2534,7 +2535,8 @@
 			"Only available <in cities with a [MiniCake UnitBuff]> <hidden from users>",
 
 			"Can only be built <in [Capital] cities> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake BuffUnit Ulti]><hidden from users>",
+			"Unavailable <in cities with a [MiniCake Buff Civilian Assistance]><hidden from users>",
+			"Unavailable <in cities with a [MiniCake Buff Military Assistance]><hidden from users>",
 
             
 			"[{Air}] units gain the [Paradrop Assistance Air] promotion",
@@ -2612,7 +2614,7 @@
 	    		"Only available <in cities with a [MiniCake UnitBuff]> <hidden from users>",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
-				"Unavailable <in cities with a [MiniCake BuffUnit Basic]><hidden from users>",
+				"Unavailable <in cities with a [MiniCake Buff Basic Assistance]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
 //				"Unavailable <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -2638,7 +2640,7 @@
 	    		"Only available <in cities with a [MiniCake UnitBuff]> <hidden from users>",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
-				"Unavailable <in cities with a [MiniCake BuffUnit Basic]><hidden from users>",
+				"Unavailable <in cities with a [MiniCake Buff Basic Assistance]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
 //				"Unavailable <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -5251,7 +5253,7 @@
 			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [Human player] Civilizations>",
 			"Discover [Industrialization]<before discovering [Industrialization]> <for [Human player] Civilizations>",
 			"Discover [Rifling]<before discovering [Rifling]> <for [Human player] Civilizations>",
-			"Discover [Military Science]<before discovering [Military]> <for [Human player] Civilizations>",
+			"Discover [Military Science]<before discovering [Military Science]> <for [Human player] Civilizations>",
 			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [Human player] Civilizations>",
 
 			"Discover [Biology]<before discovering [Biology]> <for [Human player] Civilizations>",
@@ -6072,7 +6074,7 @@
 			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [AI player] Civilizations>",
 			"Discover [Industrialization]<before discovering [Industrialization]> <for [AI player] Civilizations>",
 			"Discover [Rifling]<before discovering [Rifling]> <for [AI player] Civilizations>",
-			"Discover [Military Science]<before discovering [Military]> <for [AI player] Civilizations>",
+			"Discover [Military Science]<before discovering [Military Science]> <for [AI player] Civilizations>",
 			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [AI player] Civilizations>",
 
 			"Discover [Biology]<before discovering [Biology]> <for [AI player] Civilizations>",
