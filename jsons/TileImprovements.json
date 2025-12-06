@@ -102,7 +102,7 @@
 	},
 	{
 		"name": "Snowify",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Lakes","Coast","Ocean"],
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",//Combustion
 		"uniques": [
@@ -168,6 +168,7 @@
 
 	{
 		"name": "Bioculture",
+    	"terrainsCanBeBuiltOn": ["Land","Water"],
 		"techRequired": "xsaUnlocker",
         "Gold": 1, 
         "Production": 1, 
