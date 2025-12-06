@@ -16,19 +16,7 @@
 
 
 
-	{
-		"name": "FlyerHeal",
-		"uniques": [
-			"Only available <for [Human player] Civilizations> <hidden from users>",
-			"[+110]% Strength <when attacking>",
-			"Damage taken from interception reduced by [90]%",
-			"[1] additional attacks per turn",
-			"Heals [40] damage if it kills a unit",
-			"May heal outside of friendly territory",
-			"Unit will heal every turn, even if it performs an action",
-			"All healing effects doubled"
-		]
-	},
+
 
 
 

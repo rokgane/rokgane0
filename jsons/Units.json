@@ -1191,6 +1191,15 @@
 			"[FlyerHeal] ability"],
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"[+110]% Strength <when attacking>",
+			"Damage taken from interception reduced by [90]%",
+			"[1] additional attacks per turn",
+			"Heals [40] damage if it kills a unit",
+			"May heal outside of friendly territory",
+			"Unit will heal every turn, even if it performs an action",
+			"All healing effects doubled"
+            
 		    "[50]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Air] units>", 
 		    "[+300]% Strength <vs [Airship] units>"],
