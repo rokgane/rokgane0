@@ -1187,8 +1187,6 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "xsaUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
-		"promotions": [
-			"[FlyerHeal] ability"],
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
