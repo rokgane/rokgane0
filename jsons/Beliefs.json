@@ -1,18 +1,67 @@
 
 [
-    {
+
+     {
         "name": "Cedanbi Worship",
         "type": "Pantheon",
         "uniques": [
 //          "[+80]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 //          "[+80]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[+30]% growth [in this city]",
+            "[+20]% growth [in all city] <when not at war>",
 			"[All] Units adjacent to this city heal [+50] HP per turn when healing",
+            "[+10 Happiness] for each global city following this religion",
+
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [xsaUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
 		]
     },
+
+    {
+        "name": "Faith of Cendabi",
+        "type": "Founder",
+        "uniques": [
+            "Religion naturally spreads to cities [+3] tiles away",
+            "[+25]% Spread Religion Strength <for [Great Prophet] units>", 
+            "[+25]% Spread Religion Strength <for [Missionary] units>",
+            "[-25]% Faith cost of generating Great Prophet equivalents",
+            "[+100]% Natural religion spread [in City-State cities]",
+
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "[-100]% weight to this choice for AI decisions <hidden from users>"
+        ]
+    },
+
+    {
+        "name": "Will of Cendabi",
+        "type": "Follower",
+        "uniques": [
+            "[+3]% [Production] from every follower, up to [30]%",
+            "[+10 Production] [in cities following this religion] <in cities with at least [5] [Specialists]>",
+
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "[-100]% weight to this choice for AI decisions <hidden from users>"
+        ]
+    },
+
+    {
+        "name": "Military of the Cendabi",
+        "type": "Enhancer",
+        "uniques": [
+            "[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+            "[+50]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+            "May buy [Military] units with [Faith] for [1] times their normal Production cost",
+
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "[-100]% weight to this choice for AI decisions <hidden from users>"
+        ]
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+
     {
         "name": "Ancestor Worship",
         "type": "Pantheon",

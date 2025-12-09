@@ -35,9 +35,28 @@ added scout xp
 		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
 		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
 */		
-		
-		
-	
+
+
+
+
+
+    	"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemyAdvanceEra Ancient] is constructed by anybody>",
+    	"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemyAdvanceEra Classical] is constructed by anybody>",
+    	"Discover [Era3UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [3 EnemyAdvanceEra Medieval] is constructed by anybody>",
+    	"Discover [Era4UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [4 EnemyAdvanceEra Renaissance] is constructed by anybody>",
+    	"Discover [Era5UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [5 EnemyAdvanceEra Industrial] is constructed by anybody>",
+    	"Discover [Era6UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [6 EnemyAdvanceEra Modern] is constructed by anybody>",
+    	"Discover [Era7UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [7 EnemyAdvanceEra Atomic] is constructed by anybody>",
+    	"Discover [Era8UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [8 EnemyAdvanceEra Information] is constructed by anybody>",
+
+
+
+
+
+
+
+
+
 		"Requires establishing embassies to conduct advanced diplomacy",
 		"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
 		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",

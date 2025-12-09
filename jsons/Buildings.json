@@ -1086,7 +1086,7 @@
 	    	"Enemy [All] units must spend [2] extra movement points when inside your territory",
 
 			"[5] free [DNS Settler] units appear", 
-			"[2] free [DNS Worker] units appear",
+//			"[2] free [DNS Worker] units appear",
 			"[2] free [Pikeman] units appear",
 //			"Free [Worker] appears <for [Human player] Civilizations>",
 
@@ -6228,6 +6228,7 @@
 	},
 */
 
+
 //xsa//Enemy Inhibitor
 	{
 		"name": "1 EnemyInhibitorEra Ancient",
@@ -6236,7 +6237,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
+//			"Only available  <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 //unlock inhibitor
 			"Discover [10 InhibitorEra Ancient] <for [AI player] Civilizations>",
@@ -6248,16 +6249,23 @@
 			"Discover [14 TechSlowerEraAncient] <for [AI player] Civilizations>",
 			"Discover [15 TechSlowerEraAncient] <for [AI player] Civilizations>",
 			"Discover [16 TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [17 TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [18 TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [19 TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [1X TechSlowerEraAncient] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era1UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era1UnlockEnema"
 	},
 	{
 		"name": "2 EnemyInhibitorEra Classical",
@@ -6278,16 +6286,23 @@
 			"Discover [24 TechSlowerEraClassical] <for [AI player] Civilizations>",
 			"Discover [25 TechSlowerEraClassical] <for [AI player] Civilizations>",
 			"Discover [26 TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [27 TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [28 TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [29 TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [2X TechSlowerEraClassical] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era2UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era2UnlockEnema"
 	},
 	{
 		"name": "3 EnemyInhibitorEra Medieval",
@@ -6308,16 +6323,23 @@
 			"Discover [34 TechSlowerEraMedieval] <for [AI player] Civilizations>",
 			"Discover [35 TechSlowerEraMedieval] <for [AI player] Civilizations>",
 			"Discover [36 TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [37 TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [38 TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [39 TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [3X TechSlowerEraMedieval] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era3UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era3UnlockEnema"
 	},
 	{
 		"name": "4 EnemyInhibitorEra Renaissance",
@@ -6338,16 +6360,23 @@
 			"Discover [44 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [45 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [46 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [47 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [48 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [49 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [4X TechSlowerEraRenaissance] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era4UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era4UnlockEnema"
 	},
 	{
 		"name": "5 EnemyInhibitorEra Industrial",
@@ -6368,16 +6397,23 @@
 			"Discover [54 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [55 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [56 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [57 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [58 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [59 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [5X TechSlowerEraIndustrial] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era5UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era5UnlockEnema"
 	},
 	{
 		"name": "6 EnemyInhibitorEra Modern",
@@ -6399,16 +6435,23 @@
 			"Discover [64 TechSlowerEraModern] <for [AI player] Civilizations>",
 			"Discover [65 TechSlowerEraModern] <for [AI player] Civilizations>",
 			"Discover [66 TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [67 TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [68 TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [69 TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [6X TechSlowerEraModern] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era6UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era6UnlockEnema"
 	},
 	{
 		"name": "7 EnemyInhibitorEra Atomic",
@@ -6429,16 +6472,23 @@
 			"Discover [74 TechSlowerEraAtomic] <for [AI player] Civilizations>",
 			"Discover [75 TechSlowerEraAtomic] <for [AI player] Civilizations>",
 			"Discover [76 TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [77 TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [78 TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [79 TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [7X TechSlowerEraAtomic] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era7UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era7UnlockEnema"
 	},
 	{
 		"name": "8 EnemyInhibitorEra Information",
@@ -6460,16 +6510,23 @@
 			"Discover [84 TechSlowerEraInformation] <for [AI player] Civilizations>",
 			"Discover [85 TechSlowerEraInformation] <for [AI player] Civilizations>",
 			"Discover [86 TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [87 TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [88 TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [89 TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [8X TechSlowerEraInformation] <for [AI player] Civilizations>",
 
-			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [Era8UnlockEnema]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "xsaUnlocker"
+		"requiredTech": "Era8UnlockEnema"
 	},
 
 
