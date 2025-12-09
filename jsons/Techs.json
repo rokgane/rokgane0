@@ -845,7 +845,7 @@
 			},
 			{
 				"name": "Era1UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -884,7 +884,7 @@
 			},
 			{
 				"name": "Era2UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -923,7 +923,7 @@
 			},
 			{
 				"name": "Era3UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -962,7 +962,7 @@
 			},
 			{
 				"name": "Era4UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -1001,7 +1001,7 @@
 			},
 			{
 				"name": "Era5UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -1040,7 +1040,7 @@
 			},
 			{
 				"name": "Era6UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -1079,7 +1079,7 @@
 			},
 			{
 				"name": "Era7UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
@@ -1118,7 +1118,7 @@
 			},
 			{
 				"name": "Era8UnlockHuman",
-				"row": 23,
+				"row": 22,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [Agriculture]>",
