@@ -1069,6 +1069,10 @@
 		"isWonder": true,
 //		"specialistSlots": {"Townie": 10},
 		"uniques": [
+            "May buy [Military] units with [Faith] for [1] times their normal Production cost",
+            "May buy [Civilian] units with [Faith] for [1] times their normal Production cost",
+
+
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -6794,35 +6798,183 @@
 	},
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "Era1EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era1UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era1UnlockEnema"
+	},
+	{
+		"name": "Era2EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era2UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era2UnlockEnema"
+	},
+	{
+		"name": "Era3EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era3UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era3UnlockEnema"
+	},
+	{
+		"name": "Era4EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era4UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era4UnlockEnema"
+	},
+	{
+		"name": "Era5EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era5UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era5UnlockEnema"
+	},
+	{
+		"name": "Era6EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era6UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era6UnlockEnema"
+	},
+	{
+		"name": "Era7EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era7UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era7UnlockEnema"
+	},
+	{
+		"name": "Era8EnemaAnnounce",
+		"cost": 10,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after discovering [Era8UnlockEnema]><hidden from users>",
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Triggers a global alert upon completion", 
+			"Unbuildable <hidden from users>",
+	    	"Moves to new capital when capital changes<hidden from users>",
+	    	"Destroyed when the city is captured <hidden from users>",
+			"Cannot be hurried"],
+		"requiredTech": "Era8UnlockEnema"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	{

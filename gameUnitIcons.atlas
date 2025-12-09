@@ -220,3 +220,10 @@ UnitIcons/DNS Khan
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 730, 670
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

@@ -1125,7 +1125,8 @@
 					"[-99]% weight to this choice for AI decisions",
 					"[+1000]% Science cost of researching new Technologies"
 					]
-			},			{
+			},
+			{
 				"name": "Era8UnlockEnema",
 				"row": 23,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",

@@ -11,8 +11,8 @@
             "[+20]% growth [in all city] <when not at war>",
 			"[All] Units adjacent to this city heal [+50] HP per turn when healing",
 //            "[+10 Happiness] for each global city following this religion",
-            "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
 
+            "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [xsaUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
