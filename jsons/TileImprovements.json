@@ -108,7 +108,7 @@
 		"techRequired": "xsaUnlocker",
 		"uniques": [
 			"Can be built outside your borders",
-			"Turn this tile into a [Desert] tile",
+			"Turn this tile into a [Mountain] tile",
 		        ],
 	},
 	{
@@ -119,7 +119,7 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Coast] tile",
-			"Can only be built on [Land] tiles",
+//			"Can only be built on [Land] tiles",
 //			"Cannot be built on [Land] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
 		        ],
@@ -131,7 +131,7 @@
 		"techRequired": "xsaUnlocker",
 		"uniques": [
 			"Can be built outside your borders",
-			"Turn this tile into a [Wasteland] tile",
+			"Turn this tile into a [Permafrost] tile",
 			"Does not need removal of [Trading post] <hidden from users>",
 //			"Cannot be built on [Land] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
@@ -157,7 +157,7 @@
 		"techRequired": "xsaUnlocker",
 		"uniques": [
 			"Can be built outside your borders",
-			"Turn this tile into a [Wasteland] tile",
+			"Turn this tile into a [Badlands] tile",
 			"Does not need removal of [Trading post] <hidden from users>",
 //			"Cannot be built on [Land] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
