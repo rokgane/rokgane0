@@ -1191,15 +1191,19 @@
 		"name": "DNS Checkeri1",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
 		],
 		"movement": 3
 	},
@@ -1207,15 +1211,19 @@
 		"name": "DNS Checkeri2",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
 		],
 		"movement": 3
 	},
@@ -1223,15 +1231,20 @@
 		"name": "DNS Checkeri3",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -1239,15 +1252,20 @@
 		"name": "DNS Checkeri4",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -1255,15 +1273,20 @@
 		"name": "DNS Checkeri5",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -1271,15 +1294,20 @@
 		"name": "DNS Checkeri6",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -1287,15 +1315,20 @@
 		"name": "DNS Checkeri7",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -1303,15 +1336,20 @@
 		"name": "DNS Checkeri8",
 		"unitType": "Civilian",
 		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
 		    "Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//			"Religious Unit"
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
 		],
 		"movement": 3
 	},
@@ -2261,6 +2299,34 @@
 		"movement": 2
 	},
 
+
+//DNS Great Admiral
+	{
+		"name": "DNS Great Admiral",
+		"unitType": "DNSCivilianWater",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+//   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+//			"Is part of Great Person group [Admiral]",
+//			"Great Person - [War]", 
+            "Instantly gain [1000] [Happiness]",
+			"Unbuildable", 
+			"Uncapturable"
+			],
+		"movement": 4
+	},
+
 //DNS Khan
 	{
 		"name": "DNS Khan",
@@ -2295,32 +2361,8 @@
 		"movement": 6
 	},
 
-//DNS Great Admiral
-	{
-		"name": "DNS Great Admiral",
-		"unitType": "DNSCivilianWater",
-		"requiredTech": "xsaUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
-		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-			"Limited to [3] per Civilization <hidden from users>",
-//   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
-			"Withdraws before melee combat <with [99]% chance>",
-			"Never appears as a Barbarian unit",
-//			"Limited to [1] per Civilization",
-//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
-			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
-			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-			"Can be earned through combat <for [Water] units>",
-//			"Is part of Great Person group [Admiral]",
-//			"Great Person - [War]", 
-            "Instantly gain [1000] [Happiness]",
-			"Unbuildable", 
-			"Uncapturable"
-			],
-		"movement": 4
-	},
+
+
 /*
 	{
 		"name": "Great Farmer",
@@ -2344,6 +2386,131 @@
 	},
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "High Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "High Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "High Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 9,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "High Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
 
 
 
@@ -2589,12 +2756,24 @@
   
 
   
-  
+//DNS Checkeri1
+//DNS Checkeri2
+//DNS Checkeri3
+//DNS Checkeri4
+//DNS Checkeri5
+//DNS Checkeri6
+//DNS Checkeri7
+//DNS Checkeri8 
 
+//DNS Flyer
+//DNS War Bomber
 //Zeppelin Terraformer
-  
+
 //DNS Guided Rocket
 //DNS Guided Missile
+//DNS Nuclear Missile P2
+//DNS Nuclear Missile P5
+//DNS Nuclear Missile P8
  
 //DNS Helicopter Gunship
 //DNS Jet Fighter
@@ -2605,6 +2784,7 @@
 //DNS Battleship
 //DNS Missile Cruiser
 //DNS Nuclear Submarine
+//DNS Carrier
 
 //DNS Modern Armor
 //DNS Mechanized Infantry
@@ -2625,7 +2805,7 @@
 //DNS Great Engineer
 //DNS Great Prophet
 //DNS Great General
-//DNS Khan
 //DNS Great Admiral
 
-
+//DNS Khan
+//Angel

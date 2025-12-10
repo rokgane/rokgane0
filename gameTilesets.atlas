@@ -1039,7 +1039,62 @@ TileSets/HexaRealm/Units/DNS Checkeri8
   orig: 64, 56
   offset: 0, 0
   index: -1
-
+TileSets/FantasyHex/Units/High Brute
+  rotate: false
+  xy: 580, 135
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Brute
+  rotate: false
+  xy: 1462, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Skirmisher
+  rotate: false
+  xy: 292, 243
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Skirmisher
+  rotate: false
+  xy: 1060, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Galley
+  rotate: false
+  xy: 289, 1644
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Galley
+  rotate: false
+  xy: 740, 877
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Marauder
+  rotate: false
+  xy: 820, 648
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Marauder
+  rotate: false
+  xy: 1369, 1332
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 
 

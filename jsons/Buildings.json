@@ -1069,8 +1069,15 @@
 		"isWonder": true,
 //		"specialistSlots": {"Townie": 10},
 		"uniques": [
+            "May buy [Military] units with [Gold] for [1] times their normal Production cost",
+            "May buy [Civilian] units with [Gold] for [1] times their normal Production cost",
+
+            "May buy [Military] units with [Culture] for [1] times their normal Production cost",
+            "May buy [Civilian] units with [Culture] for [1] times their normal Production cost",
+
             "May buy [Military] units with [Faith] for [1] times their normal Production cost",
             "May buy [Civilian] units with [Faith] for [1] times their normal Production cost",
+//            "May buy [All] units with [Faith] for [1] times their normal Production cost",
 
 
 				"Unbuildable <hidden from users>",
@@ -1378,7 +1385,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -1397,7 +1404,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -1416,7 +1423,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -1435,7 +1442,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -1446,6 +1453,30 @@
 		"requiredTech": "xsaUnlocker"
 	},
 	{
+		"name": "MiniCake Spawn NukA Missile",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+                "Sell [MiniCake Spawn NukA Missile] buildings [in this city]",
+
+		    	"[10] free [DNS Nuclear Missile P2] units appear", 
+		    	"[5] free [DNS Nuclear Missile P5] units appear", 
+		    	"[5] free [DNS Nuclear Missile P8] units appear", 
+
+				"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+
+	{
 		"name": "MiniCake DNS Unit GPeople",
 		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
@@ -1454,7 +1485,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -3355,20 +3386,26 @@
 		"requiredTech": "xsaUnlocker"
 	},	
 
+
+
+
 	{
-		"name": "MiniCake Test 1 Air Land Water",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Spawn Fleet Checkeri",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"[1] free [Land Ironclad] units appear", 
-		    	"[1] free [Airship] units appear", 
-		    	"[1] free [Land Leviathan] units appear", 
-		    	"[1] free [Sky Fortress] units appear", 
+                "Sell [MiniCake Spawn Fleet Checkeri] buildings [in this city]",
 
-		    	"[1] free [Zeppelin Terraformer] units appear", 
-		    	"[1] free [Astronaut] units appear", 
+		    	"[1] free [DNS Checkeri1] units appear", 
+		    	"[1] free [DNS Checkeri2] units appear", 
+		    	"[1] free [DNS Checkeri3] units appear", 
+		    	"[1] free [DNS Checkeri4] units appear", 
+		    	"[1] free [DNS Checkeri5] units appear", 
+		    	"[1] free [DNS Checkeri6] units appear", 
+		    	"[1] free [DNS Checkeri7] units appear", 
+		    	"[1] free [DNS Checkeri8] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
@@ -3380,34 +3417,73 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
-	
-	
 	{
-		"name": "MiniCake Test 2 Civilian Naval",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Spawn Fleet Missile",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+                "Sell [MiniCake Spawn Fleet Missile] buildings [in this city]",
 
-		    	"[1] free [Worker] units appear", 
-		    	"[1] free [Work Boats] units appear", 
-		    	"[1] free [Settler] units appear", 
-		    	"[1] free [Scout] units appear", 
-		    	"[1] free [Missionary] units appear", 
-		    	"[1] free [Inquisitor] units appear", 
+		    	"[10] free [DNS Guided Rocket] units appear", 
+		    	"[10] free [DNS Guided Missile] units appear", 
+		    	"[1] free [DNS Nuclear Missile P2] units appear", 
+		    	"[1] free [DNS Nuclear Missile P5] units appear", 
+		    	"[1] free [DNS Nuclear Missile P8] units appear", 
 
-		    	"[1] free [DNS Worker] units appear", 
-		    	"[1] free [DNS Work Boats] units appear", 
-		    	"[1] free [DNS Settler] units appear", 
-		    	"[1] free [DNS Scout] units appear", 
-		    	"[1] free [DNS Missionary] units appear", 
-		    	"[1] free [DNS Inquisitor] units appear", 
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "MiniCake Spawn Fleet Air",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+                "Sell [MiniCake Spawn Fleet Air] buildings [in this city]",
+
+		    	"[1] free [DNS Flyer] units appear", 
+		    	"[1] free [DNS War Bomber] units appear", 
+		    	"[1] free [Zeppelin Terraformer] units appear", 
+
+		    	"[1] free [DNS Helicopter Gunship] units appear", 
+		    	"[1] free [DNS Jet Fighter] units appear", 
+		    	"[1] free [DNS Stealth Bomber] units appear", 
+		    	"[1] free [DNS Sky Carrier] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "MiniCake Spawn Fleet Navy",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+                "Sell [MiniCake Spawn Fleet Navy] buildings [in this city]",
 
 		    	"[1] free [DNS Destroyer] units appear", 
 		    	"[1] free [DNS Battleship] units appear", 
 		    	"[1] free [DNS Missile Cruiser] units appear", 
 		    	"[1] free [DNS Nuclear Submarine] units appear", 
+		    	"[1] free [DNS Carrier] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
@@ -3419,24 +3495,14 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
-
-
-
-
-
 	{
-		"name": "MiniCake Test 3 land Air",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Spawn Fleet Land",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-
-		    	"[1] free [DNS Guided Missile] units appear", 
-		    	"[1] free [DNS Helicopter Gunship] units appear", 
-		    	"[1] free [DNS Jet Fighter] units appear", 
-		    	"[1] free [DNS Stealth Bomber] units appear", 
-		    	"[1] free [DNS Sky Carrier] units appear", 
+                "Sell [MiniCake Spawn Fleet Land] buildings [in this city]",
 
 		    	"[1] free [DNS Modern Armor] units appear", 
 		    	"[1] free [DNS Mechanized Infantry] units appear", 
@@ -3455,9 +3521,33 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
+	{
+		"name": "MiniCake Spawn Fleet Civilian",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+                "Sell [MiniCake Spawn Fleet Civilian] buildings [in this city]",
 
+		        "[1] free [DNS Worker] units appear", 
+		    	"[1] free [DNS Work Boats] units appear", 
+		    	"[1] free [DNS Settler] units appear", 
+		    	"[1] free [DNS Scout] units appear", 
+		    	"[1] free [DNS Missionary] units appear", 
+		    	"[1] free [DNS Inquisitor] units appear", 
+		    	"[1] free [DNS Khan] units appear", 
 
-
+                "Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 	{
 		"name": "MiniCake Spawn Great People",
 		"requiredBuilding": "MiniCake DNS Lock",
@@ -6241,7 +6331,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri1] units appear",
+			"[1] free [DNS Checkeri1] units appear",
 //			"Only available  <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 //unlock inhibitor
@@ -6279,7 +6369,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri2] units appear",
+			"[1] free [DNS Checkeri2] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 //unlock inhibitor
@@ -6317,7 +6407,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri3] units appear",
+			"[1] free [DNS Checkeri3] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 //unlock inhibitor
@@ -6355,7 +6445,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri4] units appear",
+			"[1] free [DNS Checkeri4] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 //unlock inhibitor
@@ -6393,7 +6483,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri5] units appear",
+			"[1] free [DNS Checkeri5] units appear",
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
@@ -6432,7 +6522,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri6] units appear",
+			"[1] free [DNS Checkeri6] units appear",
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
@@ -6472,7 +6562,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri7] units appear",
+			"[1] free [DNS Checkeri7] units appear",
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
@@ -6511,7 +6601,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[3] free [DNS Checkeri8] units appear",
+			"[1] free [DNS Checkeri8] units appear",
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8

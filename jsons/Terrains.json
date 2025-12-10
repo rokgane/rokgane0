@@ -784,6 +784,7 @@
 		"overrideStats": false,
 		"occursOn": ["Mountain"],
 		"uniques": [
+			"Doesn't generate naturally",
 			"Rough terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Units ending their turn on this terrain take [-33] damage",

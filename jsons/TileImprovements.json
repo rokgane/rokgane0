@@ -27,7 +27,7 @@
 */
 
 
-
+/*
 	{
 		"name": "Suez Canal Construction Site",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost"],
@@ -43,6 +43,7 @@
 //			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
 			"Canal"]
 	},
+*/
 //{Wasteland} {Badlands} {Permafrost}
 
 /*
@@ -101,10 +102,85 @@
 		"shortcutkey": "P"
 	},
 	{
+		"name": "Mountainify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Desert] tile",
+		        ],
+	},
+	{
+		"name": "Coastify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Coast] tile",
+			"Can only be built on [Land] tiles",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "Permafrostify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Wasteland] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "Wastelandify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Wasteland] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "Badlandsify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Wasteland] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "Desertify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Desert] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
 		"name": "Snowify",
-		"terrainsCanBeBuiltOn": ["Lakes","Coast","Ocean"],
-		"turnsToBuild": 3,
-		"techRequired": "xsaUnlocker",//Combustion
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
 		"uniques": [
 			"Can be built outside your borders",
 			"Turn this tile into a [Snow] tile",
@@ -112,8 +188,8 @@
 			"Cannot be built on [Land] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
 		        ],
-		"shortcutkey": "P"
 	},
+
 /*
     {
 		"name": "DNS Farmyard",
@@ -131,7 +207,7 @@
 */
     {
 		"name": "Remove Ice",
-		"turnsToBuild": 3,
+		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Ice"],
 		"techRequired": "Agriculture",
 		"uniques": [
@@ -241,7 +317,7 @@
 	{
 		"name": "DNS Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
+		"science": 16,
 		"uniques": [
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -258,7 +334,7 @@
 	{
 		"name": "DNS Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
+		"culture": 12,
 		"uniques": [
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -273,7 +349,7 @@
 	{
 		"name": "DNS Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 4,
+		"production": 8,
 		"uniques": [
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -289,7 +365,7 @@
 	{
 		"name": "DNS Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 4,
+		"gold": 8,
 		"uniques": [
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -306,7 +382,7 @@
 	{
 		"name": "DNS Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 6,
+		"faith": 12,
 		"uniques": [
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -327,7 +403,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-			"Gain control over [all] tiles in a [5]-tile radius",
+			"Gain control over [all] tiles in a [3]-tile radius",
 //			"Gain control over [all] tiles in a [5]-tile radius <after discovering [xsaUnlocker]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units"

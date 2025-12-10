@@ -290,3 +290,31 @@ UnitIcons/DNS Checkeri8
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/High Brute
+  rotate: false
+  xy: 190, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Skirmisher
+  rotate: false
+  xy: 1162, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Galley
+  rotate: false
+  xy: 730, 886
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Marauder
+  rotate: false
+  xy: 1400, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
