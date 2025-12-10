@@ -1180,13 +1180,175 @@
 
 
 
+
+
+
+
+
+
+
+	{
+		"name": "DNS Checkeri1",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri2",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri3",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri4",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri5",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri6",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri7",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri8",
+		"unitType": "Civilian",
+		"uniques": [
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+//			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	{
 		"name": "DNS Flyer",
 		"unitType": "Fighter",
-		"movement": 6,
+		"movement": 1,
 		"strength": 18,
 		"rangedStrength": 18,
-		"range": 6,
+		"range": 5,
 		"interceptRange": 5,
 		"cost": 200,
 		"hurryCostModifier": 20,
@@ -1198,7 +1360,7 @@
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
 			"[1] additional attacks per turn",
-			"Heals [40] damage if it kills a unit",
+			"Heals [50] damage if it kills a unit",
 			"May heal outside of friendly territory",
 			"Unit will heal every turn, even if it performs an action",
 			"All healing effects doubled"
@@ -1208,7 +1370,29 @@
 		    "[+300]% Strength <vs [Airship] units>"],
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "DNS War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 5,
+		"cost": 325,
+		"attackSound": "bombing"
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
+			"[+110]% Strength <when attacking>",
+			"Damage taken from interception reduced by [90]%",
+			"[1] additional attacks per turn",
+			"Heals [50] damage if it kills a unit",
+			"May heal outside of friendly territory",
+			"Unit will heal every turn, even if it performs an action",
+			"All healing effects doubled"
+        ],
+	},
 	{
 		"name": "Zeppelin Terraformer",
 		"unitType": "Helicopter",

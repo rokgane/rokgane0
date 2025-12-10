@@ -927,7 +927,118 @@ TileSets/HexaRealm/Units/DNS Carrier-Information era
   orig: 64, 56
   offset: 0, 0
   index: -1
-
+TileSets/FantasyHex/Units/DNS Checkeri1
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri1
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri2
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri2
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri3
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri3
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri4
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri4
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri5
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri5
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri6
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri6
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri7
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri7
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri8
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri8
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 
 

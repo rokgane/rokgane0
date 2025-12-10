@@ -227,3 +227,66 @@ UnitIcons/Great Admiral
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/DNS War Bomber
+  rotate: false
+  xy: 838, 1068
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri1
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri2
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri3
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri4
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri5
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri6
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri7
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri8
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

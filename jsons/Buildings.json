@@ -6241,6 +6241,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri1] units appear",
 //			"Only available  <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 //unlock inhibitor
@@ -6278,6 +6279,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri2] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 //unlock inhibitor
@@ -6315,6 +6317,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri3] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 //unlock inhibitor
@@ -6352,6 +6355,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri4] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 //unlock inhibitor
@@ -6389,6 +6393,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri5] units appear",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
 //unlock inhibitor
@@ -6426,6 +6432,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri6] units appear",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
 
@@ -6464,6 +6472,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri7] units appear",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
 //unlock inhibitor
@@ -6501,6 +6511,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"[3] free [Checkeri8] units appear",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
 

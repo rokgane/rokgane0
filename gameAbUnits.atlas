@@ -759,3 +759,339 @@ TileSets/AbsoluteUnits/Units/DNS Carrier-2
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
