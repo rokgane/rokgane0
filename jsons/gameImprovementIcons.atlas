@@ -1,0 +1,47 @@
+gameImprovementIcons.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+ImprovementIcons/DNS Academy
+  rotate: false
+  xy: 1259, 1943
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS Holy site
+  rotate: false
+  xy: 583, 1757
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS Landmark
+  rotate: false
+  xy: 799, 1481
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS Manufactory
+  rotate: false
+  xy: 1123, 1712
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS Citadel
+  rotate: false
+  xy: 144, 1339
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS Customs house
+  rotate: false
+  xy: 112, 691
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,71 @@
+[
+	{
+		"name": "Aliens",
+		"leaderName": "Zyxxyz",
+		"adjective": ["alien"],
+		"startBias": ["Permafrost"],
+		"preferredVictoryType": "Annihilation",
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		
+		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
+		"attacked": "You want to play? Very funny!",
+		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "",
+		"cities": [
+			"The Hive",
+			"Q01'Throczan",
+			"Q02'Chovex",
+			"Q03'Imphet",
+			"Q04'Omphead",
+			"Q05'Grecoks",
+			"Q06'Vrelzieks",
+			"Q07'Vronens",
+			"Q08'Aerlae",
+			"Q09'Phulnoith",
+			"Q10'Creved",
+			"Q11'Xirqen",
+			"Q12'Gax",
+			"Q13'Threqals",
+			"Q14'Bhilmuk",
+			"Q15'Mazea",
+			"Q16'Zomirs",
+			"Q17'Drorkrex",
+			"Q28'Honkrath",
+			"Q19'Zulgra",
+			"Q20'Vahars",
+			"Q21'Crindith",
+			"Q22'Raavraes",
+			"Q23'Bhoknais",
+			"Q24ho'Qru",
+			"Q25'Dateatz",
+			"Q26'Elnad",
+			"Q27'Izien",
+			"Q28ol'Ell",
+			"Q29'Dhihien",
+			"Q30'Naquiel",
+			"Q31'Ugneon",
+			"Q32'Straquks",
+			"Q33'Nulptr",
+			"Q34'Ohfahl"
+		]
+	}
+]
