@@ -1452,29 +1452,6 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
-	{
-		"name": "MiniCake Spawn NukA Missile",
-		"requiredBuilding": "MiniCake DNS Lock",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-                "Sell [MiniCake Spawn NukA Missile] buildings [in this city]",
-
-		    	"[10] free [DNS Nuclear Missile P2] units appear", 
-		    	"[5] free [DNS Nuclear Missile P5] units appear", 
-		    	"[5] free [DNS Nuclear Missile P8] units appear", 
-
-				"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "xsaUnlocker"
-	},
 
 	{
 		"name": "MiniCake DNS Unit GPeople",
@@ -1566,7 +1543,7 @@
 		"uniques": [
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -3426,11 +3403,11 @@
 		"uniques": [
                 "Sell [MiniCake Spawn Fleet Missile] buildings [in this city]",
 
-		    	"[10] free [DNS Guided Rocket] units appear", 
-		    	"[10] free [DNS Guided Missile] units appear", 
-		    	"[1] free [DNS Nuclear Missile P2] units appear", 
-		    	"[1] free [DNS Nuclear Missile P5] units appear", 
-		    	"[1] free [DNS Nuclear Missile P8] units appear", 
+		    	"[5] free [DNS Guided Rocket] units appear", 
+		    	"[5] free [DNS Guided Missile] units appear", 
+//		    	"[1] free [DNS Nuclear Missile P2] units appear", 
+//		    	"[1] free [DNS Nuclear Missile P5] units appear", 
+//		    	"[1] free [DNS Nuclear Missile P8] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
@@ -3539,6 +3516,29 @@
 		    	"[1] free [DNS Khan] units appear", 
 
                 "Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "MiniCake Spawn NukA Missile",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+                "Sell [MiniCake Spawn NukA Missile] buildings [in this city]",
+
+		    	"[5] free [DNS Nuclear Missile P2] units appear", 
+		    	"[3] free [DNS Nuclear Missile P5] units appear", 
+		    	"[2] free [DNS Nuclear Missile P8] units appear", 
+
+				"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
