@@ -1,0 +1,3725 @@
+[
+
+//changed required resource
+
+	{
+		"name": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Companion Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Greece",
+		"replaces": "Horseman",
+		"movement": 5,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals I"],
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cataphract",
+		"unitType": "Mounted",
+		"uniqueTo": "Byzantium",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Camel Archer",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "arrow"
+		//Camel Archer should have no penalty attacking cities
+	},
+	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Spain",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+		//Conquistador should have no penalty attacking cities
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+	},
+	{
+		"name": "Mandekalu Cavalry",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Songhai",
+		"movement": 4,
+		"strength": 20,
+		"cost": 110,
+		"requiredTech": "Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Keshik",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "Mongolia",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Great Generals I", "Quick Study"],
+		"attackSound": "arrow"
+		// Keshik should have no penalty attacking cities
+	},
+	{
+		"name": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sipahi",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "The Ottomans",
+		"movement": 5,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"],
+		"promotions": ["[Sipahi] ability","Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hakkapeliitta",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Sweden",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "RS01 Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Hakkapeliitta] ability","Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hussar",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Austria",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"],
+		"promotions": ["[Hussar] ability"],
+		"attackSound": "horse"
+	},
+
+
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "RS02 Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Legion",
+		"unitType": "Sword",
+		"uniqueTo": "Rome",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Samurai",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Japan",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"promotions": ["Shock I", "Great Generals II"],
+		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Denmark",
+		"movement": 3,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Metallurgy",
+		"requiredResource": "RS02 Iron",
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+	},
+
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ship of the Line",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+
+	{
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "RS03 Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+
+	{
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Bomber",
+		"obsoleteTech": "Radar",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "RS04 Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Jet Fighter",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "B17",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "RS04 Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "RS05 Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+	/* Spaceship Parts */
+
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Satellites",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "RS06 Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+			"Blast radius [2]"],
+		"attackSound": "nuke"
+		// Plane rather than a missile - can be based in city or Carrier only.
+		// Can be intercepted, but must die for it not to take effect.
+	},
+	{
+		"name": "Giant Death Robot",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 150,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "RS06 Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
+	},
+
+
+
+
+
+
+
+
+//XSA//Gun Ranged Fixing
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles", 
+			"Never appears as a Barbarian unit"],
+//xsa		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 13,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles"],
+//xsa		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Caravel",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight", 
+			"Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Turtle Ship",
+		"unitType": "Ranged Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Korea",
+		"movement": 4,
+		"strength": 36,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Musketeer",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 14,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Janissary",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": [
+			"[Janissary] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Ignores terrain cost"],
+		"promotions": [
+			"Drill I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tercio",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Spain",
+		"movement": 2,
+		"strength": 26,
+		"rangedStrength": 13,
+		"range": 1,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Privateer",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Sea Beggar",
+		"unitType": "Ranged Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Netherlands",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"Coastal Raider II", 
+			"Supply", 
+			"[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"range": 2,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ship of the Line",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"range": 2,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"range": 2,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+
+	// Industrial Era
+
+	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carolean",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mehal Sefari",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["Drill I","Home Sweet Home"],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Ironclad",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 22,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "RS03 Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 35,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "RS04 Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Machine Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"attackSound": "machinegun"
+		// Upgrades to Bazooka in BNW
+	},
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
+		"obsoleteTech": "Rocketry",
+		"uniques": [
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>", 
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"rangedStrength": 48,
+		"range": 1,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 55,
+		"rangedStrength": 30,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": [
+			"Can see invisible [Submarine] units", 
+			"[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", 
+			"[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 32,
+		"range": 1,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": [
+			"[+1] Sight <when [Embarked]>", 
+			"[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Paratrooper",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 32,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+	{
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"rangedStrength": 56,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"rangedStrength": 64,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 2,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rocket Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 4,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Mobile SAM",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"rangedStrength": 32,
+		"range": 1,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+			"May travel on Water tiles without embarking",			 //xsa//added hovering
+			"Eliminates combat penalty for attacking across a coast",  //xsa//added hovering
+			"Eliminates combat penalty for attacking over a river",	//xsa//added hovering
+			"[-50]% Strength <when fighting in [Water] tiles>",		//xsa//added hovering
+
+			"[+100]% Strength <vs [Armored] units>", 
+			"No defensive terrain bonus", 
+			"Can move after attacking",
+			"All tiles cost 1 movement", 
+			"Ignores Zone of Control", 
+			"Unable to capture cities", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 80,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "RS05 Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Giant Death Robot",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 150,
+		"rangedStrength": 120,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "RS06 Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
+	},
+
+
+//XSA//Gun Ranged Fixing
+
+
+
+
+
+
+
+//xsa//adds requiredResource 
+  
+	{
+		"name": "Nuclear Submarine",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+	"requiredResource": "Uranium",//xsa//added requiredResource
+		"uniques": [
+			"[+75]% Strength <when attacking>", 
+			"Can only attack [Water] tiles", 
+			"[+1] Sight", 
+			"Can carry [2] [Missile] units", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+  
+
+
+
+
+
+
+
+
+	{
+		"name": "Land Ironclad",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 70,
+		"cost": 450,
+		"requiredTech": "DNS Tech Landships",
+		"requiredResource": "RM02 Luboric",
+		"upgradesTo": "Land Leviathan",
+		"obsoleteTech": "DNS Tech Land Leviathan",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Airship",
+		"unitType": "Airship",
+		"movement": 4,
+		"strength": 65,
+		"cost": 475,
+		"requiredTech": "DNS Tech Airships",
+		"requiredResource": "RM01 Aetherium",
+		"upgradesTo": "Sky Fortress",
+		"obsoleteTech": "DNS Tech Sky Fortress",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Land Leviathan",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 85,
+		"cost": 525,
+		"requiredTech": "DNS Tech Land Leviathan",
+		"requiredResource": "RM02 Luboric",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Sky Fortress",
+		"unitType": "Airship",
+		"movement": 4,
+		"strength": 80,
+		"cost": 575,
+		"requiredTech": "DNS Tech Sky Fortress",
+		"requiredResource": "RM01 Aetherium",
+		"uniques": [
+			"Can carry [1] [Air] units",
+			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+
+	
+	
+	
+	//xsa//spaceparts//100x costs
+	//reverted to default
+	
+  /* Spaceship Parts */
+
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		"Spaceship part", 
+		"Cannot be purchased", 
+		"Only available <if [Apollo Program] is constructed>", 
+		"Uncapturable", 
+		"Can be added to [The Spaceship] in the Capital", 
+		"Limited to [3] per Civilization"
+		]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Satellites",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		"Spaceship part", 
+		"Cannot be purchased", 
+		"Only available <if [Apollo Program] is constructed>", 
+		"Uncapturable", 
+		"Can be added to [The Spaceship] in the Capital", 
+		"Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		"Spaceship part", 
+		"Cannot be purchased", 
+		"Only available <if [Apollo Program] is constructed>", 
+		"Uncapturable", 
+		"Can be added to [The Spaceship] in the Capital", 
+		"Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		  "Spaceship part", 
+		  "Cannot be purchased", 
+		  "Only available <if [Apollo Program] is constructed>", 
+		  "Uncapturable", 
+		  "Can be added to [The Spaceship] in the Capital", 
+		  "Limited to [1] per Civilization"
+		  ]
+		// costs 1500 in BNW
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	  //xsa//added//airunit
+  
+
+  {
+		"name": "Astronaut",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 75,
+		"cost": 425,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"Uncapturable",
+			"May Paradrop to [Land] tiles up to [30] tiles away <in [{Friendly} {Land}] tiles>", 
+//			"May Paradrop up to [20] tiles from inside friendly territory", 
+			"Never appears as a Barbarian unit"
+		   ],
+		"attackSound": "shot"
+	},
+
+/*
+//XSA//Canal
+	{
+		"name": "Dirt Canal Digger",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Steam Power",
+		"uniques": [
+			"Can instantly construct a [Dirt Canal Construction Site] improvement <once> <in tiles without [Hill]> <after which this unit is consumed>"],
+		"cost": 170
+	},
+	
+	{
+		"name": "Concrete Canal Digger",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Steam Power",
+		"uniques": [
+			"Can instantly construct a [Concrete Canal Construction Site] improvement <once> <after which this unit is consumed>"],
+		"cost": 280
+	}
+*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Uncapturable", 
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action",
+			"Limited to [2] per Civilization"
+			],
+		"cost": 70,
+		
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"May create improvements on water resources",
+			"Uncapturable", 
+			"Automation is a primary action",
+			"Limited to [5] per Civilization"
+		   ]
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Limited to [5] per Civilization",
+			"Founds a new city <in tiles without [Badlands]>", 
+			"Excess Food converted to Production when under construction",
+			"Can move immediately once bought", 
+			"Requires at least [2] population",
+			"[+3] Sight <before the [Classical era]>",
+			"[+2] Movement <before the [Classical era]>",
+			"Can see over obstacles <before the [Classical era]>"
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Limited to [3] per Civilization",
+			"May upgrade to [Archer] through ruins-like effects", 
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000,
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unbuildable", 
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
+			"Great Person - [Culture]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Can hurry technology research", 
+			"Can instantly construct a [Academy] improvement <by consuming this unit>", 
+			"Great Person - [Science]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
+			"Great Person - [Gold]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Can speed up construction of a building", 
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
+			"Great Person - [Production]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit>", 
+			"Can Spread Religion <[4] times> <by consuming this unit>",
+			"Removes other religions when spreading religion", 
+			"May found a religion", 
+			"May enhance a religion", 
+			"May enter foreign tiles without open borders", 
+			"[-1] Sight", 
+			"Great Person - [Faith]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+15] HP when healing", 
+			"[+15] HP when healing",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	
+	{
+		"name": "Khan",
+		"unitType": "Mounted",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"strength": 20,
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+30] HP when healing", 
+			"[+15] HP when healing", 
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
+			"Great Person - [War]", 
+			"Can move immediately once bought",
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"promotions": ["Medic II", "Adaptive Warfare"],
+		"movement": 6
+	},
+	
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"
+			],
+		"movement": 4
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "DNS Checkeri1",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri2",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri3",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri4",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri5",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri6",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri7",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+	{
+		"name": "DNS Checkeri8",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+
+		    "Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Religious Unit", 
+
+		],
+		"movement": 3
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    	"name": "TestBall91",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May enter foreign tiles without open borders<hidden from users>",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+			"Ignores Zone of Control<hidden from users>", 
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+            "[This Unit] takes [10] damage <upon turn end>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+    {
+    	"name": "TestBall92",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May enter foreign tiles without open borders<hidden from users>",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+			"Ignores Zone of Control<hidden from users>", 
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+    {
+    	"name": "TestBall93",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May enter foreign tiles without open borders<hidden from users>",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+			"Ignores Zone of Control<hidden from users>", 
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+			"[This Unit] takes [24] damage <every [1] turns>",
+			"[This Unit] takes [100] damage <every [5] turns>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+    {
+    	"name": "TestBall94",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May enter foreign tiles without open borders<hidden from users>",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+			"Ignores Zone of Control<hidden from users>", 
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+    {
+    	"name": "TestBall95",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May enter foreign tiles without open borders<hidden from users>",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+			"Ignores Zone of Control<hidden from users>", 
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+			"[This Unit] takes [24] damage <every [1] turns>",
+			"[This Unit] takes [100] damage <upon turn start>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    	"name": "Observation Balloon",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+    	    "[+6] Sight",
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+			"May enter foreign tiles without open borders<hidden from users>",
+
+			"Ignores Zone of Control<hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+			"[This Unit] takes [8] damage <upon turn end>",
+/*
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
+
+			"[This Unit] takes [24] damage <every [1] turns><hidden from users>",
+			"[This Unit] takes [100] damage <every [5] turns><hidden from users>",
+*/
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
+
+
+	{
+		"name": "DNS Flyer",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 18,
+		"rangedStrength": 18,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"[+110]% Strength <when attacking>",
+			"Damage taken from interception reduced by [90]%",
+			"[1] additional attacks per turn",
+			"Heals [50] damage if it kills a unit",
+			"May heal outside of friendly territory",
+			"Unit will heal every turn, even if it performs an action",
+			"All healing effects doubled"
+
+		    "[50]% chance to intercept air attacks", 
+		    "[+150]% Strength <vs [Air] units>", 
+		    "[+300]% Strength <vs [Airship] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "DNS War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 5,
+		"cost": 325,
+		"attackSound": "bombing"
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"[+110]% Strength <when attacking>",
+			"Damage taken from interception reduced by [90]%",
+			"[1] additional attacks per turn",
+			"Heals [50] damage if it kills a unit",
+			"May heal outside of friendly territory",
+			"Unit will heal every turn, even if it performs an action",
+			"All healing effects doubled"
+        ],
+	},
+	{
+		"name": "Zeppelin Terraformer",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 15,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"All adjacent units heal [+50] HP when healing", 
+			"[+50] HP when healing", 
+
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [3] [Air] units", 
+
+	    	"Limited to [6] per Civilization"
+			"May Paradrop to [All] tiles up to [20] tiles away", 
+//			"Can build [Water] improvements on tiles",
+			"Can enter ice tiles",
+
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+
+			"Can build [Bioculture] improvements on tiles",
+			"Can build [DNS FunFort01] improvements on tiles",
+			"Can build [DNS FunFort02] improvements on tiles",
+			"Can build [DNS FunFort03] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
+
+			"Can build [Lakesify] improvements on tiles",
+			"Can build [Coastify] improvements on tiles",
+			"Can build [Snowify] improvements on tiles",
+			"Can build [Iciiify] improvements on tiles",
+			"Can build [Desertify] improvements on tiles",
+			"Can build [Wastelandify] improvements on tiles",
+			"Can build [Badlandsify] improvements on tiles",
+
+			"Can build [Install Tunnel] improvements on tiles",
+
+			"Can build [Plant Forest] improvements on tiles",
+			"Can build [Plant Jungle] improvements on tiles",
+
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+
+			"Only available <for [Human player] Civilizations> <hidden from users>"
+
+//			"Can pass through impassable tiles",					   //xsa//added hovering
+			"May travel on Water tiles without embarking",			 //xsa//added hovering
+			"Eliminates combat penalty for attacking across a coast",  //xsa//added hovering
+			"Eliminates combat penalty for attacking over a river",	//xsa//added hovering
+			"[-50]% Strength <when fighting in [Water] tiles>",		//xsa//added hovering
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+
+			"Uncapturable",
+			"[+3] Sight",
+			"[85]% chance to intercept air attacks",
+			"No defensive terrain bonus", 
+			"Can move after attacking",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"All tiles cost 1 movement", 
+			"Ignores Zone of Control", 
+			"Unable to capture cities", 
+			"Never appears as a Barbarian unit",
+			"Withdraws before melee combat <with [80]% chance>"
+
+//			"Can see invisible [Submarine] units",
+			"[+100]% Strength <vs [Armored] units>", 
+			"Uncapturable"
+			],
+  		"attackSound": "machinegun"
+	},
+
+
+	{
+		"name": "DNS Guided Rocket",
+		"unitType": "DNSMissile",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 6,
+		"cost": 150,
+		"requiredTech": "xsaUnlocker",
+//		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"Never appears as a Barbarian unit",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs"
+			],
+		"attackSound": "missile"
+	},
+
+//DNS Guided Missile
+	{
+		"name": "DNS Guided Missile",
+		"unitType": "DNSMissile",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 15,
+		"cost": 150,
+//		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Air",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+
+			"Limited to [20] per Civilization"
+			"Never appears as a Barbarian unit",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs"
+			],
+		"attackSound": "missile"
+	},
+	{
+		"name": "DNS Nuclear Missile P2",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Nuke",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+
+		    "Limited to [20] per Civilization"
+		    "Nuclear weapon of Strength [2]", 
+			"Blast radius [2]", 
+//			"Consumes [2] [Uranium]"
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "DNS Nuclear Missile P5",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Nuke",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+
+		    "Limited to [20] per Civilization"
+		    "Nuclear weapon of Strength [5]", 
+			"Blast radius [5]", 
+//			"Consumes [5] [Uranium]"],
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "DNS Nuclear Missile P8",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Nuke",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+
+		    "Limited to [10] per Civilization"
+		    "Nuclear weapon of Strength [8]", 
+			"Blast radius [8]", 
+//			"Consumes [8] [Uranium]"
+			"[-100]% maintenance costs"
+        ],
+		"attackSound": "nuke"
+	},
+
+
+//DNS Helicopter Gunship
+    {
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "DNS Helicopter Gunship",
+		"unitType": "DNSHelicopter",
+		"movement": 6,
+		"strength": 60,
+		"rangedStrength": 60,//xsa//rangeMod
+		"range": 2,//xsa//rangeMod
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Air",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+
+			"[+2] Sight", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+//			"Can pass through impassable tiles",					   //xsa//added hovering
+			"May travel on Water tiles without embarking",			 //xsa//added hovering
+			"Eliminates combat penalty for attacking across a coast",  //xsa//added hovering
+			"Eliminates combat penalty for attacking over a river",	//xsa//added hovering
+			"[-50]% Strength <when fighting in [Water] tiles>",		//xsa//added hovering
+
+			"Can see invisible [Submarine] units",
+			"[+100]% Strength <vs [Armored] units>", 
+			"No defensive terrain bonus", 
+			"Can move after attacking",
+			"All tiles cost 1 movement", 
+			"Ignores Zone of Control", 
+			"Unable to capture cities", 
+			"Never appears as a Barbarian unit",
+			"Uncapturable"
+			],
+  		"attackSound": "machinegun"
+	},
+
+//DNS Jet Fighter
+	{
+		"name": "DNS Jet Fighter",
+		"unitType": "DNSFighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Air",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+
+			"Never appears as a Barbarian unit",
+			"Uncapturable",
+			"[100]% chance to intercept air attacks", 
+			"[+3] Air Interception Range",
+			"Damage taken from interception reduced by [100]%",
+			"[+2] extra interceptions may be made per turn",
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+
+//DNS Stealth Bomber
+{
+		"name": "DNS Stealth Bomber",
+		"unitType": "DNSBomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Air",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Never appears as a Barbarian unit",
+			"Uncapturable",
+			"Cannot be intercepted",
+			"Damage taken from interception reduced by [100]%",
+//			"Cannot be carried by [Carrier] units", 
+			"[+4] Sight", 
+			"Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+
+//DNS Sky Carrier
+	{
+		"name": "DNS Sky Carrier",
+		"unitType": "DNSAirship",
+		"movement": 4,
+		"strength": 80,
+		"rangedStrength": 40,
+		"range": 2,
+		"cost": 575,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Air",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+
+			"[+3] Sight",
+
+			"[+100]% Strength bonus for [All] units within [5] tiles",
+			"All adjacent units heal [100] HP when healing",
+			"Can carry [5] [Aircraft] units",
+			"[+100]% Strength <vs [Armored] units>",
+			"No defensive terrain bonus",
+			"Unable to capture cities",
+			"Damage taken from interception reduced by [100]%",
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Can see invisible [Submarine] units",
+			"Never appears as a Barbarian unit",
+			"Uncapturable"
+			],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+
+
+//DNS Destroyer
+	{
+		"name": "DNS Destroyer",
+		"unitType": "DNSMelee Water",
+		"movement": 6,
+		"strength": 65,
+		"rangedStrength": 40,
+		"range": 3,
+		"interceptRange": 3,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Water",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+2] Sight",
+			"Can see invisible [Submarine] units", 
+			"[75]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", 
+			"[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+
+//DNS Battleship
+	{
+		"name": "DNS Battleship",
+		"unitType": "DNSRanged Water",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 5,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Water",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+2] Sight",
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+
+//DNS Missile Cruiser
+	{
+		"name": "DNS Missile Cruiser",
+		"unitType": "DNSRanged Water",
+		"movement": 7,
+		"strength": 90,
+		"rangedStrength": 110,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Water",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+2] Sight",
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [8] [Missile] units", 
+			"[+100]% Strength <vs [Submarine] units>", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+//DNS Nuclear Submarine
+	{
+		"name": "DNS Nuclear Submarine",
+		"unitType": "DNSSubmarine",
+		"movement": 6,
+		"strength": 80,
+		"range": 4,
+		"rangedStrength": 95,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+		    "Ignores Zone of Control", 
+			"May enter foreign tiles without open borders",
+
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+100]% Strength bonus for [All] units within [5] tiles",
+			"All adjacent units heal [+50] HP when healing", 
+			"[+50] HP when healing", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Can only attack [Water] tiles", 
+			"[+3] Sight",
+			"Uncapturable",
+			"Can see invisible [Submarine] units",
+			"Can carry [5] [Missile] units", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+
+	{
+		"name": "DNS Carrier",
+		"unitType": "DNSInvisible Aircraft Carrier",
+		"movement": 5,
+		"strength": 40,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+100]% Strength bonus for [All] units within [5] tiles",
+			"All adjacent units heal [+50] HP when healing", 
+			"[+50] HP when healing", 
+
+			"Can see invisible [Submarine] units",
+			"Withdraws before melee combat <with [99]% chance>",
+
+			"Uncapturable",
+//		    "Cannot attack", 
+		    "Can carry [6] [Aircraft] units"
+			"Never appears as a Barbarian unit"],
+	},
+
+//DNS Modern Armor
+	{
+		"name": "DNS Modern Armor",
+		"unitType": "DNSArmored",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 80,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Land",
+//		"upgradesTo": "Giant Death Robot",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Can move after attacking", 
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+
+//DNS Mechanized Infantry
+	{
+		"name": "DNS Mechanized Infantry",
+		"unitType": "DNSGunpowder",
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Land",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Never appears as a Barbarian unit"
+			],
+		"attackSound": "tankshot"
+	},
+//DNS Land Leviathan
+	{
+		"name": "DNS Land Leviathan",
+		"unitType": "DNSArmored",
+		"movement": 4,
+		"strength": 85,
+		"rangedStrength": 65,
+		"range": 4,
+		"cost": 525,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Land",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+
+//DNS Mobile SAM
+	{
+		"name": "DNS Mobile SAM",
+		"unitType": "DNSGunpowder",
+		"movement": 3,
+		"interceptRange": 3,
+		"strength": 65,
+		"rangedStrength": 35,
+		"range": 4,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Land",
+		"uniques": [0
+			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+            "[+2] Sight",
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+
+//DNS Rocket Artillery
+	{
+		"name": "DNS Rocket Artillery",
+		"unitType": "DNSSiege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 4,
+		"cost": 425,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Land",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+
+
+
+
+
+
+
+
+//DNS Worker
+	{
+		"name": "DNS Worker",
+		"unitType": "DNSCivilianLand",
+		"movement": 3,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Limited to [3] per Civilization <hidden from users>",
+			"Withdraws before melee combat <with [99]% chance>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Never appears as a Barbarian unit",
+			"Automation is a primary action",
+			"Can build [Land] improvements on tiles", 
+			"Uncapturable", 
+			"Can see over obstacles <before the [Classical era]>"
+//			"Limited to [2] per Civilization"
+			],
+		"cost": 70,
+		
+	},
+
+//DNS Work Boats
+	{
+		"name": "DNS Work Boats",
+		"unitType": "DNSCivilianWater",
+		"movement": 5,
+		"cost": 30,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Limited to [3] per Civilization <hidden from users>",
+//			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"Withdraws before melee combat <with [99]% chance>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Never appears as a Barbarian unit",
+			"Automation is a primary action",
+//			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles", 
+			"Uncapturable", 
+			"Can see over obstacles <before the [Classical era]>"
+//			"Limited to [5] per Civilization"
+		   ]
+	},
+
+//DNS Settler
+	{
+		"name": "DNS Settler",
+		"unitType": "DNSCivilianLand",
+		"movement": 3,
+		"cost": 106,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Limited to [3] per Civilization <hidden from users>",
+//    	    "May travel on Water tiles without embarking",			 //xsa//added hovering
+    		"Never appears as a Barbarian unit"
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+//    		"Limited to [1] per Civilization <hidden from users>",
+    		"Uncapturable",
+    		"Never appears as a Barbarian unit",
+    		"Can move immediately once bought",
+    		"Founds a new city",
+    		"Only available <for [Human player] Civilizations> <hidden from users>"
+
+			"Withdraws before melee combat <with [99]% chance>",
+			"Excess Food converted to Production when under construction",
+//			"Requires at least [2] population",
+			"[+3] Sight <before the [Classical era]>",
+			"[+3] Movement <before the [Classical era]>",
+			"Can see over obstacles <before the [Classical era]>"
+		],
+		"hurryCostModifier": 20
+	},
+
+//DNS Scout
+	{
+		"name": "DNS Scout",
+		"unitType": "DNSScout",
+		"movement": 5,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"upgradesTo": "DNS Khan",
+		"uniques": [
+			"Limited to [3] per Civilization <hidden from users>",
+			"[+3] Sight <before the [Classical era]>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"May enter foreign tiles without open borders", 
+
+			"Uncapturable", 
+//			"Limited to [3] per Civilization",
+//			"May upgrade to [Archer] through ruins-like effects", 
+			"Never appears as a Barbarian unit",
+			"Can see over obstacles <before the [Classical era]>"
+			],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit",
+	},
+
+//DNS Missionary
+	{
+		"name": "DNS Missionary",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Limited to [3] per Civilization <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+			"Uncapturable", 
+//			"Limited to [1] per Civilization",
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 2000,
+	},
+
+//DNS Inquisitor
+	{
+		"name": "DNS Inquisitor",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"Limited to [7] per Civilization <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+			"Uncapturable", 
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unbuildable", 
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+//DNS Great Artist
+	{
+		"name": "DNS Great Artist",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [DNS Landmark] improvement <by consuming this unit>", 
+//			"Great Person - [Culture]", 
+            "Instantly gain [1000] [Culture]<by consuming this unit>",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+//DNS Great Scientist
+	{
+		"name": "DNS Great Scientist",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+			"Can hurry technology research", 
+			"Can instantly construct a [DNS Academy] improvement <by consuming this unit>", 
+//			"Great Person - [Science]", 
+            "Instantly gain [1000] [Science]",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+//DNS Great Merchant
+	{
+		"name": "DNS Great Merchant",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [DNS Customs house] improvement <by consuming this unit>", 
+//			"Great Person - [Gold]", 
+            "Instantly gain [1000] [Gold]",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+//DNS Great Engineer
+	{
+		"name": "DNS Great Engineer",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+			"Can speed up construction of a building", 
+			"Can instantly construct a [DNS Manufactory] improvement <by consuming this unit>", 
+//			"Great Person - [Production]", 
+            "Instantly gain [1000] [Production]",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+//DNS Great Prophet
+	{
+		"name": "DNS Great Prophet",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	 	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+			"Can instantly construct a [DNS Holy site] improvement <by consuming this unit>", 
+			"Can Spread Religion <[4] times> <by consuming this unit>",
+			"Removes other religions when spreading religion", 
+			"May found a religion", 
+			"May enhance a religion", 
+			"May enter foreign tiles without open borders", 
+			"[-1] Sight", 
+//			"Great Person - [Faith]", 
+            "Instantly gain [1000] [Faith]",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+
+//DNS Great General
+	{
+		"name": "DNS Great General",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+15] HP when healing", 
+			"[+15] HP when healing",
+			"Can instantly construct a [DNS Citadel] improvement <by consuming this unit>",
+//			"Great Person - [War]", 
+            "Instantly gain [1000] [Happiness]",
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+
+//DNS Great Admiral
+	{
+		"name": "DNS Great Admiral",
+		"unitType": "DNSCivilianWater",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+//   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+//			"Is part of Great Person group [Admiral]",
+//			"Great Person - [War]", 
+            "Instantly gain [1000] [Happiness]",
+			"Unbuildable", 
+			"Uncapturable"
+			],
+		"movement": 4
+	},
+
+//DNS Khan
+	{
+		"name": "DNS Khan",
+		"unitType": "DNSScout",
+//		"uniqueTo": "Mongolia",
+//		"replaces": "Great General",
+		"strength": 20,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Can see over obstacles",
+
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+			"Limited to [3] per Civilization <hidden from users>",
+   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+//			"Limited to [1] per Civilization",
+//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+30] HP when healing", 
+			"[+15] HP when healing", 
+			"Can instantly construct a [DNS Citadel] improvement <by consuming this unit>", 
+//			"Great Person - [War]", 
+//            "Instantly gain [1000] [Happiness]",
+			"Can move immediately once bought",
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"promotions": ["Medic II", "Adaptive Warfare"],
+		"movement": 6
+	},
+
+
+
+/*
+	{
+		"name": "Great Farmer",
+		"unitType": "DNSCivilianLand",
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+		    "May Paradrop to [All] tiles up to [20] tiles away", 
+			"Withdraws before melee combat <with [99]% chance>",
+			"Never appears as a Barbarian unit",
+ //           "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [DNS Farmyard] improvement <by consuming this unit>",
+//            "Great Person - [Food]", 
+            "Instantly gain [1000] [Food]",
+//            "Gain [1000] [Food] <by consuming this unit>",
+            "Unbuildable", 
+            "Uncapturable"
+        ],
+
+		"movement": 2
+	},
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 7,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "High Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "High Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "High Galley",
+		"unitType": "Melee Water",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 9,
+		"cost": 40,
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Trireme",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "High Marauder",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//xsa//utility cheat
+
+ {
+		"name": "Stronger General",
+				"requiredBuilding": "MiniCake UCheat",
+		"unitType": "Class S Great People",
+		"uniques": [ 
+			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			"Empire enters a [50]-turn Golden Age <by consuming this unit>",
+			"[+667]% Strength bonus for [Military] units within [5] tiles",
+			"All adjacent units heal [+100] HP when healing", 
+			"[+100] HP when healing",
+			"Uncapturable",
+			"Only available <for [Human player] Civilizations> <hidden from users>"],
+		"movement": 5
+			 "cost": 0
+			 "hurryCostModifier": 0
+ },
+ {
+	  "name": "Normal Worker",
+				"requiredBuilding": "MiniCake UCheat",
+	 "unitType": "Class S Civilian",
+	 "uniques": [ 
+			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			"Can be purchased for [0] [Gold] [in this city]",
+			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles",
+			"[-99]% construction time for [All] improvements",
+			"Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
+			 ],
+	 "movement": 2
+			 "cost": 0
+			 "hurryCostModifier": 0
+ },
+ {
+	  "name": "Prophet",
+				"requiredBuilding": "MiniCake UCheat",
+	 "unitType": "Class S Civilian",
+	 "uniques": [ 
+			 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			 "Religious Unit",
+			 "May enhance a religion",
+			 "May found a religion",
+			 "Can Spread Religion",
+			 "Removes other religions when spreading religion",
+			 "May enter foreign tiles without open borders",
+			 "Only available <when religion is enabled>",
+			 "Takes your religion over the one in their birth city",
+			 "Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
+			 ],
+			"movement": 2
+			 "cost": 0
+			 "hurryCostModifier": 0
+ },
+ {
+	"name": "Invulnerable Trooper",
+				"requiredBuilding": "MiniCake UCheat",
+	 "unitType": "Class S Trooper",
+	 "uniques": [ 
+		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+		 "Can be purchased for [0] [Gold] [in this city]",
+		 "[Invulnerable Trooper] units gain the [More Invulnerability] promotion",
+		 "Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
+			 ]
+	 "strength": 50
+	 "movement": 2
+			 "cost": 0
+			 "hurryCostModifier": 0
+ },
+ { 
+	 "name": "Normal Settler",
+				"requiredBuilding": "MiniCake UCheat",
+	 "unitType": "Class S Civilian",
+	 "uniques": [ 
+		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+		 "Founds a new city",
+		 "Can be purchased for [0] [Gold] [in this city]",
+		 "Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
+			 ]
+	 "movement": 2
+	 "cost": 0
+	 "hurryCostModifier": 0
+ },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+ 
+/*
+	  {
+		  "name":"Tunnel Worker",
+		  "unitType": "DNSCivilianLand",
+		  "movement": 3,
+		  "cost": 150,
+		  "requiredTech": "Dynamite",
+		  "uniques":[
+	    		"Limited to [3] per Civilization <hidden from users>",
+				"May travel on Water tiles without embarking",			 //xsa//added hovering
+				"Never appears as a Barbarian unit"
+				"Uncapturable",
+				"May Paradrop to [All] tiles up to [20] tiles away", 
+				"Limited to [1] per Civilization <hidden from users>",
+  				"Turn this tile into a [Mountain Tunnel] tile <by consuming this unit> <in [Mountain] tiles> <in tiles adjacent to [Mountain] tiles> <costs [+300 Gold] stats> <after discovering [Dynamite]>",			   
+  				"Can pass through impassable tiles <hidden from users>",
+		  		"Only available <for [Human player] Civilizations> <hidden from users>"
+		  ]
+	  },
+	  {
+			"name": "Ice Breaker",
+			"unitType": "DNSCivilianLand Water",
+			"movement": 5,
+		  	"requiredTech": "Combustion",
+				"uniques": [
+				    "[+1] Sight", 
+
+        			"Limited to [3] per Civilization <hidden from users>",
+					"May travel on Water tiles without embarking",			 //xsa//added hovering
+					"Never appears as a Barbarian unit"
+					"Uncapturable",
+					"May Paradrop to [All] tiles up to [20] tiles away", 
+					"Limited to [1] per Civilization <hidden from users>",
+					"Can build [Water] improvements on tiles",
+					"Can enter ice tiles",
+					"Can build [Remove Ice] improvements on tiles",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+				],
+			"cost": 325
+		},
+*/
+
+
+	
+//xsa//unciv godmod
+	{
+		"name": "Angel",
+		"unitType": "DNSCivilianAir",
+		"uniques": [
+			"[+150]% Strength <when attacking>", 
+			"[+450]% Strength <when defending>", 
+			"Limited to [1] per Civilization <hidden from users>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//			"Reveals the entire map",
+//			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>"
+		],
+		"movement": 2
+	}
+	
+	
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+]
+
+
+  //xsa//
+  
+  //changed required resource
+  
+  //xsa//added requiredResource
+  //xsa//added hovering
+  //xsa//rangeMod
+  
+  //xsa//increased range 1 to 2 for Gatling gun,Machine gun
+  //xsa//spaceparts//100x costs
+  //xsa//airunit
+  //xsa//civilian
+  /*
+  added icebreaker
+  added mountain tunnel
+  added Great People
+  */
+  
+
+  
+//DNS Checkeri1
+//DNS Checkeri2
+//DNS Checkeri3
+//DNS Checkeri4
+//DNS Checkeri5
+//DNS Checkeri6
+//DNS Checkeri7
+//DNS Checkeri8 
+
+//DNS Flyer
+//DNS War Bomber
+//Zeppelin Terraformer
+
+//DNS Guided Rocket
+//DNS Guided Missile
+//DNS Nuclear Missile P2
+//DNS Nuclear Missile P5
+//DNS Nuclear Missile P8
+ 
+//DNS Helicopter Gunship
+//DNS Jet Fighter
+//DNS Stealth Bomber
+//DNS Sky Carrier
+
+//DNS Destroyer
+//DNS Battleship
+//DNS Missile Cruiser
+//DNS Nuclear Submarine
+//DNS Carrier
+
+//DNS Modern Armor
+//DNS Mechanized Infantry
+//DNS Land Leviathan
+//DNS Mobile SAM
+//DNS Rocket Artillery
+
+//DNS Worker
+//DNS Work Boats
+//DNS Settler
+//DNS Scout
+//DNS Missionary
+//DNS Inquisitor
+
+//DNS Great Artist
+//DNS Great Scientist
+//DNS Great Merchant
+//DNS Great Engineer
+//DNS Great Prophet
+//DNS Great General
+//DNS Great Admiral
+
+//DNS Khan
+//Angel
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//91
+            "[This Unit] takes [10] damage <upon turn end>",
+//92
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
+//93
+			"[This Unit] takes [24] damage <every [1] turns>",
+			"[This Unit] takes [100] damage <every [5] turns>",
+//94
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start>",
+//95
+			"[This Unit] takes [24] damage <every [1] turns>",
+			"[This Unit] takes [100] damage <upon turn start>",
+*/
+

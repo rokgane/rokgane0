@@ -1,0 +1,975 @@
+//added  ice breaker
+[
+
+/*
+{
+		"name": "Dirt Canal Construction Site",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"uniques": [
+			"Turn this tile into a [Coast] tile","Turn this tile into a [Dirt Canal] tile",
+			"Cannot be built on [Hill] tiles",
+//XSA			"Can only be built on [Coastal] tiles",
+			"Can only be built on [Land] tiles",
+			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+			"Canal"]
+	},
+	{
+		"name": "Concrete Canal Construction Site",
+		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra","Dirt Canal"],
+		"uniques": [
+			"Turn this tile into a [Coast] tile",
+			"Turn this tile into a [Concrete Canal] tile",
+//XSA			"Can only be built on [Coastal] tiles",
+			"Can only be built on [Land] tiles",
+			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+			"Canal"]
+	},
+*/
+
+
+/*
+	{
+		"name": "Suez Canal Construction Site",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost"],
+		"turnsToBuild": 3,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Coast] tile",
+			"Turn this tile into a [Suez Canal] tile",
+//XSA			"Can only be built on [Coastal] tiles",
+			"Can only be built on [Land] tiles",
+//			"Cannot be built on [Hill] tiles",
+//			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+			"Canal"]
+	},
+*/
+//{Wasteland} {Badlands} {Permafrost}
+
+/*
+	{
+		"name": "Panama Canal Construction Site",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniques": [
+			"Removes removable features when built",
+			"Turn this tile into a [Coast] tile",
+			"Turn this tile into a [Panama Canal] tile",
+//XSA			"Can only be built on [Coastal] tiles",
+			"Can only be built on [Land] tiles",
+			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+			"Canal"]
+	},
+	{
+		"name": "National Canal Construction Site",
+		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra"],
+		"uniques": [
+			"Turn this tile into a [Coast] tile",
+			"Turn this tile into a [National Canal] tile",
+//XSA			"Can only be built on [Coastal] tiles",
+			"Can only be built on [Land] tiles",
+			"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+			"Canal"]
+	},
+*/
+
+
+
+
+
+
+
+
+
+
+
+	//Civilization unique improvements
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Can only be built on [Coastal] tiles", 
+		    "[+1 Culture] for each adjacent [Moai]", 
+		    "[+1 Gold] <after discovering [Flight]>", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+// 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 3,
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
+		"turnsToBuild": 7,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "[+1 Production, +2 Gold] <after discovering [Economics]>", 
+		    "Pillaging this improvement yields approximately [+18 Gold]"],
+		"techRequired": "Guilds",
+		"shortcutKey": "F"
+	},
+
+
+    // Great Person improvements
+
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Great Improvement", 
+		    "[+2 Science] <after discovering [Scientific Theory]>",
+            "[+2 Science] <after discovering [Atomic Theory]>", 
+            "Removes removable features when built",
+            "Will not be replaced by automated units", 
+            "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Great Improvement", 
+		    "Removes removable features when built",
+            "Will not be replaced by automated units", 
+            "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Great Improvement", 
+		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "Will not be replaced by automated units",
+            "Removes removable features when built", 
+            "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Great Improvement", 
+		    "[+1 Gold] <after discovering [Economics]>", 
+		    "Removes removable features when built",
+            "Will not be replaced by automated units",
+            "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Great Improvement",
+		    "Removes removable features when built", 
+		    "Will not be replaced by automated units", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		]
+	},
+
+
+
+
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+//            "Only available <within [4] tiles of a [City center]> <in [Your] cities><in [Your] tiles>",
+ 		    "Cannot be built on [Foreign] tiles",
+// 		    "Cannot be built on [Foreign Land] tiles",
+//			"Can only be built on [Friendly] tiles",
+//			"Can only be built on [Friendly Land] tiles",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "[+1 Production] <after discovering [Scientific Theory]>", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+		    "[+1 Gold] <after discovering [Economics]>", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+
+	// Resource-specific
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "Does not need removal of [Forest]",
+		    "Does not need removal of [Jungle]",
+		    "[+1 Gold] <after discovering [Economics]>", 
+		    "Can only be built to improve a resource", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "Can only be built to improve a resource", 
+		    "Cannot be built on [Water] tiles", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"techRequired": "Refrigeration",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "Can only be built to improve a resource", 
+		    "Can only be built on [Water] tiles", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "Can only be built to improve a resource", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "Can only be built to improve a resource", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "Can only be built to improve a resource", 
+		    "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "[+1 Gold] <after discovering [Compass]>", 
+		    "Can only be built to improve a resource", 
+		    "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+		    "Can be built outside your borders", 
+		    "Gives a defensive bonus of [50]%"],
+		"shortcutKey": "O"
+	},
+
+
+
+
+
+
+
+
+	{
+		"name": "Plant Forest",
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Plains","Tundra","Desert","Snow"],
+//XSA		"requiredNearbyImprovedResources": ["Marble","Stone","Obsidian"],
+		"turnsToBuild": 7,
+		"techRequired": "xsaUnlocker",//Fertilizer
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Forest] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			//"Cannot be built on [Desert] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+		"shortcutkey": "P"
+	},
+	{
+		"name": "Plant Jungle",
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Plains","Tundra","Desert","Snow"],
+		"turnsToBuild": 10,
+		"techRequired": "xsaUnlocker",//Fertilizer
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Jungle] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			//"Cannot be built on [Desert] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+		"shortcutkey": "P"
+	},
+
+
+
+ { "name": "Repair", "terrainsCanBeBuiltOn": ["Land"], "turnsToBuild": 3, "shortcutKey": "E", "uniques": ["Unbuildable"], "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}] },
+
+	{
+		"name": "Bioculture",
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"techRequired": "xsaUnlocker",
+        "Gold": 1, 
+        "Production": 1, 
+        "Science": 1, 
+        "Food": 1, 
+        "Culture": 1, 
+        "Faith": 1, 
+        "Happiness": 1
+        "turnsToBuild": 5,
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Only available <within [1] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+//            "Food source",
+//			"Can only be built to improve a resource",
+
+            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations>",
+
+/*
+            "[+1 Gold] <after discovering [xsaUnlocker]>",
+			"[+1 Production] <after discovering [xsaUnlocker]>",
+			"[+1 Science] <after discovering [xsaUnlocker]>",
+			"[+1 Food] <after discovering [xsaUnlocker]>",
+			"[+1 Culture] <after discovering [xsaUnlocker]>",
+			"[+1 Faith] <after discovering [xsaUnlocker]>",
+			"[+1 Happiness] <after discovering [xsaUnlocker]>",
+*/
+
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C"
+	},
+
+	{
+		"name": "DNS FunFort01",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+			"Gain control over [all] tiles in a [1]-tile radius <after discovering [xsaUnlocker]>",
+		    "Can be built outside your borders", 
+		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "DNS FunFort02",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [85] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [125]% <after discovering [xsaUnlocker]>",
+
+			"Gain control over [all] tiles in a [2]-tile radius <after discovering [xsaUnlocker]>",
+		    "Can be built outside your borders", 
+		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "DNS FunFort03",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [95] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [150]% <after discovering [xsaUnlocker]>",
+
+			"Gain control over [all] tiles in a [3]-tile radius <after discovering [xsaUnlocker]>",
+		    "Can be built outside your borders", 
+		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		"shortcutKey": "O"
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "T21 Iciiify",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Ice] tile",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T11 Mountainify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Mountain] tile",
+		        ],
+	},
+	{
+		"name": "T22 Coastify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Coast] tile",
+//			"Can only be built on [Land] tiles",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T23 Lakesify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Lakes] tile",
+//			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T12 Desertify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Desert] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T13 Snowify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Snow] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+
+
+	{
+		"name": "T31 Wastelandify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Wasteland] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T32 Badlandsify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Badlands] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+	{
+		"name": "T33 Permafrostify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Can be built outside your borders",
+			"Turn this tile into a [Permafrost] tile",
+			"Does not need removal of [Trading post] <hidden from users>",
+//			"Cannot be built on [Land] tiles <hidden from users>",
+			//"Cannot be built on [Snow] tiles <hidden from users>"
+		        ],
+	},
+
+
+
+
+/*
+    {
+		"name": "DNS Farmyard",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 60,
+		"uniques": [
+            "Great Improvement",
+            "Can also be built on tiles adjacent to fresh water",
+            "Removes removable features when built",
+            "Pillaging this improvement yields approximately [+20 Gold]",
+            "[+10 Food] <after discovering [Civil Service]>",
+            "[+10 Food] <after discovering [Fertilizer]>"
+        ]
+	},
+*/
+    {
+		"name": "Remove Ice",
+		"turnsToBuild": 2,
+		"terrainsCanBeBuiltOn": ["Ice"],
+		"techRequired": "Agriculture",
+		"uniques": [
+		    "Can be built outside your borders", 
+		    "Excluded from map editor"],
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": [
+		    "Can be built outside your borders", 
+		    "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+	  {
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": [
+			"Tile provides yield without assigned population",
+			"Improves [Luxury] resource in this tile", 
+			"Great Improvement", 
+			"[+1 Gold] <after discovering [Economics]>", 
+			"Removes removable features when built", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	*/
+
+	// Great Person improvements
+	{
+		"name": "DNS Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 16,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+ 		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Great Improvement", 
+			"[+4 Science] <after discovering [Scientific Theory]>",
+			"[+4 Science] <after discovering [Atomic Theory]>", 
+			"[+10 Science] <after discovering [xsaUnlocker]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "DNS Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 12,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			
+			"Great Improvement", 
+			"[+10 Culture] <after discovering [xsaUnlocker]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "DNS Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 8,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Great Improvement", 
+			"[+2 Production] <after discovering [Chemistry]>", 
+			"[+10 Production] <after discovering [xsaUnlocker]>",
+			"Will not be replaced by automated units",
+			"Removes removable features when built", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "DNS Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 8,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			
+			"Great Improvement", 
+			"[+2 Gold] <after discovering [Economics]>", 
+			"[+10 Gold] <after discovering [xsaUnlocker]>",
+			"Improves [Luxury] resource in this tile",//xsa <after discovering [xsaUnlocker]>", 
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "DNS Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 12,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Great Improvement", 
+			"[+10 Faith] <after discovering [xsaUnlocker]>",
+			"Removes removable features when built", 
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "DNS Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+		    "Adjacent enemy units ending their turn take [175] damage <after discovering [xsaUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+
+			"Great Improvement",
+
+			"Gives a defensive bonus of [100]%",
+			"Gives a defensive bonus of [500]% <after discovering [xsaUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Gain control over [all] tiles in a [5]-tile radius <after discovering [xsaUnlocker]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units"
+		]
+	},
+
+
+
+
+
+
+
+/*
+	{
+		"name": "DNS Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+		   	"Only available <after discovering [xsaUnlocker]><hidden from users>",
+//		   	"Doesn't generate naturally", 
+
+//		    "Unbuildable",
+		    "Unpillagable", 
+		    "Provides a random bonus when entered", 
+			"Does not need removal of [Forest]", 
+			"Does not need removal of [Jungle]"
+			]
+	}
+*/
+
+]//XSA//END
+
+
+
+
+
+//Provides a random bonus when entered", 
+//xsa//perfectly balanced
+/*
+[
+	{
+		"name": "Moai",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Terrace farm",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Polder",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	}
+]
+
+
+
+*/
+
+

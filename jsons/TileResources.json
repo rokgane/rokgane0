@@ -1,0 +1,1206 @@
+
+
+//xsa//utility cheat
+//xsa//more luxuries
+
+//xsa//end
+
+[
+
+
+
+
+
+
+
+
+
+	{
+				"name": "Cattle",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Sheep",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Deer",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Bananas",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Wheat",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Stone",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Fish",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+	{
+				"name": "Horses",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Iron",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Coal",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Oil",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Aluminum",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Uranium",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+	{
+				"name": "Furs",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Cotton",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Dyes",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Gems",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Gold Ore",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Silver",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Incense",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Ivory",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Silk",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Spices",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Wine",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Sugar",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Marble",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Whales",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Pearls",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Citrus",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Copper",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Crab",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Salt",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Truffles",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+	{
+				"name": "Jewelry",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+	{
+				"name": "Porcelain",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// Bonus resources
+	{
+		"name": "RB01 Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "RB02 Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "RB03 Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Forest","Tundra"], // Tundra only if lowland
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "RB04 Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2,"production": -1,"gold": -1},
+		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
+					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "RB05 Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Flood plains","Desert"], // Desert only if fresh water
+		"food": 1,
+		"improvement": "Farm",
+		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "RB06 Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Desert","Tundra"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
+	},
+	{
+		"name": "RB07 Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+	},
+	/*
+	{
+		"name": "RL10 Bison",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1}
+	},
+	*/
+
+	// Strategic resources
+	{
+		"name": "RS01 Horses",
+		"resourceType": "Strategic",
+		"revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "RS02 Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
+		"production": 1,
+		"improvement": "Mine",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	{
+		"name": "RS03 Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Industrialization",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Hill","Jungle","Forest","Marsh"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "RS04 Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvementStats": {"production": 3},
+		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+					"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "RS05 Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Electricity",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Tundra","Hill","Snow","Jungle"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "RS06 Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Atomic Theory",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Marsh","Jungle","Forest","Tundra","Snow"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+
+	// Luxury resources
+	{
+		"name": "RL01 Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Forest","Tundra"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "RL02 Cotton",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Flood plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Grassland] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "RL03 Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "RL04 Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Hill"],
+		"gold": 3,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
+	},
+	{
+		"name": "RL05 Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Hill","Forest","Jungle"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+	},
+	{
+		"name": "RL06 Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Hill","Forest","Jungle","Tundra","Grassland"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
+		]
+	},
+	{
+		"name": "RL07 Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Flood plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "RL08 Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
+	{
+		"name": "RL09 Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Forest","Jungle"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "RL10 Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	{
+		"name": "RL11 Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	{
+		"name": "RL12 Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Flood plains","Grassland","Marsh"],
+		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
+	},
+	{
+		"name": "RL13 Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Plains","Hill","Grassland"],
+		"gold": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
+					"Special placement during map generation",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
+	{
+		"name": "RL14 Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	{
+		"name": "RL15 Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "RL16 Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Flood plains"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Tundra] tiles>"]
+	},
+	{
+		"name": "RL17 Copper",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Hill","Forest","Jungle","Grassland","Tundra"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+	},
+	/*
+	{
+		"name": "RL10 Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest"], // Forest only if flat, non-tundra
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation"
+	},
+	*/
+	{
+		"name": "RL18 Crab",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "RL19 Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Tundra","Plains","Forest"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [25] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
+	},
+	{
+		"name": "RL20 Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Forest","Marsh","Jungle"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+
+	{
+		"name": "RLCS01 Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "RLCS02 Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+//xsa//utilitycheat
+
+	{
+				"name": "RS01 -Unhappiness",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS02 +Unhappiness",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS03 +stats1",
+				"resourceType": "Strategic",
+				"uniques": [
+				 "Stockpiled",
+				 "Cannot be traded",
+				 "Not shown on world screen"],
+	},
+	{
+				"name": "RS04 -stats1",
+				"resourceType": "Strategic",
+				"uniques": [
+				 "Stockpiled",
+				 "Cannot be traded",
+				 "Not shown on world screen"],
+	},
+	{
+				"name": "RS05 -Culture Cost Border",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS06 +Culture Cost Border",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS07 +Food Carry",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS08 -Food Carry",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS09 -Maintenance",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS10 +Maintenance",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS11 +Unit Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS12 -Unit Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS13 +Buildings Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS14 -Buildings Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS15 +Wonders Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+	{
+				"name": "RS16 -Wonders Production",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"],
+	},
+
+
+	
+	
+
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	{
+		"name": "RM01 Aetherium",
+		"resourceType": "Strategic",
+		"revealedBy": "Steam Power",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Tundra","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
+					"Generated with weight [20] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "RM02 Luboric",
+		"resourceType": "Strategic",
+		"revealedBy": "Steam Power",
+		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Tundra","Hill","Snow","Desert","Marsh","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [26] <in [Hill] tiles>",
+			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [Forest] tiles>",
+			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},	
+	
+	
+	
+	
+
+	{
+				"name": "RD00 Dummy Stuff",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+
+	{
+				"name": "RD01 uCount",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+	{
+				"name": "RD02 P0Pcap",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//xsa//more luxuries
+
+	// Luxury res
+
+	{
+		"name": "RML01 Amber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML02 Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML03 Coral",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Coast" ],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML04 Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML05 Lapis Lazuli",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML06 Olives",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {
+			"gold": 1,
+			"food": 1
+		}
+	},
+	{
+		"name": "RML07 Perfume",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML08 Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML09 Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	// Unique res
+	{
+		"name": "RML10 Glass",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+//
+
+
+]//xsa//end
+
+
+//"Doesn't generate naturally <in [Hill] tiles>"
+
+
+

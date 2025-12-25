@@ -1,0 +1,1097 @@
+gameAbUnits.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/DNS Helicopter Gunship
+  rotate: false
+  xy: 846, 145
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Helicopter Gunship-1
+  rotate: false
+  xy: 918, 181
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Helicopter Gunship-2
+  rotate: false
+  xy: 846, 81
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Destroyer
+  rotate: false
+  xy: 1160, 1019
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Destroyer-1
+  rotate: false
+  xy: 872, 941
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Destroyer-2
+  rotate: false
+  xy: 944, 941
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Battleship
+  rotate: false
+  xy: 944, 1005
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Battleship-1
+  rotate: false
+  xy: 702, 697
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Battleship-2
+  rotate: false
+  xy: 1016, 1005
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missile Cruiser
+  rotate: false
+  xy: 990, 549
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missile Cruiser-1
+  rotate: false
+  xy: 1062, 613
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missile Cruiser-2
+  rotate: false
+  xy: 990, 485
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Nuclear Submarine
+  rotate: false
+  xy: 1062, 549
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Nuclear Submarine-1
+  rotate: false
+  xy: 990, 421
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Nuclear Submarine-2
+  rotate: false
+  xy: 1062, 485
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Modern Armor
+  rotate: false
+  xy: 617, 855
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Modern Armor-1
+  rotate: false
+  xy: 532, 773
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Modern Armor-2
+  rotate: false
+  xy: 617, 782
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mechanized Infantry
+  rotate: false
+  xy: 617, 1074
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mechanized Infantry-1
+  rotate: false
+  xy: 532, 992
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mechanized Infantry-2
+  rotate: false
+  xy: 617, 1001
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mobile SAM
+  rotate: false
+  xy: 532, 919
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mobile SAM-1
+  rotate: false
+  xy: 617, 928
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Mobile SAM-2
+  rotate: false
+  xy: 532, 846
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Rocket Artillery
+  rotate: false
+  xy: 617, 480
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Rocket Artillery-1
+  rotate: false
+  xy: 532, 388
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Rocket Artillery-2
+  rotate: false
+  xy: 617, 407
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats
+  rotate: false
+  xy: 1232, 841
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats-1
+  rotate: false
+  xy: 1304, 837
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats-2
+  rotate: false
+  xy: 1219, 777
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats-Industrial era
+  rotate: false
+  xy: 1291, 773
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats-Industrial era-1
+  rotate: false
+  xy: 1147, 747
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Work Boats-Industrial era-2
+  rotate: false
+  xy: 1134, 683
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Worker
+  rotate: false
+  xy: 829, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Worker-1
+  rotate: false
+  xy: 932, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Worker-2
+  rotate: false
+  xy: 1035, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler
+  rotate: false
+  xy: 4, 1457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Ancient era
+  rotate: false
+  xy: 4, 1457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-1
+  rotate: false
+  xy: 4, 1353
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Ancient era-1
+  rotate: false
+  xy: 4, 1353
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-2
+  rotate: false
+  xy: 4, 1249
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Ancient era-2
+  rotate: false
+  xy: 4, 1249
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Industrial era
+  rotate: false
+  xy: 4, 1962
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Industrial era-1
+  rotate: false
+  xy: 4, 1873
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Industrial era-2
+  rotate: false
+  xy: 112, 1962
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Medieval era
+  rotate: false
+  xy: 1859, 1681
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Medieval era-1
+  rotate: false
+  xy: 1550, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Settler-Medieval era-2
+  rotate: false
+  xy: 1653, 1414
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Scout
+  rotate: false
+  xy: 1550, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Scout-1
+  rotate: false
+  xy: 1653, 1503
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Scout-2
+  rotate: false
+  xy: 1756, 1592
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary
+  rotate: false
+  xy: 1138, 1592
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary-1
+  rotate: false
+  xy: 1241, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary-2
+  rotate: false
+  xy: 1344, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary-Industrial era
+  rotate: false
+  xy: 1451, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary-Industrial era-1
+  rotate: false
+  xy: 1559, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Missionary-Industrial era-2
+  rotate: false
+  xy: 932, 1311
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Inquisitor-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Khan
+  rotate: false
+  xy: 1873, 1071
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Khan-1
+  rotate: false
+  xy: 1958, 1021
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Khan-2
+  rotate: false
+  xy: 447, 975
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Admiral
+  rotate: false
+  xy: 4, 1769
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Admiral-1
+  rotate: false
+  xy: 4, 1665
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Admiral-2
+  rotate: false
+  xy: 4, 1561
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist
+  rotate: false
+  xy: 735, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist-1
+  rotate: false
+  xy: 108, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist-2
+  rotate: false
+  xy: 211, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist-Industrial era
+  rotate: false
+  xy: 314, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist-Industrial era-1
+  rotate: false
+  xy: 417, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Artist-Industrial era-2
+  rotate: false
+  xy: 520, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer
+  rotate: false
+  xy: 623, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer-1
+  rotate: false
+  xy: 4, 611
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer-2
+  rotate: false
+  xy: 730, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer-Industrial era
+  rotate: false
+  xy: 107, 540
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer-Industrial era-1
+  rotate: false
+  xy: 192, 613
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Engineer-Industrial era-2
+  rotate: false
+  xy: 277, 686
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General
+  rotate: false
+  xy: 362, 729
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General-1
+  rotate: false
+  xy: 107, 432
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General-2
+  rotate: false
+  xy: 192, 505
+  size: 77, 100
+  orig: 77, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General-Industrial era
+  rotate: false
+  xy: 838, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General-Industrial era-1
+  rotate: false
+  xy: 108, 1250
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great General-Industrial era-2
+  rotate: false
+  xy: 211, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant
+  rotate: false
+  xy: 277, 608
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant-1
+  rotate: false
+  xy: 362, 651
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant-2
+  rotate: false
+  xy: 107, 354
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant-Industrial era
+  rotate: false
+  xy: 192, 432
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant-Industrial era-1
+  rotate: false
+  xy: 277, 535
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Merchant-Industrial era-2
+  rotate: false
+  xy: 362, 578
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet
+  rotate: false
+  xy: 314, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet-1
+  rotate: false
+  xy: 417, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet-2
+  rotate: false
+  xy: 520, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet-Industrial era
+  rotate: false
+  xy: 623, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet-Industrial era-1
+  rotate: false
+  xy: 726, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Prophet-Industrial era-2
+  rotate: false
+  xy: 4, 522
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist
+  rotate: false
+  xy: 833, 1873
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist-1
+  rotate: false
+  xy: 941, 1962
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist-2
+  rotate: false
+  xy: 108, 1161
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist-Industrial era
+  rotate: false
+  xy: 107, 281
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist-Industrial era-1
+  rotate: false
+  xy: 192, 359
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Great Scientist-Industrial era-2
+  rotate: false
+  xy: 277, 462
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Carrier
+  rotate: false
+  xy: 702, 249
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Carrier-1
+  rotate: false
+  xy: 702, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Carrier-2
+  rotate: false
+  xy: 702, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri8-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri7-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri6-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri5-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri4-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri3-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri2-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1
+  rotate: false
+  xy: 417, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-1
+  rotate: false
+  xy: 520, 1428
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-2
+  rotate: false
+  xy: 623, 1517
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era
+  rotate: false
+  xy: 726, 1606
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-1
+  rotate: false
+  xy: 829, 1695
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-2
+  rotate: false
+  xy: 932, 1784
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,2691 @@
+/*
+
+0
+1
+2
+3 inhibitor
+4 slower etc
+
+//xtc00 //xtc01  //xtc02  //xtc03  //xtc04      UnlockInhibitorEra  1 Ancient
+        //xtc05  //xtc06  //xtc07  //xtc08      UnlockInhibitorEra  2 Classical
+        //xtc09  //xtc10  //xtc11  //xtc12      UnlockInhibitorEra  3 Medieval
+        //xtc13  //xtc14  //xtc15  //xtc16      UnlockInhibitorEra  4 Renaissance
+        //xtc17  //xtc18  //xtc19  //xtc20      UnlockInhibitorEra  5 Industrial
+        //xtc21  //xtc22  //xtc23  //xtc24      UnlockInhibitorEra  6 Modern
+        //xtc25  //xtc26  //xtc27  //xtc28      UnlockInhibitorEra  7 Atomic
+        //xtc29  //xtc30  //xtc31  //xtc32      UnlockInhibitorEra  8 Information
+        //xtc33           //xtc34  //xtc35      UnlockInhibitorEra  9 Future
+*/
+
+//xsa//Unlocker
+//xsa//more challenges
+
+//xsa//hated				"uniques": ["Enables establishment of embassies"],
+//xsa//hated			    "Enables Open Borders agreements",
+//xsa//hated			    "Enables Research agreements",
+//xsa//hated				"uniques": ["Enables Defensive Pacts"],
+
+
+
+[
+	{
+		"columnNumber": 0,//xtc00
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{//TechHumanCheat cheat building
+				"name": "TechHumanCheat",
+				"row": 9,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//TechEnemaCheat cheat building
+				"name": "TechEnemaCheat",
+				"row": 10,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//xsa//Unlocker
+				"name": "xsaUnlocker",
+				"row": 11,
+				"quote": "Cheat tech",
+				"uniques": [
+        			"Enables embarkation for land units",
+        	    	"Enables [All] units to enter ocean tiles",
+            		"[-99]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"]
+			},
+			{//xsa//CrippleReligion
+				"name": "xsaCrippleReligion",
+				"row": 12,
+				"quote": "Cheat tech",
+				"prerequisites": [
+//XSA                    "FutureTech 10"
+                    ],
+                "uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions <hidden from users>",
+					"Only available <for [Human player] Civilizations> <hidden from users>"]
+			},
+			{//xsa//more challenges for AI
+				"name": "Treats AI",
+				"row": 13,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables embarkation for land units",
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//xsa//more challenges for Human
+				"name": "Treats Human",
+				"row": 14,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//xsa//reenable diplomacy for AI
+            	"name": "Enable AI Diplomacy",
+            	"row": 15,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+		        	"Only available <if [Minicake Enable AI Diplomacy] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+            },
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [
+				    "[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies",
+				    "Starting tech"
+				    ]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,//xtc01
+		"era": "Ancient era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Pottery",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "Archery",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			}
+
+		]
+	},
+	{
+		"columnNumber": 2,//xtc02
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
+				"prerequisites": ["Pottery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "Writing",
+				"row": 3,
+				"prerequisites": ["Pottery"],
+//xsa//hated				"uniques": ["Enables establishment of embassies"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "Trapping",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "The Wheel",
+				"row": 7,
+				"prerequisites": ["Animal Husbandry", "Archery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Masonry",
+				"row": 9,
+				"prerequisites": ["Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Bronze Working",
+				"row": 10,
+				"prerequisites": ["Mining"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			}
+		]
+	},
+	{
+		"columnNumber": 5,//xtc05
+		"era": "Classical era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Optics",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Sailing","1X TechSlowerEraAncient"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 5,
+				"prerequisites": ["Trapping","The Wheel","1X TechSlowerEraAncient"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Mathematics",
+				"row": 7,
+				"prerequisites": ["The Wheel","1X TechSlowerEraAncient"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "Construction",
+				"row": 9,
+				"prerequisites": ["Masonry","The Wheel","1X TechSlowerEraAncient"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			}
+		]
+	},
+	{
+		"columnNumber": 6,//xtc06
+		"era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Philosophy",
+				"row": 2,
+				"prerequisites": ["Writing","Calendar","1X TechSlowerEraAncient"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "Drama and Poetry",
+				"row": 3,
+				"prerequisites": ["Writing","1X TechSlowerEraAncient"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "Currency",
+				"row": 7,
+				"prerequisites": ["Mathematics","1X TechSlowerEraAncient"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Mathematics","Construction","1X TechSlowerEraAncient"],
+				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			},
+			{
+				"name": "Iron Working",
+				"row": 10,
+				"prerequisites": ["Bronze Working","1X TechSlowerEraAncient"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,//xtc09
+		"era": "Medieval era",
+		"techCost": 275,
+		"buildingCost": 120,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Theology",
+				"row": 2,
+				"prerequisites": ["Philosophy", "Drama and Poetry","2X TechSlowerEraClassical"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "Civil Service",
+				"row": 5,
+				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry","2X TechSlowerEraClassical"],
+				"uniques": [
+//xsa//hated				    "Enables Open Borders agreements",
+				    "[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Guilds",
+				"row": 7,
+				"prerequisites": ["Currency","2X TechSlowerEraClassical"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Metal Casting",
+				"row": 9,
+				"prerequisites": ["Engineering","Iron Working","2X TechSlowerEraClassical"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			}
+		]
+	},
+	{
+		"columnNumber": 10,//xtc10
+		"era": "Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Compass",
+				"cost": 375,
+				"row": 1,
+				"prerequisites": ["Optics","Theology","2X TechSlowerEraClassical"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "Education",
+				"row": 3,
+				"prerequisites": ["Theology","Civil Service","2X TechSlowerEraClassical"],
+				"uniques": [
+				    "Enables conversion of city production to [Science]",
+//xsa//hated				    "Enables Research agreements",
+				    "[+100]% weight to this choice for AI decisions"],
+				"quote": "'Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "Chivalry",
+				"row": 6,
+				"prerequisites": ["Civil Service","Guilds","2X TechSlowerEraClassical"],
+//xsa//hated				"uniques": ["Enables Defensive Pacts"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "Machinery",
+				"row": 8,
+				"prerequisites": ["Guilds","Engineering","2X TechSlowerEraClassical"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
+			{
+				"name": "Physics",
+				"row": 9,
+				"prerequisites": ["Metal Casting","2X TechSlowerEraClassical"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Steel",
+				"row": 10,
+				"prerequisites": ["Metal Casting","2X TechSlowerEraClassical"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man"
+			}
+		]
+	},
+	{
+		"columnNumber": 13,//xtc13
+		"era": "Renaissance era",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Astronomy",
+				"row": 2,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+				"prerequisites": ["Compass","Education","3X TechSlowerEraMedieval"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "Acoustics",
+				"row": 4,
+				"prerequisites": ["Education","3X TechSlowerEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+			},
+			{
+				"name": "Banking",
+				"row": 6,
+				"prerequisites": ["Chivalry", "Education","3X TechSlowerEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "Printing Press",
+				"row": 8,
+				"prerequisites": ["Machinery","Physics","Chivalry","3X TechSlowerEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 10,
+				"prerequisites": ["Physics","Steel","3X TechSlowerEraMedieval"],
+				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechSlowerEraMedieval"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			}
+		]
+	},
+	{
+		"columnNumber": 14,//xtc14
+		"era": "Renaissance era",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 2,
+				"prerequisites": ["Astronomy","3X TechSlowerEraMedieval"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "Architecture",
+				"row": 4,
+				"prerequisites": ["Acoustics","Banking","3X TechSlowerEraMedieval"],
+				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+			},
+			{
+				"name": "Economics",
+				"row": 6,
+				"prerequisites": ["Banking","Printing Press","3X TechSlowerEraMedieval"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "Metallurgy",
+				"row": 9,
+				"prerequisites": ["Printing Press","Gunpowder","3X TechSlowerEraMedieval"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "Chemistry",
+				"row": 10,
+				"prerequisites": ["Gunpowder","3X TechSlowerEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			}
+		]
+	},
+	{
+		"columnNumber": 17,//xtc17
+		"era": "Industrial era",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["Navigation","Architecture","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 4,
+				"prerequisites": ["Architecture","Economics","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+			},
+			{
+				"name": "Industrialization",
+				"row": 6,
+				"prerequisites": ["Economics","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+			},
+			{
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Economics","Metallurgy","4X TechSlowerEraRenaissance"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "Military Science",
+				"row": 9,
+				"prerequisites": ["Metallurgy","Chemistry","4X TechSlowerEraRenaissance"],
+				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+			},
+			{
+				"name": "Fertilizer",
+				"row": 10,
+				"prerequisites": ["Chemistry","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			}
+		]
+	},
+	{
+		"columnNumber": 18,//xtc18
+		"era": "Industrial era",
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techs": [
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Archaeology","Scientific Theory","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+			{
+				"name": "Electricity",
+				"row": 3,
+				"prerequisites": ["Scientific Theory","4X TechSlowerEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+			},
+			{
+				"name": "Steam Power",
+				"row": 6,
+				"uniques": ["[+1] Movement <for [Embarked] units>","4X TechSlowerEraRenaissance"],
+				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "Dynamite",
+				"row": 9,
+				"prerequisites": ["Fertilizer","Military Science","4X TechSlowerEraRenaissance"],
+				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+			}
+		]
+	},
+	{
+		"columnNumber": 21,//xtc21
+		"era": "Modern era",
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Refrigeration",
+				"row": 2,
+				"prerequisites": ["Biology", "Electricity","5X TechSlowerEraIndustrial"], //todo: offshore platform should need this
+				"uniques": ["[-75]% weight to this choice for AI decisions"],
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+			{
+				"name": "Radio",
+				"row": 3,
+				"prerequisites": ["Electricity","5X TechSlowerEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+			},
+			{
+				"name": "Replaceable Parts",
+				"row": 4,
+				"prerequisites": ["Electricity","Steam Power","5X TechSlowerEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Steam Power","5X TechSlowerEraIndustrial"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Railroads",
+				"row": 8,
+				"prerequisites": ["Steam Power","Dynamite","5X TechSlowerEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			}
+		]
+	},
+	{
+		"columnNumber": 22,//xtc22
+		"era": "Modern era",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Plastics",
+				"row": 3,
+				"prerequisites": ["Radio","Replaceable Parts","5X TechSlowerEraIndustrial"],
+				"uniques": ["[+200]% weight to this choice for AI decisions"],
+				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+			},
+			{
+				"name": "Electronics",
+				"row": 5,
+				"prerequisites": ["Replaceable Parts", "Flight","5X TechSlowerEraIndustrial"],
+				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+			},
+			{
+				"name": "Ballistics",
+				"row": 6,
+				"prerequisites": ["Flight","5X TechSlowerEraIndustrial"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Railroads","5X TechSlowerEraIndustrial"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			}
+		]
+	},
+	{
+		"columnNumber": 25,//xtc25
+		"era": "Atomic era",
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 2,
+				"prerequisites": ["Plastics","Refrigeration","6X TechSlowerEraModern"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
+			{
+				"name": "Atomic Theory",
+				"row": 4,
+				"prerequisites": ["Plastics","Electronics","6X TechSlowerEraModern"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+			},
+			{
+				"name": "Radar",
+				"row": 6,
+				"prerequisites": ["Ballistics","Electronics","6X TechSlowerEraModern"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Ballistics","Combustion","6X TechSlowerEraModern"],
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			}
+		]
+	},
+	{
+		"columnNumber": 26,//xtc26
+		"era": "Atomic era",
+		"techCost": 6400,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Ecology",
+				"row": 2,
+				"prerequisites": ["Atomic Theory","Pharmaceuticals","6X TechSlowerEraModern"],
+				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 4,
+				"prerequisites": ["Atomic Theory","Radar","6X TechSlowerEraModern"],
+				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+			},
+			{
+				"name": "Rocketry",
+				"row": 6,
+				"prerequisites": ["Radar","6X TechSlowerEraModern"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Computers",
+				"row": 8,
+				"prerequisites": ["Combined Arms","Radar","6X TechSlowerEraModern"],
+				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+			}
+		]
+	},
+	{
+		"columnNumber": 29,//xtc29
+		"era": "Information era",
+		"techCost": 7700,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Telecommunications",
+				"row": 2,
+				"prerequisites": ["Ecology","7X TechSlowerEraAtomic"],
+				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
+			},
+			{
+				"name": "Mobile Tactics",
+				"row": 3,
+				"prerequisites": ["Ecology","Nuclear Fission","7X TechSlowerEraAtomic"],
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+			},
+			{
+				"name": "Advanced Ballistics",
+				"row": 5,
+				"prerequisites": ["Nuclear Fission","Rocketry","7X TechSlowerEraAtomic"],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
+			{
+				"name": "Satellites",
+				"row": 6,
+				"prerequisites": ["Rocketry","7X TechSlowerEraAtomic"],
+				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "Robotics",
+				"row": 7,
+				"prerequisites": ["Rocketry","Computers","7X TechSlowerEraAtomic"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "Lasers",
+				"row": 8,
+				"prerequisites": ["Computers","7X TechSlowerEraAtomic"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+			}
+		]
+	},
+
+	{
+		"columnNumber": 30,//xtc30
+		"era": "Information era",
+		"techCost": 8800,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Globalization",
+				"row": 2,
+				"prerequisites": ["Telecommunications","7X TechSlowerEraAtomic"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
+			{
+				"name": "Particle Physics",
+				"row": 3,
+				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics","7X TechSlowerEraAtomic"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 6,
+				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics","7X TechSlowerEraAtomic"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 7,
+				"prerequisites": ["Robotics","7X TechSlowerEraAtomic"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "Stealth",
+				"row": 8,
+				"prerequisites": ["Robotics", "Lasers","7X TechSlowerEraAtomic"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			}
+		]
+	},
+	{
+		"columnNumber": 35,//xtc35
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Era9UnlockHuman",
+				"row": 22,
+				"quote": "9X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era9UnlockEnema",
+				"row": 23,
+				"quote": "9X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "11 FutureTech",
+				"row": 13,
+				"prerequisites": ["1X FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": [
+					"1X FutureTech", //xsa//added
+
+					"Globalization",
+					"Particle Physics",
+					"Nuclear Fusion",
+					"Nanotechnology",
+					"Stealth"
+				],
+				"uniques": [
+//					"Free Great Person",//xsa//added
+					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+		]
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		"columnNumber": 4,//xtc04
+		"era": "Ancient era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "1X TechSlowerEraAncient",
+				"row": 13,
+				"prerequisites": ["19 TechSlowerEraAncient"],
+				"quote": "1X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era1UnlockHuman",
+				"row": 22,
+				"quote": "1X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era1UnlockEnema",
+				"row": 23,
+				"quote": "1X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,//xtc08
+		"era": "Classical era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "2X TechSlowerEraClassical",
+				"row": 13,
+				"prerequisites": ["29 TechSlowerEraClassical"],
+				"quote": "2X Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era2UnlockHuman",
+				"row": 22,
+				"quote": "2X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era2UnlockEnema",
+				"row": 23,
+				"quote": "2X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 12,//xtc12
+		"era": "Medieval era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "3X TechSlowerEraMedieval",
+				"row": 13,
+				"prerequisites": ["39 TechSlowerEraMedieval"],
+				"quote": "3X Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era3UnlockHuman",
+				"row": 22,
+				"quote": "3X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era3UnlockEnema",
+				"row": 23,
+				"quote": "3X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 16,//xtc16
+		"era": "Renaissance era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "4X TechSlowerEraRenaissance",
+				"row": 13,
+				"prerequisites": ["49 TechSlowerEraRenaissance"],
+				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era4UnlockHuman",
+				"row": 22,
+				"quote": "4X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era4UnlockEnema",
+				"row": 23,
+				"quote": "4X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 20,//xtc20
+		"era": "Industrial era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "5X TechSlowerEraIndustrial",
+				"row": 13,
+				"prerequisites": ["59 TechSlowerEraIndustrial"],
+				"quote": "5X Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era5UnlockHuman",
+				"row": 22,
+				"quote": "5X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era5UnlockEnema",
+				"row": 23,
+				"quote": "5X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 24,//xtc24
+		"era": "Modern era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "6X TechSlowerEraModern",
+				"row": 13,
+				"prerequisites": ["69 TechSlowerEraModern"],
+				"quote": "6X Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era6UnlockHuman",
+				"row": 22,
+				"quote": "6X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era6UnlockEnema",
+				"row": 23,
+				"quote": "6X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 28,//xtc28
+		"era": "Atomic era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "7X TechSlowerEraAtomic",
+				"row": 13,
+				"prerequisites": ["79 TechSlowerEraAtomic"],
+				"quote": "7X Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era7UnlockHuman",
+				"row": 22,
+				"quote": "7X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era7UnlockEnema",
+				"row": 23,
+				"quote": "7X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 32,//xtc32
+		"era": "Information era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "8X TechSlowerEraInformation",
+				"row": 13,
+				"prerequisites": ["89 TechSlowerEraInformation"],
+				"quote": "8X Information Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era8UnlockHuman",
+				"row": 22,
+				"quote": "8X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era8UnlockEnema",
+				"row": 23,
+				"quote": "8X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Only available <before discovering [Agriculture]>",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+	{
+		"columnNumber": 34,//xtc34
+		"era": "Future era",
+		"techCost": 99999999,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+
+			{
+				"name": "1X FutureTech",
+				"row": 13,
+				"prerequisites": ["10 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+
+
+
+		]
+	},
+
+	{
+		"columnNumber": 33,//xtc33
+		"era": "Future era",
+		"techCost": 99999999,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+		    {
+				"name": "00 FutureTech",
+				"row": 13,
+				"prerequisites": [
+					"8X TechSlowerEraInformation", //xsa//added
+
+					"Globalization",
+					"Particle Physics",
+					"Nuclear Fusion",
+					"Nanotechnology",
+					"Stealth"
+//					"Future Tech"
+					],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "01 FutureTech",
+				"row": 14,
+				"prerequisites": ["00 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "02 FutureTech",
+				"row": 15,
+				"prerequisites": ["01 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "03 FutureTech",
+				"row": 16,
+				"prerequisites": ["02 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "04 FutureTech",
+				"row": 17,
+				"prerequisites": ["03 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "05 FutureTech",
+				"row": 18,
+				"prerequisites": ["04 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "06 FutureTech",
+				"row": 19,
+				"prerequisites": ["05 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "07 FutureTech",
+				"row": 20,
+				"prerequisites": ["06 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "08 FutureTech",
+				"row": 21,
+				"prerequisites": ["07 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "09 FutureTech",
+				"row": 22,
+				"prerequisites": ["08 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "10 FutureTech",
+				"row": 23,
+				"prerequisites": ["09 FutureTech"],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+		]
+	},
+
+	
+	{
+		"columnNumber": 3,//xtc03
+		"era": "Ancient era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+//era1
+
+			{
+				"name": "10 InhibitorEra Ancient",
+				"row": 13,
+				"prerequisites": [
+					"Pottery",
+					"Animal Husbandry",
+					"Archery",
+					"Mining",
+
+					"Sailing",
+					"Calendar",
+					"Writing",
+					"Trapping",
+					"The Wheel",
+					"Masonry",
+					"Bronze Working"
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era1
+        			"Discover [Pottery]<before discovering [Pottery]>",
+        			"Discover [Animal Husbandry]<before discovering [Animal Husbandry]>",
+        			"Discover [Archery]<before discovering [Archery]>",
+        			"Discover [Mining]<before discovering [Mining]>",
+        
+        			"Discover [Sailing]<before discovering [Sailing]>",
+        			"Discover [Calendar]<before discovering [Calendar]>",
+        			"Discover [Writing]<before discovering [Writing]>",
+        			"Discover [Trapping]<before discovering [Trapping]>",
+        			"Discover [The Wheel]<before discovering [The Wheel]>",
+        			"Discover [Masonry]<before discovering [Masonry]>",
+        			"Discover [Bronze Working]<before discovering [Bronze Working]>",
+
+                    "Discover [10 TechSlowerEraAncient]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "10 TechSlowerEraAncient",
+				"row": 14,
+				"prerequisites": ["10 InhibitorEra Ancient"],
+				"quote": "10 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "11 TechSlowerEraAncient",
+				"row": 15,
+				"prerequisites": ["10 TechSlowerEraAncient"],
+				"quote": "11 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "12 TechSlowerEraAncient",
+				"row": 16,
+				"prerequisites": ["11 TechSlowerEraAncient"],
+				"quote": "12 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "13 TechSlowerEraAncient",
+				"row": 17,
+				"prerequisites": ["12 TechSlowerEraAncient"],
+				"quote": "13 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "14 TechSlowerEraAncient",
+				"row": 18,
+				"prerequisites": ["13 TechSlowerEraAncient"],
+				"quote": "14 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "15 TechSlowerEraAncient",
+				"row": 19,
+				"prerequisites": ["14 TechSlowerEraAncient"],
+				"quote": "15 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "16 TechSlowerEraAncient",
+				"row": 20,
+				"prerequisites": ["15 TechSlowerEraAncient"],
+				"quote": "16 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "17 TechSlowerEraAncient",
+				"row": 21,
+				"prerequisites": ["16 TechSlowerEraAncient"],
+				"quote": "17 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "18 TechSlowerEraAncient",
+				"row": 22,
+				"prerequisites": ["17 TechSlowerEraAncient"],
+				"quote": "18 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "19 TechSlowerEraAncient",
+				"row": 23,
+				"prerequisites": ["18 TechSlowerEraAncient"],
+				"quote": "19 Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,//xtc07
+		"era": "Classical era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+
+			{
+				"name": "20 InhibitorEra Classical",
+				"row": 13,
+				"prerequisites": [
+					"Optics",
+					"Horseback Riding",
+					"Mathematics",
+					"Construction",
+
+					"Philosophy",
+					"Drama and Poetry",
+					"Currency",
+					"Engineering",
+					"Iron Working"
+//XSA					"10 InhibitorEra Ancient"
+				],
+				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era2
+        			"Discover [Optics]<before discovering [Optics]>",
+        			"Discover [Horseback Riding]<before discovering [Horseback Riding]>",
+        			"Discover [Mathematics]<before discovering [Mathematics]>",
+        			"Discover [Construction]<before discovering [Construction]>",
+        
+        			"Discover [Philosophy]<before discovering [Philosophy]>",
+        			"Discover [Drama and Poetry]<before discovering [Drama and Poetry]>",
+        			"Discover [Currency]<before discovering [Currency]>",
+        			"Discover [Engineering]<before discovering [Engineering]>",
+        			"Discover [Iron Working]<before discovering [Iron Working]>",
+
+                    "Discover [20 TechSlowerEraClassical]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "20 TechSlowerEraClassical",
+				"row": 14,
+				"prerequisites": ["20 InhibitorEra Classical"],
+				"quote": "20 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "21 TechSlowerEraClassical",
+				"row": 15,
+				"prerequisites": ["20 TechSlowerEraClassical"],
+				"quote": "21 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "22 TechSlowerEraClassical",
+				"row": 16,
+				"prerequisites": ["21 TechSlowerEraClassical"],
+				"quote": "22 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "23 TechSlowerEraClassical",
+				"row": 17,
+				"prerequisites": ["22 TechSlowerEraClassical"],
+				"quote": "23 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "24 TechSlowerEraClassical",
+				"row": 18,
+				"prerequisites": ["23 TechSlowerEraClassical"],
+				"quote": "24 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "25 TechSlowerEraClassical",
+				"row": 19,
+				"prerequisites": ["24 TechSlowerEraClassical"],
+				"quote": "25 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "26 TechSlowerEraClassical",
+				"row": 20,
+				"prerequisites": ["25 TechSlowerEraClassical"],
+				"quote": "26 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "27 TechSlowerEraClassical",
+				"row": 21,
+				"prerequisites": ["26 TechSlowerEraClassical"],
+				"quote": "27 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "28 TechSlowerEraClassical",
+				"row": 22,
+				"prerequisites": ["27 TechSlowerEraClassical"],
+				"quote": "28 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "29 TechSlowerEraClassical",
+				"row": 23,
+				"prerequisites": ["28 TechSlowerEraClassical"],
+				"quote": "29 Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+		]
+	},
+	{
+		"columnNumber": 11,//xtc11
+		"era": "Medieval era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+
+
+			{
+				"name": "30 InhibitorEra Medieval",
+				"row": 13,
+				"prerequisites": [
+					"Theology",
+					"Civil Service",
+					"Guilds",
+					"Metal Casting",
+
+					"Compass",
+					"Education",
+					"Chivalry",
+					"Machinery",
+					"Physics",
+					"Steel"
+//					"20 InhibitorEra Classical"
+				],
+				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era3
+        			"Discover [Theology]<before discovering [Theology]>",
+        			"Discover [Civil Service]<before discovering [Civil Service]>",
+        			"Discover [Guilds]<before discovering [Guilds]>",
+        			"Discover [Metal Casting]<before discovering [Metal Casting]>",
+        			
+        			"Discover [Compass]<before discovering [Compass]>",
+        			"Discover [Education]<before discovering [Education]>",
+        			"Discover [Chivalry]<before discovering [Chivalry]>",
+        			"Discover [Machinery]<before discovering [Machinery]>",
+        			"Discover [Physics]<before discovering [Physics]>",
+        			"Discover [Steel]<before discovering [Steel]>",
+					
+                    "Discover [30 TechSlowerEraMedieval]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "30 TechSlowerEraMedieval",
+				"row": 14,
+				"prerequisites": ["30 InhibitorEra Medieval"],
+				"quote": "30 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "31 TechSlowerEraMedieval",
+				"row": 15,
+				"prerequisites": ["30 TechSlowerEraMedieval"],
+				"quote": "31 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "32 TechSlowerEraMedieval",
+				"row": 16,
+				"prerequisites": ["31 TechSlowerEraMedieval"],
+				"quote": "32 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "33 TechSlowerEraMedieval",
+				"row": 17,
+				"prerequisites": ["32 TechSlowerEraMedieval"],
+				"quote": "33 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "34 TechSlowerEraMedieval",
+				"row": 18,
+				"prerequisites": ["33 TechSlowerEraMedieval"],
+				"quote": "34 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "35 TechSlowerEraMedieval",
+				"row": 19,
+				"prerequisites": ["34 TechSlowerEraMedieval"],
+				"quote": "35 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "36 TechSlowerEraMedieval",
+				"row": 20,
+				"prerequisites": ["35 TechSlowerEraMedieval"],
+				"quote": "36 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "37 TechSlowerEraMedieval",
+				"row": 21,
+				"prerequisites": ["36 TechSlowerEraMedieval"],
+				"quote": "37 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "38 TechSlowerEraMedieval",
+				"row": 22,
+				"prerequisites": ["37 TechSlowerEraMedieval"],
+				"quote": "38 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "39 TechSlowerEraMedieval",
+				"row": 23,
+				"prerequisites": ["38 TechSlowerEraMedieval"],
+				"quote": "39 Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,//xtc15
+		"era": "Renaissance era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "40 InhibitorEra Renaissance",
+				"row": 13,
+				"prerequisites": [
+					"Astronomy",
+					"Acoustics",
+					"Banking",
+					"Printing Press",
+					"Gunpowder",
+
+					"Navigation",
+					"Architecture",
+					"Economics",
+					"Metallurgy",
+					"Chemistry"
+//					"30 InhibitorEra Medieval"
+				],
+				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era4
+        			"Discover [Astronomy]<before discovering [Astronomy]>",
+        			"Discover [Acoustics]<before discovering [Acoustics]>",
+        			"Discover [Banking]<before discovering [Banking]>",
+        			"Discover [Printing Press]<before discovering [Printing Press]>",
+        			"Discover [Gunpowder]<before discovering [Gunpowder]>",
+        
+        			"Discover [Navigation]<before discovering [Navigation]>",
+        			"Discover [Architecture]<before discovering [Architecture]>",
+        			"Discover [Economics]<before discovering [Economics]>",
+        			"Discover [Metallurgy]<before discovering [Metallurgy]>",
+        			"Discover [Chemistry]<before discovering [Chemistry]>",
+
+                    "Discover [40 TechSlowerEraRenaissance]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "40 TechSlowerEraRenaissance",
+				"row": 14,
+				"prerequisites": ["40 InhibitorEra Renaissance"],
+				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "41 TechSlowerEraRenaissance",
+				"row": 15,
+				"prerequisites": ["40 TechSlowerEraRenaissance"],
+				"quote": "41 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "42 TechSlowerEraRenaissance",
+				"row": 16,
+				"prerequisites": ["41 TechSlowerEraRenaissance"],
+				"quote": "42 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "43 TechSlowerEraRenaissance",
+				"row": 17,
+				"prerequisites": ["42 TechSlowerEraRenaissance"],
+				"quote": "43 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "44 TechSlowerEraRenaissance",
+				"row": 18,
+				"prerequisites": ["43 TechSlowerEraRenaissance"],
+				"quote": "44 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "45 TechSlowerEraRenaissance",
+				"row": 19,
+				"prerequisites": ["44 TechSlowerEraRenaissance"],
+				"quote": "45 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "46 TechSlowerEraRenaissance",
+				"row": 20,
+				"prerequisites": ["45 TechSlowerEraRenaissance"],
+				"quote": "46 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "47 TechSlowerEraRenaissance",
+				"row": 21,
+				"prerequisites": ["46 TechSlowerEraRenaissance"],
+				"quote": "47 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "48 TechSlowerEraRenaissance",
+				"row": 22,
+				"prerequisites": ["47 TechSlowerEraRenaissance"],
+				"quote": "48 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "49 TechSlowerEraRenaissance",
+				"row": 23,
+				"prerequisites": ["48 TechSlowerEraRenaissance"],
+				"quote": "49 Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+		]
+	},
+	{
+		"columnNumber": 19,//xtc19
+		"era": "Industrial era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+		    {
+            	"name": "DNS Tech Landships",
+            	"row": 11,
+            	"prerequisites": ["Steam Power"],
+            	"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
+            },
+            {
+            	"name": "DNS Tech Airships",
+            	"row": 12,
+            	"prerequisites": ["Steam Power"],
+            	"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+            },
+
+			{
+				"name": "50 InhibitorEra Industrial",
+				"row": 13,
+				"prerequisites": [
+					"Archaeology",
+					"Scientific Theory",
+					"Industrialization",
+					"Rifling",
+					"Military Science",
+					"Fertilizer",
+				
+					"Biology",
+					"Electricity",
+					"Steam Power",
+					"Dynamite",
+//					"40 InhibitorEra Renaissance"
+                    "DNS Tech Landships",
+                    "DNS Tech Airships"
+
+				],
+				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+
+        			"Discover [DNS Tech Landships]<before discovering [DNS Tech Landships]>",
+        			"Discover [DNS Tech Airships]<before discovering [DNS Tech Airships]>",
+//era5
+        			"Discover [Archaeology]<before discovering [Archaeology]>",
+        			"Discover [Scientific Theory]<before discovering [Scientific Theory]>",
+        			"Discover [Industrialization]<before discovering [Industrialization]>",
+        			"Discover [Rifling]<before discovering [Rifling]>",
+        			"Discover [Military Science]<before discovering [Military Science]>",
+        			"Discover [Fertilizer]<before discovering [Fertilizer]>",
+        
+        			"Discover [Biology]<before discovering [Biology]>",
+        			"Discover [Electricity]<before discovering [Electricity]>",
+        			"Discover [Steam Power]<before discovering [Steam Power]>",
+        			"Discover [Dynamite]<before discovering [Dynamite]>",
+
+                    "Discover [50 TechSlowerEraIndustrial]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "50 TechSlowerEraIndustrial",
+				"row": 14,
+				"prerequisites": ["50 InhibitorEra Industrial"],
+				"quote": "50 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "51 TechSlowerEraIndustrial",
+				"row": 15,
+				"prerequisites": ["50 TechSlowerEraIndustrial"],
+				"quote": "51 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "52 TechSlowerEraIndustrial",
+				"row": 16,
+				"prerequisites": ["51 TechSlowerEraIndustrial"],
+				"quote": "52 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "53 TechSlowerEraIndustrial",
+				"row": 17,
+				"prerequisites": ["52 TechSlowerEraIndustrial"],
+				"quote": "53 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "54 TechSlowerEraIndustrial",
+				"row": 18,
+				"prerequisites": ["53 TechSlowerEraIndustrial"],
+				"quote": "54 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "55 TechSlowerEraIndustrial",
+				"row": 19,
+				"prerequisites": ["54 TechSlowerEraIndustrial"],
+				"quote": "55 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "56 TechSlowerEraIndustrial",
+				"row": 20,
+				"prerequisites": ["55 TechSlowerEraIndustrial"],
+				"quote": "56 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "57 TechSlowerEraIndustrial",
+				"row": 21,
+				"prerequisites": ["56 TechSlowerEraIndustrial"],
+				"quote": "57 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "58 TechSlowerEraIndustrial",
+				"row": 22,
+				"prerequisites": ["57 TechSlowerEraIndustrial"],
+				"quote": "58 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "59 TechSlowerEraIndustrial",
+				"row": 23,
+				"prerequisites": ["58 TechSlowerEraIndustrial"],
+				"quote": "59 Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 23,//xtc23
+		"era": "Modern era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+            {
+            	"name": "DNS Tech Land Leviathan",
+            	"row": 11,
+            	"prerequisites": ["DNS Tech Landships"],
+            	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
+            },
+            {
+            	"name": "DNS Tech Sky Fortress",
+            	"row": 12,
+            	"prerequisites": ["DNS Tech Airships"],
+            	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
+            },
+			{
+				"name": "60 InhibitorEra Modern",
+				"row": 13,
+				"prerequisites": [
+					"Refrigeration",
+					"Radio",
+					"Replaceable Parts",
+					"Flight",
+					"Railroads",
+
+					"Plastics",
+					"Electronics",
+					"Ballistics",
+					"Combustion",
+//					"50 InhibitorEra Industrial"
+                    "DNS Tech Land Leviathan",
+                    "DNS Tech Sky Fortress"
+				],
+				"quote": "60 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+
+        			"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
+        			"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
+//era6
+        			"Discover [Refrigeration]<before discovering [Refrigeration]>",
+        			"Discover [Radio]<before discovering [Radio]>",
+        			"Discover [Replaceable Parts]<before discovering [Replaceable Parts]>",
+        			"Discover [Flight]<before discovering [Flight]>",
+        			"Discover [Railroads]<before discovering [Railroads]>",
+        			
+        			"Discover [Plastics]<before discovering [Plastics]>",
+        			"Discover [Electronics]<before discovering [Electronics]>",
+        			"Discover [Ballistics]<before discovering [Ballistics]>",
+        			"Discover [Combustion]<before discovering [Combustion]>",
+
+
+                    "Discover [60 TechSlowerEraModern]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "60 TechSlowerEraModern",
+				"row": 14,
+				"prerequisites": ["60 InhibitorEra Modern"],
+				"quote": "60 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "61 TechSlowerEraModern",
+				"row": 15,
+				"prerequisites": ["60 TechSlowerEraModern"],
+				"quote": "61 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "62 TechSlowerEraModern",
+				"row": 16,
+				"prerequisites": ["61 TechSlowerEraModern"],
+				"quote": "62 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "63 TechSlowerEraModern",
+				"row": 17,
+				"prerequisites": ["62 TechSlowerEraModern"],
+				"quote": "63 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "64 TechSlowerEraModern",
+				"row": 18,
+				"prerequisites": ["63 TechSlowerEraModern"],
+				"quote": "64 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "65 TechSlowerEraModern",
+				"row": 19,
+				"prerequisites": ["64 TechSlowerEraModern"],
+				"quote": "65 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "66 TechSlowerEraModern",
+				"row": 20,
+				"prerequisites": ["65 TechSlowerEraModern"],
+				"quote": "66 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "67 TechSlowerEraModern",
+				"row": 21,
+				"prerequisites": ["66 TechSlowerEraModern"],
+				"quote": "67 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "68 TechSlowerEraModern",
+				"row": 22,
+				"prerequisites": ["67 TechSlowerEraModern"],
+				"quote": "68 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "69 TechSlowerEraModern",
+				"row": 23,
+				"prerequisites": ["68 TechSlowerEraModern"],
+				"quote": "69 Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 27,//xtc27
+		"era": "Atomic era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+
+			{
+				"name": "70 InhibitorEra Atomic",
+				"row": 13,
+				"prerequisites": [
+					"Pharmaceuticals",
+					"Atomic Theory",
+					"Radar",
+					"Combined Arms",
+
+					"Ecology",
+					"Nuclear Fission",
+					"Rocketry",
+					"Computers"
+//					"60 InhibitorEra Modern"
+				],
+				"quote": "70 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+//era7
+
+        			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]>",
+        			"Discover [Atomic Theory]<before discovering [Atomic Theory]>",
+        			"Discover [Radar]<before discovering [Radar]>",
+        			"Discover [Combined Arms]<before discovering [Combined Arms]>",
+        
+        			"Discover [Ecology]<before discovering [Ecology]>",
+        			"Discover [Nuclear Fission]<before discovering [Nuclear Fission]>",
+        			"Discover [Rocketry]<before discovering [Rocketry]>",
+        			"Discover [Computers]<before discovering [Computers]>",
+
+                    "Discover [70 TechSlowerEraAtomic]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "70 TechSlowerEraAtomic",
+				"row": 14,
+				"prerequisites": ["70 InhibitorEra Atomic"],
+				"quote": "70 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "71 TechSlowerEraAtomic",
+				"row": 15,
+				"prerequisites": ["70 TechSlowerEraAtomic"],
+				"quote": "71 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "72 TechSlowerEraAtomic",
+				"row": 16,
+				"prerequisites": ["71 TechSlowerEraAtomic"],
+				"quote": "72 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "73 TechSlowerEraAtomic",
+				"row": 17,
+				"prerequisites": ["72 TechSlowerEraAtomic"],
+				"quote": "73 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "74 TechSlowerEraAtomic",
+				"row": 18,
+				"prerequisites": ["73 TechSlowerEraAtomic"],
+				"quote": "74 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "75 TechSlowerEraAtomic",
+				"row": 19,
+				"prerequisites": ["74 TechSlowerEraAtomic"],
+				"quote": "75 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "76 TechSlowerEraAtomic",
+				"row": 20,
+				"prerequisites": ["75 TechSlowerEraAtomic"],
+				"quote": "76 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "77 TechSlowerEraAtomic",
+				"row": 21,
+				"prerequisites": ["76 TechSlowerEraAtomic"],
+				"quote": "77 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "78 TechSlowerEraAtomic",
+				"row": 22,
+				"prerequisites": ["77 TechSlowerEraAtomic"],
+				"quote": "78 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "79 TechSlowerEraAtomic",
+				"row": 23,
+				"prerequisites": ["78 TechSlowerEraAtomic"],
+				"quote": "79 Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+		]
+	},
+	{
+		"columnNumber": 31,//xtc31
+		"era": "Information era",
+		"techCost": 9999999999,
+		"buildingCost": 100,
+		"wonderCost": 9999999999,
+		"techs": [
+			{
+				"name": "80 InhibitorEra Information",
+				"row": 13,
+				"prerequisites": [
+					"Telecommunications",
+					"Mobile Tactics",
+					"Advanced Ballistics",
+					"Satellites",
+					"Robotics",
+					"Lasers",
+
+					"Globalization",
+					"Particle Physics",
+					"Nuclear Fusion",
+					"Nanotechnology",
+					"Stealth"
+
+//					"70 InhibitorEra Atomic",
+				],
+				"quote": "80 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era8
+                    "Discover [Telecommunications]<before discovering [Telecommunications]>",
+        			"Discover [Mobile Tactics]<before discovering [Mobile Tactics]>",
+        			"Discover [Advanced Ballistics]<before discovering [Advanced Ballistics]>",
+        			"Discover [Satellites]<before discovering [Satellites]>",
+        			"Discover [Robotics]<before discovering [Robotics]>",
+        			"Discover [Lasers]<before discovering [Lasers]>",
+        
+        			"Discover [Globalization]<before discovering [Globalization]>",
+        			"Discover [Particle Physics]<before discovering [Particle Physics]>",
+        			"Discover [Nuclear Fusion]<before discovering [Nuclear Fusion]>",
+        			"Discover [Nanotechnology]<before discovering [Nanotechnology]>",
+        			"Discover [Stealth]<before discovering [Stealth]>",
+
+                    "Discover [80 TechSlowerEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "80 TechSlowerEraInformation",
+				"row": 14,
+				"prerequisites": ["80 InhibitorEra Information"],
+				"quote": "80 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "81 TechSlowerEraInformation",
+				"row": 15,
+				"prerequisites": ["80 TechSlowerEraInformation"],
+				"quote": "81 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "82 TechSlowerEraInformation",
+				"row": 16,
+				"prerequisites": ["81 TechSlowerEraInformation"],
+				"quote": "82 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "83 TechSlowerEraInformation",
+				"row": 17,
+				"prerequisites": ["82 TechSlowerEraInformation"],
+				"quote": "83 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "84 TechSlowerEraInformation",
+				"row": 18,
+				"prerequisites": ["83 TechSlowerEraInformation"],
+				"quote": "84 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "85 TechSlowerEraInformation",
+				"row": 19,
+				"prerequisites": ["84 TechSlowerEraInformation"],
+				"quote": "85 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "86 TechSlowerEraInformation",
+				"row": 20,
+				"prerequisites": ["85 TechSlowerEraInformation"],
+				"quote": "86 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "87 TechSlowerEraInformation",
+				"row": 21,
+				"prerequisites": ["86 TechSlowerEraInformation"],
+				"quote": "87 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "88 TechSlowerEraInformation",
+				"row": 22,
+				"prerequisites": ["87 TechSlowerEraInformation"],
+				"quote": "88 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "89 TechSlowerEraInformation",
+				"row": 23,
+				"prerequisites": ["88 TechSlowerEraInformation"],
+				"quote": "89 Information Tech Slower, slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions",
+					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+		]
+	}
+]
+
+
+
+
+
+
+/*
+RB01 Cattle
+RB02 Sheep
+RB03 Deer
+RB04 Bananas
+RB05 Wheat
+RB06 Stone
+RB07 Fish
+
+RS01 Horses
+RS02 Iron
+RS03 Coal
+RS04 Oil
+RS05 Aluminum
+RS06 Uranium
+
+RL01 Furs
+RL02 Cotton
+RL03 Dyes
+RL04 Gems
+RL05 Gold
+RL06 Silver
+RL07 Incense
+RL08 Ivory
+RL09 Silk
+RL10 Spices
+RL11 Wine
+RL12 Sugar
+RL13 Marble
+RL14 Whales
+RL15 Pearls
+RL16 Citrus
+RL17 Copper
+RL18 Crab
+RL19 Salt
+RL20 Truffles
+
+RL21 Jewelry
+RL22 Porcelain
+
+RML01 Amber
+RML02 Coffee
+RML03 Coral
+RML04 Jade
+RML05 Lapis
+RML06 Olives
+RML07 Perfume
+RML08 Tea
+RML09 Tobacco
+RML10 Glass
+
+*/
+
+
+
