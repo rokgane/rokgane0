@@ -4082,9 +4082,6 @@
 				"[1] free [TestBall91] units appear", 
 				"[1] free [TestBall92] units appear", 
 				"[1] free [TestBall93] units appear", 
-				"[1] free [TestBall94] units appear", 
-				"[1] free [TestBall95] units appear"
-
 //				"[1] free [DNS Khan] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
@@ -4660,7 +4657,7 @@
 
 
 
-/*
+
 
 	{
 		"name": "MiniCake Depletion",
@@ -4750,7 +4747,7 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
-
+/*
 	{
 		"name": "MiniCake Depletion Food",
 		"requiredBuilding": "MiniCake DNS Vault",
