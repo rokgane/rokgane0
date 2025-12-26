@@ -4035,7 +4035,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake Cities]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -4082,6 +4082,8 @@
 				"[1] free [TestBall91] units appear", 
 				"[1] free [TestBall92] units appear", 
 				"[1] free [TestBall93] units appear", 
+				"[1] free [TestBall94] units appear", 
+				"[1] free [TestBall95] units appear", 
 //				"[1] free [DNS Khan] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
