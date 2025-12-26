@@ -2074,7 +2074,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
             "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [3] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2108,7 +2108,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [4] turns>",
+			"[This Unit] takes [100] damage <every [5] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2142,7 +2142,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
             "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start><every [5] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2176,7 +2176,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [5] turns>",
+			"[This Unit] takes [100] damage <upon turn start><every [5] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2301,6 +2301,11 @@
 			"All healing effects doubled"
         ],
 	},
+
+
+
+
+
 	{
 		"name": "Zeppelin Terraformer",
 		"unitType": "Helicopter",
@@ -2332,29 +2337,43 @@
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 
+			"Can build [Install Tunnel] improvements on tiles",
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Plant Forest] improvements on tiles",
+			"Can build [Plant Jungle] improvements on tiles",
+
+			"Can build [Camp] improvements on tiles",
+			"Can build [Oil well] improvements on tiles",
+			"Can build [Offshore Platform] improvements on tiles",
+			"Can build [Pasture] improvements on tiles",
+			"Can build [Plantation] improvements on tiles",
+			"Can build [Quarry] improvements on tiles",
+			"Can build [Fishing Boats] improvements on tiles",
+
 			"Can build [Bioculture] improvements on tiles",
 			"Can build [DNS FunFort01] improvements on tiles",
 			"Can build [DNS FunFort02] improvements on tiles",
 			"Can build [DNS FunFort03] improvements on tiles",
-			"Can build [DNS Citadel] improvements on tiles",
-
-			"Can build [T23 Lakesify] improvements on tiles",
-			"Can build [T22 Coastif] improvements on tiles",
-			"Can build [T13 Snowify] improvements on tiles",
-			"Can build [T21 Iciiify] improvements on tiles",
 
 			"Can build [T11 Mountainify] improvements on tiles",
 			"Can build [T12 Desertify] improvements on tiles",
+			"Can build [T13 Snowify] improvements on tiles",
+
+			"Can build [T21 Iciiify] improvements on tiles",
+			"Can build [T22 Coastify] improvements on tiles",
+			"Can build [T23 Lakesify] improvements on tiles",
+
 			"Can build [T31 Wastelandify] improvements on tiles",
 			"Can build [T32 Badlandsify] improvements on tiles",
+			"Can build [T33 Permafrostify] improvements on tiles",
 
-			"Can build [Install Tunnel] improvements on tiles",
-
-			"Can build [Plant Forest] improvements on tiles",
-			"Can build [Plant Jungle] improvements on tiles",
-
-			"Can build [Remove Ice] improvements on tiles",
-			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
 
 			"Only available <for [Human player] Civilizations> <hidden from users>"
 
@@ -2385,6 +2404,17 @@
 			],
   		"attackSound": "machinegun"
 	},
+
+
+
+
+
+
+
+
+
+
+
 
 
 	{
@@ -3725,9 +3755,9 @@
 			"[This Unit] takes [100] damage <every [5] turns>",
 //94
             "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start><every [5] turns>",
 //95
 			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <upon turn start>",
+			"[This Unit] takes [100] damage <upon turn start><every [5] turns>",
 */
 

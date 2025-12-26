@@ -521,7 +521,8 @@
 //            "Food source",
 //			"Can only be built to improve a resource",
 
-            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations>",
+            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations><after discovering [xsaUnlocker]>",
+			"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] for each adjacent [Bioculture]<after discovering [xsaUnlocker]>",
 
 /*
             "[+1 Gold] <after discovering [xsaUnlocker]>",
@@ -540,7 +541,7 @@
 
 	{
 		"name": "DNS FunFort01",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -554,7 +555,7 @@
 	},
 	{
 		"name": "DNS FunFort02",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -568,7 +569,7 @@
 	},
 	{
 		"name": "DNS FunFort03",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -590,52 +591,26 @@
 
 
 
-	{
-		"name": "T21 Iciiify",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
-		"uniques": [
-			"Can be built outside your borders",
-			"Turn this tile into a [Ice] tile",
-			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
-		        ],
-	},
+
+
+
+
+
+
+
+
+
+
+
+
 	{
 		"name": "T11 Mountainify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Mountain] tile",
-		        ],
-	},
-	{
-		"name": "T22 Coastify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Ocean"],
-		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
-		"uniques": [
-			"Can be built outside your borders",
-			"Turn this tile into a [Coast] tile",
-//			"Can only be built on [Land] tiles",
-//			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
-		        ],
-	},
-	{
-		"name": "T23 Lakesify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Coast","Ocean"],
-		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
-		"uniques": [
-			"Can be built outside your borders",
-			"Turn this tile into a [Lakes] tile",
-//			"Does not need removal of [Trading post] <hidden from users>",
-			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
 	{
@@ -644,11 +619,8 @@
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Desert] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
 	{
@@ -657,13 +629,57 @@
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Snow] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
+
+
+
+
+
+	{
+		"name": "T21 Oceanify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Ocean] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T22 Coastify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Coast] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T23 Lakesify",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Lakes] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T24 Iciiify",
+		"terrainsCanBeBuiltOn": ["Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Ice] tile",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			"Can be built outside your borders"
+		        ],
+	},
+
 
 
 	{
@@ -672,11 +688,8 @@
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Wasteland] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-//			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
 	{
@@ -685,11 +698,8 @@
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Badlands] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-//			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
 	{
@@ -698,11 +708,8 @@
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Can be built outside your borders",
 			"Turn this tile into a [Permafrost] tile",
-			"Does not need removal of [Trading post] <hidden from users>",
-//			"Cannot be built on [Land] tiles <hidden from users>",
-			//"Cannot be built on [Snow] tiles <hidden from users>"
+			"Can be built outside your borders"
 		        ],
 	},
 
@@ -801,10 +808,12 @@
 	// Great Person improvements
 	{
 		"name": "DNS Academy",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"science": 16,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -822,10 +831,12 @@
 	},
 	{
 		"name": "DNS Landmark",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"culture": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -841,10 +852,12 @@
 	},
 	{
 		"name": "DNS Manufactory",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"production": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -861,10 +874,12 @@
 	},
 	{
 		"name": "DNS Customs house",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"gold": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -882,10 +897,12 @@
 	},
 	{
 		"name": "DNS Holy site",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"faith": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -902,7 +919,7 @@
 	},
 	{
 		"name": "DNS Citadel",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"techRequired": "xsaUnlocker",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [175] damage <after discovering [xsaUnlocker]>",
