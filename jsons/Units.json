@@ -2071,8 +2071,8 @@
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
 //SUICIDE
-			"[This Unit] gains the [JihadSuicide] promotion <for [3] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status>",
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [3] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2105,7 +2105,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [5] turns>",
+			"[This Unit] takes [100] damage <every [4] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2138,7 +2138,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
             "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2171,7 +2171,7 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <upon turn start>",
+			"[This Unit] takes [100] damage <every [5] turns>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
