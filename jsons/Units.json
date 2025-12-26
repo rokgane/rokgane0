@@ -2026,6 +2026,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May enter foreign tiles without open borders<hidden from users>",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 			"Ignores Zone of Control<hidden from users>", 
@@ -2058,6 +2059,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May enter foreign tiles without open borders<hidden from users>",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 			"Ignores Zone of Control<hidden from users>", 
@@ -2091,6 +2093,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May enter foreign tiles without open borders<hidden from users>",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 			"Ignores Zone of Control<hidden from users>", 
@@ -2124,6 +2127,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May enter foreign tiles without open borders<hidden from users>",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 			"Ignores Zone of Control<hidden from users>", 
@@ -2157,6 +2161,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May enter foreign tiles without open borders<hidden from users>",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 			"Ignores Zone of Control<hidden from users>", 
@@ -2164,7 +2169,7 @@
 			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
 
-			"Unable to capture cities<hidden from users>",
+			"Unable to capture cities<hidden from users>"ra
 
 //			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -2215,6 +2220,7 @@
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
+			"Can enter ice tiles",
 			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
 
 			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
@@ -2332,13 +2338,15 @@
 			"Can build [DNS FunFort03] improvements on tiles",
 			"Can build [DNS Citadel] improvements on tiles",
 
-			"Can build [Lakesify] improvements on tiles",
-			"Can build [Coastify] improvements on tiles",
-			"Can build [Snowify] improvements on tiles",
-			"Can build [Iciiify] improvements on tiles",
-			"Can build [Desertify] improvements on tiles",
-			"Can build [Wastelandify] improvements on tiles",
-			"Can build [Badlandsify] improvements on tiles",
+			"Can build [T23 Lakesify] improvements on tiles",
+			"Can build [T22 Coastif] improvements on tiles",
+			"Can build [T13 Snowify] improvements on tiles",
+			"Can build [T21 Iciiify] improvements on tiles",
+
+			"Can build [T11 Mountainify] improvements on tiles",
+			"Can build [T12 Desertify] improvements on tiles",
+			"Can build [T31 Wastelandify] improvements on tiles",
+			"Can build [T32 Badlandsify] improvements on tiles",
 
 			"Can build [Install Tunnel] improvements on tiles",
 
