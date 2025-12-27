@@ -995,8 +995,13 @@
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"[3] free [Brute] units appear<every [3] turns><in tiles adjacent to [Land] tiles>", 
-			"[2] free [Galley] units appear<every [2] turns><in tiles adjacent to [Water] tiles>", 
+            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
+			"[2] free [Brute] units appear<every [3] turns>", 
+			"[1] free [Galley] units appear<every [2] turns>", 
+            
+//			"[3] free [Brute] units appear<every [3] turns><in tiles adjacent to [Land] tiles>", 
+//			"[2] free [Galley] units appear<every [2] turns><in tiles adjacent to [Water] tiles>", 
+            
 		    "Unpillagable", 
 		    "Unbuildable", 
 		    "Excluded from map editor"],

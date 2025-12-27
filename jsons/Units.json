@@ -3584,6 +3584,7 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques": [
+            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
@@ -3601,6 +3602,7 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"uniques": [
+            "Free [Skirmisher] appears <when adjacent to a [Hostile] unit>",
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "arrow"
@@ -3614,6 +3616,9 @@
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Trireme",
+		"uniques": [
+            "Free [Galley] appears <when adjacent to a [Hostile] unit>"
+            ]
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
@@ -3630,6 +3635,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": [
+            "Free [Marauder] appears <when adjacent to a [Hostile] unit>"
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
