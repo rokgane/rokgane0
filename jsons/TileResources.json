@@ -326,11 +326,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
- 		    "Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
 					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
 	},
 	{
@@ -340,12 +336,8 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"food": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
- 		    "Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
 	},
 	{
 		"name": "RB03 Deer",
@@ -354,16 +346,12 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-            "Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
-			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
-			"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
-			"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
-			"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
 	},
 	{
 		"name": "RB04 Bananas",
@@ -372,12 +360,8 @@
 		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated on every [14] tiles <in [Jungle] tiles>",
-			"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
+					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
 	{
 		"name": "RB05 Wheat",
@@ -385,14 +369,10 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
-			"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
-			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
-			"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	},
 	{
 		"name": "RB06 Stone",
@@ -401,13 +381,9 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
-			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
 	{
 		"name": "RB07 Fish",
@@ -415,11 +391,7 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
 	/*
 	{
@@ -441,18 +413,14 @@
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Guaranteed with Strategic Balance resource option",
-			"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
-			"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-			"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -463,21 +431,20 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
-		"uniques": [
-		    "Guaranteed with Strategic Balance resource option",
-			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
-			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
-			"Generated with weight [26] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [Forest] tiles>",
-			"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-			"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -489,21 +456,17 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Hill] tiles>",
-			"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Jungle] tiles>",
-			"Minor deposits generated with weight [10] <in [Forest] tiles>",
-			"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
-			"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
-			"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
-			"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
-			"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -515,22 +478,18 @@
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Deposits in [Coast] tiles always provide [4] resources",
-			"Guaranteed with Strategic Balance resource option",
-			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
-			"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
-			"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
-			"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
+		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+					"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -542,15 +501,11 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
-			"Generated with weight [39] <in [Hill] tiles>",
-			"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
+		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -562,16 +517,12 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
-			"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
-			"Minor deposits generated with weight [10] <in [Forest] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -584,13 +535,9 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [40] <in [Tundra] Regions>",
-			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated near City States with weight [15]"]
+		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "RL02 Cotton",
@@ -598,15 +545,11 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [15] <in [Desert] Regions>",
-			"Generated with weight [30] <in [Grassland] Regions>",
-			"Generated with weight [15] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Hill] tiles>"]
+		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Grassland] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "RL03 Dyes",
@@ -614,15 +557,11 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [5] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [30] <in [Forest] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Hill] tiles>"]
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "RL04 Gems",
@@ -630,17 +569,13 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Hill"],
 		"gold": 3,
 		"improvement": "Mine",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [5] <in [Tundra] Regions>",
-			"Generated with weight [20] <in [Jungle] Regions>",
-			"Generated with weight [15] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
 	},
 	{
 		"name": "RL05 Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
@@ -648,17 +583,13 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Hill","Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Mine",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [25] <in [Desert] Regions>",
-			"Generated with weight [30] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
 	},
 	{
 		"name": "RL06 Silver",
@@ -666,20 +597,16 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
 		"improvement": "Mine",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [25] <in [Tundra] Regions>",
-			"Generated with weight [30] <in [Hill] Regions>",
-			"Generated with weight [20] <in [Grassland] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
-			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
-			"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
+		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
 		]
 	},
 	{
@@ -688,14 +615,10 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Desert] Regions>",
-			"Generated with weight [10] <in [Plains] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]"]
+		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "RL08 Ivory",
@@ -704,14 +627,10 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-            "Generated with weight [35] <in [Plains] Regions>",
-			"Generated with weight [15] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{
 		"name": "RL09 Silk",
@@ -719,15 +638,11 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [30] <in [Forest] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]",
-			"Doesn't generate naturally <in [Hill] tiles>"]
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "RL10 Spices",
@@ -735,18 +650,14 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [30] <in [Jungle] Regions>",
-			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]",
-			"Doesn't generate naturally <in [Hill] tiles>",
-			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 	{
 		"name": "RL11 Wine",
@@ -754,13 +665,9 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Plains] Regions>",
-			"Generated with weight [15] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]"]
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "RL12 Sugar",
@@ -769,16 +676,12 @@
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [20] <in [Jungle] Regions>",
-			"Generated with weight [15] <in [Desert] Regions>",
-			"Generated with weight [20] <in [Grassland] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
 	{
 		"name": "RL13 Marble",
@@ -787,13 +690,9 @@
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "[+15]% Production when constructing [All] wonders [in this city]",
-			"Special placement during map generation",
-			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+		"uniques": ["[+15]% Production when constructing [All] wonders [in this city]",
+					"Special placement during map generation",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
 	},
 	{
 		"name": "RL14 Whales",
@@ -802,17 +701,13 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Tundra] Regions>",
-			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated with weight [10] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [10] <in [Grassland] Regions>",
-			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]"]
+		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "RL15 Pearls",
@@ -820,18 +715,14 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [20] <in [Jungle] Regions>",
-			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated with weight [5] <in [Desert] Regions>",
-			"Generated with weight [15] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [10] <in [Grassland] Regions>",
-			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]"]
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "RL16 Citrus",
@@ -840,16 +731,12 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [35] <in [Jungle] Regions>",
-			"Generated with weight [5] <in [Forest] Regions>",
-			"Generated with weight [5] <in [Desert] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]",
-			"Doesn't generate naturally <in [Tundra] tiles>"]
+		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	{
 		"name": "RL17 Copper",
@@ -857,21 +744,17 @@
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [15] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [5] <in [Forest] Regions>",
-			"Generated with weight [10] <in [Desert] Regions>",
-			"Generated with weight [30] <in [Hill] Regions>",
-			"Generated with weight [20] <in [Grassland] Regions>",
-			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
-			"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-			"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
 	},
 	/*
 	{
@@ -890,18 +773,14 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [30] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [10] <in [Forest] Regions>",
-			"Generated with weight [10] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [20] <in [Grassland] Regions>",
-			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]"]
+		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "RL19 Salt",
@@ -911,18 +790,14 @@
 		"food": 1,
 		"improvement": "Mine",
 		"improvementStats": {"food": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [15] <in [Tundra] Regions>",
-			"Generated with weight [5] <in [Forest] Regions>",
-			"Generated with weight [15] <in [Desert] Regions>",
-			"Generated with weight [10] <in [Hill] Regions>",
-			"Generated with weight [25] <in [Plains] Regions>",
-			"Generated with weight [15] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]",
-			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [25] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
 	},
 	{
 		"name": "RL20 Truffles",
@@ -931,18 +806,14 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Generated with weight [5] <in [Jungle] Regions>",
-			"Generated with weight [30] <in [Forest] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
-			"Generated near City States with weight [15]",
-			"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
-			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 
 	{
@@ -1148,16 +1019,12 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Guaranteed with Strategic Balance resource option",
-			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
-			"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
-			"Generated with weight [20] <in [Hill] tiles>",
-			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-			"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>"],
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Plains}] tiles>",
+					"Generated with weight [20] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -1169,11 +1036,7 @@
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Guaranteed with Strategic Balance resource option",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
 			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
@@ -1254,11 +1117,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML02 Coffee",
@@ -1266,11 +1125,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML03 Coral",
@@ -1278,11 +1133,7 @@
 		"terrainsCanBeFoundOn": [ "Coast" ],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML04 Jade",
@@ -1290,11 +1141,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML05 Lapis Lazuli",
@@ -1302,11 +1149,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML06 Olives",
@@ -1317,11 +1160,7 @@
 		"improvement": "Plantation",
 		"improvementStats": {
 			"gold": 1,
-			"food": 1,
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+			"food": 1
 		}
 	},
 	{
@@ -1330,11 +1169,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML08 Tea",
@@ -1342,11 +1177,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	{
 		"name": "RML09 Tobacco",
@@ -1354,11 +1185,7 @@
 		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": { "gold": 1 },
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>"
- 		   ]
+		"improvementStats": { "gold": 1 }
 	},
 	// Unique res
 	{
