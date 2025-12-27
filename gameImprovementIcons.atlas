@@ -3,7 +3,21 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-ImprovementIcons/DNS FunFort
+ImprovementIcons/DNS FunFort01
+  rotate: false
+  xy: 1279, 1835
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS FunFort02
+  rotate: false
+  xy: 1279, 1835
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/DNS FunFort03
   rotate: false
   xy: 1279, 1835
   size: 100, 100

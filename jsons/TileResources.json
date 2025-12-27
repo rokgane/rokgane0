@@ -837,12 +837,12 @@
 	
 	
 	
-	
+
 	
 //xsa//utilitycheat
 
 	{
-				"name": "RS01 -Unhappiness",
+				"name": "RuS01 -Unhappiness",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -850,7 +850,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS02 +Unhappiness",
+				"name": "RuS02 +Unhappiness",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -858,7 +858,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS03 +stats1",
+				"name": "RuS03 +stats1",
 				"resourceType": "Strategic",
 				"uniques": [
 				 "Stockpiled",
@@ -866,7 +866,7 @@
 				 "Not shown on world screen"],
 	},
 	{
-				"name": "RS04 -stats1",
+				"name": "RuS04 -stats1",
 				"resourceType": "Strategic",
 				"uniques": [
 				 "Stockpiled",
@@ -874,7 +874,7 @@
 				 "Not shown on world screen"],
 	},
 	{
-				"name": "RS05 -Culture Cost Border",
+				"name": "RuS05 -Culture Cost Border",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -882,7 +882,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS06 +Culture Cost Border",
+				"name": "RuS06 +Culture Cost Border",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -890,7 +890,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS07 +Food Carry",
+				"name": "RuS07 +Food Carry",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -898,7 +898,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS08 -Food Carry",
+				"name": "RuS08 -Food Carry",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -906,7 +906,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS09 -Maintenance",
+				"name": "RuS09 -Maintenance",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -914,7 +914,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS10 +Maintenance",
+				"name": "RuS10 +Maintenance",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -922,7 +922,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS11 +Unit Production",
+				"name": "RuS11 +Unit Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -930,7 +930,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS12 -Unit Production",
+				"name": "RuS12 -Unit Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -938,7 +938,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS13 +Buildings Production",
+				"name": "RuS13 +Buildings Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -946,7 +946,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS14 -Buildings Production",
+				"name": "RuS14 -Buildings Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -954,7 +954,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS15 +Wonders Production",
+				"name": "RuS15 +Wonders Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
@@ -962,7 +962,7 @@
 				  "Not shown on world screen"],
 	},
 	{
-				"name": "RS16 -Wonders Production",
+				"name": "RuS16 -Wonders Production",
 				"resourceType": "Strategic",
 				"uniques": [
 				  "Stockpiled",
