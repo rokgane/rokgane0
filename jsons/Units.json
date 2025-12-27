@@ -2015,41 +2015,6 @@
 
 
     {
-    	"name": "TestBall90",
-    	"unitType": "Civilian",
-    	"movement": 10,
-		"requiredTech": "xsaUnlocker",
-//    	"requiredTech": "Replaceable Parts",
-//    	"obsoleteTech":"Advanced Ballistics",
-    	"cost": 200,
-    	"uniques": [
-            "[+6] Sight",
-
-			"Can see over obstacles",
-			"Can see invisible [All] units<hidden from users>",
-
-			"Can enter ice tiles",
-			"May enter foreign tiles without open borders<hidden from users>",
-			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
-			"Ignores Zone of Control<hidden from users>", 
-
-			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
-
-			"Unable to capture cities<hidden from users>",
-
-//			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
-			"Uncapturable <hidden from users>",
-//SUICIDE//90
-            "[This Unit] takes [10] damage <upon turn end>",
-
-			"Limited to [12] per Civilization <hidden from users>",
-    	    "Never appears as a Barbarian unit<hidden from users>"],
-//    	"promotions":["Ignore terrain cost"],
-    	"attackSound": "shot"
-    },
-    {
     	"name": "TestBall91",
     	"unitType": "Civilian",
     	"movement": 10,
@@ -2058,8 +2023,6 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
-            "[+6] Sight",
-
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2076,9 +2039,8 @@
 //			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
-//SUICIDE//91
-			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [5] turns>",
+//SUICIDE
+            "[This Unit] takes [10] damage <upon turn end>",
 
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
@@ -2094,154 +2056,6 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
-            "[+6] Sight",
-
-			"Can see over obstacles",
-			"Can see invisible [All] units<hidden from users>",
-
-			"Can enter ice tiles",
-			"May enter foreign tiles without open borders<hidden from users>",
-			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
-			"Ignores Zone of Control<hidden from users>", 
-
-			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
-
-			"Unable to capture cities<hidden from users>",
-
-//			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
-			"Uncapturable <hidden from users>",
-//SUICIDE//92
-			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [4] turns>",
-
-			"Limited to [12] per Civilization <hidden from users>",
-    	    "Never appears as a Barbarian unit<hidden from users>"],
-//    	"promotions":["Ignore terrain cost"],
-    	"attackSound": "shot"
-    },
-    {
-    	"name": "TestBall93",
-    	"unitType": "Civilian",
-    	"movement": 10,
-		"requiredTech": "xsaUnlocker",
-//    	"requiredTech": "Replaceable Parts",
-//    	"obsoleteTech":"Advanced Ballistics",
-    	"cost": 200,
-    	"uniques": [
-            "[+6] Sight",
-
-			"Can see over obstacles",
-			"Can see invisible [All] units<hidden from users>",
-
-			"Can enter ice tiles",
-			"May enter foreign tiles without open borders<hidden from users>",
-			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
-			"Ignores Zone of Control<hidden from users>", 
-
-			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
-
-			"Unable to capture cities<hidden from users>",
-
-//			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
-			"Uncapturable <hidden from users>",
-//SUICIDE//93
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [3] turns>",
-
-			"Limited to [12] per Civilization <hidden from users>",
-    	    "Never appears as a Barbarian unit<hidden from users>"],
-//    	"promotions":["Ignore terrain cost"],
-    	"attackSound": "shot"
-    },
-    {
-    	"name": "TestBall94",
-    	"unitType": "Civilian",
-    	"movement": 10,
-		"requiredTech": "xsaUnlocker",
-//    	"requiredTech": "Replaceable Parts",
-//    	"obsoleteTech":"Advanced Ballistics",
-    	"cost": 200,
-    	"uniques": [
-            "[+6] Sight",
-
-			"Can see over obstacles",
-			"Can see invisible [All] units<hidden from users>",
-
-			"Can enter ice tiles",
-			"May enter foreign tiles without open borders<hidden from users>",
-			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
-			"Ignores Zone of Control<hidden from users>", 
-
-			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
-
-			"Unable to capture cities<hidden from users>",
-
-//			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
-			"Uncapturable <hidden from users>",
-//SUICIDE//94
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns>",
-
-			"Limited to [12] per Civilization <hidden from users>",
-    	    "Never appears as a Barbarian unit<hidden from users>"],
-//    	"promotions":["Ignore terrain cost"],
-    	"attackSound": "shot"
-    },
-    {
-    	"name": "TestBall95",
-    	"unitType": "Civilian",
-    	"movement": 10,
-		"requiredTech": "xsaUnlocker",
-//    	"requiredTech": "Replaceable Parts",
-//    	"obsoleteTech":"Advanced Ballistics",
-    	"cost": 200,
-    	"uniques": [
-            "[+6] Sight",
-
-			"Can see over obstacles",
-			"Can see invisible [All] units<hidden from users>",
-
-			"Can enter ice tiles",
-			"May enter foreign tiles without open borders<hidden from users>",
-			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
-			"Ignores Zone of Control<hidden from users>", 
-
-			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
-
-			"Unable to capture cities<hidden from users>",
-
-//			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
-			"Uncapturable <hidden from users>",
-//SUICIDE//95
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns><upon turn end>",
-
-			"Limited to [12] per Civilization <hidden from users>",
-    	    "Never appears as a Barbarian unit<hidden from users>"],
-//    	"promotions":["Ignore terrain cost"],
-    	"attackSound": "shot"
-    },
-
-
-    {
-    	"name": "TestBall96",
-    	"unitType": "Civilian",
-    	"movement": 10,
-		"requiredTech": "xsaUnlocker",
-//    	"requiredTech": "Replaceable Parts",
-//    	"obsoleteTech":"Advanced Ballistics",
-    	"cost": 200,
-    	"uniques": [
-            "[+6] Sight",
-
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2268,7 +2082,7 @@
     	"attackSound": "shot"
     },
     {
-    	"name": "TestBall97",
+    	"name": "TestBall93",
     	"unitType": "Civilian",
     	"movement": 10,
 		"requiredTech": "xsaUnlocker",
@@ -2276,8 +2090,6 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
-            "[+6] Sight",
-
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2304,7 +2116,7 @@
     	"attackSound": "shot"
     },
     {
-    	"name": "TestBall98",
+    	"name": "TestBall94",
     	"unitType": "Civilian",
     	"movement": 10,
 		"requiredTech": "xsaUnlocker",
@@ -2312,8 +2124,6 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
-            "[+6] Sight",
-
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2340,7 +2150,7 @@
     	"attackSound": "shot"
     },
     {
-    	"name": "TestBall99",
+    	"name": "TestBall95",
     	"unitType": "Civilian",
     	"movement": 10,
 		"requiredTech": "xsaUnlocker",
@@ -2348,8 +2158,6 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
-            "[+6] Sight",
-
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2375,6 +2183,8 @@
 //    	"promotions":["Ignore terrain cost"],
     	"attackSound": "shot"
     },
+
+
 
 
 
@@ -3951,25 +3761,19 @@
 
 
 /*
-//90
-            "[This Unit] takes [10] damage <upon turn end>",
 //91
+            "[This Unit] takes [10] damage <upon turn end>",
+//92
+            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
+//93
 			"[This Unit] takes [24] damage <every [1] turns>",
 			"[This Unit] takes [100] damage <every [5] turns>",
-//92
-			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [4] turns>",
-
-//93
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [3] turns>",
-
 //94
             "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns>",
+			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn start><every [5] turns>",
 //95
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns><upon turn end>",
+			"[This Unit] takes [24] damage <every [1] turns>",
+			"[This Unit] takes [100] damage <upon turn start><every [5] turns>",
 */
-
 

@@ -4125,7 +4125,7 @@
 		"requiredTech": "xsaUnlocker"
 	},
 	{
-		"name": "MiniCake TestSelf Dead",
+		"name": "MiniCake Spawn TestUnit",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -4133,31 +4133,8 @@
 		"uniques": [
 				"Sell [MiniCake Spawn TestUnit] buildings [in this city]",
 
-				"[1] free [TestBall90] units appear", 
 				"[1] free [TestBall91] units appear", 
 				"[1] free [TestBall92] units appear", 
-//				"[1] free [DNS Khan] units appear", 
-
-				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
-				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "xsaUnlocker"
-	},
-
-	{
-		"name": "MiniCake TestUnit status kill",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Sell [MiniCake Spawn TestUnit] buildings [in this city]",
-
 				"[1] free [TestBall93] units appear", 
 				"[1] free [TestBall94] units appear", 
 				"[1] free [TestBall95] units appear", 
