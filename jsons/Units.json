@@ -3332,6 +3332,9 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
+			],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -3346,6 +3349,9 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
+			],
 		"attackSound": "arrow"
 	},
 	{
@@ -3372,7 +3378,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
+		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -3385,6 +3393,9 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
+			],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -3399,6 +3410,9 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
+			],
 		"attackSound": "arrow"
 	},
 	{
@@ -3425,7 +3439,9 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
+		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 
