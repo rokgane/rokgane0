@@ -298,7 +298,41 @@ UnitIcons/TestBall95
   orig: 100, 100
   offset: 0, 0
   index: -1
-
+UnitIcons/TestBall96
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TestBall97
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TestBall98
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TestBall99
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TestBall90
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 
 HoHk2.png
 size: 2048, 2048
@@ -341,6 +375,41 @@ TileSets/FantasyHex/Units/TestBall94
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/TestBall95
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/TestBall96
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/TestBall97
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/TestBall98
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/TestBall99
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/TestBall90
   rotate: false
   xy: 1890, 1380
   size: 32, 28
