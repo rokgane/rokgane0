@@ -263,13 +263,6 @@ UnitIcons/Observation Balloon
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/TestBall90
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/TestBall91
   rotate: false
   xy: 1300, 220
@@ -305,34 +298,6 @@ UnitIcons/TestBall95
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/TestBall96
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/TestBall97
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/TestBall98
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/TestBall99
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 
 
 HoHk2.png
@@ -341,13 +306,6 @@ format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Units/Observation Balloon
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/TestBall90
   rotate: false
   xy: 1890, 1380
   size: 32, 28
@@ -390,34 +348,6 @@ TileSets/FantasyHex/Units/TestBall95
   offset: 0, 0
   index: -1
 
-TileSets/FantasyHex/Units/TestBall96
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/TestBall97
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/TestBall98
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/TestBall99
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 
 
 

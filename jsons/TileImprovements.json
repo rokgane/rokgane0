@@ -147,55 +147,6 @@
 	},
 
 
-
-
-
-
-
-
-
-	{
-		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Can be built outside your borders", 
-		    "Costs [1] [Gold] per turn"],
-		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
-        ]
-	},
-	{
-		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "Railroads",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-		    "Can be built outside your borders", 
-		    "Costs [2] [Gold] per turn"],
-		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
-            {"text":"Provides a +25% [Production] bonus to cities connected to the capital by Railroads"}
-        ]
-	},
-
-
-
-
-
-
-
     // Great Person improvements
 
 	{
@@ -664,7 +615,7 @@
 	},
 	{
 		"name": "T12 Desertify",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -674,7 +625,7 @@
 	},
 	{
 		"name": "T13 Snowify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -743,7 +694,7 @@
 	},
 	{
 		"name": "T32 Badlandsify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Permafrost","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -753,7 +704,7 @@
 	},
 	{
 		"name": "T33 Permafrostify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Wasteland","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -857,7 +808,7 @@
 	// Great Person improvements
 	{
 		"name": "DNS Academy",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"science": 16,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -880,7 +831,7 @@
 	},
 	{
 		"name": "DNS Landmark",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"culture": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -901,7 +852,7 @@
 	},
 	{
 		"name": "DNS Manufactory",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"production": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -923,7 +874,7 @@
 	},
 	{
 		"name": "DNS Customs house",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"gold": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -946,7 +897,7 @@
 	},
 	{
 		"name": "DNS Holy site",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"faith": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
@@ -968,7 +919,7 @@
 	},
 	{
 		"name": "DNS Citadel",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Badlands","Permafrost"],
 		"techRequired": "xsaUnlocker",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [175] damage <after discovering [xsaUnlocker]>",
@@ -991,18 +942,6 @@
 
 
 
-	{
-		"name": "Barbarian encampment",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"[3] free [Brute] units appear<every [3] turns><in tiles adjacent to [Land] tiles>", 
-			"[2] free [Galley] units appear<every [2] turns><in tiles adjacent to [Water] tiles>", 
-		    "Unpillagable", 
-		    "Unbuildable", 
-		    "Excluded from map editor"],
-		"requiredTech": "xsaUnlocker",
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-	}
 
 
 /*
