@@ -2023,6 +2023,8 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
+            "[+6] Sight",
+
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2056,6 +2058,8 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
+            "[+6] Sight",
+
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2090,6 +2094,8 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
+            "[+6] Sight",
+
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2124,6 +2130,8 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
+            "[+6] Sight",
+
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
@@ -2158,6 +2166,8 @@
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
+            "[+6] Sight",
+
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
