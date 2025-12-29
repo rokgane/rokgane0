@@ -1,0 +1,320 @@
+gameUnitIcons.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+UnitIcons/DNS Carrier
+  rotate: false
+  xy: 406, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Guided Rocket
+  rotate: false
+  xy: 838, 852
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Guided Missile
+  rotate: false
+  xy: 838, 852
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Missile P2
+  rotate: false
+  xy: 1054, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Missile P5
+  rotate: false
+  xy: 1054, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Missile P8
+  rotate: false
+  xy: 1054, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Helicopter Gunship
+  rotate: false
+  xy: 946, 1284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Jet Fighter
+  rotate: false
+  xy: 1172, 1828
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Stealth Bomber
+  rotate: false
+  xy: 1702, 748
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Destroyer
+  rotate: false
+  xy: 752, 1426
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Battleship
+  rotate: false
+  xy: 644, 1642
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Missile Cruiser
+  rotate: false
+  xy: 1616, 1612
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Submarine
+  rotate: false
+  xy: 1054, 528
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Modern Armor
+  rotate: false
+  xy: 1616, 1504
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Mechanized Infantry
+  rotate: false
+  xy: 1508, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Mobile SAM
+  rotate: false
+  xy: 1508, 1396
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Rocket Artillery
+  rotate: false
+  xy: 1594, 1072
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Work Boats
+  rotate: false
+  xy: 1918, 424
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Worker
+  rotate: false
+  xy: 1918, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Settler
+  rotate: false
+  xy: 1270, 538
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Scout
+  rotate: false
+  xy: 1594, 964
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Missionary
+  rotate: false
+  xy: 1724, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Inquisitor
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Admiral
+  rotate: false
+  xy: 730, 670
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Artist
+  rotate: false
+  xy: 514, 346
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Engineer
+  rotate: false
+  xy: 622, 454
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great General
+  rotate: false
+  xy: 622, 352
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Merchant
+  rotate: false
+  xy: 730, 454
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Prophet
+  rotate: false
+  xy: 860, 1392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Great Scientist
+  rotate: false
+  xy: 838, 1284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Khan
+  rotate: false
+  xy: 1388, 1828
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 730, 670
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS War Bomber
+  rotate: false
+  xy: 838, 1068
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri1
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri2
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri3
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri4
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri5
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri6
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri7
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Checkeri8
+  rotate: false
+  xy: 169, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Brute
+  rotate: false
+  xy: 190, 1296
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Skirmisher
+  rotate: false
+  xy: 1162, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Galley
+  rotate: false
+  xy: 730, 886
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/High Marauder
+  rotate: false
+  xy: 1400, 1720
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
