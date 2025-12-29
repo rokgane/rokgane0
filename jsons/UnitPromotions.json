@@ -254,16 +254,16 @@
 	{
 		"name": "FakeWeak",
 		"uniques": [
-				"Can move after attacking",
-				"Can see over obstacles",
-				"Ranged attacks may be performed over obstacles",
-				"May heal outside of friendly territory",
-				"Unit will heal every turn, even if it performs an action",
+				"Can move after attacking<for [Human player] Civilizations>",
+				"Can see over obstacles<for [Human player] Civilizations>",
+				"Ranged attacks may be performed over obstacles<for [Human player] Civilizations>",
+				"May heal outside of friendly territory<for [Human player] Civilizations>",
+				"Unit will heal every turn, even if it performs an action<for [Human player] Civilizations>",
 
-				"[+99]% Strength <vs [All] units><when defending>",
-				"[-99]% Strength <when not at war>",
-				"[+9999]% Strength <when not at war><vs [Barbarians]>", 
-				"[+9999]% Strength <when at war>",
+				"[+99]% Strength <vs [All] units><when defending><for [Human player] Civilizations>",
+				"[+9999]% Strength <when at war><for [Human player] Civilizations>",
+				"[-99]% Strength <when not at war><for [Human player] Civilizations>",
+				"[+9999]% Strength <when not at war><vs [Barbarians]><for [Human player] Civilizations>", 
 
     			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>"

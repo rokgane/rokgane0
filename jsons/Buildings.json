@@ -4549,7 +4549,7 @@
 		    	"[Civilian] units gain the [TrialStatus] promotion",
 		    	"[Military] units gain the [TrialStatus] promotion",
 
-//				"Limited to [1] per Civilization <hidden from users>",
+				"Limited to [3] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
