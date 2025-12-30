@@ -521,6 +521,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -541,6 +563,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -561,6 +605,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -579,6 +645,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -597,6 +685,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -614,6 +724,28 @@
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -629,6 +761,28 @@
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"techRequired": "Refrigeration",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -644,6 +798,28 @@
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -660,6 +836,28 @@
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -675,6 +873,28 @@
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -692,6 +912,28 @@
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -708,6 +950,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -725,6 +989,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -742,6 +1028,28 @@
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -761,6 +1069,28 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -782,6 +1112,28 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -804,6 +1156,28 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
 		"turnsToBuild": 7,
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
@@ -828,6 +1202,28 @@
 		"turnsToBuild": 7,
 		"techRequired": "xsaUnlocker",//Fertilizer
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Can be built outside your borders",
 			"Turn this tile into a [Forest] tile",
 			"Does not need removal of [Trading post] <hidden from users>",
@@ -842,6 +1238,28 @@
 		"turnsToBuild": 10,
 		"techRequired": "xsaUnlocker",//Fertilizer
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Can be built outside your borders",
 			"Turn this tile into a [Jungle] tile",
 			"Does not need removal of [Trading post] <hidden from users>",
@@ -868,6 +1286,28 @@
         "Happiness": 1
         "turnsToBuild": 5,
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -905,6 +1345,28 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [80] damage <after discovering [xsaUnlocker]>",
@@ -921,6 +1383,28 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [90] damage <after discovering [xsaUnlocker]>",
@@ -937,6 +1421,28 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [100] damage <after discovering [xsaUnlocker]>",
@@ -1178,6 +1684,28 @@
 		"science": 16,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
             "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -1201,6 +1729,28 @@
 		"culture": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
             "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -1222,6 +1772,28 @@
 		"production": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
             "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -1244,6 +1816,28 @@
 		"gold": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
             "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -1267,6 +1861,28 @@
 		"faith": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
             "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
 
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
@@ -1288,6 +1904,28 @@
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"techRequired": "xsaUnlocker",
 		"uniques": [
+ 		    "Cannot be built on [TI11 Camp] tiles",
+ 		    "Cannot be built on [TI12 Oil well] tiles",
+ 		    "Cannot be built on [TI13 Offshore Platform] tiles",
+ 		    "Cannot be built on [TI14 Pasture] tiles",
+ 		    "Cannot be built on [TI15 Plantation] tiles",
+ 		    "Cannot be built on [TI16 Quarry] tiles",
+ 		    "Cannot be built on [TI17 Fishing Boats] tiles",
+ 		    "Cannot be built on [TI18 Farm] tiles",
+ 		    "Cannot be built on [TI19 Mine] tiles",
+ 		    "Cannot be built on [TI20 Fort] tiles",
+
+ 		    "Cannot be built on [DNS FunFort01] tiles",
+ 		    "Cannot be built on [DNS FunFort02] tiles",
+ 		    "Cannot be built on [DNS FunFort03] tiles",
+
+ 		    "Cannot be built on [DNS Academy] tiles",
+ 		    "Cannot be built on [DNS Landmark] tiles",
+ 		    "Cannot be built on [DNS Manufactory] tiles",
+ 		    "Cannot be built on [DNS Customs house] tiles",
+ 		    "Cannot be built on [DNS Holy site] tiles",
+ 		    "Cannot be built on [DNS Citadel] tiles",
+
 		    "Adjacent enemy units ending their turn take [175] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
