@@ -245,12 +245,6 @@
 
 
 
-
-
-
-
-
-
 	{
 		"name": "FakeWeak",
 		"uniques": [
@@ -260,10 +254,12 @@
 				"May heal outside of friendly territory<for [Human player] Civilizations>",
 				"Unit will heal every turn, even if it performs an action<for [Human player] Civilizations>",
 
-				"[+99]% Strength <vs [All] units><when defending><for [Human player] Civilizations>",
 				"[+9999]% Strength <when at war><for [Human player] Civilizations>",
 				"[-99]% Strength <when not at war><for [Human player] Civilizations>",
-				"[+9999]% Strength <when not at war><vs [Barbarians]><for [Human player] Civilizations>", 
+				"[+9999]% Strength <when attacking><for [Human player] Civilizations>",
+				"[+9999]% Strength <when defending><for [Human player] Civilizations>",
+				"[+9999]% Strength <vs [Hostile]><for [Human player] Civilizations>",
+				"[+9999]% Strength <vs [Barbarians]><for [Human player] Civilizations>",
 
     			"Unavailable <for [AI player] Civilizations> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -313,7 +309,7 @@
 		"uniques": [
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 			//buff paradrop
-				"May Paradrop to [{Ocean} {Coast}] tiles up to [15] tiles away"
+				"May Paradrop to [{Lakes} {Ocean} {Coast}] tiles up to [15] tiles away"
 				]
 	},
 
@@ -799,6 +795,8 @@
 	{
 		"name": "TrialStatus",
 		"uniques": [
+//    		"[+10] Movement",
+	    	"[1] free [Brute] units appear <when defending>", 
 
 //for Ai
 /*
@@ -812,8 +810,8 @@
 			"Unavailable <for [AI player] Civilizations>",
 //*/
 
-//	    		"[This Unit] loses the [TrialStatus] status <if [MiniCake TrialTown] is not constructed>",
-    			"[+10] Movement"
+			  "Only available <for [Human player] Civilizations> <hidden from users>"
+
 				]
 	},
 

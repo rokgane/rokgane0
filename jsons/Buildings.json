@@ -1324,7 +1324,13 @@
 		"isWonder": true,
 //		"specialistSlots": {"Townie": 10},
 		"uniques": [
-            "May buy [Military] units with [Gold] for [1] times their normal Production cost",
+			"[1] free [Revealer] units appear", 
+
+			"[Air] units gain the [Paradrop Assistance Air] promotion",
+			"[Land] units gain the [Paradrop Assistance Land] promotion",
+			"[Water] units gain the [Paradrop Assistance Water] promotion",
+
+			"May buy [Military] units with [Gold] for [1] times their normal Production cost",
             "May buy [Civilian] units with [Gold] for [1] times their normal Production cost",
 
             "May buy [Military] units with [Culture] for [1] times their normal Production cost",
@@ -2119,6 +2125,7 @@
 				"Provides [10] [RB05 Wheat]",
 				"Provides [10] [RB06 Stone]",
 				"Provides [10] [RB07 Fish]",
+				"Provides [10] [RB08 Bison]",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
@@ -2199,6 +2206,7 @@
 				"Provides [10] [RL18 Crab]",
 				"Provides [10] [RL19 Salt]",
 				"Provides [10] [RL20 Truffles]",
+				"Provides [10] [RL21 Cocoa]",
 
 				"Provides [10] [RLCS01 Jewelry]",
 				"Provides [10] [RLCS02 Porcelain]",
@@ -2297,6 +2305,7 @@
 				"Provides [8000] [RB05 Wheat]",
 				"Provides [8000] [RB06 Stone]",
 				"Provides [8000] [RB07 Fish]",
+				"Provides [8000] [RB08 Bison]",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
@@ -2377,6 +2386,7 @@
 				"Provides [8000] [RL18 Crab]",
 				"Provides [8000] [RL19 Salt]",
 				"Provides [8000] [RL20 Truffles]",
+				"Provides [8000] [RL21 Cocoa]",
 
 				"Provides [8000] [RLCS01 Jewelry]",
 				"Provides [8000] [RLCS02 Porcelain]",
@@ -2605,12 +2615,12 @@
 //			"Unavailable <in cities with a [MiniCake Buff Basic Assistance]><hidden from users>",
 			"Unavailable <in cities with a [MiniCake Buff Civilian Assistance]><hidden from users>",
 			"Unavailable <in cities with a [MiniCake Buff Military Assistance]><hidden from users>",
-
+/*
 			"[Air] units gain the [Paradrop Assistance Air] promotion",
 			"[Land] units gain the [Paradrop Assistance Land] promotion",
 			"[Water] units gain the [Paradrop Assistance Water] promotion",
 //			"May Paradrop to [All] tiles up to [10] tiles away",
-
+*/
 			"[{non-air} {Military}] units gain the [Home Sweet Home] promotion",
 			"[{Fighter} {Military}] units gain the [Home Sweet Home] promotion",
 			"[{Bomber} {Military}] units gain the [Home Sweet Home] promotion",
@@ -4274,18 +4284,16 @@
 		"requiredTech": "xsaUnlocker"
 	},	
 
-
-
 	{
-		"name": "MiniCake Spawn Scout Team",
+		"name": "MiniCake Spawn Revealer",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Sell [MiniCake Spawn Scout Team] buildings [in this city]",
+				"Sell [MiniCake Spawn Revealer] buildings [in this city]",
 
-				"[3] free [Observation Balloon] units appear", 
+				"[3] free [Revealer] units appear", 
 //				"[1] free [DNS Khan] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
@@ -4298,6 +4306,29 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
+
+	{
+		"name": "MiniCake Spawn Observar",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn Observar] buildings [in this city]",
+
+				"[3] free [Observar] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+
 	{
 		"name": "MiniCake TestSelf Suicide",
 		"requiredBuilding": "MiniCake DNS Vault",
@@ -4371,6 +4402,52 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
+	{
+		"name": "MiniCake TestUnit spawn workerLand",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake TestUnit spawn workerLand] buildings [in this city]",
+
+	    	"[5] free [DNS Worker Land Class 3] units appear", 
+//			"Gain a free [DNS Worker Land Class 3] [in capital] <by consuming this unit>",
+//            "Free [DNS Worker Land Class 3] appears <by consuming this unit>",
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "MiniCake TestUnit spawn workerBoat",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake TestUnit spawn workerBoat] buildings [in this city]",
+
+	    	"[5] free [DNS Worker Boat Class 3] units appear", 
+//			"Gain a free [DNS Worker Boat Class 3] [in capital] <by consuming this unit>",
+//            "Free [DNS Worker Boat Class 3] appears <by consuming this unit>",
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 	{
 		"name": "MiniCake Spawn Fleet Checkeri",
 		"requiredBuilding": "MiniCake DNS Lock",
@@ -6362,17 +6439,27 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+        		"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities] <during the [Ancient era]>",
+        		"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities] <during the [Classical era]>",
+        		"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities] <during the [Medieval era]>",
+        		"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
+        		"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities] <during the [Industrial era]>",
+        		"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities] <during the [Modern era]>",
+        		"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities] <during the [Atomic era]>",
+        		"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities] <during the [Information era]>",
+
 				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
 			],
 		"requiredTech": "xsaUnlocker"
 	},
 
+/*
 	{
 		"name": "1 HumanAutomateBuildingEra Ancient",
 //		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
@@ -6589,7 +6676,7 @@
 		],
 		"requiredTech": "xsaUnlocker"
 	},
-
+*/
 
 
 

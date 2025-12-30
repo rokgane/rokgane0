@@ -263,6 +263,34 @@ UnitIcons/Observation Balloon
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Observar Balloon
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Observar
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Revealer Balloon
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Revealer
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/TestBallo91
   rotate: false
   xy: 1300, 220
@@ -340,6 +368,34 @@ format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Units/Observation Balloon
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Observar Balloon
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Observar
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Revealer Balloon
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Revealer
   rotate: false
   xy: 1890, 1380
   size: 32, 28

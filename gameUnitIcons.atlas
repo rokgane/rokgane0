@@ -318,3 +318,17 @@ UnitIcons/High Marauder
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/DNS Worker Land Class 3
+  rotate: false
+  xy: 1918, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Worker Boat Class 3
+  rotate: false
+  xy: 1918, 424
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

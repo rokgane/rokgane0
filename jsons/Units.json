@@ -1633,7 +1633,7 @@
 			"Uncapturable", 
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
-			"Limited to [2] per Civilization"
+			"Limited to [5] per Civilization"
 			],
 		"cost": 70,
 		
@@ -1677,7 +1677,7 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"Limited to [3] per Civilization",
+			"Limited to [5] per Civilization",
 			"May upgrade to [Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
 			],
@@ -2479,7 +2479,7 @@
 
 
     {
-    	"name": "Observation Balloon",
+    	"name": "Observar",
     	"unitType": "Civilian",
     	"movement": 10,
 		"requiredTech": "xsaUnlocker",
@@ -2507,19 +2507,48 @@
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [8] damage <upon turn end>",
-/*
-            "[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><upon turn end>",
 
-			"[This Unit] takes [24] damage <every [1] turns><hidden from users>",
-			"[This Unit] takes [100] damage <every [5] turns><hidden from users>",
-*/
 			"Limited to [12] per Civilization <hidden from users>",
     	    "Never appears as a Barbarian unit<hidden from users>"],
 //    	"promotions":["Ignore terrain cost"],
     	"attackSound": "shot"
     },
 
+    {
+    	"name": "Revealer",
+    	"unitType": "Civilian",
+    	"movement": 10,
+		"requiredTech": "xsaUnlocker",
+//    	"requiredTech": "Replaceable Parts",
+//    	"obsoleteTech":"Advanced Ballistics",
+    	"cost": 200,
+    	"uniques": [
+    	    "[+30] Sight",
+			"Can see over obstacles",
+			"Can see invisible [All] units<hidden from users>",
+
+			"Can enter ice tiles",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+			"May enter foreign tiles without open borders<hidden from users>",
+
+			"Ignores Zone of Control<hidden from users>", 
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+//SUICIDE
+			"[This Unit] takes [60] damage <upon turn end>",
+
+			"Limited to [12] per Civilization <hidden from users>",
+    	    "Never appears as a Barbarian unit<hidden from users>"],
+//    	"promotions":["Ignore terrain cost"],
+    	"attackSound": "shot"
+    },
 
 	{
 		"name": "DNS Flyer",
@@ -4009,6 +4038,13 @@
 		"name": "Angel",
 		"unitType": "DNSCivilianAir",
 		"uniques": [
+			"Adopt [Pan00 Worship of Cendabi]<by consuming this unit>",
+			"Adopt [Fou00 Faith of Cendabi]<by consuming this unit>",
+			"Adopt [Fol00 Will of Cendabi]<by consuming this unit>",
+			"Adopt [ENH00 Military of Cendabi]<by consuming this unit>",
+
+			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>",
+
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
 			"Limited to [1] per Civilization <hidden from users>",
@@ -4018,7 +4054,6 @@
 			"Uncapturable <hidden from users>",
 //			"Reveals the entire map",
 //			"Only available <for [Human player] Civilizations> <hidden from users>",
-			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>"
 		],
 		"movement": 2
 	}
@@ -4026,7 +4061,54 @@
 	
 
 
+//DNS Worker
+	{
+		"name": "DNS Worker Land Class 3",
+		"unitType": "DNSCivilianLand",
+		"movement": 3,
+		"requiredTech": "xsaUnlocker",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
 
+			"Limited to [50] per Civilization <hidden from users>",
+			"Withdraws before melee combat <with [99]% chance>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Never appears as a Barbarian unit",
+			"Automation is a primary action",
+			"Can build [Land] improvements on tiles", 
+			"Unavailable <hidden from users>",
+			"Uncapturable", 
+			"Can see over obstacles <before the [Classical era]>"
+//			"Limited to [2] per Civilization"
+			],
+		"cost": 70,
+		
+	},
+
+//DNS Work Boats
+	{
+		"name": "DNS Worker Boat Class 3",
+		"unitType": "DNSCivilianWater",
+		"movement": 5,
+		"cost": 30,
+		"requiredTech": "xsaUnlocker",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+
+			"Limited to [50] per Civilization <hidden from users>",
+//			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"Withdraws before melee combat <with [99]% chance>",
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+			"Never appears as a Barbarian unit",
+			"Automation is a primary action",
+//			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles", 
+			"Unavailable <hidden from users>",
+			"Uncapturable", 
+			"Can see over obstacles <before the [Classical era]>"
+//			"Limited to [5] per Civilization"
+		   ]
+	},
 
 	
 	
