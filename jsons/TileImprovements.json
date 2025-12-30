@@ -2273,37 +2273,3 @@ Barbarian encampment
 //xsa//removed
 
 
-
-
-			"Unbuildable <in [Foreign] tiles>",
-//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
-			"Unbuildable <in [TI11 Camp] tiles>",
-			"Unbuildable <in [TI12 Oil well] tiles>",
-			"Unbuildable <in [TI13 Offshore Platform] tiles>",
-			"Unbuildable <in [TI14 Pasture] tiles>",
-			"Unbuildable <in [TI15 Plantation] tiles>",
-			"Unbuildable <in [TI16 Quarry] tiles>",
-			"Unbuildable <in [TI17 Fishing Boats] tiles>",
-			"Unbuildable <in [TI18 Farm] tiles>",
-			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
-
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
-
-			"Unbuildable <in [DNS Academy] tiles>",
-			"Unbuildable <in [DNS Landmark] tiles>",
-			"Unbuildable <in [DNS Manufactory] tiles>",
-			"Unbuildable <in [DNS Customs house] tiles>",
-			"Unbuildable <in [DNS Holy site] tiles>",
-			"Unbuildable <in [DNS Citadel] tiles>",
-
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
-
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
-
-			"Will not be replaced by automated units", 
