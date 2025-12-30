@@ -4735,76 +4735,7 @@ TileSets/HexaRealm/Tiles/RL20 Truffles+TI11 CampT-Industrial era
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/DNS Worker Land Class 3
-  rotate: false
-  xy: 1180, 625
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker Land Class 3-Barbarians
-  rotate: false
-  xy: 1220, 976
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker Land Class 3-Barbarians-Modern era
-  rotate: false
-  xy: 1220, 976
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker Land Class 3-Modern era
-  rotate: false
-  xy: 1220, 940
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker Land Class 3
-  rotate: false
-  xy: 1534, 1692
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker Land Class 3-Modern era
-  rotate: false
-  xy: 580, 352
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker Boat Class 3
-  rotate: false
-  xy: 1180, 697
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker Boat Class 3-Modern era
-  rotate: false
-  xy: 1180, 661
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker Boat Class 3
-  rotate: false
-  xy: 508, 74
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker Boat Class 3-Modern era
-  rotate: false
-  xy: 508, 10
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
+
 
 
 
