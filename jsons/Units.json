@@ -4038,13 +4038,12 @@
 		"name": "Angel",
 		"unitType": "DNSCivilianAir",
 		"uniques": [
-
+/*
 			"Adopt [Pan00 Worship of Cendabi]",
 			"Adopt [Fou00 Faith of Cendabi]",
 			"Adopt [Fol00 Will of Cendabi]",
 			"Adopt [ENH00 Military of Cendabi]",
-
-
+*/
 			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>",
 
 			"[+150]% Strength <when attacking>", 
@@ -4112,29 +4111,88 @@
 		   ]
 	},
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "DNS Fighter Zero",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 2,
+		"interceptRange": 3,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+		    "[100]% chance to intercept air attacks", 
+		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [Helicopter] units>"
+		    ],
+		"promotions": [
+		    "[Zero] ability"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "DNS Bomber B17",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 375,
+		"requiredTech": "xsaUnlocker",
+		"uniques": [
+            "Damage taken from interception reduced by [80]%",
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>"
+		    ],
+		"promotions": [
+		    "Evasion", 
+		    "Siege I"
+		    ],
+		"attackSound": "bombing"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]//xsa//end
 
 
   //xsa//

@@ -1401,10 +1401,12 @@
 				"Can only be built <in [Capital] cities> <hidden from users>",
 //				"Unbuildable <hidden from users>",
 
+/*
 				"Adopt [Pan00 Worship of Cendabi]",
 				"Adopt [Fou00 Faith of Cendabi]",
 				"Adopt [Fol00 Will of Cendabi]",
 				"Adopt [ENH00 Military of Cendabi]",
+*/
 
 		    	"[Civilian] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
 		    	"[Military] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
@@ -1959,17 +1961,17 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-            	"May choose [2] additional belief(s) of any type when [founding] a religion",
-            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
+//            	"May choose [2] additional belief(s) of any type when [founding] a religion",
+//            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
 
 				"[3] free [DNS Great Prophet] units appear",
 				"[-500000]% Natural religion spread [in this cities]",
-
+/*
 				"Adopt [Pan00 Worship of Cendabi] <for [Human player] Civilizations>",
 				"Adopt [Fou00 Faith of Cendabi] <for [Human player] Civilizations>",
 				"Adopt [Fol00 Will of Cendabi] <for [Human player] Civilizations>",
 				"Adopt [ENH00 Military of Cendabi] <for [Human player] Civilizations>",
-
+*/
 				"Only available <in cities with a [MiniCake Religion]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -2923,6 +2925,273 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
+
+	{
+		"name": "MiniCake UnitPromotion",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+		"Only available <in cities with a [MiniCake UnitBuff]> <hidden from users>",
+
+		"Can only be built <in [Capital] cities> <hidden from users>",
+		"All newly-trained [Siege] units [in all cities] receive the [Accuracy I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy I] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Accuracy II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy II] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Accuracy III] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy III] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy III] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Barrage I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage I] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Barrage II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage II] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Barrage III] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage III] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage III] promotion",
+
+		"All newly-trained [Siege] units [in all cities] receive the [Volley] promotion",
+
+		"All newly-trained [Archery] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Submarine] units [in all cities] receive the [Extended Range] promotion",
+
+		"All newly-trained [Archery] units [in all cities] receive the [Indirect Fire] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Indirect Fire] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [Indirect Fire] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Indirect Fire] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Shock I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock I] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Shock I] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Shock II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock II] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Shock II] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Shock II] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Shock III] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock III] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Shock III] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Shock III] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Drill I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill I] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Drill I] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Drill I] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Drill II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill II] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Drill II] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Drill II] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Drill III] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill III] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Drill III] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Drill III] promotion",
+
+		"All newly-trained [Mounted] units [in all cities] receive the [Charge] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Charge] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Besiege] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Besiege] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Formation I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Formation I] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Formation I] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Formation II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Formation II] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Formation II] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Formation III] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Formation III] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Formation III] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Blitz] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Blitz] promotion",
+		"All newly-trained [Sword] units [in all cities] receive the [Blitz] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Blitz] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Woodsman] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Woodsman] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Amphibious] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Amphibious] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Medic] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Medic] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Medic] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Medic] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Medic II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Medic II] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Medic II] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Medic II] promotion",
+
+		"All newly-trained [Scout] units [in all cities] receive the [Scouting I] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Scouting II] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Scouting III] promotion",
+
+		"All newly-trained [Scout] units [in all cities] receive the [Survivalism I] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Survivalism II] promotion",
+		"All newly-trained [Scout] units [in all cities] receive the [Survivalism III] promotion",
+
+		"All newly-trained [Melee Water] units [in all cities] receive the [Boarding Party I] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Boarding Party II] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Boarding Party III] promotion",
+
+		"All newly-trained [Melee Water] units [in all cities] receive the [Coastal Raider I] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Coastal Raider II] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Coastal Raider III] promotion",
+
+		"All newly-trained [Melee Water] units [in all cities] receive the [Landing Party] promotion",
+
+		"All newly-trained [Melee Water] units [in all cities] receive the [Targeting I] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Targeting II] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Targeting III] promotion",
+
+		"All newly-trained [Submarine] units [in all cities] receive the [Wolfpack I] promotion",
+		"All newly-trained [Submarine] units [in all cities] receive the [Wolfpack II] promotion",
+		"All newly-trained [Submarine] units [in all cities] receive the [Wolfpack III] promotion",
+
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Armor Plating I] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Armor Plating II] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Armor Plating III] promotion",
+
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck I] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck II] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck III] promotion",
+
+		"All newly-trained [Melee Water] units [in all cities] receive the [Supply] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Supply] promotion",
+
+		"All newly-trained [Bomber] units [in all cities] receive the [Siege I] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Siege II] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Siege III] promotion",
+
+		"All newly-trained [Bomber] units [in all cities] receive the [Evasion] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Interception I] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Interception II] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Interception III] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Dogfighting II] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Dogfighting III] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Air Targeting I] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Air Targeting II] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Air Targeting I] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Air Targeting II] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Sortie] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Operational Range] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Operational Range] promotion",
+
+		"All newly-trained [Fighter] units [in all cities] receive the [Air Repair] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Air Repair] promotion",
+		"All newly-trained [Helicopter] units [in all cities] receive the [Air Repair] promotion",
+
+		"All newly-trained [Helicopter] units [in all cities] receive the [Mobility I] promotion",
+		"All newly-trained [Helicopter] units [in all cities] receive the [Mobility II] promotion",
+
+		"All newly-trained [Helicopter] units [in all cities] receive the [Anti-Armor I] promotion",
+		"All newly-trained [Helicopter] units [in all cities] receive the [Anti-Armor II] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [Cover I] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [Cover II] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [March] promotion",
+
+        "All newly-trained [Mounted] units [in all cities] receive the [Mobility] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Mobility] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Mobility] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Mobility] promotion",
+		"All newly-trained [Submarine] units [in all cities] receive the [Mobility] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Armored] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Sentry] promotion",
+
+		"All newly-trained [Archery] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Siege] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Melee Water] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Submarine] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Helicopter] units [in all cities] receive the [Logistics] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Ambush I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Ambush I] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Ambush I] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Ambush I] promotion",
+
+		"All newly-trained [Sword] units [in all cities] receive the [Ambush II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Ambush II] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Ambush II] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Ambush II] promotion",
+
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Bombardment I] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Bombardment I] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Bombardment I] promotion",
+
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Bombardment II] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Bombardment II] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Bombardment II] promotion",
+
+		"All newly-trained [Ranged Water] units [in all cities] receive the [Bombardment III] promotion",
+		"All newly-trained [Fighter] units [in all cities] receive the [Bombardment III] promotion",
+		"All newly-trained [Bomber] units [in all cities] receive the [Bombardment III] promotion",
+
+			"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},	
+
+
+
+
+
+
 
 
 
@@ -9096,6 +9365,7 @@ MiniCake UnitBuff
 MiniCake Buff Basic Assistance
 MiniCake Buff Civilian Assistance
 MiniCake Buff Military Assistance
+MiniCake UnitPromotion
 
 HackTown For Human!
 HackTown For Enema!

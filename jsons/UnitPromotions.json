@@ -288,12 +288,13 @@
 
 
 
+
 	{
 		"name": "Paradrop Assistance Land",
 		"uniques": [
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 			//buff paradrop
-				"May Paradrop to [{Grassland} {Plains} {Tundra} {Desert} {Lakes} {Snow}] tiles up to [15] tiles away"
+				"May Paradrop to [{Grassland} {Plains} {Tundra} {Desert} {Lakes} {Ocean} {Coast} {Snow} {Wasteland} {Badlands} {Permafrost} ] tiles up to [15] tiles away"
 				]
 	},
 	{
@@ -301,7 +302,7 @@
 		"uniques": [
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 			//buff paradrop
-				"May Paradrop to [{Ocean} {Coast} {Grassland} {Plains} {Tundra} {Desert} {Lakes} {Snow}] tiles up to [15] tiles away"
+				"May Paradrop to [{Grassland} {Plains} {Tundra} {Desert} {Lakes} {Ocean} {Coast} {Snow} {Wasteland} {Badlands} {Permafrost} ] tiles up to [15] tiles away"
 				]
 	},
 	{
@@ -825,6 +826,29 @@
 		]
 	},
 ]//xsa//end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

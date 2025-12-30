@@ -332,3 +332,17 @@ UnitIcons/DNS Worker Land Class 3
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/DNS Fighter Zero
+  rotate: false
+  xy: 1918, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Bomber B17
+  rotate: false
+  xy: 700, 1750
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
