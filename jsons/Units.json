@@ -4038,10 +4038,12 @@
 		"name": "Angel",
 		"unitType": "DNSCivilianAir",
 		"uniques": [
-			"Adopt [Pan00 Worship of Cendabi]<by consuming this unit>",
-			"Adopt [Fou00 Faith of Cendabi]<by consuming this unit>",
-			"Adopt [Fol00 Will of Cendabi]<by consuming this unit>",
-			"Adopt [ENH00 Military of Cendabi]<by consuming this unit>",
+
+			"Adopt [Pan00 Worship of Cendabi]",
+			"Adopt [Fou00 Faith of Cendabi]",
+			"Adopt [Fol00 Will of Cendabi]",
+			"Adopt [ENH00 Military of Cendabi]",
+
 
 			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>",
 

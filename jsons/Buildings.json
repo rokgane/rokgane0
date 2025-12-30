@@ -1959,7 +1959,10 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"[2] free [DNS Great Prophet] units appear",
+            	"May choose [2] additional belief(s) of any type when [founding] a religion",
+            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
+
+				"[3] free [DNS Great Prophet] units appear",
 				"[-500000]% Natural religion spread [in this cities]",
 
 				"Adopt [Pan00 Worship of Cendabi] <for [Human player] Civilizations>",
