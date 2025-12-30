@@ -2567,7 +2567,7 @@
 	},
 
 	{
-		"name": "MiniCake Border Expander",
+		"name": "MiniCake Border Expander Basic",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2593,6 +2593,33 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
+
+	{
+		"name": "MiniCake Border Expander Ultimate",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"[+9999]% [Culture] [in this city]", 
+
+//		    	"[-50]% Culture cost of natural border growth [in this city]",
+
+//				"Gain control over [all] tiles in a [25]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Expander Basic]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 
 
 
