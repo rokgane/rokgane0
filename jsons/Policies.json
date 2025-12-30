@@ -853,7 +853,7 @@
 				"uniques": [
 					"[35]% [Gold] [in puppeted cities]",
 //					"[35]% maintenance cost for buildings [in puppeted cities]",
-                	"[-35]% maintenance cost for [All] buildings [in puppeted city]",
+                	"[-35]% maintenance cost for [All] buildings [in puppeted cities]",
 					"[+5]% Production when constructing [all] buildings [in puppeted cities]"
 				]
 			},
