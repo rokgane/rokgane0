@@ -1712,6 +1712,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+
+				"Gain a free [MiniCake DNS locked Unit] [in this city]",
+
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -1725,7 +1728,25 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
-
+    {
+		"name": "MiniCake DNS locked Unit",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 
 
 
@@ -3990,108 +4011,140 @@
 
 
 
-	{
+
+
+    {
 		"name": "MiniCake DNS locked Air",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit Air] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
 	{
 		"name": "MiniCake DNS locked Land",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit Land] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
 	{
 		"name": "MiniCake DNS locked Water",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit Water] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
 	{
 		"name": "MiniCake DNS locked Nuke",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit Nuke] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
 	{
 		"name": "MiniCake DNS locked GPeople",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit GPeople] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
-	{
+    {
 		"name": "MiniCake DNS locked TheRest",
+		"requiredBuilding": "MiniCake DNS locked Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
 				"Sell [MiniCake DNS Unit TheRest] buildings [in this city]",
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
 	},
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4110,6 +4163,13 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 
+				"Gain a free [MiniCake DNS Unit Air] [in this city]",
+				"Gain a free [MiniCake DNS Unit Land] [in this city]",
+				"Gain a free [MiniCake DNS Unit Water] [in this city]",
+				"Gain a free [MiniCake DNS Unit Nuke] [in this city]",
+				"Gain a free [MiniCake DNS Unit GPeople] [in this city]",
+				"Gain a free [MiniCake DNS Unit TheRest] [in this city]",
+
 				"Sell [MiniCake DNS locked Air] buildings [in this city]",
 				"Sell [MiniCake DNS locked Land] buildings [in this city]",
 				"Sell [MiniCake DNS locked Water] buildings [in this city]",
@@ -4126,7 +4186,7 @@
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "xsaUnlocker"
@@ -4134,11 +4194,20 @@
 
 	{
 		"name": "MiniCake DNS locked AllShite",
+		"requiredBuilding": "MiniCake DNS locked Unit",
+l
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS locked Unit]> <hidden from users>",
+
+				"Gain a free [MiniCake DNS locked Air] [in this city]",
+				"Gain a free [MiniCake DNS locked Land] [in this city]",
+				"Gain a free [MiniCake DNS locked Water] [in this city]",
+				"Gain a free [MiniCake DNS locked Nuke] [in this city]",
+				"Gain a free [MiniCake DNS locked GPeople] [in this city]",
+				"Gain a free [MiniCake DNS locked TheRest] [in this city]",
 
 				"Sell [MiniCake DNS Unit Air] buildings [in this city]",
 				"Sell [MiniCake DNS Unit Land] buildings [in this city]",
@@ -4159,6 +4228,14 @@
 			],
 		"requiredTech": "xsaUnlocker"
 	},
+
+
+
+
+
+
+
+
 
 
 
@@ -6258,6 +6335,282 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "MiniCake HumanAutomateBuilding Main",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<users>",
+				"Destroyed when the city is captured <hien from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+
+	{
+		"name": "1 HumanAutomateBuildingEra Ancient",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "2 HumanAutomateBuildingEra Classical",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "3 HumanAutomateBuildingEra Medieval",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "4 HumanAutomateBuildingEra Renaissance",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "5 HumanAutomateBuildingEra Industrial",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "6 HumanAutomateBuildingEra Modern",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "7 HumanAutomateBuildingEra Atomic",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "8 HumanAutomateBuildingEra Information",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
+		"name": "9 HumanAutomateBuildingEra Future",
+//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
+
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "xsaUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //xsa//Human Inhibitor
 	{
 		"name": "MiniCake HumanAdvanceEra Main",
@@ -6502,7 +6855,7 @@
 			"Gain a free [8 HumanTechEra Information] [in this city]",
 			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
 
-			"Gain a free [9 HumanInhibitorEra Future] [in this city]",
+			"Gain a free [MiniCake DNS Lock Building 9 Future] [in this city]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8550,6 +8903,7 @@ MiniCake FreeSeal
 MiniCake HackTown
 MiniCake DNS Lock
 MiniCake DNS Lock Unit
+MiniCake DNS locked Unit
 
 MiniCake Capitol Booster
 MiniCake Cities Booster
@@ -8721,6 +9075,16 @@ Unit Rewards Bonus For Faith
 Build special units
 C-S cheat
 
+MiniCake HumanAutomateBuilding Main
+1 HumanAutomateBuildingEra Ancient
+2 HumanAutomateBuildingEra Classical
+3 HumanAutomateBuildingEra Medieval
+4 HumanAutomateBuildingEra Renaissance
+5 HumanAutomateBuildingEra Industrial
+6 HumanAutomateBuildingEra Modern
+7 HumanAutomateBuildingEra Atomic
+8 HumanAutomateBuildingEra Information
+9 HumanAutomateBuildingEra Future
 
 MiniCake HumanAdvanceEra Main
 
