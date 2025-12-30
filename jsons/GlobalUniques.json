@@ -11,7 +11,8 @@ added scout xp
 	"uniques": [
 		
 		"[+1] Sight <for [All] units> <before turn number [5]>",
-		
+		"Enables embarkation for land units <before the [Classical era]>",
+
 //		"[+1 Gold] per every [200] [Gold] <after discovering [xsaUnlocker]>",//xsahumancheat
 /*
 		"[-10000 Gold] per every [10000] [Gold]",//<every [1] turns>",

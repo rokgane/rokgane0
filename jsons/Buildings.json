@@ -1431,7 +1431,9 @@
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
-				"uniques": [
+		"uniques": [
+
+		    	"[-20]% Culture cost of natural border growth [in this city]"]
 
               	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
 		        "Population loss from nuclear attacks [-50]% [in this city]",
@@ -1467,7 +1469,7 @@
             	"Roads connect tiles across rivers",
             	"Connects trade routes over water",
 
-		    	"[-50]% Culture cost of natural border growth [in this city] <hidden from users>",
+		    	"[-20]% Culture cost of natural border growth [in this city] <hidden from users>",
 
 		    	"[+9999]% Strength for cities <when defending> <hidden from users>",
 
@@ -2564,6 +2566,32 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
+	{
+		"name": "MiniCake Border Expander",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"[+500]% [Culture] [in this city]", 
+
+		    	"[-50]% Culture cost of natural border growth [in this city]",
+
+//				"Gain control over [all] tiles in a [25]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Eater lv1]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 
 
 

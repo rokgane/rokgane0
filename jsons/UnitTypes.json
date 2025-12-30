@@ -10,7 +10,7 @@ added to almost all unit
 		"name": "Civilian",
 		"movementType": "Land"
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"
 			]
 	},
@@ -18,56 +18,56 @@ added to almost all unit
 		"name": "Sword",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Gunpowder",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Archery",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Ranged Gunpowder",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Scout",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Mounted",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Armored",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Siege",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"],
 		"civilopediaText": [
 			{ "text": "Siege units are extremely powerful against cities, but need to be Set Up before they can attack.\nOnce your siege unit is set up, it can attack from the current tile,\n  but once moved to another tile, it will need to be set up again." }
@@ -77,28 +77,28 @@ added to almost all unit
 		"name": "Civilian Water",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Melee Water",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Ranged Water",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Submarine",
 		"movementType": "Water",
 		"uniques": [
-		  "Limited to [50] per Civilization",
+//xsa//		  "Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Can enter ice tiles", 
 		  "Invisible to non-adjacent units", 
@@ -109,14 +109,14 @@ added to almost all unit
 		"name": "Aircraft Carrier",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Fighter",
 		"movementType": "Air",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Aircraft", 
 		  "[+4] Sight", 
@@ -128,7 +128,7 @@ added to almost all unit
 		"name": "Bomber",
 		"movementType": "Air",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Aircraft"
 		  ]
@@ -137,7 +137,7 @@ added to almost all unit
 		"name": "Atomic Bomber",
 		"movementType": "Air",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Aircraft"
 		  ]
@@ -146,7 +146,7 @@ added to almost all unit
 		"name": "Missile",
 		"movementType": "Air",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Self-destructs when attacking", 
 		  "Cannot be intercepted"
@@ -156,7 +156,7 @@ added to almost all unit
 		"name": "Helicopter",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Can pass through impassable tiles"
 		  ]
@@ -168,63 +168,63 @@ added to almost all unit
 		"name": "Melee",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Ranged",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "Armor",
 		"movementType": "Land",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "WaterCivilian",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "WaterMelee",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "WaterRanged",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "WaterSubmarine",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "WaterAircraftCarrier",
 		"movementType": "Water",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 	{
 		"name": "AtomicBomber",
 		"movementType": "Air",
 		"uniques": [
-			"Limited to [50] per Civilization",
+//xsa//			"Limited to [50] per Civilization",
 			"Automation is a primary action"]
 	},
 

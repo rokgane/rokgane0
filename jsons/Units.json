@@ -2498,7 +2498,7 @@
 			"May enter foreign tiles without open borders<hidden from users>",
 
 			"Ignores Zone of Control<hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+    		"May Paradrop to [All] tiles up to [25] tiles away<hidden from users>", 
 
 			"Unable to capture cities<hidden from users>",
 
@@ -2534,7 +2534,7 @@
 			"May enter foreign tiles without open borders<hidden from users>",
 
 			"Ignores Zone of Control<hidden from users>", 
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users>", 
+    		"May Paradrop to [All] tiles up to [30] tiles away<hidden from users>", 
 
 			"Unable to capture cities<hidden from users>",
 
