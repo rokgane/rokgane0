@@ -1433,7 +1433,7 @@
 		"maintenance": 0,
 		"uniques": [
 
-		    	"[-20]% Culture cost of natural border growth [in this city]"]
+		    	"[-20]% Culture cost of natural border growth [in this city]",
 
               	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
 		        "Population loss from nuclear attacks [-50]% [in this city]",
@@ -1469,7 +1469,7 @@
             	"Roads connect tiles across rivers",
             	"Connects trade routes over water",
 
-		    	"[-20]% Culture cost of natural border growth [in this city] <hidden from users>",
+		    	"[-20]% Culture cost of natural border growth [in this city]",
 
 		    	"[+9999]% Strength for cities <when defending> <hidden from users>",
 
