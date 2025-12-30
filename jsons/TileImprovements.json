@@ -728,9 +728,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -773,9 +773,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -816,9 +816,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -859,9 +859,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -903,9 +903,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -946,9 +946,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -991,9 +991,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -1037,9 +1037,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -1084,9 +1084,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
 
-            "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+//          "Cannot be built on [Bonus resource] tiles",
+//			"Cannot be built on [Strategic resource] tiles",
+//			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
@@ -2271,5 +2271,7 @@ Barbarian encampment
 */
 
 //xsa//removed
+
+
 
 
