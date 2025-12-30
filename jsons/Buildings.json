@@ -4195,7 +4195,6 @@
 	{
 		"name": "MiniCake DNS locked AllShite",
 		"requiredBuilding": "MiniCake DNS locked Unit",
-l
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
