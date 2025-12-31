@@ -4164,6 +4164,8 @@
 		"cost": 375,
 		"requiredTech": "xsaUnlocker",
 		"uniques": [
+            "Damage taken from interception reduced by [80]%",
+
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 			"Never appears as a Barbarian unit",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
