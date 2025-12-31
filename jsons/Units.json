@@ -4141,12 +4141,15 @@
 		"cost": 375,
 		"requiredTech": "xsaUnlocker",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"
-		    ],
+
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs"
+			],
 		"promotions": [
 		    "[Zero] ability"],
 		"attackSound": "machinegun"
@@ -4161,9 +4164,11 @@
 		"cost": 375,
 		"requiredTech": "xsaUnlocker",
 		"uniques": [
-            "Damage taken from interception reduced by [80]%",
-			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>"
-		    ],
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+			"Never appears as a Barbarian unit",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs"
+			],
 		"promotions": [
 		    "Evasion", 
 		    "Siege I"
@@ -4171,7 +4176,26 @@
 		"attackSound": "bombing"
 	},
 
+	{
+		"name": "DNS Firework Flare",
+		"unitType": "DNSMissile",
+		"movement": 1,
+		"strength": 80,
+		"rangedStrength": 90,
+		"range": 4,
+		"cost": 150,
+		"requiredTech": "xsaUnlocker",
+//		"requiredTech": "Advanced Ballistics",
+		"uniques": [
 
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"Never appears as a Barbarian unit",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[-100]% maintenance costs"
+			],
+		"attackSound": "missile"
+	},
 
 
 

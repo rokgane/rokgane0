@@ -10,6 +10,13 @@ UnitIcons/DNS Carrier
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/DNS Firework Flare
+  rotate: false
+  xy: 838, 852
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/DNS Guided Rocket
   rotate: false
   xy: 838, 852
