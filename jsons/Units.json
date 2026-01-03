@@ -1340,8 +1340,8 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			"Can instantly construct a [Landmark] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Landmark] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Landmark] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Landmark] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [Culture]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -1357,8 +1357,8 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can hurry technology research", 
-			"Can instantly construct a [Academy] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Academy] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Academy] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Academy] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 
 			"Great Person - [Science]", 
 			"Can move immediately once bought", 
@@ -1374,8 +1374,8 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can instantly construct a [Customs house] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Customs house] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Customs house] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Customs house] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [Gold]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -1390,8 +1390,8 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can speed up construction of a building", 
-			"Can instantly construct a [Manufactory] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Manufactory] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Manufactory] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [Production]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -1405,8 +1405,8 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
-			"Can instantly construct a [Holy site] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Holy site] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Holy site] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Can Spread Religion <[4] times> <by consuming this unit>",
 			"Removes other religions when spreading religion", 
 			"May found a religion", 
@@ -1434,8 +1434,8 @@ Great Admiral
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+15] HP when healing", 
 			"[+15] HP when healing",
-			"Can instantly construct a [Citadel] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Citadel] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [War]", 
 			"Can move immediately once bought", 
 			"Unbuildable", 
@@ -1456,8 +1456,8 @@ Great Admiral
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
-			"Can instantly construct a [Citadel] improvement <before discovering [xsaUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Citadel] improvement <after discovering [xsaUnlocker]> <by consuming this unit>",
+			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [War]", 
 			"Can move immediately once bought",
 			"Unbuildable", 
@@ -3591,7 +3591,7 @@ Great Admiral
     	"name": "TestBallo90",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3626,7 +3626,7 @@ Great Admiral
     	"name": "TestBallo91",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3662,7 +3662,7 @@ Great Admiral
     	"name": "TestBallo92",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3698,7 +3698,7 @@ Great Admiral
     	"name": "TestBallo93",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3734,7 +3734,7 @@ Great Admiral
     	"name": "TestBallo94",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3770,7 +3770,7 @@ Great Admiral
     	"name": "TestBallo95",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3808,7 +3808,7 @@ Great Admiral
     	"name": "TestBallo96",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3845,7 +3845,7 @@ Great Admiral
     	"name": "TestBallo97",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3881,7 +3881,7 @@ Great Admiral
     	"name": "TestBallo98",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3917,7 +3917,7 @@ Great Admiral
     	"name": "TestBallo99",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -3975,7 +3975,7 @@ Great Admiral
     	"name": "Observar",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -4014,7 +4014,7 @@ Great Admiral
     	"name": "Revealer",
     	"unitType": "Civilian",
     	"movement": 10,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
 //    	"obsoleteTech":"Advanced Ballistics",
     	"cost": 200,
@@ -4061,7 +4061,7 @@ Great Admiral
 		"interceptRange": 5,
 		"cost": 200,
 		"hurryCostModifier": 20,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4090,7 +4090,7 @@ Great Admiral
 		"range": 5,
 		"cost": 325,
 		"attackSound": "bombing"
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4120,7 +4120,7 @@ Great Admiral
 		"range": 3,
 		"interceptRange": 2,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"May enter foreign tiles without open borders",
@@ -4180,6 +4180,9 @@ Great Admiral
 			"Can build [T32 Badlandsify] improvements on tiles",
 			"Can build [T33 Permafrostify] improvements on tiles",
 
+			"Can build [T41 Forestify] improvements on tiles",
+			"Can build [T42 Junglify] improvements on tiles",
+
 			"Can build [DNS Academy] improvements on tiles",
 			"Can build [DNS Landmark] improvements on tiles",
 			"Can build [DNS Manufactory] improvements on tiles",
@@ -4237,7 +4240,7 @@ Great Admiral
 		"rangedStrength": 90,
 		"range": 6,
 		"cost": 150,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4261,7 +4264,7 @@ Great Admiral
 		"range": 15,
 		"cost": 150,
 //		"requiredTech": "Advanced Ballistics",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
@@ -4283,7 +4286,7 @@ Great Admiral
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
@@ -4306,7 +4309,7 @@ Great Admiral
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
@@ -4329,7 +4332,7 @@ Great Admiral
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
@@ -4352,7 +4355,7 @@ Great Admiral
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
@@ -4375,7 +4378,7 @@ Great Admiral
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
@@ -4402,7 +4405,7 @@ Great Admiral
 		"rangedStrength": 60,//xsa//rangeMod
 		"range": 2,//xsa//rangeMod
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
@@ -4442,7 +4445,7 @@ Great Admiral
 		"range": 10,
 		"interceptRange": 10,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
@@ -4471,7 +4474,7 @@ Great Admiral
 		"rangedStrength": 85,
 		"range": 20,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
@@ -4499,7 +4502,7 @@ Great Admiral
 		"rangedStrength": 40,
 		"range": 2,
 		"cost": 575,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
@@ -4536,7 +4539,7 @@ Great Admiral
 		"range": 3,
 		"interceptRange": 3,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Water",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
@@ -4561,7 +4564,7 @@ Great Admiral
 		"rangedStrength": 65,
 		"range": 5,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Water",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
@@ -4588,7 +4591,7 @@ Great Admiral
 		"range": 4,
 		"interceptRange": 4,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Water",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
@@ -4616,7 +4619,7 @@ Great Admiral
 		"range": 4,
 		"rangedStrength": 95,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 		    "Ignores Zone of Control", 
@@ -4648,7 +4651,7 @@ Great Admiral
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4678,7 +4681,7 @@ Great Admiral
 		"rangedStrength": 80,
 		"range": 2,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
 //		"upgradesTo": "Giant Death Robot",
 		"uniques": [
@@ -4704,7 +4707,7 @@ Great Admiral
 		"rangedStrength": 45,
 		"range": 2,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
@@ -4727,7 +4730,7 @@ Great Admiral
 		"rangedStrength": 65,
 		"range": 4,
 		"cost": 525,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
@@ -4754,7 +4757,7 @@ Great Admiral
 		"rangedStrength": 35,
 		"range": 4,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
 		"uniques": [0
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
@@ -4781,7 +4784,7 @@ Great Admiral
 		"rangedStrength": 60,
 		"range": 4,
 		"cost": 425,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
@@ -4811,7 +4814,7 @@ Great Admiral
 		"name": "DNS Worker",
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4838,7 +4841,7 @@ Great Admiral
 		"unitType": "DNSCivilianWater",
 		"movement": 5,
 		"cost": 30,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4865,7 +4868,7 @@ Great Admiral
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
 		"cost": 106,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4901,7 +4904,7 @@ Great Admiral
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"upgradesTo": "DNS Khan",
 		"uniques": [
@@ -4929,7 +4932,7 @@ Great Admiral
 	{
 		"name": "DNS Missionary",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4957,7 +4960,7 @@ Great Admiral
 	{
 		"name": "DNS Inquisitor",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -4984,7 +4987,7 @@ Great Admiral
 	{
 		"name": "DNS Great Artist",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5011,7 +5014,7 @@ Great Admiral
 	{
 		"name": "DNS Great Scientist",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5038,7 +5041,7 @@ Great Admiral
 	{
 		"name": "DNS Great Merchant",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5065,7 +5068,7 @@ Great Admiral
 	{
 		"name": "DNS Great Engineer",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5092,7 +5095,7 @@ Great Admiral
 	{
 		"name": "DNS Great Prophet",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5127,7 +5130,7 @@ Great Admiral
 	{
 		"name": "DNS Great General",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5158,7 +5161,7 @@ Great Admiral
 	{
 		"name": "DNS Great Admiral",
 		"unitType": "DNSCivilianWater",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
@@ -5191,7 +5194,7 @@ Great Admiral
 //		"uniqueTo": "Mongolia",
 //		"replaces": "Great General",
 		"strength": 20,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
@@ -5230,7 +5233,7 @@ Great Admiral
 	{
 		"name": "Great Farmer",
 		"unitType": "DNSCivilianLand",
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away", 
@@ -5618,7 +5621,7 @@ Great Admiral
 		"name": "DNS Worker Land Class 3",
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 
@@ -5643,7 +5646,7 @@ Great Admiral
 		"unitType": "DNSCivilianWater",
 		"movement": 5,
 		"cost": 30,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 
@@ -5690,7 +5693,7 @@ Great Admiral
 		"range": 2,
 		"interceptRange": 3,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"uniques": [
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Bomber] units>", 
@@ -5713,7 +5716,7 @@ Great Admiral
 		"rangedStrength": 70,
 		"range": 3,
 		"cost": 375,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 		"uniques": [
             "Damage taken from interception reduced by [80]%",
 
@@ -5737,7 +5740,7 @@ Great Admiral
 		"rangedStrength": 90,
 		"range": 4,
 		"cost": 150,
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 

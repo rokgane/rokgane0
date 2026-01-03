@@ -282,7 +282,7 @@
 		"name": "Suez Canal Construction Site",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
@@ -366,8 +366,8 @@
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 		    "Can be built outside your borders", 
 		    "Costs [1] [Gold] per turn"],
@@ -384,8 +384,8 @@
 		"turnsToBuild": 4,
 		"techRequired": "Railroads",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 		    "Can be built outside your borders", 
 		    "Costs [2] [Gold] per turn"],
@@ -410,8 +410,8 @@
 		"science": 8,
 		"uniques": [
             "Excluded from map editor",
-            "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+            "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -430,8 +430,8 @@
 		"culture": 6,
 		"uniques": [
             "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -448,8 +448,8 @@
 		"production": 4,
 		"uniques": [
             "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -467,8 +467,8 @@
 		"gold": 4,
 		"uniques": [
             "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -486,8 +486,8 @@
 		"faith": 6,
 		"uniques": [
             "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -503,8 +503,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
             "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
  		    "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -555,8 +555,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -602,8 +602,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -646,8 +646,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -690,8 +690,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -734,8 +734,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -779,8 +779,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -822,8 +822,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -865,8 +865,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -909,8 +909,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -952,8 +952,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -997,8 +997,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -1043,8 +1043,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -1090,8 +1090,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
 //          "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
@@ -1137,8 +1137,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1184,8 +1184,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1231,8 +1231,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1278,8 +1278,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1302,7 +1302,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 //XSA		"requiredNearbyImprovedResources": ["Marble","Stone","Obsidian"],
 		"turnsToBuild": 7,
-		"techRequired": "xsaUnlocker",//Fertilizer
+		"techRequired": "TechUnlocker",//Fertilizer
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1328,8 +1328,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1349,7 +1349,7 @@
 		"name": "Plant Jungle",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 		"turnsToBuild": 10,
-		"techRequired": "xsaUnlocker",//Fertilizer
+		"techRequired": "TechUnlocker",//Fertilizer
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1375,8 +1375,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1400,7 +1400,7 @@
 	{
 		"name": "Bioculture",
 		"terrainsCanBeBuiltOn": ["Land","Water"],
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
         "Gold": 1, 
         "Production": 1, 
         "Science": 1, 
@@ -1434,8 +1434,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1448,17 +1448,17 @@
 //            "Food source",
 //			"Can only be built to improve a resource",
 
-            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations><after discovering [xsaUnlocker]>",
-			"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] for each adjacent [Bioculture]<after discovering [xsaUnlocker]>",
+            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations><after discovering [TechUnlocker]>",
+			"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] for each adjacent [Bioculture]<after discovering [TechUnlocker]>",
 
 /*
-            "[+1 Gold] <after discovering [xsaUnlocker]>",
-			"[+1 Production] <after discovering [xsaUnlocker]>",
-			"[+1 Science] <after discovering [xsaUnlocker]>",
-			"[+1 Food] <after discovering [xsaUnlocker]>",
-			"[+1 Culture] <after discovering [xsaUnlocker]>",
-			"[+1 Faith] <after discovering [xsaUnlocker]>",
-			"[+1 Happiness] <after discovering [xsaUnlocker]>",
+            "[+1 Gold] <after discovering [TechUnlocker]>",
+			"[+1 Production] <after discovering [TechUnlocker]>",
+			"[+1 Science] <after discovering [TechUnlocker]>",
+			"[+1 Food] <after discovering [TechUnlocker]>",
+			"[+1 Culture] <after discovering [TechUnlocker]>",
+			"[+1 Faith] <after discovering [TechUnlocker]>",
+			"[+1 Happiness] <after discovering [TechUnlocker]>",
 */
 
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -1470,7 +1470,7 @@
 		"name": "DNS FunFort01",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1502,19 +1502,19 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [80] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [160]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [80] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [160]% <after discovering [TechUnlocker]>",
 
-			"Gain control over [all] tiles in a [1]-tile radius <after discovering [xsaUnlocker]>",
+			"Gain control over [all] tiles in a [1]-tile radius <after discovering [TechUnlocker]>",
 		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 	{
 		"name": "DNS FunFort02",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1546,19 +1546,19 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [90] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [180]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [90] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [180]% <after discovering [TechUnlocker]>",
 
-			"Gain control over [all] tiles in a [2]-tile radius <after discovering [xsaUnlocker]>",
+			"Gain control over [all] tiles in a [2]-tile radius <after discovering [TechUnlocker]>",
 		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 	{
 		"name": "DNS FunFort03",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1590,12 +1590,12 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [100] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [200]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [100] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [200]% <after discovering [TechUnlocker]>",
 
-			"Gain control over [all] tiles in a [3]-tile radius <after discovering [xsaUnlocker]>",
+			"Gain control over [all] tiles in a [3]-tile radius <after discovering [TechUnlocker]>",
 		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [xsaUnlocker]>"],
+		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 
@@ -1624,7 +1624,7 @@
 		"name": "T11 Mountainify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Mountain] tile",
 			"Can be built outside your borders"
@@ -1634,7 +1634,7 @@
 		"name": "T12 Desertify",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Desert] tile",
 			"Can be built outside your borders"
@@ -1644,7 +1644,7 @@
 		"name": "T13 Snowify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Snow] tile",
 			"Can be built outside your borders"
@@ -1659,7 +1659,7 @@
 		"name": "T21 Oceanify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Ocean] tile",
 			"Can be built outside your borders"
@@ -1669,7 +1669,7 @@
 		"name": "T22 Coastify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Coast] tile",
 			"Can be built outside your borders"
@@ -1679,7 +1679,7 @@
 		"name": "T23 Lakesify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Lakes] tile",
 			"Can be built outside your borders"
@@ -1689,7 +1689,7 @@
 		"name": "T24 Iciiify",
 		"terrainsCanBeBuiltOn": ["Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Ice] tile",
 			"Cannot be built on [Land] tiles <hidden from users>",
@@ -1703,7 +1703,7 @@
 		"name": "T31 Wastelandify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Wasteland] tile",
 			"Can be built outside your borders"
@@ -1713,7 +1713,7 @@
 		"name": "T32 Badlandsify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Badlands] tile",
 			"Can be built outside your borders"
@@ -1723,7 +1723,7 @@
 		"name": "T33 Permafrostify",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Permafrost] tile",
 			"Can be built outside your borders"
@@ -1734,7 +1734,7 @@
 		"name": "T141 Forestify",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Forest] tile",
 			"Can be built outside your borders"
@@ -1744,7 +1744,7 @@
 		"name": "T142 Junglify",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 		"turnsToBuild": 2,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 			"Turn this tile into a [Jungle] tile",
 			"Can be built outside your borders"
@@ -1845,7 +1845,7 @@
 		"name": "DNS Academy",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"science": 16,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1871,8 +1871,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1885,7 +1885,7 @@
 			"Great Improvement", 
 			"[+4 Science] <after discovering [Scientific Theory]>",
 			"[+4 Science] <after discovering [Atomic Theory]>", 
-			"[+10 Science] <after discovering [xsaUnlocker]>",
+			"[+10 Science] <after discovering [TechUnlocker]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
@@ -1894,7 +1894,7 @@
 		"name": "DNS Landmark",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"culture": 12,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1920,8 +1920,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1932,7 +1932,7 @@
             "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
-			"[+10 Culture] <after discovering [xsaUnlocker]>",
+			"[+10 Culture] <after discovering [TechUnlocker]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
@@ -1941,7 +1941,7 @@
 		"name": "DNS Manufactory",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"production": 8,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1967,8 +1967,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -1980,7 +1980,7 @@
 
 			"Great Improvement", 
 			"[+2 Production] <after discovering [Chemistry]>", 
-			"[+10 Production] <after discovering [xsaUnlocker]>",
+			"[+10 Production] <after discovering [TechUnlocker]>",
 			"Will not be replaced by automated units",
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
@@ -1989,7 +1989,7 @@
 		"name": "DNS Customs house",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"gold": 8,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -2015,8 +2015,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -2028,8 +2028,8 @@
 
 			"Great Improvement", 
 			"[+2 Gold] <after discovering [Economics]>", 
-			"[+10 Gold] <after discovering [xsaUnlocker]>",
-			"Improves [Luxury] resource in this tile",//xsa <after discovering [xsaUnlocker]>", 
+			"[+10 Gold] <after discovering [TechUnlocker]>",
+			"Improves [Luxury] resource in this tile",//xsa <after discovering [TechUnlocker]>", 
 			"Removes removable features when built",
 			"Will not be replaced by automated units", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
@@ -2038,7 +2038,7 @@
 		"name": "DNS Holy site",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
 		"faith": 12,
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -2064,8 +2064,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -2076,7 +2076,7 @@
             "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
-			"[+10 Faith] <after discovering [xsaUnlocker]>",
+			"[+10 Faith] <after discovering [TechUnlocker]>",
 			"Removes removable features when built", 
 			"Will not be replaced by automated units", 
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -2085,7 +2085,7 @@
 	{
 		"name": "DNS Citadel",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
-		"techRequired": "xsaUnlocker",
+		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -2111,8 +2111,8 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [xsaUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [xsaUnlocker]>",
+		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -2125,11 +2125,11 @@
 			"Great Improvement",
 
 			"Gives a defensive bonus of [100]%",
-			"Gives a defensive bonus of [500]% <after discovering [xsaUnlocker]>",
+			"Gives a defensive bonus of [500]% <after discovering [TechUnlocker]>",
 			"Adjacent enemy units ending their turn take [75] damage",
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
-			"Gain control over [all] tiles in a [5]-tile radius <after discovering [xsaUnlocker]>",
+			"Gain control over [all] tiles in a [5]-tile radius <after discovering [TechUnlocker]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units"
 		]
@@ -2150,7 +2150,7 @@
 		    "Unpillagable", 
 		    "Unbuildable", 
 		    "Excluded from map editor"],
-		"requiredTech": "xsaUnlocker",
+		"requiredTech": "TechUnlocker",
         "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 
@@ -2160,7 +2160,7 @@
 		"name": "DNS Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-		   	"Only available <after discovering [xsaUnlocker]><hidden from users>",
+		   	"Only available <after discovering [TechUnlocker]><hidden from users>",
 //		   	"Doesn't generate naturally", 
 
 //		    "Unbuildable",
