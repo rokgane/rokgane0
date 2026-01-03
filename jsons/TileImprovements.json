@@ -348,8 +348,17 @@
 
 
 
-
-
+/*
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+//		    "Unpillagable",
+		    "Unbuildable"
+		    ],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+*/
 
 	{
 		"name": "Road",
@@ -553,7 +562,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
@@ -600,7 +609,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "[+1 Production] <after discovering [Scientific Theory]>", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
@@ -644,7 +653,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "[+1 Production] <after discovering [Chemistry]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
@@ -688,7 +697,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "[+1 Gold] <after discovering [Economics]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
@@ -1104,7 +1113,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1135,7 +1144,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "Can be built outside your borders", 
 		    "Gives a defensive bonus of [50]%"],
@@ -1401,8 +1410,8 @@
         "Happiness": 1
         "turnsToBuild": 5,
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
-//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [Foreign] tiles><in tiles adjacent to [Foreign] tiles>",
+
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
 			"Unbuildable <in [TI13 Offshore Platform] tiles>",
@@ -1412,11 +1421,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1463,7 +1472,7 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1474,11 +1483,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1491,7 +1500,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [80] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [160]% <after discovering [xsaUnlocker]>",
@@ -1507,7 +1516,7 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1518,11 +1527,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1535,7 +1544,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [90] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [180]% <after discovering [xsaUnlocker]>",
@@ -1551,7 +1560,7 @@
 		"turnsToBuild": 3,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1562,11 +1571,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1579,7 +1588,7 @@
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-			"Will not be replaced by automated units", 
+//			"Will not be replaced by automated units", 
 
 		    "Adjacent enemy units ending their turn take [100] damage <after discovering [xsaUnlocker]>",
  		    "Gives a defensive bonus of [200]% <after discovering [xsaUnlocker]>",
@@ -1820,7 +1829,7 @@
 		"science": 16,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1831,11 +1840,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1853,7 +1862,7 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+4 Science] <after discovering [Scientific Theory]>",
@@ -1869,7 +1878,7 @@
 		"culture": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1880,11 +1889,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1902,7 +1911,7 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+10 Culture] <after discovering [xsaUnlocker]>",
@@ -1916,7 +1925,7 @@
 		"production": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1927,11 +1936,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1949,7 +1958,7 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+2 Production] <after discovering [Chemistry]>", 
@@ -1964,7 +1973,7 @@
 		"gold": 8,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -1975,11 +1984,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -1997,7 +2006,7 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+2 Gold] <after discovering [Economics]>", 
@@ -2013,7 +2022,7 @@
 		"faith": 12,
 		"techRequired": "xsaUnlocker",
 		"uniques": [
-			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
 			"Unbuildable <in [TI11 Camp] tiles>",
 			"Unbuildable <in [TI12 Oil well] tiles>",
@@ -2024,11 +2033,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -2046,7 +2055,7 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [3] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+10 Faith] <after discovering [xsaUnlocker]>",
@@ -2071,11 +2080,11 @@
 			"Unbuildable <in [TI17 Fishing Boats] tiles>",
 			"Unbuildable <in [TI18 Farm] tiles>",
 			"Unbuildable <in [TI19 Mine] tiles>",
-			"Unbuildable <in [TI20 Fort] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
 
-			"Unbuildable <in [DNS FunFort01] tiles>",
-			"Unbuildable <in [DNS FunFort02] tiles>",
-			"Unbuildable <in [DNS FunFort03] tiles>",
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
 
 			"Unbuildable <in [DNS Academy] tiles>",
 			"Unbuildable <in [DNS Landmark] tiles>",
@@ -2092,6 +2101,8 @@
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
+
+
 
 			"Great Improvement",
 
@@ -2114,10 +2125,7 @@
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
-			"[2] free [Brute] units appear<every [3] turns>", 
-			"[1] free [Galley] units appear<every [2] turns>", 
-            
+
 //			"[3] free [Brute] units appear<every [3] turns><in tiles adjacent to [Land] tiles>", 
 //			"[2] free [Galley] units appear<every [2] turns><in tiles adjacent to [Water] tiles>", 
             

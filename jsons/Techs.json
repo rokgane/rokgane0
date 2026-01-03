@@ -35,6 +35,22 @@
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
+			{//TechParadrop
+				"name": "TechParadrop",
+				"row": 7,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//TechEnemaCheat cheat building
+				"name": "TechBorderEater",
+				"row": 8,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
 			{//TechHumanCheat cheat building
 				"name": "TechHumanCheat",
 				"row": 9,

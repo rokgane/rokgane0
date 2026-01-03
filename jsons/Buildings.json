@@ -1479,7 +1479,7 @@
 				"[+100]% [Happiness] [in this city]",
 
 				"Gain a free [MiniCake Cloned Resource] [in this city]",
-				"Gain a free [MiniCake Border Eater lv1] [in this city]",
+				"Gain a free [MiniCake Border Eater lv0] [in this city]",
 				
 //				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
@@ -2456,6 +2456,52 @@
 
 
 	{
+		"name": "MiniCake Border Eater Tech",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+    		    "Discover [TechBorderEater]",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+
+	{
+		"name": "MiniCake Border Eater lv0",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"Gain control over [all] tiles in a [3]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [5]-tile radius<after discovering [TechBorderEater]>",
+
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+	{
 		"name": "MiniCake Border Eater lv1",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
@@ -2463,7 +2509,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain control over [all] tiles in a [5]-tile radius",
+				"Gain control over [all] tiles in a [5]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [10]-tile radius<after discovering [TechBorderEater]>",
 
 				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -2486,7 +2533,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain control over [all] tiles in a [8]-tile radius",
+				"Gain control over [all] tiles in a [10]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [20]-tile radius<after discovering [TechBorderEater]>",
 
 				"Only available <in cities with a [MiniCake Border Eater lv1]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -2509,7 +2557,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain control over [all] tiles in a [11]-tile radius",
+				"Gain control over [all] tiles in a [15]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [30]-tile radius<after discovering [TechBorderEater]>",
 
 				"Only available <in cities with a [MiniCake Border Eater lv2]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -2532,7 +2581,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain control over [all] tiles in a [15]-tile radius",
+				"Gain control over [all] tiles in a [20]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [40]-tile radius<after discovering [TechBorderEater]>",
 
 				"Only available <in cities with a [MiniCake Border Eater lv3]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -2555,7 +2605,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain control over [all] tiles in a [25]-tile radius",
+				"Gain control over [all] tiles in a [25]-tile radius<before discovering [TechBorderEater]>",
+				"Gain control over [all] tiles in a [50]-tile radius<after discovering [TechBorderEater]>",
 
 				"Only available <in cities with a [MiniCake Border Eater lv4]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -2578,13 +2629,13 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"[+500]% [Culture] [in this city]", 
+				"[+1000]% [Culture] [in this city]", 
 
 		    	"[-50]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
-				"Only available <in cities with a [MiniCake Border Eater lv1]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Border Eater Tech]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
@@ -2598,6 +2649,59 @@
 		"requiredTech": "xsaUnlocker"
 	},
 
+	{
+		"name": "MiniCake Border Expander Intermediate",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"[+9999]% [Culture] [in this city]", 
+
+		    	"[-20]% Culture cost of natural border growth [in this city]",
+
+//				"Gain control over [all] tiles in a [25]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Expander Basic]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
+
+	{
+		"name": "MiniCake Border Expander Advanced",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"[+999999]% [Culture] [in this city]", 
+
+		    	"[-20]% Culture cost of natural border growth [in this city]",
+
+//				"Gain control over [all] tiles in a [25]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Expander Intermediate]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "xsaUnlocker"
+	},
 
 	{
 		"name": "MiniCake Border Expander Ultimate",
@@ -2606,13 +2710,13 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"[+9999]% [Culture] [in this city]", 
+				"[+99999999]% [Culture] [in this city]", 
 
 //		    	"[-50]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
-				"Only available <in cities with a [MiniCake Border Expander Basic]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Border Expander Advanced]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
