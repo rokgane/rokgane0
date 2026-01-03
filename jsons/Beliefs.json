@@ -14,7 +14,7 @@
 
             "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
 		]
     },
@@ -30,7 +30,7 @@
             "[+100]% Natural religion spread [in City-State cities]",
 
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
         ]
     },
@@ -43,7 +43,7 @@
             "[+10 Production] [in cities following this religion] <in cities with at least [5] [Specialists]>",
 
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
         ]
     },
@@ -57,7 +57,7 @@
             "May buy [Military] units with [Faith] for [1] times their normal Production cost",
 
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-            "Only available <after discovering [xsaUnlocker]> <hidden from users>",
+            "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
         ]
 
