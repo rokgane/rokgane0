@@ -348,7 +348,7 @@
 
 
 
-
+/*
 	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -358,7 +358,7 @@
 		    ],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
-
+*/
 
 	{
 		"name": "Road",
@@ -1296,7 +1296,7 @@
 
 
 
-
+/*
 	{
 		"name": "Plant Forest",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
@@ -1392,7 +1392,7 @@
 		        ],
 		"shortcutkey": "P"
 	},
-
+*/
 
 
  { "name": "Repair", "terrainsCanBeBuiltOn": ["Land"], "turnsToBuild": 3, "shortcutKey": "E", "uniques": ["Unbuildable"], "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}] },
@@ -1730,8 +1730,26 @@
 		        ],
 	},
 
-
-
+	{
+		"name": "T141 Forestify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Forest] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T142 Junglify",
+		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
+		"turnsToBuild": 2,
+		"techRequired": "xsaUnlocker",
+		"uniques": [
+			"Turn this tile into a [Jungle] tile",
+			"Can be built outside your borders"
+		        ],
+	},
 
 /*
     {

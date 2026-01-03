@@ -37,7 +37,7 @@
 		"techs": [
 			{//TechParadrop
 				"name": "TechParadrop",
-				"row": 7,
+				"row": 19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -45,7 +45,7 @@
 			},
 			{//TechEnemaCheat cheat building
 				"name": "TechBorderEater",
-				"row": 8,
+				"row": 20,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -53,7 +53,7 @@
 			},
 			{//TechHumanCheat cheat building
 				"name": "TechHumanCheat",
-				"row": 9,
+				"row": 17,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -61,15 +61,35 @@
 			},
 			{//TechEnemaCheat cheat building
 				"name": "TechEnemaCheat",
-				"row": 10,
+				"row": 18,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [Agriculture]>"]
 			},
+
+
+			{//xsa//more challenges for AI
+				"name": "Treats AI",
+				"row": 15,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables embarkation for land units",
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+			{//xsa//more challenges for Human
+				"name": "Treats Human",
+				"row": 16,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [Agriculture]>"]
+			},
+
 			{//xsa//Unlocker
 				"name": "xsaUnlocker",
-				"row": 11,
+				"row": 21,
 				"quote": "Cheat tech",
 				"uniques": [
         			"Enables embarkation for land units",
@@ -79,7 +99,7 @@
 			},
 			{//xsa//CrippleReligion
 				"name": "xsaCrippleReligion",
-				"row": 12,
+				"row": 22,
 				"quote": "Cheat tech",
 				"prerequisites": [
 //XSA                    "FutureTech 10"
@@ -89,26 +109,9 @@
 					"[-99]% weight to this choice for AI decisions <hidden from users>",
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
-			{//xsa//more challenges for AI
-				"name": "Treats AI",
-				"row": 13,
-				"quote": "Cheat tech",
-				"uniques": [
-					"Enables embarkation for land units",
-					"[-99]% weight to this choice for AI decisions",
-					"Only available <before discovering [Agriculture]>"]
-			},
-			{//xsa//more challenges for Human
-				"name": "Treats Human",
-				"row": 14,
-				"quote": "Cheat tech",
-				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"Only available <before discovering [Agriculture]>"]
-			},
 			{//xsa//reenable diplomacy for AI
             	"name": "Enable AI Diplomacy",
-            	"row": 15,
+            	"row": 23,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -1240,6 +1243,7 @@
 //					"Future Tech"
 					],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1252,6 +1256,7 @@
 				"row": 14,
 				"prerequisites": ["00 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1264,6 +1269,7 @@
 				"row": 15,
 				"prerequisites": ["01 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1276,6 +1282,7 @@
 				"row": 16,
 				"prerequisites": ["02 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1288,6 +1295,7 @@
 				"row": 17,
 				"prerequisites": ["03 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1300,6 +1308,7 @@
 				"row": 18,
 				"prerequisites": ["04 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1312,6 +1321,7 @@
 				"row": 19,
 				"prerequisites": ["05 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1324,6 +1334,7 @@
 				"row": 20,
 				"prerequisites": ["06 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1336,6 +1347,7 @@
 				"row": 21,
 				"prerequisites": ["07 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1348,6 +1360,7 @@
 				"row": 22,
 				"prerequisites": ["08 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1360,6 +1373,7 @@
 				"row": 23,
 				"prerequisites": ["09 FutureTech"],
 				"uniques": [
+				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"

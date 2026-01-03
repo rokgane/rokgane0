@@ -4036,9 +4036,11 @@ Great Admiral
     		"May Paradrop to [All] tiles up to [30] tiles away<hidden from users>", 
 
 			"Unable to capture cities<hidden from users>",
+			"Can move immediately once bought",
+			"Founds a new city",// <in tiles without [Badlands]>", 
 
 //			"Unavailable <hidden from users>",
-			"Unbuildable <hidden from users>",
+//			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
 //SUICIDE
 			"[This Unit] takes [50] damage <upon turn end>",
@@ -4360,6 +4362,29 @@ Great Admiral
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [11]", 
 			"Blast radius [11]", 
+//			"Consumes [8] [Uranium]"
+			"[-100]% maintenance costs"
+        ],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "DNS Nuclear Missile P13",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "xsaUnlocker",
+		"requiredBuilding": "MiniCake DNS Unit Nuke",
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+
+		    "Limited to [10] per Civilization"
+		    "Nuclear weapon of Strength [13]", 
+			"Blast radius [13]", 
 //			"Consumes [8] [Uranium]"
 			"[-100]% maintenance costs"
         ],
