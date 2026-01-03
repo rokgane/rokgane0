@@ -94,6 +94,13 @@ UnitIcons/DNS Missile Cruiser
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/DNS Submarine
+  rotate: false
+  xy: 1702, 640
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/DNS Nuclear Submarine
   rotate: false
   xy: 1054, 528

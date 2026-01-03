@@ -1862,7 +1862,7 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can build [Road] improvements on tiles", 
-		    "Can build [TI18 Fort] improvements on tiles"],
+		    "Can build [TI20 Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -4148,8 +4148,8 @@ Great Admiral
 			"Can build [Install Tunnel] improvements on tiles",
 			"Can build [Remove Ice] improvements on tiles",
 			"Can build [Remove Fallout] improvements on tiles",
-			"Can build [Plant Forest] improvements on tiles",
-			"Can build [Plant Jungle] improvements on tiles",
+//			"Can build [Plant Forest] improvements on tiles",
+//			"Can build [Plant Jungle] improvements on tiles",
 
 			"Can build [TI11 Camp] improvements on tiles",
 			"Can build [TI12 Oil well] improvements on tiles",
@@ -4182,6 +4182,45 @@ Great Admiral
 
 			"Can build [T41 Forestify] improvements on tiles",
 			"Can build [T42 Junglify] improvements on tiles",
+
+			"Can build [T11 Mountainify] improvements on tiles",
+			"Can build [T12 Desertify] improvements on tiles",
+			"Can build [T13 Snowify] improvements on tiles",
+			"Can build [T14 Plainsify] improvements on tiles",
+			"Can build [T15 Grasslandify] improvements on tiles",
+			"Can build [T16 Tundraify] improvements on tiles",
+
+			"Can build [T21 Oceanify] improvements on tiles",
+			"Can build [T22 Coastify] improvements on tiles",
+			"Can build [T23 Lakesify] improvements on tiles",
+			"Can build [T24 Iciiify] improvements on tiles",
+			"Can build [T25 Atollify] improvements on tiles",
+
+			"Can build [T31 Wastelandify] improvements on tiles",
+			"Can build [T32 Badlandsify] improvements on tiles",
+			"Can build [T33 Permafrostify] improvements on tiles",
+
+			"Can build [T41 Hillify] improvements on tiles",
+			"Can build [T42 Forestify] improvements on tiles",
+			"Can build [T43 Junglify] improvements on tiles",
+			"Can build [T44 Oasisify] improvements on tiles",
+			"Can build [T45 Flood plainsify] improvements on tiles",
+			"Can build [T46 Marshify] improvements on tiles",
+
+			"Can build [T51 Great Barrier Reef] improvements on tiles",
+			"Can build [T52 Old Faithful] improvements on tiles",
+			"Can build [T53 El Dorado] improvements on tiles",
+			"Can build [T54 Fountain of Youth] improvements on tiles",
+			"Can build [T55 Grand Mesa] improvements on tiles",
+			"Can build [T56 Mount Fuji] improvements on tiles",
+			"Can build [T57 Krakatoa] improvements on tiles",
+			"Can build [T58 Rock of Gibraltar] improvements on tiles",
+			"Can build [T59 Cerro de Potosi] improvements on tiles",
+			"Can build [T60 Barringer Crater] improvements on tiles",
+			"Can build [T61 Mount Kailash] improvements on tiles",
+			"Can build [T62 Mount Sinai] improvements on tiles",
+			"Can build [T63 Sri Pada] improvements on tiles",
+			"Can build [T64 Uluru] improvements on tiles",
 
 			"Can build [DNS Academy] improvements on tiles",
 			"Can build [DNS Landmark] improvements on tiles",
@@ -4610,11 +4649,46 @@ Great Admiral
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
+
+	{
+		"name": "DNS Submarine",
+		"unitType": "DNSSubmarine",
+		"movement": 7,
+		"strength": 65,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "TechUnlocker",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"uniques": [
+//		    "Invisible to non-adjacent units",
+		    "Invisible to others",
+
+		    "Ignores Zone of Control", 
+			"May enter foreign tiles without open borders",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away", 
+
+			"[+50]% Strength bonus for [All] units within [5] tiles",
+			"All adjacent units heal [+30] HP when healing", 
+			"[+30] HP when healing", 
+
+			"[+100]% Strength <when attacking>", 
+			"[+300]% Strength <when defending>", 
+			"Can only attack [Water] tiles", 
+			"[+3] Sight",
+			"Uncapturable",
+			"Can see invisible [Submarine] units",
+			"Can carry [6] [Missile] units", 
+			"Never appears as a Barbarian unit"],
+
+		"attackSound": "torpedo"
+	},
+
 //DNS Nuclear Submarine
 	{
 		"name": "DNS Nuclear Submarine",
 		"unitType": "DNSSubmarine",
-		"movement": 6,
+		"movement": 8,
 		"strength": 80,
 		"range": 4,
 		"rangedStrength": 95,
@@ -4637,7 +4711,7 @@ Great Admiral
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
 			"Can only attack [Water] tiles", 
-			"[+3] Sight",
+			"[+6] Sight",
 			"Uncapturable",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units", 

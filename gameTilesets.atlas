@@ -4805,7 +4805,20 @@ TileSets/HexaRealm/Units/DNS Worker Boat Class 3-Modern era
   orig: 64, 56
   offset: 0, 0
   index: -1
-
+TileSets/FantasyHex/Units/DNS Submarine
+  rotate: false
+  xy: 1060, 794
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Submarine
+  rotate: false
+  xy: 400, 396
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 
 

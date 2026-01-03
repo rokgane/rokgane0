@@ -1650,7 +1650,36 @@
 			"Can be built outside your borders"
 		        ],
 	},
-
+	{
+		"name": "T14 Plainsify",
+		"terrainsCanBeBuiltOn": ["Mountain","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mountain] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T15 Grasslandify",
+		"terrainsCanBeBuiltOn": ["Mountain","Desert","Plains","Tundra","Snow","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mountain] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T16 Tundraify",
+		"terrainsCanBeBuiltOn": ["Mountain","Desert","Plains","Grassland","Snow","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mountain] tile",
+			"Can be built outside your borders"
+		        ],
+	},
 
 
 
@@ -1687,7 +1716,7 @@
 	},
 	{
 		"name": "T24 Iciiify",
-		"terrainsCanBeBuiltOn": ["Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -1696,12 +1725,22 @@
 			"Can be built outside your borders"
 		        ],
 	},
-
+	{
+		"name": "T25 Atollify",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Atoll] tile",
+			"Cannot be built on [Land] tiles <hidden from users>",
+			"Can be built outside your borders"
+		        ],
+	},
 
 
 	{
 		"name": "T31 Wastelandify",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Great Barrier Reef","Old Faithful","El Dorado","Fountain of Youth","Grand Mesa","Mount Fuji","Krakatoa","Rock of Gibraltar","Cerro de Potosi","Barringer Crater","Mount Kailash","Mount Sinai","Sri Pada","Uluru","Plains","Desert","Grassland","Tundra","Snow","Mountain","Badlands","Permafrost","Lakes","Coast","Ocean"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -1729,10 +1768,20 @@
 			"Can be built outside your borders"
 		        ],
 	},
-
+	
 	{
-		"name": "T141 Forestify",
-		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
+		"name": "T41 Hillify",
+		"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Hill] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T42 Forestify",
+		"terrainsCanBeBuiltOn": ["Tundra","Plains","Grassland","Hill"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -1741,8 +1790,8 @@
 		        ],
 	},
 	{
-		"name": "T142 Junglify",
-		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
+		"name": "T43 Junglify",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -1750,6 +1799,180 @@
 			"Can be built outside your borders"
 		        ],
 	},
+	{
+		"name": "T44 Oasisify",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Oasis] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T45 Flood plainsify",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Flood plains] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T46 Marshify",
+		"terrainsCanBeBuiltOn": ["Grassland"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Marsh] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+
+	{
+		"name": "T51 Great Barrier Reef",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Great Barrier Reef] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T52 Old Faithful",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Old Faithful] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T53 El Dorado",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [El Dorado] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T54 Fountain of Youth",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Fountain of Youth] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T55 Grand Mesa",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Grand Mesa] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T56 Mount Fuji",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mount Fuji] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T57 Krakatoa",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Krakatoa] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T58 Rock of Gibraltar",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Rock of Gibraltar] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T59 Cerro de Potosi",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Cerro de Potosi] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T60 Barringer Crater",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Barringer Crater] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T61 Mount Kailash",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mount Kailash] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T62 Mount Sinai",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Mount Sinai] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T63 Sri Pada",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Sri Pada] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+	{
+		"name": "T64 Uluru",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost","Lakes","Coast","Ocean"],
+		"turnsToBuild": 2,
+		"techRequired": "TechUnlocker",
+		"uniques": [
+			"Turn this tile into a [Uluru] tile",
+			"Can be built outside your borders"
+		        ],
+	},
+
+
+
 
 /*
     {
@@ -1779,6 +2002,7 @@
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
+		"terrainsCanBeBuiltOn": ["Fallout"],
 		"uniques": [
 		    "Can be built outside your borders", 
 		    "Excluded from map editor"],
