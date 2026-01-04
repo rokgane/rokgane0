@@ -31,20 +31,6 @@ Great Admiral
 //xsa//have paradrop
 
 	{
-		"name": "Paratrooper",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles><before discovering [TechParadrop]>", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
-	},
-	{
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
@@ -287,210 +273,15 @@ Great Admiral
 		    ]
 	},
 
-	{
-		"name": "Musketman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Musketeer",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "France",
-		"movement": 2,
-		"strength": 28,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Janissary",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "The Ottomans",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"promotions": ["[Janissary] ability"],
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Privateer",
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "[Privateer] ability"],
-		"attackSound": "cannon",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Sea Beggar",
-		"unitType": "Melee Water",
-		"replaces": "Privateer",
-		"uniqueTo": "The Netherlands",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
-		"attackSound": "cannon",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
 
-	{
-		"name": "Gatling Gun",
-		"unitType": "Ranged Gunpowder",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Rifleman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Denmark",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["[Norwegian Ski Infantry] ability"],
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["March"],
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Ethiopia",
-		"movement": 2,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["Drill I","Home Sweet Home"],
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
 
-	{
-		"name": "Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"attackSound": "shot",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Machine Gun",
-		"unitType": "Ranged Gunpowder",
-		"range": 1,
-		"movement": 2,
-		"strength": 60,
-		"rangedStrength": 60,
-		"cost": 350,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
-		"attackSound": "machinegun",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-		// Upgrades to Bazooka in BNW
-	},
+
+
+
+
+
+
+
 
 
 
@@ -523,7 +314,6 @@ Great Admiral
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
-	/* Ancient Era */
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -602,37 +392,8 @@ Great Admiral
 			"Limited to [5] per Civilization"
 		   ]
 	},
-	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Cannot enter ocean tiles", 
-		    "Never appears as a Barbarian unit"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Quinquereme",
-		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 13,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Cannot enter ocean tiles"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
+
+
 	{
 		"name": "Dromon",
 		"unitType": "Ranged Water",
@@ -887,9 +648,6 @@ Great Admiral
 		"attackSound": "throw"
 	},
 
-
-
-	// Medieval Era
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
@@ -1000,130 +758,6 @@ Great Admiral
 		"attackSound": "throw"
 	},
 
-
-
-	// Rennaisance Era
-
-	{
-		"name": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+1] Sight",
-		    "Withdraws before melee combat <with [80]% chance>"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Turtle Ship",
-		"unitType": "Melee Water",
-		"replaces": "Caravel",
-		"uniqueTo": "Korea",
-		"movement": 4,
-		"strength": 36,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Cannot enter ocean tiles"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-
-	{
-		"name": "Minuteman",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "America",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Ignores terrain cost"],
-		"promotions": ["Drill I"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Tercio",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Spain",
-		"movement": 2,
-		"strength": 26,
-		"cost": 160,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "shot"
-	},
-
-
-
-	{
-		"name": "Cannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 20,
-		"cost": 185,
-		"requiredTech": "Chemistry",
-		"upgradesTo": "Artillery",
-		"obsoleteTech": "Dynamite",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+200]% Strength <vs cities> <when attacking>",
-		    "No defensive terrain bonus",
-		    "Must set up to ranged attack",
-		    "[-1] Sight",
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-
-	// Industrial Era
-
-
-
-
-
-
-	{
-		"name": "Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 21,
-		"rangedStrength": 28,
-		"range": 3,
-		"cost": 320,
-		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+200]% Strength <vs cities> <when attacking>",
-		    "No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[-1] Sight", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
-
-	// Modern era
-
 	{
 		"name": "Submarine",
 		"unitType": "Submarine",
@@ -1142,24 +776,6 @@ Great Admiral
 	},
 
 	{
-		"name": "Foreign Legion",
-		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
-		"uniqueTo": "France",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+20]% Strength <when fighting in [Foreign Land] tiles>"],
-		"attackSound": "shot"
-	},
-
-
-	{
 		"name": "Carrier",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
@@ -1173,125 +789,6 @@ Great Admiral
 	},
 
 
-	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[100]% chance to intercept air attacks", 
-		    "[+150]% Strength <vs [Air] units>", 
-		    "[+150]% Strength <vs [Helicopter] units>", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-
-	{
-		"name": "Destroyer",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 55,
-		"interceptRange": 2,
-		"cost": 375,
-		"requiredTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can see invisible [Submarine] units", 
-		    "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>", 
-			"[+100]% Strength <vs [Submarine] units>"],
-		"attackSound": "shipguns"
-	},
-
-	// Atomic Era
-
-	{
-		"name": "Marine",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 65,
-		"cost": 400,
-		"requiredTech": "Pharmaceuticals",
-		"promotions": ["Amphibious"],
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+1] Sight <when [Embarked]>", 
-		    "[+100]% Strength <when defending> <when [Embarked]>"],
-		"attackSound": "shot"
-	},
-
-
-	{
-		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+100]% Strength <vs [Armored] units>", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-
-	{
-		"name": "Mobile SAM",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[100]% chance to intercept air attacks", 
-		    "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", 
-			"Never appears as a Barbarian unit"],
-		"attackSound": "missile"
-	},
-
-
-
-	// Information Era
-	{
-		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 50,
-		"range": 3,
-		"rangedStrength": 85,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+75]% Strength <when attacking>", 
-		    "Can only attack [Water] tiles", 
-		    "[+1] Sight", 
-		    "Can carry [2] [Missile] units",
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
-	},
-	{
-		"name": "Mechanized Infantry",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 90,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
 	{
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
@@ -1314,21 +811,7 @@ Great Admiral
 	},
 
 
-	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 150,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "gdrAttack"
-	},
+
 
 
 	/* Great people */
@@ -1922,66 +1405,7 @@ Great Admiral
 		    ]
     },
 
-	{
-		"name": "Frigate",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"cost": 185,
-		"requiredResource": "RS02 Iron",
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
-	{
-		"name": "Ship of the Line",
-		"unitType": "Ranged Water",
-		"replaces": "Frigate",
-		"uniqueTo": "England",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 185,
-		"requiredResource": "RS02 Iron",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+1] Sight"],
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
 
-	{
-		"name": "Ironclad",
-		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 45,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"requiredResource": "RS03 Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+33]% Strength <vs cities>",
-		    "Double movement in [Coast]", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "shipguns"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
 
 	{
 		"name": "Triplane",
@@ -2016,40 +1440,7 @@ Great Admiral
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
-	{
-		"name": "Battleship",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 55,
-		"range": 3,
-		"cost": 375,
-		"requiredResource": "RS04 Oil",
-		"requiredTech": "Electronics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
-	},
-	{
-		"name": "Landship",
-		"unitType": "Armored",
-		"movement": 4,
-		"strength": 60,
-		"cost": 350,
-		"requiredTech": "Combustion",
-		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus",
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
+
 
 	{
 		"name": "Fighter",
@@ -2098,80 +1489,10 @@ Great Admiral
 		"upgradesTo": "Stealth Bomber",
 		"attackSound": "bombing"
 	},
-	{
-		"name": "Tank",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Panzer",
-		"unitType": "Armored",
-		"uniqueTo": "Germany",
-		"replaces": "Tank",
-		"movement": 6,
-		"strength": 80,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus"],
-		"attackSound": "tankshot"
-		//German unique unit, stronger than Tank
-	},
-	{
-		"name": "Rocket Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 45,
-		"rangedStrength": 60,
-		"range": 3,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+200]% Strength <vs cities> <when attacking>",
-		    "No defensive terrain bonus",
-			"[-1] Sight", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
-	{
-		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
-		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Helicopter Gunship",
-		"unitType": "Helicopter",
-		"movement": 6,
-		"strength": 60,
-		"cost": 425,
-		"requiredTech": "Computers",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+100]% Strength <vs [Armored] units>", 
-		    "No defensive terrain bonus", 
-		    "Can move after attacking",
-			"All tiles cost 1 movement", 
-			"Ignores Zone of Control", 
-			"Unable to capture cities",
-			"Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
+
+
+
+
 	{
 		"name": "Modern Armor",
 		"unitType": "Armored",
@@ -2222,82 +1543,9 @@ Great Admiral
 		    "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
-	/* Spaceship Parts */
 
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Advanced Ballistics",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Spaceship part", 
-		    "Cannot be purchased", 
-		    "Only available <if [Apollo Program] is constructed>",
-		    "Uncapturable", 
-		    "Can be added to [The Spaceship] in the Capital", 
-		    "Limited to [3] per Civilization", 
-		    "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Satellites",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Spaceship part", 
-		    "Cannot be purchased", 
-		    "Only available <if [Apollo Program] is constructed>", 
-		    "Uncapturable", 
-		    "Can be added to [The Spaceship] in the Capital",
-		    "Limited to [1] per Civilization", 
-		    "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Spaceship part", 
-		    "Cannot be purchased", 
-		    "Only available <if [Apollo Program] is constructed>", 
-		    "Uncapturable", 
-		    "Can be added to [The Spaceship] in the Capital",
-		    "Limited to [1] per Civilization",
-		    "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 750,
-		"requiredTech": "Nanotechnology",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Spaceship part", 
-		    "Cannot be purchased", 
-		    "Only available <if [Apollo Program] is constructed>", 
-		    "Uncapturable",
-		    "Can be added to [The Spaceship] in the Capital", 
-		    "Limited to [1] per Civilization", 
-		    "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
-	},
+
+
 	{
 		"name": "Atomic Bomb",
 		"unitType": "Atomic Bomber",
@@ -2318,21 +1566,7 @@ Great Admiral
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
 	},
-	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 150,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource":"RS06 Uranium",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "No defensive terrain bonus", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "gdrAttack"
-	},
+
 
 
 
@@ -2602,7 +1836,6 @@ Great Admiral
 		"attackSound": "cannon"
 	},
 
-	// Industrial Era
 
 	{
 		"name": "Gatling Gun",
@@ -3044,24 +2277,7 @@ Great Admiral
 	    	"Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
-	{
-		"name": "Modern Armor",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 100,
-		"rangedStrength": 80,
-		"range": 2,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "RS05 Aluminum",
-		"upgradesTo": "Giant Death Robot",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "No defensive terrain bonus",
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
+
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Armored",
@@ -3332,29 +2548,6 @@ Great Admiral
 		"attackSound": "shot"
 	},
 
-/*
-//XSA//Canal
-	{
-		"name": "Dirt Canal Digger",
-		"unitType": "Civilian",
-		"movement": 2,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Steam Power",
-		"uniques": [ 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>", 		    
-			"Can instantly construct a [Dirt Canal Construction Site] improvement <once> <in tiles without [Hill]> <after which this unit is consumed>"],
-		"cost": 170
-	},
-	
-	{
-		"name": "Concrete Canal Digger",
-		"unitType": "Civilian",
-		"movement": 2,
-		"requiredTech": "Steam Power",
-		"uniques": [ 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>", 		    
-			"Can instantly construct a [Concrete Canal Construction Site] improvement <once> <after which this unit is consumed>"],
-		"cost": 280
-	}
-*/
 
 
 
@@ -6138,3 +5331,166 @@ SS Stasis Chamber
 
 
 */
+
+
+
+
+
+
+
+
+/*//XSA//The Root Out
+
+Anti-Aircraft Gun
+Anti-Tank Gun
+Artillery
+Battleship
+Cannon
+Caravel
+Carolean
+Destroyer
+Foreign Legion
+Frigate
+Gatling Gun
+Giant Death Robot
+Great War Infantry
+Helicopter Gunship
+Infantry
+Ironclad
+Janissary
+Landship
+Machine Gun
+Marine
+Mechanized Infantry
+Mehal Sefari
+Minuteman
+Mobile SAM
+Modern Armor
+Musketeer
+Musketman
+Norwegian Ski Infantry
+Nuclear Submarine
+Panzer
+Paratrooper
+
+
+
+Land Ironclad
+Airship
+Land Leviathan
+Sky Fortress
+
+
+
+Astronaut
+
+DNS Checkeri1
+DNS Checkeri2
+DNS Checkeri3
+DNS Checkeri4
+DNS Checkeri5
+DNS Checkeri6
+DNS Checkeri7
+DNS Checkeri8
+DNS Checkeri9
+
+
+TestBallo90
+TestBallo91
+TestBallo92
+TestBallo93
+TestBallo94
+TestBallo95
+TestBallo96
+TestBallo97
+TestBallo98
+TestBallo99
+
+Observar
+Revealer
+
+DNS Flyer
+DNS War Bomber
+
+Zeppelin Terraformer
+
+DNS Guided Rocket
+DNS Guided Missile
+DNS Nuclear Missile P2
+DNS Nuclear Missile P5
+DNS Nuclear Missile P8
+DNS Nuclear Missile P11
+DNS Nuclear Missile P13
+
+DNS Helicopter Gunship
+DNS Jet Fighter
+DNS Stealth Bomber
+DNS Sky Carrier
+
+DNS Destroyer
+DNS Battleship
+DNS Missile Cruiser
+DNS Submarine
+DNS Nuclear Submarine
+DNS Carrier
+
+DNS Modern Armor
+DNS Mechanized Infantry
+DNS Land Leviathan
+DNS Mobile SAM
+DNS Rocket Artillery
+
+DNS Worker
+DNS Work Boats
+DNS Settler
+DNS Scout
+
+DNS Missionary
+DNS Inquisitor
+
+DNS Great Artist
+DNS Great Scientist
+DNS Great Merchant
+DNS Great Engineer
+DNS Great Prophet
+DNS Great General
+DNS Great Admiral
+DNS Khan
+
+Brute
+Skirmisher
+Galley
+Marauder
+
+High Brute
+High Skirmisher
+High Galley
+High Marauder
+
+Stronger General
+Normal Worker
+Prophet
+Invulnerable Trooper
+Normal Settler
+
+Angel
+DNS Worker Land Class 3
+DNS Worker Boat Class 3
+DNS Fighter Zero
+DNS Bomber B17
+DNS Firework Flare
+
+
+
+
+*/
+
+
+
+
+		"name": "Longbowman",
+
+
+
+
+
