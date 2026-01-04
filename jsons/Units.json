@@ -2328,7 +2328,7 @@ Great Admiral
 	},
 
 
-//XSA//Gun Ranged Fixing
+//XSA//Gun Ranged Fixing End
 
 
 
@@ -2358,8 +2358,91 @@ Great Admiral
 		"attackSound": "torpedo"
 	},
   
+  
+  
+  
+  
+  
+  
+  
 
+	//xsa//spaceparts//100x costs
+	//reverted to default
+	
+  /* Spaceship Parts */
 
+	// Must be transported to the Capital for launch.
+	// Can be destroyed by any hostile military unit walking in their tile.
+	{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+    		"Spaceship part", 
+    		"Cannot be purchased", 
+    		"Only available <if [Apollo Program] is constructed>", 
+    		"Uncapturable", 
+    		"Can be added to [The Spaceship] in the Capital", 
+    		"Limited to [3] per Civilization"
+		]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Satellites",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+    		"Spaceship part", 
+    		"Cannot be purchased", 
+    		"Only available <if [Apollo Program] is constructed>", 
+    		"Uncapturable", 
+    		"Can be added to [The Spaceship] in the Capital", 
+    		"Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+    		"Spaceship part", 
+    		"Cannot be purchased", 
+    		"Only available <if [Apollo Program] is constructed>", 
+    		"Uncapturable", 
+    		"Can be added to [The Spaceship] in the Capital", 
+    		"Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 7500,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+            "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+            "Spaceship part", 
+            "Cannot be purchased", 
+            "Only available <if [Apollo Program] is constructed>", 
+            "Uncapturable", 
+            "Can be added to [The Spaceship] in the Capital", 
+            "Limited to [1] per Civilization"
+		  ]
+		// costs 1500 in BNW
+	},
 
 
 
@@ -2445,104 +2528,6 @@ Great Admiral
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
- 
-
-	
-	
-	
-	//xsa//spaceparts//100x costs
-	//reverted to default
-	
-  /* Spaceship Parts */
-
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
-	{
-		"name": "SS Booster",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 7500,
-		"requiredTech": "Advanced Ballistics",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-    		"Spaceship part", 
-    		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
-    		"Uncapturable", 
-    		"Can be added to [The Spaceship] in the Capital", 
-    		"Limited to [3] per Civilization"
-		]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Cockpit",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 7500,
-		"requiredTech": "Satellites",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-    		"Spaceship part", 
-    		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
-    		"Uncapturable", 
-    		"Can be added to [The Spaceship] in the Capital", 
-    		"Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Engine",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 7500,
-		"requiredTech": "Particle Physics",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-    		"Spaceship part", 
-    		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
-    		"Uncapturable", 
-    		"Can be added to [The Spaceship] in the Capital", 
-    		"Limited to [1] per Civilization"]
-		// costs 1500 in BNW
-	},
-	{
-		"name": "SS Stasis Chamber",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 7500,
-		"requiredTech": "Nanotechnology",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-            "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-            "Spaceship part", 
-            "Cannot be purchased", 
-            "Only available <if [Apollo Program] is constructed>", 
-            "Uncapturable", 
-            "Can be added to [The Spaceship] in the Capital", 
-            "Limited to [1] per Civilization"
-		  ]
-		// costs 1500 in BNW
-	},
 	
 	
 	
@@ -4760,9 +4745,10 @@ Great Admiral
 			"[+100] HP when healing",
 			"Uncapturable",
 			"Only available <for [Human player] Civilizations> <hidden from users>"],
-		"movement": 5
-			 "cost": 0
-			 "hurryCostModifier": 0
+		"movement": 5,
+			 "cost": 0,
+			 "hurryCostModifier": 0,
+		"requiredTech": "TechUnlocker"
  },
  {
 	  "name": "Normal Worker",
@@ -4777,9 +4763,10 @@ Great Admiral
 			"Uncapturable",
 		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ],
-	 "movement": 2
-			 "cost": 0
-			 "hurryCostModifier": 0
+	 "movement": 2,
+			 "cost": 0,
+			 "hurryCostModifier": 0,
+		"requiredTech": "TechUnlocker"
  },
  {
 	  "name": "Prophet",
@@ -4798,9 +4785,10 @@ Great Admiral
 			 "Uncapturable",
 		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ],
-			"movement": 2
-			 "cost": 0
-			 "hurryCostModifier": 0
+			"movement": 2,
+			 "cost": 0,
+			 "hurryCostModifier": 0,
+		"requiredTech": "TechUnlocker"
  },
  {
 	"name": "Invulnerable Trooper",
@@ -4813,10 +4801,11 @@ Great Admiral
 		 "Uncapturable",
 		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ]
-	 "strength": 50
-	 "movement": 2
-			 "cost": 0
-			 "hurryCostModifier": 0
+	 "strength": 50,
+	 "movement": 2,
+			 "cost": 0,
+			 "hurryCostModifier": 0,
+		"requiredTech": "TechUnlocker"
  },
  { 
 	 "name": "Normal Settler",
@@ -4829,9 +4818,10 @@ Great Admiral
 		 "Uncapturable",
 		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ]
-	 "movement": 2
-	 "cost": 0
-	 "hurryCostModifier": 0
+	 "movement": 2,
+	 "cost": 0,
+	 "hurryCostModifier": 0,
+		"requiredTech": "TechUnlocker"
  },
 	
 	
@@ -5272,8 +5262,7 @@ Great Admiral
 
 
 //xsa/*
-/*
-
+/*original sort
 
 
 Worker
@@ -5418,48 +5407,145 @@ SS Stasis Chamber
 
 /*//XSA//The Root Out
 
-Anti-Aircraft Gun
-Anti-Tank Gun
-Artillery
-Battleship
-Cannon
-Caravel
-Carolean
-Destroyer
-Foreign Legion
-Frigate
-Gatling Gun
-Giant Death Robot
-Great War Infantry
-Helicopter Gunship
-Infantry
-Ironclad
-Janissary
-Landship
-Machine Gun
-Marine
-Mechanized Infantry
-Mehal Sefari
-Minuteman
-Mobile SAM
-Modern Armor
-Musketeer
-Musketman
-Norwegian Ski Infantry
-Nuclear Submarine
-Panzer
-Paratrooper
+
+@@@Great Admiral###
+@@@Maori Warrior###
+@@@Jaguar###
+@@@Brute###
+@@@Archer###
+@@@Bowman###
+@@@Slinger###
+@@@Atlatlist###
+@@@Skirmisher###
+@@@Composite Bowman###
+@@@Mohawk Warrior###
+@@@Crossbowman###
+@@@Chu-Ko-Nu###
+@@@Longbowman###
+@@@Worker###
+@@@Settler###
+@@@Scout###
+@@@Warrior###
+@@@Work Boats###
+@@@Dromon###
+@@@Galley###
+@@@War Chariot###
+@@@Horse Archer###
+@@@War Elephant###
+@@@Spearman###
+@@@Hoplite###
+@@@Persian Immortal###
+@@@Battering Ram###
+@@@Pictish Warrior###
+@@@Marauder###
+@@@African Forest Elephant###
+@@@Catapult###
+@@@Ballista###
+@@@Pikeman###
+@@@Landsknecht###
+@@@Galleass###
+@@@Naresuan's Elephant###
+@@@Trebuchet###
+@@@Hwach'a###
+@@@Submarine###
+@@@Carrier###
+@@@Missile Cruiser###
+@@@Great Artist###
+@@@Great Scientist###
+@@@Great Merchant###
+@@@Great Engineer###
+@@@Great Prophet###
+@@@Great General###
+@@@Khan###
+@@@Missionary###
+@@@Inquisitor###
+@@@Chariot Archer###
+@@@Horseman###
+@@@Companion Cavalry###
+@@@Cataphract###
+@@@Knight###
+@@@Camel Archer###
+@@@Conquistador###
+@@@Mandekalu Cavalry###
+@@@Keshik###
+@@@Lancer###
+@@@Sipahi###
+@@@Hakkapeliitta###
+@@@Cavalry###
+@@@Cossack###
+@@@Hussar###
+@@@Swordsman###
+@@@Legion###
+@@@Longswordsman###
+@@@Samurai###
+@@@Berserker###
+@@@Triplane###
+@@@Great War Bomber###
+@@@Fighter###
+@@@Bomber###
+@@@B17###
+@@@Modern Armor###
+@@@Jet Fighter###
+@@@Stealth Bomber###
+@@@Atomic Bomb###
+@@@Trireme###
+@@@Quinquereme###
+@@@Caravel###
+@@@Turtle Ship###
+@@@Musketman###
+@@@Musketeer###
+@@@Janissary###
+@@@Minuteman###
+@@@Tercio###
+@@@Privateer###
+@@@Sea Beggar###
+@@@Frigate###
+@@@Ship of the Line###
+@@@Cannon###
+@@@Gatling Gun###
+@@@Rifleman###
+@@@Norwegian Ski Infantry###
+@@@Carolean###
+@@@Mehal Sefari###
+@@@Ironclad###
+@@@Artillery###
+@@@Great War Infantry###
+@@@Foreign Legion###
+@@@Infantry###
+@@@Battleship###
+@@@Machine Gun###
+@@@Anti-Aircraft Gun###
+@@@Landship###
+@@@Destroyer###
+@@@Marine###
+@@@Paratrooper###
+@@@Tank###
+@@@Panzer###
+@@@Anti-Tank Gun###
+@@@Rocket Artillery###
+@@@Mobile SAM###
+@@@Helicopter Gunship###
+@@@Mechanized Infantry###
+@@@Giant Death Robot###
+@@@Nuclear Submarine###
+
+
+@@@SS Booster###
+@@@SS Cockpit###
+@@@SS Engine###
+@@@SS Stasis Chamber###
+
+
+@@@Land Ironclad###
+@@@Airship###
+@@@Land Leviathan###
+@@@Sky Fortress###
+
+
+@@@Astronaut###
 
 
 
-Land Ironclad
-Airship
-Land Leviathan
-Sky Fortress
-
-
-
-Astronaut
 
 DNS Checkeri1
 DNS Checkeri2
