@@ -3855,7 +3855,7 @@ Great Admiral
 		"uniques": [
 			"Limited to [5] per Civilization",
 //		    "Invisible to non-adjacent units",
-		    "Invisible to others",
+//		    "Invisible to others",
 
 		    "Ignores Zone of Control", 
 			"May enter foreign tiles without open borders",
