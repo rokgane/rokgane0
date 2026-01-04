@@ -4750,46 +4750,7 @@ Great Admiral
 			 "hurryCostModifier": 0,
 		"requiredTech": "TechUnlocker"
  },
- {
-	  "name": "Normal Worker",
-				"requiredBuilding": "MiniCake UCheat",
-	 "unitType": "Class S Civilian",
-	 "uniques": [ 
-			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
-			"Can be purchased for [0] [Gold] [in this city]",
-			"Can build [Land] improvements on tiles",
-			"Can build [Water] improvements on tiles",
-			"[-99]% construction time for [All] improvements",
-			"Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>"
-			 ],
-	 "movement": 2,
-			 "cost": 0,
-			 "hurryCostModifier": 0,
-		"requiredTech": "TechUnlocker"
- },
- {
-	  "name": "Prophet",
-				"requiredBuilding": "MiniCake UCheat",
-	 "unitType": "Class S Civilian",
-	 "uniques": [ 
-			 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
-			 "Religious Unit",
-			 "May enhance a religion",
-			 "May found a religion",
-			 "Can Spread Religion",
-			 "Removes other religions when spreading religion",
-			 "May enter foreign tiles without open borders",
-			 "Only available <when religion is enabled>",
-			 "Takes your religion over the one in their birth city",
-			 "Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>"
-			 ],
-			"movement": 2,
-			 "cost": 0,
-			 "hurryCostModifier": 0,
-		"requiredTech": "TechUnlocker"
- },
+
  {
 	"name": "Invulnerable Trooper",
 				"requiredBuilding": "MiniCake UCheat",
@@ -4807,31 +4768,6 @@ Great Admiral
 			 "hurryCostModifier": 0,
 		"requiredTech": "TechUnlocker"
  },
- { 
-	 "name": "Normal Settler",
-				"requiredBuilding": "MiniCake UCheat",
-	 "unitType": "Class S Civilian",
-	 "uniques": [ 
-		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
-		 "Founds a new city",
-		 "Can be purchased for [0] [Gold] [in this city]",
-		 "Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>"
-			 ]
-	 "movement": 2,
-	 "cost": 0,
-	 "hurryCostModifier": 0,
-		"requiredTech": "TechUnlocker"
- },
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
