@@ -319,6 +319,7 @@ Great Admiral
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Uncapturable", 
 
@@ -360,6 +361,7 @@ Great Admiral
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
@@ -380,6 +382,7 @@ Great Admiral
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [5] per Civilization",
 			"May upgrade to [Archer] through ruins-like effects", 
@@ -411,6 +414,7 @@ Great Admiral
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 
@@ -851,6 +855,7 @@ Great Admiral
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
@@ -868,6 +873,7 @@ Great Admiral
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can hurry technology research", 
@@ -885,6 +891,7 @@ Great Admiral
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -901,6 +908,7 @@ Great Admiral
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can speed up construction of a building", 
@@ -917,6 +925,7 @@ Great Admiral
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
@@ -942,6 +951,7 @@ Great Admiral
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
@@ -964,6 +974,7 @@ Great Admiral
 		"replaces": "Great General",
 		"strength": 20,
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
@@ -988,6 +999,7 @@ Great Admiral
 		"name": "Missionary",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
@@ -1004,6 +1016,7 @@ Great Admiral
 		"name": "Inquisitor",
 		"unitType": "Civilian",
 		"uniques": [
+		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
@@ -4768,20 +4781,33 @@ Great Admiral
 			 "hurryCostModifier": 0,
 		"requiredTech": "TechUnlocker"
  },
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 /*
