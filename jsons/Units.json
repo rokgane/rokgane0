@@ -321,7 +321,34 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Uncapturable", 
-			"Can build [Land] improvements on tiles", 
+
+            //"Can build [Land] improvements on tiles", 
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+
+			"Can build [TI11 Camp] improvements on tiles",
+			"Can build [TI12 Oil well] improvements on tiles",
+//			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI14 Pasture] improvements on tiles",
+			"Can build [TI15 Plantation] improvements on tiles",
+			"Can build [TI16 Quarry] improvements on tiles",
+//			"Can build [TI17 Fishing Boats] improvements on tiles",
+			"Can build [TI18 Farm] improvements on tiles",
+			"Can build [TI19 Mine] improvements on tiles",
+			"Can build [TI20 Fort] improvements on tiles",
+
+			"Can build [Bioculture] improvements on tiles",
+			"Can build [DNS FunFort01] improvements on tiles",
+			"Can build [DNS FunFort02] improvements on tiles",
+			"Can build [DNS FunFort03] improvements on tiles",
+
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
+
 			"Automation is a primary action",
 			"Limited to [5] per Civilization"
 			],
@@ -386,7 +413,11 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
-			"May create improvements on water resources",
+
+//			"May create improvements on water resources",
+			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI17 Fishing Boats] improvements on tiles",
+
 			"Uncapturable", 
 			"Automation is a primary action",
 			"Limited to [5] per Civilization"
@@ -3360,21 +3391,12 @@ Great Admiral
 			"Can build [DNS FunFort02] improvements on tiles",
 			"Can build [DNS FunFort03] improvements on tiles",
 
-			"Can build [T11 Mountainify] improvements on tiles",
-			"Can build [T12 Desertify] improvements on tiles",
-			"Can build [T13 Snowify] improvements on tiles",
-
-			"Can build [T21 Oceanify] improvements on tiles",
-			"Can build [T22 Coastify] improvements on tiles",
-			"Can build [T23 Lakesify] improvements on tiles",
-			"Can build [T24 Iciiify] improvements on tiles",
-
-			"Can build [T31 Wastelandify] improvements on tiles",
-			"Can build [T32 Badlandsify] improvements on tiles",
-			"Can build [T33 Permafrostify] improvements on tiles",
-
-			"Can build [T41 Forestify] improvements on tiles",
-			"Can build [T42 Junglify] improvements on tiles",
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
 
 			"Can build [T11 Mountainify] improvements on tiles",
 			"Can build [T12 Desertify] improvements on tiles",
@@ -3414,13 +3436,6 @@ Great Admiral
 			"Can build [T62 Mount Sinai] improvements on tiles",
 			"Can build [T63 Sri Pada] improvements on tiles",
 			"Can build [T64 Uluru] improvements on tiles",
-
-			"Can build [DNS Academy] improvements on tiles",
-			"Can build [DNS Landmark] improvements on tiles",
-			"Can build [DNS Manufactory] improvements on tiles",
-			"Can build [DNS Customs house] improvements on tiles",
-			"Can build [DNS Holy site] improvements on tiles",
-			"Can build [DNS Citadel] improvements on tiles",
 
 			"Only available <for [Human player] Civilizations> <hidden from users>"
 
@@ -3853,7 +3868,8 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Limited to [5] per Civilization",
+			"Limited to [5] per Civilization <hidden from users>",
+
 //		    "Invisible to non-adjacent units",
 //		    "Invisible to others",
 
@@ -3890,6 +3906,8 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+//		    "Invisible to non-adjacent units",
+
 		    "Ignores Zone of Control", 
 			"May enter foreign tiles without open borders",
 
@@ -4094,7 +4112,33 @@ Great Admiral
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Never appears as a Barbarian unit",
 			"Automation is a primary action",
-			"Can build [Land] improvements on tiles", 
+
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+
+			"Can build [TI11 Camp] improvements on tiles",
+			"Can build [TI12 Oil well] improvements on tiles",
+//			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI14 Pasture] improvements on tiles",
+			"Can build [TI15 Plantation] improvements on tiles",
+			"Can build [TI16 Quarry] improvements on tiles",
+//			"Can build [TI17 Fishing Boats] improvements on tiles",
+			"Can build [TI18 Farm] improvements on tiles",
+			"Can build [TI19 Mine] improvements on tiles",
+			"Can build [TI20 Fort] improvements on tiles",
+
+			"Can build [Bioculture] improvements on tiles",
+			"Can build [DNS FunFort01] improvements on tiles",
+			"Can build [DNS FunFort02] improvements on tiles",
+			"Can build [DNS FunFort03] improvements on tiles",
+
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
+
 			"Uncapturable", 
 			"Can see over obstacles <before the [Classical era]>"
 //			"Limited to [2] per Civilization"
@@ -4123,7 +4167,10 @@ Great Admiral
 			"Never appears as a Barbarian unit",
 			"Automation is a primary action",
 //			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles", 
+
+			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI17 Fishing Boats] improvements on tiles",
+
 			"Uncapturable", 
 			"Can see over obstacles <before the [Classical era]>"
 //			"Limited to [5] per Civilization"
@@ -4898,7 +4945,34 @@ Great Admiral
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Never appears as a Barbarian unit",
 			"Automation is a primary action",
-			"Can build [Land] improvements on tiles", 
+
+            //"Can build [Land] improvements on tiles", 
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+
+			"Can build [TI11 Camp] improvements on tiles",
+			"Can build [TI12 Oil well] improvements on tiles",
+//			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI14 Pasture] improvements on tiles",
+			"Can build [TI15 Plantation] improvements on tiles",
+			"Can build [TI16 Quarry] improvements on tiles",
+//			"Can build [TI17 Fishing Boats] improvements on tiles",
+			"Can build [TI18 Farm] improvements on tiles",
+			"Can build [TI19 Mine] improvements on tiles",
+			"Can build [TI20 Fort] improvements on tiles",
+
+			"Can build [Bioculture] improvements on tiles",
+			"Can build [DNS FunFort01] improvements on tiles",
+			"Can build [DNS FunFort02] improvements on tiles",
+			"Can build [DNS FunFort03] improvements on tiles",
+
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
+
 			"Unavailable <hidden from users>",
 			"Uncapturable", 
 			"Can see over obstacles <before the [Classical era]>"
@@ -4925,8 +4999,10 @@ Great Admiral
 			"Never appears as a Barbarian unit",
 			"Automation is a primary action",
 //			"May create improvements on water resources",
-			"Can build [Water] improvements on tiles", 
-			"Unavailable <hidden from users>",
+
+			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI17 Fishing Boats] improvements on tiles",			"Unavailable <hidden from users>",
+
 			"Uncapturable", 
 			"Can see over obstacles <before the [Classical era]>"
 //			"Limited to [5] per Civilization"
@@ -5485,6 +5561,7 @@ DNS Firework Flare
 
 
 */
+
 
 
 
