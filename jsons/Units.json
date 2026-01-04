@@ -3853,6 +3853,7 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Limited to [5] per Civilization",
 //		    "Invisible to non-adjacent units",
 		    "Invisible to others",
 
@@ -5487,8 +5488,6 @@ DNS Firework Flare
 
 
 
-
-		"name": "Longbowman",
 
 
 
