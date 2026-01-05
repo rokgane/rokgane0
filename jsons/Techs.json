@@ -31,9 +31,9 @@
 	{
 		"columnNumber": 0,//xtc00
 		"era": "Ancient era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 185,
+		"techCost": 20,//xtc00Cost
+		"buildingCost": 40,//xtc00Cost
+		"wonderCost": 185,//xtc00Cost
 		"techs": [
 			{//TechParadrop
 				"name": "TechParadrop",
@@ -138,9 +138,9 @@
 	{
 		"columnNumber": 1,//xtc01
 		"era": "Ancient era",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 35,//xtc01Cost
+		"buildingCost": 60,//xtc01Cost
+		"wonderCost": 185,//xtc01Cost
 		"techs": [
 			{
 				"name": "Pottery",
@@ -175,9 +175,9 @@
 	{
 		"columnNumber": 2,//xtc02
 		"era": "Ancient era",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"techCost": 55,//xtc02Cost
+		"buildingCost": 75,//xtc02Cost
+		"wonderCost": 185,//xtc02Cost
 		"techs": [
 			{
 				"name": "Sailing",
@@ -232,9 +232,9 @@
 	{
 		"columnNumber": 5,//xtc05
 		"era": "Classical era",
-		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"techCost": 105,//xtc05Cost
+		"buildingCost": 100,//xtc05Cost
+		"wonderCost": 250,//xtc05Cost
 		"techs": [
 			{
 				"name": "Optics",
@@ -269,9 +269,9 @@
 	{
 		"columnNumber": 6,//xtc06
 		"era": "Classical era",
-		"techCost": 175,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"techCost": 175,//xtc06Cost
+		"buildingCost": 100,//xtc06Cost
+		"wonderCost": 250,//xtc06Cost
 		"techs": [
 			{
 				"name": "Philosophy",
@@ -311,9 +311,9 @@
 	{
 		"columnNumber": 9,//xtc09
 		"era": "Medieval era",
-		"techCost": 275,
-		"buildingCost": 120,
-		"wonderCost": 300,
+		"techCost": 275,//xtc09Cost
+		"buildingCost": 120,//xtc09Cost
+		"wonderCost": 300,//xtc09Cost
 		"techs": [
 			{
 				"name": "Theology",
@@ -349,9 +349,9 @@
 	{
 		"columnNumber": 10,//xtc10
 		"era": "Medieval era",
-		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"techCost": 485,//xtc10Cost
+		"buildingCost": 160,//xtc10Cost
+		"wonderCost": 400,//xtc10Cost
 		"techs": [
 			{
 				"name": "Compass",
@@ -403,9 +403,9 @@
 	{
 		"columnNumber": 13,//xtc13
 		"era": "Renaissance era",
-		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"techCost": 780,//xtc13Cost
+		"buildingCost": 200,//xtc13Cost
+		"wonderCost": 500,//xtc13Cost
 		"techs": [
 			{
 				"name": "Astronomy",
@@ -447,9 +447,9 @@
 	{
 		"columnNumber": 14,//xtc14
 		"era": "Renaissance era",
-		"techCost": 1150,
-		"buildingCost": 250,
-		"wonderCost": 625,
+		"techCost": 1150,//xtc14Cost
+		"buildingCost": 250,//xtc14Cost
+		"wonderCost": 625,//xtc14Cost
 		"techs": [
 			{
 				"name": "Navigation",
@@ -489,9 +489,9 @@
 	{
 		"columnNumber": 17,//xtc17
 		"era": "Industrial era",
-		"techCost": 1600,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"techCost": 1600,//xtc17Cost
+		"buildingCost": 300,//xtc17Cost
+		"wonderCost": 750,//xtc17Cost
 		"techs": [
 			{
 				"name": "Archaeology",
@@ -539,9 +539,10 @@
 	{
 		"columnNumber": 18,//xtc18
 		"era": "Industrial era",
-		"techCost": 2350,
-		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techCost": 2350,//xtc18Cost
+		"buildingCost": 360,//xtc18Cost
+		"wonderCost": 900,//xtc18Cost
+ // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
 		"techs": [
 			{
 				"name": "Biology",
@@ -575,9 +576,9 @@
 	{
 		"columnNumber": 21,//xtc21
 		"era": "Modern era",
-		"techCost": 3100,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"techCost": 3100,//xtc21Cost
+		"buildingCost": 500,//xtc21Cost
+		"wonderCost": 1060,//xtc21Cost
 		"techs": [
 			{
 				"name": "Refrigeration",
@@ -618,9 +619,9 @@
 	{
 		"columnNumber": 22,//xtc22
 		"era": "Modern era",
-		"techCost": 4100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 4100,//xtc22Cost
+		"buildingCost": 500,//xtc22Cost
+		"wonderCost": 1250,//xtc22Cost
 		"techs": [
 			{
 				"name": "Plastics",
@@ -653,9 +654,9 @@
 	{
 		"columnNumber": 25,//xtc25
 		"era": "Atomic era",
-		"techCost": 5100,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 5100,//xtc25Cost
+		"buildingCost": 500,//xtc25Cost
+		"wonderCost": 1250,//xtc25Cost
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
@@ -688,9 +689,9 @@
 	{
 		"columnNumber": 26,//xtc26
 		"era": "Atomic era",
-		"techCost": 6400,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 6400,//xtc26Cost
+		"buildingCost": 500,//xtc26Cost
+		"wonderCost": 1250,//xtc26Cost
 		"techs": [
 			{
 				"name": "Ecology",
@@ -722,9 +723,9 @@
 	{
 		"columnNumber": 29,//xtc29
 		"era": "Information era",
-		"techCost": 7700,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 7700,//xtc29Cost
+		"buildingCost": 750,//xtc29Cost
+		"wonderCost": 1250,//xtc29Cost
 		"techs": [
 			{
 				"name": "Telecommunications",
@@ -770,9 +771,9 @@
 	{
 		"columnNumber": 30,//xtc30
 		"era": "Information era",
-		"techCost": 8800,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 8800,//xtc30Cost
+		"buildingCost": 750,//xtc30Cost
+		"wonderCost": 1250,//xtc30Cost
 		"techs": [
 			{
 				"name": "Globalization",
@@ -812,9 +813,9 @@
 	{
 		"columnNumber": 35,//xtc35
 		"era": "Future era",
-		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 9500,//xtc35Cost
+		"buildingCost": 750,//xtc35Cost
+		"wonderCost": 1250,//xtc35Cost
 		"techs": [
 			{
 				"name": "Era9UnlockHuman",
@@ -884,9 +885,9 @@
 	{
 		"columnNumber": 4,//xtc04
 		"era": "Ancient era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc04Cost
+		"buildingCost": 100,//xtc04Cost
+		"wonderCost": 999999,//xtc04Cost
 		"techs": [
 			{
 				"name": "1X TechSlowerEraAncient",
@@ -923,9 +924,9 @@
 	{
 		"columnNumber": 8,//xtc08
 		"era": "Classical era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc08Cost
+		"buildingCost": 100,//xtc08Cost
+		"wonderCost": 999999,//xtc08Cost
 		"techs": [
 			{
 				"name": "2X TechSlowerEraClassical",
@@ -962,9 +963,9 @@
 	{
 		"columnNumber": 12,//xtc12
 		"era": "Medieval era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc12Cost
+		"buildingCost": 100,//xtc12Cost
+		"wonderCost": 999999,//xtc12Cost
 		"techs": [
 			{
 				"name": "3X TechSlowerEraMedieval",
@@ -1001,9 +1002,9 @@
 	{
 		"columnNumber": 16,//xtc16
 		"era": "Renaissance era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc16Cost
+		"buildingCost": 100,//xtc16Cost
+		"wonderCost": 999999,//xtc16Cost
 		"techs": [
 			{
 				"name": "4X TechSlowerEraRenaissance",
@@ -1040,9 +1041,9 @@
 	{
 		"columnNumber": 20,//xtc20
 		"era": "Industrial era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc20Cost
+		"buildingCost": 100,//xtc20Cost
+		"wonderCost": 999999,//xtc20Cost
 		"techs": [
 			{
 				"name": "5X TechSlowerEraIndustrial",
@@ -1079,9 +1080,9 @@
 	{
 		"columnNumber": 24,//xtc24
 		"era": "Modern era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc24Cost
+		"buildingCost": 100,//xtc24Cost
+		"wonderCost": 999999,//xtc24Cost
 		"techs": [
 			{
 				"name": "6X TechSlowerEraModern",
@@ -1118,9 +1119,9 @@
 	{
 		"columnNumber": 28,//xtc28
 		"era": "Atomic era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc28Cost
+		"buildingCost": 100,//xtc28Cost
+		"wonderCost": 999999,//xtc28Cost
 		"techs": [
 			{
 				"name": "7X TechSlowerEraAtomic",
@@ -1157,9 +1158,9 @@
 	{
 		"columnNumber": 32,//xtc32
 		"era": "Information era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc32Cost
+		"buildingCost": 100,//xtc32Cost
+		"wonderCost": 999999,//xtc32Cost
 		"techs": [
 			{
 				"name": "8X TechSlowerEraInformation",
@@ -1198,9 +1199,9 @@
 	{
 		"columnNumber": 34,//xtc34
 		"era": "Future era",
-		"techCost": 99999999,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 999999,//xtc34Cost
+		"buildingCost": 750,//xtc34Cost
+		"wonderCost": 1250,//xtc34Cost
 		"techs": [
 
 			{
@@ -1225,9 +1226,9 @@
 	{
 		"columnNumber": 33,//xtc33
 		"era": "Future era",
-		"techCost": 99999999,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 999999,//xtc33Cost
+		"buildingCost": 750,//xtc33Cost
+		"wonderCost": 1250,//xtc33Cost
 		"techs": [
 		    {
 				"name": "00 FutureTech",
@@ -1388,9 +1389,9 @@
 	{
 		"columnNumber": 3,//xtc03
 		"era": "Ancient era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc03Cost
+		"buildingCost": 100,//xtc03Cost
+		"wonderCost": 999999,//xtc03Cost
 		"techs": [
 //era1
 
@@ -1547,9 +1548,9 @@
 	{
 		"columnNumber": 7,//xtc07
 		"era": "Classical era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc07Cost
+		"buildingCost": 100,//xtc07Cost
+		"wonderCost": 999999,//xtc07Cost
 		"techs": [
 
 			{
@@ -1702,9 +1703,9 @@
 	{
 		"columnNumber": 11,//xtc11
 		"era": "Medieval era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc11Cost
+		"buildingCost": 100,//xtc11Cost
+		"wonderCost": 999999,//xtc11Cost
 		"techs": [
 
 
@@ -1860,9 +1861,9 @@
 	{
 		"columnNumber": 15,//xtc15
 		"era": "Renaissance era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc15Cost
+		"buildingCost": 100,//xtc15Cost
+		"wonderCost": 999999,//xtc15Cost
 		"techs": [
 			{
 				"name": "40 InhibitorEra Renaissance",
@@ -2007,9 +2008,9 @@
 	{
 		"columnNumber": 19,//xtc19
 		"era": "Industrial era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc19Cost
+		"buildingCost": 100,//xtc19Cost
+		"wonderCost": 999999,//xtc19Cost
 		"techs": [
 		    {
             	"name": "DNS Tech Landships",
@@ -2174,9 +2175,9 @@
 	{
 		"columnNumber": 23,//xtc23
 		"era": "Modern era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc23Cost
+		"buildingCost": 100,//xtc23Cost
+		"wonderCost": 999999,//xtc23Cost
 		"techs": [
             {
             	"name": "DNS Tech Land Leviathan",
@@ -2346,9 +2347,9 @@
 	{
 		"columnNumber": 27,//xtc27
 		"era": "Atomic era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc27Cost
+		"buildingCost": 100,//xtc27Cost
+		"wonderCost": 999999,//xtc27Cost
 		"techs": [
 
 			{
@@ -2500,9 +2501,9 @@
 	{
 		"columnNumber": 31,//xtc31
 		"era": "Information era",
-		"techCost": 9999999999,
-		"buildingCost": 100,
-		"wonderCost": 9999999999,
+		"techCost": 999999,//xtc31Cost
+		"buildingCost": 100,//xtc31Cost
+		"wonderCost": 999999,//xtc31Cost
 		"techs": [
 			{
 				"name": "80 InhibitorEra Information",
@@ -2719,3 +2720,169 @@ RML10 Glass
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+		"techCost": 20,//xtc00Cost
+		"buildingCost": 40,//xtc00Cost
+		"wonderCost": 185,//xtc00Cost
+
+		"techCost": 35,//xtc01Cost
+		"buildingCost": 60,//xtc01Cost
+		"wonderCost": 185,//xtc01Cost
+
+		"techCost": 55,//xtc02Cost
+		"buildingCost": 75,//xtc02Cost
+		"wonderCost": 185,//xtc02Cost
+
+		"techCost": 105,//xtc05Cost
+		"buildingCost": 100,//xtc05Cost
+		"wonderCost": 250,//xtc05Cost
+
+		"techCost": 175,//xtc06Cost
+		"buildingCost": 100,//xtc06Cost
+		"wonderCost": 250,//xtc06Cost
+
+		"techCost": 275,//xtc09Cost
+		"buildingCost": 120,//xtc09Cost
+		"wonderCost": 300,//xtc09Cost
+
+		"techCost": 485,//xtc10Cost
+		"buildingCost": 160,//xtc10Cost
+		"wonderCost": 400,//xtc10Cost
+
+		"techCost": 780,//xtc13Cost
+		"buildingCost": 200,//xtc13Cost
+		"wonderCost": 500,//xtc13Cost
+
+		"techCost": 1150,//xtc14Cost
+		"buildingCost": 250,//xtc14Cost
+		"wonderCost": 625,//xtc14Cost
+
+		"techCost": 1600,//xtc17Cost
+		"buildingCost": 300,//xtc17Cost
+		"wonderCost": 750,//xtc17Cost
+
+		"techCost": 2350,//xtc18Cost
+		"buildingCost": 360,//xtc18Cost
+		"wonderCost": 900,//xtc18Cost
+
+		"techCost": 3100,//xtc21Cost
+		"buildingCost": 500,//xtc21Cost
+		"wonderCost": 1060,//xtc21Cost
+
+		"techCost": 4100,//xtc22Cost
+		"buildingCost": 500,//xtc22Cost
+		"wonderCost": 1250,//xtc22Cost
+
+		"techCost": 5100,//xtc25Cost
+		"buildingCost": 500,//xtc25Cost
+		"wonderCost": 1250,//xtc25Cost
+
+		"techCost": 6400,//xtc26Cost
+		"buildingCost": 500,//xtc26Cost
+		"wonderCost": 1250,//xtc26Cost
+
+		"techCost": 7700,//xtc29Cost
+		"buildingCost": 750,//xtc29Cost
+		"wonderCost": 1250,//xtc29Cost
+
+		"techCost": 8800,//xtc30Cost
+		"buildingCost": 750,//xtc30Cost
+		"wonderCost": 1250,//xtc30Cost
+
+		"techCost": 9500,//xtc35Cost
+		"buildingCost": 750,//xtc35Cost
+		"wonderCost": 1250,//xtc35Cost
+
+		"techCost": 999999,//xtc04Cost
+		"buildingCost": 100,//xtc04Cost
+		"wonderCost": 999999,//xtc04Cost
+
+		"techCost": 999999,//xtc08Cost
+		"buildingCost": 100,//xtc08Cost
+		"wonderCost": 999999,//xtc08Cost
+
+		"techCost": 999999,//xtc12Cost
+		"buildingCost": 100,//xtc12Cost
+		"wonderCost": 999999,//xtc12Cost
+
+		"techCost": 999999,//xtc16Cost
+		"buildingCost": 100,//xtc16Cost
+		"wonderCost": 999999,//xtc16Cost
+
+		"techCost": 999999,//xtc20Cost
+		"buildingCost": 100,//xtc20Cost
+		"wonderCost": 999999,//xtc20Cost
+
+		"techCost": 999999,//xtc24Cost
+		"buildingCost": 100,//xtc24Cost
+		"wonderCost": 999999,//xtc24Cost
+
+		"techCost": 999999,//xtc28Cost
+		"buildingCost": 100,//xtc28Cost
+		"wonderCost": 999999,//xtc28Cost
+
+		"techCost": 999999,//xtc32Cost
+		"buildingCost": 100,//xtc32Cost
+		"wonderCost": 999999,//xtc32Cost
+
+		"techCost": 999999,//xtc34Cost
+		"buildingCost": 750,//xtc34Cost
+		"wonderCost": 1250,//xtc34Cost
+
+		"techCost": 999999,//xtc33Cost
+		"buildingCost": 750,//xtc33Cost
+		"wonderCost": 1250,//xtc33Cost
+
+		"techCost": 999999,//xtc03Cost
+		"buildingCost": 100,//xtc03Cost
+		"wonderCost": 999999,//xtc03Cost
+
+		"techCost": 999999,//xtc07Cost
+		"buildingCost": 100,//xtc07Cost
+		"wonderCost": 999999,//xtc07Cost
+
+		"techCost": 999999,//xtc11Cost
+		"buildingCost": 100,//xtc11Cost
+		"wonderCost": 999999,//xtc11Cost
+
+		"techCost": 999999,//xtc15Cost
+		"buildingCost": 100,//xtc15Cost
+		"wonderCost": 999999,//xtc15Cost
+
+		"techCost": 999999,//xtc19Cost
+		"buildingCost": 100,//xtc19Cost
+		"wonderCost": 999999,//xtc19Cost
+
+		"techCost": 999999,//xtc23Cost
+		"buildingCost": 100,//xtc23Cost
+		"wonderCost": 999999,//xtc23Cost
+
+		"techCost": 999999,//xtc27Cost
+		"buildingCost": 100,//xtc27Cost
+		"wonderCost": 999999,//xtc27Cost
+
+		"techCost": 999999,//xtc31Cost
+		"buildingCost": 100,//xtc31Cost
+		"wonderCost": 999999,//xtc31Cost
+
+
+*/
