@@ -248,7 +248,6 @@
 	{
 		"name": "FakeWeak",
 		"uniques": [
-	    		"Can move immediately once bought<for [Human player] Civilizations>", 
 				"Can move after attacking<for [Human player] Civilizations>",
 				"Can see over obstacles<for [Human player] Civilizations>",
 				"Ranged attacks may be performed over obstacles<for [Human player] Civilizations>",
