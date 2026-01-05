@@ -5926,7 +5926,8 @@
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>"]
 	},
-	{
+/*
+{
 		"name": "Starter Pack",
 				"requiredBuilding": "MiniCake UCheat",
 		"cost": 0,
@@ -5944,6 +5945,7 @@
 			"[+1] free [Normal Worker] units appear <hidden from users>",
 			"[+1] free [Normal Settler] units appear <hidden from users>"]
 	},
+*/
 	{
 		"name": "+5 stats",
 				"requiredBuilding": "MiniCake UCheat",

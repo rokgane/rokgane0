@@ -1443,7 +1443,8 @@
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [1] tiles of a [City center]> <in cities with a [MiniCake DNS Vault]>",
+            "Only available <within [1] tiles of a [City center]>",
+			"Unavailable <in tiles adjacent to [Foreign] tiles>",
 
 //            "Food source",
 //			"Can only be built to improve a resource",
