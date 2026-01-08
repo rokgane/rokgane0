@@ -208,7 +208,7 @@
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
-				"name": "E1 The Wheel",
+				"name": "E1 E1 The Wheel",
 				"row": 7,
 				"prerequisites": ["Animal Husbandry", "Archery"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -247,20 +247,20 @@
 			{
 				"name": "E2 Horseback Riding",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel","1X TechSlowerEraAncient"],
+				"prerequisites": ["Trapping","E1 The Wheel","1X TechSlowerEraAncient"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "E2 Mathematics",
 				"row": 7,
-				"prerequisites": ["The Wheel","1X TechSlowerEraAncient"],
+				"prerequisites": ["E1 The Wheel","1X TechSlowerEraAncient"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "E2 Construction",
 				"row": 9,
-				"prerequisites": ["Masonry","The Wheel","1X TechSlowerEraAncient"],
+				"prerequisites": ["Masonry","E1 The Wheel","1X TechSlowerEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
@@ -379,7 +379,7 @@
 				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
-				"name": "E3 Machinery",
+				"name": "E3 E3 Machinery",
 				"row": 8,
 				"prerequisites": ["Guilds","Engineering","2X TechSlowerEraClassical"],
 				"uniques": ["Improves movement speed on roads"],
@@ -431,7 +431,7 @@
 			{
 				"name": "E4 Printing Press",
 				"row": 8,
-				"prerequisites": ["Machinery","Physics","Chivalry","3X TechSlowerEraMedieval"],
+				"prerequisites": ["E3 Machinery","Physics","Chivalry","3X TechSlowerEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
@@ -512,7 +512,7 @@
 				"row": 6,
 				"prerequisites": ["Economics","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+				"quote": "'Industrialization based on E3 Machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
 				"name": "E5 Rifling",
@@ -665,7 +665,7 @@
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
-				"name": "E7 Atomic Theory",
+				"name": "E7 E7 Atomic Theory",
 				"row": 4,
 				"prerequisites": ["Plastics","Electronics","6X TechSlowerEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -696,13 +696,13 @@
 			{
 				"name": "E7 Ecology",
 				"row": 2,
-				"prerequisites": ["Atomic Theory","Pharmaceuticals","6X TechSlowerEraModern"],
+				"prerequisites": ["E7 Atomic Theory","Pharmaceuticals","6X TechSlowerEraModern"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
 				"name": "E7 Nuclear Fission",
 				"row": 4,
-				"prerequisites": ["Atomic Theory","Radar","6X TechSlowerEraModern"],
+				"prerequisites": ["E7 Atomic Theory","Radar","6X TechSlowerEraModern"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
@@ -1408,7 +1408,7 @@
 					"Calendar",
 					"Writing",
 					"Trapping",
-					"The Wheel",
+					"E1 The Wheel",
 					"Masonry",
 					"Bronze Working"
 				],
@@ -1425,7 +1425,7 @@
         			"Discover [Calendar]<before discovering [Calendar]>",
         			"Discover [Writing]<before discovering [Writing]>",
         			"Discover [Trapping]<before discovering [Trapping]>",
-        			"Discover [The Wheel]<before discovering [The Wheel]>",
+        			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]>",
         			"Discover [Masonry]<before discovering [Masonry]>",
         			"Discover [Bronze Working]<before discovering [Bronze Working]>",
 
@@ -1721,7 +1721,7 @@
 					"Compass",
 					"Education",
 					"Chivalry",
-					"Machinery",
+					"E3 Machinery",
 					"Physics",
 					"Steel"
 //					"20 InhibitorEra Classical"
@@ -1738,7 +1738,7 @@
         			"Discover [Compass]<before discovering [Compass]>",
         			"Discover [Education]<before discovering [Education]>",
         			"Discover [Chivalry]<before discovering [Chivalry]>",
-        			"Discover [Machinery]<before discovering [Machinery]>",
+        			"Discover [E3 Machinery]<before discovering [E3 Machinery]>",
         			"Discover [Physics]<before discovering [Physics]>",
         			"Discover [Steel]<before discovering [Steel]>",
 					
@@ -2357,7 +2357,7 @@
 				"row": 13,
 				"prerequisites": [
 					"Pharmaceuticals",
-					"Atomic Theory",
+					"E7 Atomic Theory",
 					"Radar",
 					"Combined Arms",
 
@@ -2373,7 +2373,7 @@
 //era7
 
         			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]>",
-        			"Discover [Atomic Theory]<before discovering [Atomic Theory]>",
+        			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]>",
         			"Discover [Radar]<before discovering [Radar]>",
         			"Discover [Combined Arms]<before discovering [Combined Arms]>",
         
@@ -2738,7 +2738,7 @@ E1 Sailing
 E1 Calendar
 E1 Writing
 E1 Trapping
-E1 The Wheel
+E1 E1 The Wheel
 E1 Masonry
 E1 Bronze Working
 
@@ -2759,7 +2759,7 @@ E3 Metal Casting
 E3 Compass
 E3 Education
 E3 Chivalry
-E3 Machinery
+E3 E3 Machinery
 E3 Physics
 E3 Steel
 
@@ -2796,7 +2796,7 @@ E6 Ballistics
 E6 Combustion
 
 E7 Pharmaceuticals
-E7 Atomic Theory
+E7 E7 Atomic Theory
 E7 Radar
 E7 Combined Arms
 E7 Ecology

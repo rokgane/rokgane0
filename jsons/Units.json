@@ -104,7 +104,7 @@ Great Admiral
 	},
 	{
 		"name": "Archer",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -119,7 +119,7 @@ Great Admiral
 	},
 	{
 		"name": "Bowman",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 9,
@@ -136,7 +136,7 @@ Great Admiral
 	},
 	{
 		"name": "Slinger",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "Inca",
 		"replaces": "Archer",
 		"movement": 2,
@@ -154,7 +154,7 @@ Great Admiral
 	},
 	{
 		"name": "Atlatlist",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -171,7 +171,7 @@ Great Admiral
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"movement": 2,
@@ -188,7 +188,7 @@ Great Admiral
 	},
 	{
 		"name": "Composite Bowman",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
@@ -222,7 +222,7 @@ Great Admiral
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -237,7 +237,7 @@ Great Admiral
 	},
 	{
 		"name": "Chu-Ko-Nu",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
@@ -255,7 +255,7 @@ Great Admiral
 	},
 	{
 		"name": "Longbowman",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"range": 2,
 		"movement": 2,
 		"strength": 13,
@@ -465,7 +465,7 @@ Great Admiral
 
 	{
 		"name": "War Chariot",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "Egypt",
 		"replaces": "Chariot Archer",
 		"movement": 5,
@@ -483,7 +483,7 @@ Great Admiral
 	},
 	{
 		"name": "Horse Archer",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "The Huns",
 		"replaces": "Chariot Archer",
 		"movement": 4,
@@ -501,7 +501,7 @@ Great Admiral
 	},
 	{
 		"name": "War Elephant",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "India",
 		"replaces": "Chariot Archer",
 		"movement": 3,
@@ -1060,7 +1060,7 @@ Great Admiral
 
 	{
 		"name": "Chariot Archer",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -1154,7 +1154,7 @@ Great Admiral
 	},
 	{
 		"name": "Camel Archer",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"replaces": "Knight",
 		"uniqueTo": "Arabia",
 		"movement": 4,
@@ -1215,7 +1215,7 @@ Great Admiral
 	},
 	{
 		"name": "Keshik",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"replaces": "Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
@@ -1691,7 +1691,7 @@ Great Admiral
 	},
 	{
 		"name": "Musketman",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
 		"rangedStrength": 12,
@@ -1707,7 +1707,7 @@ Great Admiral
 	},
 	{
 		"name": "Musketeer",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
@@ -1725,7 +1725,7 @@ Great Admiral
     },
 	{
 		"name": "Janissary",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
@@ -1745,7 +1745,7 @@ Great Admiral
 	},
 	{
 		"name": "Minuteman",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "America",
 		"movement": 2,
@@ -1765,7 +1765,7 @@ Great Admiral
 	},
 	{
 		"name": "Tercio",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "Spain",
 		"movement": 2,
@@ -1883,7 +1883,7 @@ Great Admiral
 
 	{
 		"name": "Gatling Gun",
-		"unitType": "Ranged E4 Gunpowder",
+		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
 		"strength": 30,
@@ -1899,7 +1899,7 @@ Great Admiral
 	},
 	{
 		"name": "Rifleman",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
 		"rangedStrength": 17,
@@ -1915,7 +1915,7 @@ Great Admiral
 	},
 	{
 		"name": "Norwegian Ski Infantry",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
 		"uniqueTo": "Denmark",
 		"movement": 2,
@@ -1934,7 +1934,7 @@ Great Admiral
 	},
 	{
 		"name": "Carolean",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
 		"uniqueTo": "Sweden",
 		"movement": 2,
@@ -1953,7 +1953,7 @@ Great Admiral
 	},
 	{
 		"name": "Mehal Sefari",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
 		"uniqueTo": "Ethiopia",
 		"movement": 2,
@@ -2012,7 +2012,7 @@ Great Admiral
 	},
 	{
 		"name": "Great War Infantry",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 25,
@@ -2028,7 +2028,7 @@ Great Admiral
 	},
 	{
 		"name": "Foreign Legion",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "France",
 		"movement": 2,
@@ -2046,7 +2046,7 @@ Great Admiral
 	},
 	{
 		"name": "Infantry",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
 		"rangedStrength": 35,
@@ -2079,7 +2079,7 @@ Great Admiral
 	},
 	{
 		"name": "Machine Gun",
-		"unitType": "Ranged E4 Gunpowder",
+		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
 		"strength": 60,
@@ -2095,7 +2095,7 @@ Great Admiral
 	},
 	{
 		"name": "Anti-Aircraft Gun",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"interceptRange": 2,
 		"strength": 50,
@@ -2152,7 +2152,7 @@ Great Admiral
 	},
 	{
 		"name": "Marine",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 32,
@@ -2168,7 +2168,7 @@ Great Admiral
 	},
 	{
 		"name": "Paratrooper",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 32,
@@ -2222,7 +2222,7 @@ Great Admiral
 	},
 	{
 		"name": "Anti-Tank Gun",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 25,
@@ -2257,7 +2257,7 @@ Great Admiral
 	},
 	{
 		"name": "Mobile SAM",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 3,
 		"interceptRange": 2,
 		"strength": 65,
@@ -2309,7 +2309,7 @@ Great Admiral
 
 	{
 		"name": "Mechanized Infantry",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
 		"rangedStrength": 45,
@@ -2391,7 +2391,7 @@ Great Admiral
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "E8 Advanced E6 Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2426,7 +2426,7 @@ Great Admiral
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "E8 Particle E3 Physics",
+		"requiredTech": "E8 Particle Physics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2562,15 +2562,15 @@ Great Admiral
 
   {
 		"name": "Astronaut",
-		"unitType": "E4 Gunpowder",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 75,
 		"cost": 425,
-		"requiredTech": "E8 Advanced E6 Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "May Paradrop to [All] tiles up to [30] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Uncapturable",
-			"May Paradrop to [Land] tiles up to [30] tiles away <in [{Friendly} {Land}] tiles>", 
+			"May Paradrop to [Land] tiles up to [30] tiles away <in [{Friendly} {Land}] tiles><before discovering [TechParadrop]>", 
 //			"May Paradrop up to [20] tiles from inside friendly territory", 
 			"Never appears as a Barbarian unit"
 		   ],
@@ -2815,7 +2815,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -2850,7 +2850,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -2886,7 +2886,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -2922,7 +2922,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -2958,7 +2958,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -2994,7 +2994,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -3032,7 +3032,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -3069,7 +3069,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -3105,7 +3105,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -3141,7 +3141,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
             "[+6] Sight",
@@ -3199,7 +3199,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
     	    "[+6] Sight",
@@ -3238,7 +3238,7 @@ Great Admiral
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "E6 Replaceable Parts",
-//    	"obsoleteTech":"E8 Advanced E6 Ballistics",
+//    	"obsoleteTech":"E8 Advanced Ballistics",
     	"cost": 200,
     	"uniques": [
     	    "[+30] Sight",
@@ -3486,7 +3486,7 @@ Great Admiral
 		"range": 6,
 		"cost": 150,
 		"requiredTech": "TechUnlocker",
-//		"requiredTech": "E8 Advanced E6 Ballistics",
+//		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
@@ -3508,7 +3508,7 @@ Great Admiral
 		"rangedStrength": 90,
 		"range": 15,
 		"cost": 150,
-//		"requiredTech": "E8 Advanced E6 Ballistics",
+//		"requiredTech": "E8 Advanced Ballistics",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Air",
 		"uniques": [
@@ -3985,7 +3985,7 @@ Great Admiral
 //DNS Mechanized Infantry
 	{
 		"name": "DNS Mechanized Infantry",
-		"unitType": "DNSE4 Gunpowder",
+		"unitType": "DNSGunpowder",
 		"movement": 3,
 		"strength": 90,
 		"rangedStrength": 45,
@@ -4034,7 +4034,7 @@ Great Admiral
 //DNS Mobile SAM
 	{
 		"name": "DNS Mobile SAM",
-		"unitType": "DNSE4 Gunpowder",
+		"unitType": "DNSGunpowder",
 		"movement": 3,
 		"interceptRange": 3,
 		"strength": 65,
@@ -4601,7 +4601,7 @@ Great Admiral
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"movement": 2,
@@ -4666,7 +4666,7 @@ Great Admiral
 	},
 	{
 		"name": "High Skirmisher",
-		"unitType": "E1 Archery",
+		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"movement": 2,
@@ -5037,7 +5037,7 @@ Great Admiral
 		"range": 4,
 		"cost": 150,
 		"requiredTech": "TechUnlocker",
-//		"requiredTech": "E8 Advanced E6 Ballistics",
+//		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
