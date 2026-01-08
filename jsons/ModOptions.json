@@ -36,6 +36,102 @@
 		"minimalCityDistanceOnDifferentContinents": 2
 	},
 
+
+	"techsToRemove": [
+
+		"Agriculture",
+		"Pottery",
+		"Animal Husbandry",
+		"Archery",
+		"Mining",
+		"Sailing",
+		"Calendar",
+		"Writing",
+		"Trapping",
+		"The Wheel",
+		"Masonry",
+		"Bronze Working",
+
+		"Optics",
+		"Horseback Riding",
+		"Mathematics",
+		"Construction",
+		"Philosophy",
+		"Drama and Poetry",
+		"Currency",
+		"Engineering",
+		"Iron Working",
+
+		"Theology",
+		"Civil Service",
+		"Guilds",
+		"Metal Casting",
+		"Compass",
+		"Education",
+		"Chivalry",
+		"Machinery",
+		"Physics",
+		"Steel",
+
+		"Astronomy",
+		"Acoustics",
+		"Banking",
+		"Printing Press",
+		"Gunpowder",
+		"Navigation",
+		"Architecture",
+		"Economics",
+		"Metallurgy",
+		"Chemistry",
+
+		"Archaeology",
+		"Scientific Theory",
+		"Industrialization",
+		"Rifling",
+		"Military Science",
+		"Fertilizer",
+		"Biology",
+		"Electricity",
+		"Steam Power",
+		"Dynamite",
+
+		"Refrigeration",
+		"Radio",
+		"Replaceable Parts",
+		"Flight",
+		"Railroads",
+		"Plastics",
+		"Electronics",
+		"Ballistics",
+		"Combustion",
+
+		"Pharmaceuticals",
+		"Atomic Theory",
+		"Radar",
+		"Combined Arms",
+		"Ecology",
+		"Nuclear Fission",
+		"Rocketry",
+		"Computers",
+
+		"Telecommunications",
+		"Mobile Tactics",
+		"Advanced Ballistics",
+		"Satellites",
+		"Robotics",
+		"Lasers",
+		"Globalization",
+		"Particle Physics",
+		"Nuclear Fusion",
+		"Nanotechnology",
+		"Stealth",
+		"Future Tech",
+    ],
+
+
+
+
+
 	"buildingsToRemove": [
 
 		"Palace",

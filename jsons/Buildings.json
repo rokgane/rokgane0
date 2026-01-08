@@ -895,7 +895,7 @@
 			"[+100]% Natural religion spread [in this city]", 
 			"Only available <when religion is enabled>", 
 			"Can only be built <in [Holy] cities>"],
-		"requiredTech": "E2 E3 Theology",
+		"requiredTech": "E3 Theology",
 		"isNationalWonder": true
 	},
 	{
@@ -1197,7 +1197,7 @@
 			"Gain a free [E2 Temple] [in this city]", 
 			"Free [E0 Great Prophet] appears", 
 			"Only available <when religion is enabled>"],
-		"requiredTech": "E2 E3 Theology",
+		"requiredTech": "E3 Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 	{
@@ -1212,7 +1212,7 @@
 			"Only available <when religion is enabled>",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [E0 Great Prophet] units [in this city] receive the [Devout] promotion"],
-		"requiredTech": "E2 E3 Theology",
+		"requiredTech": "E3 Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
@@ -8125,7 +8125,7 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [E2 E3 Theology]<before discovering [E2 E3 Theology]> <for [Human player] Civilizations>",
+			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [Human player] Civilizations>",
 			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [Human player] Civilizations>",
 			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [Human player] Civilizations>",
 			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [Human player] Civilizations>",
@@ -8967,7 +8967,7 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [E2 E3 Theology]<before discovering [E2 E3 Theology]> <for [AI player] Civilizations>",
+			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [AI player] Civilizations>",
 			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [AI player] Civilizations>",
 			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [AI player] Civilizations>",
 			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [AI player] Civilizations>",
