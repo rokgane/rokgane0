@@ -34,14 +34,14 @@
 		    "[+1 Food] from [RB03 Deer] tiles [in this city]",
 			"[+1 Food] from [RB04 Bananas] tiles [in this city]",
 			"[+1 Food] from [RB05 Wheat] tiles [in this city]"],
-		"requiredTech": "E1 E1 Pottery"
+		"requiredTech": "E1 Pottery"
 	},
 	{
 		"name": "E1 Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "E1 E1 Pottery",
+		"requiredTech": "E1 Pottery",
 		"uniques": [
 		    "Only available <when religion is enabled>"]
 	},
@@ -53,7 +53,7 @@
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "E1 E1 Pottery",
+		"requiredTech": "E1 Pottery",
 		"uniques": [
 		    "Only available <when religion is enabled>"]
 	},
@@ -63,7 +63,7 @@
 		"maintenance": 1,
 		"uniques": [
 		    "[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "E1 E1 Writing"
+		"requiredTech": "E1 Writing"
 	},
 	{
 		"name": "E1 Paper Maker",
@@ -73,7 +73,7 @@
 		"gold": 2,
 		"uniques": [
 		    "[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "E1 E1 Writing"
+		"requiredTech": "E1 Writing"
 	},
 	{
 		"name": "E1 Water Mill",
@@ -83,7 +83,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		    "Must be on [River]"],
-		"requiredTech": "E1 E1 The Wheel"
+		"requiredTech": "E1 The Wheel"
 	},
 	{
 		"name": "E1 Floating Gardens",
@@ -97,14 +97,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "E1 E1 The Wheel"
+		"requiredTech": "E1 The Wheel"
 	},
 	{
 		"name": "E1 Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"requiredTech": "E1 E1 Masonry",
+		"requiredTech": "E1 Masonry",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -116,7 +116,7 @@
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
-		"requiredTech": "E1 E1 Masonry",
+		"requiredTech": "E1 Masonry",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -127,7 +127,7 @@
 		"uniques": [
 		    "New [Military] units start with [15] XP [in this city]", 
 		    "Destroyed when the city is captured"],
-		"requiredTech": "E1 E1 Bronze Working"
+		"requiredTech": "E1 Bronze Working"
 	},
 	{
 		"name": "E1 Krepost",
@@ -140,7 +140,7 @@
 		    "[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]", 
 			"Destroyed when the city is captured"],
-		"requiredTech": "E1 E1 Bronze Working"
+		"requiredTech": "E1 Bronze Working"
 	},
 
 
@@ -155,7 +155,7 @@
 		    "[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", 
 			"[+1 Food] from [RB07 Fish] tiles [in this city]" ],
-		"requiredTech": "E2 E2 Optics"
+		"requiredTech": "E2 Optics"
 	},
 	{
 		"name": "E2 Courthouse",
@@ -164,14 +164,14 @@
 		"uniques": [
 		    "Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "E2 E2 Mathematics"
+		"requiredTech": "E2 Mathematics"
 	},
 	{
 		"name": "E2 Colosseum",
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "E2 E2 Construction"
+		"requiredTech": "E2 Construction"
 	},
 	{
 		"name": "E2 Temple",
@@ -179,7 +179,7 @@
 		"requiredBuilding": "E1 Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "E2 E2 Philosophy",
+		"requiredTech": "E2 Philosophy",
 		"uniques": [
 		    "Only available <when religion is enabled>", 
 		    "Destroyed when the city is captured"]
@@ -195,7 +195,7 @@
 		"happiness": 2,
 		"requiredBuilding": "E1 Shrine",
 		"hurryCostModifier": 25,
-		"requiredTech": "E2 E2 Philosophy"
+		"requiredTech": "E2 Philosophy"
 	},
 	{
 		"name": "E2 Mud Pyramid Mosque",
@@ -206,7 +206,7 @@
 		"culture": 2,
 		"faith": 2,
 		"requiredBuilding": "E1 Shrine",
-		"requiredTech": "E2 E2 Philosophy"
+		"requiredTech": "E2 Philosophy"
 	},
 	{
 		"name": "E2 Amphitheater",
@@ -217,7 +217,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		    "Destroyed when the city is captured"],
-		"requiredTech": "E2 E2 Drama and Poetry"
+		"requiredTech": "E2 Drama and Poetry"
 	},
 	{
 		"name": "E2 Market",
@@ -225,7 +225,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"requiredTech": "E2 E2 Currency"
+		"requiredTech": "E2 Currency"
 	},
 	{
 		"name": "E2 Aqueduct",
@@ -233,7 +233,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 		    "[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "E2 E2 Engineering"
+		"requiredTech": "E2 Engineering"
 	},
 
 
@@ -245,7 +245,7 @@
 		    "Must be next to [Fresh Water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "E3 E3 Theology"
+		"requiredTech": "E3 Theology"
 	},
 	{
 		"name": "E3 Workshop",
@@ -254,7 +254,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
-		"requiredTech": "E3 E3 Metal Casting"
+		"requiredTech": "E3 Metal Casting"
 	},
 	{
 		"name": "E3 Longhouse",
@@ -267,7 +267,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		    "[+1 Production] from [Forest] tiles [in this city]"],
-		"requiredTech": "E3 E3 Metal Casting"
+		"requiredTech": "E3 Metal Casting"
 	},
 	{
 		"name": "E3 Harbor",
@@ -278,7 +278,7 @@
 		    "[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over Water",
 			"Must be next to [Coast]"],
-		"requiredTech": "E3 E3 Compass"
+		"requiredTech": "E3 Compass"
 	},
 	{
 		"name": "E3 University",
@@ -289,7 +289,7 @@
 		"requiredBuilding": "E1 Library",
 		"uniques": [
 		    "[+2 Science] from [Jungle] tiles [in this city]"],
-		"requiredTech": "E3 E3 Education"
+		"requiredTech": "E3 Education"
 	},
 	{
 		"name": "E3 Wat",
@@ -303,7 +303,7 @@
 		"requiredBuilding": "E1 Library",
 		"uniques": [
 		    "[+2 Science] from [Jungle] tiles [in this city]"],
-		"requiredTech": "E3 E3 Education"
+		"requiredTech": "E3 Education"
 	},
 	{
 		"name": "E3 Castle",
@@ -311,7 +311,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "E1 Walls",
-		"requiredTech": "E3 E3 Chivalry",
+		"requiredTech": "E3 Chivalry",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -326,9 +326,9 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "E1 Walls",
 		"uniques": [
-		    "[+1 Gold] [in this city] <after discovering [E6 E6 Flight]>",
+		    "[+1 Gold] [in this city] <after discovering [E6 Flight]>",
 		    "Destroyed when the city is captured"],
-		"requiredTech": "E3 E3 Chivalry"
+		"requiredTech": "E3 Chivalry"
 	},
 	{
 		"name": "E3 Armory",
@@ -338,7 +338,7 @@
 		"uniques": [
 		    "New [Military] units start with [15] XP [in this city]",
 		    "Destroyed when the city is captured"],
-		"requiredTech": "E3 E3 Steel"
+		"requiredTech": "E3 Steel"
 	},
 
 
@@ -351,7 +351,7 @@
 		"requiredBuilding": "E1 Library",
 		"uniques": [
 		    "Must be next to [Mountain]"],
-		"requiredTech": "E4 E4 Astronomy"
+		"requiredTech": "E4 Astronomy"
 	},
 	{
 		"name": "E4 Opera House",
@@ -360,7 +360,7 @@
 		"hurryCostModifier": 10,
 		"requiredBuilding": "E2 Amphitheater",
 		"maintenance": 2,
-		"requiredTech": "E4 E4 Acoustics",
+		"requiredTech": "E4 Acoustics",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -374,7 +374,7 @@
 		"hurryCostModifier": 10,
 		"requiredBuilding": "E2 Amphitheater",
 		"maintenance": 2,
-		"requiredTech": "E4 E4 Acoustics",
+		"requiredTech": "E4 Acoustics",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -415,7 +415,7 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"requiredBuilding": "E2 Colosseum",
-		"requiredTech": "E4 E4 Printing Press"
+		"requiredTech": "E4 Printing Press"
 	},
 	{
 		"name": "E4 Seaport",
@@ -426,7 +426,7 @@
 		    "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", 
 			"[+15]% Production when constructing [Water] units [in this city]"],
-		"requiredTech": "E4 E4 Navigation"
+		"requiredTech": "E4 Navigation"
 	},
 	{
 		"name": "E4 Windmill",
@@ -437,7 +437,7 @@
 		"uniques": [
 		    "Must not be on [Hill]", 
 		    "[+10]% Production when constructing [All] buildings [in this city]"],
-		"requiredTech": "E4 E4 Economics"
+		"requiredTech": "E4 Economics"
 	},
 	{
 		"name": "E4 Coffee House",
@@ -450,7 +450,7 @@
 		"maintenance": 2,
 		"uniques": [
 		    "[+25]% Great Person generation [in this city]"],
-		"requiredTech": "E4 E4 Economics"
+		"requiredTech": "E4 Economics"
 	},
 	{
 		"name": "E4 Arsenal",
@@ -459,7 +459,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "E3 Castle",
-		"requiredTech": "E4 E4 Metallurgy",
+		"requiredTech": "E4 Metallurgy",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -476,7 +476,7 @@
 		"uniques": [
 		    "[+1 Science] per [2] population [in this city]"],
 		"requiredTech": 
-		"E5 E5 Scientific Theory"
+		"E5 Scientific Theory"
 	},
 	{
 		"name": "E5 Military Academy",
@@ -486,7 +486,7 @@
 		"uniques": [
 		    "New [Military] units start with [15] XP [in this city]", 
 		    "Destroyed when the city is captured"],
-		"requiredTech": "E5 E5 Military Science"
+		"requiredTech": "E5 Military Science"
 	},
 	{
 		"name": "E5 Museum",
@@ -495,7 +495,7 @@
 		"requiredBuilding": "E4 Opera House",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"requiredTech": "E5 E5 Archaeology",
+		"requiredTech": "E5 Archaeology",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -505,7 +505,7 @@
 		"requiredBuilding": "E2 Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"requiredTech": "E5 E5 Biology"
+		"requiredTech": "E5 Biology"
 	},
 	{
 		"name": "E5 Stock Exchange",
@@ -514,7 +514,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "E4 Bank",
-		"requiredTech": "E5 E5 Electricity"
+		"requiredTech": "E5 Electricity"
 	},
 
 
@@ -524,7 +524,7 @@
 		"happiness": 4,
 		"requiredBuilding": "E4 Theatre",
 		"maintenance": 2,
-		"requiredTech": "E6 E6 Refrigeration"
+		"requiredTech": "E6 Refrigeration"
 	},
 	{
 		"name": "E6 Broadcast Tower",
@@ -532,7 +532,7 @@
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "E5 Museum",
 		"maintenance": 3,
-		"requiredTech": "E6 E6 Radio",
+		"requiredTech": "E6 Radio",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -542,7 +542,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "E4 Arsenal",
-		"requiredTech": "E6 E6 Replaceable Parts",
+		"requiredTech": "E6 Replaceable Parts",
 		"uniques": [
 		    "Destroyed when the city is captured"]
 	},
@@ -553,7 +553,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "E5 Public School",
 		"maintenance": 3,
-		"requiredTech": "E6 E6 Plastics"
+		"requiredTech": "E6 Plastics"
 	},
 
 
@@ -562,7 +562,7 @@
 		"name": "E7 Medical Lab",
 		"requiredBuilding": "E5 Hospital",
 		"maintenance": 3,
-		"requiredTech": "E7 E7 Pharmaceuticals",
+		"requiredTech": "E7 Pharmaceuticals",
 		"uniques": [
 		    "[25]% Food is carried over after population increases [in this city]"]
 	},
@@ -572,7 +572,7 @@
 		"percentStatBonus": {"production": 15},
 		"requiredBuilding": "E5 Factory",
 		"maintenance": 3,
-		"requiredTech": "E7 E7 Ecology",
+		"requiredTech": "E7 Ecology",
 		"uniques": [
 		    "Must be next to [Desert]", 
 		    "Only available <in cities without a [E7 Nuclear Plant]>"]
@@ -584,7 +584,7 @@
 		"name": "E8 Bomb Shelter",
 		"cost": 300,
 		"maintenance": 1,
-		"requiredTech": "E8 E8 Telecommunications",
+		"requiredTech": "E8 Telecommunications",
 		"uniques": [
 		    "Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
@@ -797,7 +797,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["RS02 Iron"],
-		"requiredTech": "E3 E3 Metal Casting",
+		"requiredTech": "E3 Metal Casting",
 		"uniques": [
 		    "[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [RS02 Iron] tiles [in this city]"]
@@ -1572,7 +1572,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over Water","Must be next to [Coast]"],
-//		"requiredTech": "E3 E3 Compass"
+//		"requiredTech": "E3 Compass"
 		"requiredTech": "E2 Optics"
 	},
 	{
