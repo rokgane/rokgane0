@@ -15,8 +15,6 @@
     		
 
 //xsa//have paradrop
-Paratrooper
-Great Admiral
 
 //xsa//no unique
 
@@ -28,10 +26,19 @@ Great Admiral
 
 
 
-//xsa//have paradrop
 
+
+
+
+
+
+
+
+
+
+//xsa//have paradrop
 	{
-		"name": "Great Admiral",
+		"name": "E0 Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -55,16 +62,16 @@ Great Admiral
 //xsa//no unique
 
 	{
-		"name": "Maori Warrior",
+		"name": "E1 Maori Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "E3 Metal Casting",
 		"promotions": ["Haka War Dance"],
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
@@ -72,130 +79,130 @@ Great Admiral
 	},
 
 	{
-		"name": "Jaguar",
+		"name": "E1 Jaguar",
 		"unitType": "Sword",
 		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "E3 Metal Casting",
-		"promotions": ["[Jaguar] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
+		"promotions": ["[E1 Jaguar] ability","Woodsman"],
+		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Brute",
+		"name": "B01 Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "E3 Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Archer",
-		"unitType": "Archery",
+		"name": "E1 Archer",
+		"unitType": "E1 Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E2 Construction",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Bowman",
-		"unitType": "Archery",
+		"name": "E1 Bowman",
+		"unitType": "E1 Archery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 9,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E2 Construction",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"uniqueTo": "Babylon",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Slinger",
-		"unitType": "Archery",
+		"name": "E1 Slinger",
+		"unitType": "E1 Archery",
 		"uniqueTo": "Inca",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E2 Construction",
-		"upgradesTo": "Composite Bowman",
-		"promotions": ["Slinger Withdraw"],
+		"upgradesTo": "E2 Composite Bowman",
+		"promotions": ["E1 Slinger Withdraw"],
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Atlatlist",
-		"unitType": "Archery",
+		"name": "E1 Atlatlist",
+		"unitType": "E1 Archery",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 36,
 		"requiredTech": "E1 Agriculture",
 		"obsoleteTech": "E2 Construction",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"uniqueTo": "The Maya",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Skirmisher",
-		"unitType": "Archery",
+		"name": "B02 Skirmisher",
+		"unitType": "E1 Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E3 Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "E3 Crossbowman",
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Composite Bowman",
-		"unitType": "Archery",
+		"name": "E2 Composite Bowman",
+		"unitType": "E1 Archery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "E2 Construction",
 		"obsoleteTech": "E3 Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "E3 Crossbowman",
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
@@ -203,32 +210,32 @@ Great Admiral
 	},
 
 	{
-		"name": "Mohawk Warrior",
+		"name": "E2 Mohawk Warrior",
 		"unitType": "Sword",
 		"uniqueTo": "Iroquois",
-		"replaces": "Swordsman",
+		"replaces": "E2 Swordsman",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "E2 Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "E3 Longswordsman",
 		"obsoleteTech": "E4 Gunpowder",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability"],
+		"promotions": ["[E2 Mohawk Warrior] ability"],
 		"attackSound": "metalhit",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Crossbowman",
-		"unitType": "Archery",
+		"name": "E3 Crossbowman",
+		"unitType": "E1 Archery",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "E3 Machinery",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "E5 Gatling Gun",
 		"obsoleteTech": "E5 Industrialization",
 		"attackSound": "crossbow",
 		"uniques": [
@@ -236,35 +243,35 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Chu-Ko-Nu",
-		"unitType": "Archery",
+		"name": "E3 Chu-Ko-Nu",
+		"unitType": "E1 Archery",
 		"uniqueTo": "China",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 14,
-		"replaces": "Crossbowman",
+		"replaces": "E3 Crossbowman",
 		"cost": 120,
 		"requiredTech": "E3 Machinery",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "E5 Gatling Gun",
 		"obsoleteTech": "E5 Industrialization",
-		"promotions": ["[Chu-Ko-Nu] ability"],
+		"promotions": ["[E3 Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Longbowman",
-		"unitType": "Archery",
+		"name": "E3 Longbowman",
+		"unitType": "E1 Archery",
 		"range": 2,
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
-		"replaces": "Crossbowman",
+		"replaces": "E3 Crossbowman",
 		"uniqueTo": "England",
 		"cost": 120,
 		"requiredTech": "E3 Machinery",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "E5 Gatling Gun",
 		"obsoleteTech": "E5 Industrialization",
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow",
@@ -315,7 +322,7 @@ Great Admiral
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
 	{
-		"name": "Worker",
+		"name": "E1 Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
@@ -356,7 +363,7 @@ Great Admiral
 		"cost": 70,
 	},
 	{
-		"name": "Settler",
+		"name": "E1 Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
@@ -375,8 +382,8 @@ Great Admiral
 		"hurryCostModifier": 20
 	},
 	{
-		"name": "Scout",
-		"unitType": "Scout",
+		"name": "E1 Scout",
+		"unitType": "E1 Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -385,30 +392,30 @@ Great Admiral
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [5] per Civilization",
-			"May upgrade to [Archer] through ruins-like effects", 
+			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
 	{
-		"name": "Warrior",
+		"name": "E1 Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "E3 Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "May upgrade to [Spearman] through ruins-like effects"],
+		    "May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
+			{"text": "This is your basic, club-swinging E7 Fighter."}
 		]
 	},
 	{
-		"name": "Work Boats",
+		"name": "E1 Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
@@ -430,10 +437,10 @@ Great Admiral
 
 
 	{
-		"name": "Dromon",
+		"name": "E1 Dromon",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Byzantium",
-		"replaces": "Trireme",
+		"replaces": "E1 Trireme",
 		"movement": 4,
 		"strength": 8,
 		"rangedStrength": 10,
@@ -443,12 +450,12 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles", 
 		    "[+50]% Strength <vs [Water] units>"],
-		"upgradesTo": "Galleass",
+		"upgradesTo": "E3 Galleass",
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Galley",
+		"name": "B03 Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
@@ -457,23 +464,23 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "E1 Trireme",
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
 	},
 
 	{
-		"name": "War Chariot",
-		"unitType": "Archery",
+		"name": "E1 War Chariot",
+		"unitType": "E1 Archery",
 		"uniqueTo": "Egypt",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "E1 The Wheel",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -482,16 +489,16 @@ Great Admiral
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Horse Archer",
-		"unitType": "Archery",
+		"name": "E1 Horse Archer",
+		"unitType": "E1 Archery",
 		"uniqueTo": "The Huns",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "E1 The Wheel",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -500,16 +507,16 @@ Great Admiral
 		"attackSound": "arrow"
 	},
 	{
-		"name": "War Elephant",
-		"unitType": "Archery",
+		"name": "E1 War Elephant",
+		"unitType": "E1 Archery",
 		"uniqueTo": "India",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "E1 The Wheel",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -517,63 +524,63 @@ Great Admiral
 		"attackSound": "elephant"
 	},
 	{
-		"name": "Spearman",
+		"name": "E1 Spearman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Hoplite",
+		"name": "E1 Hoplite",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Greece",
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Persian Immortal",
+		"name": "E1 Persian Immortal",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Persia",
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
-		"promotions":["[Persian Immortal] ability"],
+		"promotions":["[E1 Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Battering Ram",
+		"name": "E1 Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "The Huns",
 		"movement": 2,
 		"strength": 10,
 		"cost": 75,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Physics",
-		"upgradesTo": "Trebuchet",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+300]% Strength <vs cities> <when attacking>", 
@@ -585,16 +592,16 @@ Great Admiral
 		"attackSound": "throw"
 	},
 	{
-		"name": "Pictish Warrior",
+		"name": "E1 Pictish Warrior",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
@@ -602,16 +609,16 @@ Great Admiral
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Marauder",
+		"name": "B04 Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
@@ -620,15 +627,15 @@ Great Admiral
 
 
 	{
-		"name": "African Forest Elephant",
+		"name": "E2 African Forest Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "Carthage",
-		"replaces": "Horseman",
+		"replaces": "E2 Horseman",
 		"movement": 3,
 		"strength": 14,
 		"cost": 100,
 		"requiredTech": "E2 Horseback Riding",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": [
@@ -642,7 +649,7 @@ Great Admiral
 	},
 
 	{
-		"name": "Catapult",
+		"name": "E2 Catapult",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 7,
@@ -650,7 +657,7 @@ Great Admiral
 		"cost": 75,
 		"requiredTech": "E2 Mathematics",
 		"obsoleteTech": "E3 Physics",
-		"upgradesTo": "Trebuchet",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
@@ -662,9 +669,9 @@ Great Admiral
 		"attackSound": "throw"
 	},
 	{
-		"name": "Ballista",
+		"name": "E2 Ballista",
 		"unitType": "Siege",
-		"replaces": "Catapult",
+		"replaces": "E2 Catapult",
 		"uniqueTo": "Rome",
 		"movement": 2,
 		"strength": 8,
@@ -672,7 +679,7 @@ Great Admiral
 		"cost": 75,
 		"requiredTech": "E2 Mathematics",
 		"obsoleteTech": "E3 Physics",
-		"upgradesTo": "Trebuchet",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
@@ -684,7 +691,7 @@ Great Admiral
 	},
 
 	{
-		"name": "Pikeman",
+		"name": "E3 Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
@@ -693,14 +700,14 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
+		"upgradesTo": "E4 Lancer",
 		"obsoleteTech": "E4 Metallurgy",
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Landsknecht",
+		"name": "E3 Landsknecht",
 		"unitType": "Sword",
-		"replaces": "Pikeman",
+		"replaces": "E3 Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
@@ -710,13 +717,13 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>", 
 		    "Can move immediately once bought" ],
-		"upgradesTo": "Lancer",
+		"upgradesTo": "E4 Lancer",
 		"obsoleteTech": "E4 Metallurgy",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{
-		"name": "Galleass",
+		"name": "E3 Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 16,
@@ -724,7 +731,7 @@ Great Admiral
 		"cost": 100,
 		"requiredTech": "E3 Compass",
 		"obsoleteTech": "E4 Navigation",
-		"upgradesTo": "Frigate",
+		"upgradesTo": "E4 Frigate",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
@@ -734,16 +741,16 @@ Great Admiral
 
 
 	{
-		"name": "Naresuan's Elephant",
+		"name": "E3 Naresuan's Elephant",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 25,
 		"cost": 120,
 		"requiredTech": "E3 Chivalry",
 		"obsoleteTech": "E5 Military Science",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
@@ -756,7 +763,7 @@ Great Admiral
 
 
 	{
-		"name": "Trebuchet",
+		"name": "E3 Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 12,
@@ -764,7 +771,7 @@ Great Admiral
 		"cost": 120,
 		"requiredTech": "E3 Physics",
 		"obsoleteTech": "E4 Chemistry",
-		"upgradesTo": "Cannon",
+		"upgradesTo": "E4 Cannon",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>",
@@ -775,9 +782,9 @@ Great Admiral
 		"attackSound": "throw"
 	},
 	{
-		"name": "Hwach'a",
+		"name": "E3 Hwach'a",
 		"unitType": "Siege",
-		"replaces": "Trebuchet",
+		"replaces": "E3 Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 11,
@@ -785,7 +792,7 @@ Great Admiral
 		"cost": 120,
 		"requiredTech": "E3 Physics",
 		"obsoleteTech": "E4 Chemistry",
-		"upgradesTo": "Cannon",
+		"upgradesTo": "E4 Cannon",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 	    	"No defensive terrain bonus",
@@ -794,14 +801,14 @@ Great Admiral
 	},
 
 	{
-		"name": "Submarine",
-		"unitType": "Submarine",
+		"name": "E6 Submarine",
+		"unitType": "E6 Submarine",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "E6 Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
+		"upgradesTo": "E8 Nuclear Submarine",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+75]% Strength <when attacking>", 
@@ -811,8 +818,8 @@ Great Admiral
 	},
 
 	{
-		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
+		"name": "E6 Carrier",
+		"unitType": "Aircraft E6 Carrier",
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
@@ -825,7 +832,7 @@ Great Admiral
 
 
 	{
-		"name": "Missile Cruiser",
+		"name": "E8 Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 7,
 		"strength": 80,
@@ -837,9 +844,9 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[100]% chance to intercept air attacks", 
-		    "Can see invisible [Submarine] units",
+		    "Can see invisible [E6 Submarine] units",
 			"Can carry [3] [Missile] units", 
-			"[+100]% Strength <vs [Submarine] units>", 
+			"[+100]% Strength <vs [E6 Submarine] units>", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -852,7 +859,7 @@ Great Admiral
 	/* Great people */
 
 	{
-		"name": "Great Artist",
+		"name": "E0 Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -870,7 +877,7 @@ Great Admiral
 	},
 
 	{
-		"name": "Great Scientist",
+		"name": "E0 Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -888,7 +895,7 @@ Great Admiral
 		"movement": 2
 	},
 	{
-		"name": "Great Merchant",
+		"name": "E0 Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -905,7 +912,7 @@ Great Admiral
 		"movement": 2
 	},
 	{
-		"name": "Great Engineer",
+		"name": "E0 Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -922,7 +929,7 @@ Great Admiral
 		"movement": 2
 	},
 	{
-		"name": "Great Prophet",
+		"name": "E0 Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -948,7 +955,7 @@ Great Admiral
 	},
 	
 	{
-		"name": "Great General",
+		"name": "E0 Great General",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -968,7 +975,7 @@ Great Admiral
 		"movement": 2
 	},
 	{
-		"name": "Khan",
+		"name": "E0 Khan",
 		"unitType": "Mounted",
 		"uniqueTo": "Mongolia",
 		"replaces": "Great General",
@@ -996,7 +1003,7 @@ Great Admiral
 	/* Religious units */
 
 	{
-		"name": "Missionary",
+		"name": "E0 Missionary",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -1013,7 +1020,7 @@ Great Admiral
 		"religiousStrength": 1000,
 	},
 	{
-		"name": "Inquisitor",
+		"name": "E0 Inquisitor",
 		"unitType": "Civilian",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -1059,15 +1066,15 @@ Great Admiral
 //changed required resource
 
 	{
-		"name": "Chariot Archer",
-		"unitType": "Archery",
+		"name": "E1 Chariot Archer",
+		"unitType": "E1 Archery",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "E1 The Wheel",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1077,14 +1084,14 @@ Great Admiral
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Horseman",
+		"name": "E2 Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "E2 Horseback Riding",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1095,15 +1102,15 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Companion Cavalry",
+		"name": "E2 Companion Cavalry",
 		"unitType": "Mounted",
 		"uniqueTo": "Greece",
-		"replaces": "Horseman",
+		"replaces": "E2 Horseman",
 		"movement": 5,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "E2 Horseback Riding",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"promotions": ["Great Generals I"],
 		"requiredResource": "RS01 Horses",
@@ -1116,15 +1123,15 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Cataphract",
+		"name": "E2 Cataphract",
 		"unitType": "Mounted",
 		"uniqueTo": "Byzantium",
-		"replaces": "Horseman",
+		"replaces": "E2 Horseman",
 		"movement": 3,
 		"strength": 15,
 		"cost": 75,
 		"requiredTech": "E2 Horseback Riding",
-		"upgradesTo": "Knight",
+		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
@@ -1135,14 +1142,14 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Knight",
+		"name": "E3 Knight",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "E3 Chivalry",
 		"obsoleteTech": "E5 Military Science",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1153,9 +1160,9 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Camel Archer",
-		"unitType": "Archery",
-		"replaces": "Knight",
+		"name": "E3 Camel Archer",
+		"unitType": "E1 Archery",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Arabia",
 		"movement": 4,
 		"strength": 17,
@@ -1163,26 +1170,26 @@ Great Admiral
 		"cost": 120,
 		"requiredTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus"],
 		"attackSound": "arrow"
-		//Camel Archer should have no penalty attacking cities
+		//E3 Camel Archer should have no penalty attacking cities
 	},
 	{
-		"name": "Conquistador",
+		"name": "E3 Conquistador",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Spain",
 		"movement": 4,
 		"strength": 20,
 		"cost": 135,
 		"requiredTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1190,22 +1197,22 @@ Great Admiral
 		    "No defensive terrain bonus",
 		    "Founds a new city <on foreign continents>", 
 		    "[+2] Sight"],
-		"promotions": ["[Conquistador] ability"],
+		"promotions": ["[E3 Conquistador] ability"],
 		"attackSound": "horse"
-		//Conquistador should have no penalty attacking cities
+		//E3 Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 	},
 	{
-		"name": "Mandekalu Cavalry",
+		"name": "E3 Mandekalu Cavalry",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Songhai",
 		"movement": 4,
 		"strength": 20,
 		"cost": 110,
 		"requiredTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1214,9 +1221,9 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Keshik",
-		"unitType": "Archery",
-		"replaces": "Knight",
+		"name": "E3 Keshik",
+		"unitType": "E1 Archery",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Mongolia",
 		"range": 2,
 		"movement": 5,
@@ -1225,7 +1232,7 @@ Great Admiral
 		"cost": 120,
 		"requiredTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
+		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1233,10 +1240,10 @@ Great Admiral
 		    "No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
-		// Keshik should have no penalty attacking cities
+		// E3 Keshik should have no penalty attacking cities
 	},
 	{
-		"name": "Lancer",
+		"name": "E4 Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 25,
@@ -1250,14 +1257,14 @@ Great Admiral
 		    "[-33]% Strength <vs cities> <when attacking>",
 		    "Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
+		"upgradesTo": "E7 Anti-Tank Gun",
 		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
 	{
-		"name": "Sipahi",
+		"name": "E4 Sipahi",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "E4 Lancer",
 		"uniqueTo": "The Ottomans",
 		"movement": 5,
 		"strength": 25,
@@ -1270,15 +1277,15 @@ Great Admiral
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
-		"promotions": ["[Sipahi] ability","Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
+		"promotions": ["[E4 Sipahi] ability","Formation I"],
+		"upgradesTo": "E7 Anti-Tank Gun",
 		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
 	{
-		"name": "Hakkapeliitta",
+		"name": "E4 Hakkapeliitta",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "E4 Lancer",
 		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
@@ -1290,13 +1297,13 @@ Great Admiral
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Hakkapeliitta] ability","Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
+		"promotions": ["[E4 Hakkapeliitta] ability","Formation I"],
+		"upgradesTo": "E7 Anti-Tank Gun",
 		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
 	{
-		"name": "Cavalry",
+		"name": "E5 Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 34,
@@ -1304,7 +1311,7 @@ Great Admiral
 		"requiredTech": "E5 Military Science",
 		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
@@ -1314,9 +1321,9 @@ Great Admiral
 		"attackSound": "horse"
 	},
 	{
-		"name": "Cossack",
+		"name": "E5 Cossack",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
+		"replaces": "E5 Cavalry",
 		"uniqueTo": "Russia",
 		"movement": 4,
 		"strength": 34,
@@ -1324,19 +1331,19 @@ Great Admiral
 		"requiredTech": "E5 Military Science",
 		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Cossack] ability"],
+		"promotions": ["[E5 Cossack] ability"],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Hussar",
+		"name": "E5 Hussar",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
+		"replaces": "E5 Cavalry",
 		"uniqueTo": "Austria",
 		"movement": 5,
 		"strength": 34,
@@ -1344,26 +1351,26 @@ Great Admiral
 		"requiredTech": "E5 Military Science",
 		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
-		"promotions": ["[Hussar] ability"],
+		"promotions": ["[E5 Hussar] ability"],
 		"attackSound": "horse"
 	},
 
 
 	{
-		"name": "Swordsman",
+		"name": "E2 Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "E2 Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "E3 Longswordsman",
 		"obsoleteTech": "E3 Steel",
 		"requiredResource": "RS02 Iron",
 		"hurryCostModifier": 20,
@@ -1375,15 +1382,15 @@ Great Admiral
 
 //fixing removed improvements
 	{
-		"name": "Legion",
+		"name": "E2 Legion",
 		"unitType": "Sword",
 		"uniqueTo": "Rome",
-		"replaces": "Swordsman",
+		"replaces": "E2 Swordsman",
 		"movement": 2,
 		"strength": 17,
 		"cost": 75,
 		"requiredTech": "E2 Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "E3 Longswordsman",
 		"obsoleteTech": "E4 Gunpowder",
 		"requiredResource": "RS02 Iron",
 		"uniques": [
@@ -1395,13 +1402,13 @@ Great Admiral
 	},
 
 	{
-		"name": "Longswordsman",
+		"name": "E3 Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "E3 Steel",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "E4 Musketman",
 		"obsoleteTech": "E4 Gunpowder",
 		"requiredResource": "RS02 Iron",
 		"attackSound": "metalhit"
@@ -1410,15 +1417,15 @@ Great Admiral
 		    ]
     },
 	{
-		"name": "Samurai",
+		"name": "E3 Samurai",
 		"unitType": "Sword",
-		"replaces": "Longswordsman",
+		"replaces": "E3 Longswordsman",
 		"uniqueTo": "Japan",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "E3 Steel",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "E4 Musketman",
 		"obsoleteTech": "E4 Gunpowder",
 		"requiredResource": "RS02 Iron",
 		"promotions": ["Shock I", "Great Generals II"],
@@ -1429,15 +1436,15 @@ Great Admiral
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Berserker",
+		"name": "E3 Berserker",
 		"unitType": "Sword",
-		"replaces": "Longswordsman",
+		"replaces": "E3 Longswordsman",
 		"uniqueTo": "Denmark",
 		"movement": 3,
 		"strength": 21,
 		"cost": 120,
 		"requiredTech": "E3 Metal Casting",
-		"upgradesTo": "Musketman",
+		"upgradesTo": "E4 Musketman",
 		"obsoleteTech": "E4 Metallurgy",
 		"requiredResource": "RS02 Iron",
 		"promotions": ["Amphibious"],
@@ -1452,7 +1459,7 @@ Great Admiral
 
 
 	{
-		"name": "Triplane",
+		"name": "E6 Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 35,
@@ -1462,16 +1469,16 @@ Great Admiral
 		"cost": 325,
 		"requiredTech": "E6 Flight",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Fighter",
+		"upgradesTo": "E7 Fighter",
 		"obsoleteTech": "E7 Radar",
 		"uniques": [
 		    "[50]% chance to intercept air attacks",
-		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [E7 Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Great War Bomber",
+		"name": "E6 Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 50,
@@ -1480,14 +1487,14 @@ Great Admiral
 		"cost": 325,
 		"requiredTech": "E6 Flight",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Bomber",
+		"upgradesTo": "E7 Bomber",
 		"obsoleteTech": "E7 Radar",
 		"attackSound": "bombing"
 	},
 
 
 	{
-		"name": "Fighter",
+		"name": "E7 Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 45,
@@ -1497,15 +1504,15 @@ Great Admiral
 		"cost": 375,
 		"requiredTech": "E7 Radar",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Jet Fighter",
+		"upgradesTo": "E8 Jet Fighter",
 		"uniques": [
 		    "[100]% chance to intercept air attacks", 
-		    "[+150]% Strength <vs [Bomber] units>",
+		    "[+150]% Strength <vs [E7 Bomber] units>",
 		    "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Bomber",
+		"name": "E7 Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 65,
@@ -1518,9 +1525,9 @@ Great Admiral
 		"attackSound": "bombing"
 	},
 	{
-		"name": "B17",
+		"name": "E7 B17",
 		"unitType": "Bomber",
-		"replaces": "Bomber",
+		"replaces": "E7 Bomber",
 		"uniqueTo": "America",
 		"movement": 1,
 		"strength": 70,
@@ -1538,23 +1545,23 @@ Great Admiral
 
 
 	{
-		"name": "Modern Armor",
+		"name": "E8 Modern Armor",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
 		"requiredTech": "E8 Lasers",
 		"requiredResource": "RS05 Aluminum",
-		"upgradesTo": "Giant Death Robot",
+		"upgradesTo": "E8 Giant Death Robot",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
 		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 	{
-		"name": "Jet Fighter",
+		"name": "E8 Jet Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 75,
@@ -1566,7 +1573,7 @@ Great Admiral
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "[100]% chance to intercept air attacks",
-		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [E7 Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
@@ -1582,7 +1589,7 @@ Great Admiral
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "Damage taken from interception reduced by [100]%", 
-		    "Cannot be carried by [Carrier] units", 
+		    "Cannot be carried by [E6 Carrier] units", 
 		    "[+4] Sight",
 		    "Can see over obstacles"],
 		"attackSound": "bombing"
@@ -1591,8 +1598,8 @@ Great Admiral
 
 
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
+		"name": "E7 Atomic Bomb",
+		"unitType": "Atomic E7 Bomber",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -1607,7 +1614,7 @@ Great Admiral
 		    "Self-destructs when attacking",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
-		// Plane rather than a missile - can be based in city or Carrier only.
+		// Plane rather than a missile - can be based in city or E6 Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
 	},
 
@@ -1621,7 +1628,7 @@ Great Admiral
 
 //XSA//Gun Ranged Fixing
 	{
-		"name": "Trireme",
+		"name": "E1 Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 10,
@@ -1631,15 +1638,15 @@ Great Admiral
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles", 
 			"Never appears as a Barbarian unit"],
-//xsa		"upgradesTo": "Caravel",
+//xsa		"upgradesTo": "E4 Caravel",
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Quinquereme",
+		"name": "E1 Quinquereme",
 		"unitType": "Melee Water",
 		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
+		"replaces": "E1 Trireme",
 		"movement": 4,
 		"strength": 13,
 		"cost": 45,
@@ -1647,13 +1654,13 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles"],
-//xsa		"upgradesTo": "Caravel",
+//xsa		"upgradesTo": "E4 Caravel",
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 
 	{
-		"name": "Caravel",
+		"name": "E4 Caravel",
 		"unitType": "Ranged Water",
 		"movement": 4,
 		"strength": 20,
@@ -1661,19 +1668,19 @@ Great Admiral
 		"range": 1,
 		"cost": 120,
 		"requiredTech": "E4 Astronomy",
-		"upgradesTo": "Ironclad",
+		"upgradesTo": "E5 Ironclad",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+1] Sight", 
 			"Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
-		"attackSound": "cannon"
+		"attackSound": "E4 Cannon"
 	},
 	{
-		"name": "Turtle Ship",
+		"name": "E4 Turtle Ship",
 		"unitType": "Ranged Water",
-		"replaces": "Caravel",
+		"replaces": "E4 Caravel",
 		"uniqueTo": "Korea",
 		"movement": 4,
 		"strength": 36,
@@ -1681,16 +1688,16 @@ Great Admiral
 		"range": 1,
 		"cost": 120,
 		"requiredTech": "E4 Astronomy",
-		"upgradesTo": "Ironclad",
+		"upgradesTo": "E5 Ironclad",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles"],
 		"hurryCostModifier": 30,
-		"attackSound": "cannon"
+		"attackSound": "E4 Cannon"
 	},
 	{
-		"name": "Musketman",
+		"name": "E4 Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
@@ -1698,7 +1705,7 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Gunpowder",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"attackSound": "shot"
 		"uniques": [
@@ -1706,9 +1713,9 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Musketeer",
+		"name": "E4 Musketeer",
 		"unitType": "Gunpowder",
-		"replaces": "Musketman",
+		"replaces": "E4 Musketman",
 		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 28,
@@ -1716,7 +1723,7 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Gunpowder",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"attackSound": "shot"
 		"uniques": [
@@ -1724,9 +1731,9 @@ Great Admiral
 		    ]
     },
 	{
-		"name": "Janissary",
+		"name": "E4 Janissary",
 		"unitType": "Gunpowder",
-		"replaces": "Musketman",
+		"replaces": "E4 Musketman",
 		"uniqueTo": "The Ottomans",
 		"movement": 2,
 		"strength": 24,
@@ -1734,19 +1741,19 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Gunpowder",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"promotions": [
-			"[Janissary] ability"],
+			"[E4 Janissary] ability"],
 		"attackSound": "shot"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Minuteman",
+		"name": "E4 Minuteman",
 		"unitType": "Gunpowder",
-		"replaces": "Musketman",
+		"replaces": "E4 Musketman",
 		"uniqueTo": "America",
 		"movement": 2,
 		"strength": 24,
@@ -1754,7 +1761,7 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Gunpowder",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1764,9 +1771,9 @@ Great Admiral
 		"attackSound": "shot"
 	},
 	{
-		"name": "Tercio",
+		"name": "E4 Tercio",
 		"unitType": "Gunpowder",
-		"replaces": "Musketman",
+		"replaces": "E4 Musketman",
 		"uniqueTo": "Spain",
 		"movement": 2,
 		"strength": 26,
@@ -1774,7 +1781,7 @@ Great Admiral
 		"range": 1,
 		"cost": 160,
 		"requiredTech": "E4 Gunpowder",
-		"upgradesTo": "Rifleman",
+		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1782,7 +1789,7 @@ Great Admiral
 		"attackSound": "shot"
 	},
 	{
-		"name": "Privateer",
+		"name": "E4 Privateer",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 25,
@@ -1790,19 +1797,19 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Navigation",
-		"upgradesTo": "Destroyer",
+		"upgradesTo": "E6 Destroyer",
 		"promotions": [
 			"Coastal Raider I", 
-			"[Privateer] ability"],
-		"attackSound": "cannon"
+			"[E4 Privateer] ability"],
+		"attackSound": "E4 Cannon"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Sea Beggar",
+		"name": "E4 Sea Beggar",
 		"unitType": "Ranged Water",
-		"replaces": "Privateer",
+		"replaces": "E4 Privateer",
 		"uniqueTo": "The Netherlands",
 		"movement": 5,
 		"strength": 25,
@@ -1810,19 +1817,19 @@ Great Admiral
 		"range": 1,
 		"cost": 150,
 		"requiredTech": "E4 Navigation",
-		"upgradesTo": "Destroyer",
+		"upgradesTo": "E6 Destroyer",
 		"promotions": [
 			"Coastal Raider I", 
 			"Coastal Raider II", 
 			"Supply", 
-			"[Privateer] ability"],
-		"attackSound": "cannon"
+			"[E4 Privateer] ability"],
+		"attackSound": "E4 Cannon"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Frigate",
+		"name": "E4 Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 25,
@@ -1832,17 +1839,17 @@ Great Admiral
 		"requiredResource": "RS02 Iron",
 		"requiredTech": "E4 Navigation",
 		"obsoleteTech": "E6 Electronics",
-		"upgradesTo": "Battleship",
+		"upgradesTo": "E6 Battleship",
 		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
+		"attackSound": "shipE4 CannonVolley"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Ship of the Line",
+		"name": "E4 Ship of the Line",
 		"unitType": "Ranged Water",
-		"replaces": "Frigate",
+		"replaces": "E4 Frigate",
 		"uniqueTo": "England",
 		"movement": 5,
 		"strength": 30,
@@ -1855,12 +1862,12 @@ Great Admiral
 		    "[+1] Sight"],
 		"requiredTech": "E4 Navigation",
 		"obsoleteTech": "E6 Electronics",
-		"upgradesTo": "Battleship",
+		"upgradesTo": "E6 Battleship",
 		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
+		"attackSound": "shipE4 CannonVolley"
 	},
 	{
-		"name": "Cannon",
+		"name": "E4 Cannon",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 14,
@@ -1868,7 +1875,7 @@ Great Admiral
 		"range": 2,
 		"cost": 185,
 		"requiredTech": "E4 Chemistry",
-		"upgradesTo": "Artillery",
+		"upgradesTo": "E5 Artillery",
 		"obsoleteTech": "E5 Dynamite",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1877,12 +1884,12 @@ Great Admiral
 			"Must set up to ranged attack",
 			"[-1] Sight",
 			"Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
+		"attackSound": "E4 Cannon"
 	},
 
 
 	{
-		"name": "Gatling Gun",
+		"name": "E5 Gatling Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
@@ -1890,7 +1897,7 @@ Great Admiral
 		"rangedStrength": 30,
 		"cost": 225,
 		"requiredTech": "E5 Industrialization",
-		"upgradesTo": "Machine Gun",
+		"upgradesTo": "E6 Machine Gun",
 		"obsoleteTech": "E6 Ballistics",
 		"attackSound": "machinegun"
 		"uniques": [
@@ -1898,7 +1905,7 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Rifleman",
+		"name": "E5 Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 34,
@@ -1907,16 +1914,16 @@ Great Admiral
 		"cost": 225,
 		"requiredTech": "E5 Rifling",
 		"obsoleteTech": "E6 Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "E6 Great War Infantry",
 		"attackSound": "shot"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Norwegian Ski Infantry",
+		"name": "E5 Norwegian Ski Infantry",
 		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
+		"replaces": "E5 Rifleman",
 		"uniqueTo": "Denmark",
 		"movement": 2,
 		"strength": 34,
@@ -1925,17 +1932,17 @@ Great Admiral
 		"cost": 225,
 		"requiredTech": "E5 Rifling",
 		"obsoleteTech": "E6 Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"upgradesTo": "E6 Great War Infantry",
+		"promotions": ["[E5 Norwegian Ski Infantry] ability"],
 		"attackSound": "shot"
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
 	{
-		"name": "Carolean",
+		"name": "E5 Carolean",
 		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
+		"replaces": "E5 Rifleman",
 		"uniqueTo": "Sweden",
 		"movement": 2,
 		"strength": 34,
@@ -1944,7 +1951,7 @@ Great Admiral
 		"cost": 225,
 		"requiredTech": "E5 Rifling",
 		"obsoleteTech": "E6 Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "E6 Great War Infantry",
 		"promotions": ["March"],
 		"attackSound": "shot"
 		"uniques": [
@@ -1952,9 +1959,9 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Mehal Sefari",
+		"name": "E5 Mehal Sefari",
 		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
+		"replaces": "E5 Rifleman",
 		"uniqueTo": "Ethiopia",
 		"movement": 2,
 		"strength": 34,
@@ -1963,7 +1970,7 @@ Great Admiral
 		"cost": 200,
 		"requiredTech": "E5 Rifling",
 		"obsoleteTech": "E6 Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
+		"upgradesTo": "E6 Great War Infantry",
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 		"uniques": [
@@ -1972,7 +1979,7 @@ Great Admiral
 	},
 
 	{
-		"name": "Ironclad",
+		"name": "E5 Ironclad",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 45,
@@ -1981,7 +1988,7 @@ Great Admiral
 		"cost": 250,
 		"requiredTech": "E5 Steam Power",
 		"requiredResource": "RS03 Coal",
-		"upgradesTo": "Destroyer",
+		"upgradesTo": "E6 Destroyer",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -1991,7 +1998,7 @@ Great Admiral
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Artillery",
+		"name": "E5 Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 21,
@@ -1999,7 +2006,7 @@ Great Admiral
 		"range": 3,
 		"cost": 320,
 		"requiredTech": "E5 Dynamite",
-		"upgradesTo": "Rocket Artillery",
+		"upgradesTo": "E7 Rocket Artillery",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -2008,10 +2015,10 @@ Great Admiral
 			"[-1] Sight", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
+		"attackSound": "E5 Artillery"
 	},
 	{
-		"name": "Great War Infantry",
+		"name": "E6 Great War Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
@@ -2019,7 +2026,7 @@ Great Admiral
 		"range": 1,
 		"cost": 320,
 		"requiredTech": "E6 Replaceable Parts",
-		"upgradesTo": "Infantry",
+		"upgradesTo": "E6 Infantry",
 		"obsoleteTech": "E6 Plastics",
 		"attackSound": "shot"
 		"uniques": [
@@ -2027,9 +2034,9 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Foreign Legion",
+		"name": "E6 Foreign Legion",
 		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
+		"replaces": "E6 Great War Infantry",
 		"uniqueTo": "France",
 		"movement": 2,
 		"strength": 50,
@@ -2037,7 +2044,7 @@ Great Admiral
 		"range": 1,
 		"cost": 320,
 		"requiredTech": "E6 Replaceable Parts",
-		"upgradesTo": "Infantry",
+		"upgradesTo": "E6 Infantry",
 		"obsoleteTech": "E6 Plastics",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2045,7 +2052,7 @@ Great Admiral
 		"attackSound": "shot"
 	},
 	{
-		"name": "Infantry",
+		"name": "E6 Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
@@ -2053,7 +2060,7 @@ Great Admiral
 		"range": 1,
 		"cost": 375,
 		"requiredTech": "E6 Plastics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "E8 Mechanized Infantry",
 		"obsoleteTech": "E8 Mobile Tactics",
 		"attackSound": "shot"
 		"uniques": [
@@ -2061,7 +2068,7 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Battleship",
+		"name": "E6 Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
@@ -2075,10 +2082,10 @@ Great Admiral
 		    "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
+		// Does not actually upgrade to E8 Missile Cruisers
 	},
 	{
-		"name": "Machine Gun",
+		"name": "E6 Machine Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
@@ -2086,7 +2093,7 @@ Great Admiral
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "E6 Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "E8 Mechanized Infantry",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 		"uniques": [
@@ -2094,7 +2101,7 @@ Great Admiral
 		    ]
 	},
 	{
-		"name": "Anti-Aircraft Gun",
+		"name": "E6 Anti-Aircraft Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"interceptRange": 2,
@@ -2103,7 +2110,7 @@ Great Admiral
 		"range": 1,
 		"cost": 375,
 		"requiredTech": "E6 Ballistics",
-		"upgradesTo": "Mobile SAM",
+		"upgradesTo": "E7 Mobile SAM",
 		"obsoleteTech": "E7 Rocketry",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2114,7 +2121,7 @@ Great Admiral
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Landship",
+		"name": "E6 Landship",
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 60,
@@ -2123,17 +2130,17 @@ Great Admiral
 		"cost": 350,
 		"requiredTech": "E6 Combustion",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Tank",
+		"upgradesTo": "E7 Tank",
 		"obsoleteTech": "E7 Combined Arms",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 	{
-		"name": "Destroyer",
+		"name": "E6 Destroyer",
 		"unitType": "Ranged Water",
 		"movement": 6,
 		"strength": 55,
@@ -2144,14 +2151,14 @@ Great Admiral
 		"requiredTech": "E6 Combustion",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Can see invisible [Submarine] units", 
+			"Can see invisible [E6 Submarine] units", 
 			"[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", 
-			"[+100]% Strength <vs [Submarine] units>"],
+			"[+100]% Strength <vs [E6 Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Marine",
+		"name": "E7 Marine",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
@@ -2166,8 +2173,10 @@ Great Admiral
 			"[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
+
+//xsa//have paradrop
 	{
-		"name": "Paratrooper",
+		"name": "E7 Paratrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
@@ -2183,7 +2192,7 @@ Great Admiral
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
-		"name": "Tank",
+		"name": "E7 Tank",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 70,
@@ -2192,19 +2201,19 @@ Great Admiral
 		"cost": 375,
 		"requiredTech": "E7 Combined Arms",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 	{
-		"name": "Panzer",
+		"name": "E7 Panzer",
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
-		"replaces": "Tank",
+		"replaces": "E7 Tank",
 		"movement": 6,
 		"strength": 80,
 		"rangedStrength": 64,
@@ -2212,16 +2221,16 @@ Great Admiral
 		"cost": 375,
 		"requiredTech": "E7 Combined Arms",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus"],
-		"attackSound": "tankshot"
-		//German unique unit, stronger than Tank
+		"attackSound": "Tankshot"
+		//German unique unit, stronger than E7 Tank
 	},
 	{
-		"name": "Anti-Tank Gun",
+		"name": "E7 Anti-Tank Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
@@ -2229,7 +2238,7 @@ Great Admiral
 		"range": 2,
 		"cost": 300,
 		"requiredTech": "E7 Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
+		"upgradesTo": "E7 Helicopter Gunship",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+100]% Strength <vs [Armored] units>", 
@@ -2237,7 +2246,7 @@ Great Admiral
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Rocket Artillery",
+		"name": "E7 Rocket Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 45,
@@ -2253,10 +2262,10 @@ Great Admiral
 			"[-1] Sight", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
+		"attackSound": "E5 Artillery"
 	},
 	{
-		"name": "Mobile SAM",
+		"name": "E7 Mobile SAM",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"interceptRange": 2,
@@ -2277,7 +2286,7 @@ Great Admiral
 	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Helicopter Gunship",
+		"name": "E7 Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 6,
 		"strength": 60,
@@ -2308,7 +2317,7 @@ Great Admiral
 	},
 
 	{
-		"name": "Mechanized Infantry",
+		"name": "E8 Mechanized Infantry",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
@@ -2319,11 +2328,11 @@ Great Admiral
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 	    	"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 
 	{
-		"name": "Giant Death Robot",
+		"name": "E8 Giant Death Robot",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
@@ -2352,8 +2361,8 @@ Great Admiral
 //xsa//adds requiredResource 
   
 	{
-		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
+		"name": "E8 Nuclear Submarine",
+		"unitType": "E6 Submarine",
 		"movement": 6,
 		"strength": 50,
 		"range": 3,
@@ -2387,7 +2396,7 @@ Great Admiral
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
 	{
-		"name": "SS Booster",
+		"name": "E9 SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
@@ -2405,7 +2414,7 @@ Great Admiral
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Cockpit",
+		"name": "E9 SS Cockpit",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
@@ -2422,7 +2431,7 @@ Great Admiral
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Engine",
+		"name": "E9 SS Engine",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
@@ -2439,7 +2448,7 @@ Great Admiral
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Stasis Chamber",
+		"name": "E9 SS Stasis Chamber",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
@@ -2478,7 +2487,7 @@ Great Admiral
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 	{
 		"name": "Airship",
@@ -2513,7 +2522,7 @@ Great Admiral
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 	{
 		"name": "Sky Fortress",
@@ -3355,7 +3364,7 @@ Great Admiral
 			"[+50] HP when healing", 
 
 			"[100]% chance to intercept air attacks", 
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Can carry [2] [Air] units", 
 			"Can carry [3] [Missile] units", 
 
@@ -3458,7 +3467,7 @@ Great Admiral
 			"Never appears as a Barbarian unit",
 			"Withdraws before melee combat <with [80]% chance>"
 
-//			"Can see invisible [Submarine] units",
+//			"Can see invisible [E6 Submarine] units",
 			"[+100]% Strength <vs [Armored] units>", 
 			"Uncapturable"
 			],
@@ -3499,9 +3508,9 @@ Great Admiral
 		"attackSound": "missile"
 	},
 
-//DNS Guided Missile
+//DNS E7 Guided Missile
 	{
-		"name": "DNS Guided Missile",
+		"name": "DNS E7 Guided Missile",
 		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 80,
@@ -3524,7 +3533,7 @@ Great Admiral
 		"attackSound": "missile"
 	},
 	{
-		"name": "DNS Nuclear Missile P2",
+		"name": "DNS E7 Nuclear Missile P2",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
@@ -3547,7 +3556,7 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P5",
+		"name": "DNS E7 Nuclear Missile P5",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
@@ -3570,7 +3579,7 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P8",
+		"name": "DNS E7 Nuclear Missile P8",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
@@ -3593,7 +3602,7 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P11",
+		"name": "DNS E7 Nuclear Missile P11",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
@@ -3616,7 +3625,7 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P13",
+		"name": "DNS E7 Nuclear Missile P13",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
@@ -3639,11 +3648,11 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 
-//DNS Helicopter Gunship
+//DNS E7 Helicopter Gunship
     {
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "DNS Helicopter Gunship",
+		"name": "DNS E7 Helicopter Gunship",
 		"unitType": "DNSHelicopter",
 		"movement": 6,
 		"strength": 60,
@@ -3667,7 +3676,7 @@ Great Admiral
 			"Eliminates combat penalty for attacking over a river",	//xsa//added hovering
 			"[-50]% Strength <when fighting in [Water] tiles>",		//xsa//added hovering
 
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"[+100]% Strength <vs [Armored] units>", 
 			"No defensive terrain bonus", 
 			"Can move after attacking",
@@ -3680,10 +3689,10 @@ Great Admiral
   		"attackSound": "machinegun"
 	},
 
-//DNS Jet Fighter
+//DNS E8 Jet Fighter
 	{
-		"name": "DNS Jet Fighter",
-		"unitType": "DNSFighter",
+		"name": "DNS E8 Jet Fighter",
+		"unitType": "DNSE7 Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -3705,7 +3714,7 @@ Great Admiral
 			"[+2] extra interceptions may be made per turn",
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
-			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [E7 Bomber] units>", 
 			"[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
@@ -3713,7 +3722,7 @@ Great Admiral
 //DNS E8 Stealth Bomber
 {
 		"name": "DNS E8 Stealth Bomber",
-		"unitType": "DNSBomber",
+		"unitType": "DNSE7 Bomber",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -3732,15 +3741,15 @@ Great Admiral
 			"Uncapturable",
 			"Cannot be intercepted",
 			"Damage taken from interception reduced by [100]%",
-//			"Cannot be carried by [Carrier] units", 
+//			"Cannot be carried by [E6 Carrier] units", 
 			"[+4] Sight", 
 			"Can see over obstacles"],
 		"attackSound": "bombing"
 	},
 
-//DNS Sky Carrier
+//DNS Sky E6 Carrier
 	{
-		"name": "DNS Sky Carrier",
+		"name": "DNS Sky E6 Carrier",
 		"unitType": "DNSAirship",
 		"movement": 4,
 		"strength": 80,
@@ -3765,7 +3774,7 @@ Great Admiral
 			"Damage taken from interception reduced by [100]%",
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Never appears as a Barbarian unit",
 			"Uncapturable"
 			],
@@ -3774,9 +3783,9 @@ Great Admiral
 	},
 
 
-//DNS Destroyer
+//DNS E6 Destroyer
 	{
-		"name": "DNS Destroyer",
+		"name": "DNS E6 Destroyer",
 		"unitType": "DNSMelee Water",
 		"movement": 6,
 		"strength": 65,
@@ -3793,16 +3802,16 @@ Great Admiral
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
-			"Can see invisible [Submarine] units", 
+			"Can see invisible [E6 Submarine] units", 
 			"[75]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", 
-			"[+100]% Strength <vs [Submarine] units>"],
+			"[+100]% Strength <vs [E6 Submarine] units>"],
 		"attackSound": "shipguns"
 	},
 
-//DNS Battleship
+//DNS E6 Battleship
 	{
-		"name": "DNS Battleship",
+		"name": "DNS E6 Battleship",
 		"unitType": "DNSRanged Water",
 		"movement": 5,
 		"strength": 65,
@@ -3823,12 +3832,12 @@ Great Admiral
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
+		// Does not actually upgrade to E8 Missile Cruisers
 	},
 
-//DNS Missile Cruiser
+//DNS E8 Missile Cruiser
 	{
-		"name": "DNS Missile Cruiser",
+		"name": "DNS E8 Missile Cruiser",
 		"unitType": "DNSRanged Water",
 		"movement": 7,
 		"strength": 90,
@@ -3848,17 +3857,17 @@ Great Admiral
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
 			"[100]% chance to intercept air attacks", 
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Can carry [9] [Missile] units", 
-			"[+100]% Strength <vs [Submarine] units>", 
+			"[+100]% Strength <vs [E6 Submarine] units>", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 
 	{
-		"name": "DNS Submarine",
-		"unitType": "DNSSubmarine",
+		"name": "DNS E6 Submarine",
+		"unitType": "DNSE6 Submarine",
 		"movement": 7,
 		"strength": 65,
 		"rangedStrength": 60,
@@ -3885,17 +3894,17 @@ Great Admiral
 			"Can only attack [Water] tiles", 
 			"[+3] Sight",
 			"Uncapturable",
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Can carry [6] [Missile] units", 
 			"Never appears as a Barbarian unit"],
 
 		"attackSound": "torpedo"
 	},
 
-//DNS Nuclear Submarine
+//DNS E8 Nuclear Submarine
 	{
-		"name": "DNS Nuclear Submarine",
-		"unitType": "DNSSubmarine",
+		"name": "DNS E8 Nuclear Submarine",
+		"unitType": "DNSE6 Submarine",
 		"movement": 8,
 		"strength": 80,
 		"range": 4,
@@ -3923,15 +3932,15 @@ Great Admiral
 			"Can only attack [Water] tiles", 
 			"[+6] Sight",
 			"Uncapturable",
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Can carry [6] [Missile] units", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
 
 	{
-		"name": "DNS Carrier",
-		"unitType": "DNSInvisible Aircraft Carrier",
+		"name": "DNS E6 Carrier",
+		"unitType": "DNSInvisible Aircraft E6 Carrier",
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
@@ -3947,7 +3956,7 @@ Great Admiral
 			"All adjacent units heal [+50] HP when healing", 
 			"[+50] HP when healing", 
 
-			"Can see invisible [Submarine] units",
+			"Can see invisible [E6 Submarine] units",
 			"Withdraws before melee combat <with [99]% chance>",
 
 			"Uncapturable",
@@ -3956,9 +3965,9 @@ Great Admiral
 			"Never appears as a Barbarian unit"],
 	},
 
-//DNS Modern Armor
+//DNS E8 Modern Armor
 	{
-		"name": "DNS Modern Armor",
+		"name": "DNS E8 Modern Armor",
 		"unitType": "DNSArmored",
 		"movement": 5,
 		"strength": 100,
@@ -3967,7 +3976,7 @@ Great Admiral
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Land",
-//		"upgradesTo": "Giant Death Robot",
+//		"upgradesTo": "E8 Giant Death Robot",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
@@ -3979,12 +3988,12 @@ Great Admiral
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 
-//DNS Mechanized Infantry
+//DNS E8 Mechanized Infantry
 	{
-		"name": "DNS Mechanized Infantry",
+		"name": "DNS E8 Mechanized Infantry",
 		"unitType": "DNSGunpowder",
 		"movement": 3,
 		"strength": 90,
@@ -4003,7 +4012,7 @@ Great Admiral
 			"[+450]% Strength <when defending>", 
 			"Never appears as a Barbarian unit"
 			],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 //DNS Land Leviathan
 	{
@@ -4028,12 +4037,12 @@ Great Admiral
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
 
-//DNS Mobile SAM
+//DNS E7 Mobile SAM
 	{
-		"name": "DNS Mobile SAM",
+		"name": "DNS E7 Mobile SAM",
 		"unitType": "DNSGunpowder",
 		"movement": 3,
 		"interceptRange": 3,
@@ -4059,9 +4068,9 @@ Great Admiral
 		"attackSound": "missile"
 	},
 
-//DNS Rocket Artillery
+//DNS E7 Rocket Artillery
 	{
-		"name": "DNS Rocket Artillery",
+		"name": "DNS E7 Rocket Artillery",
 		"unitType": "DNSSiege",
 		"movement": 2,
 		"strength": 45,
@@ -4083,7 +4092,7 @@ Great Admiral
 			"[-1] Sight", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
+		"attackSound": "E5 Artillery"
 	},
 
 
@@ -4093,9 +4102,9 @@ Great Admiral
 
 
 
-//DNS Worker
+//DNS E1 Worker
 	{
-		"name": "DNS Worker",
+		"name": "DNS E1 Worker",
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
 		"requiredTech": "TechUnlocker",
@@ -4145,9 +4154,9 @@ Great Admiral
 		
 	},
 
-//DNS Work Boats
+//DNS E1 Work Boats
 	{
-		"name": "DNS Work Boats",
+		"name": "DNS E1 Work Boats",
 		"unitType": "DNSCivilianWater",
 		"movement": 5,
 		"cost": 30,
@@ -4175,9 +4184,9 @@ Great Admiral
 		   ]
 	},
 
-//DNS Settler
+//DNS E1 Settler
 	{
-		"name": "DNS Settler",
+		"name": "DNS E1 Settler",
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
 		"cost": 106,
@@ -4209,17 +4218,17 @@ Great Admiral
 		"hurryCostModifier": 20
 	},
 
-//DNS Scout
+//DNS E1 Scout
 	{
-		"name": "DNS Scout",
-		"unitType": "DNSScout",
+		"name": "DNS E1 Scout",
+		"unitType": "DNSE1 Scout",
 		"movement": 5,
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "E5 Scientific Theory",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
-		"upgradesTo": "DNS Khan",
+		"upgradesTo": "DNS E0 Khan",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
@@ -4233,7 +4242,7 @@ Great Admiral
 
 			"Uncapturable", 
 //			"Limited to [3] per Civilization",
-//			"May upgrade to [Archer] through ruins-like effects", 
+//			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit",
 			"Can see over obstacles <before the [Classical era]>"
 			],
@@ -4241,9 +4250,9 @@ Great Admiral
 		"attackSound": "nonmetalhit",
 	},
 
-//DNS Missionary
+//DNS E0 Missionary
 	{
-		"name": "DNS Missionary",
+		"name": "DNS E0 Missionary",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
@@ -4269,9 +4278,9 @@ Great Admiral
 		"religiousStrength": 2000,
 	},
 
-//DNS Inquisitor
+//DNS E0 Inquisitor
 	{
-		"name": "DNS Inquisitor",
+		"name": "DNS E0 Inquisitor",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
@@ -4296,9 +4305,9 @@ Great Admiral
 		"movement": 3
 	},
 
-//DNS Great Artist
+//DNS E0 Great Artist
 	{
-		"name": "DNS Great Artist",
+		"name": "DNS E0 Great Artist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4323,9 +4332,9 @@ Great Admiral
 		"movement": 2
 	},
 
-//DNS Great Scientist
+//DNS E0 Great Scientist
 	{
-		"name": "DNS Great Scientist",
+		"name": "DNS E0 Great Scientist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4350,9 +4359,9 @@ Great Admiral
 		"movement": 2
 	},
 
-//DNS Great Merchant
+//DNS E0 Great Merchant
 	{
-		"name": "DNS Great Merchant",
+		"name": "DNS E0 Great Merchant",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4377,9 +4386,9 @@ Great Admiral
 		"movement": 2
 	},
 
-//DNS Great Engineer
+//DNS E0 Great Engineer
 	{
-		"name": "DNS Great Engineer",
+		"name": "DNS E0 Great Engineer",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4404,9 +4413,9 @@ Great Admiral
 		"movement": 2
 	},
 
-//DNS Great Prophet
+//DNS E0 Great Prophet
 	{
-		"name": "DNS Great Prophet",
+		"name": "DNS E0 Great Prophet",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4470,9 +4479,9 @@ Great Admiral
 	},
 
 
-//DNS Great Admiral
+//DNS E0 Great Admiral
 	{
-		"name": "DNS Great Admiral",
+		"name": "DNS E0 Great Admiral",
 		"unitType": "DNSCivilianWater",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit GPeople",
@@ -4500,10 +4509,10 @@ Great Admiral
 		"movement": 4
 	},
 
-//DNS Khan
+//DNS E0 Khan
 	{
-		"name": "DNS Khan",
-		"unitType": "DNSScout",
+		"name": "DNS E0 Khan",
+		"unitType": "DNSE1 Scout",
 //		"uniqueTo": "Mongolia",
 //		"replaces": "Great General",
 		"strength": 20,
@@ -4585,39 +4594,39 @@ Great Admiral
 
 
 	{
-		"name": "Brute",
+		"name": "B01 Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "E3 Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Skirmisher",
-		"unitType": "Archery",
+		"name": "B02 Skirmisher",
+		"unitType": "E1 Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E3 Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "E3 Crossbowman",
 		"uniques": [
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Galley",
+		"name": "B03 Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
@@ -4626,64 +4635,64 @@ Great Admiral
 		"uniques": [
 		    "Cannot enter ocean tiles"
 		    ],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "E1 Trireme",
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
 	},
 	{
-		"name": "Marauder",
+		"name": "B04 Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "High Brute",
+		"name": "High B01 Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 10,
 		"cost": 20,
 		"obsoleteTech": "E3 Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
-//            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
+            "Free [B01 Brute] appears <when defending>", 
+//            "Free [B01 Brute] appears <when adjacent to a [Hostile] unit>",
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "High Skirmisher",
-		"unitType": "Archery",
+		"name": "High B02 Skirmisher",
+		"unitType": "E1 Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
-		"requiredTech": "E1 Archery",
+		"requiredTech": "E1 E1 Archery",
 		"obsoleteTech": "E3 Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "E3 Crossbowman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
+            "Free [B01 Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "arrow"
 	},
 	{
-		"name": "High Galley",
+		"name": "High B03 Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
@@ -4692,29 +4701,29 @@ Great Admiral
 		"uniques": [
 		    "Cannot enter ocean tiles"
 		    ],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "E1 Trireme",
 		"uniques": [
-            "Free [Galley] appears <when defending>", 
-//            "Free [Galley] appears <when adjacent to a [Hostile] unit>"
+            "Free [B03 Galley] appears <when defending>", 
+//            "Free [B03 Galley] appears <when adjacent to a [Hostile] unit>"
             ]
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
 	},
 	{
-		"name": "High Marauder",
+		"name": "High B04 Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
 		"requiredTech": "E1 Bronze Working",
 		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
-            "Free [Marauder] appears <when adjacent to a [Hostile] unit>"
+            "Free [B01 Brute] appears <when defending>", 
+            "Free [B04 Marauder] appears <when adjacent to a [Hostile] unit>"
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -4812,7 +4821,7 @@ Great Admiral
  
 /*
 	  {
-		  "name":"Tunnel Worker",
+		  "name":"Tunnel E1 Worker",
 		  "unitType": "DNSCivilianLand",
 		  "movement": 3,
 		  "cost": 150,
@@ -4883,9 +4892,9 @@ Great Admiral
 	
 
 
-//DNS Worker
+//DNS E1 Worker
 	{
-		"name": "DNS Worker Land Class 3",
+		"name": "DNS E1 Worker Land Class 3",
 		"unitType": "DNSCivilianLand",
 		"movement": 3,
 		"requiredTech": "TechUnlocker",
@@ -4934,9 +4943,9 @@ Great Admiral
 		
 	},
 
-//DNS Work Boats
+//DNS E1 Work Boats
 	{
-		"name": "DNS Worker Boat Class 3",
+		"name": "DNS E1 Worker Boat Class 3",
 		"unitType": "DNSCivilianWater",
 		"movement": 5,
 		"cost": 30,
@@ -4981,7 +4990,7 @@ Great Admiral
 
 
 	{
-		"name": "DNS Fighter Zero",
+		"name": "DNS E7 Fighter E7 Zero",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 45,
@@ -4992,7 +5001,7 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"uniques": [
 		    "[100]% chance to intercept air attacks", 
-		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [E7 Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"
 
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
@@ -5001,11 +5010,11 @@ Great Admiral
 			"[-100]% maintenance costs"
 			],
 		"promotions": [
-		    "[Zero] ability"],
+		    "[E7 Zero] ability"],
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "DNS Bomber B17",
+		"name": "DNS E7 Bomber E7 B17",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 70,
@@ -5140,7 +5149,7 @@ Great Admiral
   //xsa//added hovering
   //xsa//rangeMod
   
-  //xsa//increased range 1 to 2 for Gatling gun,Machine gun
+  //xsa//increased range 1 to 2 for E5 Gatling Gun,E6 Machine Gun
   //xsa//spaceparts//100x costs
   //xsa//airunit
   //xsa//civilian
@@ -5162,48 +5171,48 @@ Great Admiral
 //DNS Checkeri8 
 
 //DNS Flyer
-//DNS War Bomber
+//DNS War E7 Bomber
 //Zeppelin Terraformer
 
 //DNS Guided Rocket
-//DNS Guided Missile
-//DNS Nuclear Missile P2
-//DNS Nuclear Missile P5
-//DNS Nuclear Missile P8
+//DNS E7 Guided Missile
+//DNS E7 Nuclear Missile P2
+//DNS E7 Nuclear Missile P5
+//DNS E7 Nuclear Missile P8
  
-//DNS Helicopter Gunship
-//DNS Jet Fighter
+//DNS E7 Helicopter Gunship
+//DNS E8 Jet Fighter
 //DNS E8 Stealth Bomber
-//DNS Sky Carrier
+//DNS Sky E6 Carrier
 
-//DNS Destroyer
-//DNS Battleship
-//DNS Missile Cruiser
-//DNS Nuclear Submarine
-//DNS Carrier
+//DNS E6 Destroyer
+//DNS E6 Battleship
+//DNS E8 Missile Cruiser
+//DNS E8 Nuclear Submarine
+//DNS E6 Carrier
 
-//DNS Modern Armor
-//DNS Mechanized Infantry
+//DNS E8 Modern Armor
+//DNS E8 Mechanized Infantry
 //DNS Land Leviathan
-//DNS Mobile SAM
-//DNS Rocket Artillery
+//DNS E7 Mobile SAM
+//DNS E7 Rocket Artillery
 
-//DNS Worker
-//DNS Work Boats
-//DNS Settler
-//DNS Scout
-//DNS Missionary
-//DNS Inquisitor
+//DNS E1 Worker
+//DNS E1 Work Boats
+//DNS E1 Settler
+//DNS E1 Scout
+//DNS E0 Missionary
+//DNS E0 Inquisitor
 
-//DNS Great Artist
-//DNS Great Scientist
-//DNS Great Merchant
-//DNS Great Engineer
-//DNS Great Prophet
+//DNS E0 Great Artist
+//DNS E0 Great Scientist
+//DNS E0 Great Merchant
+//DNS E0 Great Engineer
+//DNS E0 Great Prophet
 //DNS Great General
-//DNS Great Admiral
+//DNS E0 Great Admiral
 
-//DNS Khan
+//DNS E0 Khan
 //Angel
 
 
@@ -5227,133 +5236,133 @@ Great Admiral
 /*original sort
 
 
-Worker
-Settler
-Scout
-Warrior
-Maori Warrior
-Jaguar
-Brute
-Archer
-Bowman
-Slinger
-Atlatlist
-Skirmisher
-Work Boats
-Trireme
-Quinquereme
-Dromon
-Galley
-Chariot Archer
-War Chariot
-Horse Archer
-War Elephant
-Spearman
-Hoplite
-Persian Immortal
-Battering Ram
-Pictish Warrior
-Marauder
-Horseman
-Companion Cavalry
-African Forest Elephant
-Cataphract
-Catapult
-Ballista
-Composite Bowman
-Swordsman
-Legion
-Mohawk Warrior
-Pikeman
-Landsknecht
-Galleass
-Knight
-Camel Archer
-Conquistador
-Naresuan's Elephant
-Mandekalu Cavalry
-Keshik
-Crossbowman
-Chu-Ko-Nu
-Longbowman
-Trebuchet
-Hwach'a
-Longswordsman
-Samurai
-Berserker
-Caravel
-Turtle Ship
-Musketman
-Musketeer
-Janissary
-Minuteman
-Tercio
-Privateer
-Sea Beggar
-Frigate
-Ship of the Line
-Lancer
-Sipahi
-Hakkapeliitta
-Cannon
-Gatling Gun
-Rifleman
-Norwegian Ski Infantry
-Carolean
-Mehal Sefari
-Cavalry
-Cossack
-Hussar
-Ironclad
-Artillery
-Submarine
-Great War Infantry
-Foreign Legion
-Triplane
-Great War Bomber
-Infantry
-Carrier
-Battleship
-Machine Gun
-Anti-Aircraft Gun
-Landship
-Destroyer
-Marine
-Fighter
-Zero
-Bomber
-B17
-Paratrooper
-Tank
-Panzer
-Anti-Tank Gun
-Atomic Bomb
-Rocket Artillery
-Mobile SAM
-Guided Missile
-Nuclear Missile
-Helicopter Gunship
-Nuclear Submarine
-Mechanized Infantry
-Missile Cruiser
-Modern Armor
-Jet Fighter
-Giant Death Robot
+E1 Worker
+E1 Settler
+E1 Scout
+E1 Warrior
+E1 Maori Warrior
+E1 Jaguar
+B01 Brute
+E1 Archer
+E1 Bowman
+E1 Slinger
+E1 Atlatlist
+B02 Skirmisher
+E1 Work Boats
+E1 Trireme
+E1 Quinquereme
+E1 Dromon
+B03 Galley
+E1 Chariot Archer
+E1 War Chariot
+E1 Horse Archer
+E1 War Elephant
+E1 Spearman
+E1 Hoplite
+E1 Persian Immortal
+E1 Battering Ram
+E1 Pictish Warrior
+B04 Marauder
+E2 Horseman
+E2 Companion Cavalry
+E2 African Forest Elephant
+E2 Cataphract
+E2 Catapult
+E2 Ballista
+E2 Composite Bowman
+E2 Swordsman
+E2 Legion
+E2 Mohawk Warrior
+E3 Pikeman
+E3 Landsknecht
+E3 Galleass
+E3 Knight
+E3 Camel Archer
+E3 Conquistador
+E3 Naresuan's Elephant
+E3 Mandekalu Cavalry
+E3 Keshik
+E3 Crossbowman
+E3 Chu-Ko-Nu
+E3 Longbowman
+E3 Trebuchet
+E3 Hwach'a
+E3 Longswordsman
+E3 Samurai
+E3 Berserker
+E4 Caravel
+E4 Turtle Ship
+E4 Musketman
+E4 Musketeer
+E4 Janissary
+E4 Minuteman
+E4 Tercio
+E4 Privateer
+E4 Sea Beggar
+E4 Frigate
+E4 Ship of the Line
+E4 Lancer
+E4 Sipahi
+E4 Hakkapeliitta
+E4 Cannon
+E5 Gatling Gun
+E5 Rifleman
+E5 Norwegian Ski Infantry
+E5 Carolean
+E5 Mehal Sefari
+E5 Cavalry
+E5 Cossack
+E5 Hussar
+E5 Ironclad
+E5 Artillery
+E6 Submarine
+E6 Great War Infantry
+E6 Foreign Legion
+E6 Triplane
+E6 Great War Bomber
+E6 Infantry
+E6 Carrier
+E6 Battleship
+E6 Machine Gun
+E6 Anti-Aircraft Gun
+E6 Landship
+E6 Destroyer
+E7 Marine
+E7 Fighter
+E7 Zero
+E7 Bomber
+E7 B17
+E7 Paratrooper
+E7 Tank
+E7 Panzer
+E7 Anti-Tank Gun
+E7 Atomic Bomb
+E7 Rocket Artillery
+E7 Mobile SAM
+E7 Guided Missile
+E7 Nuclear Missile
+E7 Helicopter Gunship
+E8 Nuclear Submarine
+E8 Mechanized Infantry
+E8 Missile Cruiser
+E8 Modern Armor
+E8 Jet Fighter
+E8 Giant Death Robot
 E8 Stealth Bomber
-Great Artist
-Great Scientist
-Great Merchant
-Great Engineer
-Great Prophet
-Great General
-Khan
-Great Admiral
-Missionary
-Inquisitor
-SS Booster
-SS Cockpit
-SS Engine
-SS Stasis Chamber
+E0 Great Artist
+E0 Great Scientist
+E0 Great Merchant
+E0 Great Engineer
+E0 Great Prophet
+E0 Great General
+E0 Khan
+E0 Great Admiral
+E0 Missionary
+E0 Inquisitor
+E9 SS Booster
+E9 SS Cockpit
+E9 SS Engine
+E9 SS Stasis Chamber
 
 
 
@@ -5370,135 +5379,135 @@ SS Stasis Chamber
 /*//XSA//The Root Out
 
 
-@@@Great Admiral###
-@@@Maori Warrior###
-@@@Jaguar###
-@@@Brute###
-@@@Archer###
-@@@Bowman###
-@@@Slinger###
-@@@Atlatlist###
-@@@Skirmisher###
-@@@Composite Bowman###
-@@@Mohawk Warrior###
-@@@Crossbowman###
-@@@Chu-Ko-Nu###
-@@@Longbowman###
-@@@Worker###
-@@@Settler###
-@@@Scout###
-@@@Warrior###
-@@@Work Boats###
-@@@Dromon###
-@@@Galley###
-@@@War Chariot###
-@@@Horse Archer###
-@@@War Elephant###
-@@@Spearman###
-@@@Hoplite###
-@@@Persian Immortal###
-@@@Battering Ram###
-@@@Pictish Warrior###
-@@@Marauder###
-@@@African Forest Elephant###
-@@@Catapult###
-@@@Ballista###
-@@@Pikeman###
-@@@Landsknecht###
-@@@Galleass###
-@@@Naresuan's Elephant###
-@@@Trebuchet###
-@@@Hwach'a###
-@@@Submarine###
-@@@Carrier###
-@@@Missile Cruiser###
-@@@Great Artist###
-@@@Great Scientist###
-@@@Great Merchant###
-@@@Great Engineer###
-@@@Great Prophet###
+@@@E0 Great Admiral###
+@@@E1 Maori Warrior###
+@@@E1 Jaguar###
+@@@B01 Brute###
+@@@E1 Archer###
+@@@E1 Bowman###
+@@@E1 Slinger###
+@@@E1 Atlatlist###
+@@@B02 Skirmisher###
+@@@E2 Composite Bowman###
+@@@E2 Mohawk Warrior###
+@@@E3 Crossbowman###
+@@@E3 Chu-Ko-Nu###
+@@@E3 Longbowman###
+@@@E1 Worker###
+@@@E1 Settler###
+@@@E1 Scout###
+@@@E1 Warrior###
+@@@E1 Work Boats###
+@@@E1 Dromon###
+@@@B03 Galley###
+@@@E1 War Chariot###
+@@@E1 Horse Archer###
+@@@E1 War Elephant###
+@@@E1 Spearman###
+@@@E1 Hoplite###
+@@@E1 Persian Immortal###
+@@@E1 Battering Ram###
+@@@E1 Pictish Warrior###
+@@@B04 Marauder###
+@@@E2 African Forest Elephant###
+@@@E2 Catapult###
+@@@E2 Ballista###
+@@@E3 Pikeman###
+@@@E3 Landsknecht###
+@@@E3 Galleass###
+@@@E3 Naresuan's Elephant###
+@@@E3 Trebuchet###
+@@@E3 Hwach'a###
+@@@E6 Submarine###
+@@@E6 Carrier###
+@@@E8 Missile Cruiser###
+@@@E0 Great Artist###
+@@@E0 Great Scientist###
+@@@E0 Great Merchant###
+@@@E0 Great Engineer###
+@@@E0 Great Prophet###
 @@@Great General###
-@@@Khan###
-@@@Missionary###
-@@@Inquisitor###
-@@@Chariot Archer###
-@@@Horseman###
-@@@Companion Cavalry###
-@@@Cataphract###
-@@@Knight###
-@@@Camel Archer###
-@@@Conquistador###
-@@@Mandekalu Cavalry###
-@@@Keshik###
-@@@Lancer###
-@@@Sipahi###
-@@@Hakkapeliitta###
-@@@Cavalry###
-@@@Cossack###
-@@@Hussar###
-@@@Swordsman###
-@@@Legion###
-@@@Longswordsman###
-@@@Samurai###
-@@@Berserker###
-@@@Triplane###
-@@@Great War Bomber###
-@@@Fighter###
-@@@Bomber###
-@@@B17###
-@@@Modern Armor###
-@@@Jet Fighter###
+@@@E0 Khan###
+@@@E0 Missionary###
+@@@E0 Inquisitor###
+@@@E1 Chariot Archer###
+@@@E2 Horseman###
+@@@E2 Companion Cavalry###
+@@@E2 Cataphract###
+@@@E3 Knight###
+@@@E3 Camel Archer###
+@@@E3 Conquistador###
+@@@E3 Mandekalu Cavalry###
+@@@E3 Keshik###
+@@@E4 Lancer###
+@@@E4 Sipahi###
+@@@E4 Hakkapeliitta###
+@@@E5 Cavalry###
+@@@E5 Cossack###
+@@@E5 Hussar###
+@@@E2 Swordsman###
+@@@E2 Legion###
+@@@E3 Longswordsman###
+@@@E3 Samurai###
+@@@E3 Berserker###
+@@@E6 Triplane###
+@@@E6 Great War Bomber###
+@@@E7 Fighter###
+@@@E7 Bomber###
+@@@E7 B17###
+@@@E8 Modern Armor###
+@@@E8 Jet Fighter###
 @@@E8 Stealth Bomber###
-@@@Atomic Bomb###
-@@@Trireme###
-@@@Quinquereme###
-@@@Caravel###
-@@@Turtle Ship###
-@@@Musketman###
-@@@Musketeer###
-@@@Janissary###
-@@@Minuteman###
-@@@Tercio###
-@@@Privateer###
-@@@Sea Beggar###
-@@@Frigate###
-@@@Ship of the Line###
-@@@Cannon###
-@@@Gatling Gun###
-@@@Rifleman###
-@@@Norwegian Ski Infantry###
-@@@Carolean###
-@@@Mehal Sefari###
-@@@Ironclad###
-@@@Artillery###
-@@@Great War Infantry###
-@@@Foreign Legion###
-@@@Infantry###
-@@@Battleship###
-@@@Machine Gun###
-@@@Anti-Aircraft Gun###
-@@@Landship###
-@@@Destroyer###
-@@@Marine###
-@@@Paratrooper###
-@@@Tank###
-@@@Panzer###
-@@@Anti-Tank Gun###
-@@@Rocket Artillery###
-@@@Mobile SAM###
-@@@Helicopter Gunship###
-@@@Mechanized Infantry###
-@@@Giant Death Robot###
-@@@Nuclear Submarine###
+@@@E7 Atomic Bomb###
+@@@E1 Trireme###
+@@@E1 Quinquereme###
+@@@E4 Caravel###
+@@@E4 Turtle Ship###
+@@@E4 Musketman###
+@@@E4 Musketeer###
+@@@E4 Janissary###
+@@@E4 Minuteman###
+@@@E4 Tercio###
+@@@E4 Privateer###
+@@@E4 Sea Beggar###
+@@@E4 Frigate###
+@@@E4 Ship of the Line###
+@@@E4 Cannon###
+@@@E5 Gatling Gun###
+@@@E5 Rifleman###
+@@@E5 Norwegian Ski Infantry###
+@@@E5 Carolean###
+@@@E5 Mehal Sefari###
+@@@E5 Ironclad###
+@@@E5 Artillery###
+@@@E6 Great War Infantry###
+@@@E6 Foreign Legion###
+@@@E6 Infantry###
+@@@E6 Battleship###
+@@@E6 Machine Gun###
+@@@E6 Anti-Aircraft Gun###
+@@@E6 Landship###
+@@@E6 Destroyer###
+@@@E7 Marine###
+@@@E7 Paratrooper###
+@@@E7 Tank###
+@@@E7 Panzer###
+@@@E7 Anti-Tank Gun###
+@@@E7 Rocket Artillery###
+@@@E7 Mobile SAM###
+@@@E7 Helicopter Gunship###
+@@@E8 Mechanized Infantry###
+@@@E8 Giant Death Robot###
+@@@E8 Nuclear Submarine###
 
 
-@@@SS Booster###
-@@@SS Cockpit###
-@@@SS Engine###
-@@@SS Stasis Chamber###
+@@@E9 SS Booster###
+@@@E9 SS Cockpit###
+@@@E9 SS Engine###
+@@@E9 SS Stasis Chamber###
 
 
-@@@Land Ironclad###
+@@@Land E5 Ironclad###
 @@@Airship###
 @@@Land Leviathan###
 @@@Sky Fortress###
@@ -5535,77 +5544,227 @@ Observar
 Revealer
 
 DNS Flyer
-DNS War Bomber
+DNS War E7 Bomber
 
 Zeppelin Terraformer
 
 DNS Guided Rocket
-DNS Guided Missile
-DNS Nuclear Missile P2
-DNS Nuclear Missile P5
-DNS Nuclear Missile P8
-DNS Nuclear Missile P11
-DNS Nuclear Missile P13
+DNS E7 Guided Missile
+DNS E7 Nuclear Missile P2
+DNS E7 Nuclear Missile P5
+DNS E7 Nuclear Missile P8
+DNS E7 Nuclear Missile P11
+DNS E7 Nuclear Missile P13
 
-DNS Helicopter Gunship
-DNS Jet Fighter
+DNS E7 Helicopter Gunship
+DNS E8 Jet Fighter
 DNS E8 Stealth Bomber
-DNS Sky Carrier
+DNS Sky E6 Carrier
 
-DNS Destroyer
-DNS Battleship
-DNS Missile Cruiser
-DNS Submarine
-DNS Nuclear Submarine
-DNS Carrier
+DNS E6 Destroyer
+DNS E6 Battleship
+DNS E8 Missile Cruiser
+DNS E6 Submarine
+DNS E8 Nuclear Submarine
+DNS E6 Carrier
 
-DNS Modern Armor
-DNS Mechanized Infantry
+DNS E8 Modern Armor
+DNS E8 Mechanized Infantry
 DNS Land Leviathan
-DNS Mobile SAM
-DNS Rocket Artillery
+DNS E7 Mobile SAM
+DNS E7 Rocket Artillery
 
-DNS Worker
-DNS Work Boats
-DNS Settler
-DNS Scout
+DNS E1 Worker
+DNS E1 Work Boats
+DNS E1 Settler
+DNS E1 Scout
 
-DNS Missionary
-DNS Inquisitor
+DNS E0 Missionary
+DNS E0 Inquisitor
 
-DNS Great Artist
-DNS Great Scientist
-DNS Great Merchant
-DNS Great Engineer
-DNS Great Prophet
+DNS E0 Great Artist
+DNS E0 Great Scientist
+DNS E0 Great Merchant
+DNS E0 Great Engineer
+DNS E0 Great Prophet
 DNS Great General
-DNS Great Admiral
-DNS Khan
+DNS E0 Great Admiral
+DNS E0 Khan
 
-Brute
-Skirmisher
-Galley
-Marauder
+B01 Brute
+B02 Skirmisher
+B03 Galley
+B04 Marauder
 
-High Brute
-High Skirmisher
-High Galley
-High Marauder
+High B01 Brute
+High B02 Skirmisher
+High B03 Galley
+High B04 Marauder
 
 Stronger General
-Normal Worker
+Normal E1 Worker
 Prophet
 Invulnerable Trooper
-Normal Settler
+Normal E1 Settler
 
 Angel
-DNS Worker Land Class 3
-DNS Worker Boat Class 3
-DNS Fighter Zero
-DNS Bomber B17
+DNS E1 Worker Land Class 3
+DNS E1 Worker Boat Class 3
+DNS E7 Fighter E7 Zero
+DNS E7 Bomber E7 B17
 DNS Firework Flare
 
 
 
 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+E1 E1 Worker
+E1 E1 Settler
+E1 E1 Scout
+E1 E1 Warrior
+E1 E1 Maori Warrior
+E1 E1 Jaguar
+B01 B01 Brute
+E1 E1 Archer
+E1 E1 Bowman
+E1 E1 Slinger
+E1 E1 Atlatlist
+B02 B02 Skirmisher
+E1 E1 Work Boats
+E1 E1 Trireme
+E1 E1 Quinquereme
+E1 E1 Dromon
+B03 B03 Galley
+E1 E1 Chariot Archer
+E1 E1 War Chariot
+E1 E1 Horse Archer
+E1 E1 War Elephant
+E1 E1 Spearman
+E1 E1 Hoplite
+E1 E1 Persian Immortal
+E1 E1 Battering Ram
+E1 E1 Pictish Warrior
+B04 B04 Marauder
+
+E2 E2 Horseman
+E2 E2 Companion Cavalry
+E2 E2 African Forest Elephant
+E2 E2 Cataphract
+E2 E2 Catapult
+E2 E2 Ballista
+E2 E2 Composite Bowman
+E2 E2 Swordsman
+E2 E2 Legion
+E2 E2 Mohawk Warrior
+
+E3 E3 Pikeman
+E3 E3 Landsknecht
+E3 E3 Galleass
+E3 E3 Knight
+E3 E3 Camel Archer
+E3 E3 Conquistador
+E3 E3 Naresuan's Elephant
+E3 E3 Mandekalu Cavalry
+E3 E3 Keshik
+E3 E3 Crossbowman
+E3 E3 Chu-Ko-Nu
+E3 E3 Longbowman
+E3 E3 Trebuchet
+E3 E3 Hwach'a
+E3 E3 Longswordsman
+E3 E3 Samurai
+E3 E3 Berserker
+
+E4 E4 Caravel
+E4 E4 Turtle Ship
+E4 E4 Musketman
+E4 E4 Musketeer
+E4 E4 Janissary
+E4 E4 Minuteman
+E4 E4 Tercio
+E4 E4 Privateer
+E4 E4 Sea Beggar
+E4 E4 Frigate
+E4 E4 Ship of the Line
+E4 E4 Lancer
+E4 E4 Sipahi
+E4 E4 Hakkapeliitta
+E4 E4 Cannon
+
+E5 E5 Gatling Gun
+E5 E5 Rifleman
+E5 E5 Norwegian Ski Infantry
+E5 E5 Carolean
+E5 E5 Mehal Sefari
+E5 E5 Cavalry
+E5 E5 Cossack
+E5 E5 Hussar
+E5 E5 Ironclad
+E5 E5 Artillery
+
+E6 E6 Submarine
+E6 E6 Great War Infantry
+E6 E6 Foreign Legion
+E6 E6 Triplane
+E6 E6 Great War Bomber
+E6 E6 Infantry
+E6 E6 Carrier
+E6 E6 Battleship
+E6 E6 Machine Gun
+E6 E6 Anti-Aircraft Gun
+E6 E6 Landship
+E6 E6 Destroyer
+
+E7 E7 Marine
+E7 E7 Fighter
+E7 E7 Zero
+E7 E7 Bomber
+E7 E7 B17
+E7 E7 Paratrooper
+E7 E7 Tank
+E7 E7 Panzer
+E7 E7 Anti-Tank Gun
+E7 E7 Atomic Bomb
+E7 E7 Rocket Artillery
+E7 E7 Mobile SAM
+E7 E7 Guided Missile
+E7 E7 Nuclear Missile
+E7 E7 Helicopter Gunship
+
+E8 Nuclear Submarine
+E8 Mechanized Infantry
+E8 Missile Cruiser
+E8 Modern Armor
+E8 Jet Fighter
+E8 Giant Death Robot
+E8 Stealth Bomber
+
+E0 E0 Great Artist
+E0 E0 Great Scientist
+E0 E0 Great Merchant
+E0 E0 Great Engineer
+E0 E0 Great Prophet
+E0 E0 Great General
+E0 E0 Great Admiral
+E0 E0 Khan
+E0 E0 Missionary
+E0 E0 Inquisitor
+
+E9 E9 SS Booster
+E9 E9 SS Cockpit
+E9 E9 SS Engine
+E9 E9 SS Stasis Chamber
 */
