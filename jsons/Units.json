@@ -1,6 +1,8 @@
 [//xsa//start
 
+//xsa//start of gk
 
+//xsa//end of gk
 
 
 
@@ -34,6 +36,7 @@
 
 
 
+//xsa//start of gk
 
 
 //xsa//have paradrop
@@ -153,7 +156,7 @@
 		"requiredTech": "E1 Archery",
 		"obsoleteTech": "E2 Construction",
 		"upgradesTo": "E2 Composite Bowman",
-		"promotions": ["E1 Slinger Withdraw"],
+		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow",
 		"uniques": [
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
@@ -819,7 +822,7 @@
 
 	{
 		"name": "E6 Carrier",
-		"unitType": "Aircraft E6 Carrier",
+		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
@@ -978,7 +981,7 @@
 		"name": "E0 Khan",
 		"unitType": "Mounted",
 		"uniqueTo": "Mongolia",
-		"replaces": "Great General",
+		"replaces": "E0 Great General",
 		"strength": 20,
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
@@ -1599,7 +1602,7 @@
 
 	{
 		"name": "E7 Atomic Bomb",
-		"unitType": "Atomic E7 Bomber",
+		"unitType": "Atomic Bomber",
 		"movement": 1,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -2490,7 +2493,7 @@
 
 
 
-
+//xsa//end of gk
 
 
 	{
@@ -2597,7 +2600,7 @@
 		"movement": 2,
 		"strength": 75,
 		"cost": 425,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Uncapturable",
