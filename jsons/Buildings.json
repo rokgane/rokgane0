@@ -1027,7 +1027,7 @@
 		"name": "E1 Temple of Artemis",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+10]% [Food] [in all cities]", 
@@ -1040,7 +1040,7 @@
 		"name": "E1 Stonehenge",
 		"faith": 5,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed>"
 			]
@@ -1063,7 +1063,7 @@
 	{
 		"name": "E1 The Pyramids",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1075,7 +1075,7 @@
 	{
 		"name": "E1 Mausoleum of Halicarnassus",
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1100,7 +1100,7 @@
 		"name": "E2 The Great Lighthouse",
 		"cost": 185,
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1151,7 +1151,7 @@
 		"name": "E2 Petra",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Desert]", 
@@ -1164,7 +1164,7 @@
 	{
 		"name": "E2 Great Wall",
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1178,7 +1178,7 @@
 		"cost": 185,
 		"culture": 1,
 		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1204,7 +1204,7 @@
 		"name": "E3 Great Mosque of Djenne",
 		"culture": 1,
 		"faith": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1219,7 +1219,7 @@
 		"name": "E3 Chichen Itza",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1232,7 +1232,7 @@
 		"name": "E3 Machu Picchu",
 		"gold": 5,
 		"faith": 2,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1244,7 +1244,7 @@
 	{
 		"name": "E3 Angkor Wat",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1270,7 +1270,7 @@
 		"name": "E3 Notre Dame",
 		"faith": 4,
 		"happiness": 10,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed>"
 			]
@@ -1319,7 +1319,7 @@
 		"name": "E4 Himeji Castle",
 		"culture": 3,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
@@ -1382,7 +1382,7 @@
 		"name": "E5 Big Ben",
 		"culture": 1,
 		"gold": 4,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1408,7 +1408,7 @@
 		"name": "E6 Eiffel Tower",
 		"culture": 1,
 		"happiness": 5,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1421,7 +1421,7 @@
 		"name": "E6 Statue of Liberty",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Production] from every specialist [in all cities]"
@@ -1434,7 +1434,7 @@
 		"happiness": 2,
 		"culture": 4,
 		"gold": 6,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1459,7 +1459,7 @@
 		"name": "E7 Pentagon",
 		"isWonder": true,
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-33]% Gold cost of upgrading <for [Military] units>"
@@ -1495,7 +1495,7 @@
 	{
 		"name": "E8 CN Tower",
 		"isWonder": true,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1] population [in all cities]", 
@@ -1522,7 +1522,7 @@
 		"name": "E8 United Nations",
 		"isWonder": true,
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"requiredTech": "E8 Globalization",
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
@@ -1532,6 +1532,7 @@
 			],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the E8 United Nations.' - Kofi Annan"
 	},
+
 
 
 
@@ -1636,6 +1637,7 @@
 			"Indicates the capital city"
 			]
 	},
+
 	{
 		"name": "ChallengesActivate",
 		"cost": 0,
@@ -1694,10 +1696,10 @@
 			"Can be purchased with [Gold] [in capital]",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Only available <when espionage is enabled>",
-			"Gain a free [E4 Constabulary] [in all cities] <after discovering [E4 Banking]>",
-			"Gain a free [E5 Police Station] [in all cities] <after discovering [E5 Electricity]>",
-			"[-100]% maintenance cost for [E4 Constabulary] buildings [in all cities]",
-			"[-100]% maintenance cost for [E5 Police Station] buildings [in all cities]",
+			"Gain a free [Constabulary] [in all cities] <after discovering [Banking]>",
+			"Gain a free [Police Station] [in all cities] <after discovering [Electricity]>",
+			"[-100]% maintenance cost for [Constabulary] buildings [in all cities]",
+			"[-100]% maintenance cost for [Police Station] buildings [in all cities]",
 			"New spies start with [99] level(s)",
 					"Promotes all spies [99] time(s)",
 //					"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
@@ -2001,9 +2003,9 @@
 	    	"Enemy [All] units must spend [2] extra movement points when inside your territory",
 
 			"[5] free [DNS Settler] units appear", 
-//			"[2] free [DNS E1 Worker] units appear",
+//			"[2] free [DNS Worker] units appear",
 //			"[2] free [Pikeman] units appear",
-//			"Free [E1 Worker] appears <for [Human player] Civilizations>",
+//			"Free [Worker] appears <for [Human player] Civilizations>",
 
 /*
 			"[Air] units gain the [Paradrop Assistance Air] promotion",
@@ -2139,7 +2141,7 @@
 		"maintenance": 0,
 		"uniques": [
             	"Roads connect tiles across rivers",
-            	"Connects trade routes over Water",
+            	"Connects trade routes over water",
 
 		    	"[-20]% Culture cost of natural border growth [in this city]",
 
@@ -2488,15 +2490,15 @@
 //HackTown maintenance
             	"No Maintenance costs for improvements in [All] tiles", 
             	"[-100]% maintenance costs <for [All] units>", 
-            	"[-100]% maintenance on road & E6 Railroads", 
+            	"[-100]% maintenance on road & railroads", 
             	"[-100]% maintenance cost for [All] buildings [in this city]", 
 //HackTown population
     			"[+100] population [in this city]",
     			"[+100]% growth [in this city]",
 //HackTown supply
     			"[+100] Unit Supply",
-//HackTown E2 Construction Time
-	    		"[-75]% E2 Construction time for [All] improvements",
+//HackTown Construction Time
+	    		"[-75]% construction time for [All] improvements",
 
 //HackTown Gold
             	"[+1 Gold] per [1] population [in this city]", 
@@ -2515,7 +2517,7 @@
             	"[+100]% [Faith] [in this city]", 
             	"May buy [All] buildings for [0] [Faith] [in this city]", 
             	"May buy [All] units for [0] [Faith] [in this city]",
-            	"May not generate E0 Great Prophet equivalents naturally", 
+            	"May not generate great prophet equivalents naturally", 
             	"May choose [2] additional belief(s) of any type when [founding] a religion",
             	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
 //HackTown Happiness
@@ -2533,7 +2535,7 @@
             	"[+1 Production] per [1] population [in this city]", 
             	"[+100]% [Production] [in this city]", 
             	"[+100]% [Strategic] resource production",
-            	"[-100]% E2 Construction time for [All] improvements",
+            	"[-100]% construction time for [All] improvements",
 
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -2634,7 +2636,7 @@
 //            	"May choose [2] additional belief(s) of any type when [founding] a religion",
 //            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
 
-				"[3] free [DNS E0 Great Prophet] units appear",
+				"[3] free [DNS Great Prophet] units appear",
 				"[-500000]% Natural religion spread [in this city]",
 /*
 				"Adopt [Pan00 Worship of Cendabi] <for [Human player] Civilizations>",
@@ -3472,18 +3474,18 @@
 			"[{Fighter} {Military}] units gain the [Morale] promotion", 
 			"[{Bomber} {Military}] units gain the [Morale] promotion", 
 /*
-			"[{non-air} {Military}] units gain the [E0 Great Generals I] promotion",
-			"[{Fighter} {Military}] units gain the [E0 Great Generals I] promotion",
-			"[{Bomber} {Military}] units gain the [E0 Great Generals I] promotion",
-			"[{non-air} {Military}] units gain the [E0 Great Generals II] promotion",
-			"[{Fighter} {Military}] units gain the [E0 Great Generals II] promotion",
-			"[{Bomber} {Military}] units gain the [E0 Great Generals II] promotion",
+			"[{non-air} {Military}] units gain the [Great Generals I] promotion",
+			"[{Fighter} {Military}] units gain the [Great Generals I] promotion",
+			"[{Bomber} {Military}] units gain the [Great Generals I] promotion",
+			"[{non-air} {Military}] units gain the [Great Generals II] promotion",
+			"[{Fighter} {Military}] units gain the [Great Generals II] promotion",
+			"[{Bomber} {Military}] units gain the [Great Generals II] promotion",
 */
 			"[{non-air} {Military}] units gain the [Haka War Dance] promotion",
 			"[{Land} {Military}] units gain the [Enhanced Vision] promotion",
 			"[{Water} {Military}] units gain the [Better Wayfinding] promotion",
-			"[{Fighter} {Military}] units gain the [Improved E7 Radar] promotion",
-			"[{Bomber} {Military}] units gain the [Improved E7 Radar] promotion",
+			"[{Fighter} {Military}] units gain the [Improved Radar] promotion",
+			"[{Bomber} {Military}] units gain the [Improved Radar] promotion",
 			"[{non-air} {Military}] units gain the [Mastery of War] promotion",
 			"[{Fighter} {Military}] units gain the [Air Superiority] promotion",
 			"[{Bomber} {Military}] units gain the [Air Superiority] promotion",
@@ -3711,69 +3713,69 @@
 
 		"Can only be built <in [Capital] cities> <hidden from users>",
 		"All newly-trained [Siege] units [in all cities] receive the [Accuracy I] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Accuracy I] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Accuracy I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy I] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Accuracy II] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Accuracy II] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Accuracy II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy II] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Accuracy III] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Accuracy III] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Accuracy III] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Accuracy III] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Accuracy III] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Barrage I] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Barrage I] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Barrage I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage I] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Barrage II] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Barrage II] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Barrage II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage II] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Barrage III] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Barrage III] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Barrage III] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Barrage III] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Barrage III] promotion",
 
 		"All newly-trained [Siege] units [in all cities] receive the [Volley] promotion",
 
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Extended Range] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Extended Range] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Extended Range] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [Extended Range] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Extended Range] promotion",
 		"All newly-trained [Submarine] units [in all cities] receive the [Extended Range] promotion",
 
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Indirect Fire] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Indirect Fire] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Indirect Fire] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Indirect Fire] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [Indirect Fire] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Indirect Fire] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Shock I] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Shock I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock I] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Shock I] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Shock I] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Shock II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Shock II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock II] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Shock II] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Shock II] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Shock III] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Shock III] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Shock III] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Shock III] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Shock III] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Drill I] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Drill I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill I] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Drill I] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Drill I] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Drill II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Drill II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill II] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Drill II] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Drill II] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Drill III] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Drill III] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Drill III] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Drill III] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Drill III] promotion",
 
@@ -3781,34 +3783,34 @@
 		"All newly-trained [Armored] units [in all cities] receive the [Charge] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Besiege] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Besiege] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Besiege] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Formation I] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Formation I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Formation I] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Formation I] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Formation II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Formation II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Formation II] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Formation II] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Blitz] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Blitz] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Blitz] promotion",
 		"All newly-trained [Sword] units [in all cities] receive the [Blitz] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Blitz] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Blitz] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Woodsman] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Woodsman] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Woodsman] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Amphibious] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Amphibious] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Amphibious] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Medic] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Medic] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Medic] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Medic] promotion",
 		"All newly-trained [Scout] units [in all cities] receive the [Medic] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Medic II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Medic II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Medic II] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Medic II] promotion",
 		"All newly-trained [Scout] units [in all cities] receive the [Medic II] promotion",
 
@@ -3842,9 +3844,9 @@
 		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Armor Plating II] promotion",
 		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Armor Plating III] promotion",
 
-		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [E6 Flight Deck I] promotion",
-		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [E6 Flight Deck II] promotion",
-		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [E6 Flight Deck III] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck I] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck II] promotion",
+		"All newly-trained [Aircraft Carrier] units [in all cities] receive the [Flight Deck III] promotion",
 
 		"All newly-trained [Melee Water] units [in all cities] receive the [Supply] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Supply] promotion",
@@ -3884,21 +3886,21 @@
 		"All newly-trained [Helicopter] units [in all cities] receive the [Anti-Armor II] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Cover I] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Cover I] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Cover I] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Cover I] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Cover I] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [Cover I] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Cover II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Cover II] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Cover II] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Cover II] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Cover II] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [Cover II] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [March] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [March] promotion",
-		"All newly-trained [E1 Archery] units [in all cities] receive the [March] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [March] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [March] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [March] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [March] promotion",
 
@@ -3909,14 +3911,14 @@
 		"All newly-trained [Submarine] units [in all cities] receive the [Mobility] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Sentry] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Sentry] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Sentry] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [Sentry] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Sentry] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Sentry] promotion",
 		"All newly-trained [Melee Water] units [in all cities] receive the [Sentry] promotion",
 
-		"All newly-trained [E1 Archery] units [in all cities] receive the [Logistics] promotion",
-		"All newly-trained [Ranged E4 Gunpowder] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Archery] units [in all cities] receive the [Logistics] promotion",
+		"All newly-trained [Ranged Gunpowder] units [in all cities] receive the [Logistics] promotion",
 		"All newly-trained [Siege] units [in all cities] receive the [Logistics] promotion",
 		"All newly-trained [Melee Water] units [in all cities] receive the [Logistics] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Logistics] promotion",
@@ -3926,12 +3928,12 @@
 		"All newly-trained [Helicopter] units [in all cities] receive the [Logistics] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Ambush I] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Ambush I] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Ambush I] promotion",
 		"All newly-trained [Fighter] units [in all cities] receive the [Ambush I] promotion",
 		"All newly-trained [Bomber] units [in all cities] receive the [Ambush I] promotion",
 
 		"All newly-trained [Sword] units [in all cities] receive the [Ambush II] promotion",
-		"All newly-trained [E4 Gunpowder] units [in all cities] receive the [Ambush II] promotion",
+		"All newly-trained [Gunpowder] units [in all cities] receive the [Ambush II] promotion",
 		"All newly-trained [Fighter] units [in all cities] receive the [Ambush II] promotion",
 		"All newly-trained [Bomber] units [in all cities] receive the [Ambush II] promotion",
 
@@ -3998,56 +4000,56 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E1 Monument] [in this city]",
-				"Gain a free [E1 Granary] [in this city]",
-				"Gain a free [E1 Shrine] [in this city]",
-				"Gain a free [E1 Stone Works] [in this city]",
-				"Gain a free [E1 Library] [in this city]",
-				"Gain a free [E1 Circus] [in this city]",
-				"Gain a free [E1 Water Mill] [in this city]",
-				"Gain a free [E1 Walls] [in this city]",
-				"Gain a free [E1 Barracks] [in this city]",
-				"Gain a free [E2 Lighthouse] [in this city]",
-				"Gain a free [E2 Stable] [in this city]",
-				"Gain a free [E2 Courthouse] [in this city]",
-				"Gain a free [E2 Colosseum] [in this city]",
-				"Gain a free [E2 Temple] [in this city]",
-				"Gain a free [E2 Amphitheater] [in this city]",
-				"Gain a free [E2 Market] [in this city]",
-				"Gain a free [E2 Mint] [in this city]",
-				"Gain a free [E2 Aqueduct] [in this city]",
-				"Gain a free [E3 Garden] [in this city]",
-				"Gain a free [E3 Workshop] [in this city]",
-				"Gain a free [E3 Forge] [in this city]",
-				"Gain a free [E3 Harbor] [in this city]",
-				"Gain a free [E3 University] [in this city]",
-				"Gain a free [E3 Castle] [in this city]",
-				"Gain a free [E3 Armory] [in this city]",
-				"Gain a free [E4 Observatory] [in this city]",
-				"Gain a free [E4 Opera House] [in this city]",
-				"Gain a free [E4 Bank] [in this city]",
-				"Gain a free [E4 Constabulary] [in this city]",
-				"Gain a free [E4 Theatre] [in this city]",
-				"Gain a free [E4 Seaport] [in this city]",
-				"Gain a free [E4 Windmill] [in this city]",
-				"Gain a free [E4 Arsenal] [in this city]",
-				"Gain a free [E5 Museum] [in this city]",
-				"Gain a free [E5 Public School] [in this city]",
-				"Gain a free [E5 Factory] [in this city]",
-				"Gain a free [E5 Military Academy] [in this city]",
-				"Gain a free [E5 Hospital] [in this city]",
-				"Gain a free [E5 Stock Exchange] [in this city]",
-				"Gain a free [E5 Hydro Plant] [in this city]",
-				"Gain a free [E5 Police Station] [in this city]",
-				"Gain a free [E6 Stadium] [in this city]",
-				"Gain a free [E6 Broadcast Tower] [in this city]",
-				"Gain a free [E6 Military Base] [in this city]",
-				"Gain a free [E6 Research Lab] [in this city]",
-				"Gain a free [E7 Medical Lab] [in this city]",
-				"Gain a free [E7 Solar Plant] [in this city]",
-				"Gain a free [E7 Recycling Center] [in this city]",
-				"Gain a free [E7 Nuclear Plant] [in this city]",
-				"Gain a free [E8 Bomb Shelter] [in this city]",
+				"Gain a free [Monument] [in this city]",
+				"Gain a free [Granary] [in this city]",
+				"Gain a free [Shrine] [in this city]",
+				"Gain a free [Stone Works] [in this city]",
+				"Gain a free [Library] [in this city]",
+				"Gain a free [Circus] [in this city]",
+				"Gain a free [Water Mill] [in this city]",
+				"Gain a free [Walls] [in this city]",
+				"Gain a free [Barracks] [in this city]",
+				"Gain a free [Lighthouse] [in this city]",
+				"Gain a free [Stable] [in this city]",
+				"Gain a free [Courthouse] [in this city]",
+				"Gain a free [Colosseum] [in this city]",
+				"Gain a free [Temple] [in this city]",
+				"Gain a free [Amphitheater] [in this city]",
+				"Gain a free [Market] [in this city]",
+				"Gain a free [Mint] [in this city]",
+				"Gain a free [Aqueduct] [in this city]",
+				"Gain a free [Garden] [in this city]",
+				"Gain a free [Workshop] [in this city]",
+				"Gain a free [Forge] [in this city]",
+				"Gain a free [Harbor] [in this city]",
+				"Gain a free [University] [in this city]",
+				"Gain a free [Castle] [in this city]",
+				"Gain a free [Armory] [in this city]",
+				"Gain a free [Observatory] [in this city]",
+				"Gain a free [Opera House] [in this city]",
+				"Gain a free [Bank] [in this city]",
+				"Gain a free [Constabulary] [in this city]",
+				"Gain a free [Theatre] [in this city]",
+				"Gain a free [Seaport] [in this city]",
+				"Gain a free [Windmill] [in this city]",
+				"Gain a free [Arsenal] [in this city]",
+				"Gain a free [Museum] [in this city]",
+				"Gain a free [Public School] [in this city]",
+				"Gain a free [Factory] [in this city]",
+				"Gain a free [Military Academy] [in this city]",
+				"Gain a free [Hospital] [in this city]",
+				"Gain a free [Stock Exchange] [in this city]",
+				"Gain a free [Hydro Plant] [in this city]",
+				"Gain a free [Police Station] [in this city]",
+				"Gain a free [Stadium] [in this city]",
+				"Gain a free [Broadcast Tower] [in this city]",
+				"Gain a free [Military Base] [in this city]",
+				"Gain a free [Research Lab] [in this city]",
+				"Gain a free [Medical Lab] [in this city]",
+				"Gain a free [Solar Plant] [in this city]",
+				"Gain a free [Recycling Center] [in this city]",
+				"Gain a free [Nuclear Plant] [in this city]",
+				"Gain a free [Bomb Shelter] [in this city]",
 
 				"Only available <in cities with a [MiniCake FreeSeal]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -4068,10 +4070,10 @@
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake FreeSeal]> <hidden from users>",
-				"Gain a free [R01 Cathedral] [in this city]",
-				"Gain a free [R02 Monastery] [in this city]",
-				"Gain a free [R03 Mosque] [in this city]",
-				"Gain a free [R04 Pagoda] [in this city]",
+				"Gain a free [Cathedral] [in this city]",
+				"Gain a free [Monastery] [in this city]",
+				"Gain a free [Mosque] [in this city]",
+				"Gain a free [Pagoda] [in this city]",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -4093,46 +4095,46 @@
 				"Only available <in cities with a [MiniCake FreeSeal]> <hidden from users>",
 			"Can only be built <in [Capital] cities> <hidden from users>",
 
-			"Gain a free [E1 Temple of Artemis] [in this city]",
-			"Gain a free [E1 Stonehenge] [in this city]",
-			"Gain a free [E1 The Great Library] [in this city]",
-			"Gain a free [E1 The Pyramids] [in this city]",
-			"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]",
-			"Gain a free [E1 Statue of Zeus] [in this city]",
-			"Gain a free [E2 The Great Lighthouse] [in this city]",
-			"Gain a free [E2 Hanging Gardens] [in this city]",
-			"Gain a free [E2 Terracotta Army] [in this city]",
-			"Gain a free [E2 The Oracle] [in this city]",
-			"Gain a free [E2 Petra] [in this city]",
-			"Gain a free [E2 Great Wall] [in this city]",
-			"Gain a free [E2 Colossus] [in this city]",
-			"Gain a free [E3 Hagia Sophia] [in this city]",
-			"Gain a free [E3 Great Mosque of Djenne] [in this city]",
-			"Gain a free [E3 Chichen Itza] [in this city]",
-			"Gain a free [E3 Machu Picchu] [in this city]",
-			"Gain a free [E3 Angkor Wat] [in this city]",
-			"Gain a free [E3 Alhambra] [in this city]",
-			"Gain a free [E3 Notre Dame] [in this city]",
-			"Gain a free [E4 Sistine Chapel] [in this city]",
-			"Gain a free [E4 Forbidden Palace] [in this city]",
-			"Gain a free [E4 Leaning Tower of Pisa] [in this city]",
-			"Gain a free [E4 Himeji Castle] [in this city]",
-			"Gain a free [E4 Taj Mahal] [in this city]",
-			"Gain a free [E4 Porcelain Tower] [in this city]",
-			"Gain a free [E4 Kremlin] [in this city]",
-			"Gain a free [E5 The Louvre] [in this city]",
-			"Gain a free [E5 Big Ben] [in this city]",
-			"Gain a free [E5 Brandenburg Gate] [in this city]",
-			"Gain a free [E6 Eiffel Tower] [in this city]",
-			"Gain a free [E6 Statue of Liberty] [in this city]",
-			"Gain a free [E6 Neuschwanstein] [in this city]",
-			"Gain a free [E6 Cristo Redentor] [in this city]",
-			"Gain a free [E7 Pentagon] [in this city]",
-			"Gain a free [E7 Sydney Opera House] [in this city]",
-			"Gain a free [E7 Great Firewall] [in this city]",
-			"Gain a free [E8 CN Tower] [in this city]",
-			"Gain a free [E8 Hubble Space Telescope] [in this city]",
-//			"Gain a free [E8 United Nations] [in this city]",
+			"Gain a free [Temple of Artemis] [in this city]",
+			"Gain a free [Stonehenge] [in this city]",
+			"Gain a free [The Great Library] [in this city]",
+			"Gain a free [The Pyramids] [in this city]",
+			"Gain a free [Mausoleum of Halicarnassus] [in this city]",
+			"Gain a free [Statue of Zeus] [in this city]",
+			"Gain a free [The Great Lighthouse] [in this city]",
+			"Gain a free [Hanging Gardens] [in this city]",
+			"Gain a free [Terracotta Army] [in this city]",
+			"Gain a free [The Oracle] [in this city]",
+			"Gain a free [Petra] [in this city]",
+			"Gain a free [Great Wall] [in this city]",
+			"Gain a free [Colossus] [in this city]",
+			"Gain a free [Hagia Sophia] [in this city]",
+			"Gain a free [Great Mosque of Djenne] [in this city]",
+			"Gain a free [Chichen Itza] [in this city]",
+			"Gain a free [Machu Picchu] [in this city]",
+			"Gain a free [Angkor Wat] [in this city]",
+			"Gain a free [Alhambra] [in this city]",
+			"Gain a free [Notre Dame] [in this city]",
+			"Gain a free [Sistine Chapel] [in this city]",
+			"Gain a free [Forbidden Palace] [in this city]",
+			"Gain a free [Leaning Tower of Pisa] [in this city]",
+			"Gain a free [Himeji Castle] [in this city]",
+			"Gain a free [Taj Mahal] [in this city]",
+			"Gain a free [Porcelain Tower] [in this city]",
+			"Gain a free [Kremlin] [in this city]",
+			"Gain a free [The Louvre] [in this city]",
+			"Gain a free [Big Ben] [in this city]",
+			"Gain a free [Brandenburg Gate] [in this city]",
+			"Gain a free [Eiffel Tower] [in this city]",
+			"Gain a free [Statue of Liberty] [in this city]",
+			"Gain a free [Neuschwanstein] [in this city]",
+			"Gain a free [Cristo Redentor] [in this city]",
+			"Gain a free [Pentagon] [in this city]",
+			"Gain a free [Sydney Opera House] [in this city]",
+			"Gain a free [Great Firewall] [in this city]",
+			"Gain a free [CN Tower] [in this city]",
+			"Gain a free [Hubble Space Telescope] [in this city]",
+//			"Gain a free [United Nations] [in this city]",
 
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -4154,19 +4156,19 @@
 				"Only available <in cities with a [MiniCake FreeSeal]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
-			"Gain a free [E2 Circus Maximus] [in this city]",
-			"Gain a free [E2 National College] [in this city]",
-			"Gain a free [E2 National Epic] [in this city]",
-			"Gain a free [E2 Heroic Epic] [in this city]",
-			"Gain a free [E3 Grand Temple] [in this city]",
-			"Gain a free [E3 National Treasury] [in this city]",
-			"Gain a free [E3 Oxford University] [in this city]",
-			"Gain a free [E3 Ironworks] [in this city]",
-			"Gain a free [E4 Hermitage] [in this city]",
-			"Gain a free [E6 National Intelligence Agency] [in this city]",
-//			"Gain a free [E7 Manhattan Project] [in this city]",
-//			"Gain a free [E7 Apollo Program] [in this city]",
-//			"Gain a free [A01 Utopia Project] [in this city]",
+			"Gain a free [Circus Maximus] [in this city]",
+			"Gain a free [National College] [in this city]",
+			"Gain a free [National Epic] [in this city]",
+			"Gain a free [Heroic Epic] [in this city]",
+			"Gain a free [Grand Temple] [in this city]",
+			"Gain a free [National Treasury] [in this city]",
+			"Gain a free [Oxford University] [in this city]",
+			"Gain a free [Ironworks] [in this city]",
+			"Gain a free [Hermitage] [in this city]",
+			"Gain a free [National Intelligence Agency] [in this city]",
+//			"Gain a free [Manhattan Project] [in this city]",
+//			"Gain a free [Apollo Program] [in this city]",
+//			"Gain a free [Utopia Project] [in this city]",
 
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -4187,20 +4189,20 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake FreeSeal]> <hidden from users>",
 
-				"Gain a free [E1 Stele] [in this city]",
-				"Gain a free [E1 Pyramid] [in this city]",
-				"Gain a free [E1 Paper Maker] [in this city]",
-				"Gain a free [E1 Walls of Babylon] [in this city]",
-				"Gain a free [E1 Krepost] [in this city]",
-				"Gain a free [E2 Burial Tomb] [in this city]",
-				"Gain a free [E2 Mud Pyramid Mosque] [in this city]",
-				"Gain a free [E2 Bazaar] [in this city]",
-				"Gain a free [E3 Longhouse] [in this city]",
-				"Gain a free [E3 Wat] [in this city]",
-				"Gain a free [E3 Mughal Fort] [in this city]",
-				"Gain a free [E4 Ceilidh Hall] [in this city]",
-				"Gain a free [E4 Satrap's Court] [in this city]",
-				"Gain a free [E4 Coffee House] [in this city]",
+				"Gain a free [Stele] [in this city]",
+				"Gain a free [Pyramid] [in this city]",
+				"Gain a free [Paper Maker] [in this city]",
+				"Gain a free [Walls of Babylon] [in this city]",
+				"Gain a free [Krepost] [in this city]",
+				"Gain a free [Burial Tomb] [in this city]",
+				"Gain a free [Mud Pyramid Mosque] [in this city]",
+				"Gain a free [Bazaar] [in this city]",
+				"Gain a free [Longhouse] [in this city]",
+				"Gain a free [Wat] [in this city]",
+				"Gain a free [Mughal Fort] [in this city]",
+				"Gain a free [Ceilidh Hall] [in this city]",
+				"Gain a free [Satrap's Court] [in this city]",
+				"Gain a free [Coffee House] [in this city]",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -4219,7 +4221,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E7 Manhattan Project] [in this city]",
+				"Gain a free [Manhattan Project] [in this city]",
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -4240,7 +4242,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E7 Apollo Program] [in this city]",
+				"Gain a free [Apollo Program] [in this city]",
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -4261,7 +4263,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [A01 Utopia Project] [in this city]",
+				"Gain a free [Utopia Project] [in this city]",
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -4282,7 +4284,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E8 United Nations] [in this city]",
+				"Gain a free [United Nations] [in this city]",
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -4304,10 +4306,10 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"[3] free [E9 SS Booster] units appear", 
-		    	"[1] free [E9 SS Cockpit] units appear", 
-		    	"[1] free [E9 SS Engine] units appear", 
-		    	"[1] free [E9 SS Stasis Chamber] units appear", 
+		    	"[3] free [SS Booster] units appear", 
+		    	"[1] free [SS Cockpit] units appear", 
+		    	"[1] free [SS Engine] units appear", 
+		    	"[1] free [SS Stasis Chamber] units appear", 
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -4462,7 +4464,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "FakePoint - E0 Great Scientist",
+		"name": "FakePoint - Great Scientist",
 		"greatPersonPoints": {"E0 Great Scientist": 100},
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -4475,7 +4477,7 @@
 	},
 	{
 		"name": "FakePoint - Great Engineer",
-		"greatPersonPoints": {"Great Engineer": 100},
+		"greatPersonPoints": {"E0 Great Engineer": 100},
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 1,
@@ -4486,7 +4488,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "FakePoint - E0 Great Artist",
+		"name": "FakePoint - Great Artist",
 		"greatPersonPoints": {"E0 Great Artist": 100},
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -4499,7 +4501,7 @@
 	},
 	{
 		"name": "FakePoint - Great Merchant",
-		"greatPersonPoints": {"Great Merchant": 100},
+		"greatPersonPoints": {"E0 Great Merchant": 100},
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 1,
@@ -4610,14 +4612,14 @@
 		"Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns",
 		"Cities are razed [10] times as fast",
 		"City-State territory always counts as friendly territory",
-		"Connects trade routes over Water",
+		"Connects trade routes over water",
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
 		"Enables [All] units to enter ocean tiles",
 		"Enables Defensive Pacts",
 		"Enables Open Borders agreements",
 		"Enables Research agreements",
-		"Enables E2 Construction of Spaceship parts",
+		"Enables construction of Spaceship parts",
 		"Enables conversion of city production to [Culture]",
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Science]",
@@ -4670,14 +4672,14 @@
 		"Can spend Gold to annex or puppet a City-State that has been your Ally for [0] turns",
 		"Cities are razed [100] times as fast",
 		"City-State territory always counts as friendly territory",
-		"Connects trade routes over Water",
+		"Connects trade routes over water",
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
 		"Enables [All] units to enter ocean tiles",
 		"Enables Defensive Pacts",
 		"Enables Open Borders agreements",
 		"Enables Research agreements",
-		"Enables E2 Construction of Spaceship parts",
+		"Enables construction of Spaceship parts",
 		"Enables conversion of city production to [Culture]",
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Science]",
@@ -4700,7 +4702,7 @@
 		"When defeating a [All] unit, earn [1000] Gold and recruit it",
 		"[-1000]% Culture cost of adopting new Policies",
 		"[-1000]% Unhappiness from [Population] [in all cities]",
-		"[-1000]% E2 Construction time for [All] improvements",
+		"[-1000]% construction time for [All] improvements",
 		"[-1000]% maintenance costs",
 		"[+1000]% [Culture] [in all cities]",
 		"[+1000]% [Faith] [in all cities]",
@@ -4742,14 +4744,14 @@
 		"Can spend Gold to annex or puppet a City-State that has been your Ally for [0] turns",
 		"Cities are razed [100000] times as fast",
 		"City-State territory always counts as friendly territory",
-		"Connects trade routes over Water",
+		"Connects trade routes over water",
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
 		"Enables [All] units to enter ocean tiles",
 		"Enables Defensive Pacts",
 		"Enables Open Borders agreements",
 		"Enables Research agreements",
-		"Enables E2 Construction of Spaceship parts",
+		"Enables construction of Spaceship parts",
 		"Enables conversion of city production to [Culture]",
 		"Enables conversion of city production to [Gold]",
 		"Enables conversion of city production to [Science]",
@@ -4906,7 +4908,7 @@
 		"Only available <in cities with a [MiniCake TrueCity]> <hidden from users>",
 		"Only available <if [MiniCake TrueCity] is constructed> <hidden from users>",
 		"[+100000]% [Production] [in all cities]",
-		"[-100000]% E2 Construction time for [All] improvements",
+		"[-100000]% construction time for [All] improvements",
 		"Can only be built <in [Capital] cities> <hidden from users>",
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
@@ -5613,7 +5615,7 @@
 
 		    	"[1] free [DNS Helicopter Gunship] units appear", 
 		    	"[1] free [DNS Jet Fighter] units appear", 
-		    	"[1] free [DNS E8 Stealth Bomber] units appear", 
+		    	"[1] free [DNS Stealth Bomber] units appear", 
 		    	"[1] free [DNS Sky Carrier] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
@@ -5686,7 +5688,7 @@
 		"uniques": [
                 "Sell [MiniCake Spawn Fleet Civilian] buildings [in this city]",
 
-		        "[1] free [DNS E1 Worker] units appear", 
+		        "[1] free [DNS Worker] units appear", 
 		    	"[1] free [DNS Work Boats] units appear", 
 		    	"[1] free [DNS Settler] units appear", 
 		    	"[1] free [DNS Scout] units appear", 
@@ -5736,22 +5738,22 @@
 		"uniques": [
                 "Sell [MiniCake Spawn Great People] buildings [in this city]",
 
-		    	"[1] free [DNS E0 Great Artist] units appear", 
-		    	"[1] free [DNS E0 Great Scientist] units appear", 
+		    	"[1] free [DNS Great Artist] units appear", 
+		    	"[1] free [DNS Great Scientist] units appear", 
 		    	"[1] free [DNS Great Merchant] units appear", 
 		    	"[1] free [DNS Great Engineer] units appear", 
-		    	"[1] free [DNS E0 Great Prophet] units appear", 
-		    	"[1] free [DNS E0 Great General] units appear", 
+		    	"[1] free [DNS Great Prophet] units appear", 
+		    	"[1] free [DNS Great General] units appear", 
 		    	"[1] free [DNS Great Admiral] units appear", 
 //		    	"[1] free [DNS Khan] units appear", 
 
 /*
-		    	"[1] free [E0 Great Artist] units appear", 
-		    	"[1] free [E0 Great Scientist] units appear", 
+		    	"[1] free [Great Artist] units appear", 
+		    	"[1] free [Great Scientist] units appear", 
 		    	"[1] free [Great Merchant] units appear", 
 		    	"[1] free [Great Engineer] units appear", 
-		    	"[1] free [E0 Great Prophet] units appear", 
-		    	"[1] free [E0 Great General] units appear", 
+		    	"[1] free [Great Prophet] units appear", 
+		    	"[1] free [Great General] units appear", 
 		    	"[1] free [Khan] units appear", 
 		    	"[1] free [Great Admiral] units appear", 
 */
@@ -5842,9 +5844,9 @@
 		"gold": 5,
 		"science": 1,
 		"cost": 870,
-		"requiredTech": "E5 Archaeology",
+		"requiredTech": "Archaeology",
 		"uniques": [
-			"Creates a [Suez Canal E2 Construction Site] improvement on a specific tile"
+			"Creates a [Suez Canal Construction Site] improvement on a specific tile"
 		],
 		"quote": "'The canal is an international sea passage, and not a Turkish or an Egyptian canal.' - Ferdinand de Lesseps"
 	},
@@ -5858,9 +5860,9 @@
 		"gold": 3,
 		"culture": 2,
 		"cost": 1000,
-		"requiredTech": "E5 Electricity",
+		"requiredTech": "Electricity",
 		"uniques": [
-			"Creates a [Panama Canal E2 Construction Site] improvement on a specific tile"
+			"Creates a [Panama Canal Construction Site] improvement on a specific tile"
 		],
 		"quote": "'We should keep the Panama Canal. After all, we stole it fair and square.' - S. I. Hayakawa"
 	},
@@ -5871,9 +5873,9 @@
 		"gold": 1,
 		"culture": 1,
 		"cost": 360,
-		"requiredTech": "E4 Navigation",
+		"requiredTech": "Navigation",
 		"uniques": [
-			"Creates a [National Canal E2 Construction Site] improvement on a specific tile","Free [Concrete Canal Digger] appears"
+			"Creates a [National Canal Construction Site] improvement on a specific tile","Free [Concrete Canal Digger] appears"
 		]
 	}
 */
@@ -6608,8 +6610,8 @@
 		"Destroyed when the city is captured <hidden from users>",
 			"Remove [Starter Pack] [in this city] <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
-//			"[+1] free [Normal E1 Worker] units appear <hidden from users>",
-//			"[+1] free [Normal Settler] units appear <hidden from users>"]
+			"[+1] free [Normal Worker] units appear <hidden from users>",
+			"[+1] free [Normal Settler] units appear <hidden from users>"]
 	},
 */
 	{
@@ -6915,7 +6917,7 @@
 			"[-10]% maintenance cost for [All] buildings [in all cities] <for [999999] turns> <hidden from users>",
 			"[-10]% maintenance costs <for [All] units> <for [999999] turns> <hidden from users>",
 			"No Maintenance costs for improvements in [All] tiles <for [999999] turns> <hidden from users>",
-			"[-10]% maintenance on road & E6 Railroads <for [999999] turns> <hidden from users>"]
+			"[-10]% maintenance on road & railroads <for [999999] turns> <hidden from users>"]
 	},
 	{
 		"name": "-100 to 0% Maintenance",
@@ -6937,7 +6939,7 @@
 			"[+10]% maintenance cost for [All] buildings [in all cities] <for [999999] turns> <hidden from users>",
 			"[+10]% maintenance costs <for [All] units> <for [999999] turns> <hidden from users>",
 			"No Maintenance costs for improvements in [All] tiles <for [999999] turns> <hidden from users>",
-			"[+10]% maintenance on road & E6 Railroads <for [999999] turns> <hidden from users>"]
+			"[+10]% maintenance on road & railroads <for [999999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Buy Buildings",
@@ -7006,7 +7008,7 @@
 			"[5] Unit Supply per [1] population [in all cities] <hidden from users>"]
 	},
 	{
-		"name": "1 Turn E2 Construction",
+		"name": "1 Turn Construction",
 				"requiredBuilding": "MiniCake UCheat",
 		"cost": 0,
 		"hurryCostModifier": 0,
@@ -7018,7 +7020,7 @@
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
-			"[-99]% E2 Construction time for [All] improvements <hidden from users>"]
+			"[-99]% construction time for [All] improvements <hidden from users>"]
 	},
 	{
 		"name": "0 to 10000% Unit Production",
@@ -7286,15 +7288,15 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E1 Barracks] [in this city]",
-				"Gain a free [E1 Stone Works] [in this city]",
-				"Gain a free [E1 Granary] [in this city]",
-				"Gain a free [E1 Library] [in this city]",
-				"Gain a free [E1 Monument] [in this city]",
-				"Gain a free [E1 Shrine] [in this city]",
-				"Gain a free [E1 Water Mill] [in this city]",
-				"Gain a free [E1 Walls] [in this city]",
-				"Gain a free [E1 Circus] [in this city]",
+				"Gain a free [Barracks] [in this city]",
+				"Gain a free [Stone Works] [in this city]",
+				"Gain a free [Granary] [in this city]",
+				"Gain a free [Library] [in this city]",
+				"Gain a free [Monument] [in this city]",
+				"Gain a free [Shrine] [in this city]",
+				"Gain a free [Water Mill] [in this city]",
+				"Gain a free [Walls] [in this city]",
+				"Gain a free [Circus] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7315,16 +7317,16 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E2 Lighthouse] [in this city]",
-				"Gain a free [E2 Stable] [in this city]",
-				"Gain a free [E2 Courthouse] [in this city]",
-				"Gain a free [E2 Colosseum] [in this city]",
-				"Gain a free [E2 Temple] [in this city]",
-				"Gain a free [E2 Amphitheater] [in this city]",
-				"Gain a free [E2 Market] [in this city]",
-				"Gain a free [E3 Harbor] [in this city]",
-				"Gain a free [E2 Mint] [in this city]",
-				"Gain a free [E2 Aqueduct] [in this city]",
+				"Gain a free [Lighthouse] [in this city]",
+				"Gain a free [Stable] [in this city]",
+				"Gain a free [Courthouse] [in this city]",
+				"Gain a free [Colosseum] [in this city]",
+				"Gain a free [Temple] [in this city]",
+				"Gain a free [Amphitheater] [in this city]",
+				"Gain a free [Market] [in this city]",
+				"Gain a free [Harbor] [in this city]",
+				"Gain a free [Mint] [in this city]",
+				"Gain a free [Aqueduct] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7344,12 +7346,12 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Gain a free [E3 Garden] [in this city]",
-				"Gain a free [E3 Workshop] [in this city]",
-				"Gain a free [E3 Forge] [in this city]",
-				"Gain a free [E3 University] [in this city]",
-				"Gain a free [E3 Castle] [in this city]",
-				"Gain a free [E3 Armory] [in this city]",
+				"Gain a free [Garden] [in this city]",
+				"Gain a free [Workshop] [in this city]",
+				"Gain a free [Forge] [in this city]",
+				"Gain a free [University] [in this city]",
+				"Gain a free [Castle] [in this city]",
+				"Gain a free [Armory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7370,14 +7372,14 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E4 Observatory] [in this city]",
-				"Gain a free [E4 Opera House] [in this city]",
-				"Gain a free [E4 Bank] [in this city]",
-				"Gain a free [E4 Constabulary] [in this city]",
-				"Gain a free [E4 Theatre] [in this city]",
-				"Gain a free [E4 Seaport] [in this city]",
-				"Gain a free [E4 Windmill] [in this city]",
-				"Gain a free [E4 Arsenal] [in this city]",
+				"Gain a free [Observatory] [in this city]",
+				"Gain a free [Opera House] [in this city]",
+				"Gain a free [Bank] [in this city]",
+				"Gain a free [Constabulary] [in this city]",
+				"Gain a free [Theatre] [in this city]",
+				"Gain a free [Seaport] [in this city]",
+				"Gain a free [Windmill] [in this city]",
+				"Gain a free [Arsenal] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7398,14 +7400,14 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E5 Museum] [in this city]",
-				"Gain a free [E5 Public School] [in this city]",
-				"Gain a free [E5 Factory] [in this city]",
-				"Gain a free [E5 Military Academy] [in this city]",
-				"Gain a free [E5 Hospital] [in this city]",
-				"Gain a free [E5 Stock Exchange] [in this city]",
-				"Gain a free [E5 Hydro Plant] [in this city]",
-				"Gain a free [E5 Police Station] [in this city]",
+				"Gain a free [Museum] [in this city]",
+				"Gain a free [Public School] [in this city]",
+				"Gain a free [Factory] [in this city]",
+				"Gain a free [Military Academy] [in this city]",
+				"Gain a free [Hospital] [in this city]",
+				"Gain a free [Stock Exchange] [in this city]",
+				"Gain a free [Hydro Plant] [in this city]",
+				"Gain a free [Police Station] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7426,10 +7428,10 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E6 Stadium] [in this city]",
-				"Gain a free [E6 Broadcast Tower] [in this city]",
-				"Gain a free [E6 Military Base] [in this city]",
-				"Gain a free [E6 Research Lab] [in this city]",
+				"Gain a free [Stadium] [in this city]",
+				"Gain a free [Broadcast Tower] [in this city]",
+				"Gain a free [Military Base] [in this city]",
+				"Gain a free [Research Lab] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7450,10 +7452,10 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E7 Medical Lab] [in this city]",
-				"Gain a free [E7 Solar Plant] [in this city]",
-				"Gain a free [E7 Recycling Center] [in this city]",
-				"Gain a free [E7 Nuclear Plant] [in this city]",
+				"Gain a free [Medical Lab] [in this city]",
+				"Gain a free [Solar Plant] [in this city]",
+				"Gain a free [Recycling Center] [in this city]",
+				"Gain a free [Nuclear Plant] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -7474,8 +7476,8 @@
 		"maintenance": 0,
 		"uniques": [
 
-				"Gain a free [E8 Bomb Shelter] [in this city]",
-				"Gain a free [E8 Spaceship Factory] [in this city]",
+				"Gain a free [Bomb Shelter] [in this city]",
+				"Gain a free [Spaceship Factory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
@@ -8063,18 +8065,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
-			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [Human player] Civilizations>",
-			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [Human player] Civilizations>",
-			"Discover [E1 Archery]<before discovering [E1 Archery]> <for [Human player] Civilizations>",
-			"Discover [E1 Mining]<before discovering [E1 Mining]> <for [Human player] Civilizations>",
+			"Discover [Pottery]<before discovering [Pottery]> <for [Human player] Civilizations>",
+			"Discover [Animal Husbandry]<before discovering [Animal Husbandry]> <for [Human player] Civilizations>",
+			"Discover [Archery]<before discovering [Archery]> <for [Human player] Civilizations>",
+			"Discover [Mining]<before discovering [Mining]> <for [Human player] Civilizations>",
 
-			"Discover [E1 Sailing]<before discovering [E1 Sailing]> <for [Human player] Civilizations>",
-			"Discover [E1 Calendar]<before discovering [E1 Calendar]> <for [Human player] Civilizations>",
-			"Discover [E1 Writing]<before discovering [E1 Writing]> <for [Human player] Civilizations>",
-			"Discover [E1 Trapping]<before discovering [E1 Trapping]> <for [Human player] Civilizations>",
-			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]> <for [Human player] Civilizations>",
-			"Discover [E1 Masonry]<before discovering [E1 Masonry]> <for [Human player] Civilizations>",
-			"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]> <for [Human player] Civilizations>",
+			"Discover [Sailing]<before discovering [Sailing]> <for [Human player] Civilizations>",
+			"Discover [Calendar]<before discovering [Calendar]> <for [Human player] Civilizations>",
+			"Discover [Writing]<before discovering [Writing]> <for [Human player] Civilizations>",
+			"Discover [Trapping]<before discovering [Trapping]> <for [Human player] Civilizations>",
+			"Discover [The Wheel]<before discovering [The Wheel]> <for [Human player] Civilizations>",
+			"Discover [Masonry]<before discovering [Masonry]> <for [Human player] Civilizations>",
+			"Discover [Bronze Working]<before discovering [Bronze Working]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8095,16 +8097,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
-			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [Human player] Civilizations>",
-			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [Human player] Civilizations>",
-			"Discover [E2 Mathematics]<before discovering [E2 Mathematics]> <for [Human player] Civilizations>",
-			"Discover [E2 Construction]<before discovering [E2 Construction]> <for [Human player] Civilizations>",
+			"Discover [Optics]<before discovering [Optics]> <for [Human player] Civilizations>",
+			"Discover [Horseback Riding]<before discovering [Horseback Riding]> <for [Human player] Civilizations>",
+			"Discover [Mathematics]<before discovering [Mathematics]> <for [Human player] Civilizations>",
+			"Discover [Construction]<before discovering [Construction]> <for [Human player] Civilizations>",
 
-			"Discover [E2 Philosophy]<before discovering [E2 Philosophy]> <for [Human player] Civilizations>",
-			"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]> <for [Human player] Civilizations>",
-			"Discover [E2 Currency]<before discovering [E2 Currency]> <for [Human player] Civilizations>",
-			"Discover [E2 Engineering]<before discovering [E2 Engineering]> <for [Human player] Civilizations>",
-			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]> <for [Human player] Civilizations>",
+			"Discover [Philosophy]<before discovering [Philosophy]> <for [Human player] Civilizations>",
+			"Discover [Drama and Poetry]<before discovering [Drama and Poetry]> <for [Human player] Civilizations>",
+			"Discover [Currency]<before discovering [Currency]> <for [Human player] Civilizations>",
+			"Discover [Engineering]<before discovering [Engineering]> <for [Human player] Civilizations>",
+			"Discover [Iron Working]<before discovering [Iron Working]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8125,17 +8127,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [Human player] Civilizations>",
-			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [Human player] Civilizations>",
-			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [Human player] Civilizations>",
-			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [Human player] Civilizations>",
+			"Discover [Theology]<before discovering [Theology]> <for [Human player] Civilizations>",
+			"Discover [Civil Service]<before discovering [Civil Service]> <for [Human player] Civilizations>",
+			"Discover [Guilds]<before discovering [Guilds]> <for [Human player] Civilizations>",
+			"Discover [Metal Casting]<before discovering [Metal Casting]> <for [Human player] Civilizations>",
 			
-			"Discover [E3 Compass]<before discovering [E3 Compass]> <for [Human player] Civilizations>",
-			"Discover [E3 Education]<before discovering [E3 Education]> <for [Human player] Civilizations>",
-			"Discover [E3 Chivalry]<before discovering [E3 Chivalry]> <for [Human player] Civilizations>",
-			"Discover [E3 Machinery]<before discovering [E3 Machinery]> <for [Human player] Civilizations>",
-			"Discover [E3 Physics]<before discovering [E3 Physics]> <for [Human player] Civilizations>",
-			"Discover [E3 Steel]<before discovering [E3 Steel]> <for [Human player] Civilizations>",
+			"Discover [Compass]<before discovering [Compass]> <for [Human player] Civilizations>",
+			"Discover [Education]<before discovering [Education]> <for [Human player] Civilizations>",
+			"Discover [Chivalry]<before discovering [Chivalry]> <for [Human player] Civilizations>",
+			"Discover [Machinery]<before discovering [Machinery]> <for [Human player] Civilizations>",
+			"Discover [Physics]<before discovering [Physics]> <for [Human player] Civilizations>",
+			"Discover [Steel]<before discovering [Steel]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8156,17 +8158,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
-			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [Human player] Civilizations>",
-			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [Human player] Civilizations>",
-			"Discover [E4 Banking]<before discovering [E4 Banking]> <for [Human player] Civilizations>",
-			"Discover [E4 Printing Press]<before discovering [E4 Printing Press]> <for [Human player] Civilizations>",
-			"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]> <for [Human player] Civilizations>",
+			"Discover [Astronomy]<before discovering [Astronomy]> <for [Human player] Civilizations>",
+			"Discover [Acoustics]<before discovering [Acoustics]> <for [Human player] Civilizations>",
+			"Discover [Banking]<before discovering [Banking]> <for [Human player] Civilizations>",
+			"Discover [Printing Press]<before discovering [Printing Press]> <for [Human player] Civilizations>",
+			"Discover [Gunpowder]<before discovering [Gunpowder]> <for [Human player] Civilizations>",
 
-			"Discover [E4 Navigation]<before discovering [E4 Navigation]> <for [Human player] Civilizations>",
-			"Discover [E4 Architecture]<before discovering [E4 Architecture]> <for [Human player] Civilizations>",
-			"Discover [E4 Economics]<before discovering [E4 Economics]> <for [Human player] Civilizations>",
-			"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]> <for [Human player] Civilizations>",
-			"Discover [E4 Chemistry]<before discovering [E4 Chemistry]> <for [Human player] Civilizations>",
+			"Discover [Navigation]<before discovering [Navigation]> <for [Human player] Civilizations>",
+			"Discover [Architecture]<before discovering [Architecture]> <for [Human player] Civilizations>",
+			"Discover [Economics]<before discovering [Economics]> <for [Human player] Civilizations>",
+			"Discover [Metallurgy]<before discovering [Metallurgy]> <for [Human player] Civilizations>",
+			"Discover [Chemistry]<before discovering [Chemistry]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8187,17 +8189,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
-			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [Human player] Civilizations>",
-			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [Human player] Civilizations>",
-			"Discover [E5 Industrialization]<before discovering [E5 Industrialization]> <for [Human player] Civilizations>",
-			"Discover [E5 Rifling]<before discovering [E5 Rifling]> <for [Human player] Civilizations>",
-			"Discover [E5 Military Science]<before discovering [E5 Military Science]> <for [Human player] Civilizations>",
-			"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]> <for [Human player] Civilizations>",
+			"Discover [Archaeology]<before discovering [Archaeology]> <for [Human player] Civilizations>",
+			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [Human player] Civilizations>",
+			"Discover [Industrialization]<before discovering [Industrialization]> <for [Human player] Civilizations>",
+			"Discover [Rifling]<before discovering [Rifling]> <for [Human player] Civilizations>",
+			"Discover [Military Science]<before discovering [Military Science]> <for [Human player] Civilizations>",
+			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [Human player] Civilizations>",
 
-			"Discover [E5 Biology]<before discovering [E5 Biology]> <for [Human player] Civilizations>",
-			"Discover [E5 Electricity]<before discovering [E5 Electricity]> <for [Human player] Civilizations>",
-			"Discover [E5 Steam Power]<before discovering [E5 Steam Power]> <for [Human player] Civilizations>",
-			"Discover [E5 Dynamite]<before discovering [E5 Dynamite]> <for [Human player] Civilizations>",
+			"Discover [Biology]<before discovering [Biology]> <for [Human player] Civilizations>",
+			"Discover [Electricity]<before discovering [Electricity]> <for [Human player] Civilizations>",
+			"Discover [Steam Power]<before discovering [Steam Power]> <for [Human player] Civilizations>",
+			"Discover [Dynamite]<before discovering [Dynamite]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8218,16 +8220,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
-			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [Human player] Civilizations>",
-			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [Human player] Civilizations>",
-			"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]> <for [Human player] Civilizations>",
-			"Discover [E6 Flight]<before discovering [E6 Flight]> <for [Human player] Civilizations>",
-			"Discover [E6 Railroads]<before discovering [E6 Railroads]> <for [Human player] Civilizations>",
+			"Discover [Refrigeration]<before discovering [Refrigeration]> <for [Human player] Civilizations>",
+			"Discover [Radio]<before discovering [Radio]> <for [Human player] Civilizations>",
+			"Discover [Replaceable Parts]<before discovering [Replaceable Parts]> <for [Human player] Civilizations>",
+			"Discover [Flight]<before discovering [Flight]> <for [Human player] Civilizations>",
+			"Discover [Railroads]<before discovering [Railroads]> <for [Human player] Civilizations>",
 			
-			"Discover [E6 Plastics]<before discovering [E6 Plastics]> <for [Human player] Civilizations>",
-			"Discover [E6 Electronics]<before discovering [E6 Electronics]> <for [Human player] Civilizations>",
-			"Discover [E6 Ballistics]<before discovering [E6 Ballistics]> <for [Human player] Civilizations>",
-			"Discover [E6 Combustion]<before discovering [E6 Combustion]> <for [Human player] Civilizations>",
+			"Discover [Plastics]<before discovering [Plastics]> <for [Human player] Civilizations>",
+			"Discover [Electronics]<before discovering [Electronics]> <for [Human player] Civilizations>",
+			"Discover [Ballistics]<before discovering [Ballistics]> <for [Human player] Civilizations>",
+			"Discover [Combustion]<before discovering [Combustion]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8248,15 +8250,15 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
-			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [Human player] Civilizations>",
-			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [Human player] Civilizations>",
-			"Discover [E7 Radar]<before discovering [E7 Radar]> <for [Human player] Civilizations>",
-			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [Human player] Civilizations>",
+			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]> <for [Human player] Civilizations>",
+			"Discover [Atomic Theory]<before discovering [Atomic Theory]> <for [Human player] Civilizations>",
+			"Discover [Radar]<before discovering [Radar]> <for [Human player] Civilizations>",
+			"Discover [Combined Arms]<before discovering [Combined Arms]> <for [Human player] Civilizations>",
 
-			"Discover [E7 Ecology]<before discovering [E7 Ecology]> <for [Human player] Civilizations>",
-			"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]> <for [Human player] Civilizations>",
-			"Discover [E7 Rocketry]<before discovering [E7 Rocketry]> <for [Human player] Civilizations>",
-			"Discover [E7 Computers]<before discovering [E7 Computers]> <for [Human player] Civilizations>",
+			"Discover [Ecology]<before discovering [Ecology]> <for [Human player] Civilizations>",
+			"Discover [Nuclear Fission]<before discovering [Nuclear Fission]> <for [Human player] Civilizations>",
+			"Discover [Rocketry]<before discovering [Rocketry]> <for [Human player] Civilizations>",
+			"Discover [Computers]<before discovering [Computers]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8277,18 +8279,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
-			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [Human player] Civilizations>",
-			"Discover [E8 Advanced E6 Ballistics]<before discovering [E8 Advanced E6 Ballistics]> <for [Human player] Civilizations>",
-			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [Human player] Civilizations>",
-			"Discover [E8 Robotics]<before discovering [E8 Robotics]> <for [Human player] Civilizations>",
-			"Discover [E8 Lasers]<before discovering [E8 Lasers]> <for [Human player] Civilizations>",
+			"Discover [Telecommunications]<before discovering [Telecommunications]> <for [Human player] Civilizations>",
+			"Discover [Mobile Tactics]<before discovering [Mobile Tactics]> <for [Human player] Civilizations>",
+			"Discover [Advanced Ballistics]<before discovering [Advanced Ballistics]> <for [Human player] Civilizations>",
+			"Discover [Satellites]<before discovering [Satellites]> <for [Human player] Civilizations>",
+			"Discover [Robotics]<before discovering [Robotics]> <for [Human player] Civilizations>",
+			"Discover [Lasers]<before discovering [Lasers]> <for [Human player] Civilizations>",
 
-			"Discover [E8 Globalization]<before discovering [E8 Globalization]> <for [Human player] Civilizations>",
-			"Discover [E8 Particle E3 Physics]<before discovering [E8 Particle E3 Physics]> <for [Human player] Civilizations>",
-			"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]> <for [Human player] Civilizations>",
-			"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]> <for [Human player] Civilizations>",
-			"Discover [E8 Stealth]<before discovering [E8 Stealth]> <for [Human player] Civilizations>",
+			"Discover [Globalization]<before discovering [Globalization]> <for [Human player] Civilizations>",
+			"Discover [Particle Physics]<before discovering [Particle Physics]> <for [Human player] Civilizations>",
+			"Discover [Nuclear Fusion]<before discovering [Nuclear Fusion]> <for [Human player] Civilizations>",
+			"Discover [Nanotechnology]<before discovering [Nanotechnology]> <for [Human player] Civilizations>",
+			"Discover [Stealth]<before discovering [Stealth]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8905,18 +8907,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
-			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [AI player] Civilizations>",
-			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [AI player] Civilizations>",
-			"Discover [E1 Archery]<before discovering [E1 Archery]> <for [AI player] Civilizations>",
-			"Discover [E1 Mining]<before discovering [E1 Mining]> <for [AI player] Civilizations>",
+			"Discover [Pottery]<before discovering [Pottery]> <for [AI player] Civilizations>",
+			"Discover [Animal Husbandry]<before discovering [Animal Husbandry]> <for [AI player] Civilizations>",
+			"Discover [Archery]<before discovering [Archery]> <for [AI player] Civilizations>",
+			"Discover [Mining]<before discovering [Mining]> <for [AI player] Civilizations>",
 
-			"Discover [E1 Sailing]<before discovering [E1 Sailing]> <for [AI player] Civilizations>",
-			"Discover [E1 Calendar]<before discovering [E1 Calendar]> <for [AI player] Civilizations>",
-			"Discover [E1 Writing]<before discovering [E1 Writing]> <for [AI player] Civilizations>",
-			"Discover [E1 Trapping]<before discovering [E1 Trapping]> <for [AI player] Civilizations>",
-			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]> <for [AI player] Civilizations>",
-			"Discover [E1 Masonry]<before discovering [E1 Masonry]> <for [AI player] Civilizations>",
-			"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]> <for [AI player] Civilizations>",
+			"Discover [Sailing]<before discovering [Sailing]> <for [AI player] Civilizations>",
+			"Discover [Calendar]<before discovering [Calendar]> <for [AI player] Civilizations>",
+			"Discover [Writing]<before discovering [Writing]> <for [AI player] Civilizations>",
+			"Discover [Trapping]<before discovering [Trapping]> <for [AI player] Civilizations>",
+			"Discover [The Wheel]<before discovering [The Wheel]> <for [AI player] Civilizations>",
+			"Discover [Masonry]<before discovering [Masonry]> <for [AI player] Civilizations>",
+			"Discover [Bronze Working]<before discovering [Bronze Working]> <for [AI player] Civilizations>",
  
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8937,16 +8939,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
-			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [AI player] Civilizations>",
-			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [AI player] Civilizations>",
-			"Discover [E2 Mathematics]<before discovering [E2 Mathematics]> <for [AI player] Civilizations>",
-			"Discover [E2 Construction]<before discovering [E2 Construction]> <for [AI player] Civilizations>",
+			"Discover [Optics]<before discovering [Optics]> <for [AI player] Civilizations>",
+			"Discover [Horseback Riding]<before discovering [Horseback Riding]> <for [AI player] Civilizations>",
+			"Discover [Mathematics]<before discovering [Mathematics]> <for [AI player] Civilizations>",
+			"Discover [Construction]<before discovering [Construction]> <for [AI player] Civilizations>",
 
-			"Discover [E2 Philosophy]<before discovering [E2 Philosophy]> <for [AI player] Civilizations>",
-			"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]> <for [AI player] Civilizations>",
-			"Discover [E2 Currency]<before discovering [E2 Currency]> <for [AI player] Civilizations>",
-			"Discover [E2 Engineering]<before discovering [E2 Engineering]> <for [AI player] Civilizations>",
-			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]> <for [AI player] Civilizations>",
+			"Discover [Philosophy]<before discovering [Philosophy]> <for [AI player] Civilizations>",
+			"Discover [Drama and Poetry]<before discovering [Drama and Poetry]> <for [AI player] Civilizations>",
+			"Discover [Currency]<before discovering [Currency]> <for [AI player] Civilizations>",
+			"Discover [Engineering]<before discovering [Engineering]> <for [AI player] Civilizations>",
+			"Discover [Iron Working]<before discovering [Iron Working]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8967,17 +8969,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [AI player] Civilizations>",
-			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [AI player] Civilizations>",
-			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [AI player] Civilizations>",
-			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [AI player] Civilizations>",
+			"Discover [Theology]<before discovering [Theology]> <for [AI player] Civilizations>",
+			"Discover [Civil Service]<before discovering [Civil Service]> <for [AI player] Civilizations>",
+			"Discover [Guilds]<before discovering [Guilds]> <for [AI player] Civilizations>",
+			"Discover [Metal Casting]<before discovering [Metal Casting]> <for [AI player] Civilizations>",
 			
-			"Discover [E3 Compass]<before discovering [E3 Compass]> <for [AI player] Civilizations>",
-			"Discover [E3 Education]<before discovering [E3 Education]> <for [AI player] Civilizations>",
-			"Discover [E3 Chivalry]<before discovering [E3 Chivalry]> <for [AI player] Civilizations>",
-			"Discover [E3 Machinery]<before discovering [E3 Machinery]> <for [AI player] Civilizations>",
-			"Discover [E3 Physics]<before discovering [E3 Physics]> <for [AI player] Civilizations>",
-			"Discover [E3 Steel]<before discovering [E3 Steel]> <for [AI player] Civilizations>",
+			"Discover [Compass]<before discovering [Compass]> <for [AI player] Civilizations>",
+			"Discover [Education]<before discovering [Education]> <for [AI player] Civilizations>",
+			"Discover [Chivalry]<before discovering [Chivalry]> <for [AI player] Civilizations>",
+			"Discover [Machinery]<before discovering [Machinery]> <for [AI player] Civilizations>",
+			"Discover [Physics]<before discovering [Physics]> <for [AI player] Civilizations>",
+			"Discover [Steel]<before discovering [Steel]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8998,17 +9000,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
-			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [AI player] Civilizations>",
-			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [AI player] Civilizations>",
-			"Discover [E4 Banking]<before discovering [E4 Banking]> <for [AI player] Civilizations>",
-			"Discover [E4 Printing Press]<before discovering [E4 Printing Press]> <for [AI player] Civilizations>",
-			"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]> <for [AI player] Civilizations>",
+			"Discover [Astronomy]<before discovering [Astronomy]> <for [AI player] Civilizations>",
+			"Discover [Acoustics]<before discovering [Acoustics]> <for [AI player] Civilizations>",
+			"Discover [Banking]<before discovering [Banking]> <for [AI player] Civilizations>",
+			"Discover [Printing Press]<before discovering [Printing Press]> <for [AI player] Civilizations>",
+			"Discover [Gunpowder]<before discovering [Gunpowder]> <for [AI player] Civilizations>",
 
-			"Discover [E4 Navigation]<before discovering [E4 Navigation]> <for [AI player] Civilizations>",
-			"Discover [E4 Architecture]<before discovering [E4 Architecture]> <for [AI player] Civilizations>",
-			"Discover [E4 Economics]<before discovering [E4 Economics]> <for [AI player] Civilizations>",
-			"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]> <for [AI player] Civilizations>",
-			"Discover [E4 Chemistry]<before discovering [E4 Chemistry]> <for [AI player] Civilizations>",
+			"Discover [Navigation]<before discovering [Navigation]> <for [AI player] Civilizations>",
+			"Discover [Architecture]<before discovering [Architecture]> <for [AI player] Civilizations>",
+			"Discover [Economics]<before discovering [Economics]> <for [AI player] Civilizations>",
+			"Discover [Metallurgy]<before discovering [Metallurgy]> <for [AI player] Civilizations>",
+			"Discover [Chemistry]<before discovering [Chemistry]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9029,17 +9031,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
-			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [AI player] Civilizations>",
-			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [AI player] Civilizations>",
-			"Discover [E5 Industrialization]<before discovering [E5 Industrialization]> <for [AI player] Civilizations>",
-			"Discover [E5 Rifling]<before discovering [E5 Rifling]> <for [AI player] Civilizations>",
-			"Discover [E5 Military Science]<before discovering [E5 Military Science]> <for [AI player] Civilizations>",
-			"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]> <for [AI player] Civilizations>",
+			"Discover [Archaeology]<before discovering [Archaeology]> <for [AI player] Civilizations>",
+			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [AI player] Civilizations>",
+			"Discover [Industrialization]<before discovering [Industrialization]> <for [AI player] Civilizations>",
+			"Discover [Rifling]<before discovering [Rifling]> <for [AI player] Civilizations>",
+			"Discover [Military Science]<before discovering [Military Science]> <for [AI player] Civilizations>",
+			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [AI player] Civilizations>",
 
-			"Discover [E5 Biology]<before discovering [E5 Biology]> <for [AI player] Civilizations>",
-			"Discover [E5 Electricity]<before discovering [E5 Electricity]> <for [AI player] Civilizations>",
-			"Discover [E5 Steam Power]<before discovering [E5 Steam Power]> <for [AI player] Civilizations>",
-			"Discover [E5 Dynamite]<before discovering [E5 Dynamite]> <for [AI player] Civilizations>",
+			"Discover [Biology]<before discovering [Biology]> <for [AI player] Civilizations>",
+			"Discover [Electricity]<before discovering [Electricity]> <for [AI player] Civilizations>",
+			"Discover [Steam Power]<before discovering [Steam Power]> <for [AI player] Civilizations>",
+			"Discover [Dynamite]<before discovering [Dynamite]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9060,16 +9062,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
-			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [AI player] Civilizations>",
-			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [AI player] Civilizations>",
-			"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]> <for [AI player] Civilizations>",
-			"Discover [E6 Flight]<before discovering [E6 Flight]> <for [AI player] Civilizations>",
-			"Discover [E6 Railroads]<before discovering [E6 Railroads]> <for [AI player] Civilizations>",
+			"Discover [Refrigeration]<before discovering [Refrigeration]> <for [AI player] Civilizations>",
+			"Discover [Radio]<before discovering [Radio]> <for [AI player] Civilizations>",
+			"Discover [Replaceable Parts]<before discovering [Replaceable Parts]> <for [AI player] Civilizations>",
+			"Discover [Flight]<before discovering [Flight]> <for [AI player] Civilizations>",
+			"Discover [Railroads]<before discovering [Railroads]> <for [AI player] Civilizations>",
 			
-			"Discover [E6 Plastics]<before discovering [E6 Plastics]> <for [AI player] Civilizations>",
-			"Discover [E6 Electronics]<before discovering [E6 Electronics]> <for [AI player] Civilizations>",
-			"Discover [E6 Ballistics]<before discovering [E6 Ballistics]> <for [AI player] Civilizations>",
-			"Discover [E6 Combustion]<before discovering [E6 Combustion]> <for [AI player] Civilizations>",
+			"Discover [Plastics]<before discovering [Plastics]> <for [AI player] Civilizations>",
+			"Discover [Electronics]<before discovering [Electronics]> <for [AI player] Civilizations>",
+			"Discover [Ballistics]<before discovering [Ballistics]> <for [AI player] Civilizations>",
+			"Discover [Combustion]<before discovering [Combustion]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9090,15 +9092,15 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
-			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [AI player] Civilizations>",
-			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [AI player] Civilizations>",
-			"Discover [E7 Radar]<before discovering [E7 Radar]> <for [AI player] Civilizations>",
-			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [AI player] Civilizations>",
+			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]> <for [AI player] Civilizations>",
+			"Discover [Atomic Theory]<before discovering [Atomic Theory]> <for [AI player] Civilizations>",
+			"Discover [Radar]<before discovering [Radar]> <for [AI player] Civilizations>",
+			"Discover [Combined Arms]<before discovering [Combined Arms]> <for [AI player] Civilizations>",
 
-			"Discover [E7 Ecology]<before discovering [E7 Ecology]> <for [AI player] Civilizations>",
-			"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]> <for [AI player] Civilizations>",
-			"Discover [E7 Rocketry]<before discovering [E7 Rocketry]> <for [AI player] Civilizations>",
-			"Discover [E7 Computers]<before discovering [E7 Computers]> <for [AI player] Civilizations>",
+			"Discover [Ecology]<before discovering [Ecology]> <for [AI player] Civilizations>",
+			"Discover [Nuclear Fission]<before discovering [Nuclear Fission]> <for [AI player] Civilizations>",
+			"Discover [Rocketry]<before discovering [Rocketry]> <for [AI player] Civilizations>",
+			"Discover [Computers]<before discovering [Computers]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9119,18 +9121,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [AI player] Civilizations>",
-			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [AI player] Civilizations>",
-			"Discover [E8 Advanced E6 Ballistics]<before discovering [E8 Advanced E6 Ballistics]> <for [AI player] Civilizations>",
-			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [AI player] Civilizations>",
-			"Discover [E8 Robotics]<before discovering [E8 Robotics]> <for [AI player] Civilizations>",
-			"Discover [E8 Lasers]<before discovering [E8 Lasers]> <for [AI player] Civilizations>",
+			"Discover [Telecommunications]<before discovering [Telecommunications]> <for [AI player] Civilizations>",
+			"Discover [Mobile Tactics]<before discovering [Mobile Tactics]> <for [AI player] Civilizations>",
+			"Discover [Advanced Ballistics]<before discovering [Advanced Ballistics]> <for [AI player] Civilizations>",
+			"Discover [Satellites]<before discovering [Satellites]> <for [AI player] Civilizations>",
+			"Discover [Robotics]<before discovering [Robotics]> <for [AI player] Civilizations>",
+			"Discover [Lasers]<before discovering [Lasers]> <for [AI player] Civilizations>",
 
-			"Discover [E8 Globalization]<before discovering [E8 Globalization]> <for [AI player] Civilizations>",
-			"Discover [E8 Particle E3 Physics]<before discovering [E8 Particle E3 Physics]> <for [AI player] Civilizations>",
-			"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]> <for [AI player] Civilizations>",
-			"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]> <for [AI player] Civilizations>",
-			"Discover [E8 Stealth]<before discovering [E8 Stealth]> <for [AI player] Civilizations>",
+			"Discover [Globalization]<before discovering [Globalization]> <for [AI player] Civilizations>",
+			"Discover [Particle Physics]<before discovering [Particle Physics]> <for [AI player] Civilizations>",
+			"Discover [Nuclear Fusion]<before discovering [Nuclear Fusion]> <for [AI player] Civilizations>",
+			"Discover [Nanotechnology]<before discovering [Nanotechnology]> <for [AI player] Civilizations>",
+			"Discover [Stealth]<before discovering [Stealth]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10060,6 +10062,13 @@
 
 
 
+
+
+
+
+
+
+
 MiniCake Main
 
 MiniCake Capitol
@@ -10102,6 +10111,10 @@ MiniCake DNS Lock Building 7 Atomic
 MiniCake DNS Lock Building 8 Information
 
 MiniCake DNS Vault Tech Main
+
+Suez Canal Company
+Panama Canal Company
+National Canal Company
 
 MiniCake Cloned Resource
 MiniCake Cloned Bonus
@@ -10165,9 +10178,9 @@ FakeCity - Happiness
 FakeCity - Faith
 FakeCity - Unit Experience
 FakeCity - City Defense
-FakePoint - E0 Great Scientist
+FakePoint - Great Scientist
 FakePoint - Great Engineer
-FakePoint - E0 Great Artist
+FakePoint - Great Artist
 FakePoint - Great Merchant
 FakeCity - Undertable District
 FakeCity - Everyday Lab
@@ -10238,7 +10251,7 @@ Buy Buildings
 Buy Militaries
 100 supply
 +5 supply per 1 pops
-1 Turn E2 Construction
+1 Turn Construction
 0 to 10000% Unit Production
 10000 to 0% Unit Production
 0 to 10000% Buildings Production
@@ -10363,129 +10376,122 @@ Wonder Nation
 
 
 MiniCake Free Normal Building
-E1 Monument
-E1 Granary
-E1 Shrine
-E1 Stone Works
-E1 Library
-E1 Circus
-E1 Water Mill
-E1 Walls
-E1 Barracks
-
-E2 Lighthouse
-E2 Stable
-E2 Courthouse
-E2 Colosseum
-E2 Temple
-E2 Amphitheater
-E2 Market
-E2 Mint
-E2 Aqueduct
-
-E3 Garden
-E3 Workshop
-E3 Forge
-E3 Harbor
-E3 University
-E3 Castle
-E3 Armory
-
-E4 Observatory
-E4 Opera House
-E4 Bank
-E4 Constabulary
-E4 Theatre
-E4 Seaport
-E4 Windmill
-E4 Arsenal
-
-E5 Museum
-E5 Public School
-E5 Factory
-E5 Military Academy
-E5 Hospital
-E5 Stock Exchange
-E5 Hydro Plant
-E5 Police Station
-
-E6 Stadium
-E6 Broadcast Tower
-E6 Military Base
-E6 Research Lab
-
-E7 Medical Lab
-E7 Solar Plant
-E7 Recycling Center
-E7 Nuclear Plant
-
-E8 Bomb Shelter
-E8 Spaceship Factory
+Monument
+Granary
+Shrine
+Stone Works
+Library
+Circus
+Water Mill
+Walls
+Barracks
+Lighthouse
+Stable
+Courthouse
+Colosseum
+Temple
+Amphitheater
+Market
+Mint
+Aqueduct
+Garden
+Workshop
+Forge
+Harbor
+University
+Castle
+Armory
+Observatory
+Opera House
+Bank
+Constabulary
+Theatre
+Seaport
+Windmill
+Arsenal
+Museum
+Public School
+Factory
+Military Academy
+Hospital
+Stock Exchange
+Hydro Plant
+Police Station
+Stadium
+Broadcast Tower
+Military Base
+Research Lab
+Medical Lab
+Solar Plant
+Recycling Center
+Nuclear Plant
+Bomb Shelter
+Spaceship Factory
 
 
 MiniCake Free Religious Building
-R01 Cathedral
-R02 Monastery
-R03 Mosque
-R04 Pagoda
+Cathedral
+Monastery
+Mosque
+Pagoda
 
 
 //xsa//isNationalWonder
-E2 Circus Maximus
-E2 National College
-E2 National Epic
-E2 Heroic Epic
-E3 Grand Temple
-E3 National Treasury
-E3 Oxford University
-E3 Ironworks
-E4 Hermitage
-E6 National Intelligence Agency
-//E7 Manhattan Project
-//E7 Apollo Program
-//A01 Utopia Project
+Circus Maximus
+National College
+National Epic
+Heroic Epic
+Grand Temple
+National Treasury
+Oxford University
+Ironworks
+Hermitage
+National Intelligence Agency
+//Manhattan Project
+//Apollo Program
+//Utopia Project
 
 //xsa//isWonder
-E1 Temple of Artemis
-E1 Stonehenge
-E1 The Great Library
-E1 The Pyramids
-E1 Mausoleum of Halicarnassus
-E1 Statue of Zeus
-E2 The Great Lighthouse
-E2 Hanging Gardens
-E2 Terracotta Army
-E2 The Oracle
-E2 Petra
-E2 Great Wall
-E2 Colossus
-E3 Hagia Sophia
-E3 Great Mosque of Djenne
-E3 Chichen Itza
-E3 Machu Picchu
-E3 Angkor Wat
-E3 Alhambra
-E3 Notre Dame
-E4 Sistine Chapel
-E4 Forbidden Palace
-E4 Leaning Tower of Pisa
-E4 Himeji Castle
-E4 Taj Mahal
-E4 Porcelain Tower
-E4 Kremlin
-E5 The Louvre
-E5 Big Ben
-E5 Brandenburg Gate
-E6 Eiffel Tower
-E6 Statue of Liberty
-E6 Neuschwanstein
-E6 Cristo Redentor
-E7 Pentagon
-E7 Sydney Opera House
-E7 Great Firewall
-E8 CN Tower
-E8 Hubble Space Telescope
-//E8 United Nations
+Temple of Artemis
+Stonehenge
+The Great Library
+The Pyramids
+Mausoleum of Halicarnassus
+Statue of Zeus
+The Great Lighthouse
+Hanging Gardens
+Terracotta Army
+The Oracle
+Petra
+Great Wall
+Colossus
+Hagia Sophia
+Great Mosque of Djenne
+Chichen Itza
+Machu Picchu
+Angkor Wat
+Alhambra
+Notre Dame
+Sistine Chapel
+Forbidden Palace
+Leaning Tower of Pisa
+Himeji Castle
+Taj Mahal
+Porcelain Tower
+Kremlin
+The Louvre
+Big Ben
+Brandenburg Gate
+Eiffel Tower
+Statue of Liberty
+Neuschwanstein
+Cristo Redentor
+Pentagon
+Sydney Opera House
+Great Firewall
+CN Tower
+Hubble Space Telescope
+//United Nations
 
 
 
@@ -10504,27 +10510,36 @@ E8 Hubble Space Telescope
 
 
 //Excluded from era buildings
-E1 Stele
-E1 Pyramid
-E1 Paper Maker
-E1 Walls of Babylon
-E1 Krepost
-E2 Burial Tomb
-E2 Mud Pyramid Mosque
-E2 Bazaar
-E3 Longhouse
-E3 Wat
-E3 Mughal Fort
-E4 Ceilidh Hall
-E4 Satrap's Court
-E4 Coffee House
-//E7 Apollo Program
-//A01 Utopia Project
+Stele
+Pyramid
+Paper Maker
+Walls of Babylon
+Krepost
+Burial Tomb
+Mud Pyramid Mosque
+Bazaar
+Longhouse
+Wat
+Mughal Fort
+Ceilidh Hall
+Satrap's Court
+Coffee House
+//Apollo Program
+//Utopia Project
 
 
 
 
 */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10606,181 +10621,4 @@ RML09 Tobacco
 RML10 Glass
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
-E0 Palace
-E1 Monument
-E1 Stele
-E1 Granary
-E1 Shrine
-E1 Pyramid
-E1 Temple of Artemis
-E1 Stone Works
-E1 Stonehenge
-E1 Library
-E1 Paper Maker
-E1 The Great Library
-E1 Circus
-E1 Water Mill
-E1 Floating Gardens
-E1 Walls
-E1 Walls of Babylon
-E1 The Pyramids
-E1 Mausoleum of Halicarnassus
-E1 Barracks
-E1 Krepost
-E1 Statue of Zeus
-
-E2 Lighthouse
-E2 The Great Lighthouse
-E2 Stable
-E2 Circus Maximus
-E2 Courthouse
-E2 Hanging Gardens
-E2 Colosseum
-E2 Terracotta Army
-E2 Temple
-E2 Burial Tomb
-E2 Mud Pyramid Mosque
-E2 National College
-E2 The Oracle
-E2 Amphitheater
-E2 National Epic
-E2 Market
-E2 Bazaar
-E2 Mint
-E2 Petra
-E2 Aqueduct
-E2 Great Wall
-E2 Heroic Epic
-E2 Colossus
-
-E3 Garden
-E3 Hagia Sophia
-E3 Great Mosque of Djenne
-E3 Grand Temple
-E3 Chichen Itza
-E3 National Treasury
-E3 Machu Picchu
-E3 Workshop
-E3 Longhouse
-E3 Forge
-E3 Harbor
-E3 University
-E3 Wat
-E3 Oxford University
-E3 Angkor Wat
-E3 Castle
-E3 Mughal Fort
-E3 Alhambra
-E3 Ironworks
-E3 Notre Dame
-E3 Armory
-
-E4 Observatory
-E4 Opera House
-E4 Ceilidh Hall
-E4 Sistine Chapel
-E4 Bank
-E4 Satrap's Court
-E4 Constabulary
-E4 Forbidden Palace
-E4 Theatre
-E4 Leaning Tower of Pisa
-E4 Himeji Castle
-E4 Seaport
-E4 Hermitage
-E4 Taj Mahal
-E4 Porcelain Tower
-E4 Windmill
-E4 Coffee House
-E4 Arsenal
-E4 Kremlin
-
-E5 Museum
-E5 The Louvre
-E5 Public School
-E5 Factory
-E5 Big Ben
-E5 Military Academy
-E5 Brandenburg Gate
-E5 Hospital
-E5 Stock Exchange
-E5 Hydro Plant
-E5 Police Station
-
-E6 Stadium
-E6 Broadcast Tower
-E6 Eiffel Tower
-E6 National Intelligence Agency
-E6 Military Base
-E6 Statue of Liberty
-E6 Neuschwanstein
-E6 Research Lab
-E6 Cristo Redentor
-
-E7 Medical Lab
-E7 Manhattan Project
-E7 Pentagon
-E7 Solar Plant
-E7 Recycling Center
-E7 Sydney Opera House
-E7 Nuclear Plant
-E7 Apollo Program
-E7 Great Firewall
-
-E8 CN Tower
-E8 Bomb Shelter
-E8 Hubble Space Telescope
-E8 Spaceship Factory
-E8 United Nations
-
-A01 Utopia Project
-
-R01 Cathedral
-R02 Monastery
-R03 Mosque
-R04 Pagoda
-
-
-
-
-
-*/
-
 
