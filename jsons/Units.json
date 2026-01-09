@@ -98,21 +98,6 @@
 		    ]
 	},
 	{
-		"name": "B01 Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "E1 Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "E3 Metal Casting",
-		"upgradesTo": "E2 Swordsman",
-		"attackSound": "nonmetalhit",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
 		"name": "E1 Archer",
 		"unitType": "Archery",
 		"movement": 2,
@@ -179,23 +164,7 @@
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
-	{
-		"name": "B02 Skirmisher",
-		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
-		"replaces": "E1 Archer",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "E1 Archery",
-		"obsoleteTech": "E3 Machinery",
-		"upgradesTo": "E3 Crossbowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
+
 	{
 		"name": "E2 Composite Bowman",
 		"unitType": "Archery",
@@ -457,21 +426,7 @@
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "arrow"
 	},
-	{
-		"name": "B03 Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Cannot enter ocean tiles"],
-		"upgradesTo": "E1 Trireme",
-		"obsoleteTech": "E4 Astronomy",
-		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
-	},
+
 
 	{
 		"name": "E1 War Chariot",
@@ -609,22 +564,6 @@
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "B04 Marauder",
-		"unitType": "Sword",
-		"replaces": "E1 Spearman",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 10,
-		"cost": 56,
-		"requiredTech": "E1 Bronze Working",
-		"obsoleteTech": "E3 Civil Service",
-		"upgradesTo": "E3 Pikeman",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 
@@ -4617,83 +4556,88 @@
 
 
 
-
 	{
-		"name": "Brute",
+		"name": "Brute",//B01 Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"obsoleteTech": "E3 Metal Casting",
+		"upgradesTo": "E2 Swordsman",
+		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
-			],
-		"attackSound": "nonmetalhit"
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
 	},
+
 	{
-		"name": "Skirmisher",
+		"name": "Skirmisher",//B02 Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E3 Machinery",
+		"upgradesTo": "E3 Crossbowman",
+		"attackSound": "arrow",
 		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
-			],
-		"attackSound": "arrow"
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
 	},
+
 	{
-		"name": "Galley",
+		"name": "Galley",//B03 Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
 		"uniques": [
-		    "Cannot enter ocean tiles"
-		    ],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Cannot enter ocean tiles"],
+		"upgradesTo": "E1 Trireme",
+		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
 	},
 	{
-		"name": "Marauder",
+		"name": "Marauder",//B04 Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+
+
+
+
+
 	{
 		"name": "High Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 10,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"requiredTech": "E3 Metal Casting",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
-//            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
+            "Free [B01 Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
@@ -4702,16 +4646,15 @@
 		"name": "High Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
 		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "E3 Machinery",
+		"upgradesTo": "E3 Crossbowman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "arrow"
@@ -4726,29 +4669,26 @@
 		"uniques": [
 		    "Cannot enter ocean tiles"
 		    ],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "E1 Trireme",
 		"uniques": [
-            "Free [Galley] appears <when defending>", 
-//            "Free [Galley] appears <when adjacent to a [Hostile] unit>"
+            "Free [B03 Galley] appears <when defending>", 
             ]
-		"obsoleteTech": "Astronomy",
+		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
 		"name": "High Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
-            "Free [Marauder] appears <when adjacent to a [Hostile] unit>"
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
