@@ -746,6 +746,20 @@
 		    "[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "E5 Electricity"
 	},
+
+    {
+        "name": "E5 Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": [
+            "Only available <when espionage is enabled>", 
+            "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredBuilding": "E4 Constabulary",
+        "requiredTech": "E5 Electricity"
+    },
+
+
 	{
 		"name": "E7 Nuclear Plant",
 		"production": 5,
@@ -854,7 +868,7 @@
 
 //xsa//isNationalWonder
 	{
-		"name": "E2 Circus Maximus",
+		"name": "E1 Circus Maximus",
 		"cost": 125,
 		"happiness": 5,
 		"culture": 1,
@@ -1227,7 +1241,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Gain a free [Mosque] [in this city]", 
+			"Gain a free [R03 Mosque] [in this city]", 
 			"Only available <when religion is enabled>",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [E0 Great Prophet] units [in this city] receive the [Devout] promotion"],
@@ -4219,7 +4233,7 @@
 				"Gain a free [E3 Longhouse] [in this city]",
 				"Gain a free [E3 Wat] [in this city]",
 				"Gain a free [E3 Mughal Fort] [in this city]",
-				"Gain a free [E4 CeilidhHall] [in this city]",
+				"Gain a free [E4 Ceilidh Hall] [in this city]",
 				"Gain a free [E4 Satrap's Court] [in this city]",
 				"Gain a free [E4 Coffee House] [in this city]",
 
@@ -4325,10 +4339,10 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"[3] free [SS Booster] units appear", 
-		    	"[1] free [SS Cockpit] units appear", 
-		    	"[1] free [SS Engine] units appear", 
-		    	"[1] free [SS Stasis Chamber] units appear", 
+		    	"[3] free [E9 SS Booster] units appear", 
+		    	"[1] free [E9 SS Cockpit] units appear", 
+		    	"[1] free [E9 SS Engine] units appear", 
+		    	"[1] free [E9 SS Stasis Chamber] units appear", 
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -7581,224 +7595,84 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-/*
 	{
-		"name": "1 HumanAutomateBuildingEra Ancient",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
+		"name": "MiniCake Automate All Wonder",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
 
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [E1 Circus Maximus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
+			"Gain a free [E3 Grand Temple] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 National Treasury] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Oxford University] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Ironworks] [in this city]<during the [Medieval era]>",
+			"Gain a free [E4 Hermitage] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E6 National Intelligence Agency] [in this city]<during the [Modern era]>",
+//			"Gain a free [E7 Manhattan Project] [in this city]<during the [Atomic era]>",
+//			"Gain a free [E7 Apollo Program] [in this city]<during the [Atomic era]>",
+//			"Gain a free [A01 Utopia Project] [in this city]",
 
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
+			"Gain a free [E1 Temple of Artemis] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Stonehenge] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 The Great Library] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 The Pyramids] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Statue of Zeus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E2 The Great Lighthouse] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Hanging Gardens] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Terracotta Army] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 The Oracle] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Petra] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Great Wall] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Colossus] [in this city]<during the [Classical era]>",
+			"Gain a free [E3 Hagia Sophia] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Great Mosque of Djenne] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Chichen Itza] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Machu Picchu] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Angkor Wat] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Alhambra] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Notre Dame] [in this city]<during the [Medieval era]>",
+			"Gain a free [E4 Sistine Chapel] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Forbidden Palace] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Leaning Tower of Pisa] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Himeji Castle] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Taj Mahal] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Porcelain Tower] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Kremlin] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E5 The Louvre] [in this city]<during the [Industrial era]>",
+			"Gain a free [E5 Big Ben] [in this city]<during the [Industrial era]>",
+			"Gain a free [E5 Brandenburg Gate] [in this city]<during the [Industrial era]>",
+			"Gain a free [E6 Eiffel Tower] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Statue of Liberty] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Neuschwanstein] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Cristo Redentor] [in this city]<during the [Modern era]>",
+			"Gain a free [E7 Pentagon] [in this city]<during the [Atomic era]>",
+			"Gain a free [E7 Sydney Opera House] [in this city]<during the [Atomic era]>",
+			"Gain a free [E7 Great Firewall] [in this city]<during the [Atomic era]>",
+			"Gain a free [E8 CN Tower] [in this city]<during the [Future era]>",
+			"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
+//			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
+
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+			],
 		"requiredTech": "TechUnlocker"
 	},
-	{
-		"name": "2 HumanAutomateBuildingEra Classical",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
 
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
 
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "3 HumanAutomateBuildingEra Medieval",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
 
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
 
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "4 HumanAutomateBuildingEra Renaissance",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
 
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "5 HumanAutomateBuildingEra Industrial",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
-
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "6 HumanAutomateBuildingEra Modern",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
-
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "7 HumanAutomateBuildingEra Atomic",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
-
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "8 HumanAutomateBuildingEra Information",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
-
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "9 HumanAutomateBuildingEra Future",
-//		"requiredBuilding": "MiniCake HumanAutomateBuilding Main",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake HumanAutomateBuilding Main]> <hidden from users>",
-
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
-
-			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//			"Moves to new capital when capital changes<hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
-*/
 
 
 
@@ -8086,18 +7960,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
-			"Discover [Pottery]<before discovering [Pottery]> <for [Human player] Civilizations>",
-			"Discover [Animal Husbandry]<before discovering [Animal Husbandry]> <for [Human player] Civilizations>",
-			"Discover [Archery]<before discovering [Archery]> <for [Human player] Civilizations>",
-			"Discover [Mining]<before discovering [Mining]> <for [Human player] Civilizations>",
+			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [Human player] Civilizations>",
+			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [Human player] Civilizations>",
+			"Discover [E1 Archery]<before discovering [E1 Archery]> <for [Human player] Civilizations>",
+			"Discover [E1 Mining]<before discovering [E1 Mining]> <for [Human player] Civilizations>",
 
-			"Discover [Sailing]<before discovering [Sailing]> <for [Human player] Civilizations>",
-			"Discover [Calendar]<before discovering [Calendar]> <for [Human player] Civilizations>",
-			"Discover [Writing]<before discovering [Writing]> <for [Human player] Civilizations>",
-			"Discover [Trapping]<before discovering [Trapping]> <for [Human player] Civilizations>",
-			"Discover [The Wheel]<before discovering [The Wheel]> <for [Human player] Civilizations>",
-			"Discover [Masonry]<before discovering [Masonry]> <for [Human player] Civilizations>",
-			"Discover [Bronze Working]<before discovering [Bronze Working]> <for [Human player] Civilizations>",
+			"Discover [E1 Sailing]<before discovering [E1 Sailing]> <for [Human player] Civilizations>",
+			"Discover [E1 Calendar]<before discovering [E1 Calendar]> <for [Human player] Civilizations>",
+			"Discover [E1 Writing]<before discovering [E1 Writing]> <for [Human player] Civilizations>",
+			"Discover [E1 Trapping]<before discovering [E1 Trapping]> <for [Human player] Civilizations>",
+			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]> <for [Human player] Civilizations>",
+			"Discover [E1 Masonry]<before discovering [E1 Masonry]> <for [Human player] Civilizations>",
+			"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8118,16 +7992,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
-			"Discover [Optics]<before discovering [Optics]> <for [Human player] Civilizations>",
-			"Discover [Horseback Riding]<before discovering [Horseback Riding]> <for [Human player] Civilizations>",
-			"Discover [Mathematics]<before discovering [Mathematics]> <for [Human player] Civilizations>",
-			"Discover [Construction]<before discovering [Construction]> <for [Human player] Civilizations>",
+			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [Human player] Civilizations>",
+			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [Human player] Civilizations>",
+			"Discover [E2 Mathematics]<before discovering [E2 Mathematics]> <for [Human player] Civilizations>",
+			"Discover [E2 Construction]<before discovering [E2 Construction]> <for [Human player] Civilizations>",
 
-			"Discover [Philosophy]<before discovering [Philosophy]> <for [Human player] Civilizations>",
-			"Discover [Drama and Poetry]<before discovering [Drama and Poetry]> <for [Human player] Civilizations>",
-			"Discover [Currency]<before discovering [Currency]> <for [Human player] Civilizations>",
-			"Discover [Engineering]<before discovering [Engineering]> <for [Human player] Civilizations>",
-			"Discover [Iron Working]<before discovering [Iron Working]> <for [Human player] Civilizations>",
+			"Discover [E2 Philosophy]<before discovering [E2 Philosophy]> <for [Human player] Civilizations>",
+			"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]> <for [Human player] Civilizations>",
+			"Discover [E2 Currency]<before discovering [E2 Currency]> <for [Human player] Civilizations>",
+			"Discover [E2 Engineering]<before discovering [E2 Engineering]> <for [Human player] Civilizations>",
+			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8148,17 +8022,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [Theology]<before discovering [Theology]> <for [Human player] Civilizations>",
-			"Discover [Civil Service]<before discovering [Civil Service]> <for [Human player] Civilizations>",
-			"Discover [Guilds]<before discovering [Guilds]> <for [Human player] Civilizations>",
-			"Discover [Metal Casting]<before discovering [Metal Casting]> <for [Human player] Civilizations>",
+			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [Human player] Civilizations>",
+			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [Human player] Civilizations>",
+			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [Human player] Civilizations>",
+			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [Human player] Civilizations>",
 			
-			"Discover [Compass]<before discovering [Compass]> <for [Human player] Civilizations>",
-			"Discover [Education]<before discovering [Education]> <for [Human player] Civilizations>",
-			"Discover [Chivalry]<before discovering [Chivalry]> <for [Human player] Civilizations>",
-			"Discover [Machinery]<before discovering [Machinery]> <for [Human player] Civilizations>",
-			"Discover [Physics]<before discovering [Physics]> <for [Human player] Civilizations>",
-			"Discover [Steel]<before discovering [Steel]> <for [Human player] Civilizations>",
+			"Discover [E3 Compass]<before discovering [E3 Compass]> <for [Human player] Civilizations>",
+			"Discover [E3 Education]<before discovering [E3 Education]> <for [Human player] Civilizations>",
+			"Discover [E3 Chivalry]<before discovering [E3 Chivalry]> <for [Human player] Civilizations>",
+			"Discover [E3 Machinery]<before discovering [E3 Machinery]> <for [Human player] Civilizations>",
+			"Discover [E3 Physics]<before discovering [E3 Physics]> <for [Human player] Civilizations>",
+			"Discover [E3 Steel]<before discovering [E3 Steel]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8179,17 +8053,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
-			"Discover [Astronomy]<before discovering [Astronomy]> <for [Human player] Civilizations>",
-			"Discover [Acoustics]<before discovering [Acoustics]> <for [Human player] Civilizations>",
-			"Discover [E4 Banking]<before discovering [E4 Banking]> <for [Human player] Civilizations>",
-			"Discover [Printing Press]<before discovering [Printing Press]> <for [Human player] Civilizations>",
-			"Discover [Gunpowder]<before discovering [Gunpowder]> <for [Human player] Civilizations>",
+			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [Human player] Civilizations>",
+			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [Human player] Civilizations>",
+			"Discover [E4 E4 Banking]<before discovering [E4 E4 Banking]> <for [Human player] Civilizations>",
+			"Discover [E4 Printing Press]<before discovering [E4 Printing Press]> <for [Human player] Civilizations>",
+			"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]> <for [Human player] Civilizations>",
 
-			"Discover [Navigation]<before discovering [Navigation]> <for [Human player] Civilizations>",
-			"Discover [Architecture]<before discovering [Architecture]> <for [Human player] Civilizations>",
-			"Discover [Economics]<before discovering [Economics]> <for [Human player] Civilizations>",
-			"Discover [Metallurgy]<before discovering [Metallurgy]> <for [Human player] Civilizations>",
-			"Discover [Chemistry]<before discovering [Chemistry]> <for [Human player] Civilizations>",
+			"Discover [E4 Navigation]<before discovering [E4 Navigation]> <for [Human player] Civilizations>",
+			"Discover [E4 Architecture]<before discovering [E4 Architecture]> <for [Human player] Civilizations>",
+			"Discover [E4 Economics]<before discovering [E4 Economics]> <for [Human player] Civilizations>",
+			"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]> <for [Human player] Civilizations>",
+			"Discover [E4 Chemistry]<before discovering [E4 Chemistry]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8210,17 +8084,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
-			"Discover [Archaeology]<before discovering [Archaeology]> <for [Human player] Civilizations>",
-			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [Human player] Civilizations>",
-			"Discover [Industrialization]<before discovering [Industrialization]> <for [Human player] Civilizations>",
-			"Discover [Rifling]<before discovering [Rifling]> <for [Human player] Civilizations>",
-			"Discover [Military Science]<before discovering [Military Science]> <for [Human player] Civilizations>",
-			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [Human player] Civilizations>",
+			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [Human player] Civilizations>",
+			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [Human player] Civilizations>",
+			"Discover [E5 Industrialization]<before discovering [E5 Industrialization]> <for [Human player] Civilizations>",
+			"Discover [E5 Rifling]<before discovering [E5 Rifling]> <for [Human player] Civilizations>",
+			"Discover [E5 Military Science]<before discovering [E5 Military Science]> <for [Human player] Civilizations>",
+			"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]> <for [Human player] Civilizations>",
 
-			"Discover [Biology]<before discovering [Biology]> <for [Human player] Civilizations>",
-			"Discover [Electricity]<before discovering [Electricity]> <for [Human player] Civilizations>",
-			"Discover [Steam Power]<before discovering [Steam Power]> <for [Human player] Civilizations>",
-			"Discover [Dynamite]<before discovering [Dynamite]> <for [Human player] Civilizations>",
+			"Discover [E5 Biology]<before discovering [E5 Biology]> <for [Human player] Civilizations>",
+			"Discover [E5 Electricity]<before discovering [E5 Electricity]> <for [Human player] Civilizations>",
+			"Discover [E5 Steam Power]<before discovering [E5 Steam Power]> <for [Human player] Civilizations>",
+			"Discover [E5 Dynamite]<before discovering [E5 Dynamite]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8241,16 +8115,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
-			"Discover [Refrigeration]<before discovering [Refrigeration]> <for [Human player] Civilizations>",
-			"Discover [Radio]<before discovering [Radio]> <for [Human player] Civilizations>",
-			"Discover [Replaceable Parts]<before discovering [Replaceable Parts]> <for [Human player] Civilizations>",
-			"Discover [Flight]<before discovering [Flight]> <for [Human player] Civilizations>",
-			"Discover [Railroads]<before discovering [Railroads]> <for [Human player] Civilizations>",
+			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [Human player] Civilizations>",
+			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [Human player] Civilizations>",
+			"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]> <for [Human player] Civilizations>",
+			"Discover [E6 Flight]<before discovering [E6 Flight]> <for [Human player] Civilizations>",
+			"Discover [E6 Railroads]<before discovering [E6 Railroads]> <for [Human player] Civilizations>",
 			
-			"Discover [Plastics]<before discovering [Plastics]> <for [Human player] Civilizations>",
-			"Discover [Electronics]<before discovering [Electronics]> <for [Human player] Civilizations>",
-			"Discover [Ballistics]<before discovering [Ballistics]> <for [Human player] Civilizations>",
-			"Discover [Combustion]<before discovering [Combustion]> <for [Human player] Civilizations>",
+			"Discover [E6 Plastics]<before discovering [E6 Plastics]> <for [Human player] Civilizations>",
+			"Discover [E6 Electronics]<before discovering [E6 Electronics]> <for [Human player] Civilizations>",
+			"Discover [E6 Ballistics]<before discovering [E6 Ballistics]> <for [Human player] Civilizations>",
+			"Discover [E6 Combustion]<before discovering [E6 Combustion]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8271,15 +8145,15 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
-			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]> <for [Human player] Civilizations>",
-			"Discover [Atomic Theory]<before discovering [Atomic Theory]> <for [Human player] Civilizations>",
-			"Discover [Radar]<before discovering [Radar]> <for [Human player] Civilizations>",
-			"Discover [Combined Arms]<before discovering [Combined Arms]> <for [Human player] Civilizations>",
+			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [Human player] Civilizations>",
+			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]> <for [Human player] Civilizations>",
+			"Discover [E7 Radar]<before discovering [E7 Radar]> <for [Human player] Civilizations>",
+			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [Human player] Civilizations>",
 
-			"Discover [Ecology]<before discovering [Ecology]> <for [Human player] Civilizations>",
-			"Discover [Nuclear Fission]<before discovering [Nuclear Fission]> <for [Human player] Civilizations>",
-			"Discover [Rocketry]<before discovering [Rocketry]> <for [Human player] Civilizations>",
-			"Discover [Computers]<before discovering [Computers]> <for [Human player] Civilizations>",
+			"Discover [E7 Ecology]<before discovering [E7 Ecology]> <for [Human player] Civilizations>",
+			"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]> <for [Human player] Civilizations>",
+			"Discover [E7 Rocketry]<before discovering [E7 Rocketry]> <for [Human player] Civilizations>",
+			"Discover [E7 Computers]<before discovering [E7 Computers]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8300,18 +8174,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover [Telecommunications]<before discovering [Telecommunications]> <for [Human player] Civilizations>",
-			"Discover [Mobile Tactics]<before discovering [Mobile Tactics]> <for [Human player] Civilizations>",
-			"Discover [Advanced Ballistics]<before discovering [Advanced Ballistics]> <for [Human player] Civilizations>",
-			"Discover [Satellites]<before discovering [Satellites]> <for [Human player] Civilizations>",
-			"Discover [Robotics]<before discovering [Robotics]> <for [Human player] Civilizations>",
-			"Discover [Lasers]<before discovering [Lasers]> <for [Human player] Civilizations>",
+			"Discover aE8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
+			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [Human player] Civilizations>",
+			"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]> <for [Human player] Civilizations>",
+			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [Human player] Civilizations>",
+			"Discover [E8 Robotics]<before discovering [E8 Robotics]> <for [Human player] Civilizations>",
+			"Discover [E8 Lasers]<before discovering [E8 Lasers]> <for [Human player] Civilizations>",
 
-			"Discover [Globalization]<before discovering [Globalization]> <for [Human player] Civilizations>",
-			"Discover [Particle Physics]<before discovering [Particle Physics]> <for [Human player] Civilizations>",
-			"Discover [Nuclear Fusion]<before discovering [Nuclear Fusion]> <for [Human player] Civilizations>",
-			"Discover [Nanotechnology]<before discovering [Nanotechnology]> <for [Human player] Civilizations>",
-			"Discover [Stealth]<before discovering [Stealth]> <for [Human player] Civilizations>",
+			"Discover [E8 Globalization]<before discovering [E8 Globalization]> <for [Human player] Civilizations>",
+			"Discover [E8 Particle Physics]<before discovering [E8 Particle Physics]> <for [Human player] Civilizations>",
+			"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]> <for [Human player] Civilizations>",
+			"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]> <for [Human player] Civilizations>",
+			"Discover [E8 Stealth]<before discovering [E8 Stealth]> <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8323,7 +8197,7 @@
 		],
 		"requiredTech": "TechUnlocker"
 	},
-/*
+
 	{
 		"name": "9 HumanTechEra Future",
 //		"requiredBuilding": "MiniCake DNS Vault Tech Main",
@@ -8338,7 +8212,7 @@
 		"Destroyed when the city is captured <hidden from users>"
 		]
 	},
-*/
+
 
 //xsa//Human Inhibitor
 	{
@@ -8928,19 +8802,19 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
-			"Discover [Pottery]<before discovering [Pottery]> <for [AI player] Civilizations>",
-			"Discover [Animal Husbandry]<before discovering [Animal Husbandry]> <for [AI player] Civilizations>",
-			"Discover [Archery]<before discovering [Archery]> <for [AI player] Civilizations>",
-			"Discover [Mining]<before discovering [Mining]> <for [AI player] Civilizations>",
+			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [AI player] Civilizations>",
+			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [AI player] Civilizations>",
+			"Discover [E1 Archery]<before discovering [E1 Archery]> <for [AI player] Civilizations>",
+			"Discover [E1 Mining]<before discovering [E1 Mining]> <for [AI player] Civilizations>",
 
-			"Discover [Sailing]<before discovering [Sailing]> <for [AI player] Civilizations>",
-			"Discover [Calendar]<before discovering [Calendar]> <for [AI player] Civilizations>",
-			"Discover [Writing]<before discovering [Writing]> <for [AI player] Civilizations>",
-			"Discover [Trapping]<before discovering [Trapping]> <for [AI player] Civilizations>",
-			"Discover [The Wheel]<before discovering [The Wheel]> <for [AI player] Civilizations>",
-			"Discover [Masonry]<before discovering [Masonry]> <for [AI player] Civilizations>",
-			"Discover [Bronze Working]<before discovering [Bronze Working]> <for [AI player] Civilizations>",
- 
+			"Discover [E1 Sailing]<before discovering [E1 Sailing]> <for [AI player] Civilizations>",
+			"Discover [E1 Calendar]<before discovering [E1 Calendar]> <for [AI player] Civilizations>",
+			"Discover [E1 Writing]<before discovering [E1 Writing]> <for [AI player] Civilizations>",
+			"Discover [E1 Trapping]<before discovering [E1 Trapping]> <for [AI player] Civilizations>",
+			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]> <for [AI player] Civilizations>",
+			"Discover [E1 Masonry]<before discovering [E1 Masonry]> <for [AI player] Civilizations>",
+			"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]> <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8960,16 +8834,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
-			"Discover [Optics]<before discovering [Optics]> <for [AI player] Civilizations>",
-			"Discover [Horseback Riding]<before discovering [Horseback Riding]> <for [AI player] Civilizations>",
-			"Discover [Mathematics]<before discovering [Mathematics]> <for [AI player] Civilizations>",
-			"Discover [Construction]<before discovering [Construction]> <for [AI player] Civilizations>",
+			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [AI player] Civilizations>",
+			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [AI player] Civilizations>",
+			"Discover [E2 Mathematics]<before discovering [E2 Mathematics]> <for [AI player] Civilizations>",
+			"Discover [E2 Construction]<before discovering [E2 Construction]> <for [AI player] Civilizations>",
 
-			"Discover [Philosophy]<before discovering [Philosophy]> <for [AI player] Civilizations>",
-			"Discover [Drama and Poetry]<before discovering [Drama and Poetry]> <for [AI player] Civilizations>",
-			"Discover [Currency]<before discovering [Currency]> <for [AI player] Civilizations>",
-			"Discover [Engineering]<before discovering [Engineering]> <for [AI player] Civilizations>",
-			"Discover [Iron Working]<before discovering [Iron Working]> <for [AI player] Civilizations>",
+			"Discover [E2 Philosophy]<before discovering [E2 Philosophy]> <for [AI player] Civilizations>",
+			"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]> <for [AI player] Civilizations>",
+			"Discover [E2 Currency]<before discovering [E2 Currency]> <for [AI player] Civilizations>",
+			"Discover [E2 Engineering]<before discovering [E2 Engineering]> <for [AI player] Civilizations>",
+			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -8990,17 +8864,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
-			"Discover [Theology]<before discovering [Theology]> <for [AI player] Civilizations>",
-			"Discover [Civil Service]<before discovering [Civil Service]> <for [AI player] Civilizations>",
-			"Discover [Guilds]<before discovering [Guilds]> <for [AI player] Civilizations>",
-			"Discover [Metal Casting]<before discovering [Metal Casting]> <for [AI player] Civilizations>",
+			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [AI player] Civilizations>",
+			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [AI player] Civilizations>",
+			"Discover [E3 Guilds]<before discovering [E3 Guilds]> <for [AI player] Civilizations>",
+			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]> <for [AI player] Civilizations>",
 			
-			"Discover [Compass]<before discovering [Compass]> <for [AI player] Civilizations>",
-			"Discover [Education]<before discovering [Education]> <for [AI player] Civilizations>",
-			"Discover [Chivalry]<before discovering [Chivalry]> <for [AI player] Civilizations>",
-			"Discover [Machinery]<before discovering [Machinery]> <for [AI player] Civilizations>",
-			"Discover [Physics]<before discovering [Physics]> <for [AI player] Civilizations>",
-			"Discover [Steel]<before discovering [Steel]> <for [AI player] Civilizations>",
+			"Discover [E3 Compass]<before discovering [E3 Compass]> <for [AI player] Civilizations>",
+			"Discover [E3 Education]<before discovering [E3 Education]> <for [AI player] Civilizations>",
+			"Discover [E3 Chivalry]<before discovering [E3 Chivalry]> <for [AI player] Civilizations>",
+			"Discover [E3 Machinery]<before discovering [E3 Machinery]> <for [AI player] Civilizations>",
+			"Discover [E3 Physics]<before discovering [E3 Physics]> <for [AI player] Civilizations>",
+			"Discover [E3 Steel]<before discovering [E3 Steel]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9021,17 +8895,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
-			"Discover [Astronomy]<before discovering [Astronomy]> <for [AI player] Civilizations>",
-			"Discover [Acoustics]<before discovering [Acoustics]> <for [AI player] Civilizations>",
-			"Discover [E4 Banking]<before discovering [E4 Banking]> <for [AI player] Civilizations>",
-			"Discover [Printing Press]<before discovering [Printing Press]> <for [AI player] Civilizations>",
-			"Discover [Gunpowder]<before discovering [Gunpowder]> <for [AI player] Civilizations>",
+			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [AI player] Civilizations>",
+			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [AI player] Civilizations>",
+			"Discover [E4 E4 Banking]<before discovering [E4 E4 Banking]> <for [AI player] Civilizations>",
+			"Discover [E4 Printing Press]<before discovering [E4 Printing Press]> <for [AI player] Civilizations>",
+			"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]> <for [AI player] Civilizations>",
 
-			"Discover [Navigation]<before discovering [Navigation]> <for [AI player] Civilizations>",
-			"Discover [Architecture]<before discovering [Architecture]> <for [AI player] Civilizations>",
-			"Discover [Economics]<before discovering [Economics]> <for [AI player] Civilizations>",
-			"Discover [Metallurgy]<before discovering [Metallurgy]> <for [AI player] Civilizations>",
-			"Discover [Chemistry]<before discovering [Chemistry]> <for [AI player] Civilizations>",
+			"Discover [E4 Navigation]<before discovering [E4 Navigation]> <for [AI player] Civilizations>",
+			"Discover [E4 Architecture]<before discovering [E4 Architecture]> <for [AI player] Civilizations>",
+			"Discover [E4 Economics]<before discovering [E4 Economics]> <for [AI player] Civilizations>",
+			"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]> <for [AI player] Civilizations>",
+			"Discover [E4 Chemistry]<before discovering [E4 Chemistry]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9052,17 +8926,17 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
-			"Discover [Archaeology]<before discovering [Archaeology]> <for [AI player] Civilizations>",
-			"Discover [Scientific Theory]<before discovering [Scientific Theory]> <for [AI player] Civilizations>",
-			"Discover [Industrialization]<before discovering [Industrialization]> <for [AI player] Civilizations>",
-			"Discover [Rifling]<before discovering [Rifling]> <for [AI player] Civilizations>",
-			"Discover [Military Science]<before discovering [Military Science]> <for [AI player] Civilizations>",
-			"Discover [Fertilizer]<before discovering [Fertilizer]> <for [AI player] Civilizations>",
+			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [AI player] Civilizations>",
+			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [AI player] Civilizations>",
+			"Discover [E5 Industrialization]<before discovering [E5 Industrialization]> <for [AI player] Civilizations>",
+			"Discover [E5 Rifling]<before discovering [E5 Rifling]> <for [AI player] Civilizations>",
+			"Discover [E5 Military Science]<before discovering [E5 Military Science]> <for [AI player] Civilizations>",
+			"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]> <for [AI player] Civilizations>",
 
-			"Discover [Biology]<before discovering [Biology]> <for [AI player] Civilizations>",
-			"Discover [Electricity]<before discovering [Electricity]> <for [AI player] Civilizations>",
-			"Discover [Steam Power]<before discovering [Steam Power]> <for [AI player] Civilizations>",
-			"Discover [Dynamite]<before discovering [Dynamite]> <for [AI player] Civilizations>",
+			"Discover [E5 Biology]<before discovering [E5 Biology]> <for [AI player] Civilizations>",
+			"Discover [E5 Electricity]<before discovering [E5 Electricity]> <for [AI player] Civilizations>",
+			"Discover [E5 Steam Power]<before discovering [E5 Steam Power]> <for [AI player] Civilizations>",
+			"Discover [E5 Dynamite]<before discovering [E5 Dynamite]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9083,16 +8957,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
-			"Discover [Refrigeration]<before discovering [Refrigeration]> <for [AI player] Civilizations>",
-			"Discover [Radio]<before discovering [Radio]> <for [AI player] Civilizations>",
-			"Discover [Replaceable Parts]<before discovering [Replaceable Parts]> <for [AI player] Civilizations>",
-			"Discover [Flight]<before discovering [Flight]> <for [AI player] Civilizations>",
-			"Discover [Railroads]<before discovering [Railroads]> <for [AI player] Civilizations>",
+			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [AI player] Civilizations>",
+			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [AI player] Civilizations>",
+			"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]> <for [AI player] Civilizations>",
+			"Discover [E6 Flight]<before discovering [E6 Flight]> <for [AI player] Civilizations>",
+			"Discover [E6 Railroads]<before discovering [E6 Railroads]> <for [AI player] Civilizations>",
 			
-			"Discover [Plastics]<before discovering [Plastics]> <for [AI player] Civilizations>",
-			"Discover [Electronics]<before discovering [Electronics]> <for [AI player] Civilizations>",
-			"Discover [Ballistics]<before discovering [Ballistics]> <for [AI player] Civilizations>",
-			"Discover [Combustion]<before discovering [Combustion]> <for [AI player] Civilizations>",
+			"Discover [E6 Plastics]<before discovering [E6 Plastics]> <for [AI player] Civilizations>",
+			"Discover [E6 Electronics]<before discovering [E6 Electronics]> <for [AI player] Civilizations>",
+			"Discover [E6 Ballistics]<before discovering [E6 Ballistics]> <for [AI player] Civilizations>",
+			"Discover [E6 Combustion]<before discovering [E6 Combustion]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9113,15 +8987,15 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
-			"Discover [Pharmaceuticals]<before discovering [Pharmaceuticals]> <for [AI player] Civilizations>",
-			"Discover [Atomic Theory]<before discovering [Atomic Theory]> <for [AI player] Civilizations>",
-			"Discover [Radar]<before discovering [Radar]> <for [AI player] Civilizations>",
-			"Discover [Combined Arms]<before discovering [Combined Arms]> <for [AI player] Civilizations>",
+			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [AI player] Civilizations>",
+			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]> <for [AI player] Civilizations>",
+			"Discover [E7 Radar]<before discovering [E7 Radar]> <for [AI player] Civilizations>",
+			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]> <for [AI player] Civilizations>",
 
-			"Discover [Ecology]<before discovering [Ecology]> <for [AI player] Civilizations>",
-			"Discover [Nuclear Fission]<before discovering [Nuclear Fission]> <for [AI player] Civilizations>",
-			"Discover [Rocketry]<before discovering [Rocketry]> <for [AI player] Civilizations>",
-			"Discover [Computers]<before discovering [Computers]> <for [AI player] Civilizations>",
+			"Discover [E7 Ecology]<before discovering [E7 Ecology]> <for [AI player] Civilizations>",
+			"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]> <for [AI player] Civilizations>",
+			"Discover [E7 Rocketry]<before discovering [E7 Rocketry]> <for [AI player] Civilizations>",
+			"Discover [E7 Computers]<before discovering [E7 Computers]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9142,18 +9016,18 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover [Telecommunications]<before discovering [Telecommunications]> <for [AI player] Civilizations>",
-			"Discover [Mobile Tactics]<before discovering [Mobile Tactics]> <for [AI player] Civilizations>",
-			"Discover [Advanced Ballistics]<before discovering [Advanced Ballistics]> <for [AI player] Civilizations>",
-			"Discover [Satellites]<before discovering [Satellites]> <for [AI player] Civilizations>",
-			"Discover [Robotics]<before discovering [Robotics]> <for [AI player] Civilizations>",
-			"Discover [Lasers]<before discovering [Lasers]> <for [AI player] Civilizations>",
+			"Discover aE8 Telecommunications]<before discovering [E8 Telecommunications]> <for [AI player] Civilizations>",
+			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [AI player] Civilizations>",
+			"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]> <for [AI player] Civilizations>",
+			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [AI player] Civilizations>",
+			"Discover [E8 Robotics]<before discovering [E8 Robotics]> <for [AI player] Civilizations>",
+			"Discover [E8 Lasers]<before discovering [E8 Lasers]> <for [AI player] Civilizations>",
 
-			"Discover [Globalization]<before discovering [Globalization]> <for [AI player] Civilizations>",
-			"Discover [Particle Physics]<before discovering [Particle Physics]> <for [AI player] Civilizations>",
-			"Discover [Nuclear Fusion]<before discovering [Nuclear Fusion]> <for [AI player] Civilizations>",
-			"Discover [Nanotechnology]<before discovering [Nanotechnology]> <for [AI player] Civilizations>",
-			"Discover [Stealth]<before discovering [Stealth]> <for [AI player] Civilizations>",
+			"Discover [E8 Globalization]<before discovering [E8 Globalization]> <for [AI player] Civilizations>",
+			"Discover [E8 Particle Physics]<before discovering [E8 Particle Physics]> <for [AI player] Civilizations>",
+			"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]> <for [AI player] Civilizations>",
+			"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]> <for [AI player] Civilizations>",
+			"Discover [E8 Stealth]<before discovering [E8 Stealth]> <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",

@@ -364,7 +364,7 @@
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [5] per Civilization",
-			"May upgrade to [Archer] through ruins-like effects", 
+			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Ignore terrain cost"],
@@ -380,7 +380,7 @@
 		"upgradesTo": "E2 Swordsman",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "May upgrade to [Spearman] through ruins-like effects"],
+		    "May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging E7 Fighter."}
@@ -4189,7 +4189,7 @@
 		"movement": 5,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "E5 Scientific Theory",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"upgradesTo": "DNS Khan",
@@ -4206,7 +4206,7 @@
 
 			"Uncapturable", 
 //			"Limited to [3] per Civilization",
-//			"May upgrade to [Archer] through ruins-like effects", 
+//			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit",
 			"Can see over obstacles <before the [Classical era]>"
 			],
@@ -4637,7 +4637,7 @@
 		"requiredTech": "E3 Metal Casting",
 		"upgradesTo": "E2 Swordsman",
 		"uniques": [
-            "Free [B01 Brute] appears <when defending>", 
+            "Free [Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
@@ -4651,7 +4651,7 @@
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
-		"requiredTech": "Archery",
+		"requiredTech": "E1 Archery",
 		"obsoleteTech": "E3 Machinery",
 		"upgradesTo": "E3 Crossbowman",
 		"uniques": [
@@ -4671,7 +4671,7 @@
 		    ],
 		"upgradesTo": "E1 Trireme",
 		"uniques": [
-            "Free [B03 Galley] appears <when defending>", 
+            "Free [Galley] appears <when defending>", 
             ]
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
