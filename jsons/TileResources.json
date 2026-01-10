@@ -150,7 +150,7 @@
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "E1 Animal Husbandry",
+		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "TI14 Pasture",
@@ -176,7 +176,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "E2 Iron Working",
+		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -207,7 +207,7 @@
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Industrialization",
+		"revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -236,7 +236,7 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Biology",
+		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["TI12 Oil well", "TI13 Offshore Platform"],
@@ -266,7 +266,7 @@
 	{
 		"name": "Aluminum",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Electricity",
+		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -289,7 +289,7 @@
 	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
-		"revealedBy": "E7 Atomic Theory",
+		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -884,7 +884,7 @@
 	{
 		"name": "RS01 Horses",
 		"resourceType": "Strategic",
-		"revealedBy": "E1 Animal Husbandry",
+		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "TI14 Pasture",
@@ -903,7 +903,7 @@
 	{
 		"name": "RS02 Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "E2 Iron Working",
+		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -927,7 +927,7 @@
 	{
 		"name": "RS03 Coal",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Industrialization",
+		"revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -949,7 +949,7 @@
 	{
 		"name": "RS04 Oil",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Biology",
+		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["TI12 Oil well", "TI13 Offshore Platform"],
@@ -972,7 +972,7 @@
 	{
 		"name": "RS05 Aluminum",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Electricity",
+		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -988,7 +988,7 @@
 	{
 		"name": "RS06 Uranium",
 		"resourceType": "Strategic",
-		"revealedBy": "E7 Atomic Theory",
+		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -1006,7 +1006,7 @@
 	{
 		"name": "RM01 Aetherium",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Steam Power",
+		"revealedBy": "Steam Power",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Tundra","Hill"],
 		"production": 1,
 		"improvement": "TI19 Mine",
@@ -1023,7 +1023,7 @@
 	{
 		"name": "RM02 Luboric",
 		"resourceType": "Strategic",
-		"revealedBy": "E5 Steam Power",
+		"revealedBy": "Steam Power",
 		"terrainsCanBeFoundOn": ["Wasteland","Badlands","Permafrost","Plains","Desert","Tundra","Hill","Snow","Desert","Marsh","Grassland"],
 		"production": 1,
 		"improvement": "TI19 Mine",
