@@ -93,7 +93,7 @@
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+10]% [Food] [in all cities]", 
 			"[+15]% Production when constructing [E1 Archery] units [in this city]",
-			"[+15]% Production when constructing [Ranged E4 Gunpowder] units [in this city]"],
+			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 		"requiredTech": "E1 Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
@@ -607,7 +607,7 @@
 			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [R03 Mosque] [in this city]", 
 			"Only available <when religion is enabled>",
-			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [E0 Missionary] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [E0 Great Prophet] units [in this city] receive the [Devout] promotion"],
 		"requiredTech": "E3 Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
@@ -1741,7 +1741,7 @@
 			"Moves to new capital when capital changes<hidden from users>",
 			"Only available <when espionage is enabled>",
 			"Gain a free [E4 Constabulary] [in all cities] <after discovering [E4 Banking]>",
-			"Gain a free [E5 Police Station] [in all cities] <after discovering [Electricity]>",
+			"Gain a free [E5 Police Station] [in all cities] <after discovering [E5 Electricity]>",
 			"[-100]% maintenance cost for [E4 Constabulary] buildings [in all cities]",
 			"[-100]% maintenance cost for [E5 Police Station] buildings [in all cities]",
 			"New spies start with [99] level(s)",

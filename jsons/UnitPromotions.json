@@ -780,7 +780,9 @@
 	},
 	{
 		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength <when stacked with a [Great General] unit>"]
+		"uniques": [
+		    "Transfer Movement to [E0 Great General]", 
+		    "[+15]% Strength <when stacked with a [E0 Great General] unit>"]
 	},
 	{
 		"name": "[Zero] ability",

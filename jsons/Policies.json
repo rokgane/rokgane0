@@ -888,8 +888,8 @@
 		"uniques": [
 			"[-100]% weight to this choice for AI decisions <hidden from users>",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-			"Only available <before discovering [AI Treats]>",
-			"Only available <after discovering [Human Treats]>",
+			"Only available <before discovering [Treats AI]>",
+			"Only available <after discovering [Treats Human]>",
 			"Free Social Policy"
 		],
 		"policies": [

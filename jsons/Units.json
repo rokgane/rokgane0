@@ -358,7 +358,7 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"Cannot enter ocean tiles <before discovering [E4 Astronomy]>", 
 
 //			"May create improvements on water resources",
 			"Can build [TI13 Offshore Platform] improvements on tiles",
@@ -2053,7 +2053,7 @@ E3 Longbowman
 		"promotions" : ["Evasion"],
 		"uniques": [
 		    "Nuclear weapon of Strength [1]", 
-		    "Only available <if [Manhattan Project] is constructed>", 
+		    "Only available <if [E7 Manhattan Project] is constructed>", 
 		    "Self-destructs when attacking",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
@@ -2289,7 +2289,7 @@ E3 Longbowman
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "Damage taken from interception reduced by [100]%", 
-		    "Cannot be carried by [Carrier] units", 
+		    "Cannot be carried by [E6 Carrier] units", 
 		    "[+4] Sight",
 		    "Can see over obstacles"],
 		"attackSound": "bombing"
@@ -2511,7 +2511,7 @@ E3 Longbowman
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [3] per Civilization"
@@ -2529,7 +2529,7 @@ E3 Longbowman
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [1] per Civilization"]
@@ -2546,7 +2546,7 @@ E3 Longbowman
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [1] per Civilization"]
@@ -2563,7 +2563,7 @@ E3 Longbowman
             "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
             "Spaceship part", 
             "Cannot be purchased", 
-            "Only available <if [Apollo Program] is constructed>", 
+            "Only available <if [E7 Apollo Program] is constructed>", 
             "Uncapturable", 
             "Can be added to [The Spaceship] in the Capital", 
             "Limited to [1] per Civilization"
@@ -5499,3 +5499,4 @@ E9 SS Stasis Chamber
 
 
 
+a
