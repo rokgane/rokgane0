@@ -1915,7 +1915,7 @@ E3 Longbowman
 	{
 		"name": "E7 Zero",
 		"unitType": "Fighter",
-		"replaces": "Fighter",
+		"replaces": "E7 Fighter",
 		"uniqueTo": "Japan",
 		"movement": 1,
 		"strength": 45,
@@ -1923,8 +1923,8 @@ E3 Longbowman
 		"range": 8,
 		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Radar",
-		"upgradesTo": "Jet Fighter",
+		"requiredTech": "E7 Radar",
+		"upgradesTo": "E8 Jet Fighter",
 		"uniques": [
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Bomber] units>", 
@@ -2108,7 +2108,7 @@ E3 Longbowman
 		"rangedStrength": 60,
 		"range": 8,
 		"cost": 150,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": ["[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
@@ -2121,12 +2121,12 @@ E3 Longbowman
 		"rangedStrength": 300,
 		"range": 12,
 		"cost": 1000,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 		    "Nuclear weapon of Strength [2]", 
-		    "Only available <if [Manhattan Project] is constructed>",
+		    "Only available <if [E7 Manhattan Project] is constructed>",
 			"Blast radius [2]", 
-			"Consumes [2] [Uranium]"],
+			"Consumes [2] [RS06 Uranium]"],
 		"attackSound": "nuke"
 	},
 
@@ -2574,6 +2574,42 @@ E3 Longbowman
 //xsa//end of gk
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	{
 		"name": "Land Ironclad",
 		"unitType": "Armored",
@@ -2712,7 +2748,7 @@ E3 Longbowman
 
 	{
 		"name": "DNS Checkeri1",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2732,7 +2768,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri2",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2752,7 +2788,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri3",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2773,7 +2809,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri4",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2794,7 +2830,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri5",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2815,7 +2851,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri6",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2836,7 +2872,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri7",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2857,7 +2893,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri8",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2878,7 +2914,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Checkeri9",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2923,7 +2959,7 @@ E3 Longbowman
 
     {
     	"name": "TestBallo90",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2958,7 +2994,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo91",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2994,7 +3030,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo92",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3030,7 +3066,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo93",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3066,7 +3102,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo94",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3102,7 +3138,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo95",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3140,7 +3176,7 @@ E3 Longbowman
 
     {
     	"name": "TestBallo96",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3177,7 +3213,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo97",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3213,7 +3249,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo98",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3249,7 +3285,7 @@ E3 Longbowman
     },
     {
     	"name": "TestBallo99",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3307,7 +3343,7 @@ E3 Longbowman
 
     {
     	"name": "Observar",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3346,7 +3382,7 @@ E3 Longbowman
 
     {
     	"name": "Revealer",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3387,7 +3423,7 @@ E3 Longbowman
 
 	{
 		"name": "DNS Flyer",
-		"unitType": "Fighter",
+		"unitType": "DNSFighter",
 		"movement": 1,
 		"strength": 18,
 		"rangedStrength": 18,
@@ -3417,7 +3453,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS War Bomber",
-		"unitType": "Bomber",
+		"unitType": "DNSBomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -3447,7 +3483,7 @@ E3 Longbowman
 
 	{
 		"name": "Zeppelin Terraformer",
-		"unitType": "Helicopter",
+		"unitType": "DNSHelicopter",
 		"movement": 5,
 		"strength": 10,
 		"rangedStrength": 15,
@@ -3637,7 +3673,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Nuclear Missile P2",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -3660,7 +3696,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Nuclear Missile P5",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -3683,7 +3719,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Nuclear Missile P8",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -3706,7 +3742,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Nuclear Missile P11",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -3729,7 +3765,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Nuclear Missile P13",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
@@ -4910,7 +4946,7 @@ E3 Longbowman
 //xsa//unciv godmod
 	{
 		"name": "Angel",
-		"unitType": "DNSCivilianAir",
+		"unitType": "DNSCivilian",
 		"uniques": [
 /*
 			"Adopt [Pan00 Worship of Cendabi]",
@@ -5035,7 +5071,7 @@ E3 Longbowman
 
 	{
 		"name": "DNS Fighter Zero",
-		"unitType": "Fighter",
+		"unitType": "DNSFighter",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -5059,7 +5095,7 @@ E3 Longbowman
 	},
 	{
 		"name": "DNS Bomber B17",
-		"unitType": "Bomber",
+		"unitType": "DNSBomber",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -5463,3 +5499,4 @@ E9 SS Stasis Chamber
 
 
 
+a
