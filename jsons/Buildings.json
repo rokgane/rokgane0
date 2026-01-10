@@ -2194,8 +2194,6 @@
 				"[-50]% Unhappiness from [Population] [in this city]",
 				"[+100]% [Happiness] [in this city]",
 
-
-				"Gain a free [MiniCake ShowGk] [in this city]",
 				"Gain a free [MiniCake Cloned Resource] [in this city]",
 				"Gain a free [MiniCake Border Eater lv0] [in this city]",
 				
@@ -8222,7 +8220,7 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover aE8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
+			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
 			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [Human player] Civilizations>",
 			"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]> <for [Human player] Civilizations>",
 			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [Human player] Civilizations>",

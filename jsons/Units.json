@@ -114,8 +114,12 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <for [AI player] Civilizations>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><for [Human player] Civilizations> <hidden from users>",
+			"Unavailable <in cities with a [MiniCake HideGk]> <for [Human player] Civilizations><hidden from users>",
+
 			"Uncapturable", 
 
             //"Can build [Land] improvements on tiles", 
@@ -159,8 +163,12 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <for [AI player] Civilizations>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><for [Human player] Civilizations> <hidden from users>",
+			"Unavailable <in cities with a [MiniCake HideGk]> <for [Human player] Civilizations><hidden from users>",
+
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
 			"Excess Food converted to Production when under E2 Construction",
@@ -183,8 +191,12 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <for [AI player] Civilizations>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><for [Human player] Civilizations> <hidden from users>",
+			"Unavailable <in cities with a [MiniCake HideGk]> <for [Human player] Civilizations><hidden from users>",
+
 			"Limited to [5] per Civilization",
 			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
