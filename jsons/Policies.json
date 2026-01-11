@@ -64,7 +64,7 @@
 				"name": "Tradition Complete",
 				"uniques": [
 					"[+15]% growth [in all cities]",
-					"Provides a [Aqueduct] in your first [4] cities for free",
+					"Provides a [E2 Aqueduct] in your first [4] cities for free",
 					"Get the leader title of [Lord [leaderName]]"
 				]
 			}
@@ -95,7 +95,7 @@
 				"name": "Citizenship",
 				"uniques": [
 					"Can build [all] improvements at a [+25]% rate",
-					"Free [Worker] appears",
+					"Free [E1 Worker] appears",
 					"[100]% weight to this choice for AI decisions"
 				],
 				"row": 1,
@@ -104,8 +104,8 @@
 			{
 				"name": "Collective Rule",
 				"uniques": [
-					"[+50]% Production when constructing [Settler] units [in capital]",
-					"Free [Settler] appears"
+					"[+50]% Production when constructing [E1 Settler] units [in capital]",
+					"Free [E1 Settler] appears"
 				],
 				"requires": ["Republic"],
 				"row": 2,
@@ -161,7 +161,7 @@
 				"name": "Warrior Code",
 				"uniques": [
 					"[+15]% Production when constructing [Melee] units [in all cities]",
-					"Free [Great General] appears"
+					"Free [E0 Great General] appears"
 				],
 				"row": 1,
 				"column": 2
@@ -196,10 +196,10 @@
 				"name": "Professional Army",
 				"uniques": [
 					"[33]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Happiness] from every [Walls]",
-					"[+1 Happiness] from every [Castle]",
-					"[+1 Happiness] from every [Arsenal]",
-					"[+1 Happiness] from every [Military Base]"
+					"[+1 Happiness] from every [E1 Walls]",
+					"[+1 Happiness] from every [E3 Castle]",
+					"[+1 Happiness] from every [E4 Arsenal]",
+					"[+1 Happiness] from every [E6 Military Base]"
 				],
 				"requires": ["Military Caste"],
 				"row": 3,
@@ -225,8 +225,8 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
-			"[+100]% Production when constructing [Temple] buildings [in all cities]",
+			"[+100]% Production when constructing [E1 Shrine] buildings [in all cities]",
+			"[+100]% Production when constructing [E2 Temple] buildings [in all cities]",
 			"Only available <before adopting [Rationalism]>",
 			"[100]% weight to this choice for AI decisions <when religion is disabled>"
 		],
@@ -234,8 +234,8 @@
 			{
 				"name": "Organized Religion",
 				"uniques": [
-					"[+1 Faith] from every [Shrine]",
-					"[+1 Faith] from every [Temple]"
+					"[+1 Faith] from every [E1 Shrine]",
+					"[+1 Faith] from every [E2 Temple]"
 				],
 				"row": 1,
 				"column": 2
@@ -248,7 +248,7 @@
 			},
 			{
 				"name": "Theocracy",
-				"uniques": ["[+10]% [Gold] from every [Temple]"],
+				"uniques": ["[+10]% [Gold] from every [E2 Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 1
@@ -366,8 +366,8 @@
 				"uniques": [
 					"[+1] Movement <for [{Military} {Water}] units>",
 					"[+1] Sight <for [{Military} {Water}] units>",
-					"Free [Great Admiral] appears",
-					"[+2] Movement <for [Great Admiral] units>",
+					"Free [E0 Great Admiral] appears",
+					"[+2] Movement <for [E0 Great Admiral] units>",
 				],
 				"row": 1,
 				"column": 2
@@ -376,8 +376,8 @@
 				"name": "Trade Unions",
 				"uniques": [
 					"[33]% maintenance on road & railroads",
-					"[+1 Gold] from every [Harbor]",
-					"[+1 Gold] from every [Seaport]"
+					"[+1 Gold] from every [E3 Harbor]",
+					"[+1 Gold] from every [E4 Seaport]"
 				],
 				"row": 1,
 				"column": 4
@@ -393,10 +393,10 @@
 				"name": "Mercantilism",
 				"uniques": [
 					"[Gold] cost of purchasing items in cities [25]%",
-					"[+1 Science] from every [Mint]",
-					"[+1 Science] from every [Market]",
-					"[+1 Science] from every [Bank]",
-					"[+1 Science] from every [Stock Exchange]"
+					"[+1 Science] from every [E2 Mint]",
+					"[+1 Science] from every [E2 Market]",
+					"[+1 Science] from every [E4 Bank]",
+					"[+1 Science] from every [E5 Stock Exchange]"
 				],
 				"requires": ["Trade Unions"],
 				"row": 2,
@@ -412,9 +412,9 @@
 			{
 				"name": "Commerce Complete",
 				"uniques": [
-					"[+1 Gold] from every [Trading post]",
+					"[+1 Gold] from every [TI04 Trading post]",
 					"[+100]% Gold from Great Merchant trade missions",
-					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [E0 Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"Get the leader title of [Doge [leaderName]]"
 				]
 			}
@@ -446,9 +446,9 @@
 			{
 				"name": "Humanism",
 				"uniques": [
-					"[+1 Happiness] from every [University]",
-					"[+1 Happiness] from every [Observatory]",
-					"[+1 Happiness] from every [Public School]",
+					"[+1 Happiness] from every [E3 University]",
+					"[+1 Happiness] from every [E4 Observatory]",
+					"[+1 Happiness] from every [E5 Public School]",
 					"[50]% weight to this choice for AI decisions"
 				],
 				"row": 1,
@@ -457,8 +457,8 @@
 			{
 				"name": "Free Thought",
 				"uniques": [
-					"[+1 Science] from every [Trading post]",
-					"[+17]% [Science] from every [University]"
+					"[+1 Science] from every [TI04 Trading post]",
+					"[+17]% [Science] from every [E3 University]"
 				],
 				"requires": ["Secularism"],
 				"row": 2,
@@ -483,7 +483,7 @@
 				"name": "Rationalism Complete",
 				"uniques": [
 					"[2] Free Technologies",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [E0 Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"Get the leader title of [[leaderName] the Wise]"
 				]
 			}
@@ -548,7 +548,7 @@
 				"uniques": [
 					"[+100]% Yield from every [Great Improvement]",
 					"[+50]% Golden Age length",
-					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [E0 Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"Get the leader title of [President [leaderName]]"
 				]
 			}
@@ -588,7 +588,7 @@
 				"name": "Fascism",
 				"uniques": [
 					"[+100]% [Strategic] resource production",
-					"[+2] Movement <for [Great General] units>"
+					"[+2] Movement <for [E0 Great General] units>"
 				],
 				"requires": ["Populism", "Militarism"],
 				"row": 2,
@@ -597,8 +597,8 @@
 			{
 				"name": "Police State",
 				"uniques": [
-					"[+3 Happiness] from every [Courthouse]",
-					"[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+					"[+3 Happiness] from every [E2 Courthouse]",
+					"[+100]% Production when constructing [E2 Courthouse] buildings [in all cities]",
 					"[25]% enemy spy effectiveness [in all cities]"
 				],
 				"requires": ["Militarism"],
@@ -619,7 +619,7 @@
 				"name": "Autocracy Complete",
 				"uniques": [
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [E0 Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"Get the leader title of [[leaderName] the Terrible]"
 				]
 			}
@@ -653,8 +653,8 @@
 			{
 				"name": "Planned Economy",
 				"uniques": [
-					"[+25]% [Science] from every [Factory]",
-					"[+100]% Production when constructing [Factory] buildings [in all cities]"
+					"[+25]% [Science] from every [E5 Factory]",
+					"[+100]% Production when constructing [E5 Factory] buildings [in all cities]"
 				],
 				"row": 1,
 				"column": 3
@@ -681,8 +681,8 @@
 				"requires": ["Socialism"],
 				"uniques": [
 					"[+2 Production] [in all cities]",
-					"[+1 Production] from every [Mine]",
-					"[+1 Production] from every [Quarry]"
+					"[+1 Production] from every [TI19 Mine]",
+					"[+1 Production] from every [TI16 Quarry]"
 				],
 				"row": 3,
 				"column": 3
@@ -691,7 +691,7 @@
 				"name": "Order Complete",
 				"uniques": [
 					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
-					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"May buy [E0 Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"Get the leader title of [Chairman [leaderName]]"
 				]
 			}
@@ -861,8 +861,8 @@
 				"name": "Multiculturalism Complete",
 				"uniques": [
 					 "[+5]% [Culture] [in all cities]",
-					 "[Great Artist] is earned [30]% faster",
-					 "[Great Merchant] is earned [30]% faster",
+					 "[E0 Great Artist] is earned [30]% faster",
+					 "[E0 Great Merchant] is earned [30]% faster",
 					 "[15]% Strength <for [All] units> <vs [Barbarian] units> <when attacking>",
 					 "[15]% Strength <for [All] units> <vs [Barbarian] units> <when attacking> <within [3] tiles of a [Barbarian encampment]>",
 					 "[15]% Strength <for [All] units> <vs [Barbarian] units> <when attacking> <within [2] tiles of a [Barbarian encampment]>"
@@ -888,8 +888,8 @@
 		"uniques": [
 			"[-100]% weight to this choice for AI decisions <hidden from users>",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-			"Only available <before discovering [AI Treats]>",
-			"Only available <after discovering [Human Treats]>",
+			"Only available <before discovering [Treats AI]>",
+			"Only available <after discovering [Treats Human]>",
 			"Free Social Policy"
 		],
 		"policies": [
@@ -899,10 +899,10 @@
 			"[100]% weight to this choice for AI decisions <hidden from users>",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
 					"Free Social Policy",
-					"[-3 Production] from every [Palace]",
-					"[-3 Science] from every [Palace]",
-					"[-3 Gold] from every [Palace]",
-					"[-1 Culture] from every [Palace]",
+					"[-3 Production] from every [E0 Palace]",
+					"[-3 Science] from every [E0 Palace]",
+					"[-3 Gold] from every [E0 Palace]",
+					"[-1 Culture] from every [E0 Palace]",
 					"Triggers the following global alert: [. Palace Nullifier Challenge was chosen!]"
 				],
 				"row": 1,
@@ -1304,3 +1304,24 @@
 ]
 
 */
+
+
+
+
+
+
+/*
+
+//check for error when changing stuff
+
+					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"[+2] Movement <for [Great Admiral] units>",
+from every
+					"[+2] Movement <for [Great General] units>"
+					"[+50]% Production when constructing [Settler] units [in capital]",
+
+
+
+*/
+
+

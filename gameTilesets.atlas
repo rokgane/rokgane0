@@ -3,524 +3,6 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Units/DNS Helicopter Gunship
-  rotate: false
-  xy: 820, 900
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Helicopter Gunship
-  rotate: false
-  xy: 292, 1052
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Destroyer
-  rotate: false
-  xy: 620, 978
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Destroyer
-  rotate: false
-  xy: 492, 1897
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Battleship
-  rotate: false
-  xy: 580, 1204
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Battleship
-  rotate: false
-  xy: 886, 1942
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Missile Cruiser
-  rotate: false
-  xy: 696, 506
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Missile Cruiser
-  rotate: false
-  xy: 1657, 1110
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Nuclear Submarine
-  rotate: false
-  xy: 900, 953
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Nuclear Submarine
-  rotate: false
-  xy: 1801, 1055
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Modern Armor
-  rotate: false
-  xy: 696, 397
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Modern Armor
-  rotate: false
-  xy: 1801, 1183
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Mechanized Infantry
-  rotate: false
-  xy: 700, 614
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Mechanized Infantry
-  rotate: false
-  xy: 1513, 1319
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Mobile SAM
-  rotate: false
-  xy: 860, 591
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Mobile SAM
-  rotate: false
-  xy: 1801, 1247
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Rocket Artillery
-  rotate: false
-  xy: 1020, 886
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Rocket Artillery
-  rotate: false
-  xy: 1581, 942
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker
-  rotate: false
-  xy: 1180, 625
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker-Barbarians
-  rotate: false
-  xy: 1220, 976
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker-Barbarians-Modern era
-  rotate: false
-  xy: 1220, 976
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Worker-Modern era
-  rotate: false
-  xy: 1220, 940
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker
-  rotate: false
-  xy: 1534, 1692
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Worker-Modern era
-  rotate: false
-  xy: 580, 352
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Work Boats
-  rotate: false
-  xy: 1180, 697
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Work Boats-Modern era
-  rotate: false
-  xy: 1180, 661
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Work Boats
-  rotate: false
-  xy: 508, 74
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Work Boats-Modern era
-  rotate: false
-  xy: 508, 10
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Settler
-  rotate: false
-  xy: 980, 630
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Settler-Barbarians
-  rotate: false
-  xy: 1020, 705
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Settler-Modern era
-  rotate: false
-  xy: 980, 594
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Settler-Modern era-Barbarians
-  rotate: false
-  xy: 1020, 669
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Settler
-  rotate: false
-  xy: 1725, 791
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Settler-Modern era
-  rotate: false
-  xy: 1797, 795
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS EmbarkedUnit-Settler
-  rotate: false
-  xy: 660, 911
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS EmbarkedUnit-Settler-Modern era
-  rotate: false
-  xy: 700, 948
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler
-  rotate: false
-  xy: 76, 148
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler-Modern era
-  rotate: false
-  xy: 76, 76
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler-Renaissance era
-  rotate: false
-  xy: 76, 12
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Scout
-  rotate: false
-  xy: 1020, 742
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Scout
-  rotate: false
-  xy: 1581, 814
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Missionary
-  rotate: false
-  xy: 696, 470
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Missionary
-  rotate: false
-  xy: 1729, 1246
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Inquisitor
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Inquisitor
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Khan
-  rotate: false
-  xy: 616, 606
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Khan
-  rotate: false
-  xy: 937, 1586
-  size: 64, 66
-  orig: 64, 66
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Khan-Modern era
-  rotate: false
-  xy: 937, 1513
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Admiral
-  rotate: false
-  xy: 820, 1119
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Artist
-  rotate: false
-  xy: 780, 1048
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Engineer
-  rotate: false
-  xy: 780, 1012
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Galleass
-  rotate: false
-  xy: 780, 976
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great General
-  rotate: false
-  xy: 820, 1044
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Merchant
-  rotate: false
-  xy: 780, 940
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Musician
-  rotate: false
-  xy: 820, 1008
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Prophet
-  rotate: false
-  xy: 780, 904
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Scientist
-  rotate: false
-  xy: 820, 972
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great War Infantry
-  rotate: false
-  xy: 780, 868
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Great Writer
-  rotate: false
-  xy: 820, 936
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Admiral
-  rotate: false
-  xy: 505, 1632
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Admiral-Modern era
-  rotate: false
-  xy: 361, 1577
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Artist
-  rotate: false
-  xy: 433, 1577
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Artist-Modern era
-  rotate: false
-  xy: 357, 1513
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Engineer
-  rotate: false
-  xy: 429, 1513
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Engineer-Modern era
-  rotate: false
-  xy: 357, 1385
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Galleass
-  rotate: false
-  xy: 429, 1449
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great General
-  rotate: false
-  xy: 429, 1376
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great General-Modern era
-  rotate: false
-  xy: 505, 1559
-  size: 64, 65
-  orig: 64, 65
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Merchant
-  rotate: false
-  xy: 501, 1495
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Merchant-Modern era
-  rotate: false
-  xy: 501, 1431
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Prophet
-  rotate: false
-  xy: 501, 1367
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Scientist
-  rotate: false
-  xy: 292, 1316
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great Scientist-Modern era
-  rotate: false
-  xy: 292, 1252
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Great War Infantry
-  rotate: false
-  xy: 292, 1188
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/DNS Citadel
   rotate: false
   xy: 620, 273
@@ -904,195 +386,6 @@ TileSets/FantasyHex/Tiles/DNS Ancient ruins2
   xy: 1412, 1607
   size: 32, 28
   orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Carrier
-  rotate: false
-  xy: 580, 945
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Carrier
-  rotate: false
-  xy: 886, 1878
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Carrier-Information era
-  rotate: false
-  xy: 1030, 1860
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri1
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri1
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri2
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri2
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri3
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri3
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri4
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri4
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri5
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri5
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri6
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri6
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri7
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri7
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/DNS Checkeri8
-  rotate: false
-  xy: 860, 739
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/DNS Checkeri8
-  rotate: false
-  xy: 573, 1312
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/High Brute
-  rotate: false
-  xy: 580, 135
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/High Brute
-  rotate: false
-  xy: 1462, 1924
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/High Skirmisher
-  rotate: false
-  xy: 292, 243
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/High Skirmisher
-  rotate: false
-  xy: 1060, 940
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/High Galley
-  rotate: false
-  xy: 289, 1644
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/High Galley
-  rotate: false
-  xy: 740, 877
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/High Marauder
-  rotate: false
-  xy: 820, 648
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/High Marauder
-  rotate: false
-  xy: 1369, 1332
-  size: 64, 56
-  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DNS FunFort01
@@ -4735,6 +4028,713 @@ TileSets/HexaRealm/Tiles/RL20 Truffles+TI11 CampT-Industrial era
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/DNS Helicopter Gunship
+  rotate: false
+  xy: 820, 900
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Helicopter Gunship
+  rotate: false
+  xy: 292, 1052
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Destroyer
+  rotate: false
+  xy: 620, 978
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Destroyer
+  rotate: false
+  xy: 492, 1897
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Battleship
+  rotate: false
+  xy: 580, 1204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Battleship
+  rotate: false
+  xy: 886, 1942
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Missile Cruiser
+  rotate: false
+  xy: 696, 506
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Missile Cruiser
+  rotate: false
+  xy: 1657, 1110
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Nuclear Submarine
+  rotate: false
+  xy: 900, 953
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Nuclear Submarine
+  rotate: false
+  xy: 1801, 1055
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Modern Armor
+  rotate: false
+  xy: 696, 397
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Modern Armor
+  rotate: false
+  xy: 1801, 1183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Mechanized Infantry
+  rotate: false
+  xy: 700, 614
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Mechanized Infantry
+  rotate: false
+  xy: 1513, 1319
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Mobile SAM
+  rotate: false
+  xy: 860, 591
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Mobile SAM
+  rotate: false
+  xy: 1801, 1247
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Rocket Artillery
+  rotate: false
+  xy: 1020, 886
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Rocket Artillery
+  rotate: false
+  xy: 1581, 942
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Worker
+  rotate: false
+  xy: 1180, 625
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Worker-Barbarians
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Worker-Barbarians-Modern era
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Worker-Modern era
+  rotate: false
+  xy: 1220, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Worker
+  rotate: false
+  xy: 1534, 1692
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Worker-Modern era
+  rotate: false
+  xy: 580, 352
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Work Boats
+  rotate: false
+  xy: 1180, 697
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Work Boats-Modern era
+  rotate: false
+  xy: 1180, 661
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Work Boats
+  rotate: false
+  xy: 508, 74
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Work Boats-Modern era
+  rotate: false
+  xy: 508, 10
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Settler
+  rotate: false
+  xy: 980, 630
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Settler-Barbarians
+  rotate: false
+  xy: 1020, 705
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Settler-Modern era
+  rotate: false
+  xy: 980, 594
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Settler-Modern era-Barbarians
+  rotate: false
+  xy: 1020, 669
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Settler
+  rotate: false
+  xy: 1725, 791
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Settler-Modern era
+  rotate: false
+  xy: 1797, 795
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS EmbarkedUnit-Settler
+  rotate: false
+  xy: 660, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS EmbarkedUnit-Settler-Modern era
+  rotate: false
+  xy: 700, 948
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler
+  rotate: false
+  xy: 76, 148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler-Modern era
+  rotate: false
+  xy: 76, 76
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS EmbarkedUnit-Settler-Renaissance era
+  rotate: false
+  xy: 76, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Scout
+  rotate: false
+  xy: 1020, 742
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Scout
+  rotate: false
+  xy: 1581, 814
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Missionary
+  rotate: false
+  xy: 696, 470
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Missionary
+  rotate: false
+  xy: 1729, 1246
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Inquisitor
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Inquisitor
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Khan
+  rotate: false
+  xy: 616, 606
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Khan
+  rotate: false
+  xy: 937, 1586
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Khan-Modern era
+  rotate: false
+  xy: 937, 1513
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Admiral
+  rotate: false
+  xy: 820, 1119
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Artist
+  rotate: false
+  xy: 780, 1048
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Engineer
+  rotate: false
+  xy: 780, 1012
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Galleass
+  rotate: false
+  xy: 780, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great General
+  rotate: false
+  xy: 820, 1044
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Merchant
+  rotate: false
+  xy: 780, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Musician
+  rotate: false
+  xy: 820, 1008
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Prophet
+  rotate: false
+  xy: 780, 904
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Scientist
+  rotate: false
+  xy: 820, 972
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great War Infantry
+  rotate: false
+  xy: 780, 868
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Great Writer
+  rotate: false
+  xy: 820, 936
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Admiral
+  rotate: false
+  xy: 505, 1632
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Admiral-Modern era
+  rotate: false
+  xy: 361, 1577
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Artist
+  rotate: false
+  xy: 433, 1577
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Artist-Modern era
+  rotate: false
+  xy: 357, 1513
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Engineer
+  rotate: false
+  xy: 429, 1513
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Engineer-Modern era
+  rotate: false
+  xy: 357, 1385
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Galleass
+  rotate: false
+  xy: 429, 1449
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great General
+  rotate: false
+  xy: 429, 1376
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great General-Modern era
+  rotate: false
+  xy: 505, 1559
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Merchant
+  rotate: false
+  xy: 501, 1495
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Merchant-Modern era
+  rotate: false
+  xy: 501, 1431
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Prophet
+  rotate: false
+  xy: 501, 1367
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Scientist
+  rotate: false
+  xy: 292, 1316
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great Scientist-Modern era
+  rotate: false
+  xy: 292, 1252
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Great War Infantry
+  rotate: false
+  xy: 292, 1188
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Carrier
+  rotate: false
+  xy: 580, 945
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Carrier
+  rotate: false
+  xy: 886, 1878
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Carrier-Information era
+  rotate: false
+  xy: 1030, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri1
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri1
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri2
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri2
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri3
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri3
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri4
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri4
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri5
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri5
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri6
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri6
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri7
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri7
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/DNS Checkeri8
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/DNS Checkeri8
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Brute
+  rotate: false
+  xy: 580, 135
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Brute
+  rotate: false
+  xy: 1462, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Skirmisher
+  rotate: false
+  xy: 292, 243
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Skirmisher
+  rotate: false
+  xy: 1060, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Galley
+  rotate: false
+  xy: 289, 1644
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Galley
+  rotate: false
+  xy: 740, 877
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/High Marauder
+  rotate: false
+  xy: 820, 648
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/High Marauder
+  rotate: false
+  xy: 1369, 1332
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/DNS Worker Land Class 3
   rotate: false
   xy: 1180, 625
@@ -4819,14 +4819,1802 @@ TileSets/HexaRealm/Units/DNS Submarine
   orig: 64, 56
   offset: 0, 0
   index: -1
-
-
-
-
-
-
-
-
-
-
-
+TileSets/FantasyHex/Units/E2 African Forest Elephant
+  rotate: false
+  xy: 836, 1883
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Anti-Aircraft Gun
+  rotate: false
+  xy: 793, 1756
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Anti-Tank Gun
+  rotate: false
+  xy: 865, 1714
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Archer
+  rotate: false
+  xy: 1081, 1612
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Artillery
+  rotate: false
+  xy: 1225, 1559
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Atlatlist
+  rotate: false
+  xy: 1369, 1479
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Ballista
+  rotate: false
+  xy: 1844, 1339
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Battering Ram
+  rotate: false
+  xy: 580, 279
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Battleship
+  rotate: false
+  xy: 580, 1204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Berserker
+  rotate: false
+  xy: 580, 207
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Bowman
+  rotate: false
+  xy: 580, 1096
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/B01 Brute
+  rotate: false
+  xy: 580, 135
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Camel Archer
+  rotate: false
+  xy: 580, 1059
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Cannon
+  rotate: false
+  xy: 580, 99
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Caravel
+  rotate: false
+  xy: 580, 63
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Carolean
+  rotate: false
+  xy: 580, 27
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Carrier
+  rotate: false
+  xy: 580, 945
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Cataphract
+  rotate: false
+  xy: 580, 909
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Catapult
+  rotate: false
+  xy: 580, 873
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Cavalry
+  rotate: false
+  xy: 580, 761
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Chariot Archer
+  rotate: false
+  xy: 580, 689
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Chu-Ko-Nu
+  rotate: false
+  xy: 620, 316
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Companion Cavalry
+  rotate: false
+  xy: 700, 1171
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Composite Bowman
+  rotate: false
+  xy: 740, 1208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Conquistador
+  rotate: false
+  xy: 620, 1086
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Cossack
+  rotate: false
+  xy: 700, 1135
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Crossbowman
+  rotate: false
+  xy: 660, 1055
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Destroyer
+  rotate: false
+  xy: 620, 978
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Dromon
+  rotate: false
+  xy: 660, 983
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-E1 Settler
+  rotate: false
+  xy: 660, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-E1 Settler-Modern era
+  rotate: false
+  xy: 700, 948
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Foreign Legion
+  rotate: false
+  xy: 740, 949
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Frigate
+  rotate: false
+  xy: 740, 913
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Galleass
+  rotate: false
+  xy: 700, 836
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/B03 Galley
+  rotate: false
+  xy: 740, 877
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Gatling Gun
+  rotate: false
+  xy: 620, 757
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E8 Giant Death Robot
+  rotate: false
+  xy: 700, 797
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Admiral
+  rotate: false
+  xy: 820, 1119
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Artist
+  rotate: false
+  xy: 780, 1048
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Engineer
+  rotate: false
+  xy: 780, 1012
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great General
+  rotate: false
+  xy: 820, 1044
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Merchant
+  rotate: false
+  xy: 780, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Prophet
+  rotate: false
+  xy: 780, 904
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Great Scientist
+  rotate: false
+  xy: 820, 972
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Great War Infantry
+  rotate: false
+  xy: 780, 868
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Hakkapeliitta
+  rotate: false
+  xy: 780, 832
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Helicopter Gunship
+  rotate: false
+  xy: 820, 900
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Hoplite
+  rotate: false
+  xy: 820, 756
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Horse Archer
+  rotate: false
+  xy: 860, 1104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Horseman
+  rotate: false
+  xy: 860, 1068
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Hussar
+  rotate: false
+  xy: 860, 955
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Hwach'a
+  rotate: false
+  xy: 860, 919
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Infantry
+  rotate: false
+  xy: 820, 720
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Inquisitor
+  rotate: false
+  xy: 860, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Ironclad
+  rotate: false
+  xy: 660, 690
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Jaguar
+  rotate: false
+  xy: 780, 684
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Janissary
+  rotate: false
+  xy: 820, 684
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Keshik
+  rotate: false
+  xy: 616, 645
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Khan
+  rotate: false
+  xy: 616, 606
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Knight
+  rotate: false
+  xy: 616, 570
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Lancer
+  rotate: false
+  xy: 616, 424
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Landship
+  rotate: false
+  xy: 700, 650
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Landsknecht
+  rotate: false
+  xy: 740, 652
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Legion
+  rotate: false
+  xy: 656, 610
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Longbowman
+  rotate: false
+  xy: 656, 574
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Longswordsman
+  rotate: false
+  xy: 656, 538
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Machine Gun
+  rotate: false
+  xy: 656, 502
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Mandekalu Cavalry
+  rotate: false
+  xy: 656, 466
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Maori Warrior
+  rotate: false
+  xy: 780, 648
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/B04 Marauder
+  rotate: false
+  xy: 820, 648
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Marine
+  rotate: false
+  xy: 860, 627
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E8 Mechanized Infantry
+  rotate: false
+  xy: 700, 614
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Mehal Sefari
+  rotate: false
+  xy: 780, 612
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Minuteman
+  rotate: false
+  xy: 696, 542
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E8 Missile Cruiser
+  rotate: false
+  xy: 696, 506
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Missionary
+  rotate: false
+  xy: 696, 470
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Mobile SAM
+  rotate: false
+  xy: 860, 591
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E8 Modern Armor
+  rotate: false
+  xy: 696, 397
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Mohawk Warrior
+  rotate: false
+  xy: 692, 361
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Musketeer
+  rotate: false
+  xy: 940, 1107
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Musketman
+  rotate: false
+  xy: 900, 1025
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Naresuan's Elephant
+  rotate: false
+  xy: 940, 1071
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Norwegian Ski Infantry
+  rotate: false
+  xy: 940, 1035
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E8 Nuclear Submarine
+  rotate: false
+  xy: 900, 953
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Panzer
+  rotate: false
+  xy: 940, 891
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Paratrooper
+  rotate: false
+  xy: 900, 805
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Persian Immortal
+  rotate: false
+  xy: 900, 733
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Pictish Warrior
+  rotate: false
+  xy: 940, 779
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Pikeman
+  rotate: false
+  xy: 900, 697
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Privateer
+  rotate: false
+  xy: 980, 1031
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Quinquereme
+  rotate: false
+  xy: 980, 959
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E5 Rifleman
+  rotate: false
+  xy: 1020, 1030
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Rocket Artillery
+  rotate: false
+  xy: 1020, 886
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E9 SS Booster
+  rotate: false
+  xy: 980, 775
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E9 SS Cockpit
+  rotate: false
+  xy: 1020, 850
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E9 SS Engine
+  rotate: false
+  xy: 980, 739
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E9 SS Stasis Chamber
+  rotate: false
+  xy: 1020, 814
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Samurai
+  rotate: false
+  xy: 980, 703
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Scout
+  rotate: false
+  xy: 1020, 742
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Sea Beggar
+  rotate: false
+  xy: 980, 667
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Settler
+  rotate: false
+  xy: 980, 630
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Settler-Barbarians
+  rotate: false
+  xy: 1020, 705
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Settler-Modern era
+  rotate: false
+  xy: 980, 594
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Settler-Modern era-Barbarians
+  rotate: false
+  xy: 1020, 669
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Ship of the Line
+  rotate: false
+  xy: 1060, 1084
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Sipahi
+  rotate: false
+  xy: 1100, 1047
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/B02 Skirmisher
+  rotate: false
+  xy: 1060, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Slinger
+  rotate: false
+  xy: 1100, 1011
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Spearman
+  rotate: false
+  xy: 1100, 939
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E6 Submarine
+  rotate: false
+  xy: 1060, 794
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E2 Swordsman
+  rotate: false
+  xy: 1100, 795
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E7 Tank
+  rotate: false
+  xy: 1060, 722
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Tercio
+  rotate: false
+  xy: 1100, 759
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E3 Trebuchet
+  rotate: false
+  xy: 1100, 687
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Trireme
+  rotate: false
+  xy: 1060, 614
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E4 Turtle Ship
+  rotate: false
+  xy: 1180, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 War Chariot
+  rotate: false
+  xy: 1140, 799
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 War Elephant
+  rotate: false
+  xy: 1180, 839
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Warrior
+  rotate: false
+  xy: 1140, 763
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Work Boats
+  rotate: false
+  xy: 1180, 697
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Work Boats-Modern era
+  rotate: false
+  xy: 1180, 661
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Worker
+  rotate: false
+  xy: 1180, 625
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Worker-Barbarians
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Worker-Barbarians-Modern era
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E1 Worker-Modern era
+  rotate: false
+  xy: 1220, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 African Forest Elephant
+  rotate: false
+  xy: 4, 43
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Anti-Aircraft Gun
+  rotate: false
+  xy: 220, 1148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Anti-Tank Gun
+  rotate: false
+  xy: 220, 1084
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Archer
+  rotate: false
+  xy: 220, 1020
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Artillery
+  rotate: false
+  xy: 220, 956
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Artillery-Atomic era
+  rotate: false
+  xy: 220, 892
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Atlatlist
+  rotate: false
+  xy: 220, 828
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Ballista
+  rotate: false
+  xy: 220, 700
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Battering Ram
+  rotate: false
+  xy: 814, 1920
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Battleship
+  rotate: false
+  xy: 886, 1942
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Berserker
+  rotate: false
+  xy: 1318, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Bowman
+  rotate: false
+  xy: 1390, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/B01 Brute
+  rotate: false
+  xy: 1462, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Camel Archer
+  rotate: false
+  xy: 1534, 1910
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Cannon
+  rotate: false
+  xy: 1822, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Caravel
+  rotate: false
+  xy: 1894, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Carolean
+  rotate: false
+  xy: 1966, 1924
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Carrier
+  rotate: false
+  xy: 886, 1878
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Carrier-Information era
+  rotate: false
+  xy: 1030, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Cataphract
+  rotate: false
+  xy: 1102, 1852
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Catapult
+  rotate: false
+  xy: 1174, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Cavalry
+  rotate: false
+  xy: 1534, 1837
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Chariot Archer
+  rotate: false
+  xy: 1678, 1860
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Chariot Archer-Barbarians
+  rotate: false
+  xy: 4, 427
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Chu-Ko-Nu
+  rotate: false
+  xy: 1750, 1856
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Worker
+  rotate: false
+  xy: 1534, 1692
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Companion Cavalry
+  rotate: false
+  xy: 1822, 1703
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Composite Bowman
+  rotate: false
+  xy: 1894, 1710
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Conquistador
+  rotate: false
+  xy: 1966, 1703
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Cossack
+  rotate: false
+  xy: 1390, 1707
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Crossbowman
+  rotate: false
+  xy: 1678, 1654
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Destroyer
+  rotate: false
+  xy: 492, 1897
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Dromon
+  rotate: false
+  xy: 404, 1833
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E1 Settler
+  rotate: false
+  xy: 76, 148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E1 Settler-Modern era
+  rotate: false
+  xy: 76, 76
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E1 Settler-Renaissance era
+  rotate: false
+  xy: 76, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Foreign Legion
+  rotate: false
+  xy: 1606, 1519
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Frigate
+  rotate: false
+  xy: 1556, 1447
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Galleass
+  rotate: false
+  xy: 289, 1708
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/B03 Galley
+  rotate: false
+  xy: 289, 1644
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Gatling Gun
+  rotate: false
+  xy: 289, 1580
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E8 Giant Death Robot
+  rotate: false
+  xy: 285, 1444
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Admiral
+  rotate: false
+  xy: 505, 1632
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Admiral-Modern era
+  rotate: false
+  xy: 361, 1577
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Artist
+  rotate: false
+  xy: 433, 1577
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Artist-Modern era
+  rotate: false
+  xy: 357, 1513
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Engineer
+  rotate: false
+  xy: 429, 1513
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Engineer-Modern era
+  rotate: false
+  xy: 357, 1385
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great General
+  rotate: false
+  xy: 429, 1376
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great General-Modern era
+  rotate: false
+  xy: 505, 1559
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Merchant
+  rotate: false
+  xy: 501, 1495
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Merchant-Modern era
+  rotate: false
+  xy: 501, 1431
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Prophet
+  rotate: false
+  xy: 501, 1367
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Scientist
+  rotate: false
+  xy: 292, 1316
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Great Scientist-Modern era
+  rotate: false
+  xy: 292, 1252
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Great War Infantry
+  rotate: false
+  xy: 292, 1188
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Hakkapeliitta
+  rotate: false
+  xy: 292, 1116
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Helicopter Gunship
+  rotate: false
+  xy: 292, 1052
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Hoplite
+  rotate: false
+  xy: 292, 780
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Horse Archer
+  rotate: false
+  xy: 292, 709
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Horseman
+  rotate: false
+  xy: 292, 638
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Hussar
+  rotate: false
+  xy: 577, 1696
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Hwach'a
+  rotate: false
+  xy: 649, 1472
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Infantry
+  rotate: false
+  xy: 717, 1344
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Inquisitor
+  rotate: false
+  xy: 573, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Ironclad
+  rotate: false
+  xy: 717, 1280
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Jaguar
+  rotate: false
+  xy: 865, 1641
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Janissary
+  rotate: false
+  xy: 865, 1577
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Keshik
+  rotate: false
+  xy: 861, 1312
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Khan
+  rotate: false
+  xy: 937, 1586
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Khan-Modern era
+  rotate: false
+  xy: 937, 1513
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Knight
+  rotate: false
+  xy: 937, 1439
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Lancer
+  rotate: false
+  xy: 1009, 1511
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Landship
+  rotate: false
+  xy: 1081, 1460
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Landsknecht
+  rotate: false
+  xy: 1081, 1392
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Legion
+  rotate: false
+  xy: 1153, 1531
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Longbowman
+  rotate: false
+  xy: 1153, 1467
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Longswordsman
+  rotate: false
+  xy: 1153, 1403
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Machine Gun
+  rotate: false
+  xy: 1153, 1339
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Mandekalu Cavalry
+  rotate: false
+  xy: 1081, 1321
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Maori Warrior
+  rotate: false
+  xy: 1369, 1396
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/B04 Marauder
+  rotate: false
+  xy: 1369, 1332
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Marine
+  rotate: false
+  xy: 1441, 1172
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E8 Mechanized Infantry
+  rotate: false
+  xy: 1513, 1319
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Mehal Sefari
+  rotate: false
+  xy: 1513, 1255
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Minuteman
+  rotate: false
+  xy: 1657, 1174
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E8 Missile Cruiser
+  rotate: false
+  xy: 1657, 1110
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Missionary
+  rotate: false
+  xy: 1729, 1246
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Mobile SAM
+  rotate: false
+  xy: 1801, 1247
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E8 Modern Armor
+  rotate: false
+  xy: 1801, 1183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Mohawk Warrior
+  rotate: false
+  xy: 1801, 1119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Musketeer
+  rotate: false
+  xy: 1945, 1103
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Musketman
+  rotate: false
+  xy: 1585, 1070
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Naresuan's Elephant
+  rotate: false
+  xy: 1513, 1054
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Norwegian Ski Infantry
+  rotate: false
+  xy: 1729, 1050
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E8 Nuclear Submarine
+  rotate: false
+  xy: 1801, 1055
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Panzer
+  rotate: false
+  xy: 1873, 930
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Paratrooper
+  rotate: false
+  xy: 1801, 923
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Persian Immortal
+  rotate: false
+  xy: 1945, 847
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Pictish Warrior
+  rotate: false
+  xy: 1873, 802
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Pikeman
+  rotate: false
+  xy: 1945, 779
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Privateer
+  rotate: false
+  xy: 1221, 1140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Quinquereme
+  rotate: false
+  xy: 1221, 1012
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E5 Rifleman
+  rotate: false
+  xy: 1293, 975
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Rocket Artillery
+  rotate: false
+  xy: 1581, 942
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E9 SS Booster
+  rotate: false
+  xy: 1509, 862
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E9 SS Cockpit
+  rotate: false
+  xy: 1509, 862
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E9 SS Engine
+  rotate: false
+  xy: 1509, 862
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E9 SS Stasis Chamber
+  rotate: false
+  xy: 1509, 862
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Samurai
+  rotate: false
+  xy: 1725, 855
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Scout
+  rotate: false
+  xy: 1581, 814
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Sea Beggar
+  rotate: false
+  xy: 1653, 790
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Settler
+  rotate: false
+  xy: 1725, 791
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Settler-Modern era
+  rotate: false
+  xy: 1797, 795
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Ship of the Line
+  rotate: false
+  xy: 1941, 707
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Sipahi
+  rotate: false
+  xy: 292, 307
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/B02 Skirmisher
+  rotate: false
+  xy: 292, 243
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Slinger
+  rotate: false
+  xy: 292, 179
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Spearman
+  rotate: false
+  xy: 364, 1312
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E6 Submarine
+  rotate: false
+  xy: 400, 396
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E2 Swordsman
+  rotate: false
+  xy: 436, 196
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E7 Tank
+  rotate: false
+  xy: 436, 132
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Tercio
+  rotate: false
+  xy: 436, 68
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E3 Trebuchet
+  rotate: false
+  xy: 436, 975
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Trireme
+  rotate: false
+  xy: 436, 911
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E4 Turtle Ship
+  rotate: false
+  xy: 508, 672
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 War Chariot
+  rotate: false
+  xy: 472, 476
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 War Elephant
+  rotate: false
+  xy: 472, 406
+  size: 64, 62
+  orig: 64, 62
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Warrior
+  rotate: false
+  xy: 544, 608
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Work Boats
+  rotate: false
+  xy: 508, 74
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Work Boats-Modern era
+  rotate: false
+  xy: 508, 10
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E1 Worker-Modern era
+  rotate: false
+  xy: 580, 352
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
