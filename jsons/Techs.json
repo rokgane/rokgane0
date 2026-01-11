@@ -35,22 +35,44 @@
 		"buildingCost": 40,//xtc00Cost
 		"wonderCost": 185,//xtc00Cost
 		"techs": [
-			{//TechParadrop
-				"name": "TechParadrop",
-				"row": 19,
+
+
+
+			{//TechHumanCheat cheat building
+				"name": "TechHumanSwitchGk",
+				"row": 13,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{//TechEnemaCheat cheat building
-				"name": "TechBorderEater",
-				"row": 20,
+				"name": "TechEnemaSwitchGk",
+				"row": 14,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
+
+			{//xsa//more challenges for AI
+				"name": "Treats AI",
+				"row": 15,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables embarkation for land units",
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//xsa//more challenges for Human
+				"name": "Treats Human",
+				"row": 16,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
 			{//TechHumanCheat cheat building
 				"name": "TechHumanCheat",
 				"row": 17,
@@ -68,19 +90,17 @@
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
-
-			{//xsa//more challenges for AI
-				"name": "Treats AI",
-				"row": 15,
+			{//TechParadrop
+				"name": "TechParadrop",
+				"row": 19,
 				"quote": "Cheat tech",
 				"uniques": [
-					"Enables embarkation for land units",
 					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
-			{//xsa//more challenges for Human
-				"name": "Treats Human",
-				"row": 16,
+			{//TechEnemaCheat cheat building
+				"name": "TechBorderEater",
+				"row": 20,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -123,6 +143,7 @@
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
             },
+
 			{
 				"name": "E1 Agriculture",
 				"row": 6,

@@ -114,8 +114,9 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+
 			"Uncapturable", 
 
             //"Can build [Land] improvements on tiles", 
@@ -159,11 +160,12 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
-			"Excess Food converted to Production when under E2 Construction",
+			"Excess Food converted to Production when under Construction",
 			"Can move immediately once bought", 
 			"Requires at least [2] population",
 			"[+3] Sight <before the [Classical era]>",
@@ -183,8 +185,9 @@ E3 Longbowman
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Only available <in cities with a [MiniCake ShowGk]> <hidden from users>",
-			"Unavailable <in cities with a [MiniCake HideGk]> <hidden from users>",
+
+			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+
 			"Limited to [5] per Civilization",
 			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
@@ -2305,7 +2308,8 @@ E3 Longbowman
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><before discovering [TechUnlocker]>",
+
 			"Can instantly construct a [Landmark] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
 			"Can instantly construct a [DNS Landmark] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [Culture]", 
@@ -2341,6 +2345,7 @@ E3 Longbowman
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
+
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Customs house] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
 			"Can instantly construct a [DNS Customs house] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
@@ -2358,7 +2363,7 @@ E3 Longbowman
 		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [1] per Civilization",
-			"Can speed up E2 Construction of a building", 
+			"Can speed up Construction of a building", 
 			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
 			"Can instantly construct a [DNS Manufactory] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
 			"Great Person - [Production]", 
@@ -5499,4 +5504,3 @@ E9 SS Stasis Chamber
 
 
 
-a

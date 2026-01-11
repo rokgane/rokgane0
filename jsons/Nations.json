@@ -2120,8 +2120,18 @@
 			"Starts with [E1 Animal Husbandry]", 
 			"\"Borrows\" city names from other civilizations in the game"],
 		"cities": [
-			"HUNc00 Attila's Court"
-			],
+			"HUNc00 Attila's Court",
+			"HUNc01 Balamber",
+			"HUNc02 Kursich", 
+			"HUNc03 Basich", 
+			"HUNc04 Uldin", 
+			"HUNc05 Charaton", 
+			"HUNc06 Octar", 
+			"HUNc07 Rugila",
+			"HUNc08 Bleda", 
+			"HUNc09 Dengizich", 
+			"HUNc10 Ernak"
+		],
 		"spyNames": [
 			"HUNs00 Balamber", 
 			"HUNs01 Uldin", 
@@ -2132,7 +2142,8 @@
 			"HUNs06 Ellac", 
 			"HUNs07 Dengizik", 
 			"HUNs08 Hildico", 
-			"HUNs09 Gudrun"]
+			"HUNs09 Gudrun"
+		]
 	},
 	{
 		"name": "N27 The Netherlands",

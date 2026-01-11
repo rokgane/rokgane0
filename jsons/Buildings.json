@@ -2194,8 +2194,6 @@
 				"[-50]% Unhappiness from [Population] [in this city]",
 				"[+100]% [Happiness] [in this city]",
 
-
-				"Gain a free [MiniCake ShowGk] [in this city]",
 				"Gain a free [MiniCake Cloned Resource] [in this city]",
 				"Gain a free [MiniCake Border Eater lv0] [in this city]",
 				
@@ -2511,6 +2509,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
+
 
 
 
@@ -7632,6 +7631,7 @@
         		"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities] <during the [Atomic era]>",
         		"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities] <during the [Information era]>",
 
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -7706,6 +7706,7 @@
 			"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
 //			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
 
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -7717,6 +7718,68 @@
 		"requiredTech": "TechUnlocker"
 	},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "EnemaSwitchGkOn",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "EnemaGkEnabler",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+			"Gain a free [MiniCake ShowGk] [in this city]",
+
+//			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Automatically built in all cities where it is buildable",
+			"Only available <after discovering [TechEnemaSwitchGk]><for [AI player] Civilizations>",
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechEnemaSwitchGk"
+	},
 
 
 
@@ -8222,7 +8285,7 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
-			"Discover aE8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
+			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
 			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [Human player] Civilizations>",
 			"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]> <for [Human player] Civilizations>",
 			"Discover [E8 Satellites]<before discovering [E8 Satellites]> <for [Human player] Civilizations>",
@@ -10033,6 +10096,9 @@ MiniCake DNS Lock
 MiniCake DNS Lock Unit
 MiniCake DNS locked Unit
 
+MiniCake ShowGk
+MiniCake HideGk
+
 MiniCake Capitol Booster
 MiniCake Cities Booster
 
@@ -10204,16 +10270,12 @@ Unit Rewards Bonus For Faith
 Build special units
 C-S cheat
 
-MiniCake HumanAutomateBuilding Main
-1 HumanAutomateBuildingEra Ancient
-2 HumanAutomateBuildingEra Classical
-3 HumanAutomateBuildingEra Medieval
-4 HumanAutomateBuildingEra Renaissance
-5 HumanAutomateBuildingEra Industrial
-6 HumanAutomateBuildingEra Modern
-7 HumanAutomateBuildingEra Atomic
-8 HumanAutomateBuildingEra Information
-9 HumanAutomateBuildingEra Future
+MiniCake Human Automate Building
+MiniCake Automate All Wonder
+
+EnemaSwitchGkOn
+EnemaGkEnabler
+
 
 MiniCake HumanAdvanceEra Main
 
