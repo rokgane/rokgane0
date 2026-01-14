@@ -1676,7 +1676,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-			"May not generate E0 Great Prophet equivalents naturally",
+//			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
 			]
@@ -2036,6 +2036,8 @@
 		"isWonder": true,
 //		"specialistSlots": {"Townie": 10},
 		"uniques": [
+			"Comment [All of these buildings are Unbuildable for AIs so no need to worry + destroyed if city is captured]",
+
 			"[1] free [Revealer] units appear", 
 
 			"[-50]% Unhappiness from [Population] [in all cities]",
@@ -7745,6 +7747,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"Comment [Enable Unit gk for AI]",
+
 			"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 
 			"Unbuildable <hidden from users>",

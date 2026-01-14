@@ -209,7 +209,7 @@ E3 Longbowman
 		    "May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "This is your basic, club-swinging E7 Fighter."}
+			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
 
@@ -2292,7 +2292,7 @@ E3 Longbowman
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
 		    "Damage taken from interception reduced by [100]%", 
-		    "Cannot be carried by [E6 Carrier] units", 
+		    "Cannot be carried by [Carrier] units", 
 		    "[+4] Sight",
 		    "Can see over obstacles"],
 		"attackSound": "bombing"
@@ -2678,7 +2678,7 @@ E3 Longbowman
 		"requiredResource": "RM01 Aetherium",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Can carry [1] [Air] units",
+			"Can carry [2] [Aircraft] units",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Unable to capture cities",
@@ -2694,21 +2694,22 @@ E3 Longbowman
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	  //xsa//added//airunit
   
@@ -3359,7 +3360,7 @@ E3 Longbowman
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
-			"Can carry [6] [Air] units", 
+			"Can carry [6] [Aircraft] units", 
 			"Can carry [12] [Missile] units", 
 
 			"Can enter ice tiles",
@@ -3436,7 +3437,7 @@ E3 Longbowman
     	"cost": 200,
     	"uniques": [
     	    "[+30] Sight",
-			"Can carry [6] [Air] units", 
+			"Can carry [6] [Aircraft] units", 
 			"Can carry [12] [Missile] units", 
 
 			"Can see over obstacles",
@@ -3550,7 +3551,7 @@ E3 Longbowman
 
 			"[100]% chance to intercept air attacks", 
 			"Can see invisible [Submarine] units",
-			"Can carry [2] [Air] units", 
+			"Can carry [2] [Aircraft] units", 
 			"Can carry [3] [Missile] units", 
 
 	    	"Limited to [6] per Civilization"
@@ -3820,6 +3821,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+		    
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
@@ -4119,6 +4121,7 @@ E3 Longbowman
 			"Uncapturable",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units", 
+			"Can carry [6] [DNSMissile] units", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -4147,6 +4150,8 @@ E3 Longbowman
 			"Uncapturable",
 //		    "Cannot attack", 
 		    "Can carry [6] [Aircraft] units"
+		    "Can carry [6] [DNSMissile] units", 
+
 			"Never appears as a Barbarian unit"],
 	},
 

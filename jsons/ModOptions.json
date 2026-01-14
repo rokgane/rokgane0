@@ -37,6 +37,93 @@
 	},
 
 
+
+	"policiesToRemove": [
+
+        "Tradition",
+            		"Aristocracy",
+            		"Legalism",
+            		"Oligarchy",
+            		"Landed Elite",
+            		"Monarchy",
+            		"Tradition Complete",
+            
+            "Liberty",
+            		"Republic",
+            		"Citizenship",
+            		"Collective Rule",
+            		"Representation",
+            		"Meritocracy",
+            		"Liberty Complete",
+            
+            "Honor",
+            		"Warrior Code",
+            		"Discipline",
+            		"Military Tradition",
+            		"Military Caste&
+            		"Professional Army",
+            		"Organized Religion",
+            		"Honor Complete",
+            
+            "Piety",
+            		"Organized Religion",
+            		"Mandate Of Heaven",
+            		"Theocracy",
+            		"Reformation",
+            		"Free Religion",
+            		"Piety Complete",
+            
+            "Patronage",
+            		"Philantropy",
+            		"Aesthetics",
+            		"Scholasticism",
+            		"Cultural Diplomacy",
+            		"Educated Elite",
+            		"Patronage Complete",
+            
+            "Commerce",
+            		"Naval Tradition",
+            		"Trade Unions",
+            		"Merchant Navy",
+            		"Mercantilism",
+            		"Protectionism",
+            		"Commerce Complete",
+            
+            "Rationalism",
+            		"Secularism",
+            		"Humanism",
+            		"Free Thought",
+            		"Sovereignty",
+            		"Scientific Revolution",
+            		"Rationalism Complete",
+            
+            "Freedom",
+            		"Constitution",
+            		"Universal Suffrage",
+            		"Civil Society",
+            		"Free Speech",
+            		"Democracy",
+            		"Freedom Complete",
+            
+            "Autocracy",
+            		"Populism",
+            		"Militarism",
+            		"Fascism",
+            		"Police State",
+            		"Total War",
+            		"Autocracy Complete",
+            
+            "Order",
+            		"United Front",
+            		"Planned Economy",
+            		"Nationalism",
+            		"Socialism",
+            		"Communism",
+            		"Order Complete",
+    ],
+
+
+
 	"techsToRemove": [
 
 		"Agriculture",

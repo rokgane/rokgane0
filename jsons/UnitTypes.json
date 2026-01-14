@@ -137,6 +137,7 @@ added to almost all unit
 		"name": "Atomic Bomber",
 		"movementType": "Air",
 		"uniques": [
+		  "Missile",
 //xsa//			"Limited to [50] per Civilization",
 		  "Automation is a primary action",
 		  "Aircraft"
@@ -147,6 +148,7 @@ added to almost all unit
 		"movementType": "Air",
 		"uniques": [
 //xsa//			"Limited to [50] per Civilization",
+		  "Missile",
 		  "Automation is a primary action",
 		  "Self-destructs when attacking", 
 		  "Cannot be intercepted"
@@ -519,6 +521,7 @@ added to almost all unit
         "name": "DNSAtomic Bomber",
         "movementType": "Air",
         "uniques": [
+            "Missile",
             "Automation is a primary action",
             "Can move immediately once bought",
             "Aircraft"
@@ -528,6 +531,7 @@ added to almost all unit
         "name": "DNSMissile",
         "movementType": "Air",
         "uniques": [
+            "Missile",
             "Automation is a primary action",
             "Can move immediately once bought",
             "Self-destructs when attacking", 
