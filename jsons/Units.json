@@ -2308,7 +2308,7 @@ E3 Longbowman
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 
 			"Can instantly construct a [Landmark] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
 			"Can instantly construct a [DNS Landmark] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
@@ -2406,7 +2406,7 @@ E3 Longbowman
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+15] HP when healing", 
 			"[+15] HP when healing",
@@ -2426,7 +2426,7 @@ E3 Longbowman
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
 			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
@@ -2448,7 +2448,7 @@ E3 Longbowman
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
@@ -4648,7 +4648,7 @@ E3 Longbowman
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-			"Empire enters a [100]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [100]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+15] HP when healing", 
 			"[+15] HP when healing",
@@ -4678,7 +4678,7 @@ E3 Longbowman
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
 			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
@@ -4716,7 +4716,7 @@ E3 Longbowman
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a golden age>",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
