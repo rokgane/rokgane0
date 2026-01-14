@@ -9544,7 +9544,7 @@
 //xsa//unlock Policy
 
 	{
-		"name": "Unlock Adopt Policy Main",
+		"name": "Adopt Policy Start",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9570,7 +9570,7 @@
 
 
 	{
-		"name": "Adopt Complete Tradition",
+		"name": "Adopt P01 Tradition",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9591,7 +9591,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Liberty",
+		"name": "Adopt P02 Liberty",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9612,7 +9612,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Honor",
+		"name": "Adopt P03 Honor",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9633,7 +9633,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Piety",
+		"name": "Adopt P04 Piety",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9654,7 +9654,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Patronage",
+		"name": "Adopt P05 Patronage",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9675,7 +9675,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Commerce",
+		"name": "Adopt P06 Commerce",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9696,7 +9696,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Rationalism",
+		"name": "Adopt P07 Rationalism",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9717,7 +9717,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Freedom",
+		"name": "Adopt P08 Freedom",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9738,7 +9738,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Autocracy",
+		"name": "Adopt P09 Autocracy",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9759,7 +9759,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "Adopt Complete Order",
+		"name": "Adopt P10 Order",
 		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -9782,7 +9782,30 @@
 
 
 
-
+	{
+		"name": "Adopt Policy Complete",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
+			"Adopt [Tradition Complete]<before adopting [Tradition Complete]>",
+			"Adopt [Liberty Complete]<before adopting [Liberty Complete]>",
+			"Adopt [Honor Complete]<before adopting [Honor Complete]>",
+			"Adopt [Piety Complete]<before adopting [Piety Complete]>",
+			"Adopt [Patronage Complete]<before adopting [Patronage Complete]>",
+			"Adopt [Commerce Complete]<before adopting [Commerce Complete]>",
+			"Adopt [Rationalism Complete]<before adopting [Rationalism Complete]>",
+			"Adopt [Freedom Complete]<before adopting [Freedom Complete]>",
+			"Adopt [Autocracy Complete]<before adopting [Autocracy Complete]>",
+			"Adopt [Order Complete]<before adopting [Order Complete]>",
+			"Unbuildable <hidden from users>",
+		"Moves to new capital when capital changes<hidden from users>",
+		"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
