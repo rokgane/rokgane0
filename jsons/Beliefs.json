@@ -8,7 +8,7 @@
 //          "[+80]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 //          "[+80]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[+30]% growth [in this city]",
-            "[+20]% growth [in all city] <when not at war>",
+            "[+20]% growth [in all cities] <when not at war>",
 			"[All] Units adjacent to this city heal [+50] HP per turn when healing",
 //            "[+10 Happiness] for each global city following this religion",
 
@@ -322,7 +322,7 @@
     {
         "name": "ENH02 Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [E0 Inquisitor] units [-30]%"]
+        "uniques": ["[Faith] cost of purchasing [E0 Missionary] units [-30]%", "[Faith] cost of purchasing [E0 Inquisitor] units [-30]%"]
     },
     {
         "name": "ENH03 Itinerant Preachers",
