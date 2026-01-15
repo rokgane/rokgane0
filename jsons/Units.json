@@ -4062,7 +4062,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Limited to [5] per Civilization <hidden from users>",
+			"Limited to [6] per Civilization <hidden from users>",
 
 //		    "Invisible to non-adjacent units",
 //		    "Invisible to others",
@@ -4121,7 +4121,7 @@ E3 Longbowman
 			"Uncapturable",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units", 
-			"Can carry [6] [DNSMissile] units", 
+//			"Can carry [6] [DNSMissile] units", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -4150,7 +4150,7 @@ E3 Longbowman
 			"Uncapturable",
 //		    "Cannot attack", 
 		    "Can carry [6] [Aircraft] units"
-		    "Can carry [6] [DNSMissile] units", 
+//		    "Can carry [6] [DNSMissile] units", 
 
 			"Never appears as a Barbarian unit"],
 	},

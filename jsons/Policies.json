@@ -1,6 +1,6 @@
 [
 	{
-		"name": "P01 Tradition",
+		"name": "Po01 Tradition",
 		"era": "Ancient era",
 		"priorities": {
 			"Neutral": 5,
@@ -15,7 +15,7 @@
 		],
 		"policies": [
 			{
-				"name": "P01 Aristocracy",
+				"name": "Po01 Aristocracy",
 				"uniques": [
 					"[+15]% Production when constructing [All] wonders [in all cities]",
 					"[+1 Happiness] per [10] population [in all cities]"
@@ -24,7 +24,7 @@
 				"column": 1
 			},
 			{
-				"name": "P01 Legalism",
+				"name": "Po01 Legalism",
 				"uniques": [
 					"Provides the cheapest [Culture] building in your first [4] cities for free"
 				],
@@ -32,7 +32,7 @@
 				"column": 3
 			},
 			{
-				"name": "P01 Oligarchy",
+				"name": "Po01 Oligarchy",
 				"uniques": [
 					"Units in cities cost no Maintenance",
 					"[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -42,26 +42,26 @@
 				"column": 5
 			},
 			{
-				"name": "P01 Landed Elite",
+				"name": "Po01 Landed Elite",
 				"uniques": [
 					"[+10]% growth [in capital]",
 					"[+2 Food] [in capital]"
 				],
-				"requires": ["P01 Legalism"],
+				"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P01 Monarchy",
+				"name": "Po01 Monarchy",
 				"uniques": [
 					"[+1 Gold, +1 Happiness] per [2] population [in capital]"
 				],
-				"requires": ["P01 Legalism"],
+				"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "P01 Tradition Complete",
+				"name": "Po01 Tradition Complete",
 				"uniques": [
 					"[+15]% growth [in all cities]",
 					"Provides a [E2 Aqueduct] in your first [4] cities for free",
@@ -71,7 +71,7 @@
 		]
 	},
 	{
-		"name": "P02 Liberty",
+		"name": "Po02 Liberty",
 		"era": "Ancient era",
 		"priorities": {
 			"Neutral": 10,
@@ -83,7 +83,7 @@
 		"uniques": ["[+1 Culture] [in all cities]"],
 		"policies": [
 			{
-				"name": "P02 Republic",
+				"name": "Po02 Republic",
 				"uniques": [
 					"[+1 Production] [in all cities]",
 					"[+5]% Production when constructing [All] buildings [in all cities]",
@@ -92,7 +92,7 @@
 				"column": 1
 			},
 			{
-				"name": "P02 Citizenship",
+				"name": "Po02 Citizenship",
 				"uniques": [
 					"Can build [all] improvements at a [+25]% rate",
 					"Free [E1 Worker] appears",
@@ -102,38 +102,38 @@
 				"column": 4
 			},
 			{
-				"name": "P02 Collective Rule",
+				"name": "Po02 Collective Rule",
 				"uniques": [
 					"[+50]% Production when constructing [E1 Settler] units [in capital]",
 					"Free [E1 Settler] appears"
 				],
-				"requires": ["P02 Republic"],
+				"requires": ["Po02 Republic"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "P02 Representation",
+				"name": "Po02 Representation",
 				"uniques": [
 					"Each city founded increases culture cost of policies [33]% less than normal",
 					"Empire enters golden age"
 				],
-				"requires": ["P02 Citizenship"],
+				"requires": ["Po02 Citizenship"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "P02 Meritocracy",
+				"name": "Po02 Meritocracy",
 				"uniques": [
 					"[+1 Happiness] [in all cities connected to capital]",
 					"[5]% Unhappiness from [Population] [in all non-occupied cities]",
 					"[100]% weight to this choice for AI decisions"
 				],
-				"requires": ["P02 Citizenship"],
+				"requires": ["Po02 Citizenship"],
 				"row": 2,
 				"column": 5
 			},
 			{
-				"name": "P02 Liberty Complete",
+				"name": "Po02 Liberty Complete",
 				"uniques": [
 					"Free Great Person",
 					"Get the leader title of [Consul [leaderName]]"
@@ -142,7 +142,7 @@
 		]
 	},
 	{
-		"name": "P03 Honor",
+		"name": "Po03 Honor",
 		"era": "Ancient era",
 		"priorities": {
 			"Neutral": 5,
@@ -158,7 +158,7 @@
 		],
 		"policies": [
 			{
-				"name": "P03 Warrior Code",
+				"name": "Po03 Warrior Code",
 				"uniques": [
 					"[+15]% Production when constructing [Melee] units [in all cities]",
 					"Free [E0 Great General] appears"
@@ -167,7 +167,7 @@
 				"column": 2
 			},
 			{
-				"name": "P03 Discipline",
+				"name": "Po03 Discipline",
 				"uniques": [
 					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
 				],
@@ -175,25 +175,25 @@
 				"column": 4
 			},
 			{
-				"name": "P03 Military Tradition",
+				"name": "Po03 Military Tradition",
 				"uniques": [
 					"[+50]% XP gained from combat <for [Military] units>"
 				],
-				"requires": ["P03 Warrior Code"],
+				"requires": ["Po03 Warrior Code"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P03 Military Caste",
+				"name": "Po03 Military Caste",
 				"uniques": [
 					"[+1 Happiness, +2 Culture] [in all cities with a garrison]"
 				],
-				"requires": ["P03 Discipline"],
+				"requires": ["Po03 Discipline"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "P03 Professional Army",
+				"name": "Po03 Professional Army",
 				"uniques": [
 					"[33]% Gold cost of upgrading <for [Military] units>",
 					"[+1 Happiness] from every [E1 Walls]",
@@ -201,12 +201,12 @@
 					"[+1 Happiness] from every [E4 Arsenal]",
 					"[+1 Happiness] from every [E6 Military Base]"
 				],
-				"requires": ["P03 Military Caste"],
+				"requires": ["Po03 Military Caste"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "P03 Honor Complete",
+				"name": "Po03 Honor Complete",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 					"Get the leader title of [[leaderName] the Great]"
@@ -215,7 +215,7 @@
 		]
 	},
 	{
-		"name": "P04 Piety",
+		"name": "Po04 Piety",
 		"era": "Classical era",
 		"priorities": {
 			"Neutral": 0,
@@ -227,12 +227,12 @@
 		"uniques": [
 			"[+100]% Production when constructing [E1 Shrine] buildings [in all cities]",
 			"[+100]% Production when constructing [E2 Temple] buildings [in all cities]",
-			"Only available <before adopting [P07 Rationalism]>",
+			"Only available <before adopting [Po07 Rationalism]>",
 			"[100]% weight to this choice for AI decisions <when religion is disabled>"
 		],
 		"policies": [
 			{
-				"name": "P04 Organized Religion",
+				"name": "Po04 Organized Religion",
 				"uniques": [
 					"[+1 Faith] from every [E1 Shrine]",
 					"[+1 Faith] from every [E2 Temple]"
@@ -241,37 +241,37 @@
 				"column": 2
 			},
 			{
-				"name": "P04 Mandate Of Heaven",
+				"name": "Po04 Mandate Of Heaven",
 				"uniques": ["[50]% of excess happiness converted to [Culture]"],
 				"row": 1,
 				"column": 5
 			},
 			{
-				"name": "P04 Theocracy",
+				"name": "Po04 Theocracy",
 				"uniques": ["[+10]% [Gold] from every [E2 Temple]"],
-				"requires": ["P04 Organized Religion"],
+				"requires": ["Po04 Organized Religion"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "P04 Reformation",
+				"name": "Po04 Reformation",
 				"uniques": [
 					"[+33]% [Culture] [in all cities with a world wonder]",
 					"Empire enters golden age"
 				],
-				"requires": ["P04 Organized Religion"],
+				"requires": ["Po04 Organized Religion"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "P04 Free Religion",
+				"name": "Po04 Free Religion",
 				"uniques": ["[10]% Culture cost of adopting new Policies"],
-				"requires": ["P04 Mandate Of Heaven", "P04 Reformation"],
+				"requires": ["Po04 Mandate Of Heaven", "Po04 Reformation"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "P04 Piety Complete",
+				"name": "Po04 Piety Complete",
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [20]%",
 					"[+3 Gold, +3 Culture] from every [Holy site]",
@@ -281,7 +281,7 @@
 		]
 	},
 	{
-		"name": "P05 Patronage",
+		"name": "Po05 Patronage",
 		"era": "Medieval era",
 		"priorities": {
 			"Neutral": 5,
@@ -296,7 +296,7 @@
 		],
 		"policies": [
 			{
-				"name": "P05 Philantropy",
+				"name": "Po05 Philantropy",
 				"uniques": [
 					"Gifts of Gold to City-States generate [25]% more Influence"
 				],
@@ -304,7 +304,7 @@
 				"column": 2
 			},
 			{
-				"name": "P05 Aesthetics",
+				"name": "Po05 Aesthetics",
 				"uniques": [
 					"Resting point for Influence with City-States is increased by [20]"
 				],
@@ -312,27 +312,27 @@
 				"column": 4
 			},
 			{
-				"name": "P05 Scholasticism",
+				"name": "Po05 Scholasticism",
 				"uniques": [
 					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
 				],
-				"requires": ["P05 Philantropy"],
+				"requires": ["Po05 Philantropy"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P05 Cultural Diplomacy",
+				"name": "Po05 Cultural Diplomacy",
 				"uniques": [
 					"[+100]% resources gifted by City-States",
 					"[+50]% Happiness from luxury resources gifted by City-States"
 				],
-				"requires": ["P05 Scholasticism"],
+				"requires": ["Po05 Scholasticism"],
 				"row": 3,
 				"column": 2
 			},
 			{
-				"name": "P05 Educated Elite",
-				"requires": ["P05 Scholasticism", "P05 Aesthetics"],
+				"name": "Po05 Educated Elite",
+				"requires": ["Po05 Scholasticism", "Po05 Aesthetics"],
 				"uniques": [
 					"Allied City-States will occasionally gift Great People"
 				],
@@ -340,7 +340,7 @@
 				"column": 4
 			},
 			{
-				"name": "P05 Patronage Complete",
+				"name": "Po05 Patronage Complete",
 				"uniques": [
 					"Influence of all other civilizations with all city-states degrades [33]% faster",
 					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
@@ -350,7 +350,7 @@
 		]
 	},
 	{
-		"name": "P06 Commerce",
+		"name": "Po06 Commerce",
 		"era": "Medieval era",
 		"priorities": {
 			"Neutral": 5,
@@ -362,7 +362,7 @@
 		"uniques": ["[+25]% [Gold] [in capital]"],
 		"policies": [
 			{
-				"name": "P06 Naval Tradition",
+				"name": "Po06 Naval Tradition",
 				"uniques": [
 					"[+1] Movement <for [{Military} {Water}] units>",
 					"[+1] Sight <for [{Military} {Water}] units>",
@@ -373,7 +373,7 @@
 				"column": 2
 			},
 			{
-				"name": "P06 Trade Unions",
+				"name": "Po06 Trade Unions",
 				"uniques": [
 					"[33]% maintenance on road & railroads",
 					"[+1 Gold] from every [E3 Harbor]",
@@ -383,14 +383,14 @@
 				"column": 4
 			},
 			{
-				"name": "P06 Merchant Navy",
+				"name": "Po06 Merchant Navy",
 				"uniques": ["[+3 Production] [in all coastal cities]"],
-				"requires": ["P06 Naval Tradition"],
+				"requires": ["Po06 Naval Tradition"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P06 Mercantilism",
+				"name": "Po06 Mercantilism",
 				"uniques": [
 					"[Gold] cost of purchasing items in cities [25]%",
 					"[+1 Science] from every [E2 Mint]",
@@ -398,19 +398,19 @@
 					"[+1 Science] from every [E4 Bank]",
 					"[+1 Science] from every [E5 Stock Exchange]"
 				],
-				"requires": ["P06 Trade Unions"],
+				"requires": ["Po06 Trade Unions"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "P06 Protectionism",
+				"name": "Po06 Protectionism",
 				"uniques": ["[+2] Happiness from each type of luxury resource"],
-				"requires": ["P06 Mercantilism"],
+				"requires": ["Po06 Mercantilism"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "P06 Commerce Complete",
+				"name": "Po06 Commerce Complete",
 				"uniques": [
 					"[+1 Gold] from every [TI04 Trading post]",
 					"[+100]% Gold from Great Merchant trade missions",
@@ -421,7 +421,7 @@
 		]
 	},
 	{
-		"name": "P07 Rationalism",
+		"name": "Po07 Rationalism",
 		"era": "Renaissance era",
 		"priorities": {
 			"Neutral": 10,
@@ -432,11 +432,11 @@
 		},
 		"uniques": [
 			"[+15]% [Science] <while the empire is happy>",
-			"Only available <before adopting [P04 Piety]>"
+			"Only available <before adopting [Po04 Piety]>"
 		],
 		"policies": [
 			{
-				"name": "P07 Secularism",
+				"name": "Po07 Secularism",
 				"uniques": [
 					"[+2 Science] from every specialist [in all cities]"
 				],
@@ -444,7 +444,7 @@
 				"column": 2
 			},
 			{
-				"name": "P07 Humanism",
+				"name": "Po07 Humanism",
 				"uniques": [
 					"[+1 Happiness] from every [E3 University]",
 					"[+1 Happiness] from every [E4 Observatory]",
@@ -455,32 +455,32 @@
 				"column": 4
 			},
 			{
-				"name": "P07 Free Thought",
+				"name": "Po07 Free Thought",
 				"uniques": [
 					"[+1 Science] from every [TI04 Trading post]",
 					"[+17]% [Science] from every [E3 University]"
 				],
-				"requires": ["P07 Secularism"],
+				"requires": ["Po07 Secularism"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P07 Sovereignty",
+				"name": "Po07 Sovereignty",
 				"uniques": ["[+1 Gold] from all [Science] buildings"],
-				"requires": ["P07 Humanism"],
+				"requires": ["Po07 Humanism"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "P07 Scientific Revolution",
+				"name": "Po07 Scientific Revolution",
 				"uniques": ["Science gained from research agreements [+50]%", 
 				            "[100]% weight to this choice for AI decisions"],
-				"requires": ["P07 Free Thought"],
+				"requires": ["Po07 Free Thought"],
 				"row": 3,
 				"column": 2
 			},
 			{
-				"name": "P07 Rationalism Complete",
+				"name": "Po07 Rationalism Complete",
 				"uniques": [
 					"[2] Free Technologies",
 					"May buy [E0 Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -490,7 +490,7 @@
 		]
 	},
 	{
-		"name": "P08 Freedom",
+		"name": "Po08 Freedom",
 		"era": "Industrial era",
 		"priorities": {
 			"Neutral": 5,
@@ -501,26 +501,26 @@
 		},
 		"uniques": [
 			"[+25]% Great Person generation [in all cities]",
-			"Only available <before adopting [P09 Autocracy]>",
-			"Only available <before adopting [P10 Order]>"
+			"Only available <before adopting [Po09 Autocracy]>",
+			"Only available <before adopting [Po10 Order]>"
 		],
 		"policies": [
 			{
-				"name": "P08 Constitution",
+				"name": "Po08 Constitution",
 				"uniques": ["[+2 Culture] from every [Wonder]", 
 				"[100]% weight to this choice for AI decisions"],
 				"row": 1,
 				"column": 1
 			},
 			{
-				"name": "P08 Universal Suffrage",
+				"name": "Po08 Universal Suffrage",
 				"uniques": ["[+33]% Strength for cities <when defending>", 
 				"[100]% weight to this choice for AI decisions"],
 				"row": 1,
 				"column": 3
 			},
 			{
-				"name": "P08 Civil Society",
+				"name": "Po08 Civil Society",
 				"uniques": [
 					"[50]% Food consumption by specialists [in all cities]"
 				],
@@ -528,23 +528,23 @@
 				"column": 5
 			},
 			{
-				"name": "P08 Free Speech",
+				"name": "Po08 Free Speech",
 				"uniques": ["[8] units cost no maintenance"],
-				"requires": ["P08 Constitution"],
+				"requires": ["Po08 Constitution"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "P08 Democracy",
+				"name": "Po08 Democracy",
 				"uniques": [
 					"[50]% Unhappiness from [Specialists] [in all cities]"
 				],
-				"requires": ["P08 Civil Society"],
+				"requires": ["Po08 Civil Society"],
 				"row": 2,
 				"column": 5
 			},
 			{
-				"name": "P08 Freedom Complete",
+				"name": "Po08 Freedom Complete",
 				"uniques": [
 					"[+100]% Yield from every [Great Improvement]",
 					"[+50]% Golden Age length",
@@ -555,7 +555,7 @@
 		]
 	},
 	{
-		"name": "P09 Autocracy",
+		"name": "Po09 Autocracy",
 		"era": "Industrial era",
 		"priorities": {
 			"Neutral": 5,
@@ -567,56 +567,56 @@
 		"uniques": [
 			"[33]% maintenance costs <for [All] units>",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-			"Only available <before adopting [P10 Order]>",
-			"Only available <before adopting [P08 Freedom]>"
+			"Only available <before adopting [Po10 Order]>",
+			"Only available <before adopting [Po08 Freedom]>"
 		],
 		"policies": [
 			{
-				"name": "P09 Populism",
+				"name": "Po09 Populism",
 				"uniques": ["[+25]% Strength <for [Wounded] units>", 
 				"[+100]% weight to this choice for AI decisions"],
 				"row": 1,
 				"column": 2
 			},
 			{
-				"name": "P09 Militarism",
+				"name": "Po09 Militarism",
 				"uniques": ["[Gold] cost of purchasing [All] units [33]%"],
 				"row": 1,
 				"column": 4
 			},
 			{
-				"name": "P09 Fascism",
+				"name": "Po09 Fascism",
 				"uniques": [
 					"[+100]% [Strategic] resource production",
 					"[+2] Movement <for [E0 Great General] units>"
 				],
-				"requires": ["P09 Populism", "P09 Militarism"],
+				"requires": ["Po09 Populism", "Po09 Militarism"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "P09 Police State",
+				"name": "Po09 Police State",
 				"uniques": [
 					"[+3 Happiness] from every [E2 Courthouse]",
 					"[+100]% Production when constructing [E2 Courthouse] buildings [in all cities]",
 					"[25]% enemy spy effectiveness [in all cities]"
 				],
-				"requires": ["P09 Militarism"],
+				"requires": ["Po09 Militarism"],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "P09 Total War",
+				"name": "Po09 Total War",
 				"uniques": [
 					"[+25]% Production when constructing [Military] units [in all cities]",
 					"New [Military] units start with [15] XP [in all cities]"
 				],
-				"requires": ["P09 Police State", "P09 Fascism"],
+				"requires": ["Po09 Police State", "Po09 Fascism"],
 				"row": 3,
 				"column": 3
 			},
 			{
-				"name": "P09 Autocracy Complete",
+				"name": "Po09 Autocracy Complete",
 				"uniques": [
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
 					"May buy [E0 Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -626,7 +626,7 @@
 		]
 	},
 	{
-		"name": "P10 Order",
+		"name": "Po10 Order",
 		"era": "Industrial era",
 		"priorities": {
 			"Neutral": 10,
@@ -637,12 +637,12 @@
 		},
 		"uniques": [
 			"[+1 Happiness] [in all cities]",
-			"Only available <before adopting [P09 Autocracy]>",
-			"Only available <before adopting [P08 Freedom]>"
+			"Only available <before adopting [Po09 Autocracy]>",
+			"Only available <before adopting [Po08 Freedom]>"
 		],
 		"policies": [
 			{
-				"name": "P10 United Front",
+				"name": "Po10 United Front",
 				"uniques": [
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 					"[100]% weight to this choice for AI decisions"
@@ -651,7 +651,7 @@
 				"column": 1
 			},
 			{
-				"name": "P10 Planned Economy",
+				"name": "Po10 Planned Economy",
 				"uniques": [
 					"[+25]% [Science] from every [E5 Factory]",
 					"[+100]% Production when constructing [E5 Factory] buildings [in all cities]"
@@ -660,7 +660,7 @@
 				"column": 3
 			},
 			{
-				"name": "P10 Nationalism",
+				"name": "Po10 Nationalism",
 				"uniques": [
 					"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
 				],
@@ -668,8 +668,8 @@
 				"column": 5
 			},
 			{
-				"name": "P10 Socialism",
-				"requires": ["P10 Planned Economy"],
+				"name": "Po10 Socialism",
+				"requires": ["Po10 Planned Economy"],
 				"uniques": [
 					"[15]% maintenance cost for [all] buildings [in all cities]"
 				],
@@ -677,8 +677,8 @@
 				"column": 3
 			},
 			{
-				"name": "P10 Communism",
-				"requires": ["P10 Socialism"],
+				"name": "Po10 Communism",
+				"requires": ["Po10 Socialism"],
 				"uniques": [
 					"[+2 Production] [in all cities]",
 					"[+1 Production] from every [TI19 Mine]",
@@ -688,7 +688,7 @@
 				"column": 3
 			},
 			{
-				"name": "P10 Order Complete",
+				"name": "Po10 Order Complete",
 				"uniques": [
 					"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
 					"May buy [E0 Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -946,7 +946,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. Px04 Challenge No Ranged Units was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 7
 			},
@@ -964,7 +964,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. Px05 Challenge No Melee Units was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 9
 			},
@@ -982,7 +982,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. Px06 Challenge No Planes was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 11
 			},
@@ -997,7 +997,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. No Civilians Challenge was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 13
 			},
@@ -1010,7 +1010,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. Px08 Challenge Cursed March was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 15
 			},
@@ -1023,7 +1023,7 @@
 					"Free Social Policy",
 					"Triggers the following global alert: [. Px09 Challenge Cursed Swim was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 1,
 				"column": 17
 			},
@@ -1037,7 +1037,7 @@
 				  "Triggers the following global alert: [. Px10 Challenge No Wonders was chosen!]"
 			   
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 2
 			},
@@ -1050,7 +1050,7 @@
 				  "Nullifies [Faith] [in all cities]",
 				  "Triggers the following global alert: [. Px11 Challenge No Faith was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 4
 			},
@@ -1079,7 +1079,7 @@
 				  "[33]% Strength <vs [Barbarian] units>",
 				  "Triggers the following global alert: [. Px13 Challenge Constant Riots Challenge was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 8
 			},
@@ -1092,7 +1092,7 @@
 				  "Can only heal by pillaging",
 				  "Triggers the following global alert: [. Px14 Challenge Barbarian Traits was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 10
 			},
@@ -1107,7 +1107,7 @@
 				  "And I will not explain the logic behind this",
 				  "Triggers the following global alert: [. Px15 Challenge Too Much Beer was chosen!]"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 12
 			},
@@ -1133,7 +1133,7 @@
 			"Only available <for [Human player] Civilizations> <hidden from users>",
 				  "Stops the selection without giving you more Policies"
 				],
-				//"requires": ["P01 Legalism"],
+				//"requires": ["Po01 Legalism"],
 				"row": 2,
 				"column": 18
 			},
@@ -1173,12 +1173,12 @@
 		"uniques": [
 			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+100]% Production when constructing [Temple] buildings [in all cities]",
-			"Only available <before adopting [P07 Rationalism]>",
+			"Only available <before adopting [Po07 Rationalism]>",
 			"[100]% weight to this choice for AI decisions <when religion is disabled>"
 		],
 		"policies": [
 			{
-				"name": "P04 Organized Religion",
+				"name": "Po04 Organized Religion",
 				"uniques": [
 					"[+1 Faith] from every [Shrine]",
 					"[+1 Faith] from every [Temple]"
@@ -1187,37 +1187,37 @@
 				"column": 2
 			},
 			{
-				"name": "P04 Mandate Of Heaven",
+				"name": "Po04 Mandate Of Heaven",
 				"uniques": ["[50]% of excess happiness converted to [Culture]"],
 				"row": 1,
 				"column": 5
 			},
 			{
-				"name": "P04 Theocracy",
+				"name": "Po04 Theocracy",
 				"uniques": ["[+10]% [Gold] from every [Temple]"],
-				"requires": ["P04 Organized Religion"],
+				"requires": ["Po04 Organized Religion"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "P04 Reformation",
+				"name": "Po04 Reformation",
 				"uniques": [
 					"[+33]% [Culture] [in all cities with a world wonder]",
 					"Empire enters golden age"
 				],
-				"requires": ["P04 Organized Religion"],
+				"requires": ["Po04 Organized Religion"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "P04 Free Religion",
+				"name": "Po04 Free Religion",
 				"uniques": ["[<10]% Culture cost of adopting new Policies"],
-				"requires": ["P04 Mandate Of Heaven", "P04 Reformation"],
+				"requires": ["Po04 Mandate Of Heaven", "Po04 Reformation"],
 				"row": 3,
 				"column": 4
 			},
 			{
-				"name": "P04 Piety Complete",
+				"name": "Po04 Piety Complete",
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [20]%",
 					"[+3 Gold, +3 Culture] from every [Holy site]",
@@ -1327,121 +1327,121 @@ from every
 /*
 
 
-P01 P01 Tradition
-		P01 P01 Aristocracy
-		P01 P01 Legalism
-		P01 P01 Oligarchy
-		P01 P01 Landed Elite
-		P01 P01 Monarchy
-		P01 P01 Tradition Complete
+Po01 Tradition
+		Po01 Aristocracy
+		Po01 Legalism
+		Po01 Oligarchy
+		Po01 Landed Elite
+		Po01 Monarchy
+		Po01 Tradition Complete
 
-P02 P02 Liberty
-		P02 P02 Republic
-		P02 P02 Citizenship
-		P02 P02 Collective Rule
-		P02 P02 Representation
-		P02 P02 Meritocracy
-		P02 P02 Liberty Complete
+Po02 Liberty
+		Po02 Republic
+		Po02 Citizenship
+		Po02 Collective Rule
+		Po02 Representation
+		Po02 Meritocracy
+		Po02 Liberty Complete
 
-P03 P03 Honor
-		P03 P03 Warrior Code
-		P03 P03 Discipline
-		P03 P03 Military Tradition
-		P03 P03 Military Caste
-		P03 P03 Professional Army
-		P03 P03 Honor Complete
+Po03 Honor
+		Po03 Warrior Code
+		Po03 Discipline
+		Po03 Military Tradition
+		Po03 Military Caste
+		Po03 Professional Army
+		Po03 Honor Complete
 
-P04 P04 Piety
-		P04 P04 Organized Religion
-		P04 P04 Mandate Of Heaven
-		P04 P04 Theocracy
-		P04 P04 Reformation
-		P04 P04 Free Religion
-		P04 P04 Piety Complete
+Po04 Piety
+		Po04 Organized Religion
+		Po04 Mandate Of Heaven
+		Po04 Theocracy
+		Po04 Reformation
+		Po04 Free Religion
+		Po04 Piety Complete
 
-P05 P05 Patronage
-		P05 P05 Philantropy
-		P05 P05 Aesthetics
-		P05 P05 Scholasticism
-		P05 P05 Cultural Diplomacy
-		P05 P05 Educated Elite
-		P05 P05 Patronage Complete
+Po05 Patronage
+		Po05 Philantropy
+		Po05 Aesthetics
+		Po05 Scholasticism
+		Po05 Cultural Diplomacy
+		Po05 Educated Elite
+		Po05 Patronage Complete
 
-P06 P06 Commerce
-		P06 P06 Naval Tradition
-		P06 P06 Trade Unions
-		P06 P06 Merchant Navy
-		P06 P06 Mercantilism
-		P06 P06 Protectionism
-		P06 P06 Commerce Complete
+Po06 Commerce
+		Po06 Naval Tradition
+		Po06 Trade Unions
+		Po06 Merchant Navy
+		Po06 Mercantilism
+		Po06 Protectionism
+		Po06 Commerce Complete
 
-P07 P07 Rationalism
-		P07 P07 Secularism
-		P07 P07 Humanism
-		P07 P07 Free Thought
-		P07 P07 Sovereignty
-		P07 P07 Scientific Revolution
-		P07 P07 Rationalism Complete
+Po07 Rationalism
+		Po07 Secularism
+		Po07 Humanism
+		Po07 Free Thought
+		Po07 Sovereignty
+		Po07 Scientific Revolution
+		Po07 Rationalism Complete
 
-P08 P08 Freedom
-		P08 P08 Constitution
-		P08 P08 Universal Suffrage
-		P08 P08 Civil Society
-		P08 P08 Free Speech
-		P08 P08 Democracy
-		P08 P08 Freedom Complete
+Po08 Freedom
+		Po08 Constitution
+		Po08 Universal Suffrage
+		Po08 Civil Society
+		Po08 Free Speech
+		Po08 Democracy
+		Po08 Freedom Complete
 
-P09 P09 Autocracy
-		P09 P09 Populism
-		P09 P09 Militarism
-		P09 P09 Fascism
-		P09 P09 Police State
-		P09 P09 Total War
-		P09 P09 Autocracy Complete
+Po09 Autocracy
+		Po09 Populism
+		Po09 Militarism
+		Po09 Fascism
+		Po09 Police State
+		Po09 Total War
+		Po09 Autocracy Complete
 
-P10 P10 Order
-		P10 P10 United Front
-		P10 P10 Planned Economy
-		P10 P10 Nationalism
-		P10 P10 Socialism
-		P10 P10 Communism
-		P10 P10 Order Complete
+Po10 Order
+		Po10 United Front
+		Po10 Planned Economy
+		Po10 Nationalism
+		Po10 Socialism
+		Po10 Communism
+		Po10 Order Complete
 
-Pm21 Pm21 Monoculturalism
-		Pm21 Pm21 Dress Code
-		Pm21 Pm21 Official Language
-		Pm21 Pm21 Assimilationism
-		Pm21 Pm21 Official Script
-		Pm21 Pm21 Nation-State
-		Pm21 Pm21 Monoculturalism Complete
+Pm21 Monoculturalism
+		Pm21 Dress Code
+		Pm21 Official Language
+		Pm21 Assimilationism
+		Pm21 Official Script
+		Pm21 Nation-State
+		Pm21 Monoculturalism Complete
 
-Pm22 Pm22 Multiculturalism
-		Pm22 Pm22 Multilingualism
-		Pm22 Pm22 Cultural Preservation
-		Pm22 Pm22 Intercultural Dialogue
-		Pm22 Pm22 Autonomous Zones
-		Pm22 Pm22 Autonomous Republics
-		Pm22 Pm22 Multiculturalism Complete
+Pm22 Multiculturalism
+		Pm22 Multilingualism
+		Pm22 Cultural Preservation
+		Pm22 Intercultural Dialogue
+		Pm22 Autonomous Zones
+		Pm22 Autonomous Republics
+		Pm22 Multiculturalism Complete
 
-Px00 Px00 PChallenges
-		Px01 Px01 Challenge Palace Nullifier
-		Px02 Px02 Challenge No Culture
-		Px03 Px03 Challenge Blind
-		Px04 Px04 Challenge No Ranged Units
-		Px05 Px05 Challenge No Melee Units
-		Px06 Px06 Challenge No Planes
-		Px07 Px07 Challenge No Civilian
-		Px08 Px08 Challenge Cursed March
-		Px09 Px09 Challenge Cursed Swim
-		Px10 Px10 Challenge No Wonders
-		Px11 Px11 Challenge No Faith
-		Px12 Px12 Challenge Totally Blind
-		Px13 Px13 Challenge Constant Riots
-		Px14 Px14 Challenge Barbarian Traits
-		Px15 Px15 Challenge Too Much Beer
-		Px16 Px16 Challenge Cursed March Extreme
-		Px17 Px17 Challenge - End
-		Px00 Px00 PChallenges Complete
+Px00 PChallenges
+		Px01 Challenge Palace Nullifier
+		Px02 Challenge No Culture
+		Px03 Challenge Blind
+		Px04 Challenge No Ranged Units
+		Px05 Challenge No Melee Units
+		Px06 Challenge No Planes
+		Px07 Challenge No Civilian
+		Px08 Challenge Cursed March
+		Px09 Challenge Cursed Swim
+		Px10 Challenge No Wonders
+		Px11 Challenge No Faith
+		Px12 Challenge Totally Blind
+		Px13 Challenge Constant Riots
+		Px14 Challenge Barbarian Traits
+		Px15 Challenge Too Much Beer
+		Px16 Challenge Cursed March Extreme
+		Px17 Challenge - End
+		Px00 PChallenges Complete
 
 
 
