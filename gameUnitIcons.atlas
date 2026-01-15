@@ -1802,21 +1802,35 @@ UnitIcons/DNS Guided Missile
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/DNS Nuclear Missile P2
+UnitIcons/DNS Nuclear Missile P02
   rotate: false
   xy: 1054, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/DNS Nuclear Missile P5
+UnitIcons/DNS Nuclear Missile P05
   rotate: false
   xy: 1054, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/DNS Nuclear Missile P8
+UnitIcons/DNS Nuclear Missile P08
+  rotate: false
+  xy: 1054, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Missile P11
+  rotate: false
+  xy: 1054, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/DNS Nuclear Missile P13
   rotate: false
   xy: 1054, 744
   size: 100, 100

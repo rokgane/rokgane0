@@ -6,6 +6,7 @@ gameUnitIcons                   ConstructionIcons.atlas
 gameAbUnits                     AbsoluteUnits.atlas
 
 R3Tech                          Tech.atlas
+R3Policy                        PolicyIcons.atlas
 
 bratdudeworn                    Brave New World
 

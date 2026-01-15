@@ -3719,7 +3719,7 @@ E3 Longbowman
 		"attackSound": "missile"
 	},
 	{
-		"name": "DNS Nuclear Missile P2",
+		"name": "DNS Nuclear Missile P02",
 		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
@@ -3742,7 +3742,7 @@ E3 Longbowman
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P5",
+		"name": "DNS Nuclear Missile P05",
 		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
@@ -3765,7 +3765,7 @@ E3 Longbowman
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P8",
+		"name": "DNS Nuclear Missile P08",
 		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,

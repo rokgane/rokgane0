@@ -663,91 +663,91 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Activate Challenges
+BuildingIcons/ChallengesActivate
   rotate: false
   xy: 760, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Blind Challenge
+PolicyIcons/Px03 Challenge Blind
   rotate: false
   xy: 818, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Totally Blind Challenge
+PolicyIcons/Px12 Challenge Totally Blind
   rotate: false
   xy: 818, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Challenge Palace Nullifier
+PolicyIcons/Px01 Challenge Palace Nullifier
   rotate: false
   xy: 4, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Cursed March Challenge
+PolicyIcons/Px08 Challenge Cursed March
   rotate: false
   xy: 876, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Cursed March Challenge Extreme
+PolicyIcons/Px16 Challenge Cursed March Extreme
   rotate: false
   xy: 112, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Cursed Swim Challenge
+PolicyIcons/Px09 Challenge Cursed Swim
   rotate: false
   xy: 934, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/End Challenge Selection
+PolicyIcons/Px17 Challenge - End
   rotate: false
   xy: 760, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/No Civilian Challenge
+PolicyIcons/Px07 Challenge No Civilian
   rotate: false
   xy: 220, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/No Culture Challenge
+PolicyIcons/Px02 Challenge No Culture
   rotate: false
   xy: 818, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/No Melee Units Challenge
+PolicyIcons/Px05 Challenge No Melee Units
   rotate: false
   xy: 328, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/No Planes Challenge
+PolicyIcons/Px06 Challenge No Planes
   rotate: false
   xy: 544, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/No Ranged Units Challenge
+PolicyIcons/Px04 Challenge No Ranged Units
   rotate: false
   xy: 652, 12
   size: 100, 100
@@ -1055,84 +1055,84 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyBranchIcons/Monoculturalism
+PolicyBranchIcons/Pm21 Monoculturalism
   rotate: false
   xy: 816, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyBranchIcons/Multiculturalism
+PolicyBranchIcons/Pm22 Multiculturalism
   rotate: false
   xy: 874, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Assimilationism
+PolicyIcons/Pm21 Assimilationism
   rotate: false
   xy: 112, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Autonomous Republics
+PolicyIcons/Pm22 Autonomous Republics
   rotate: false
   xy: 200, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Autonomous Zones
+PolicyIcons/Pm22 Autonomous Zones
   rotate: false
   xy: 288, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Cultural Preservation
+PolicyIcons/Pm22 Cultural Preservation
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Dress Code
+PolicyIcons/Pm21 Dress Code
   rotate: false
   xy: 376, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Intercultural Dialogue
+PolicyIcons/Pm22 Intercultural Dialogue
   rotate: false
   xy: 464, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Multilingualism
+PolicyIcons/Pm22 Multilingualism
   rotate: false
   xy: 552, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Nation-State
+PolicyIcons/Pm21 Nation-State
   rotate: false
   xy: 640, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Official Language
+PolicyIcons/Pm21 Official Language
   rotate: false
   xy: 728, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Official Script
+PolicyIcons/Pm21 Official Script
   rotate: false
   xy: 932, 54
   size: 50, 50
@@ -1462,9 +1462,6 @@ UnitIcons/Zeppelin Terraformer
   orig: 100, 100
   offset: 0, 0
   index: -1
-
-
-
 
 
 
