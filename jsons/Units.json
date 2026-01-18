@@ -266,8 +266,6 @@ E3 Longbowman
 		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
-
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -365,8 +363,6 @@ E3 Longbowman
 		"upgradesTo": "E3 Crossbowman",
 		"attackSound": "arrow",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
-
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -459,8 +455,6 @@ E3 Longbowman
 		"strength": 7,
 		"cost": 40,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
-
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
 		"upgradesTo": "E1 Trireme",
@@ -664,8 +658,6 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
-
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -5048,7 +5040,6 @@ E3 Longbowman
 		"requiredTech": "E3 Metal Casting",
 		"upgradesTo": "E2 Swordsman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
@@ -5081,9 +5072,6 @@ E3 Longbowman
 		    "Cannot enter ocean tiles"
 		    ],
 		"upgradesTo": "E1 Trireme",
-		"uniques": [
-            "Free [Galley] appears <when defending>", 
-            ]
 		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
