@@ -251,141 +251,6 @@ NationIcons/N14 The Ottomans
 
 
 
-Ricons1.png
-size: 2048, 128
-format: RGBA8888
-filter: MipMapLinearLinear, Linear
-repeat: none
-ReligionIcons/Buddhism
-  rotate: false
-  xy: 4, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Christianity
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Confucianism
-  rotate: false
-  xy: 220, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Enhancer
-  rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Follower
-  rotate: false
-  xy: 436, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Founder
-  rotate: false
-  xy: 544, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Hinduism
-  rotate: false
-  xy: 652, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Islam
-  rotate: false
-  xy: 760, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Judaism
-  rotate: false
-  xy: 868, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Pantheon
-  rotate: false
-  xy: 976, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Religion
-  rotate: false
-  xy: 1084, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Religions
-  rotate: false
-  xy: 1084, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Shinto
-  rotate: false
-  xy: 1192, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Sikhism
-  rotate: false
-  xy: 1300, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Taoism
-  rotate: false
-  xy: 1408, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Tengriism
-  rotate: false
-  xy: 1516, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Zoroastrianism
-  rotate: false
-  xy: 1624, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-
-
-
-
-
-
-
-
-
-
-
 HoHk1.png
 size: 2048, 2048
 format: RGBA8888
@@ -399,13 +264,6 @@ UnitIcons/Observation Balloon
   offset: 0, 0
   index: -1
 UnitIcons/Observar
-  rotate: false
-  xy: 1300, 220
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Spreader
   rotate: false
   xy: 1300, 220
   size: 100, 100
@@ -503,13 +361,6 @@ TileSets/FantasyHex/Units/Observation Balloon
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Observar
-  rotate: false
-  xy: 1890, 1380
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Spreader
   rotate: false
   xy: 1890, 1380
   size: 32, 28
@@ -621,7 +472,7 @@ BuildingIcons/Holodeck
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/N00 Aliens
+NationIcons/Aliens
   rotate: false
   xy: 4, 4
   size: 100, 100
@@ -798,91 +649,91 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/ChallengesActivate
+BuildingIcons/Activate Challenges
   rotate: false
   xy: 760, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px03 Challenge Blind
+PolicyIcons/Blind Challenge
   rotate: false
   xy: 818, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px12 Challenge Totally Blind
+PolicyIcons/Totally Blind Challenge
   rotate: false
   xy: 818, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px01 Challenge Palace Nullifier
+PolicyIcons/Challenge Palace Nullifier
   rotate: false
   xy: 4, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Px08 Challenge Cursed March
+PolicyIcons/Cursed March Challenge
   rotate: false
   xy: 876, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px16 Challenge Cursed March Extreme
+PolicyIcons/Cursed March Challenge Extreme
   rotate: false
   xy: 112, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Px09 Challenge Cursed Swim
+PolicyIcons/Cursed Swim Challenge
   rotate: false
   xy: 934, 62
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px17 Challenge - End
+PolicyIcons/End Challenge Selection
   rotate: false
   xy: 760, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px07 Challenge No Civilian
+PolicyIcons/No Civilian Challenge
   rotate: false
   xy: 220, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Px02 Challenge No Culture
+PolicyIcons/No Culture Challenge
   rotate: false
   xy: 818, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Px05 Challenge No Melee Units
+PolicyIcons/No Melee Units Challenge
   rotate: false
   xy: 328, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Px06 Challenge No Planes
+PolicyIcons/No Planes Challenge
   rotate: false
   xy: 544, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Px04 Challenge No Ranged Units
+PolicyIcons/No Ranged Units Challenge
   rotate: false
   xy: 652, 12
   size: 100, 100
@@ -1190,84 +1041,84 @@ size: 1024, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyBranchIcons/Pm21 Monoculturalism
+PolicyBranchIcons/Monoculturalism
   rotate: false
   xy: 816, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyBranchIcons/Pm22 Multiculturalism
+PolicyBranchIcons/Multiculturalism
   rotate: false
   xy: 874, 54
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Pm21 Assimilationism
+PolicyIcons/Assimilationism
   rotate: false
   xy: 112, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm22 Autonomous Republics
+PolicyIcons/Autonomous Republics
   rotate: false
   xy: 200, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm22 Autonomous Zones
+PolicyIcons/Autonomous Zones
   rotate: false
   xy: 288, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm22 Cultural Preservation
+PolicyIcons/Cultural Preservation
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Pm21 Dress Code
+PolicyIcons/Dress Code
   rotate: false
   xy: 376, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm22 Intercultural Dialogue
+PolicyIcons/Intercultural Dialogue
   rotate: false
   xy: 464, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm22 Multilingualism
+PolicyIcons/Multilingualism
   rotate: false
   xy: 552, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm21 Nation-State
+PolicyIcons/Nation-State
   rotate: false
   xy: 640, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm21 Official Language
+PolicyIcons/Official Language
   rotate: false
   xy: 728, 24
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-PolicyIcons/Pm21 Official Script
+PolicyIcons/Official Script
   rotate: false
   xy: 932, 54
   size: 50, 50
@@ -1597,6 +1448,9 @@ UnitIcons/Zeppelin Terraformer
   orig: 100, 100
   offset: 0, 0
   index: -1
+
+
+
 
 
 
