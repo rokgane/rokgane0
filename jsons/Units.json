@@ -1,12 +1,11 @@
 [//xsa//start
+/*
 
+//xsa//start of gk
 
-
-
+//xsa//end of gk
 
 //xsa//adding paradrop
-
-/*
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away", 
 
@@ -14,13 +13,39 @@
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		
 
+//XSA//Gun Ranged Fixing 
+
+//xsa//adds requiredResource 
+
+
 //xsa//have paradrop
-Paratrooper
-Great Admiral
+E0 Great Admiral
 
 //xsa//no unique
+E1 Maori Warrior
+E1 Jaguar
+E1 Archer
+E1 Bowman
+E1 Slinger
+E1 Atlatlist
+E2 Composite Bowman
+E2 Mohawk Warrior
+E3 Crossbowman
+E3 Chu-Ko-Nu
+E3 Longbowman
 
 //xsa//have unique
+
+
+
+
+
+
+
+
+
+
+
 
 
 */
@@ -28,299 +53,70 @@ Great Admiral
 
 
 
-//xsa//have paradrop
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//xsa//start of gk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Era1
 	{
-		"name": "Great Admiral",
-		"unitType": "Civilian Water",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
-			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
-			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-			"Can be earned through combat <for [Water] units>",
-			"Is part of Great Person group [Admiral]",
-			"Great Person - [War]", 
-			"Unbuildable", 
-			"Uncapturable"
-			],
-		"movement": 4
-	},
-	
-	
-
-
-//xsa//no unique
-
-	{
-		"name": "Maori Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Haka War Dance"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-
-	{
-		"name": "Jaguar",
-		"unitType": "Sword",
-		"uniqueTo": "Aztecs",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["[Jaguar] ability","Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Archer",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"replaces": "Archer",
-		"uniqueTo": "Babylon",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Slinger",
-		"unitType": "Archery",
-		"uniqueTo": "Inca",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"promotions": ["Slinger Withdraw"],
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Atlatlist",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 36,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Construction",
-		"replaces": "Archer",
-		"uniqueTo": "The Maya",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Skirmisher",
-		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Composite Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-
-	{
-		"name": "Mohawk Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Iroquois",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability"],
-		"attackSound": "metalhit",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Crossbowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"attackSound": "crossbow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Chu-Ko-Nu",
-		"unitType": "Archery",
-		"uniqueTo": "China",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 14,
-		"replaces": "Crossbowman",
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["[Chu-Ko-Nu] ability"],
-		"attackSound": "crossbow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Longbowman",
-		"unitType": "Archery",
-		"range": 2,
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"replaces": "Crossbowman",
-		"uniqueTo": "England",
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
-		"obsoleteTech": "Industrialization",
-		"promotions": ["Extended Range"],
-		"attackSound": "arrow",
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//xsa//have unique
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-
-	{
-		"name": "Worker",
+		"name": "E1 Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
+
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+
 			"Uncapturable", 
 
             //"Can build [Land] improvements on tiles", 
@@ -355,17 +151,21 @@ Great Admiral
 			],
 		"cost": 70,
 	},
+
 	{
-		"name": "Settler",
+		"name": "E1 Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
+
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
-			"Excess Food converted to Production when under construction",
+			"Excess Food converted to Production when under Construction",
 			"Can move immediately once bought", 
 			"Requires at least [2] population",
 			"[+3] Sight <before the [Classical era]>",
@@ -374,49 +174,214 @@ Great Admiral
 		],
 		"hurryCostModifier": 20
 	},
+
 	{
-		"name": "Scout",
+		"name": "E1 Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "E5 Scientific Theory",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
+
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+
 			"Limited to [5] per Civilization",
-			"May upgrade to [Archer] through ruins-like effects", 
+			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
+
 	{
-		"name": "Warrior",
+		"name": "E1 Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"obsoleteTech": "E3 Metal Casting",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "May upgrade to [Spearman] through ruins-like effects"],
+
+		    "May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
+
 	{
-		"name": "Work Boats",
+		"name": "E1 Maori Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Polynesia",
+		"replaces": "E1 Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "E3 Metal Casting",
+		"promotions": ["Haka War Dance"],
+		"upgradesTo": "E2 Swordsman",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Jaguar",
+		"unitType": "Sword",
+		"uniqueTo": "Aztecs",
+		"replaces": "E1 Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "E3 Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "E2 Swordsman",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "Brute",//B01 Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "E1 Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 20,
+		"obsoleteTech": "E3 Metal Casting",
+		"upgradesTo": "E2 Swordsman",
+		"attackSound": "nonmetalhit",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E2 Construction",
+		"upgradesTo": "E2 Composite Bowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E2 Construction",
+		"replaces": "E1 Archer",
+		"uniqueTo": "Babylon",
+		"upgradesTo": "E2 Composite Bowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Slinger",
+		"unitType": "Archery",
+		"uniqueTo": "Inca",
+		"replaces": "E1 Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E2 Construction",
+		"upgradesTo": "E2 Composite Bowman",
+		"promotions": ["Slinger Withdraw"],
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Atlatlist",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "E1 Agriculture",
+		"obsoleteTech": "E2 Construction",
+		"replaces": "E1 Archer",
+		"uniqueTo": "The Maya",
+		"upgradesTo": "E2 Composite Bowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "Skirmisher",//B02 Skirmisher",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"replaces": "E1 Archer",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E3 Machinery",
+		"upgradesTo": "E3 Crossbowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E1 Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Sailing",
+		"requiredTech": "E1 Sailing",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"Cannot enter ocean tiles <before discovering [E4 Astronomy]>", 
 
 //			"May create improvements on water resources",
 			"Can build [TI13 Offshore Platform] improvements on tiles",
@@ -428,153 +393,235 @@ Great Admiral
 		   ]
 	},
 
+	{
+		"name": "E1 Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "E1 Sailing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Cannot enter ocean tiles", 
+			"Never appears as a Barbarian unit"],
+//xsa		"upgradesTo": "E4 Caravel",
+		"obsoleteTech": "E4 Astronomy",
+		"attackSound": "nonmetalhit"
+	},
 
 	{
-		"name": "Dromon",
+		"name": "E1 Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "E1 Trireme",
+		"movement": 4,
+		"strength": 13,
+		"cost": 45,
+		"requiredTech": "E1 Sailing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Cannot enter ocean tiles"],
+//xsa		"upgradesTo": "E4 Caravel",
+		"obsoleteTech": "E4 Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "E1 Dromon",
 		"unitType": "Ranged Water",
 		"uniqueTo": "Byzantium",
-		"replaces": "Trireme",
+		"replaces": "E1 Trireme",
 		"movement": 4,
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "Sailing",
+		"requiredTech": "E1 Sailing",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles", 
 		    "[+50]% Strength <vs [Water] units>"],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "E3 Galleass",
+		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "arrow"
 	},
+
 	{
-		"name": "Galley",
+		"name": "Galley",//B03 Galley",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "E1 Trireme",
+		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
+		//Barbarian unique naval unit, weaker and slower than E1 Trireme.
 	},
 
 	{
-		"name": "War Chariot",
+		"name": "E1 Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "E1 The Wheel",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "No defensive terrain bonus", 
+		    "Rough terrain penalty", 
+		    "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "E1 War Chariot",
 		"unitType": "Archery",
 		"uniqueTo": "Egypt",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 5,
 		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"requiredTech": "E1 The Wheel",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus", 
 		    "Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
+
 	{
-		"name": "Horse Archer",
+		"name": "E1 Horse Archer",
 		"unitType": "Archery",
 		"uniqueTo": "The Huns",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 4,
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"requiredTech": "E1 The Wheel",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
+
 	{
-		"name": "War Elephant",
+		"name": "E1 War Elephant",
 		"unitType": "Archery",
 		"uniqueTo": "India",
-		"replaces": "Chariot Archer",
+		"replaces": "E1 Chariot Archer",
 		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 11,
 		"cost": 70,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"requiredTech": "E1 The Wheel",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
+
 	{
-		"name": "Spearman",
+		"name": "E1 Spearman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+
 	{
-		"name": "Hoplite",
+		"name": "E1 Hoplite",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Greece",
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+
 	{
-		"name": "Persian Immortal",
+		"name": "E1 Persian Immortal",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Persia",
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
+
 	{
-		"name": "Battering Ram",
+		"name": "E1 Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "The Huns",
 		"movement": 2,
 		"strength": 10,
 		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Physics",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+300]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus", 
@@ -584,54 +631,109 @@ Great Admiral
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
+
 	{
-		"name": "Pictish Warrior",
+		"name": "E1 Pictish Warrior",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Celts",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
+
 	{
-		"name": "Marauder",
+		"name": "Marauder",//B04 Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 10,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 
 
+
+//Era2
 	{
-		"name": "African Forest Elephant",
+		"name": "E2 Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "E2 Horseback Riding",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus",
+		    "[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "E2 Companion Cavalry",
+		"unitType": "Mounted",
+		"uniqueTo": "Greece",
+		"replaces": "E2 Horseman",
+		"movement": 5,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "E2 Horseback Riding",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
+		"promotions": ["Great Generals I"],
+		"requiredResource": "RS01 Horses",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking", 
+		    "No defensive terrain bonus", 
+		    "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "E2 African Forest Elephant",
 		"unitType": "Mounted",
 		"uniqueTo": "Carthage",
-		"replaces": "Horseman",
+		"replaces": "E2 Horseman",
 		"movement": 3,
 		"strength": 14,
 		"cost": 100,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"requiredTech": "E2 Horseback Riding",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
@@ -642,16 +744,40 @@ Great Admiral
 	},
 
 	{
-		"name": "Catapult",
+		"name": "E2 Cataphract",
+		"unitType": "Mounted",
+		"uniqueTo": "Byzantium",
+		"replaces": "E2 Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "E2 Horseback Riding",
+		"upgradesTo": "E3 Knight",
+		"obsoleteTech": "E3 Chivalry",
+		"requiredResource": "RS01 Horses",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking", 
+		    "[-25]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "E2 Catapult",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
+		"requiredTech": "E2 Mathematics",
+		"obsoleteTech": "E3 Physics",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus",
@@ -661,19 +787,22 @@ Great Admiral
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
+
 	{
-		"name": "Ballista",
+		"name": "E2 Ballista",
 		"unitType": "Siege",
-		"replaces": "Catapult",
+		"replaces": "E2 Catapult",
 		"uniqueTo": "Rome",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 10,
 		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
+		"requiredTech": "E2 Mathematics",
+		"obsoleteTech": "E3 Physics",
+		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus",
@@ -684,67 +813,228 @@ Great Admiral
 	},
 
 	{
-		"name": "Pikeman",
+		"name": "E2 Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "E2 Construction",
+		"obsoleteTech": "E3 Machinery",
+		"upgradesTo": "E3 Crossbowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E2 Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "E2 Iron Working",
+		"upgradesTo": "E3 Longswordsman",
+		"obsoleteTech": "E3 Steel",
+		"requiredResource": "RS02 Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E2 Legion",
+		"unitType": "Sword",
+		"uniqueTo": "Rome",
+		"replaces": "E2 Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "E2 Iron Working",
+		"upgradesTo": "E3 Longswordsman",
+		"obsoleteTech": "E4 Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can build [Road] improvements on tiles", 
+		    "Can build [TI20 Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "E2 Mohawk Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Iroquois",
+		"replaces": "E2 Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "E2 Iron Working",
+		"upgradesTo": "E3 Longswordsman",
+		"obsoleteTech": "E4 Gunpowder",
+		"hurryCostModifier": 20,
+		"promotions": ["[Mohawk Warrior] ability"],
+		"attackSound": "metalhit",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+
+
+//Era3
+	{
+		"name": "E3 Pikeman",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
-		"requiredTech": "Civil Service",
+		"requiredTech": "E3 Civil Service",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "E4 Lancer",
+		"obsoleteTech": "E4 Metallurgy",
 		"attackSound": "metalhit"
 	},
+
 	{
-		"name": "Landsknecht",
+		"name": "E3 Landsknecht",
 		"unitType": "Sword",
-		"replaces": "Pikeman",
+		"replaces": "E3 Pikeman",
 		"uniqueTo": "Germany",
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
-		"requiredTech": "Civil Service",
+		"requiredTech": "E3 Civil Service",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>", 
 		    "Can move immediately once bought" ],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
+		"upgradesTo": "E4 Lancer",
+		"obsoleteTech": "E4 Metallurgy",
 		"attackSound": "metalhit"
 		//"Requires [Mercenary Army]" in BNW
 	},
+
 	{
-		"name": "Galleass",
+		"name": "E3 Galleass",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 16,
 		"rangedStrength": 17,
 		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
+		"requiredTech": "E3 Compass",
+		"obsoleteTech": "E4 Navigation",
+		"upgradesTo": "E4 Frigate",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
 
+	{
+		"name": "E3 Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "E3 Chivalry",
+		"obsoleteTech": "E5 Military Science",
+		"upgradesTo": "E5 Cavalry",
+		"requiredResource": "RS01 Horses",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus",
+		    "[-33]% Strength <vs cities> <when attacking>", 
+		    "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
 
 	{
-		"name": "Naresuan's Elephant",
+		"name": "E3 Camel Archer",
+		"unitType": "Archery",
+		"replaces": "E3 Knight",
+		"uniqueTo": "Arabia",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 21,
+		"cost": 120,
+		"requiredTech": "E3 Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E5 Cavalry",
+		"obsoleteTech": "E5 Military Science",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus"],
+		"attackSound": "arrow"
+		//E3 Camel Archer should have no penalty attacking cities
+	},
+
+	{
+		"name": "E3 Conquistador",
 		"unitType": "Mounted",
-		"replaces": "Knight",
+		"replaces": "E3 Knight",
+		"uniqueTo": "Spain",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "E3 Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E5 Cavalry",
+		"obsoleteTech": "E5 Military Science",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus",
+		    "Founds a new city <on foreign continents>", 
+		    "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+		//E3 Conquistador should have no penalty attacking cities
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+	},
+
+	{
+		"name": "E3 Naresuan's Elephant",
+		"unitType": "Mounted",
+		"replaces": "E3 Knight",
 		"uniqueTo": "Siam",
 		"movement": 3,
 		"strength": 25,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
+		"requiredTech": "E3 Chivalry",
+		"obsoleteTech": "E5 Military Science",
+		"upgradesTo": "E5 Cavalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -753,19 +1043,126 @@ Great Admiral
 		"attackSound": "elephant"
 	},
 
+	{
+		"name": "E3 Mandekalu Cavalry",
+		"unitType": "Mounted",
+		"replaces": "E3 Knight",
+		"uniqueTo": "Songhai",
+		"movement": 4,
+		"strength": 20,
+		"cost": 110,
+		"requiredTech": "E3 Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E5 Cavalry",
+		"obsoleteTech": "E5 Military Science",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus"],
+		"attackSound": "horse"
+	},
 
 	{
-		"name": "Trebuchet",
+		"name": "E3 Keshik",
+		"unitType": "Archery",
+		"replaces": "E3 Knight",
+		"uniqueTo": "Mongolia",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "E3 Chivalry",
+		"requiredResource": "RS01 Horses",
+		"upgradesTo": "E5 Cavalry",
+		"obsoleteTech": "E5 Military Science",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking",
+		    "No defensive terrain bonus"],
+		"promotions": ["Great Generals I", "Quick Study"],
+		"attackSound": "arrow"
+		// E3 Keshik should have no penalty attacking cities
+	},
+
+	{
+		"name": "E3 Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "E3 Machinery",
+		"upgradesTo": "E5 Gatling Gun",
+		"obsoleteTech": "E5 Industrialization",
+		"attackSound": "crossbow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E3 Chu-Ko-Nu",
+		"unitType": "Archery",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"replaces": "E3 Crossbowman",
+		"cost": 120,
+		"requiredTech": "E3 Machinery",
+		"upgradesTo": "E5 Gatling Gun",
+		"obsoleteTech": "E5 Industrialization",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E3 Longbowman",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "E3 Crossbowman",
+		"uniqueTo": "England",
+		"cost": 120,
+		"requiredTech": "E3 Machinery",
+		"upgradesTo": "E5 Gatling Gun",
+		"obsoleteTech": "E5 Industrialization",
+		"promotions": ["Extended Range"],
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E3 Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 14,
 		"cost": 120,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Cannon",
+		"requiredTech": "E3 Physics",
+		"obsoleteTech": "E4 Chemistry",
+		"upgradesTo": "E4 Cannon",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>",
 		    "No defensive terrain bonus",
@@ -774,19 +1171,22 @@ Great Admiral
 		    "Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
+
 	{
-		"name": "Hwach'a",
+		"name": "E3 Hwach'a",
 		"unitType": "Siege",
-		"replaces": "Trebuchet",
+		"replaces": "E3 Trebuchet",
 		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 11,
 		"rangedStrength": 26,
 		"cost": 120,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Chemistry",
-		"upgradesTo": "Cannon",
+		"requiredTech": "E3 Physics",
+		"obsoleteTech": "E4 Chemistry",
+		"upgradesTo": "E4 Cannon",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 	    	"No defensive terrain bonus",
 		    "Must set up to ranged attack"],
@@ -794,518 +1194,523 @@ Great Admiral
 	},
 
 	{
-		"name": "Submarine",
-		"unitType": "Submarine",
-		"movement": 5,
-		"strength": 35,
-		"rangedStrength": 60,
-		"cost": 325,
-		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+75]% Strength <when attacking>", 
-		    "Can only attack [Water] tiles", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
-	},
-
-	{
-		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
-		"movement": 5,
-		"strength": 40,
-		"cost": 375,
-		"requiredTech": "Electronics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Cannot attack", 
-		    "Can carry [2] [Aircraft] units"]
-	},
-
-
-	{
-		"name": "Missile Cruiser",
-		"unitType": "Ranged Water",
-		"movement": 7,
-		"strength": 80,
-		"rangedStrength": 100,
-		"range": 3,
-		"interceptRange": 2,
-		"cost": 425,
-		"requiredTech": "Robotics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[100]% chance to intercept air attacks", 
-		    "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", 
-			"[+100]% Strength <vs [Submarine] units>", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "shipguns"
-	},
-
-
-
-
-
-	/* Great people */
-
-	{
-		"name": "Great Artist",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			"Can instantly construct a [Landmark] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Landmark] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Great Person - [Culture]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Can hurry technology research", 
-			"Can instantly construct a [Academy] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Academy] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-
-			"Great Person - [Science]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can instantly construct a [Customs house] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
-			"Can instantly construct a [DNS Customs house] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Great Person - [Gold]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Can speed up construction of a building", 
-			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Manufactory] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Great Person - [Production]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Prophet",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Holy site] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Can Spread Religion <[4] times> <by consuming this unit>",
-			"Removes other religions when spreading religion", 
-			"May found a religion", 
-			"May enhance a religion", 
-			"May enter foreign tiles without open borders", 
-			"[-1] Sight", 
-			"Great Person - [Faith]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Religious Unit", 
-			"Only available <when religion is enabled>",
-			"Takes your religion over the one in their birth city"
-		],
+		"name": "E3 Longswordsman",
+		"unitType": "Sword",
 		"movement": 2,
-		"religiousStrength": 1000
-	},
-	
-	{
-		"name": "Great General",
-		"unitType": "Civilian",
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "E3 Steel",
+		"upgradesTo": "E4 Musketman",
+		"obsoleteTech": "E4 Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"attackSound": "metalhit"
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			"[+35]% Strength bonus for [Military] units within [2] tiles", 
-			"All adjacent units heal [+15] HP when healing", 
-			"[+15] HP when healing",
-			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Great Person - [War]", 
-			"Can move immediately once bought", 
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"movement": 2
-	},
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+    },
+
 	{
-		"name": "Khan",
-		"unitType": "Mounted",
-		"uniqueTo": "Mongolia",
-		"replaces": "Great General",
-		"strength": 20,
+		"name": "E3 Samurai",
+		"unitType": "Sword",
+		"replaces": "E3 Longswordsman",
+		"uniqueTo": "Japan",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "E3 Steel",
+		"upgradesTo": "E4 Musketman",
+		"obsoleteTech": "E4 Gunpowder",
+		"requiredResource": "RS02 Iron",
+		"promotions": ["Shock I", "Great Generals II"],
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-			"[+35]% Strength bonus for [Military] units within [2] tiles", 
-			"All adjacent units heal [+30] HP when healing", 
-			"[+15] HP when healing", 
-			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
-			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
-			"Great Person - [War]", 
-			"Can move immediately once bought",
-			"Unbuildable", 
-			"Uncapturable"
-		],
-		"promotions": ["Medic II", "Adaptive Warfare"],
-		"movement": 6
+		    "Can instantly construct a [TI17 Fishing Boats] improvement"
+		    ],
+		"attackSound": "metalhit"
 	},
 
-
-	/* Religious units */
-
 	{
-		"name": "Missionary",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Limited to [1] per Civilization",
-			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", 
-			"Unbuildable", 
-			"Religious Unit", 
-			"Only available <when religion is enabled>"],
-		"movement": 4,
-		"religiousStrength": 1000,
-	},
-	{
-		"name": "Inquisitor",
-		"unitType": "Civilian",
-		"uniques": [
-		    "Adjacent enemy units ending their turn take [25] damage <after discovering [TechUnlocker]>",
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", 
-			"Only available <when religion is enabled>", 
-			"Unbuildable", 
-			"Religious Unit"
-		],
-		"movement": 3
-	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//changed required resource
-
-	{
-		"name": "Chariot Archer",
-		"unitType": "Archery",
-		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "No defensive terrain bonus", 
-		    "Rough terrain penalty", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Horseman",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus",
-		    "[-33]% Strength <vs cities> <when attacking>" ],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
-		"name": "Companion Cavalry",
-		"unitType": "Mounted",
-		"uniqueTo": "Greece",
-		"replaces": "Horseman",
-		"movement": 5,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"promotions": ["Great Generals I"],
-		"requiredResource": "RS01 Horses",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "No defensive terrain bonus", 
-		    "[-33]% Strength <vs cities> <when attacking>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	{
-		"name": "Cataphract",
-		"unitType": "Mounted",
-		"uniqueTo": "Byzantium",
-		"replaces": "Horseman",
+		"name": "E3 Berserker",
+		"unitType": "Sword",
+		"replaces": "E3 Longswordsman",
+		"uniqueTo": "Denmark",
 		"movement": 3,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"requiredResource": "RS01 Horses",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "[-25]% Strength <vs cities> <when attacking>"],
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "E3 Metal Casting",
+		"upgradesTo": "E4 Musketman",
+		"obsoleteTech": "E4 Metallurgy",
+		"requiredResource": "RS02 Iron",
+		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
+		"attackSound": "metalhit"
+		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+    },
+
+
+
+//Era4
 	{
-		"name": "Knight",
-		"unitType": "Mounted",
+		"name": "E4 Caravel",
+		"unitType": "Ranged Water",
 		"movement": 4,
 		"strength": 20,
+		"rangedStrength": 10,
+		"range": 1,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "RS01 Horses",
+		"requiredTech": "E4 Astronomy",
+		"upgradesTo": "E5 Ironclad",
+		"obsoleteTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus",
-		    "[-33]% Strength <vs cities> <when attacking>", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
+			"[+1] Sight", 
+			"Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "Cannon"
 	},
+
 	{
-		"name": "Camel Archer",
-		"unitType": "Archery",
-		"replaces": "Knight",
-		"uniqueTo": "Arabia",
+		"name": "E4 Turtle Ship",
+		"unitType": "Ranged Water",
+		"replaces": "E4 Caravel",
+		"uniqueTo": "Korea",
 		"movement": 4,
-		"strength": 17,
-		"rangedStrength": 21,
+		"strength": 36,
+		"rangedStrength": 18,
+		"range": 1,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"requiredTech": "E4 Astronomy",
+		"upgradesTo": "E5 Ironclad",
+		"obsoleteTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus"],
-		"attackSound": "arrow"
-		//Camel Archer should have no penalty attacking cities
+			"Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "Cannon"
 	},
+
 	{
-		"name": "Conquistador",
-		"unitType": "Mounted",
-		"replaces": "Knight",
+		"name": "E4 Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Gunpowder",
+		"upgradesTo": "E5 Rifleman",
+		"obsoleteTech": "E5 Rifling",
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E4 Musketeer",
+		"unitType": "Gunpowder",
+		"replaces": "E4 Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
+		"rangedStrength": 14,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Gunpowder",
+		"upgradesTo": "E5 Rifleman",
+		"obsoleteTech": "E5 Rifling",
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+    },
+
+	{
+		"name": "E4 Janissary",
+		"unitType": "Gunpowder",
+		"replaces": "E4 Musketman",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Gunpowder",
+		"upgradesTo": "E5 Rifleman",
+		"obsoleteTech": "E5 Rifling",
+		"promotions": [
+			"[Janissary] ability"],
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E4 Minuteman",
+		"unitType": "Gunpowder",
+		"replaces": "E4 Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Gunpowder",
+		"upgradesTo": "E5 Rifleman",
+		"obsoleteTech": "E5 Rifling",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Ignores terrain cost"],
+		"promotions": [
+			"Drill I"],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "E4 Tercio",
+		"unitType": "Gunpowder",
+		"replaces": "E4 Musketman",
 		"uniqueTo": "Spain",
-		"movement": 4,
-		"strength": 20,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"movement": 2,
+		"strength": 26,
+		"rangedStrength": 13,
+		"range": 1,
+		"cost": 160,
+		"requiredTech": "E4 Gunpowder",
+		"upgradesTo": "E5 Rifleman",
+		"obsoleteTech": "E5 Rifling",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus",
-		    "Founds a new city <on foreign continents>", 
-		    "[+2] Sight"],
-		"promotions": ["[Conquistador] ability"],
-		"attackSound": "horse"
-		//Conquistador should have no penalty attacking cities
-		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+			"[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
 	},
+
 	{
-		"name": "Mandekalu Cavalry",
-		"unitType": "Mounted",
-		"replaces": "Knight",
-		"uniqueTo": "Songhai",
-		"movement": 4,
-		"strength": 20,
-		"cost": 110,
-		"requiredTech": "Chivalry",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Keshik",
-		"unitType": "Archery",
-		"replaces": "Knight",
-		"uniqueTo": "Mongolia",
-		"range": 2,
+		"name": "E4 Privateer",
+		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
+		"strength": 25,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Navigation",
+		"upgradesTo": "E6 Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Privateer] ability"],
+		"attackSound": "Cannon"
 		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking",
-		    "No defensive terrain bonus"],
-		"promotions": ["Great Generals I", "Quick Study"],
-		"attackSound": "arrow"
-		// Keshik should have no penalty attacking cities
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
 	},
+
 	{
-		"name": "Lancer",
+		"name": "E4 Sea Beggar",
+		"unitType": "Ranged Water",
+		"replaces": "E4 Privateer",
+		"uniqueTo": "The Netherlands",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 12,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "E4 Navigation",
+		"upgradesTo": "E6 Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"Coastal Raider II", 
+			"Supply", 
+			"[Privateer] ability"],
+		"attackSound": "Cannon"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E4 Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"range": 2,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"requiredTech": "E4 Navigation",
+		"obsoleteTech": "E6 Electronics",
+		"upgradesTo": "E6 Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E4 Ship of the Line",
+		"unitType": "Ranged Water",
+		"replaces": "E4 Frigate",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"range": 2,
+		"cost": 185,
+		"requiredResource": "RS02 Iron",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "[+1] Sight"],
+		"requiredTech": "E4 Navigation",
+		"obsoleteTech": "E6 Electronics",
+		"upgradesTo": "E6 Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+
+	{
+		"name": "E4 Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>",
 		    "Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "E7 Anti-Tank Gun",
+		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
+
 	{
-		"name": "Sipahi",
+		"name": "E4 Sipahi",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "E4 Lancer",
 		"uniqueTo": "The Ottomans",
 		"movement": 5,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Sipahi] ability","Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "E7 Anti-Tank Gun",
+		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
+
 	{
-		"name": "Hakkapeliitta",
+		"name": "E4 Hakkapeliitta",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "E4 Lancer",
 		"uniqueTo": "Sweden",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
 		    "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability","Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "E7 Anti-Tank Gun",
+		"obsoleteTech": "E7 Combined Arms",
 		"attackSound": "horse"
 	},
+
 	{
-		"name": "Cavalry",
+		"name": "E4 Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"range": 2,
+		"cost": 185,
+		"requiredTech": "E4 Chemistry",
+		"upgradesTo": "E5 Artillery",
+		"obsoleteTech": "E5 Dynamite",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"],
+		"attackSound": "Cannon"
+	},
+
+
+
+//Era5
+	{
+		"name": "E5 Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "E5 Industrialization",
+		"upgradesTo": "E6 Machine Gun",
+		"obsoleteTech": "E6 Ballistics",
+		"attackSound": "machinegun"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E5 Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "E5 Rifling",
+		"obsoleteTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Great War Infantry",
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E5 Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "E5 Rifleman",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "E5 Rifling",
+		"obsoleteTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Great War Infantry",
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E5 Carolean",
+		"unitType": "Gunpowder",
+		"replaces": "E5 Rifleman",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 225,
+		"requiredTech": "E5 Rifling",
+		"obsoleteTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Great War Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E5 Mehal Sefari",
+		"unitType": "Gunpowder",
+		"replaces": "E5 Rifleman",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 34,
+		"rangedStrength": 17,
+		"range": 1,
+		"cost": 200,
+		"requiredTech": "E5 Rifling",
+		"obsoleteTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Great War Infantry",
+		"promotions": ["Drill I","Home Sweet Home"],
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E5 Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "E5 Military Science",
+		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1313,19 +1718,22 @@ Great Admiral
 		    "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
+
 	{
-		"name": "Cossack",
+		"name": "E5 Cossack",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
+		"replaces": "E5 Cavalry",
 		"uniqueTo": "Russia",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "E5 Military Science",
+		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1333,19 +1741,22 @@ Great Admiral
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
+
 	{
-		"name": "Hussar",
+		"name": "E5 Hussar",
 		"unitType": "Mounted",
-		"replaces": "Cavalry",
+		"replaces": "E5 Cavalry",
 		"uniqueTo": "Austria",
 		"movement": 5,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "E5 Military Science",
+		"obsoleteTech": "E6 Combustion",
 		"requiredResource": "RS01 Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1355,104 +1766,115 @@ Great Admiral
 		"attackSound": "horse"
 	},
 
-
 	{
-		"name": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "RS02 Iron",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-
-//fixing removed improvements
-	{
-		"name": "Legion",
-		"unitType": "Sword",
-		"uniqueTo": "Rome",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "RS02 Iron",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can build [Road] improvements on tiles", 
-		    "Can build [TI20 Fort] improvements on tiles"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-
-	{
-		"name": "Longswordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "RS02 Iron",
-		"attackSound": "metalhit"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
-	{
-		"name": "Samurai",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Japan",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "RS02 Iron",
-		"promotions": ["Shock I", "Great Generals II"],
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can instantly construct a [TI17 Fishing Boats] improvement"
-		    ],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Berserker",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Denmark",
+		"name": "E5 Ironclad",
+		"unitType": "Ranged Water",
 		"movement": 3,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Metal Casting",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Metallurgy",
-		"requiredResource": "RS02 Iron",
-		"promotions": ["Amphibious"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+		"strength": 45,
+		"rangedStrength": 22,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "E5 Steam Power",
+		"requiredResource": "RS03 Coal",
+		"upgradesTo": "E6 Destroyer",
+		"obsoleteTech": "E6 Combustion",
 		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
-
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"[+33]% Strength <vs cities>",
+			"Double movement in [Coast]", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
 
 	{
-		"name": "Triplane",
+		"name": "E5 Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "E5 Dynamite",
+		"upgradesTo": "E7 Rocket Artillery",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "E5 Artillery"
+	},
+
+
+
+//Era6
+	{
+		"name": "E6 Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 60,
+		"cost": 325,
+		"requiredTech": "E6 Refrigeration",
+		"upgradesTo": "E8 Nuclear Submarine",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "[+75]% Strength <when attacking>", 
+		    "Can only attack [Water] tiles", 
+		    "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+
+	{
+		"name": "E6 Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 320,
+		"requiredTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Infantry",
+		"obsoleteTech": "E6 Plastics",
+		"attackSound": "shot"
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+		    ]
+	},
+
+	{
+		"name": "E6 Foreign Legion",
+		"unitType": "Gunpowder",
+		"replaces": "E6 Great War Infantry",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 320,
+		"requiredTech": "E6 Replaceable Parts",
+		"upgradesTo": "E6 Infantry",
+		"obsoleteTech": "E6 Plastics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "E6 Triplane",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 35,
@@ -1460,608 +1882,73 @@ Great Admiral
 		"range": 5,
 		"interceptRange": 5,
 		"cost": 325,
-		"requiredTech": "Flight",
+		"requiredTech": "E6 Flight",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Fighter",
-		"obsoleteTech": "Radar",
+		"upgradesTo": "E7 Fighter",
+		"obsoleteTech": "E7 Radar",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "[50]% chance to intercept air attacks",
 		    "[+150]% Strength <vs [Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
+
 	{
-		"name": "Great War Bomber",
+		"name": "E6 Great War Bomber",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
 		"range": 6,
 		"cost": 325,
-		"requiredTech": "Flight",
+		"requiredTech": "E6 Flight",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Bomber",
-		"obsoleteTech": "Radar",
+		"upgradesTo": "E7 Bomber",
+		"obsoleteTech": "E7 Radar",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ],
 		"attackSound": "bombing"
 	},
 
-
 	{
-		"name": "Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 45,
-		"rangedStrength": 45,
-		"range": 8,
-		"interceptRange": 8,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Jet Fighter",
-		"uniques": [
-		    "[100]% chance to intercept air attacks", 
-		    "[+150]% Strength <vs [Bomber] units>",
-		    "[+150]% Strength <vs [Helicopter] units>"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 65,
-		"rangedStrength": 65,
-		"range": 10,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Stealth Bomber",
-		"attackSound": "bombing"
-	},
-	{
-		"name": "B17",
-		"unitType": "Bomber",
-		"replaces": "Bomber",
-		"uniqueTo": "America",
-		"movement": 1,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 10,
-		"cost": 375,
-		"requiredTech": "Radar",
-		"requiredResource": "RS04 Oil",
-		"promotions": ["Evasion", "Siege I"],
-		"upgradesTo": "Stealth Bomber",
-		"attackSound": "bombing"
-	},
-
-
-
-
-	{
-		"name": "Modern Armor",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 100,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "RS05 Aluminum",
-		"upgradesTo": "Giant Death Robot",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "No defensive terrain bonus", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Jet Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 10,
-		"interceptRange": 10,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "[100]% chance to intercept air attacks",
-		    "[+150]% Strength <vs [Bomber] units>", 
-		    "[+150]% Strength <vs [Helicopter] units>"],
-		"attackSound": "jetgun"
-	},
-	{
-		"name": "Stealth Bomber",
-		"unitType": "Bomber",
-		"movement": 2,
-		"strength": 85,
-		"rangedStrength": 85,
-		"range": 20,
-		"cost": 425,
-		"requiredTech": "Stealth",
-		"requiredResource": "RS05 Aluminum",
-		"uniques": [
-		    "Damage taken from interception reduced by [100]%", 
-		    "Cannot be carried by [Carrier] units", 
-		    "[+4] Sight",
-		    "Can see over obstacles"],
-		"attackSound": "bombing"
-	},
-
-
-
-	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 600,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "RS06 Uranium",
-		"promotions" : ["Evasion"],
-		"uniques": [
-		    "Nuclear weapon of Strength [1]", 
-		    "Only available <if [Manhattan Project] is constructed>", 
-		    "Self-destructs when attacking",
-			"Blast radius [2]"],
-		"attackSound": "nuke"
-		// Plane rather than a missile - can be based in city or Carrier only.
-		// Can be intercepted, but must die for it not to take effect.
-	},
-
-
-
-
-
-
-
-
-
-//XSA//Gun Ranged Fixing
-	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Cannot enter ocean tiles", 
-			"Never appears as a Barbarian unit"],
-//xsa		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Quinquereme",
-		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 13,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Cannot enter ocean tiles"],
-//xsa		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-	},
-
-	{
-		"name": "Caravel",
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 20,
-		"rangedStrength": 10,
-		"range": 1,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+1] Sight", 
-			"Withdraws before melee combat <with [80]% chance>"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Turtle Ship",
-		"unitType": "Ranged Water",
-		"replaces": "Caravel",
-		"uniqueTo": "Korea",
-		"movement": 4,
-		"strength": 36,
-		"rangedStrength": 18,
-		"range": 1,
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Cannot enter ocean tiles"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Musketman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"rangedStrength": 12,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Musketeer",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "France",
-		"movement": 2,
-		"strength": 28,
-		"rangedStrength": 14,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-    },
-	{
-		"name": "Janissary",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "The Ottomans",
-		"movement": 2,
-		"strength": 24,
-		"rangedStrength": 12,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"promotions": [
-			"[Janissary] ability"],
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Minuteman",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "America",
-		"movement": 2,
-		"strength": 24,
-		"rangedStrength": 12,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Ignores terrain cost"],
-		"promotions": [
-			"Drill I"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Tercio",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Spain",
-		"movement": 2,
-		"strength": 26,
-		"rangedStrength": 13,
-		"range": 1,
-		"cost": 160,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Privateer",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 12,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": [
-			"Coastal Raider I", 
-			"[Privateer] ability"],
-		"attackSound": "cannon"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Sea Beggar",
-		"unitType": "Ranged Water",
-		"replaces": "Privateer",
-		"uniqueTo": "The Netherlands",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 12,
-		"range": 1,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"promotions": [
-			"Coastal Raider I", 
-			"Coastal Raider II", 
-			"Supply", 
-			"[Privateer] ability"],
-		"attackSound": "cannon"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Frigate",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"range": 2,
-		"cost": 185,
-		"requiredResource": "RS02 Iron",
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Ship of the Line",
-		"unitType": "Ranged Water",
-		"replaces": "Frigate",
-		"uniqueTo": "England",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"range": 2,
-		"cost": 185,
-		"requiredResource": "RS02 Iron",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "[+1] Sight"],
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-	},
-	{
-		"name": "Cannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 20,
-		"range": 2,
-		"cost": 185,
-		"requiredTech": "Chemistry",
-		"upgradesTo": "Artillery",
-		"obsoleteTech": "Dynamite",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[-1] Sight",
-			"Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-
-
-	{
-		"name": "Gatling Gun",
-		"unitType": "Ranged Gunpowder",
-		"range": 2,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
-		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Rifleman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 34,
-		"rangedStrength": 17,
-		"range": 1,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Norwegian Ski Infantry",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Denmark",
-		"movement": 2,
-		"strength": 34,
-		"rangedStrength": 17,
-		"range": 1,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["[Norwegian Ski Infantry] ability"],
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 34,
-		"rangedStrength": 17,
-		"range": 1,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["March"],
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Mehal Sefari",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Ethiopia",
-		"movement": 2,
-		"strength": 34,
-		"rangedStrength": 17,
-		"range": 1,
-		"cost": 200,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["Drill I","Home Sweet Home"],
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-
-	{
-		"name": "Ironclad",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 45,
-		"rangedStrength": 22,
-		"range": 1,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"requiredResource": "RS03 Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+33]% Strength <vs cities>",
-			"Double movement in [Coast]", 
-			"Never appears as a Barbarian unit"],
-		"attackSound": "shipguns"
-	},
-	{
-		"name": "Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 21,
-		"rangedStrength": 30,
-		"range": 3,
-		"cost": 320,
-		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+200]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[-1] Sight", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
-	{
-		"name": "Great War Infantry",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 25,
-		"range": 1,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"attackSound": "shot"
-		"uniques": [
-    		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
-		    ]
-	},
-	{
-		"name": "Foreign Legion",
-		"unitType": "Gunpowder",
-		"replaces": "Great War Infantry",
-		"uniqueTo": "France",
-		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 25,
-		"range": 1,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Infantry",
+		"name": "E6 Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
 		"rangedStrength": 35,
 		"range": 1,
 		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"requiredTech": "E6 Plastics",
+		"upgradesTo": "E8 Mechanized Infantry",
+		"obsoleteTech": "E8 Mobile Tactics",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
+
 	{
-		"name": "Battleship",
+		"name": "E6 Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 40,
+		"cost": 375,
+		"requiredTech": "E6 Electronics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Cannot attack", 
+		    "Can carry [2] [Aircraft] units"]
+	},
+
+	{
+		"name": "E6 Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
@@ -2069,32 +1956,38 @@ Great Admiral
 		"range": 3,
 		"cost": 375,
 		"requiredResource": "RS04 Oil",
-		"requiredTech": "Electronics",
+		"requiredTech": "E6 Electronics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
+		// Does not actually upgrade to E8 Missile Cruisers
 	},
+
 	{
-		"name": "Machine Gun",
+		"name": "E6 Machine Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 2,
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 350,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"requiredTech": "E6 Ballistics",
+		"upgradesTo": "E8 Mechanized Infantry",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
+
 	{
-		"name": "Anti-Aircraft Gun",
+		"name": "E6 Anti-Aircraft Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"interceptRange": 2,
@@ -2102,10 +1995,12 @@ Great Admiral
 		"rangedStrength": 25,
 		"range": 1,
 		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
+		"requiredTech": "E6 Ballistics",
+		"upgradesTo": "E7 Mobile SAM",
+		"obsoleteTech": "E7 Rocketry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Air] units>", 
@@ -2113,27 +2008,31 @@ Great Admiral
 			"Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
+
 	{
-		"name": "Landship",
+		"name": "E6 Landship",
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 60,
 		"rangedStrength": 48,
 		"range": 1,
 		"cost": 350,
-		"requiredTech": "Combustion",
+		"requiredTech": "E6 Combustion",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "E7 Tank",
+		"obsoleteTech": "E7 Combined Arms",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
+
 	{
-		"name": "Destroyer",
+		"name": "E6 Destroyer",
 		"unitType": "Ranged Water",
 		"movement": 6,
 		"strength": 55,
@@ -2141,122 +2040,253 @@ Great Admiral
 		"range": 2,
 		"interceptRange": 2,
 		"cost": 375,
-		"requiredTech": "Combustion",
+		"requiredTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Can see invisible [Submarine] units", 
+			"Can see invisible [E6 Submarine] units", 
 			"[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", 
-			"[+100]% Strength <vs [Submarine] units>"],
+			"[+100]% Strength <vs [E6 Submarine] units>"],
 		"attackSound": "shipguns"
 	},
+
+
+
+//Era7
+
 	{
-		"name": "Marine",
+		"name": "E7 Marine",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 32,
 		"range": 1,
 		"cost": 400,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "E7 Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+1] Sight <when [Embarked]>", 
 			"[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
+
 	{
-		"name": "Paratrooper",
+		"name": "E7 Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "E7 Radar",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "E8 Jet Fighter",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
+		    "[100]% chance to intercept air attacks", 
+		    "[+150]% Strength <vs [Bomber] units>",
+		    "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "E7 Zero",
+		"unitType": "Fighter",
+		"replaces": "E7 Fighter",
+		"uniqueTo": "Japan",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "E7 Radar",
+		"upgradesTo": "E8 Jet Fighter",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
+		    "[100]% chance to intercept air attacks", 
+		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [Helicopter] units>"],
+		"promotions": ["[Zero] ability"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "E7 Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "E7 Radar",
+		"requiredResource": "RS04 Oil",
+		"upgradesTo": "E8 Stealth Bomber",
+		"attackSound": "bombing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ]
+	},
+
+	{
+		"name": "E7 B17",
+		"unitType": "Bomber",
+		"replaces": "E7 Bomber",
+		"uniqueTo": "America",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 375,
+		"requiredTech": "E7 Radar",
+		"requiredResource": "RS04 Oil",
+		"promotions": ["Evasion", "Siege I"],
+		"upgradesTo": "E8 Stealth Bomber",
+		"attackSound": "bombing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ]
+	},
+
+
+//xsa//have paradrop
+	{
+		"name": "E7 Paratrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
 		"rangedStrength": 32,
 		"range": 1,
 		"cost": 375,
-		"requiredTech": "Radar",
+		"requiredTech": "E7 Radar",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
+
 	{
-		"name": "Tank",
+		"name": "E7 Tank",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 70,
 		"rangedStrength": 56,
 		"range": 1,
 		"cost": 375,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "E7 Combined Arms",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
+		"attackSound": "Tankshot"
 	},
+
 	{
-		"name": "Panzer",
+		"name": "E7 Panzer",
 		"unitType": "Armored",
 		"uniqueTo": "Germany",
-		"replaces": "Tank",
+		"replaces": "E7 Tank",
 		"movement": 6,
 		"strength": 80,
 		"rangedStrength": 64,
 		"range": 1,
 		"cost": 375,
-		"requiredTech": "Combined Arms",
+		"requiredTech": "E7 Combined Arms",
 		"requiredResource": "RS04 Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus"],
-		"attackSound": "tankshot"
-		//German unique unit, stronger than Tank
+		"attackSound": "Tankshot"
+		//German unique unit, stronger than E7 Tank
 	},
+
 	{
-		"name": "Anti-Tank Gun",
+		"name": "E7 Anti-Tank Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
 		"rangedStrength": 25,
 		"range": 2,
 		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
+		"requiredTech": "E7 Combined Arms",
+		"upgradesTo": "E7 Helicopter Gunship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+100]% Strength <vs [Armored] units>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
+
 	{
-		"name": "Rocket Artillery",
+		"name": "E7 Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "E7 Nuclear Fission",
+		"requiredResource": "RS06 Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
+		    "Nuclear weapon of Strength [1]", 
+		    "Only available <if [E7 Manhattan Project] is constructed>", 
+		    "Self-destructs when attacking",
+			"Blast radius [2]"],
+		"attackSound": "nuke"
+		// Plane rather than a missile - can be based in city or E6 Carrier only.
+		// Can be intercepted, but must die for it not to take effect.
+	},
+
+	{
+		"name": "E7 Rocket Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
 		"range": 4,
 		"cost": 425,
-		"requiredTech": "Rocketry",
+		"requiredTech": "E7 Rocketry",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight", 
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
+		"attackSound": "E5 Artillery"
 	},
+
 	{
-		"name": "Mobile SAM",
+		"name": "E7 Mobile SAM",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"interceptRange": 2,
@@ -2264,8 +2294,10 @@ Great Admiral
 		"rangedStrength": 32,
 		"range": 1,
 		"cost": 425,
-		"requiredTech": "Rocketry",
+		"requiredTech": "E7 Rocketry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Air] units>",
@@ -2275,18 +2307,56 @@ Great Admiral
 	},
 
 	{
+		"name": "E7 Guided Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "E8 Advanced Ballistics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
+		    "[-100]% maintenance costs"
+		    ],
+		"attackSound": "missile"
+	},
+
+	{
+		"name": "E7 Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 1000,
+		"requiredTech": "E8 Advanced Ballistics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
+		    "Nuclear weapon of Strength [2]", 
+		    "Only available <if [E7 Manhattan Project] is constructed>",
+			"Blast radius [2]", 
+			"Consumes [2] [RS06 Uranium]"],
+		"attackSound": "nuke"
+	},
+
+	{
 		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Helicopter Gunship",
+		"name": "E7 Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 6,
 		"strength": 60,
 		"rangedStrength": 60,
 		"range": 2,
 		"cost": 425,
-		"requiredTech": "Computers",
+		"requiredTech": "E7 Computers",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"May travel on Water tiles without embarking",
 			//xsa//added hovering
@@ -2307,61 +2377,21 @@ Great Admiral
 		"attackSound": "machinegun"
 	},
 
+
+//Era8
 	{
-		"name": "Mechanized Infantry",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 90,
-		"rangedStrength": 45,
-		"range": 2,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-	    	"Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-
-	{
-		"name": "Giant Death Robot",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 150,
-		"rangedStrength": 120,
-		"range": 2,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "RS06 Uranium",
-		"uniques": [
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-		    "Can move after attacking", 
-		    "No defensive terrain bonus", 
-		    "Never appears as a Barbarian unit"],
-		"attackSound": "gdrAttack"
-	},
-
-
-//XSA//Gun Ranged Fixing End
-
-
-
-
-
-
-
-//xsa//adds requiredResource 
-  
-	{
-		"name": "Nuclear Submarine",
+		"name": "E8 Nuclear Submarine",
 		"unitType": "Submarine",
 		"movement": 6,
 		"strength": 50,
 		"range": 3,
 		"rangedStrength": 85,
 		"cost": 425,
-		"requiredTech": "Telecommunications",
+		"requiredTech": "E8 Telecommunications",
     	"requiredResource": "Uranium",//xsa//added requiredResource
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+75]% Strength <when attacking>", 
 			"Can only attack [Water] tiles", 
@@ -2370,34 +2400,361 @@ Great Admiral
 			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
-  
-  
-  
-  
-  
-  
-  
-  
 
-	//xsa//spaceparts//100x costs
-	//reverted to default
+	{
+		"name": "E8 Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 375,
+		"requiredTech": "E8 Mobile Tactics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+	    	"Never appears as a Barbarian unit"],
+		"attackSound": "Tankshot"
+	},
+
+	{
+		"name": "E8 Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "E8 Robotics",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "[100]% chance to intercept air attacks", 
+		    "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", 
+			"[+100]% Strength <vs [Submarine] units>", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+
+	{
+		"name": "E8 Modern Armor",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "E8 Lasers",
+		"requiredResource": "RS05 Aluminum",
+		"upgradesTo": "E8 Giant Death Robot",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking", 
+		    "No defensive terrain bonus", 
+		    "Never appears as a Barbarian unit"],
+		"attackSound": "Tankshot"
+	},
+
+	{
+		"name": "E8 Jet Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "E8 Lasers",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
+		    "[100]% chance to intercept air attacks",
+		    "[+150]% Strength <vs [Bomber] units>", 
+		    "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "jetgun"
+	},
+
+	{
+		"name": "E8 Giant Death Robot",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 150,
+		"rangedStrength": 120,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "E8 Nuclear Fusion",
+		"requiredResource": "RS06 Uranium",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+		    "Can move after attacking", 
+		    "No defensive terrain bonus", 
+		    "Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
+	},
+
+
+
+//Era8
+	{
+		"name": "E8 Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "E8 Stealth",
+		"requiredResource": "RS05 Aluminum",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
+		    "Damage taken from interception reduced by [100]%", 
+		    "Cannot be carried by [E6 Carrier] units", 
+		    "[+4] Sight",
+		    "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+
+
+/* Great people */
+
+	{
+		"name": "E0 Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
+
+			"Can instantly construct a [Landmark] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Landmark] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+			"Great Person - [Culture]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+
+	{
+		"name": "E0 Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Can hurry technology research", 
+			"Can instantly construct a [Academy] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Academy] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+
+			"Great Person - [Science]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "E0 Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Customs house] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
+			"Can instantly construct a [DNS Customs house] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+			"Great Person - [Gold]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "E0 Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Can speed up Construction of a building", 
+			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Manufactory] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+			"Great Person - [Production]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "E0 Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Holy site] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion", 
+			"May found a religion", 
+			"May enhance a religion", 
+			"May enter foreign tiles without open borders", 
+			"[-1] Sight", 
+			"Great Person - [Faith]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	
+	{
+		"name": "E0 Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+15] HP when healing", 
+			"[+15] HP when healing",
+			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+			"Great Person - [War]", 
+			"Can move immediately once bought", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+//xsa//have paradrop
+	{
+		"name": "E0 Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
+			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"
+			],
+		"movement": 4
+	},
+	{
+		"name": "E0 Khan",
+		"unitType": "Mounted",
+		"uniqueTo": "Mongolia",
+		"replaces": "E0 Great General",
+		"strength": 20,
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [7] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
+			"[+35]% Strength bonus for [Military] units within [2] tiles", 
+			"All adjacent units heal [+30] HP when healing", 
+			"[+15] HP when healing", 
+			"Can instantly construct a [Citadel] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
+			"Can instantly construct a [DNS Citadel] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
+			"Great Person - [War]", 
+			"Can move immediately once bought",
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"promotions": ["Medic II", "Adaptive Warfare"],
+		"movement": 6
+	},
+/* Religious units */
+
+	{
+		"name": "E0 Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Limited to [3] per Civilization",
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", 
+			"Unbuildable", 
+			"Religious Unit", 
+			"Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000,
+	},
+	{
+		"name": "E0 Inquisitor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", 
+			"Only available <when religion is enabled>", 
+			"Unbuildable", 
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+//xsa//spaceparts//100x costs
+//reverted to default
 	
   /* Spaceship Parts */
 
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
 	{
-		"name": "SS Booster",
+		"name": "E9 SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [3] per Civilization"
@@ -2405,57 +2762,97 @@ Great Admiral
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Cockpit",
+		"name": "E9 SS Cockpit",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "Satellites",
+		"requiredTech": "E8 Satellites",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [1] per Civilization"]
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Engine",
+		"name": "E9 SS Engine",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "E8 Particle Physics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
-    		"Only available <if [Apollo Program] is constructed>", 
+    		"Only available <if [E7 Apollo Program] is constructed>", 
     		"Uncapturable", 
     		"Can be added to [The Spaceship] in the Capital", 
     		"Limited to [1] per Civilization"]
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Stasis Chamber",
+		"name": "E9 SS Stasis Chamber",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 7500,
-		"requiredTech": "Nanotechnology",
+		"requiredTech": "E8 Nanotechnology",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
             "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
             "Spaceship part", 
             "Cannot be purchased", 
-            "Only available <if [Apollo Program] is constructed>", 
+            "Only available <if [E7 Apollo Program] is constructed>", 
             "Uncapturable", 
             "Can be added to [The Spaceship] in the Capital", 
             "Limited to [1] per Civilization"
 		  ]
 		// costs 1500 in BNW
 	},
+
+//xsa//end of gk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2525,7 +2922,7 @@ Great Admiral
 		"requiredResource": "RM01 Aetherium",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
-			"Can carry [1] [Air] units",
+			"Can carry [2] [Aircraft] units",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Unable to capture cities",
@@ -2541,21 +2938,22 @@ Great Admiral
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	  //xsa//added//airunit
   
@@ -2566,7 +2964,7 @@ Great Admiral
 		"movement": 2,
 		"strength": 75,
 		"cost": 425,
-		"requiredTech": "Advanced Ballistics",
+		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Uncapturable",
@@ -2600,7 +2998,7 @@ Great Admiral
 
 	{
 		"name": "DNS Checkeri1",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2620,7 +3018,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri2",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2640,7 +3038,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri3",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2661,7 +3059,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri4",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2682,7 +3080,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri5",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2703,7 +3101,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri6",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2724,7 +3122,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri7",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2745,7 +3143,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri8",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2766,7 +3164,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Checkeri9",
-		"unitType": "Civilian",
+		"unitType": "DNSCivilian",
 		"uniques": [
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2811,7 +3209,7 @@ Great Admiral
 
     {
     	"name": "TestBallo90",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2846,7 +3244,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo91",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2882,7 +3280,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo92",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2918,7 +3316,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo93",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2954,7 +3352,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo94",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -2990,7 +3388,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo95",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3028,7 +3426,7 @@ Great Admiral
 
     {
     	"name": "TestBallo96",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3065,7 +3463,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo97",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3101,7 +3499,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo98",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3137,7 +3535,7 @@ Great Admiral
     },
     {
     	"name": "TestBallo99",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3195,7 +3593,7 @@ Great Admiral
 
     {
     	"name": "Observar",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3206,7 +3604,7 @@ Great Admiral
 			"Can see over obstacles",
 			"Can see invisible [All] units<hidden from users>",
 
-			"Can carry [6] [Air] units", 
+			"Can carry [6] [Aircraft] units", 
 			"Can carry [12] [Missile] units", 
 
 			"Can enter ice tiles",
@@ -3233,8 +3631,49 @@ Great Admiral
     },
 
     {
+    	"name": "Spreader",
+    	"unitType": "DNSCivilian",
+    	"movement": 10,
+		"requiredTech": "TechUnlocker",
+
+    	"cost": 200,
+    	"uniques": [
+    	    "[+6] Sight",
+			"Can see over obstacles",
+
+			"Can enter ice tiles",
+			"May travel on Water tiles without embarking<hidden from users>",			 //xsa//added hovering
+
+			"Withdraws before melee combat <with [80]% chance><hidden from users>", 
+			"May enter foreign tiles without open borders<hidden from users>",
+
+			"Ignores Zone of Control<hidden from users>", 
+    		"May Paradrop to [All] tiles up to [25] tiles away<hidden from users>", 
+
+			"Unable to capture cities<hidden from users>",
+
+//			"Unavailable <hidden from users>",
+//			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+
+    	    "Never appears as a Barbarian unit<hidden from users>",
+
+			"Withdraws before melee combat <with [99]% chance>",
+
+			"Can Spread Religion <for [6] movement> <[4] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [25] religious strength each turn it ends there",
+
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"Religious Unit", 
+			"Only available <when religion is enabled>"],
+		"movement": 6,
+		"religiousStrength": 5000,
+	},
+
+    {
     	"name": "Revealer",
-    	"unitType": "Civilian",
+    	"unitType": "DNSCivilian",
     	"movement": 10,
 		"requiredTech": "TechUnlocker",
 //    	"requiredTech": "Replaceable Parts",
@@ -3242,7 +3681,7 @@ Great Admiral
     	"cost": 200,
     	"uniques": [
     	    "[+30] Sight",
-			"Can carry [6] [Air] units", 
+			"Can carry [6] [Aircraft] units", 
 			"Can carry [12] [Missile] units", 
 
 			"Can see over obstacles",
@@ -3275,7 +3714,7 @@ Great Admiral
 
 	{
 		"name": "DNS Flyer",
-		"unitType": "Fighter",
+		"unitType": "DNSFighter",
 		"movement": 1,
 		"strength": 18,
 		"rangedStrength": 18,
@@ -3286,9 +3725,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3305,7 +3744,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS War Bomber",
-		"unitType": "Bomber",
+		"unitType": "DNSBomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -3315,9 +3754,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3335,7 +3774,7 @@ Great Admiral
 
 	{
 		"name": "Zeppelin Terraformer",
-		"unitType": "Helicopter",
+		"unitType": "DNSHelicopter",
 		"movement": 5,
 		"strength": 10,
 		"rangedStrength": 15,
@@ -3347,16 +3786,16 @@ Great Admiral
 		"uniques": [
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"All adjacent units heal [+50] HP when healing", 
 			"[+50] HP when healing", 
 
 			"[100]% chance to intercept air attacks", 
 			"Can see invisible [Submarine] units",
-			"Can carry [2] [Air] units", 
+			"Can carry [2] [Aircraft] units", 
 			"Can carry [3] [Missile] units", 
 
 	    	"Limited to [6] per Civilization"
@@ -3488,9 +3927,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -3506,15 +3945,15 @@ Great Admiral
 		"movement": 1,
 		"strength": 80,
 		"rangedStrength": 90,
-		"range": 15,
+		"range": 12,
 		"cost": 150,
 //		"requiredTech": "Advanced Ballistics",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [20] per Civilization"
 			"Never appears as a Barbarian unit",
@@ -3524,19 +3963,19 @@ Great Admiral
 		"attackSound": "missile"
 	},
 	{
-		"name": "DNS Nuclear Missile P2",
-		"unitType": "Missile",
+		"name": "DNS Nuclear Missile P02",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 12,
+		"range": 8,
 		"cost": 1000,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [2]", 
@@ -3547,19 +3986,19 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P5",
-		"unitType": "Missile",
+		"name": "DNS Nuclear Missile P05",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 12,
+		"range": 11,
 		"cost": 1000,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [5]", 
@@ -3570,19 +4009,19 @@ Great Admiral
 		"attackSound": "nuke"
 	},
 	{
-		"name": "DNS Nuclear Missile P8",
-		"unitType": "Missile",
+		"name": "DNS Nuclear Missile P08",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 12,
+		"range": 14,
 		"cost": 1000,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [8]", 
@@ -3594,18 +4033,18 @@ Great Admiral
 	},
 	{
 		"name": "DNS Nuclear Missile P11",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 12,
+		"range": 17,
 		"cost": 1000,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [11]", 
@@ -3617,18 +4056,19 @@ Great Admiral
 	},
 	{
 		"name": "DNS Nuclear Missile P13",
-		"unitType": "Missile",
+		"unitType": "DNSMissile",
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 12,
+		"range": 19,
 		"cost": 1000,
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+		    
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [13]", 
@@ -3651,11 +4091,11 @@ Great Admiral
 		"range": 2,//xsa//rangeMod
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+2] Sight", 
 
@@ -3691,11 +4131,11 @@ Great Admiral
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Uncapturable",
@@ -3720,11 +4160,11 @@ Great Admiral
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
@@ -3748,11 +4188,11 @@ Great Admiral
 		"range": 2,
 		"cost": 575,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+3] Sight",
 
@@ -3785,11 +4225,11 @@ Great Admiral
 		"interceptRange": 3,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -3810,11 +4250,11 @@ Great Admiral
 		"range": 5,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -3837,11 +4277,11 @@ Great Admiral
 		"interceptRange": 4,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -3866,7 +4306,7 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Limited to [5] per Civilization <hidden from users>",
+			"Limited to [6] per Civilization <hidden from users>",
 
 //		    "Invisible to non-adjacent units",
 //		    "Invisible to others",
@@ -3909,9 +4349,9 @@ Great Admiral
 		    "Ignores Zone of Control", 
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -3925,6 +4365,7 @@ Great Admiral
 			"Uncapturable",
 			"Can see invisible [Submarine] units",
 			"Can carry [6] [Missile] units", 
+//			"Can carry [6] [DNSMissile] units", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -3938,9 +4379,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -3953,6 +4394,8 @@ Great Admiral
 			"Uncapturable",
 //		    "Cannot attack", 
 		    "Can carry [6] [Aircraft] units"
+//		    "Can carry [6] [DNSMissile] units", 
+
 			"Never appears as a Barbarian unit"],
 	},
 
@@ -3971,7 +4414,7 @@ Great Admiral
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -3996,7 +4439,7 @@ Great Admiral
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4019,7 +4462,7 @@ Great Admiral
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4046,7 +4489,7 @@ Great Admiral
 		"uniques": [0
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
             "[+2] Sight",
@@ -4073,7 +4516,7 @@ Great Admiral
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4101,9 +4544,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4154,9 +4597,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 //			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
@@ -4184,11 +4627,11 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
+//			"Limited to [3] per Civilization <hidden from users>",
 //    	    "May travel on Water tiles without embarking",			 //xsa//added hovering
     		"Never appears as a Barbarian unit"
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4216,16 +4659,16 @@ Great Admiral
 		"movement": 5,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "E5 Scientific Theory",
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"upgradesTo": "DNS Khan",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
+//			"Limited to [3] per Civilization <hidden from users>",
 			"[+3] Sight <before the [Classical era]>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4233,7 +4676,7 @@ Great Admiral
 
 			"Uncapturable", 
 //			"Limited to [3] per Civilization",
-//			"May upgrade to [Archer] through ruins-like effects", 
+//			"May upgrade to [E1 Archer] through ruins-like effects", 
 			"Never appears as a Barbarian unit",
 			"Can see over obstacles <before the [Classical era]>"
 			],
@@ -4248,11 +4691,11 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
+//			"Limited to [3] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4276,9 +4719,9 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [7] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4301,13 +4744,12 @@ Great Admiral
 		"name": "DNS Great Artist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4315,7 +4757,7 @@ Great Admiral
 //			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [DNS Landmark] improvement <by consuming this unit>", 
 //			"Great Person - [Culture]", 
-            "Instantly gain [1000] [Culture]<by consuming this unit>",
+            "Instantly gain [100000] [Culture]<by consuming this unit>",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Uncapturable"
@@ -4328,13 +4770,12 @@ Great Admiral
 		"name": "DNS Great Scientist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4342,7 +4783,7 @@ Great Admiral
 			"Can hurry technology research", 
 			"Can instantly construct a [DNS Academy] improvement <by consuming this unit>", 
 //			"Great Person - [Science]", 
-            "Instantly gain [1000] [Science]",
+            "Instantly gain [100000] [Science]",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Uncapturable"
@@ -4355,13 +4796,12 @@ Great Admiral
 		"name": "DNS Great Merchant",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4369,7 +4809,7 @@ Great Admiral
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [DNS Customs house] improvement <by consuming this unit>", 
 //			"Great Person - [Gold]", 
-            "Instantly gain [1000] [Gold]",
+            "Instantly gain [100000] [Gold]",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Uncapturable"
@@ -4382,13 +4822,12 @@ Great Admiral
 		"name": "DNS Great Engineer",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4396,7 +4835,7 @@ Great Admiral
 			"Can speed up construction of a building", 
 			"Can instantly construct a [DNS Manufactory] improvement <by consuming this unit>", 
 //			"Great Person - [Production]", 
-            "Instantly gain [1000] [Production]",
+            "Instantly gain [100000] [Production]",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Uncapturable"
@@ -4409,13 +4848,12 @@ Great Admiral
 		"name": "DNS Great Prophet",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
         	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -4428,7 +4866,7 @@ Great Admiral
 			"May enter foreign tiles without open borders", 
 			"[-1] Sight", 
 //			"Great Person - [Faith]", 
-            "Instantly gain [1000] [Faith]",
+            "Instantly gain [100000] [Faith]",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Religious Unit", 
@@ -4444,24 +4882,23 @@ Great Admiral
 		"name": "DNS Great General",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [100]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+15] HP when healing", 
 			"[+15] HP when healing",
 			"Can instantly construct a [DNS Citadel] improvement <by consuming this unit>",
 //			"Great Person - [War]", 
-            "Instantly gain [1000] [Happiness]",
+            "Instantly gain [100000] [Happiness]",
 			"Can move immediately once bought", 
 			"Unbuildable", 
 			"Uncapturable"
@@ -4475,25 +4912,24 @@ Great Admiral
 		"name": "DNS Great Admiral",
 		"unitType": "DNSCivilianWater",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
-			"Limited to [3] per Civilization <hidden from users>",
 //   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [100]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
 			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
 			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Can be earned through combat <for [Water] units>",
 //			"Is part of Great Person group [Admiral]",
 //			"Great Person - [War]", 
-            "Instantly gain [1000] [Happiness]",
+            "Instantly gain [100000] [Happiness]",
 			"Unbuildable", 
 			"Uncapturable"
 			],
@@ -4510,22 +4946,21 @@ Great Admiral
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"May enter foreign tiles without open borders",
 			"Can see over obstacles",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
-			"Limited to [3] per Civilization <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
 //			"Limited to [1] per Civilization",
-//			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Empire enters a [100]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
@@ -4584,82 +5019,27 @@ Great Admiral
 
 
 
-	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
-			],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Skirmisher",
-		"unitType": "Archery",
-		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
-			],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": [
-		    "Cannot enter ocean tiles"
-		    ],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
-	},
-	{
-		"name": "Marauder",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 10,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": [
-			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
-		    "[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
+
+
+
+
+
+
+
+
+
 	{
 		"name": "High Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"replaces": "E1 Warrior",
 		"movement": 2,
 		"strength": 10,
 		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"requiredTech": "E3 Metal Casting",
+		"upgradesTo": "E2 Swordsman",
 		"uniques": [
             "Free [Brute] appears <when defending>", 
-//            "Free [Brute] appears <when adjacent to a [Hostile] unit>",
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "nonmetalhit"
@@ -4668,16 +5048,15 @@ Great Admiral
 		"name": "High Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "E1 Archer",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 9,
 		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"requiredTech": "E1 Archery",
+		"obsoleteTech": "E3 Machinery",
+		"upgradesTo": "E3 Crossbowman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>"
 			],
 		"attackSound": "arrow"
@@ -4692,29 +5071,26 @@ Great Admiral
 		"uniques": [
 		    "Cannot enter ocean tiles"
 		    ],
-		"upgradesTo": "Trireme",
+		"upgradesTo": "E1 Trireme",
 		"uniques": [
             "Free [Galley] appears <when defending>", 
-//            "Free [Galley] appears <when adjacent to a [Hostile] unit>"
             ]
-		"obsoleteTech": "Astronomy",
+		"obsoleteTech": "E4 Astronomy",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
 		"name": "High Marauder",
 		"unitType": "Sword",
-		"replaces": "Spearman",
+		"replaces": "E1 Spearman",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"requiredTech": "E1 Bronze Working",
+		"obsoleteTech": "E3 Civil Service",
+		"upgradesTo": "E3 Pikeman",
 		"uniques": [
-            "Free [Brute] appears <when defending>", 
-            "Free [Marauder] appears <when adjacent to a [Hostile] unit>"
 			"Can instantly construct a [Barbarian encampment] improvement <by consuming this unit>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -4857,7 +5233,7 @@ Great Admiral
 //xsa//unciv godmod
 	{
 		"name": "Angel",
-		"unitType": "DNSCivilianAir",
+		"unitType": "DNSCivilian",
 		"uniques": [
 /*
 			"Adopt [Pan00 Worship of Cendabi]",
@@ -4982,7 +5358,7 @@ Great Admiral
 
 	{
 		"name": "DNS Fighter Zero",
-		"unitType": "Fighter",
+		"unitType": "DNSFighter",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -5006,7 +5382,7 @@ Great Admiral
 	},
 	{
 		"name": "DNS Bomber B17",
-		"unitType": "Bomber",
+		"unitType": "DNSBomber",
 		"movement": 1,
 		"strength": 70,
 		"rangedStrength": 70,
@@ -5131,371 +5507,29 @@ Great Admiral
 
 
 
-  //xsa//
-  //xsa//adding paradrop
- 
-  //changed required resource
-  
-  //xsa//added requiredResource
-  //xsa//added hovering
-  //xsa//rangeMod
-  
-  //xsa//increased range 1 to 2 for Gatling gun,Machine gun
-  //xsa//spaceparts//100x costs
-  //xsa//airunit
-  //xsa//civilian
-  /*
-  added icebreaker
-  added mountain tunnel
-  added Great People
-  */
-  
+//xsa//
+//xsa//adding paradrop
 
-  
-//DNS Checkeri1
-//DNS Checkeri2
-//DNS Checkeri3
-//DNS Checkeri4
-//DNS Checkeri5
-//DNS Checkeri6
-//DNS Checkeri7
-//DNS Checkeri8 
+//changed required resource
 
-//DNS Flyer
-//DNS War Bomber
-//Zeppelin Terraformer
+//xsa//added requiredResource
+//xsa//added hovering
+//xsa//rangeMod
 
-//DNS Guided Rocket
-//DNS Guided Missile
-//DNS Nuclear Missile P2
-//DNS Nuclear Missile P5
-//DNS Nuclear Missile P8
- 
-//DNS Helicopter Gunship
-//DNS Jet Fighter
-//DNS Stealth Bomber
-//DNS Sky Carrier
-
-//DNS Destroyer
-//DNS Battleship
-//DNS Missile Cruiser
-//DNS Nuclear Submarine
-//DNS Carrier
-
-//DNS Modern Armor
-//DNS Mechanized Infantry
-//DNS Land Leviathan
-//DNS Mobile SAM
-//DNS Rocket Artillery
-
-//DNS Worker
-//DNS Work Boats
-//DNS Settler
-//DNS Scout
-//DNS Missionary
-//DNS Inquisitor
-
-//DNS Great Artist
-//DNS Great Scientist
-//DNS Great Merchant
-//DNS Great Engineer
-//DNS Great Prophet
-//DNS Great General
-//DNS Great Admiral
-
-//DNS Khan
-//Angel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//xsa/*
-/*original sort
-
-
-Worker
-Settler
-Scout
-Warrior
-Maori Warrior
-Jaguar
-Brute
-Archer
-Bowman
-Slinger
-Atlatlist
-Skirmisher
-Work Boats
-Trireme
-Quinquereme
-Dromon
-Galley
-Chariot Archer
-War Chariot
-Horse Archer
-War Elephant
-Spearman
-Hoplite
-Persian Immortal
-Battering Ram
-Pictish Warrior
-Marauder
-Horseman
-Companion Cavalry
-African Forest Elephant
-Cataphract
-Catapult
-Ballista
-Composite Bowman
-Swordsman
-Legion
-Mohawk Warrior
-Pikeman
-Landsknecht
-Galleass
-Knight
-Camel Archer
-Conquistador
-Naresuan's Elephant
-Mandekalu Cavalry
-Keshik
-Crossbowman
-Chu-Ko-Nu
-Longbowman
-Trebuchet
-Hwach'a
-Longswordsman
-Samurai
-Berserker
-Caravel
-Turtle Ship
-Musketman
-Musketeer
-Janissary
-Minuteman
-Tercio
-Privateer
-Sea Beggar
-Frigate
-Ship of the Line
-Lancer
-Sipahi
-Hakkapeliitta
-Cannon
-Gatling Gun
-Rifleman
-Norwegian Ski Infantry
-Carolean
-Mehal Sefari
-Cavalry
-Cossack
-Hussar
-Ironclad
-Artillery
-Submarine
-Great War Infantry
-Foreign Legion
-Triplane
-Great War Bomber
-Infantry
-Carrier
-Battleship
-Machine Gun
-Anti-Aircraft Gun
-Landship
-Destroyer
-Marine
-Fighter
-Zero
-Bomber
-B17
-Paratrooper
-Tank
-Panzer
-Anti-Tank Gun
-Atomic Bomb
-Rocket Artillery
-Mobile SAM
-Guided Missile
-Nuclear Missile
-Helicopter Gunship
-Nuclear Submarine
-Mechanized Infantry
-Missile Cruiser
-Modern Armor
-Jet Fighter
-Giant Death Robot
-Stealth Bomber
-Great Artist
-Great Scientist
-Great Merchant
-Great Engineer
-Great Prophet
-Great General
-Khan
-Great Admiral
-Missionary
-Inquisitor
-SS Booster
-SS Cockpit
-SS Engine
-SS Stasis Chamber
-
-
-
-
+//xsa//increased range 1 to 2 for Gatling gun,Machine gun
+//xsa//spaceparts//100x costs
+//xsa//airunit
+//xsa//civilian
+/*
+added icebreaker
+added mountain tunnel
+added Great People
 */
 
 
 
 
-
-
-
-
 /*//XSA//The Root Out
-
-
-@@@Great Admiral###
-@@@Maori Warrior###
-@@@Jaguar###
-@@@Brute###
-@@@Archer###
-@@@Bowman###
-@@@Slinger###
-@@@Atlatlist###
-@@@Skirmisher###
-@@@Composite Bowman###
-@@@Mohawk Warrior###
-@@@Crossbowman###
-@@@Chu-Ko-Nu###
-@@@Longbowman###
-@@@Worker###
-@@@Settler###
-@@@Scout###
-@@@Warrior###
-@@@Work Boats###
-@@@Dromon###
-@@@Galley###
-@@@War Chariot###
-@@@Horse Archer###
-@@@War Elephant###
-@@@Spearman###
-@@@Hoplite###
-@@@Persian Immortal###
-@@@Battering Ram###
-@@@Pictish Warrior###
-@@@Marauder###
-@@@African Forest Elephant###
-@@@Catapult###
-@@@Ballista###
-@@@Pikeman###
-@@@Landsknecht###
-@@@Galleass###
-@@@Naresuan's Elephant###
-@@@Trebuchet###
-@@@Hwach'a###
-@@@Submarine###
-@@@Carrier###
-@@@Missile Cruiser###
-@@@Great Artist###
-@@@Great Scientist###
-@@@Great Merchant###
-@@@Great Engineer###
-@@@Great Prophet###
-@@@Great General###
-@@@Khan###
-@@@Missionary###
-@@@Inquisitor###
-@@@Chariot Archer###
-@@@Horseman###
-@@@Companion Cavalry###
-@@@Cataphract###
-@@@Knight###
-@@@Camel Archer###
-@@@Conquistador###
-@@@Mandekalu Cavalry###
-@@@Keshik###
-@@@Lancer###
-@@@Sipahi###
-@@@Hakkapeliitta###
-@@@Cavalry###
-@@@Cossack###
-@@@Hussar###
-@@@Swordsman###
-@@@Legion###
-@@@Longswordsman###
-@@@Samurai###
-@@@Berserker###
-@@@Triplane###
-@@@Great War Bomber###
-@@@Fighter###
-@@@Bomber###
-@@@B17###
-@@@Modern Armor###
-@@@Jet Fighter###
-@@@Stealth Bomber###
-@@@Atomic Bomb###
-@@@Trireme###
-@@@Quinquereme###
-@@@Caravel###
-@@@Turtle Ship###
-@@@Musketman###
-@@@Musketeer###
-@@@Janissary###
-@@@Minuteman###
-@@@Tercio###
-@@@Privateer###
-@@@Sea Beggar###
-@@@Frigate###
-@@@Ship of the Line###
-@@@Cannon###
-@@@Gatling Gun###
-@@@Rifleman###
-@@@Norwegian Ski Infantry###
-@@@Carolean###
-@@@Mehal Sefari###
-@@@Ironclad###
-@@@Artillery###
-@@@Great War Infantry###
-@@@Foreign Legion###
-@@@Infantry###
-@@@Battleship###
-@@@Machine Gun###
-@@@Anti-Aircraft Gun###
-@@@Landship###
-@@@Destroyer###
-@@@Marine###
-@@@Paratrooper###
-@@@Tank###
-@@@Panzer###
-@@@Anti-Tank Gun###
-@@@Rocket Artillery###
-@@@Mobile SAM###
-@@@Helicopter Gunship###
-@@@Mechanized Infantry###
-@@@Giant Death Robot###
-@@@Nuclear Submarine###
-
-
-@@@SS Booster###
-@@@SS Cockpit###
-@@@SS Engine###
-@@@SS Stasis Chamber###
 
 
 @@@Land Ironclad###
@@ -5505,8 +5539,6 @@ SS Stasis Chamber
 
 
 @@@Astronaut###
-
-
 
 
 DNS Checkeri1
@@ -5582,11 +5614,6 @@ DNS Great General
 DNS Great Admiral
 DNS Khan
 
-Brute
-Skirmisher
-Galley
-Marauder
-
 High Brute
 High Skirmisher
 High Galley
@@ -5612,6 +5639,147 @@ DNS Firework Flare
 
 
 
+
+
+
+/*
+E1 Worker
+E1 Settler
+E1 Scout
+E1 Warrior
+E1 Maori Warrior
+E1 Jaguar
+B01 Brute
+E1 Archer
+E1 Bowman
+E1 Slinger
+E1 Atlatlist
+B02 Skirmisher
+E1 Work Boats
+E1 Trireme
+E1 Quinquereme
+E1 Dromon
+B03 Galley
+E1 Chariot Archer
+E1 War Chariot
+E1 Horse Archer
+E1 War Elephant
+E1 Spearman
+E1 Hoplite
+E1 Persian Immortal
+E1 Battering Ram
+E1 Pictish Warrior
+B04 Marauder
+
+E2 Horseman
+E2 Companion Cavalry
+E2 African Forest Elephant
+E2 Cataphract
+E2 Catapult
+E2 Ballista
+E2 Composite Bowman
+E2 Swordsman
+E2 Legion
+E2 Mohawk Warrior
+
+E3 Pikeman
+E3 Landsknecht
+E3 Galleass
+E3 Knight
+E3 Camel Archer
+E3 Conquistador
+E3 Naresuan's Elephant
+E3 Mandekalu Cavalry
+E3 Keshik
+E3 Crossbowman
+E3 Chu-Ko-Nu
+E3 Longbowman
+E3 Trebuchet
+E3 Hwach'a
+E3 Longswordsman
+E3 Samurai
+E3 Berserker
+
+E4 Caravel
+E4 Turtle Ship
+E4 Musketman
+E4 Musketeer
+E4 Janissary
+E4 Minuteman
+E4 Tercio
+E4 Privateer
+E4 Sea Beggar
+E4 Frigate
+E4 Ship of the Line
+E4 Lancer
+E4 Sipahi
+E4 Hakkapeliitta
+E4 Cannon
+
+E5 Gatling Gun
+E5 Rifleman
+E5 Norwegian Ski Infantry
+E5 Carolean
+E5 Mehal Sefari
+E5 Cavalry
+E5 Cossack
+E5 Hussar
+E5 Ironclad
+E5 Artillery
+
+E6 Submarine
+E6 Great War Infantry
+E6 Foreign Legion
+E6 Triplane
+E6 Great War Bomber
+E6 Infantry
+E6 Carrier
+E6 Battleship
+E6 Machine Gun
+E6 Anti-Aircraft Gun
+E6 Landship
+E6 Destroyer
+
+E7 Marine
+E7 Fighter
+E7 Zero
+E7 Bomber
+E7 B17
+E7 Paratrooper
+E7 Tank
+E7 Panzer
+E7 Anti-Tank Gun
+E7 Atomic Bomb
+E7 Rocket Artillery
+E7 Mobile SAM
+E7 Guided Missile
+E7 Nuclear Missile
+E7 Helicopter Gunship
+
+E8 Nuclear Submarine
+E8 Mechanized Infantry
+E8 Missile Cruiser
+E8 Modern Armor
+E8 Jet Fighter
+E8 Giant Death Robot
+E8 Stealth Bomber
+
+E0 Great Artist
+E0 Great Scientist
+E0 Great Merchant
+E0 Great Engineer
+E0 Great Prophet
+E0 Great General
+E0 Great Admiral
+E0 Khan
+E0 Missionary
+E0 Inquisitor
+
+E9 SS Booster
+E9 SS Cockpit
+E9 SS Engine
+E9 SS Stasis Chamber
+*/
 
 
 

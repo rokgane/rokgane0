@@ -39,7 +39,7 @@ added scout xp
 
 
 
-
+    	"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
 
     	"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
     	"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemaAdvanceEra Classical] is constructed by anybody>",
@@ -66,7 +66,7 @@ added scout xp
 		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
 		"[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
 		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
-		"Cannot build [Settler] units <when below [-10] [Happiness]>",
+		"Cannot build [E1 Settler] units <when below [-10] [Happiness]>",
 		"Rebel units may spawn <when below [-20] [Happiness]>",
 		"[-1] Sight <for [Embarked] units>",
 

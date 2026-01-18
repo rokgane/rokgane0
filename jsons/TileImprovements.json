@@ -6,15 +6,15 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
+		"techRequired": "E1 Agriculture",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
 		    "Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
@@ -23,13 +23,13 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [Scientific Theory]>", 
+		    "[+1 Production] <after discovering [E5 Scientific Theory]>", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
@@ -38,13 +38,13 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Mining",
+		"techRequired": "E1 Mining",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -53,13 +53,13 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Guilds",
+		"techRequired": "E3 Guilds",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Gold] <after discovering [Economics]>", 
+		    "[+1 Gold] <after discovering [E4 Economics]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
@@ -68,7 +68,7 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 7,
-		"techRequired": "Trapping",
+		"techRequired": "E1 Trapping",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
@@ -76,7 +76,7 @@
 
 		    "Does not need removal of [Forest]",
 		    "Does not need removal of [Jungle]",
-		    "[+1 Gold] <after discovering [Economics]>", 
+		    "[+1 Gold] <after discovering [E4 Economics]>", 
 		    "Can only be built to improve a resource",
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
@@ -84,7 +84,7 @@
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
-		"techRequired": "Biology",
+		"techRequired": "E5 Biology",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
@@ -98,7 +98,7 @@
 	{
 		"name": "Offshore Platform",
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
-		"techRequired": "Refrigeration",
+		"techRequired": "E6 Refrigeration",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
@@ -112,13 +112,13 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
+		"techRequired": "E1 Animal Husbandry",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
@@ -127,13 +127,13 @@
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
-		"techRequired": "Calendar",
+		"techRequired": "E1 Calendar",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
@@ -141,13 +141,13 @@
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
+		"techRequired": "E1 Masonry",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
@@ -157,13 +157,13 @@
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
+		"techRequired": "E1 Sailing",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Gold] <after discovering [Compass]>", 
+		    "[+1 Gold] <after discovering [E3 Compass]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
@@ -174,7 +174,7 @@
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
-		"techRequired": "Engineering",
+		"techRequired": "E2 Engineering",
 		"uniques": [
                 "Excluded from map editor",
 				"Unbuildable <hidden from users>",
@@ -199,9 +199,9 @@
 
 		    "Can only be built on [Coastal] tiles", 
 		    "[+1 Culture] for each adjacent [Moai]", 
-		    "[+1 Gold] <after discovering [Flight]>", 
+		    "[+1 Gold] <after discovering [E6 Flight]>", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"shortcutKey": "M"
 	},
 	{
@@ -217,10 +217,10 @@
 
 		    "Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"shortcutKey": "F"
 	},
 	{
@@ -234,9 +234,9 @@
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production, +2 Gold] <after discovering [Economics]>", 
+		    "[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
 		    "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Guilds",
+		"techRequired": "E3 Guilds",
 		"shortcutKey": "F"
 	},
 
@@ -245,7 +245,7 @@
 
 /*
     {
-		"name": "Dirt Canal Construction Site",
+		"name": "Dirt Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"uniques": [
                 "Excluded from map editor",
@@ -260,7 +260,7 @@
 			"Canal"]
 	},
 	{
-		"name": "Concrete Canal Construction Site",
+		"name": "Concrete Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra","Dirt Canal"],
 		"uniques": [
                 "Excluded from map editor",
@@ -279,7 +279,7 @@
 
 
 	{
-		"name": "Suez Canal Construction Site",
+		"name": "Suez Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Mountain","Wasteland","Badlands","Permafrost"],
 		"turnsToBuild": 3,
 		"techRequired": "TechUnlocker",
@@ -302,7 +302,7 @@
 
 /*
 	{
-		"name": "Panama Canal Construction Site",
+		"name": "Panama Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniques": [
                 "Excluded from map editor",
@@ -318,7 +318,7 @@
 			"Canal"]
 	},
 	{
-		"name": "National Canal Construction Site",
+		"name": "National Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra"],
 		"uniques": [
                 "Excluded from map editor",
@@ -364,7 +364,7 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
+		"techRequired": "E1 The Wheel",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
@@ -374,15 +374,15 @@
 		"shortcutKey": "R",
         "civilopediaText": [
             {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+            {"text":"Reduces movement cost to ⅓ with E3 Machinery", "link":"Technology/E3 Machinery"},
+            {"text":"Requires E2 Engineering to bridge rivers", "link":"Technology/E2 Engineering"}
         ]
 	},
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Railroads",
+		"techRequired": "E6 Railroads",
 		"uniques": [
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
@@ -418,8 +418,8 @@
 			"Cannot be built on [Luxury resource] tiles",
 
 		    "Great Improvement", 
-		    "[+2 Science] <after discovering [Scientific Theory]>",
-            "[+2 Science] <after discovering [Atomic Theory]>", 
+		    "[+2 Science] <after discovering [E5 Scientific Theory]>",
+            "[+2 Science] <after discovering [E7 Atomic Theory]>", 
             "Removes removable features when built",
             "Will not be replaced by automated units", 
             "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -456,7 +456,7 @@
 			"Cannot be built on [Luxury resource] tiles",
 
 		    "Great Improvement", 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Will not be replaced by automated units",
             "Removes removable features when built", 
             "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -475,7 +475,7 @@
 			"Cannot be built on [Luxury resource] tiles",
 
 		    "Great Improvement", 
-		    "[+1 Gold] <after discovering [Economics]>", 
+		    "[+1 Gold] <after discovering [E4 Economics]>", 
 		    "Removes removable features when built",
             "Will not be replaced by automated units",
             "Pillaging this improvement yields approximately [+20 Gold]"]
@@ -528,7 +528,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
+		"techRequired": "E1 Agriculture",
 		"uniques": [
 
 			"Unbuildable <in [Foreign] tiles>",
@@ -565,8 +565,8 @@
 //			"Will not be replaced by automated units", 
 
 		    "Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
@@ -575,7 +575,7 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"uniques": [
 
 			"Unbuildable <in [Foreign] tiles>",
@@ -611,7 +611,7 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [Scientific Theory]>", 
+		    "[+1 Production] <after discovering [E5 Scientific Theory]>", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
@@ -620,7 +620,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Mining",
+		"techRequired": "E1 Mining",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -655,7 +655,7 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -664,7 +664,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Guilds",
+		"techRequired": "E3 Guilds",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -699,7 +699,7 @@
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Gold] <after discovering [Economics]>", 
+		    "[+1 Gold] <after discovering [E4 Economics]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
@@ -708,7 +708,7 @@
 	{
 		"name": "TI11 Camp",
 		"turnsToBuild": 7,
-		"techRequired": "Trapping",
+		"techRequired": "E1 Trapping",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -745,7 +745,7 @@
 
 		    "Does not need removal of [Forest]",
 		    "Does not need removal of [Jungle]",
-		    "[+1 Gold] <after discovering [Economics]>", 
+		    "[+1 Gold] <after discovering [E4 Economics]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
@@ -753,7 +753,7 @@
 	{
 		"name": "TI12 Oil well",
 		"turnsToBuild": 9,
-		"techRequired": "Biology",
+		"techRequired": "E5 Biology",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -796,7 +796,7 @@
 	{
 		"name": "TI13 Offshore Platform",
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
-		"techRequired": "Refrigeration",
+		"techRequired": "E6 Refrigeration",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -839,7 +839,7 @@
 	{
 		"name": "TI14 Pasture",
 		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
+		"techRequired": "E1 Animal Husbandry",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -874,7 +874,7 @@
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
@@ -883,7 +883,7 @@
 		"name": "TI15 Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
-		"techRequired": "Calendar",
+		"techRequired": "E1 Calendar",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -918,7 +918,7 @@
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Food] <after discovering [Fertilizer]>", 
+		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
@@ -926,7 +926,7 @@
 	{
 		"name": "TI16 Quarry",
 		"turnsToBuild": 8,
-		"techRequired": "Masonry",
+		"techRequired": "E1 Masonry",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -961,7 +961,7 @@
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
@@ -971,7 +971,7 @@
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
+		"techRequired": "E1 Sailing",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1006,7 +1006,7 @@
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Gold] <after discovering [Compass]>", 
+		    "[+1 Gold] <after discovering [E3 Compass]>", 
 		    "Can only be built to improve a resource", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
@@ -1017,7 +1017,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
+		"techRequired": "E1 Agriculture",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1054,8 +1054,8 @@
 
 		    "Can only be built to improve a resource", 
 
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
@@ -1064,7 +1064,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Mining",
+		"techRequired": "E1 Mining",
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1101,7 +1101,7 @@
 
 		    "Can only be built to improve a resource", 
 
-		    "[+1 Production] <after discovering [Chemistry]>", 
+		    "[+1 Production] <after discovering [E4 Chemistry]>", 
 		    "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -1111,7 +1111,7 @@
 		"name": "TI20 Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
-		"techRequired": "Engineering",
+		"techRequired": "E2 Engineering",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1195,9 +1195,9 @@
 
 		    "Can only be built on [Coastal] tiles", 
 		    "[+1 Culture] for each adjacent [Moai]", 
-		    "[+1 Gold] <after discovering [Flight]>", 
+		    "[+1 Gold] <after discovering [E6 Flight]>", 
 		    "Pillaging this improvement yields approximately [+10 Gold]"],
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"shortcutKey": "M"
 	},
 	{
@@ -1241,10 +1241,10 @@
 			"Will not be replaced by automated units", 
 
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Construction",
+		"techRequired": "E2 Construction",
 		"shortcutKey": "F"
 	},
 	{
@@ -1287,9 +1287,9 @@
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Production, +2 Gold] <after discovering [Economics]>", 
+		    "[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
 		    "Pillaging this improvement yields approximately [+18 Gold]"],
-		"techRequired": "Guilds",
+		"techRequired": "E3 Guilds",
 		"shortcutKey": "F"
 	},
 
@@ -1302,7 +1302,7 @@
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 //XSA		"requiredNearbyImprovedResources": ["Marble","Stone","Obsidian"],
 		"turnsToBuild": 7,
-		"techRequired": "TechUnlocker",//Fertilizer
+		"techRequired": "TechUnlocker",//E5 Fertilizer
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1349,7 +1349,7 @@
 		"name": "Plant Jungle",
 		"terrainsCanBeBuiltOn": ["Wasteland","Badlands","Permafrost","Grassland","Hill","Plains","Tundra","Desert","Snow"],
 		"turnsToBuild": 10,
-		"techRequired": "TechUnlocker",//Fertilizer
+		"techRequired": "TechUnlocker",//E5 Fertilizer
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles>",
 //			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
@@ -1985,8 +1985,8 @@
             "Can also be built on tiles adjacent to fresh water",
             "Removes removable features when built",
             "Pillaging this improvement yields approximately [+20 Gold]",
-            "[+10 Food] <after discovering [Civil Service]>",
-            "[+10 Food] <after discovering [Fertilizer]>"
+            "[+10 Food] <after discovering [E3 Civil Service]>",
+            "[+10 Food] <after discovering [E5 Fertilizer]>"
         ]
 	},
 */
@@ -1994,7 +1994,7 @@
 		"name": "Remove Ice",
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Ice"],
-		"techRequired": "Agriculture",
+		"techRequired": "E1 Agriculture",
 		"uniques": [
 		    "Can be built outside your borders", 
 		    "Excluded from map editor"],
@@ -2010,6 +2010,29 @@
 		"shortcutKey": "X"
 	},
 
+//fixing tech changes
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "E1 Mining",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "E1 Bronze Working",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"techRequired": "E1 Masonry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
 
 
 
@@ -2059,7 +2082,7 @@
 			"Tile provides yield without assigned population",
 			"Improves [Luxury] resource in this tile", 
 			"Great Improvement", 
-			"[+1 Gold] <after discovering [Economics]>", 
+			"[+1 Gold] <after discovering [E4 Economics]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
@@ -2108,8 +2131,8 @@
             "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
-			"[+4 Science] <after discovering [Scientific Theory]>",
-			"[+4 Science] <after discovering [Atomic Theory]>", 
+			"[+4 Science] <after discovering [E5 Scientific Theory]>",
+			"[+4 Science] <after discovering [E7 Atomic Theory]>", 
 			"[+10 Science] <after discovering [TechUnlocker]>",
 			"Removes removable features when built",
 			"Will not be replaced by automated units", 
@@ -2204,7 +2227,7 @@
             "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
-			"[+2 Production] <after discovering [Chemistry]>", 
+			"[+2 Production] <after discovering [E4 Chemistry]>", 
 			"[+10 Production] <after discovering [TechUnlocker]>",
 			"Will not be replaced by automated units",
 			"Removes removable features when built", 
@@ -2252,7 +2275,7 @@
             "Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
-			"[+2 Gold] <after discovering [Economics]>", 
+			"[+2 Gold] <after discovering [E4 Economics]>", 
 			"[+10 Gold] <after discovering [TechUnlocker]>",
 			"Improves [Luxury] resource in this tile",//xsa <after discovering [TechUnlocker]>", 
 			"Removes removable features when built",

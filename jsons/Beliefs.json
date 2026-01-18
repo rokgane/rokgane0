@@ -8,7 +8,7 @@
 //          "[+80]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 //          "[+80]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[+30]% growth [in this city]",
-            "[+20]% growth [in all city] <when not at war>",
+            "[+20]% growth [in all cities] <when not at war>",
 			"[All] Units adjacent to this city heal [+50] HP per turn when healing",
 //            "[+10 Happiness] for each global city following this religion",
 
@@ -24,8 +24,8 @@
         "type": "Founder",
         "uniques": [
             "Religion naturally spreads to cities [+3] tiles away",
-            "[+25]% Spread Religion Strength <for [Great Prophet] units>", 
-            "[+25]% Spread Religion Strength <for [Missionary] units>",
+            "[+25]% Spread Religion Strength <for [E0 Great Prophet] units>", 
+            "[+25]% Spread Religion Strength <for [E0 Missionary] units>",
             "[-25]% Faith cost of generating Great Prophet equivalents",
             "[+100]% Natural religion spread [in City-State cities]",
 
@@ -70,7 +70,7 @@
     {
         "name": "Pan01 Ancestor Worship",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
+        "uniques": ["[+1 Culture] from every [E1 Shrine]"]
     },
     {
         "name": "Pan02 Dance of the Aurora",
@@ -184,17 +184,17 @@
     {
         "name": "Fol01 Asceticism",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Happiness] from every [E1 Shrine] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Fol02 Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [R01 Cathedral] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Fol03 Choral Music",
         "type": "Follower",
-        "uniques": ["[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Culture] from every [E2 Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Fol04 Divine inspiration",
@@ -204,7 +204,7 @@
     {
         "name": "Fol05 Feed the World",
         "type": "Follower",
-        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+        "uniques": ["[+1 Food] from every [E1 Shrine]", "[+1 Food] from every [E2 Temple]"]
     },
     {
         "name": "Fol06 Guruship",
@@ -219,37 +219,37 @@
     {
         "name": "Fol08 Liturgical Drama",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+1 Faith] from every [E2 Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
     },
     {
         "name": "Fol09 Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [R02 Monastery] buildings for [150] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Fol10 Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [R03 Mosque] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Fol11 Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [R04 Pagoda] buildings with [Faith] [in cities following this religion]"]
     },
     {
         "name": "Fol12 Peace Gardens",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Garden]"]
+        "uniques": ["[+2 Happiness] from every [E3 Garden]"]
     },
     {
         "name": "Fol13 Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture] from every [Hermitage]"]
+        "uniques": ["[+8 Culture] from every [E4 Hermitage]"]
     },
     {
         "name": "Fol14 Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [E2 Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Fol15 Religious Community",
@@ -322,7 +322,7 @@
     {
         "name": "ENH02 Holy Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+        "uniques": ["[Faith] cost of purchasing [E0 Missionary] units [-30]%", "[Faith] cost of purchasing [E0 Inquisitor] units [-30]%"]
     },
     {
         "name": "ENH03 Itinerant Preachers",
@@ -338,17 +338,17 @@
     {
         "name": "ENH05 Messiah",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+        "uniques": ["[+25]% Spread Religion Strength <for [E0 Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
     },
     {
         "name": "ENH06 Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+25]% Spread Religion Strength <for [E0 Missionary] units>"]
     },
     {
         "name": "ENH07 Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [E4 Printing Press]>"]
     },
     {
         "name": "ENH08 Religious Unity",
