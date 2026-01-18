@@ -43,7 +43,7 @@
 				"row": 13,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{//TechEnemaCheat cheat building
@@ -51,7 +51,7 @@
 				"row": 14,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
@@ -61,7 +61,7 @@
 				"quote": "Cheat tech",
 				"uniques": [
 					"Enables embarkation for land units",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{//xsa//more challenges for Human
@@ -69,7 +69,7 @@
 				"row": 16,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
@@ -78,7 +78,7 @@
 				"row": 17,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{//TechEnemaCheat cheat building
@@ -86,7 +86,7 @@
 				"row": 18,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
@@ -95,7 +95,7 @@
 				"row": 19,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{//TechEnemaCheat cheat building
@@ -103,7 +103,7 @@
 				"row": 20,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
@@ -134,7 +134,7 @@
             	"row": 23,
 				"quote": "Cheat tech",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <for [Human player] Civilizations> <hidden from users>"
 		        	"Only available <if [Minicake Enable AI Diplomacy] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
@@ -150,7 +150,7 @@
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": [
 				    "[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies",
+//					"[+1000]% Science cost of researching new Technologies",
 				    "Starting tech"
 				    ]
 			}
@@ -844,8 +844,8 @@
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -854,8 +854,8 @@
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -863,7 +863,7 @@
 				"row": 13,
 				"prerequisites": ["1X FutureTech"],
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <for [Human player] Civilizations> <hidden from users>"
 	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
@@ -916,8 +916,8 @@
 				"prerequisites": ["19 TechSlowerEraAncient"],
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -926,8 +926,8 @@
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -936,8 +936,8 @@
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -955,8 +955,8 @@
 				"prerequisites": ["29 TechSlowerEraClassical"],
 				"quote": "2X Classical Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -965,8 +965,8 @@
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -975,8 +975,8 @@
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -994,8 +994,8 @@
 				"prerequisites": ["39 TechSlowerEraMedieval"],
 				"quote": "3X Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1004,8 +1004,8 @@
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1014,8 +1014,8 @@
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1033,8 +1033,8 @@
 				"prerequisites": ["49 TechSlowerEraRenaissance"],
 				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1043,8 +1043,8 @@
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1053,8 +1053,8 @@
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1072,8 +1072,8 @@
 				"prerequisites": ["59 TechSlowerEraIndustrial"],
 				"quote": "5X Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1082,8 +1082,8 @@
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1092,8 +1092,8 @@
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1111,8 +1111,8 @@
 				"prerequisites": ["69 TechSlowerEraModern"],
 				"quote": "6X Modern Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1121,8 +1121,8 @@
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1131,8 +1131,8 @@
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1150,8 +1150,8 @@
 				"prerequisites": ["79 TechSlowerEraAtomic"],
 				"quote": "7X Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1160,8 +1160,8 @@
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1170,8 +1170,8 @@
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1189,8 +1189,8 @@
 				"prerequisites": ["89 TechSlowerEraInformation"],
 				"quote": "8X Information Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1199,8 +1199,8 @@
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1209,8 +1209,8 @@
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1230,7 +1230,7 @@
 				"row": 13,
 				"prerequisites": ["10 FutureTech"],
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 					"Only available <for [Human player] Civilizations> <hidden from users>"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1266,7 +1266,7 @@
 					],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1279,7 +1279,7 @@
 				"prerequisites": ["00 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1292,7 +1292,7 @@
 				"prerequisites": ["01 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1305,7 +1305,7 @@
 				"prerequisites": ["02 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1318,7 +1318,7 @@
 				"prerequisites": ["03 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1331,7 +1331,7 @@
 				"prerequisites": ["04 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1344,7 +1344,7 @@
 				"prerequisites": ["05 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1357,7 +1357,7 @@
 				"prerequisites": ["06 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1370,7 +1370,7 @@
 				"prerequisites": ["07 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1383,7 +1383,7 @@
 				"prerequisites": ["08 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1396,7 +1396,7 @@
 				"prerequisites": ["09 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions"
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1461,8 +1461,8 @@
 				"quote": "10 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1472,8 +1472,8 @@
 				"quote": "11 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1483,8 +1483,8 @@
 				"quote": "12 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1494,8 +1494,8 @@
 				"quote": "13 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1505,8 +1505,8 @@
 				"quote": "14 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1516,8 +1516,8 @@
 				"quote": "15 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1527,8 +1527,8 @@
 				"quote": "16 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1538,8 +1538,8 @@
 				"quote": "17 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1549,8 +1549,8 @@
 				"quote": "18 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1560,8 +1560,8 @@
 				"quote": "19 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1616,8 +1616,8 @@
 				"quote": "20 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1627,8 +1627,8 @@
 				"quote": "21 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1638,8 +1638,8 @@
 				"quote": "22 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1649,8 +1649,8 @@
 				"quote": "23 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1660,8 +1660,8 @@
 				"quote": "24 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1671,8 +1671,8 @@
 				"quote": "25 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1682,8 +1682,8 @@
 				"quote": "26 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1693,8 +1693,8 @@
 				"quote": "27 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1704,8 +1704,8 @@
 				"quote": "28 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1715,8 +1715,8 @@
 				"quote": "29 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 		]
@@ -1774,8 +1774,8 @@
 				"quote": "30 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1785,8 +1785,8 @@
 				"quote": "31 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1796,8 +1796,8 @@
 				"quote": "32 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1807,8 +1807,8 @@
 				"quote": "33 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1818,8 +1818,8 @@
 				"quote": "34 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1829,8 +1829,8 @@
 				"quote": "35 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1840,8 +1840,8 @@
 				"quote": "36 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1851,8 +1851,8 @@
 				"quote": "37 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1862,8 +1862,8 @@
 				"quote": "38 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1873,8 +1873,8 @@
 				"quote": "39 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -1930,8 +1930,8 @@
 				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1940,8 +1940,8 @@
 				"prerequisites": ["40 TechSlowerEraRenaissance"],
 				"quote": "41 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1950,8 +1950,8 @@
 				"prerequisites": ["41 TechSlowerEraRenaissance"],
 				"quote": "42 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1960,8 +1960,8 @@
 				"prerequisites": ["42 TechSlowerEraRenaissance"],
 				"quote": "43 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1970,8 +1970,8 @@
 				"prerequisites": ["43 TechSlowerEraRenaissance"],
 				"quote": "44 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1980,8 +1980,8 @@
 				"prerequisites": ["44 TechSlowerEraRenaissance"],
 				"quote": "45 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -1990,8 +1990,8 @@
 				"prerequisites": ["45 TechSlowerEraRenaissance"],
 				"quote": "46 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2000,8 +2000,8 @@
 				"prerequisites": ["46 TechSlowerEraRenaissance"],
 				"quote": "47 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2010,8 +2010,8 @@
 				"prerequisites": ["47 TechSlowerEraRenaissance"],
 				"quote": "48 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2020,8 +2020,8 @@
 				"prerequisites": ["48 TechSlowerEraRenaissance"],
 				"quote": "49 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 		]
@@ -2096,8 +2096,8 @@
 				"quote": "50 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2107,8 +2107,8 @@
 				"quote": "51 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2117,8 +2117,8 @@
 				"prerequisites": ["51 TechSlowerEraIndustrial"],
 				"quote": "52 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2127,8 +2127,8 @@
 				"prerequisites": ["52 TechSlowerEraIndustrial"],
 				"quote": "53 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2137,8 +2137,8 @@
 				"prerequisites": ["53 TechSlowerEraIndustrial"],
 				"quote": "54 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2147,8 +2147,8 @@
 				"prerequisites": ["54 TechSlowerEraIndustrial"],
 				"quote": "55 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2157,8 +2157,8 @@
 				"prerequisites": ["55 TechSlowerEraIndustrial"],
 				"quote": "56 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2167,8 +2167,8 @@
 				"prerequisites": ["56 TechSlowerEraIndustrial"],
 				"quote": "57 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2177,8 +2177,8 @@
 				"prerequisites": ["57 TechSlowerEraIndustrial"],
 				"quote": "58 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2187,8 +2187,8 @@
 				"prerequisites": ["58 TechSlowerEraIndustrial"],
 				"quote": "59 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -2260,8 +2260,8 @@
 				"quote": "60 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2271,8 +2271,8 @@
 				"quote": "61 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2282,8 +2282,8 @@
 				"quote": "62 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2293,8 +2293,8 @@
 				"quote": "63 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2304,8 +2304,8 @@
 				"quote": "64 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2315,8 +2315,8 @@
 				"quote": "65 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2326,8 +2326,8 @@
 				"quote": "66 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2337,8 +2337,8 @@
 				"quote": "67 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2348,8 +2348,8 @@
 				"quote": "68 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2359,8 +2359,8 @@
 				"quote": "69 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 		]
@@ -2414,8 +2414,8 @@
 				"quote": "70 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2425,8 +2425,8 @@
 				"quote": "71 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2436,8 +2436,8 @@
 				"quote": "72 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2447,8 +2447,8 @@
 				"quote": "73 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2458,8 +2458,8 @@
 				"quote": "74 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2469,8 +2469,8 @@
 				"quote": "75 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2480,8 +2480,8 @@
 				"quote": "76 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2491,8 +2491,8 @@
 				"quote": "77 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2502,8 +2502,8 @@
 				"quote": "78 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2513,8 +2513,8 @@
 				"quote": "79 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 		]
@@ -2574,8 +2574,8 @@
 				"quote": "80 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2585,8 +2585,8 @@
 				"quote": "81 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2596,8 +2596,8 @@
 				"quote": "82 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2607,8 +2607,8 @@
 				"quote": "83 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2618,8 +2618,8 @@
 				"quote": "84 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2629,8 +2629,8 @@
 				"quote": "85 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2640,8 +2640,8 @@
 				"quote": "86 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2651,8 +2651,8 @@
 				"quote": "87 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2662,8 +2662,8 @@
 				"quote": "88 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 			{
@@ -2673,8 +2673,8 @@
 				"quote": "89 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions",
-					"[+1000]% Science cost of researching new Technologies"
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 		]
