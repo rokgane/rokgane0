@@ -2419,12 +2419,8 @@
 	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
 				"Only available <for [Human player] Civilizations> <hidden from users>",
-//				"Only available <after discovering [TechUnlocker]> <hidden from users>",
-//				"Unavailable <if [E0 Palace] is constructed><hidden from users>",
-//				"Only available [in this city] <if [E0 Palace] is not constructed>",
 				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
-				"Automatically built in all cities where it is buildable<hidden from users>",
-//				"Unbuildable <hidden from users>",
+				"Automatically built in all cities where it is buildable<after discovering [TechUnlocker]><hidden from users>",
 
 				"Gain a free [MiniCake DNS Vault] [in this city]",
 
