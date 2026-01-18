@@ -1,11 +1,8 @@
 {
 	"modUrl": "gargel.ncr.or.plio.otg.org.ccr.yyz.qqe.666.btu",
-<	"author": "ArchCake",
+		"author": "ArchCake",
 	"isBaseRuleset": false,
     "uniques": [
-//				  "Mod requires [rokgane0]",
-				  "Diplomatic relationdhips cannot change",
-				  "Allow city States to spawn with additional units",
 				  "Suppress warning [is supposed to automatically upgrade]"
 	],
 	"constants": {
