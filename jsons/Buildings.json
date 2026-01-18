@@ -5567,7 +5567,7 @@
 
 
     {
-		"name": "MiniCake DNS Aall Unit",
+		"name": "MiniCake DNS Open Aall",
 		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -5589,8 +5589,8 @@
 				"Sell [MiniCake DNS Lock Gman] buildings [in this city]",
 				"Sell [MiniCake DNS Lock Rest] buildings [in this city]",
 
-				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
-//				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Aall] buildings [in this city]",
+//				"Sell [MiniCake DNS Open Aall] buildings [in this city]",
 
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -5605,7 +5605,7 @@
 	},
 
 	{
-		"name": "MiniCake DNS Aall Lock",
+		"name": "MiniCake DNS Lock Aall",
 		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -5627,8 +5627,8 @@
 				"Sell [MiniCake DNS Open Gman] buildings [in this city]",
 				"Sell [MiniCake DNS Open Rest] buildings [in this city]",
 
-				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
-//				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
+				"Sell [MiniCake DNS Open Aall] buildings [in this city]",
+//				"Sell [MiniCake DNS Lock Aall] buildings [in this city]",
 
 		        "Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
@@ -8268,7 +8268,7 @@
 
 
 	{
-		"name": "MiniCake Human Automate Building",
+		"name": "MiniCake Automate Building",
 //		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -8296,7 +8296,7 @@
 	},
 
 	{
-		"name": "MiniCake Automate All Wonder",
+		"name": "MiniCake Automate Wonder",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
