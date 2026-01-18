@@ -8360,7 +8360,7 @@
 		"maintenance": 0,
 		"uniques": [
 
-			"Gain a free [MiniCake ShowGk] [in this city]",
+			"Gain a free [MiniCake ShowGk Main] [in this city]",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -8370,7 +8370,6 @@
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "TechEnemaSwitchGk"
