@@ -2669,44 +2669,9 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},	
-    {
-		"name": "MiniCake DNS Lock",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
 
-    {
-		"name": "MiniCake DNS Lock Unit",
-		"requiredBuilding": "MiniCake DNS Lock",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
+
+
 
 
 
@@ -5253,7 +5218,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -5270,7 +5235,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -6321,7 +6286,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Checkeri",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6349,7 +6314,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Missile",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6374,7 +6339,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Air",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6402,7 +6367,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Navy",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6427,7 +6392,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Land",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6453,7 +6418,7 @@
 
 	{
 		"name": "MiniCake Spawn Fleet Civilian",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6480,7 +6445,7 @@
 	},
 	{
 		"name": "MiniCake Spawn NukA Missile",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6503,7 +6468,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Great People",
-		"requiredBuilding": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8035,7 +8000,7 @@
 	},
 
 	{
-		"name": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -8054,8 +8019,8 @@
 	},
 
     {
-		"name": "MiniCake DNS Lock Building 1 Ancient",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 1 Ancient",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8071,7 +8036,7 @@
 				"Gain a free [E1 Circus] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8082,8 +8047,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 2 Classical",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 2 Classical",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8100,7 +8065,7 @@
 				"Gain a free [E2 Aqueduct] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8111,8 +8076,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 3 Medieval",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 3 Medieval",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8126,7 +8091,7 @@
 				"Gain a free [E3 Armory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8137,8 +8102,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 4 Renaissance",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 4 Renaissance",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8154,7 +8119,7 @@
 				"Gain a free [E4 Arsenal] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8165,8 +8130,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 5 Industrial",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 5 Industrial",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8182,7 +8147,7 @@
 				"Gain a free [E5 Police Station] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8193,8 +8158,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 6 Modern",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 6 Modern",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8206,7 +8171,7 @@
 				"Gain a free [E6 Research Lab] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8217,8 +8182,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 7 Atomic",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 7 Atomic",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8230,7 +8195,7 @@
 				"Gain a free [E7 Nuclear Plant] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8241,8 +8206,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 8 Information",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 8 Information",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8252,7 +8217,7 @@
 				"Gain a free [E8 Spaceship Factory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8263,8 +8228,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Lock Building 9 Future",
-		"requiredBuilding": "MiniCake DNS Lock Building",
+		"name": "MiniCake DNS Vault Building 9 Future",
+		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8273,7 +8238,7 @@
 
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8314,14 +8279,14 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities] <during the [Ancient era]>",
-        		"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities] <during the [Classical era]>",
-        		"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities] <during the [Medieval era]>",
-        		"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
-        		"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities] <during the [Industrial era]>",
-        		"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities] <during the [Modern era]>",
-        		"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities] <during the [Atomic era]>",
-        		"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities] <during the [Information era]>",
+        		"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities] <during the [Ancient era]>",
+        		"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities] <during the [Classical era]>",
+        		"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities] <during the [Medieval era]>",
+        		"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
+        		"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities] <during the [Industrial era]>",
+        		"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities] <during the [Modern era]>",
+        		"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities] <during the [Atomic era]>",
+        		"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities] <during the [Information era]>",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8527,7 +8492,7 @@
 
 			"Gain a free [1 HumanInhibitorEra Ancient] [in this city]",
 			"Gain a free [1 HumanTechEra Ancient] [in this city]",
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8553,8 +8518,8 @@
 			"Gain a free [1 HumanTechEra Ancient] [in this city]",
 			"Gain a free [2 HumanTechEra Classical] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8580,8 +8545,8 @@
 			"Gain a free [2 HumanTechEra Classical] [in this city]",
 			"Gain a free [3 HumanTechEra Medieval] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8607,8 +8572,8 @@
 			"Gain a free [3 HumanTechEra Medieval] [in this city]",
 			"Gain a free [4 HumanTechEra Renaissance] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8634,8 +8599,8 @@
 			"Gain a free [4 HumanTechEra Renaissance] [in this city]",
 			"Gain a free [5 HumanTechEra Industrial] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8661,8 +8626,8 @@
 			"Gain a free [5 HumanTechEra Industrial] [in this city]",
 			"Gain a free [6 HumanTechEra Modern] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8688,8 +8653,8 @@
 			"Gain a free [6 HumanTechEra Modern] [in this city]",
 			"Gain a free [7 HumanTechEra Atomic] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
 
 
 			"Unbuildable <hidden from users>",
@@ -8716,8 +8681,8 @@
 			"Gain a free [7 HumanTechEra Atomic] [in this city]",
 			"Gain a free [8 HumanTechEra Information] [in this city]",
 
-			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
-			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8739,9 +8704,9 @@
 
 			"Gain a free [8 HumanInhibitorEra Information] [in this city]",
 			"Gain a free [8 HumanTechEra Information] [in this city]",
-			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
 
-			"Gain a free [MiniCake DNS Lock Building 9 Future] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 9 Future] [in this city]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10805,12 +10770,10 @@ MiniCake TrueCity
 MiniCake UCheat
 MiniCake DNS Vault Tech Main
 MiniCake DNS Vault Policy
-MiniCake DNS Vault Unit ************************ removed
 
 MiniCake FreeSeal
 MiniCake HackTown
-MiniCake DNS Lock
-MiniCake DNS Lock Unit
+MiniCake DNS Vault
 
 MiniCake Capitol Booster
 MiniCake Cities Booster
@@ -10820,15 +10783,15 @@ HackTown Capitol Cripple Religion
 HackTown Cities Cripple Religion
 HackTown City State
 
-MiniCake DNS Lock Building
-MiniCake DNS Lock Building 1 Ancient
-MiniCake DNS Lock Building 2 Classical
-MiniCake DNS Lock Building 3 Medieval
-MiniCake DNS Lock Building 4 Renaissance
-MiniCake DNS Lock Building 5 Industrial
-MiniCake DNS Lock Building 6 Modern
-MiniCake DNS Lock Building 7 Atomic
-MiniCake DNS Lock Building 8 Information
+MiniCake DNS Vault Building
+MiniCake DNS Vault Building 1 Ancient
+MiniCake DNS Vault Building 2 Classical
+MiniCake DNS Vault Building 3 Medieval
+MiniCake DNS Vault Building 4 Renaissance
+MiniCake DNS Vault Building 5 Industrial
+MiniCake DNS Vault Building 6 Modern
+MiniCake DNS Vault Building 7 Atomic
+MiniCake DNS Vault Building 8 Information
 
 MiniCake DNS Vault Tech Main
 
