@@ -39,7 +39,7 @@
 
 	"policyBranchesToRemove": [
 
-        "Tradition",
+            "Tradition",
             		"Aristocracy",
             		"Legalism",
             		"Oligarchy",
@@ -124,7 +124,7 @@
 
 	"policiesToRemove": [
 
-        "Tradition",
+           "Tradition",
             		"Aristocracy",
             		"Legalism",
             		"Oligarchy",

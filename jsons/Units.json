@@ -113,9 +113,9 @@ E3 Longbowman
 		"movement": 2,
 		"uniques": [
 
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
-			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 
 			"Uncapturable", 
 
@@ -159,9 +159,9 @@ E3 Longbowman
 		"cost": 106,
 		"uniques": [
 
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
-			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
@@ -184,9 +184,9 @@ E3 Longbowman
 		"obsoleteTech": "E5 Scientific Theory",
 		"uniques": [
 
-		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
-			"Only available <in cities with a [MiniCake ShowGk]><hidden from users>",
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 
 			"Limited to [5] per Civilization",
 			"May upgrade to [E1 Archer] through ruins-like effects", 
@@ -205,7 +205,10 @@ E3 Longbowman
 		"obsoleteTech": "E3 Metal Casting",
 		"upgradesTo": "E2 Swordsman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+
 		    "May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -226,6 +229,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -243,6 +248,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -259,6 +266,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Swordsman",
 		"attackSound": "nonmetalhit",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -275,6 +284,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -293,6 +304,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -312,6 +325,8 @@ E3 Longbowman
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -330,6 +345,8 @@ E3 Longbowman
 		"upgradesTo": "E2 Composite Bowman",
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -348,6 +365,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Crossbowman",
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -359,6 +378,7 @@ E3 Longbowman
 		"cost": 30,
 		"requiredTech": "E1 Sailing",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles <before discovering [E4 Astronomy]>", 
@@ -381,6 +401,8 @@ E3 Longbowman
 		"cost": 45,
 		"requiredTech": "E1 Sailing",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles", 
 			"Never appears as a Barbarian unit"],
@@ -399,6 +421,8 @@ E3 Longbowman
 		"cost": 45,
 		"requiredTech": "E1 Sailing",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles"],
 //xsa		"upgradesTo": "E4 Caravel",
@@ -417,6 +441,8 @@ E3 Longbowman
 		"cost": 56,
 		"requiredTech": "E1 Sailing",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles", 
 		    "[+50]% Strength <vs [Water] units>"],
@@ -433,6 +459,8 @@ E3 Longbowman
 		"strength": 7,
 		"cost": 40,
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
 		"upgradesTo": "E1 Trireme",
@@ -453,6 +481,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus", 
 		    "Rough terrain penalty", 
@@ -473,6 +503,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus", 
 		    "Rough terrain penalty"],
@@ -492,6 +524,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
@@ -511,6 +545,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "No defensive terrain bonus"],
 		"attackSound": "elephant"
@@ -526,6 +562,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -543,6 +581,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -560,6 +600,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
@@ -578,6 +620,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Physics",
 		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+300]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus", 
@@ -600,6 +644,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
@@ -618,6 +664,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Civil Service",
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -637,6 +685,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Knight",
 		"obsoleteTech": "E3 Chivalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -659,6 +709,8 @@ E3 Longbowman
 		"promotions": ["Great Generals I"],
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
@@ -680,6 +732,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Chivalry",
 		"promotions": ["Great Generals II"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
@@ -702,6 +756,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Chivalry",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "[-25]% Strength <vs cities> <when attacking>"],
@@ -720,6 +776,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Physics",
 		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus",
@@ -743,6 +801,8 @@ E3 Longbowman
 		"obsoleteTech": "E3 Physics",
 		"upgradesTo": "E3 Trebuchet",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>", 
 		    "No defensive terrain bonus",
@@ -764,6 +824,8 @@ E3 Longbowman
 		"upgradesTo": "E3 Crossbowman",
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -781,6 +843,8 @@ E3 Longbowman
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -798,6 +862,8 @@ E3 Longbowman
 		"obsoleteTech": "E4 Gunpowder",
 		"requiredResource": "RS02 Iron",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can build [Road] improvements on tiles", 
 		    "Can build [TI20 Fort] improvements on tiles"],
@@ -820,6 +886,8 @@ E3 Longbowman
 		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -835,6 +903,8 @@ E3 Longbowman
 		"cost": 90,
 		"requiredTech": "E3 Civil Service",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "E4 Lancer",
@@ -852,6 +922,8 @@ E3 Longbowman
 		"cost": 45,
 		"requiredTech": "E3 Civil Service",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+50]% Strength <vs [Mounted] units>", 
 		    "Can move immediately once bought" ],
@@ -872,6 +944,8 @@ E3 Longbowman
 		"obsoleteTech": "E4 Navigation",
 		"upgradesTo": "E4 Frigate",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot enter ocean tiles"],
 		"attackSound": "arrow"
@@ -888,6 +962,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Cavalry",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -910,6 +986,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus"],
@@ -930,6 +1008,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -953,6 +1033,8 @@ E3 Longbowman
 		"obsoleteTech": "E5 Military Science",
 		"upgradesTo": "E5 Cavalry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -974,6 +1056,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus"],
@@ -995,6 +1079,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Cavalry",
 		"obsoleteTech": "E5 Military Science",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus"],
@@ -1015,6 +1101,8 @@ E3 Longbowman
 		"obsoleteTech": "E5 Industrialization",
 		"attackSound": "crossbow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1034,6 +1122,8 @@ E3 Longbowman
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1054,6 +1144,8 @@ E3 Longbowman
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1069,6 +1161,8 @@ E3 Longbowman
 		"obsoleteTech": "E4 Chemistry",
 		"upgradesTo": "E4 Cannon",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+200]% Strength <vs cities> <when attacking>",
 		    "No defensive terrain bonus",
@@ -1091,6 +1185,8 @@ E3 Longbowman
 		"obsoleteTech": "E4 Chemistry",
 		"upgradesTo": "E4 Cannon",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 	    	"No defensive terrain bonus",
 		    "Must set up to ranged attack"],
@@ -1109,6 +1205,8 @@ E3 Longbowman
 		"requiredResource": "RS02 Iron",
 		"attackSound": "metalhit"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
     },
@@ -1127,6 +1225,8 @@ E3 Longbowman
 		"requiredResource": "RS02 Iron",
 		"promotions": ["Shock I", "Great Generals II"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can instantly construct a [TI17 Fishing Boats] improvement"
 		    ],
@@ -1150,6 +1250,8 @@ E3 Longbowman
 		"attackSound": "metalhit"
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
     },
@@ -1169,6 +1271,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Ironclad",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+1] Sight", 
 			"Withdraws before melee combat <with [80]% chance>"],
@@ -1190,6 +1294,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Ironclad",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Cannot enter ocean tiles"],
 		"hurryCostModifier": 30,
@@ -1209,6 +1315,8 @@ E3 Longbowman
 		"obsoleteTech": "E5 Rifling",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1228,6 +1336,8 @@ E3 Longbowman
 		"obsoleteTech": "E5 Rifling",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
     },
@@ -1249,6 +1359,8 @@ E3 Longbowman
 			"[Janissary] ability"],
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1267,6 +1379,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Ignores terrain cost"],
 		"promotions": [
@@ -1288,6 +1402,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Rifleman",
 		"obsoleteTech": "E5 Rifling",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
@@ -1308,6 +1424,8 @@ E3 Longbowman
 			"[Privateer] ability"],
 		"attackSound": "Cannon"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1331,6 +1449,8 @@ E3 Longbowman
 			"[Privateer] ability"],
 		"attackSound": "Cannon"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1350,6 +1470,8 @@ E3 Longbowman
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1366,6 +1488,8 @@ E3 Longbowman
 		"cost": 185,
 		"requiredResource": "RS02 Iron",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+1] Sight"],
 		"requiredTech": "E4 Navigation",
@@ -1384,6 +1508,8 @@ E3 Longbowman
 		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1406,6 +1532,8 @@ E3 Longbowman
 		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1428,6 +1556,8 @@ E3 Longbowman
 		"requiredTech": "E4 Metallurgy",
 		"requiredResource": "RS01 Horses",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1450,6 +1580,8 @@ E3 Longbowman
 		"upgradesTo": "E5 Artillery",
 		"obsoleteTech": "E5 Dynamite",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
@@ -1475,6 +1607,8 @@ E3 Longbowman
 		"obsoleteTech": "E6 Ballistics",
 		"attackSound": "machinegun"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1492,6 +1626,8 @@ E3 Longbowman
 		"upgradesTo": "E6 Great War Infantry",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1512,6 +1648,8 @@ E3 Longbowman
 		"promotions": ["[Norwegian Ski Infantry] ability"],
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1532,6 +1670,8 @@ E3 Longbowman
 		"promotions": ["March"],
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1552,6 +1692,8 @@ E3 Longbowman
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1567,6 +1709,8 @@ E3 Longbowman
 		"requiredResource": "RS01 Horses",
 		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1588,6 +1732,8 @@ E3 Longbowman
 		"requiredResource": "RS01 Horses",
 		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1609,6 +1755,8 @@ E3 Longbowman
 		"requiredResource": "RS01 Horses",
 		"upgradesTo": "E6 Landship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking",
 		    "No defensive terrain bonus",
@@ -1631,6 +1779,8 @@ E3 Longbowman
 		"upgradesTo": "E6 Destroyer",
 		"obsoleteTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+33]% Strength <vs cities>",
 			"Double movement in [Coast]", 
@@ -1649,6 +1799,8 @@ E3 Longbowman
 		"requiredTech": "E5 Dynamite",
 		"upgradesTo": "E7 Rocket Artillery",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
@@ -1672,6 +1824,8 @@ E3 Longbowman
 		"requiredTech": "E6 Refrigeration",
 		"upgradesTo": "E8 Nuclear Submarine",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[+75]% Strength <when attacking>", 
 		    "Can only attack [Water] tiles", 
@@ -1692,6 +1846,8 @@ E3 Longbowman
 		"obsoleteTech": "E6 Plastics",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1710,6 +1866,8 @@ E3 Longbowman
 		"upgradesTo": "E6 Infantry",
 		"obsoleteTech": "E6 Plastics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
@@ -1729,6 +1887,8 @@ E3 Longbowman
 		"upgradesTo": "E7 Fighter",
 		"obsoleteTech": "E7 Radar",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "[50]% chance to intercept air attacks",
 		    "[+150]% Strength <vs [Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
@@ -1747,6 +1907,9 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"upgradesTo": "E7 Bomber",
 		"obsoleteTech": "E7 Radar",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ],
 		"attackSound": "bombing"
 	},
 
@@ -1763,6 +1926,8 @@ E3 Longbowman
 		"obsoleteTech": "E8 Mobile Tactics",
 		"attackSound": "shot"
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1775,6 +1940,8 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "E6 Electronics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Cannot attack", 
 		    "Can carry [2] [Aircraft] units"]
@@ -1791,6 +1958,8 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"requiredTech": "E6 Electronics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -1811,6 +1980,8 @@ E3 Longbowman
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
     		"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
 		    ]
 	},
@@ -1828,6 +1999,8 @@ E3 Longbowman
 		"upgradesTo": "E7 Mobile SAM",
 		"obsoleteTech": "E7 Rocketry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Air] units>", 
@@ -1849,6 +2022,8 @@ E3 Longbowman
 		"upgradesTo": "E7 Tank",
 		"obsoleteTech": "E7 Combined Arms",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
@@ -1867,6 +2042,8 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "E6 Combustion",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can see invisible [E6 Submarine] units", 
 			"[40]% chance to intercept air attacks",
@@ -1890,6 +2067,8 @@ E3 Longbowman
 		"requiredTech": "E7 Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+1] Sight <when [Embarked]>", 
 			"[+100]% Strength <when defending> <when [Embarked]>"],
@@ -1909,6 +2088,8 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"upgradesTo": "E8 Jet Fighter",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Bomber] units>",
 		    "[+150]% Strength <vs [Helicopter] units>"],
@@ -1929,6 +2110,8 @@ E3 Longbowman
 		"requiredTech": "E7 Radar",
 		"upgradesTo": "E8 Jet Fighter",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
@@ -1947,7 +2130,10 @@ E3 Longbowman
 		"requiredTech": "E7 Radar",
 		"requiredResource": "RS04 Oil",
 		"upgradesTo": "E8 Stealth Bomber",
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ]
 	},
 
 	{
@@ -1964,7 +2150,10 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"promotions": ["Evasion", "Siege I"],
 		"upgradesTo": "E8 Stealth Bomber",
-		"attackSound": "bombing"
+		"attackSound": "bombing",
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+        ]
 	},
 
 
@@ -1979,6 +2168,8 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "E7 Radar",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"],
@@ -1998,6 +2189,8 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
@@ -2019,6 +2212,8 @@ E3 Longbowman
 		"requiredResource": "RS04 Oil",
 		"upgradesTo": "E8 Modern Armor",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Can move after attacking",
 			"No defensive terrain bonus"],
@@ -2037,6 +2232,8 @@ E3 Longbowman
 		"requiredTech": "E7 Combined Arms",
 		"upgradesTo": "E7 Helicopter Gunship",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+100]% Strength <vs [Armored] units>", 
 			"Never appears as a Barbarian unit"],
@@ -2055,6 +2252,8 @@ E3 Longbowman
 		"requiredResource": "RS06 Uranium",
 		"promotions" : ["Evasion"],
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
 		    "Nuclear weapon of Strength [1]", 
 		    "Only available <if [E7 Manhattan Project] is constructed>", 
 		    "Self-destructs when attacking",
@@ -2075,6 +2274,8 @@ E3 Longbowman
 		"requiredTech": "E7 Rocketry",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
@@ -2095,6 +2296,8 @@ E3 Longbowman
 		"cost": 425,
 		"requiredTech": "E7 Rocketry",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[100]% chance to intercept air attacks", 
 		    "[+150]% Strength <vs [Air] units>",
@@ -2112,7 +2315,11 @@ E3 Longbowman
 		"range": 8,
 		"cost": 150,
 		"requiredTech": "E8 Advanced Ballistics",
-		"uniques": ["[-100]% maintenance costs"],
+		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
+		    "[-100]% maintenance costs"
+		    ],
 		"attackSound": "missile"
 	},
 
@@ -2126,6 +2333,8 @@ E3 Longbowman
 		"cost": 1000,
 		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Nuke]><hidden from users>",
+
 		    "Nuclear weapon of Strength [2]", 
 		    "Only available <if [E7 Manhattan Project] is constructed>",
 			"Blast radius [2]", 
@@ -2146,6 +2355,8 @@ E3 Longbowman
 		"requiredTech": "E7 Computers",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"May travel on Water tiles without embarking",
 			//xsa//added hovering
@@ -2179,6 +2390,8 @@ E3 Longbowman
 		"requiredTech": "E8 Telecommunications",
     	"requiredResource": "Uranium",//xsa//added requiredResource
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"[+75]% Strength <when attacking>", 
 			"Can only attack [Water] tiles", 
@@ -2198,6 +2411,8 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "E8 Mobile Tactics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 	    	"Never appears as a Barbarian unit"],
 		"attackSound": "Tankshot"
@@ -2214,6 +2429,8 @@ E3 Longbowman
 		"cost": 425,
 		"requiredTech": "E8 Robotics",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "[100]% chance to intercept air attacks", 
 		    "Can see invisible [Submarine] units",
@@ -2234,6 +2451,8 @@ E3 Longbowman
 		"requiredResource": "RS05 Aluminum",
 		"upgradesTo": "E8 Giant Death Robot",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
@@ -2253,6 +2472,8 @@ E3 Longbowman
 		"requiredTech": "E8 Lasers",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "[100]% chance to intercept air attacks",
 		    "[+150]% Strength <vs [Bomber] units>", 
 		    "[+150]% Strength <vs [Helicopter] units>"],
@@ -2270,6 +2491,8 @@ E3 Longbowman
 		"requiredTech": "E8 Nuclear Fusion",
 		"requiredResource": "RS06 Uranium",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 		    "Can move after attacking", 
 		    "No defensive terrain bonus", 
@@ -2291,6 +2514,8 @@ E3 Longbowman
 		"requiredTech": "E8 Stealth",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
+
 		    "Damage taken from interception reduced by [100]%", 
 		    "Cannot be carried by [E6 Carrier] units", 
 		    "[+4] Sight",
@@ -2305,6 +2530,7 @@ E3 Longbowman
 		"name": "E0 Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2324,6 +2550,7 @@ E3 Longbowman
 		"name": "E0 Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2342,6 +2569,7 @@ E3 Longbowman
 		"name": "E0 Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2360,6 +2588,7 @@ E3 Longbowman
 		"name": "E0 Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2377,6 +2606,7 @@ E3 Longbowman
 		"name": "E0 Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2403,6 +2633,7 @@ E3 Longbowman
 		"name": "E0 Great General",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2424,6 +2655,8 @@ E3 Longbowman
 		"name": "E0 Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
@@ -2445,6 +2678,7 @@ E3 Longbowman
 		"replaces": "E0 Great General",
 		"strength": 20,
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [7] per Civilization",
@@ -2468,6 +2702,7 @@ E3 Longbowman
 		"name": "E0 Missionary",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Limited to [3] per Civilization",
@@ -2485,6 +2720,7 @@ E3 Longbowman
 		"name": "E0 Inquisitor",
 		"unitType": "Civilian",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
 
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 			"Prevents spreading of religion to the city it is next to",
@@ -2513,6 +2749,8 @@ E3 Longbowman
 		"requiredTech": "E8 Advanced Ballistics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
@@ -2531,6 +2769,8 @@ E3 Longbowman
 		"requiredTech": "E8 Satellites",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
@@ -2548,6 +2788,8 @@ E3 Longbowman
 		"requiredTech": "E8 Particle Physics",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
 		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
     		"Spaceship part", 
     		"Cannot be purchased", 
@@ -2565,6 +2807,8 @@ E3 Longbowman
 		"requiredTech": "E8 Nanotechnology",
 		"requiredResource": "RS05 Aluminum",
 		"uniques": [
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
             "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
             "Spaceship part", 
             "Cannot be purchased", 
@@ -3481,9 +3725,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3510,9 +3754,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3542,9 +3786,9 @@ E3 Longbowman
 		"uniques": [
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"All adjacent units heal [+50] HP when healing", 
 			"[+50] HP when healing", 
@@ -3683,9 +3927,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -3705,11 +3949,11 @@ E3 Longbowman
 		"cost": 150,
 //		"requiredTech": "Advanced Ballistics",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [20] per Civilization"
 			"Never appears as a Barbarian unit",
@@ -3731,7 +3975,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [2]", 
@@ -3754,7 +3998,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [5]", 
@@ -3777,7 +4021,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [8]", 
@@ -3800,7 +4044,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [11]", 
@@ -3824,7 +4068,7 @@ E3 Longbowman
 		    
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [13]", 
@@ -3847,11 +4091,11 @@ E3 Longbowman
 		"range": 2,//xsa//rangeMod
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+2] Sight", 
 
@@ -3887,11 +4131,11 @@ E3 Longbowman
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Uncapturable",
@@ -3916,11 +4160,11 @@ E3 Longbowman
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
@@ -3944,11 +4188,11 @@ E3 Longbowman
 		"range": 2,
 		"cost": 575,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Air",
+		"requiredBuilding": "MiniCake DNS Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Air]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"[+3] Sight",
 
@@ -3981,11 +4225,11 @@ E3 Longbowman
 		"interceptRange": 3,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4006,11 +4250,11 @@ E3 Longbowman
 		"range": 5,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4033,11 +4277,11 @@ E3 Longbowman
 		"interceptRange": 4,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit Water",
+		"requiredBuilding": "MiniCake DNS Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked Water]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4105,9 +4349,9 @@ E3 Longbowman
 		    "Ignores Zone of Control", 
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -4135,9 +4379,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -4170,7 +4414,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4195,7 +4439,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4218,7 +4462,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4245,7 +4489,7 @@ E3 Longbowman
 		"uniques": [0
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
             "[+2] Sight",
@@ -4272,7 +4516,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4300,9 +4544,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4353,9 +4597,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 //			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
@@ -4383,9 +4627,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
 //    	    "May travel on Water tiles without embarking",			 //xsa//added hovering
@@ -4420,9 +4664,9 @@ E3 Longbowman
 		"requiredBuilding": "MiniCake DNS Vault",
 		"upgradesTo": "DNS Khan",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
 			"[+3] Sight <before the [Classical era]>",
@@ -4447,9 +4691,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4475,9 +4719,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"Limited to [7] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4500,11 +4744,11 @@ E3 Longbowman
 		"name": "DNS Great Artist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4526,11 +4770,11 @@ E3 Longbowman
 		"name": "DNS Great Scientist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4552,11 +4796,11 @@ E3 Longbowman
 		"name": "DNS Great Merchant",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4578,11 +4822,11 @@ E3 Longbowman
 		"name": "DNS Great Engineer",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4604,11 +4848,11 @@ E3 Longbowman
 		"name": "DNS Great Prophet",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
         	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4638,11 +4882,11 @@ E3 Longbowman
 		"name": "DNS Great General",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4668,11 +4912,11 @@ E3 Longbowman
 		"name": "DNS Great Admiral",
 		"unitType": "DNSCivilianWater",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Unit GPeople",
+		"requiredBuilding": "MiniCake DNS Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked GPeople]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 //   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4702,16 +4946,16 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
 
 			"May enter foreign tiles without open borders",
 			"Can see over obstacles",
 
-			"Only available <in cities with a [MiniCake DNS Unit TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked TheRest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS locked AllShite]> <hidden from users>",
+			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
