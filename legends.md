@@ -1,3 +1,8 @@
+//silema2026
+buildings
+
+techs.json      fast tech
+
 
 game
 gameImprovementIcons            Icons.atlas

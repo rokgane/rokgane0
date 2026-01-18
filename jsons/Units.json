@@ -3731,9 +3731,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3760,9 +3760,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
@@ -3792,9 +3792,9 @@ E3 Longbowman
 		"uniques": [
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"All adjacent units heal [+50] HP when healing", 
 			"[+50] HP when healing", 
@@ -3933,9 +3933,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -3955,11 +3955,11 @@ E3 Longbowman
 		"cost": 150,
 //		"requiredTech": "Advanced Ballistics",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Limited to [20] per Civilization"
 			"Never appears as a Barbarian unit",
@@ -3981,7 +3981,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [2]", 
@@ -4004,7 +4004,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 		    "Limited to [20] per Civilization"
 		    "Nuclear weapon of Strength [5]", 
@@ -4027,7 +4027,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [8]", 
@@ -4050,7 +4050,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [11]", 
@@ -4074,7 +4074,7 @@ E3 Longbowman
 		    
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 		    "Limited to [10] per Civilization"
 		    "Nuclear weapon of Strength [13]", 
@@ -4097,11 +4097,11 @@ E3 Longbowman
 		"range": 2,//xsa//rangeMod
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"[+2] Sight", 
 
@@ -4137,11 +4137,11 @@ E3 Longbowman
 		"interceptRange": 10,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Never appears as a Barbarian unit",
 			"Uncapturable",
@@ -4166,11 +4166,11 @@ E3 Longbowman
 		"range": 20,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"[+150]% Strength <when attacking>", 
 			"[+450]% Strength <when defending>", 
@@ -4194,11 +4194,11 @@ E3 Longbowman
 		"range": 2,
 		"cost": 575,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Aero]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"[+3] Sight",
 
@@ -4231,11 +4231,11 @@ E3 Longbowman
 		"interceptRange": 3,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Navy",
+		"requiredBuilding": "MiniCake Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4256,11 +4256,11 @@ E3 Longbowman
 		"range": 5,
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Navy",
+		"requiredBuilding": "MiniCake Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4283,11 +4283,11 @@ E3 Longbowman
 		"interceptRange": 4,
 		"cost": 425,
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Navy",
+		"requiredBuilding": "MiniCake Open Navy",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Navy]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Navy]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+2] Sight",
@@ -4357,9 +4357,9 @@ E3 Longbowman
 		    "Ignores Zone of Control", 
 			"May enter foreign tiles without open borders",
 
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -4387,9 +4387,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+100]% Strength bonus for [All] units within [5] tiles",
@@ -4422,7 +4422,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4447,7 +4447,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4470,7 +4470,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4497,7 +4497,7 @@ E3 Longbowman
 		"uniques": [0
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
             "[+2] Sight",
@@ -4524,7 +4524,7 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Unit Land]> <hidden from users>",
             "Unavailable <in cities with a [MiniCake DNS locked Land]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
 
 			"[+150]% Strength <when attacking>", 
@@ -4552,9 +4552,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4605,9 +4605,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Limited to [3] per Civilization <hidden from users>",
 //			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
@@ -4636,9 +4636,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
 //    	    "May travel on Water tiles without embarking",			 //xsa//added hovering
@@ -4673,9 +4673,9 @@ E3 Longbowman
 		"requiredBuilding": "MiniCake DNS Vault",
 		"upgradesTo": "DNS Khan",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
 			"[+3] Sight <before the [Classical era]>",
@@ -4700,9 +4700,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 //			"Limited to [3] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4728,9 +4728,9 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"Limited to [7] per Civilization <hidden from users>",
     		"May Paradrop to [All] tiles up to [20] tiles away", 
@@ -4753,11 +4753,11 @@ E3 Longbowman
 		"name": "DNS Great Artist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4779,11 +4779,11 @@ E3 Longbowman
 		"name": "DNS Great Scientist",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4805,11 +4805,11 @@ E3 Longbowman
 		"name": "DNS Great Merchant",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4831,11 +4831,11 @@ E3 Longbowman
 		"name": "DNS Great Engineer",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4857,11 +4857,11 @@ E3 Longbowman
 		"name": "DNS Great Prophet",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
         	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4891,11 +4891,11 @@ E3 Longbowman
 		"name": "DNS Great General",
 		"unitType": "DNSCivilianLand",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4921,11 +4921,11 @@ E3 Longbowman
 		"name": "DNS Great Admiral",
 		"unitType": "DNSCivilianWater",
 		"requiredTech": "TechUnlocker",
-		"requiredBuilding": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake Open Gman",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Gman]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Gman]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 //   	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -4955,16 +4955,16 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
 
 			"May enter foreign tiles without open borders",
 			"Can see over obstacles",
 
-			"Only available <in cities with a [MiniCake DNS Open Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Lock Rest]> <hidden from users>",
-            "Unavailable <in cities with a [MiniCake DNS Aall Lock]> <hidden from users>",
+			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
+            "Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
    	    	"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Withdraws before melee combat <with [99]% chance>",
 			"Never appears as a Barbarian unit",
@@ -5311,7 +5311,7 @@ E3 Longbowman
 			"Can build [DNS Citadel] improvements on tiles",
 
 			"Unavailable <hidden from users>",
-			"Uncapturable", 
+			"Uncapturable <hidden from users>",
 			"Can see over obstacles <before the [Classical era]>"
 //			"Limited to [2] per Civilization"
 			],
@@ -5341,7 +5341,8 @@ E3 Longbowman
 //			"Can build [TI13 Offshore Platform] improvements on tiles",
 //			"Can build [TI17 Fishing Boats] improvements on tiles",			"Unavailable <hidden from users>",
 
-			"Uncapturable", 
+			"Unavailable <hidden from users>",
+			"Uncapturable <hidden from users>",
 			"Can see over obstacles <before the [Classical era]>"
 //			"Limited to [5] per Civilization"
 		   ]

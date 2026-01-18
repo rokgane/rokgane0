@@ -1879,6 +1879,8 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
+
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
