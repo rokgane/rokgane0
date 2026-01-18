@@ -5697,7 +5697,7 @@
 
 	{
 		"name": "MiniCake ShowGk Aall",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5800,7 +5800,7 @@
 
 	{
 		"name": "MiniCake ShowGk Land",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5820,7 +5820,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Navy",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5840,7 +5840,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Aero",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5860,7 +5860,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Nuke",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5880,7 +5880,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Gman",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5900,7 +5900,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Rest",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5921,7 +5921,7 @@
 
     {
 		"name": "MiniCake ShowGk Roof",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
