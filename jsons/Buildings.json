@@ -5968,12 +5968,12 @@
 
 				"Sell [MiniCake HideGk Main] buildings [in this city]",
 
-				"Gain a free [MiniCake ShowGk Land] buildings [in this city]",
-				"Gain a free [MiniCake ShowGk Navy] buildings [in this city]",
-				"Gain a free [MiniCake ShowGk Aero] buildings [in this city]",
-				"Gain a free [MiniCake ShowGk Nuke] buildings [in this city]",
-				"Gain a free [MiniCake ShowGk Gman] buildings [in this city]",
-				"Gain a free [MiniCake ShowGk Rest] buildings [in this city]",
+				"Gain a free [MiniCake ShowGk Land] [in this city]",
+				"Gain a free [MiniCake ShowGk Navy] [in this city]",
+				"Gain a free [MiniCake ShowGk Aero] [in this city]",
+				"Gain a free [MiniCake ShowGk Nuke] [in this city]",
+				"Gain a free [MiniCake ShowGk Gman] [in this city]",
+				"Gain a free [MiniCake ShowGk Rest] [in this city]",
 
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -5992,12 +5992,12 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
-				"Gain a free [MiniCake HideGk Land] buildings [in this city]",
-				"Gain a free [MiniCake HideGk Navy] buildings [in this city]",
-				"Gain a free [MiniCake HideGk Aero] buildings [in this city]",
-				"Gain a free [MiniCake HideGk Nuke] buildings [in this city]",
-				"Gain a free [MiniCake HideGk Gman] buildings [in this city]",
-				"Gain a free [MiniCake HideGk Rest] buildings [in this city]",
+				"Gain a free [MiniCake HideGk Land] [in this city]",
+				"Gain a free [MiniCake HideGk Navy] [in this city]",
+				"Gain a free [MiniCake HideGk Aero] [in this city]",
+				"Gain a free [MiniCake HideGk Nuke] [in this city]",
+				"Gain a free [MiniCake HideGk Gman] [in this city]",
+				"Gain a free [MiniCake HideGk Rest] [in this city]",
 
 				"Sell [MiniCake ShowGk Main] buildings [in this city]",
 
