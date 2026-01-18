@@ -100,9 +100,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+10]% [Food] [in all cities]", 
 			"[+15]% Production when constructing [E1 Archery] units [in this city]",
 			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
@@ -132,9 +131,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"requiredTech": "E1 Calendar",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
@@ -172,9 +169,8 @@
 		"isWonder": true,
 		"requiredTech": "E1 Writing",
 		"uniques": [ 
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Technology", 
 			"Gain a free [E1 Library] [in this city]"],
 		"quote": "'Libraries are as the Shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
@@ -254,9 +250,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Can build [all] improvements at a [+25]% rate",
 			"[2] free [E1 Worker] units appear"],
 		"requiredTech": "E1 Masonry",
@@ -269,9 +264,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [RL13 Marble] tiles [in this city]", 
 			"[+2 Gold] from [RB06 Stone] tiles [in this city]"],
@@ -312,9 +306,8 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "E1 Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -346,9 +339,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Coast]", 
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", 
@@ -379,10 +371,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Horseback Riding"
 	},
@@ -407,9 +398,8 @@
 		"isWonder": true,
 		"requiredTech": "E2 Mathematics",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [E3 Garden] [in this city]"
 			],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
@@ -432,9 +422,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"requiredTech": "E2 Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
@@ -493,10 +481,9 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Library] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Library] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Library] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Philosophy"
 	},
@@ -507,9 +494,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Social Policy"
 			],
 		"requiredTech": "E2 Philosophy",
@@ -536,10 +522,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Monument] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Monument] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Monument] is constructed in all [non-[Puppeted]] cities>", 
 			"[+25]% Great Person generation [in this city]", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Drama and Poetry"
@@ -593,9 +578,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Desert]", 
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", 
 			"Gain a free [E2 Amphitheater] [in this city]", 
@@ -621,9 +605,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [E5 Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [E1 Walls] [in this city]"],
 		"requiredTech": "E2 Engineering",
@@ -636,10 +619,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Barracks] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Barracks] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Barracks] is constructed in all [non-[Puppeted]] cities>", 
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Iron Working"
@@ -653,9 +635,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Coast]", 
 			"[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "E2 Iron Working",
@@ -683,9 +664,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [E2 Temple] [in this city]", 
 			"Free [E0 Great Prophet] appears", 
 			"Only available <when religion is enabled>"],
@@ -700,9 +680,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [R03 Mosque] [in this city]", 
 			"Only available <when religion is enabled>",
 			"All newly-trained [E0 Missionary] units [in this city] receive the [Devout] promotion",
@@ -717,10 +696,9 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Temple] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Temple] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Temple] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", 
 			"Only available <when religion is enabled>", 
@@ -736,9 +714,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+50]% Golden Age length"
 			],
 		"requiredTech": "E3 Civil Service",
@@ -752,10 +729,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Market] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Market] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Market] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Guilds"
 	},
@@ -767,9 +743,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% [Gold] from Trade Routes", 
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "E3 Guilds",
@@ -870,10 +845,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E3 University] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E3 University] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E3 University] is constructed in all [non-[Puppeted]] cities>", 
 			"Free Technology", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Education"
@@ -885,9 +859,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "E3 Education",
@@ -932,9 +905,8 @@
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [E3 Castle] [in this city]"],
 		"requiredTech": "E3 Chivalry",
@@ -948,10 +920,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E3 Workshop] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E3 Workshop] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E3 Workshop] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Machinery"
 	},
@@ -962,9 +933,7 @@
 		"happiness": 10,
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"isWonder": true,
 		"requiredTech": "E3 Physics",
@@ -1037,9 +1006,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% [Culture] [in all cities]"
 			],
 		"requiredTech": "E4 Acoustics",
@@ -1094,9 +1062,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-10]% Unhappiness from [Population] [in all non-occupied cities]"
 			],
 		"requiredTech": "E4 Banking",
@@ -1121,9 +1088,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% Great Person generation [in all cities]", 
 			"Free Great Person"
 			],
@@ -1137,9 +1103,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Gain a free [E3 Castle] [in this city]"
 			],
@@ -1168,10 +1133,9 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E4 Opera House] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E4 Opera House] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E4 Opera House] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E4 Architecture"
 	},
@@ -1183,9 +1147,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Empire enters Golden age"
 			],
 		"requiredTech": "E4 Architecture",
@@ -1198,9 +1161,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free [E0 Great Scientist] appears",
 			"Science gained from research agreements [+50]%"
 			],
@@ -1258,9 +1220,8 @@
 		"cityStrength": 12,
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% City Strength from defensive buildings"
 			],
 		"requiredTech": "E4 Metallurgy",
@@ -1290,9 +1251,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[2] free [E0 Great Artist] units appear"
 			],
 		"requiredTech": "E5 Archaeology",
@@ -1337,9 +1297,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[Gold] cost of purchasing items in cities [-15]%"
 			],
 		"requiredTech": "E5 Industrialization",
@@ -1365,9 +1324,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free [E0 Great General] appears", 
 			"New [Military] units start with [15] XP [in this city]"
 			],
@@ -1461,9 +1419,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Happiness] per [2] social policies adopted"
 			],
 		"requiredTech": "E6 Radio",
@@ -1476,15 +1433,14 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E5 Police Station] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"New spies start with [1] level(s)",
 			"Promotes all spies [1] time(s)",
 			"Gain an extra spy", // Order is significant here
 			"[-15]% enemy spy effectiveness [in this city]",
-			"Only available <if [E5 Police Station] is constructed in all [non-[Puppeted]] cities>",
+//			"Only available <if [E5 Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E6 Radio"
 	},
@@ -1508,9 +1464,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Production] from every specialist [in all cities]"
 			],
 		"requiredTech": "E6 Replaceable Parts",
@@ -1525,9 +1480,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Happiness, +2 Culture, +3 Gold] from every [E3 Castle]",
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "E6 Railroads",
@@ -1553,9 +1507,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-10]% Culture cost of adopting new Policies"
 			],
 		"requiredTech": "E6 Plastics",
@@ -1582,9 +1535,8 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-	    	"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 	    	"Enables nuclear weapon", 
 			"Triggers a global alert upon completion", 
 			"Cannot be hurried"],
@@ -1597,9 +1549,8 @@
 		"culture": 3,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-33]% Gold cost of upgrading <for [Military] units>"
 			],
 		"requiredTech": "E7 Combined Arms",
@@ -1637,9 +1588,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Social Policy",
 			"Must be next to [Coast]"
 			],
@@ -1666,9 +1616,8 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Enables E2 Construction of Spaceship parts", 
 			"Triggers a global alert upon completion", 
 			"Only available <when [Scientific] Victory is enabled>", 
@@ -1683,9 +1632,8 @@
 		"name": "E7 Great Firewall",
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Only available <when espionage is enabled>", 
 			"[-99]% enemy spy effectiveness [in this city]",
 			"[-50]% enemy spy effectiveness [in all cities]"
@@ -1702,9 +1650,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1] population [in all cities]", 
 			"[+1 Happiness] [in all cities]", 
 			"Gain a free [E6 Broadcast Tower] [in all cities]"
@@ -1731,9 +1678,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[2] free [E0 Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
 			"Gain a free [E8 Spaceship Factory] [in this city]"
@@ -1763,9 +1709,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"requiredTech": "E8 Globalization",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Triggers voting for the Diplomatic Victory", 
 			"Only available <when [Diplomatic] Victory is enabled>", 
 			"Triggers a global alert upon completion"
@@ -1780,9 +1725,8 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Unavailable <when number of [Completed Policy branches] is less than [5]>", 
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", 
@@ -5262,7 +5206,7 @@
 				"Sell [MiniCake Lock Gman] buildings [in this city]",
 				"Sell [MiniCake Lock Rest] buildings [in this city]",
 
-				"Sell [MiniCake Lock Main] buildings [in this city]",
+//				"Sell [MiniCake Lock Main] buildings [in this city]",
 
 				"Sell [MiniCake Open Aall] buildings [in this city]",
 
@@ -5300,7 +5244,7 @@
 				"Gain a free [MiniCake Lock Gman] [in this city]",
 				"Gain a free [MiniCake Lock Rest] [in this city]",
 
-				"Sell [MiniCake Open Main] buildings [in this city]",
+//				"Sell [MiniCake Open Main] buildings [in this city]",
 
 				"Sell [MiniCake Lock Aall] buildings [in this city]",
 
@@ -5689,7 +5633,7 @@
 				"Sell [MiniCake HideGk Rest] buildings [in this city]",
 				"Sell [MiniCake HideGk Roof] buildings [in this city]",
 
-				"Sell [MiniCake HideGk Main] buildings [in this city]",
+//				"Sell [MiniCake HideGk Main] buildings [in this city]",
 
 				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
 
@@ -5729,7 +5673,7 @@
 				"Gain a free [MiniCake HideGk Rest] [in this city]",
 				"Gain a free [MiniCake HideGk Roof] [in this city]",
 
-				"Sell [MiniCake ShowGk Main] buildings [in this city]",
+//				"Sell [MiniCake ShowGk Main] buildings [in this city]",
 
 				"Sell [MiniCake HideGk Aall] buildings [in this city]",
 
