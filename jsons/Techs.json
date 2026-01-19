@@ -2716,7 +2716,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroBase
 				"name": "KosongZeroBase",
 				"row": 37,//21,
-				"prerequisites": ["11 FutureTech"],
+				"prerequisites": ["XX FuturaTech"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -2724,9 +2724,9 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 			{
-				"name": "11 FutureTech",
+				"name": "XX FuturaTech",
 				"row": 23,
-				"prerequisites": ["1X FutureTech"],
+				"prerequisites": ["E9 Future Tech"],
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -2741,14 +2741,14 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E9 Future Tech",
 				"row": 15,
 				"prerequisites": [
-					"1X FutureTech", //xsa//added
-					"11 FutureTech", //xsa//added
+					"9X FutureTech", //xsa//added
 
-					"E8 Globalization",
-					"E8 Particle Physics",
-					"E8 Nuclear Fusion",
-					"E8 Nanotechnology",
-					"E8 Stealth"
+//					"E8 Globalization",
+//					"E8 Particle Physics",
+//					"E8 Nuclear Fusion",
+//					"E8 Nanotechnology",
+//					"E8 Stealth"
+
 				],
 				"uniques": [
 //					"Free Great Person",//xsa//added
@@ -2775,7 +2775,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "1X TechSlowerEraAncient",
 				"row": 23,
-				"prerequisites": ["19 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "19 TechSlowerEraAncient",
+				    "18 TechSlowerEraAncient",
+				    "17 TechSlowerEraAncient",
+				    "16 TechSlowerEraAncient",
+				    "15 TechSlowerEraAncient",
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2794,7 +2806,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "2X TechSlowerEraClassical",
 				"row": 23,
-				"prerequisites": ["29 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "29 TechSlowerEraClassical",
+				    "28 TechSlowerEraClassical",
+				    "27 TechSlowerEraClassical",
+				    "26 TechSlowerEraClassical",
+				    "25 TechSlowerEraClassical",
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "2X Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2813,7 +2837,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "3X TechSlowerEraMedieval",
 				"row": 23,
-				"prerequisites": ["39 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "39 TechSlowerEraMedieval",
+				    "38 TechSlowerEraMedieval",
+				    "37 TechSlowerEraMedieval",
+				    "36 TechSlowerEraMedieval",
+				    "35 TechSlowerEraMedieval",
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "3X Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2832,7 +2868,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "4X TechSlowerEraRenaissance",
 				"row": 23,
-				"prerequisites": ["49 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "49 TechSlowerEraRenaissance",
+				    "48 TechSlowerEraRenaissance",
+				    "47 TechSlowerEraRenaissance",
+				    "46 TechSlowerEraRenaissance",
+				    "45 TechSlowerEraRenaissance",
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2851,7 +2899,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "5X TechSlowerEraIndustrial",
 				"row": 23,
-				"prerequisites": ["59 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "59 TechSlowerEraIndustrial",
+				    "58 TechSlowerEraIndustrial",
+				    "57 TechSlowerEraIndustrial",
+				    "56 TechSlowerEraIndustrial",
+				    "55 TechSlowerEraIndustrial",
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "5X Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2870,7 +2930,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "6X TechSlowerEraModern",
 				"row": 23,
-				"prerequisites": ["69 TechSlowerEraModern"],
+				"prerequisites": [
+				    "69 TechSlowerEraModern",
+				    "68 TechSlowerEraModern",
+				    "67 TechSlowerEraModern",
+				    "66 TechSlowerEraModern",
+				    "65 TechSlowerEraModern",
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "6X Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2889,7 +2961,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "7X TechSlowerEraAtomic",
 				"row": 23,
-				"prerequisites": ["79 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "79 TechSlowerEraAtomic",
+				    "78 TechSlowerEraAtomic",
+				    "77 TechSlowerEraAtomic",
+				    "76 TechSlowerEraAtomic",
+				    "75 TechSlowerEraAtomic",
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "7X Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2908,7 +2992,19 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "8X TechSlowerEraInformation",
 				"row": 23,
-				"prerequisites": ["89 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "89 TechSlowerEraInformation",
+				    "88 TechSlowerEraInformation",
+				    "87 TechSlowerEraInformation",
+				    "86 TechSlowerEraInformation",
+				    "85 TechSlowerEraInformation",
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "8X Information Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -2928,9 +3024,20 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "1X FutureTech",
+				"name": "9X FutureTech",
 				"row": 23,
-				"prerequisites": ["10 FutureTech"],
+				"prerequisites": [
+				    "99 FutureTech",
+				    "98 FutureTech",
+				    "97 FutureTech",
+				    "96 FutureTech",
+				    "95 FutureTech",
+				    "94 FutureTech",
+				    "93 FutureTech",
+				    "92 FutureTech",
+				    "91 FutureTech",
+				    "90 FutureTech"
+				],
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -2954,7 +3061,7 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 1250,//xtc33Cost
 		"techs": [
 		    {
-				"name": "00 FutureTech",
+				"name": "90 FutureTech",
 				"row": 23,
 				"prerequisites": [
 					"8X TechSlowerEraInformation", //xsa//added
@@ -2976,9 +3083,11 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "01 FutureTech",
+				"name": "91 FutureTech",
 				"row": 24,
-				"prerequisites": ["00 FutureTech"],
+				"prerequisites": [
+				        "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -2989,9 +3098,12 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "02 FutureTech",
+				"name": "92 FutureTech",
 				"row": 25,
-				"prerequisites": ["01 FutureTech"],
+				"prerequisites": [
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3002,9 +3114,13 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "03 FutureTech",
+				"name": "93 FutureTech",
 				"row": 26,
-				"prerequisites": ["02 FutureTech"],
+				"prerequisites": [
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3015,9 +3131,14 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "04 FutureTech",
+				"name": "94 FutureTech",
 				"row": 27,
-				"prerequisites": ["03 FutureTech"],
+				"prerequisites": [
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3028,9 +3149,15 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "05 FutureTech",
+				"name": "95 FutureTech",
 				"row": 28,
-				"prerequisites": ["04 FutureTech"],
+				"prerequisites": [
+    				    "94 FutureTech",
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3041,9 +3168,16 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "06 FutureTech",
+				"name": "96 FutureTech",
 				"row": 29,
-				"prerequisites": ["05 FutureTech"],
+				"prerequisites": [
+    				    "95 FutureTech",
+    				    "94 FutureTech",
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3054,9 +3188,17 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "07 FutureTech",
+				"name": "97 FutureTech",
 				"row": 30,
-				"prerequisites": ["06 FutureTech"],
+				"prerequisites": [
+    				    "96 FutureTech",
+    				    "95 FutureTech",
+    				    "94 FutureTech",
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3067,9 +3209,18 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "08 FutureTech",
+				"name": "98 FutureTech",
 				"row": 31,
-				"prerequisites": ["07 FutureTech"],
+				"prerequisites": [
+    				    "97 FutureTech",
+    				    "96 FutureTech",
+    				    "95 FutureTech",
+    				    "94 FutureTech",
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
+				],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3080,22 +3231,19 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 			{
-				"name": "09 FutureTech",
+				"name": "99 FutureTech",
 				"row": 32,
-				"prerequisites": ["08 FutureTech"],
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
+				"prerequisites": [
+    				    "98 FutureTech",
+    				    "97 FutureTech",
+    				    "96 FutureTech",
+    				    "95 FutureTech",
+    				    "94 FutureTech",
+    				    "93 FutureTech",
+    				    "92 FutureTech",
+    				    "91 FutureTech",
+    				    "90 FutureTech"
 				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},
-			{
-				"name": "10 FutureTech",
-				"row": 33,
-				"prerequisites": ["09 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
 					"[-99]% weight to this choice for AI decisions"
@@ -3189,7 +3337,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "10 TechSlowerEraAncient",
 				"row": 24,
-				"prerequisites": ["10 InhibitorEra Ancient"],
+				"prerequisites": [
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "10 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3200,7 +3350,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "11 TechSlowerEraAncient",
 				"row": 25,
-				"prerequisites": ["10 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "11 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3211,7 +3364,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "12 TechSlowerEraAncient",
 				"row": 26,
-				"prerequisites": ["11 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "12 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3222,7 +3379,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "13 TechSlowerEraAncient",
 				"row": 27,
-				"prerequisites": ["12 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "13 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3233,7 +3395,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "14 TechSlowerEraAncient",
 				"row": 28,
-				"prerequisites": ["13 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "14 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3244,7 +3412,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "15 TechSlowerEraAncient",
 				"row": 29,
-				"prerequisites": ["14 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "15 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3255,7 +3430,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "16 TechSlowerEraAncient",
 				"row": 30,
-				"prerequisites": ["15 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "15 TechSlowerEraAncient",
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "16 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3266,7 +3449,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "17 TechSlowerEraAncient",
 				"row": 31,
-				"prerequisites": ["16 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "16 TechSlowerEraAncient",
+				    "15 TechSlowerEraAncient",
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "17 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3277,7 +3469,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "18 TechSlowerEraAncient",
 				"row": 32,
-				"prerequisites": ["17 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "17 TechSlowerEraAncient",
+				    "16 TechSlowerEraAncient",
+				    "15 TechSlowerEraAncient",
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "18 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3288,7 +3490,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "19 TechSlowerEraAncient",
 				"row": 33,
-				"prerequisites": ["18 TechSlowerEraAncient"],
+				"prerequisites": [
+				    "18 TechSlowerEraAncient",
+				    "17 TechSlowerEraAncient",
+				    "16 TechSlowerEraAncient",
+				    "15 TechSlowerEraAncient",
+				    "14 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient",
+				    "12 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient",
+				    "10 TechSlowerEraAncient",
+				    "10 InhibitorEra Ancient"
+				],
 				"quote": "19 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3374,7 +3587,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "20 TechSlowerEraClassical",
 				"row": 24,
-				"prerequisites": ["20 InhibitorEra Classical"],
+				"prerequisites": [
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "20 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3385,7 +3600,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "21 TechSlowerEraClassical",
 				"row": 25,
-				"prerequisites": ["20 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "21 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3396,7 +3614,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "22 TechSlowerEraClassical",
 				"row": 26,
-				"prerequisites": ["21 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "22 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3407,7 +3629,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "23 TechSlowerEraClassical",
 				"row": 27,
-				"prerequisites": ["22 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "23 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3418,7 +3645,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "24 TechSlowerEraClassical",
 				"row": 28,
-				"prerequisites": ["23 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "24 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3429,7 +3662,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "25 TechSlowerEraClassical",
 				"row": 29,
-				"prerequisites": ["24 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "25 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3440,7 +3680,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "26 TechSlowerEraClassical",
 				"row": 30,
-				"prerequisites": ["25 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "25 TechSlowerEraClassical",
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "26 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3451,7 +3699,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "27 TechSlowerEraClassical",
 				"row": 31,
-				"prerequisites": ["26 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "26 TechSlowerEraClassical",
+				    "25 TechSlowerEraClassical",
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "27 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3462,7 +3719,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "28 TechSlowerEraClassical",
 				"row": 32,
-				"prerequisites": ["27 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "27 TechSlowerEraClassical",
+				    "26 TechSlowerEraClassical",
+				    "25 TechSlowerEraClassical",
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "28 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3473,7 +3740,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "29 TechSlowerEraClassical",
 				"row": 33,
-				"prerequisites": ["28 TechSlowerEraClassical"],
+				"prerequisites": [
+				    "28 TechSlowerEraClassical",
+				    "27 TechSlowerEraClassical",
+				    "26 TechSlowerEraClassical",
+				    "25 TechSlowerEraClassical",
+				    "24 TechSlowerEraClassical",
+				    "23 TechSlowerEraClassical",
+				    "22 TechSlowerEraClassical",
+				    "21 TechSlowerEraClassical",
+				    "20 TechSlowerEraClassical",
+				    "20 InhibitorEra Classical"
+				],
 				"quote": "29 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3562,7 +3840,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "30 TechSlowerEraMedieval",
 				"row": 24,
-				"prerequisites": ["30 InhibitorEra Medieval"],
+				"prerequisites": [
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "30 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3573,7 +3853,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "31 TechSlowerEraMedieval",
 				"row": 25,
-				"prerequisites": ["30 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "31 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3584,7 +3867,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "32 TechSlowerEraMedieval",
 				"row": 26,
-				"prerequisites": ["31 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "32 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3595,7 +3882,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "33 TechSlowerEraMedieval",
 				"row": 27,
-				"prerequisites": ["32 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "33 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3606,7 +3898,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "34 TechSlowerEraMedieval",
 				"row": 28,
-				"prerequisites": ["33 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "34 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3617,7 +3915,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "35 TechSlowerEraMedieval",
 				"row": 29,
-				"prerequisites": ["34 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "35 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3628,7 +3933,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "36 TechSlowerEraMedieval",
 				"row": 30,
-				"prerequisites": ["35 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "35 TechSlowerEraMedieval",
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "36 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3639,7 +3952,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "37 TechSlowerEraMedieval",
 				"row": 31,
-				"prerequisites": ["36 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "36 TechSlowerEraMedieval",
+				    "35 TechSlowerEraMedieval",
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "37 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3650,7 +3972,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "38 TechSlowerEraMedieval",
 				"row": 32,
-				"prerequisites": ["37 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "37 TechSlowerEraMedieval",
+				    "36 TechSlowerEraMedieval",
+				    "35 TechSlowerEraMedieval",
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "38 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3661,7 +3993,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "39 TechSlowerEraMedieval",
 				"row": 33,
-				"prerequisites": ["38 TechSlowerEraMedieval"],
+				"prerequisites": [
+				    "38 TechSlowerEraMedieval",
+				    "37 TechSlowerEraMedieval",
+				    "36 TechSlowerEraMedieval",
+				    "35 TechSlowerEraMedieval",
+				    "34 TechSlowerEraMedieval",
+				    "33 TechSlowerEraMedieval",
+				    "32 TechSlowerEraMedieval",
+				    "31 TechSlowerEraMedieval",
+				    "30 TechSlowerEraMedieval",
+				    "30 InhibitorEra Medieval"
+				],
 				"quote": "39 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3748,7 +4091,8 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "40 TechSlowerEraRenaissance",
 				"row": 24,
-				"prerequisites": ["40 InhibitorEra Renaissance"],
+				"prerequisites": [
+				    "40 InhibitorEra Renaissance"
 				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3759,7 +4103,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "41 TechSlowerEraRenaissance",
 				"row": 25,
-				"prerequisites": ["40 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "41 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3769,7 +4115,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "42 TechSlowerEraRenaissance",
 				"row": 26,
-				"prerequisites": ["41 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "42 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3779,7 +4128,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "43 TechSlowerEraRenaissance",
 				"row": 27,
-				"prerequisites": ["42 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "43 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3789,7 +4142,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "44 TechSlowerEraRenaissance",
 				"row": 28,
-				"prerequisites": ["43 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "44 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3799,7 +4157,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "45 TechSlowerEraRenaissance",
 				"row": 29,
-				"prerequisites": ["44 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "45 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3809,7 +4173,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "46 TechSlowerEraRenaissance",
 				"row": 30,
-				"prerequisites": ["45 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "45 TechSlowerEraRenaissance",
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "46 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3819,7 +4190,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "47 TechSlowerEraRenaissance",
 				"row": 31,
-				"prerequisites": ["46 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "46 TechSlowerEraRenaissance",
+				    "45 TechSlowerEraRenaissance",
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "47 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3829,7 +4208,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "48 TechSlowerEraRenaissance",
 				"row": 32,
-				"prerequisites": ["47 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "47 TechSlowerEraRenaissance",
+				    "46 TechSlowerEraRenaissance",
+				    "45 TechSlowerEraRenaissance",
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "48 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3839,7 +4227,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "49 TechSlowerEraRenaissance",
 				"row": 33,
-				"prerequisites": ["48 TechSlowerEraRenaissance"],
+				"prerequisites": [
+				    "48 TechSlowerEraRenaissance",
+				    "47 TechSlowerEraRenaissance",
+				    "46 TechSlowerEraRenaissance",
+				    "45 TechSlowerEraRenaissance",
+				    "44 TechSlowerEraRenaissance",
+				    "43 TechSlowerEraRenaissance",
+				    "42 TechSlowerEraRenaissance",
+				    "41 TechSlowerEraRenaissance",
+				    "40 TechSlowerEraRenaissance",
+				    "40 InhibitorEra Renaissance"
 				"quote": "49 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3944,7 +4342,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "50 TechSlowerEraIndustrial",
 				"row": 24,
-				"prerequisites": ["50 InhibitorEra Industrial"],
+				"prerequisites": [
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "50 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3955,7 +4355,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "51 TechSlowerEraIndustrial",
 				"row": 25,
-				"prerequisites": ["50 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "51 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -3966,7 +4369,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "52 TechSlowerEraIndustrial",
 				"row": 26,
-				"prerequisites": ["51 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "52 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3976,7 +4383,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "53 TechSlowerEraIndustrial",
 				"row": 27,
-				"prerequisites": ["52 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "53 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3986,7 +4398,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "54 TechSlowerEraIndustrial",
 				"row": 28,
-				"prerequisites": ["53 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "54 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -3996,7 +4414,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "55 TechSlowerEraIndustrial",
 				"row": 29,
-				"prerequisites": ["54 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "55 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4006,7 +4431,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "56 TechSlowerEraIndustrial",
 				"row": 30,
-				"prerequisites": ["55 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "55 TechSlowerEraIndustrial",
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "56 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4016,7 +4449,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "57 TechSlowerEraIndustrial",
 				"row": 31,
-				"prerequisites": ["56 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "56 TechSlowerEraIndustrial",
+				    "55 TechSlowerEraIndustrial",
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "57 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4026,7 +4468,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "58 TechSlowerEraIndustrial",
 				"row": 32,
-				"prerequisites": ["57 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "57 TechSlowerEraIndustrial",
+				    "56 TechSlowerEraIndustrial",
+				    "55 TechSlowerEraIndustrial",
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "58 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4036,7 +4488,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "59 TechSlowerEraIndustrial",
 				"row": 33,
-				"prerequisites": ["58 TechSlowerEraIndustrial"],
+				"prerequisites": [
+				    "58 TechSlowerEraIndustrial",
+				    "57 TechSlowerEraIndustrial",
+				    "56 TechSlowerEraIndustrial",
+				    "55 TechSlowerEraIndustrial",
+				    "54 TechSlowerEraIndustrial",
+				    "53 TechSlowerEraIndustrial",
+				    "52 TechSlowerEraIndustrial",
+				    "51 TechSlowerEraIndustrial",
+				    "50 TechSlowerEraIndustrial",
+				    "50 InhibitorEra Industrial"
+				],
 				"quote": "59 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4138,7 +4601,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "60 TechSlowerEraModern",
 				"row": 24,
-				"prerequisites": ["60 InhibitorEra Modern"],
+				"prerequisites": [
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "60 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4149,7 +4614,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "61 TechSlowerEraModern",
 				"row": 25,
-				"prerequisites": ["60 TechSlowerEraModern"],
+				"prerequisites": [
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "61 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4160,7 +4628,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "62 TechSlowerEraModern",
 				"row": 26,
-				"prerequisites": ["61 TechSlowerEraModern"],
+				"prerequisites": [
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "62 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4171,7 +4643,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "63 TechSlowerEraModern",
 				"row": 27,
-				"prerequisites": ["62 TechSlowerEraModern"],
+				"prerequisites": [
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "63 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4182,7 +4659,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "64 TechSlowerEraModern",
 				"row": 28,
-				"prerequisites": ["63 TechSlowerEraModern"],
+				"prerequisites": [
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "64 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4193,7 +4676,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "65 TechSlowerEraModern",
 				"row": 29,
-				"prerequisites": ["64 TechSlowerEraModern"],
+				"prerequisites": [
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "65 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4204,7 +4694,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "66 TechSlowerEraModern",
 				"row": 30,
-				"prerequisites": ["65 TechSlowerEraModern"],
+				"prerequisites": [
+				    "65 TechSlowerEraModern",
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "66 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4215,7 +4713,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "67 TechSlowerEraModern",
 				"row": 31,
-				"prerequisites": ["66 TechSlowerEraModern"],
+				"prerequisites": [
+				    "66 TechSlowerEraModern",
+				    "65 TechSlowerEraModern",
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "67 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4226,7 +4733,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "68 TechSlowerEraModern",
 				"row": 32,
-				"prerequisites": ["67 TechSlowerEraModern"],
+				"prerequisites": [
+				    "67 TechSlowerEraModern",
+				    "66 TechSlowerEraModern",
+				    "65 TechSlowerEraModern",
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "68 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4237,7 +4754,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "69 TechSlowerEraModern",
 				"row": 33,
-				"prerequisites": ["68 TechSlowerEraModern"],
+				"prerequisites": [
+				    "68 TechSlowerEraModern",
+				    "67 TechSlowerEraModern",
+				    "66 TechSlowerEraModern",
+				    "65 TechSlowerEraModern",
+				    "64 TechSlowerEraModern",
+				    "63 TechSlowerEraModern",
+				    "62 TechSlowerEraModern",
+				    "61 TechSlowerEraModern",
+				    "60 TechSlowerEraModern",
+				    "60 InhibitorEra Modern"
+				],
 				"quote": "69 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4322,7 +4850,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "70 TechSlowerEraAtomic",
 				"row": 24,
-				"prerequisites": ["70 InhibitorEra Atomic"],
+				"prerequisites": [
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "70 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4333,7 +4863,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "71 TechSlowerEraAtomic",
 				"row": 25,
-				"prerequisites": ["70 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "71 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4344,7 +4877,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "72 TechSlowerEraAtomic",
 				"row": 26,
-				"prerequisites": ["71 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "72 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4355,7 +4892,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "73 TechSlowerEraAtomic",
 				"row": 27,
-				"prerequisites": ["72 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "73 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4366,7 +4908,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "74 TechSlowerEraAtomic",
 				"row": 28,
-				"prerequisites": ["73 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "74 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4377,7 +4925,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "75 TechSlowerEraAtomic",
 				"row": 29,
-				"prerequisites": ["74 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "75 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4388,7 +4943,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "76 TechSlowerEraAtomic",
 				"row": 30,
-				"prerequisites": ["75 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "75 TechSlowerEraAtomic",
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "76 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4399,7 +4962,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "77 TechSlowerEraAtomic",
 				"row": 31,
-				"prerequisites": ["76 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "76 TechSlowerEraAtomic",
+				    "75 TechSlowerEraAtomic",
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "77 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4410,7 +4982,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "78 TechSlowerEraAtomic",
 				"row": 32,
-				"prerequisites": ["77 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "77 TechSlowerEraAtomic",
+				    "76 TechSlowerEraAtomic",
+				    "75 TechSlowerEraAtomic",
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "78 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4421,7 +5003,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "79 TechSlowerEraAtomic",
 				"row": 33,
-				"prerequisites": ["78 TechSlowerEraAtomic"],
+				"prerequisites": [
+				    "78 TechSlowerEraAtomic",
+				    "77 TechSlowerEraAtomic",
+				    "76 TechSlowerEraAtomic",
+				    "75 TechSlowerEraAtomic",
+				    "74 TechSlowerEraAtomic",
+				    "73 TechSlowerEraAtomic",
+				    "72 TechSlowerEraAtomic",
+				    "71 TechSlowerEraAtomic",
+				    "70 TechSlowerEraAtomic",
+				    "70 InhibitorEra Atomic"
+				],
 				"quote": "79 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
                     "Cannot be hurried",
@@ -4512,7 +5105,9 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "80 TechSlowerEraInformation",
 				"row": 24,
-				"prerequisites": ["80 InhibitorEra Information"],
+				"prerequisites": [
+				    "80 InhibitorEra Information"
+				],
 				"quote": "80 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4523,7 +5118,10 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "81 TechSlowerEraInformation",
 				"row": 25,
-				"prerequisites": ["80 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "81 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4534,7 +5132,11 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "82 TechSlowerEraInformation",
 				"row": 26,
-				"prerequisites": ["81 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "82 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4545,7 +5147,12 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "83 TechSlowerEraInformation",
 				"row": 27,
-				"prerequisites": ["82 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "83 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4556,7 +5163,13 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "84 TechSlowerEraInformation",
 				"row": 28,
-				"prerequisites": ["83 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "84 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4567,7 +5180,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "85 TechSlowerEraInformation",
 				"row": 29,
-				"prerequisites": ["84 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "85 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4578,7 +5198,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "86 TechSlowerEraInformation",
 				"row": 30,
-				"prerequisites": ["85 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "85 TechSlowerEraInformation",
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "86 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4589,7 +5217,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "87 TechSlowerEraInformation",
 				"row": 31,
-				"prerequisites": ["86 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "86 TechSlowerEraInformation",
+				    "85 TechSlowerEraInformation",
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "87 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4600,7 +5237,17 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "88 TechSlowerEraInformation",
 				"row": 32,
-				"prerequisites": ["87 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "87 TechSlowerEraInformation",
+				    "86 TechSlowerEraInformation",
+				    "85 TechSlowerEraInformation",
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "88 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4611,7 +5258,18 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "89 TechSlowerEraInformation",
 				"row": 33,
-				"prerequisites": ["88 TechSlowerEraInformation"],
+				"prerequisites": [
+				    "88 TechSlowerEraInformation",
+				    "87 TechSlowerEraInformation",
+				    "86 TechSlowerEraInformation",
+				    "85 TechSlowerEraInformation",
+				    "84 TechSlowerEraInformation",
+				    "83 TechSlowerEraInformation",
+				    "82 TechSlowerEraInformation",
+				    "81 TechSlowerEraInformation",
+				    "80 TechSlowerEraInformation",
+				    "80 InhibitorEra Information"
+				],
 				"quote": "89 Information Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
