@@ -8186,9 +8186,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake Automate Building] [in this city]>",
-        		"Gain a free [MiniCake Automate CivSpec] [in this city]>",
-        		"Gain a free [MiniCake Automate Wonder] [in this city]>",
+        		"Gain a free [MiniCake Automate Building] [in this city]",
+        		"Gain a free [MiniCake Automate CivSpec] [in this city]",
+        		"Gain a free [MiniCake Automate Wonder] [in this city]",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
