@@ -1072,7 +1072,8 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
 					"Cannot be hurried"
-//					"Only available <before discovering [E1 Agriculture]>"]
+//					"Only available <before discovering [E1 Agriculture]>"
+        ]
 			},
 			{
 				"name": "XX FuturaTech",
