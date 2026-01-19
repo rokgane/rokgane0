@@ -41,7 +41,7 @@
 
 			{//TechHumanDebuff cheat building
 				"name": "TechHumanDebuff",
-				"row": 11,
+				"row": 21,//11,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -49,7 +49,7 @@
 			},
 			{//TechEnemaDebuff cheat building
 				"name": "TechEnemaDebuff",
-				"row": 12,
+				"row": 22,//12,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -57,7 +57,7 @@
 			},
 			{//DaHumanCheat cheat building
 				"name": "TechHumanSwitchGk",
-				"row": 13,
+				"row": 23,//13,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -65,7 +65,7 @@
 			},
 			{//DaEnemaCheat cheat building
 				"name": "TechEnemaSwitchGk",
-				"row": 14,
+				"row": 24,//14,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -74,7 +74,7 @@
 
 			{//xsa//more challenges for AI
 				"name": "Treats AI",
-				"row": 15,
+				"row": 25,//15,
 				"quote": "Cheat tech",
 				"uniques": [
 					"Enables embarkation for land units",
@@ -83,7 +83,7 @@
 			},
 			{//xsa//more challenges for Human
 				"name": "Treats Human",
-				"row": 16,
+				"row": 26,//16,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -92,7 +92,7 @@
 
 			{//TechHumanCheat cheat building
 				"name": "TechHumanCheat",
-				"row": 17,
+				"row": 27,//17,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -100,7 +100,7 @@
 			},
 			{//TechEnemaCheat cheat building
 				"name": "TechEnemaCheat",
-				"row": 18,
+				"row": 28,//18,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -109,7 +109,7 @@
 
 			{//TechParadrop
 				"name": "TechParadrop",
-				"row": 19,
+				"row": 29,//19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -117,7 +117,7 @@
 			},
 			{//TechEnemaCheat cheat building
 				"name": "TechBorderEater",
-				"row": 20,
+				"row": 30,//20,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -126,7 +126,7 @@
 
 			{//xsa//Unlocker
 				"name": "TechUnlocker",
-				"row": 21,
+				"row": 31,//21,
 				"quote": "Cheat tech",
 				"uniques": [
         			"Enables embarkation for land units",
@@ -136,7 +136,7 @@
 			},
 			{//xsa//CrippleReligion
 				"name": "xsaCrippleReligion",
-				"row": 22,
+				"row": 32,//22,
 				"quote": "Cheat tech",
 				"prerequisites": [
 //XSA                    "FutureTech 10"
@@ -148,7 +148,7 @@
 			},
 			{//xsa//reenable diplomacy for AI
             	"name": "Enable AI Diplomacy",
-            	"row": 23,
+            	"row": 33,//23,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -163,7 +163,7 @@
 
 			{
 				"name": "E1 Agriculture",
-				"row": 6,
+				"row": 16,//6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": [
 				    "[-99]% weight to this choice for AI decisions",
@@ -182,27 +182,27 @@
 		"techs": [
 			{
 				"name": "E1 Pottery",
-				"row": 2,
+				"row": 12,//2,
 				"prerequisites": ["E1 Agriculture"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "E1 Animal Husbandry",
-				"row": 5,
+				"row": 15,//5,
 				"prerequisites": ["E1 Agriculture"],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			},
 			{
 				"name": "E1 Archery",
-				"row": 7,
+				"row": 17,//7,
 				"prerequisites": ["E1 Agriculture"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			},
 			{
 				"name": "E1 Mining",
-				"row": 9,
+				"row": 19,//9,
 				"prerequisites": ["E1 Agriculture"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
@@ -219,48 +219,48 @@
 		"techs": [
 			{
 				"name": "E1 Sailing",
-				"row": 1,
+				"row": 11,//1,
 				"prerequisites": ["E1 Pottery"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
 				"name": "E1 Calendar",
-				"row": 2,
+				"row": 12,//2,
 				"prerequisites": ["E1 Pottery"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
 				"name": "E1 Writing",
-				"row": 3,
+				"row": 13,//3,
 				"prerequisites": ["E1 Pottery"],
 //xsa//hated				"uniques": ["Enables establishment of embassies"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
 				"name": "E1 Trapping",
-				"row": 5,
+				"row": 15,//5,
 				"prerequisites": ["E1 Animal Husbandry"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
 				"name": "E1 The Wheel",
-				"row": 7,
+				"row": 17,//7,
 				"prerequisites": ["E1 Animal Husbandry", "E1 Archery"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
 			},
 			{
 				"name": "E1 Masonry",
-				"row": 9,
+				"row": 19,//9,
 				"prerequisites": ["E1 Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			},
 			{
 				"name": "E1 Bronze Working",
-				"row": 10,
+				"row": 20,//10,
 				"prerequisites": ["E1 Mining"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
@@ -277,27 +277,27 @@
 			{
 				"name": "E2 Optics",
 				"cost": 85,
-				"row": 1,
+				"row": 11,//1,
 				"prerequisites": ["E1 Sailing","1X TechSlowerEraAncient"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
 				"name": "E2 Horseback Riding",
-				"row": 5,
+				"row": 15,//5,
 				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechSlowerEraAncient"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "E2 Mathematics",
-				"row": 7,
+				"row": 17,//7,
 				"prerequisites": ["E1 The Wheel","1X TechSlowerEraAncient"],
 				"quote": "'E2 Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "E2 Construction",
-				"row": 9,
+				"row": 19,//9,
 				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechSlowerEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
@@ -313,33 +313,33 @@
 		"techs": [
 			{
 				"name": "E2 Philosophy",
-				"row": 2,
+				"row": 12,//2,
 				"prerequisites": ["E1 Writing","E1 Calendar","1X TechSlowerEraAncient"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "E2 Drama and Poetry",
-				"row": 3,
+				"row": 13,//3,
 				"prerequisites": ["E1 Writing","1X TechSlowerEraAncient"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
 				"name": "E2 Currency",
-				"row": 7,
+				"row": 17,//7,
 				"prerequisites": ["E2 Mathematics","1X TechSlowerEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "E2 Engineering",
-				"row": 8,
+				"row": 18,//8,
 				"prerequisites": ["E2 Mathematics","E2 Construction","1X TechSlowerEraAncient"],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
 				"name": "E2 Iron Working",
-				"row": 10,
+				"row": 20,//10,
 				"prerequisites": ["E1 Bronze Working","1X TechSlowerEraAncient"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
@@ -355,13 +355,13 @@
 		"techs": [
 			{
 				"name": "E3 Theology",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E2 Philosophy", "E2 Drama and Poetry","2X TechSlowerEraClassical"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "E3 Civil Service",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechSlowerEraClassical"],
 				"uniques": [
 //xsa//hated				    "Enables Open Borders agreements",
@@ -370,14 +370,14 @@
 			},
 			{
 				"name": "E3 Guilds",
-				"row": 7,
+				"row": 17,
 				"prerequisites": ["E2 Currency","2X TechSlowerEraClassical"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "E3 Metal Casting",
-				"row": 9,
+				"row": 19,
 				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechSlowerEraClassical"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
@@ -394,14 +394,14 @@
 			{
 				"name": "E3 Compass",
 				"cost": 375,
-				"row": 1,
+				"row": 11,
 				"prerequisites": ["E2 Optics","E3 Theology","2X TechSlowerEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "E3 Education",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechSlowerEraClassical"],
 				"uniques": [
 				    "Enables conversion of city production to [Science]",
@@ -411,27 +411,27 @@
 			},
 			{
 				"name": "E3 Chivalry",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E3 Civil Service","E3 Guilds","2X TechSlowerEraClassical"],
 //xsa//hated				"uniques": ["Enables Defensive Pacts"],
 				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "E3 Machinery",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E3 Guilds","E2 Engineering","2X TechSlowerEraClassical"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "E3 Physics",
-				"row": 9,
+				"row": 19,
 				"prerequisites": ["E3 Metal Casting","2X TechSlowerEraClassical"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
 				"name": "E3 Steel",
-				"row": 10,
+				"row": 120,
 				"prerequisites": ["E3 Metal Casting","2X TechSlowerEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
@@ -447,35 +447,35 @@
 		"techs": [
 			{
 				"name": "E4 Astronomy",
-				"row": 2,
+				"row": 12,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
 				"prerequisites": ["E3 Compass","E3 Education","3X TechSlowerEraMedieval"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
 				"name": "E4 Acoustics",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E3 Education","3X TechSlowerEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "E4 Banking",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E3 Chivalry", "E3 Education","3X TechSlowerEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "E4 Printing Press",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E3 Machinery","E3 Physics","E3 Chivalry","3X TechSlowerEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
 				"name": "E4 Gunpowder",
-				"row": 10,
+				"row": 120,
 				"prerequisites": ["E3 Physics","E3 Steel","3X TechSlowerEraMedieval"],
 				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechSlowerEraMedieval"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
@@ -491,33 +491,33 @@
 		"techs": [
 			{
 				"name": "E4 Navigation",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E4 Astronomy","3X TechSlowerEraMedieval"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
 				"name": "E4 Architecture",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E4 Acoustics","E4 Banking","3X TechSlowerEraMedieval"],
 				"quote": "'E4 Architecture begins where E2 Engineering ends.' - Walter Gropius"
 			},
 			{
 				"name": "E4 Economics",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E4 Banking","E4 Printing Press","3X TechSlowerEraMedieval"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
 				"name": "E4 Metallurgy",
-				"row": 9,
+				"row": 19,
 				"prerequisites": ["E4 Printing Press","E4 Gunpowder","3X TechSlowerEraMedieval"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'There never was a good knife made of bad E3 Steel.' - Benjamin Franklin"
 			},
 			{
 				"name": "E4 Chemistry",
-				"row": 10,
+				"row": 120,
 				"prerequisites": ["E4 Gunpowder","3X TechSlowerEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
@@ -533,41 +533,41 @@
 		"techs": [
 			{
 				"name": "E5 Archaeology",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E4 Navigation","E4 Architecture","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
 				"name": "E5 Scientific Theory",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E4 Architecture","E4 Economics","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
 				"name": "E5 Industrialization",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E4 Economics","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'E5 Industrialization based on E3 Machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
 				"name": "E5 Rifling",
-				"row": 7,
+				"row": 17,
 				"prerequisites": ["E4 Economics","E4 Metallurgy","4X TechSlowerEraRenaissance"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
 				"name": "E5 Military Science",
-				"row": 9,
+				"row": 19,
 				"prerequisites": ["E4 Metallurgy","E4 Chemistry","4X TechSlowerEraRenaissance"],
 				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
 			},
 			{
 				"name": "E5 Fertilizer",
-				"row": 10,
+				"row": 120,
 				"prerequisites": ["E4 Chemistry","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
@@ -584,28 +584,28 @@
 		"techs": [
 			{
 				"name": "E5 Biology",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E5 Archaeology","E5 Scientific Theory","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
 			},
 			{
 				"name": "E5 Electricity",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E5 Scientific Theory","4X TechSlowerEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Is it a fact - or have I dreamt it - that, by means of E5 Electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
 				"name": "E5 Steam Power",
-				"row": 6,
+				"row": 16,
 				"uniques": ["[+1] Movement <for [Embarked] units>","4X TechSlowerEraRenaissance"],
 				"prerequisites": ["E5 Industrialization","E5 Scientific Theory","E5 Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
 				"name": "E5 Dynamite",
-				"row": 9,
+				"row": 19,
 				"prerequisites": ["E5 Fertilizer","E5 Military Science","4X TechSlowerEraRenaissance"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			}
@@ -620,34 +620,34 @@
 		"techs": [
 			{
 				"name": "E6 Refrigeration",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E5 Biology", "E5 Electricity","5X TechSlowerEraIndustrial"], //todo: offshore platform should need this
 				"uniques": ["[-75]% weight to this choice for AI decisions"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "E6 Radio",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E5 Electricity","5X TechSlowerEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The whole country was tied together by E6 Radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
 			},
 			{
 				"name": "E6 Replaceable Parts",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E5 Electricity","E5 Steam Power","5X TechSlowerEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
 				"name": "E6 Flight",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E5 Steam Power","5X TechSlowerEraIndustrial"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "E6 Railroads",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechSlowerEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
@@ -663,26 +663,26 @@
 		"techs": [
 			{
 				"name": "E6 Plastics",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E6 Radio","E6 Replaceable Parts","5X TechSlowerEraIndustrial"],
 				"uniques": ["[+200]% weight to this choice for AI decisions"],
 				"quote": "'Ben, I want to say one word to you, just one word: E6 Plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
 				"name": "E6 Electronics",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["E6 Replaceable Parts", "E6 Flight","5X TechSlowerEraIndustrial"],
 				"quote": "'There's a basic principle about consumer E6 Electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
 				"name": "E6 Ballistics",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E6 Flight","5X TechSlowerEraIndustrial"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
 				"name": "E6 Combustion",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E6 Railroads","5X TechSlowerEraIndustrial"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
@@ -698,27 +698,27 @@
 		"techs": [
 			{
 				"name": "E7 Pharmaceuticals",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E6 Plastics","E6 Refrigeration","6X TechSlowerEraModern"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
 				"name": "E7 Atomic Theory",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E6 Plastics","E6 Electronics","6X TechSlowerEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
 				"name": "E7 Radar",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E6 Ballistics","E6 Electronics","6X TechSlowerEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "E7 Combined Arms",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechSlowerEraModern"],
 				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
@@ -733,26 +733,26 @@
 		"techs": [
 			{
 				"name": "E7 Ecology",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E7 Atomic Theory","E7 Pharmaceuticals","6X TechSlowerEraModern"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
 				"name": "E7 Nuclear Fission",
-				"row": 4,
+				"row": 14,
 				"prerequisites": ["E7 Atomic Theory","E7 Radar","6X TechSlowerEraModern"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
 				"name": "E7 Rocketry",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E7 Radar","6X TechSlowerEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
 				"name": "E7 Computers",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E7 Combined Arms","E7 Radar","6X TechSlowerEraModern"],
 				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
@@ -767,45 +767,44 @@
 		"techs": [
 			{
 				"name": "E8 Telecommunications",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E7 Ecology","7X TechSlowerEraAtomic"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "E8 Mobile Tactics",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E7 Ecology","E7 Nuclear Fission","7X TechSlowerEraAtomic"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
 				"name": "E8 Advanced Ballistics",
-				"row": 5,
+				"row": 15,
 				"prerequisites": ["E7 Nuclear Fission","E7 Rocketry","7X TechSlowerEraAtomic"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
 			{
 				"name": "E8 Satellites",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E7 Rocketry","7X TechSlowerEraAtomic"],
 				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
 			{
 				"name": "E8 Robotics",
-				"row": 7,
+				"row": 17,
 				"prerequisites": ["E7 Rocketry","E7 Computers","7X TechSlowerEraAtomic"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "E8 Lasers",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E7 Computers","7X TechSlowerEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
 		]
 	},
-
 	{
 		"columnNumber": 30,//xtc30
 		"era": "Information era",
@@ -815,33 +814,33 @@
 		"techs": [
 			{
 				"name": "E8 Globalization",
-				"row": 2,
+				"row": 12,
 				"prerequisites": ["E8 Telecommunications","7X TechSlowerEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
 				"name": "E8 Particle Physics",
-				"row": 3,
+				"row": 13,
 				"prerequisites": ["E8 Telecommunications","E8 Mobile Tactics","E8 Advanced Ballistics","7X TechSlowerEraAtomic"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
 				"name": "E8 Nuclear Fusion",
-				"row": 6,
+				"row": 16,
 				"prerequisites": ["E8 Advanced Ballistics", "E8 Satellites", "E8 Robotics","7X TechSlowerEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
 			{
 				"name": "E8 Nanotechnology",
-				"row": 7,
+				"row": 17,
 				"prerequisites": ["E8 Robotics","7X TechSlowerEraAtomic"],
 				"quote": "'The impact of E8 Nanotechnology is expected to exceed the impact that the E6 Electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
 				"name": "E8 Stealth",
-				"row": 8,
+				"row": 18,
 				"prerequisites": ["E8 Robotics", "E8 Lasers","7X TechSlowerEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
@@ -857,7 +856,7 @@
 		"techs": [
 			{
 				"name": "Era9UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -867,7 +866,7 @@
 			},
 			{
 				"name": "Era9UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -877,7 +876,7 @@
 			},
 			{
 				"name": "11 FutureTech",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["1X FutureTech"],
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -891,7 +890,7 @@
 			},
 			{
 				"name": "E9 Future Tech",
-				"row": 5,
+				"row": 15,
 				"prerequisites": [
 					"1X FutureTech", //xsa//added
 
@@ -929,7 +928,7 @@
 		"techs": [
 			{
 				"name": "1X TechSlowerEraAncient",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["19 TechSlowerEraAncient"],
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -939,7 +938,7 @@
 			},
 			{
 				"name": "Era1UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -949,7 +948,7 @@
 			},
 			{
 				"name": "Era1UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -968,7 +967,7 @@
 		"techs": [
 			{
 				"name": "2X TechSlowerEraClassical",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["29 TechSlowerEraClassical"],
 				"quote": "2X Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -978,7 +977,7 @@
 			},
 			{
 				"name": "Era2UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -988,7 +987,7 @@
 			},
 			{
 				"name": "Era2UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1007,7 +1006,7 @@
 		"techs": [
 			{
 				"name": "3X TechSlowerEraMedieval",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["39 TechSlowerEraMedieval"],
 				"quote": "3X Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1017,7 +1016,7 @@
 			},
 			{
 				"name": "Era3UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1027,7 +1026,7 @@
 			},
 			{
 				"name": "Era3UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1046,7 +1045,7 @@
 		"techs": [
 			{
 				"name": "4X TechSlowerEraRenaissance",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["49 TechSlowerEraRenaissance"],
 				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1056,7 +1055,7 @@
 			},
 			{
 				"name": "Era4UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1066,7 +1065,7 @@
 			},
 			{
 				"name": "Era4UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1085,7 +1084,7 @@
 		"techs": [
 			{
 				"name": "5X TechSlowerEraIndustrial",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["59 TechSlowerEraIndustrial"],
 				"quote": "5X Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1095,7 +1094,7 @@
 			},
 			{
 				"name": "Era5UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1105,7 +1104,7 @@
 			},
 			{
 				"name": "Era5UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1124,7 +1123,7 @@
 		"techs": [
 			{
 				"name": "6X TechSlowerEraModern",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["69 TechSlowerEraModern"],
 				"quote": "6X Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1134,7 +1133,7 @@
 			},
 			{
 				"name": "Era6UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1144,7 +1143,7 @@
 			},
 			{
 				"name": "Era6UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1163,7 +1162,7 @@
 		"techs": [
 			{
 				"name": "7X TechSlowerEraAtomic",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["79 TechSlowerEraAtomic"],
 				"quote": "7X Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1173,7 +1172,7 @@
 			},
 			{
 				"name": "Era7UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1183,7 +1182,7 @@
 			},
 			{
 				"name": "Era7UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1202,7 +1201,7 @@
 		"techs": [
 			{
 				"name": "8X TechSlowerEraInformation",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["89 TechSlowerEraInformation"],
 				"quote": "8X Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1212,7 +1211,7 @@
 			},
 			{
 				"name": "Era8UnlockHuman",
-				"row": 22,
+				"row": 32,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1222,7 +1221,7 @@
 			},
 			{
 				"name": "Era8UnlockEnema",
-				"row": 23,
+				"row": 33,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -1244,7 +1243,7 @@
 
 			{
 				"name": "1X FutureTech",
-				"row": 13,
+				"row": 23,
 				"prerequisites": ["10 FutureTech"],
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -1270,7 +1269,7 @@
 		"techs": [
 		    {
 				"name": "00 FutureTech",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"8X TechSlowerEraInformation", //xsa//added
 
@@ -1292,7 +1291,7 @@
 			},
 			{
 				"name": "01 FutureTech",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["00 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1305,7 +1304,7 @@
 			},
 			{
 				"name": "02 FutureTech",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["01 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1318,7 +1317,7 @@
 			},
 			{
 				"name": "03 FutureTech",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["02 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1331,7 +1330,7 @@
 			},
 			{
 				"name": "04 FutureTech",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["03 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1344,7 +1343,7 @@
 			},
 			{
 				"name": "05 FutureTech",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["04 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1357,7 +1356,7 @@
 			},
 			{
 				"name": "06 FutureTech",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["05 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1370,7 +1369,7 @@
 			},
 			{
 				"name": "07 FutureTech",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["06 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1383,7 +1382,7 @@
 			},
 			{
 				"name": "08 FutureTech",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["07 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1396,7 +1395,7 @@
 			},
 			{
 				"name": "09 FutureTech",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["08 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1409,7 +1408,7 @@
 			},
 			{
 				"name": "10 FutureTech",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["09 FutureTech"],
 				"uniques": [
 				    "Cannot be hurried",
@@ -1435,7 +1434,7 @@
 
 			{
 				"name": "10 InhibitorEra Ancient",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E1 Pottery",
 					"E1 Animal Husbandry",
@@ -1473,7 +1472,7 @@
 			},
 			{
 				"name": "10 TechSlowerEraAncient",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["10 InhibitorEra Ancient"],
 				"quote": "10 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1484,7 +1483,7 @@
 			},
 			{
 				"name": "11 TechSlowerEraAncient",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["10 TechSlowerEraAncient"],
 				"quote": "11 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1495,7 +1494,7 @@
 			},
 			{
 				"name": "12 TechSlowerEraAncient",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["11 TechSlowerEraAncient"],
 				"quote": "12 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1506,7 +1505,7 @@
 			},
 			{
 				"name": "13 TechSlowerEraAncient",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["12 TechSlowerEraAncient"],
 				"quote": "13 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1517,7 +1516,7 @@
 			},
 			{
 				"name": "14 TechSlowerEraAncient",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["13 TechSlowerEraAncient"],
 				"quote": "14 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1528,7 +1527,7 @@
 			},
 			{
 				"name": "15 TechSlowerEraAncient",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["14 TechSlowerEraAncient"],
 				"quote": "15 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1539,7 +1538,7 @@
 			},
 			{
 				"name": "16 TechSlowerEraAncient",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["15 TechSlowerEraAncient"],
 				"quote": "16 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1550,7 +1549,7 @@
 			},
 			{
 				"name": "17 TechSlowerEraAncient",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["16 TechSlowerEraAncient"],
 				"quote": "17 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1561,7 +1560,7 @@
 			},
 			{
 				"name": "18 TechSlowerEraAncient",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["17 TechSlowerEraAncient"],
 				"quote": "18 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1572,7 +1571,7 @@
 			},
 			{
 				"name": "19 TechSlowerEraAncient",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["18 TechSlowerEraAncient"],
 				"quote": "19 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1593,7 +1592,7 @@
 
 			{
 				"name": "20 InhibitorEra Classical",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E2 Optics",
 					"E2 Horseback Riding",
@@ -1628,7 +1627,7 @@
 			},
 			{
 				"name": "20 TechSlowerEraClassical",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["20 InhibitorEra Classical"],
 				"quote": "20 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1639,7 +1638,7 @@
 			},
 			{
 				"name": "21 TechSlowerEraClassical",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["20 TechSlowerEraClassical"],
 				"quote": "21 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1650,7 +1649,7 @@
 			},
 			{
 				"name": "22 TechSlowerEraClassical",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["21 TechSlowerEraClassical"],
 				"quote": "22 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1661,7 +1660,7 @@
 			},
 			{
 				"name": "23 TechSlowerEraClassical",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["22 TechSlowerEraClassical"],
 				"quote": "23 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1672,7 +1671,7 @@
 			},
 			{
 				"name": "24 TechSlowerEraClassical",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["23 TechSlowerEraClassical"],
 				"quote": "24 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1683,7 +1682,7 @@
 			},
 			{
 				"name": "25 TechSlowerEraClassical",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["24 TechSlowerEraClassical"],
 				"quote": "25 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1694,7 +1693,7 @@
 			},
 			{
 				"name": "26 TechSlowerEraClassical",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["25 TechSlowerEraClassical"],
 				"quote": "26 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1705,7 +1704,7 @@
 			},
 			{
 				"name": "27 TechSlowerEraClassical",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["26 TechSlowerEraClassical"],
 				"quote": "27 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1716,7 +1715,7 @@
 			},
 			{
 				"name": "28 TechSlowerEraClassical",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["27 TechSlowerEraClassical"],
 				"quote": "28 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1727,7 +1726,7 @@
 			},
 			{
 				"name": "29 TechSlowerEraClassical",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["28 TechSlowerEraClassical"],
 				"quote": "29 Classical Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1749,7 +1748,7 @@
 
 			{
 				"name": "30 InhibitorEra Medieval",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E3 Theology",
 					"E3 Civil Service",
@@ -1786,7 +1785,7 @@
 			},
 			{
 				"name": "30 TechSlowerEraMedieval",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["30 InhibitorEra Medieval"],
 				"quote": "30 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1797,7 +1796,7 @@
 			},
 			{
 				"name": "31 TechSlowerEraMedieval",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["30 TechSlowerEraMedieval"],
 				"quote": "31 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1808,7 +1807,7 @@
 			},
 			{
 				"name": "32 TechSlowerEraMedieval",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["31 TechSlowerEraMedieval"],
 				"quote": "32 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1819,7 +1818,7 @@
 			},
 			{
 				"name": "33 TechSlowerEraMedieval",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["32 TechSlowerEraMedieval"],
 				"quote": "33 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1830,7 +1829,7 @@
 			},
 			{
 				"name": "34 TechSlowerEraMedieval",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["33 TechSlowerEraMedieval"],
 				"quote": "34 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1841,7 +1840,7 @@
 			},
 			{
 				"name": "35 TechSlowerEraMedieval",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["34 TechSlowerEraMedieval"],
 				"quote": "35 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1852,7 +1851,7 @@
 			},
 			{
 				"name": "36 TechSlowerEraMedieval",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["35 TechSlowerEraMedieval"],
 				"quote": "36 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1863,7 +1862,7 @@
 			},
 			{
 				"name": "37 TechSlowerEraMedieval",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["36 TechSlowerEraMedieval"],
 				"quote": "37 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1874,7 +1873,7 @@
 			},
 			{
 				"name": "38 TechSlowerEraMedieval",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["37 TechSlowerEraMedieval"],
 				"quote": "38 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1885,7 +1884,7 @@
 			},
 			{
 				"name": "39 TechSlowerEraMedieval",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["38 TechSlowerEraMedieval"],
 				"quote": "39 Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1905,7 +1904,7 @@
 		"techs": [
 			{
 				"name": "40 InhibitorEra Renaissance",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E4 Astronomy",
 					"E4 Acoustics",
@@ -1942,7 +1941,7 @@
 			},
 			{
 				"name": "40 TechSlowerEraRenaissance",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["40 InhibitorEra Renaissance"],
 				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1953,7 +1952,7 @@
 			},
 			{
 				"name": "41 TechSlowerEraRenaissance",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["40 TechSlowerEraRenaissance"],
 				"quote": "41 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1963,7 +1962,7 @@
 			},
 			{
 				"name": "42 TechSlowerEraRenaissance",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["41 TechSlowerEraRenaissance"],
 				"quote": "42 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1973,7 +1972,7 @@
 			},
 			{
 				"name": "43 TechSlowerEraRenaissance",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["42 TechSlowerEraRenaissance"],
 				"quote": "43 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1983,7 +1982,7 @@
 			},
 			{
 				"name": "44 TechSlowerEraRenaissance",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["43 TechSlowerEraRenaissance"],
 				"quote": "44 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1993,7 +1992,7 @@
 			},
 			{
 				"name": "45 TechSlowerEraRenaissance",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["44 TechSlowerEraRenaissance"],
 				"quote": "45 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2003,7 +2002,7 @@
 			},
 			{
 				"name": "46 TechSlowerEraRenaissance",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["45 TechSlowerEraRenaissance"],
 				"quote": "46 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2013,7 +2012,7 @@
 			},
 			{
 				"name": "47 TechSlowerEraRenaissance",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["46 TechSlowerEraRenaissance"],
 				"quote": "47 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2023,7 +2022,7 @@
 			},
 			{
 				"name": "48 TechSlowerEraRenaissance",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["47 TechSlowerEraRenaissance"],
 				"quote": "48 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2033,7 +2032,7 @@
 			},
 			{
 				"name": "49 TechSlowerEraRenaissance",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["48 TechSlowerEraRenaissance"],
 				"quote": "49 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2052,20 +2051,20 @@
 		"techs": [
 		    {
             	"name": "DNS Tech Landships",
-            	"row": 11,
+            	"row": 21,
             	"prerequisites": ["E5 Steam Power"],
             	"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
             },
             {
             	"name": "DNS Tech Airships",
-            	"row": 12,
+            	"row": 22,
             	"prerequisites": ["E5 Steam Power"],
             	"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
             },
 
 			{
 				"name": "50 InhibitorEra Industrial",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E5 Archaeology",
 					"E5 Scientific Theory",
@@ -2108,7 +2107,7 @@
 			},
 			{
 				"name": "50 TechSlowerEraIndustrial",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["50 InhibitorEra Industrial"],
 				"quote": "50 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2119,7 +2118,7 @@
 			},
 			{
 				"name": "51 TechSlowerEraIndustrial",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["50 TechSlowerEraIndustrial"],
 				"quote": "51 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2130,7 +2129,7 @@
 			},
 			{
 				"name": "52 TechSlowerEraIndustrial",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["51 TechSlowerEraIndustrial"],
 				"quote": "52 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2140,7 +2139,7 @@
 			},
 			{
 				"name": "53 TechSlowerEraIndustrial",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["52 TechSlowerEraIndustrial"],
 				"quote": "53 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2150,7 +2149,7 @@
 			},
 			{
 				"name": "54 TechSlowerEraIndustrial",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["53 TechSlowerEraIndustrial"],
 				"quote": "54 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2160,7 +2159,7 @@
 			},
 			{
 				"name": "55 TechSlowerEraIndustrial",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["54 TechSlowerEraIndustrial"],
 				"quote": "55 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2170,7 +2169,7 @@
 			},
 			{
 				"name": "56 TechSlowerEraIndustrial",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["55 TechSlowerEraIndustrial"],
 				"quote": "56 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2180,7 +2179,7 @@
 			},
 			{
 				"name": "57 TechSlowerEraIndustrial",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["56 TechSlowerEraIndustrial"],
 				"quote": "57 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2190,7 +2189,7 @@
 			},
 			{
 				"name": "58 TechSlowerEraIndustrial",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["57 TechSlowerEraIndustrial"],
 				"quote": "58 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2200,7 +2199,7 @@
 			},
 			{
 				"name": "59 TechSlowerEraIndustrial",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["58 TechSlowerEraIndustrial"],
 				"quote": "59 Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2219,19 +2218,19 @@
 		"techs": [
             {
             	"name": "DNS Tech Land Leviathan",
-            	"row": 11,
+            	"row": 21,
             	"prerequisites": ["DNS Tech Landships"],
             	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
             },
             {
             	"name": "DNS Tech Sky Fortress",
-            	"row": 12,
+            	"row": 22,
             	"prerequisites": ["DNS Tech Airships"],
             	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
             },
 			{
 				"name": "60 InhibitorEra Modern",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E6 Refrigeration",
 					"E6 Radio",
@@ -2272,7 +2271,7 @@
 			},
 			{
 				"name": "60 TechSlowerEraModern",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["60 InhibitorEra Modern"],
 				"quote": "60 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2283,7 +2282,7 @@
 			},
 			{
 				"name": "61 TechSlowerEraModern",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["60 TechSlowerEraModern"],
 				"quote": "61 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2294,7 +2293,7 @@
 			},
 			{
 				"name": "62 TechSlowerEraModern",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["61 TechSlowerEraModern"],
 				"quote": "62 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2305,7 +2304,7 @@
 			},
 			{
 				"name": "63 TechSlowerEraModern",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["62 TechSlowerEraModern"],
 				"quote": "63 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2316,7 +2315,7 @@
 			},
 			{
 				"name": "64 TechSlowerEraModern",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["63 TechSlowerEraModern"],
 				"quote": "64 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2327,7 +2326,7 @@
 			},
 			{
 				"name": "65 TechSlowerEraModern",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["64 TechSlowerEraModern"],
 				"quote": "65 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2338,7 +2337,7 @@
 			},
 			{
 				"name": "66 TechSlowerEraModern",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["65 TechSlowerEraModern"],
 				"quote": "66 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2349,7 +2348,7 @@
 			},
 			{
 				"name": "67 TechSlowerEraModern",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["66 TechSlowerEraModern"],
 				"quote": "67 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2360,7 +2359,7 @@
 			},
 			{
 				"name": "68 TechSlowerEraModern",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["67 TechSlowerEraModern"],
 				"quote": "68 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2371,7 +2370,7 @@
 			},
 			{
 				"name": "69 TechSlowerEraModern",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["68 TechSlowerEraModern"],
 				"quote": "69 Modern Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2392,7 +2391,7 @@
 
 			{
 				"name": "70 InhibitorEra Atomic",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E7 Pharmaceuticals",
 					"E7 Atomic Theory",
@@ -2426,7 +2425,7 @@
 			},
 			{
 				"name": "70 TechSlowerEraAtomic",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["70 InhibitorEra Atomic"],
 				"quote": "70 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2437,7 +2436,7 @@
 			},
 			{
 				"name": "71 TechSlowerEraAtomic",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["70 TechSlowerEraAtomic"],
 				"quote": "71 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2448,7 +2447,7 @@
 			},
 			{
 				"name": "72 TechSlowerEraAtomic",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["71 TechSlowerEraAtomic"],
 				"quote": "72 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2459,7 +2458,7 @@
 			},
 			{
 				"name": "73 TechSlowerEraAtomic",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["72 TechSlowerEraAtomic"],
 				"quote": "73 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2470,7 +2469,7 @@
 			},
 			{
 				"name": "74 TechSlowerEraAtomic",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["73 TechSlowerEraAtomic"],
 				"quote": "74 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2481,7 +2480,7 @@
 			},
 			{
 				"name": "75 TechSlowerEraAtomic",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["74 TechSlowerEraAtomic"],
 				"quote": "75 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2492,7 +2491,7 @@
 			},
 			{
 				"name": "76 TechSlowerEraAtomic",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["75 TechSlowerEraAtomic"],
 				"quote": "76 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2503,7 +2502,7 @@
 			},
 			{
 				"name": "77 TechSlowerEraAtomic",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["76 TechSlowerEraAtomic"],
 				"quote": "77 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2514,7 +2513,7 @@
 			},
 			{
 				"name": "78 TechSlowerEraAtomic",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["77 TechSlowerEraAtomic"],
 				"quote": "78 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2525,7 +2524,7 @@
 			},
 			{
 				"name": "79 TechSlowerEraAtomic",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["78 TechSlowerEraAtomic"],
 				"quote": "79 Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2545,7 +2544,7 @@
 		"techs": [
 			{
 				"name": "80 InhibitorEra Information",
-				"row": 13,
+				"row": 23,
 				"prerequisites": [
 					"E8 Telecommunications",
 					"E8 Mobile Tactics",
@@ -2586,7 +2585,7 @@
 
 			{
 				"name": "80 TechSlowerEraInformation",
-				"row": 14,
+				"row": 24,
 				"prerequisites": ["80 InhibitorEra Information"],
 				"quote": "80 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2597,7 +2596,7 @@
 			},
 			{
 				"name": "81 TechSlowerEraInformation",
-				"row": 15,
+				"row": 25,
 				"prerequisites": ["80 TechSlowerEraInformation"],
 				"quote": "81 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2608,7 +2607,7 @@
 			},
 			{
 				"name": "82 TechSlowerEraInformation",
-				"row": 16,
+				"row": 26,
 				"prerequisites": ["81 TechSlowerEraInformation"],
 				"quote": "82 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2619,7 +2618,7 @@
 			},
 			{
 				"name": "83 TechSlowerEraInformation",
-				"row": 17,
+				"row": 27,
 				"prerequisites": ["82 TechSlowerEraInformation"],
 				"quote": "83 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2630,7 +2629,7 @@
 			},
 			{
 				"name": "84 TechSlowerEraInformation",
-				"row": 18,
+				"row": 28,
 				"prerequisites": ["83 TechSlowerEraInformation"],
 				"quote": "84 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2641,7 +2640,7 @@
 			},
 			{
 				"name": "85 TechSlowerEraInformation",
-				"row": 19,
+				"row": 29,
 				"prerequisites": ["84 TechSlowerEraInformation"],
 				"quote": "85 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2652,7 +2651,7 @@
 			},
 			{
 				"name": "86 TechSlowerEraInformation",
-				"row": 20,
+				"row": 30,
 				"prerequisites": ["85 TechSlowerEraInformation"],
 				"quote": "86 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2663,7 +2662,7 @@
 			},
 			{
 				"name": "87 TechSlowerEraInformation",
-				"row": 21,
+				"row": 31,
 				"prerequisites": ["86 TechSlowerEraInformation"],
 				"quote": "87 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2674,7 +2673,7 @@
 			},
 			{
 				"name": "88 TechSlowerEraInformation",
-				"row": 22,
+				"row": 32,
 				"prerequisites": ["87 TechSlowerEraInformation"],
 				"quote": "88 Information Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -2685,7 +2684,7 @@
 			},
 			{
 				"name": "89 TechSlowerEraInformation",
-				"row": 23,
+				"row": 33,
 				"prerequisites": ["88 TechSlowerEraInformation"],
 				"quote": "89 Information Tech Slower, slower tech upgrades",
 				"uniques": [
