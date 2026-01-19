@@ -2838,6 +2838,7 @@ UnlockInhibitorEra
 			{//xsa//KosongZero0011
 				"name": "KosongZero0011",
 				"row": 40,
+				"prerequisites": ["KosongZero0010"],
 				"quote": "'0011 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -2949,6 +2950,7 @@ UnlockInhibitorEra
 			{//xsa//KosongZero0021
 				"name": "KosongZero0021",
 				"row": 30,
+				"prerequisites": ["KosongZero0020"],
 				"quote": "'0021 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3060,6 +3062,7 @@ UnlockInhibitorEra
 			{//xsa//KosongZero0031
 				"name": "KosongZero0031",
 				"row": 20,
+				"prerequisites": ["KosongZero0030"],
 				"quote": "'0031 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3171,6 +3174,7 @@ UnlockInhibitorEra
 			{//xsa//KosongZero0041
 				"name": "KosongZero0041",
 				"row": 10,
+				"prerequisites": ["KosongZero0040"],
 				"quote": "'0041 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"

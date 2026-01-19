@@ -56,8 +56,8 @@ added scout xp
     	"Discover [TechHumanCheat] <upon turn end> <for [Human player] Civilizations> <if [Minicake HumanCheat] is constructed by anybody>",
     	"Discover [TechEnemaCheat] <upon turn end> <for [AI player] Civilizations> <if [Minicake EnemaCheat] is constructed by anybody>",
 
-    	"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech Debuff] is constructed by anybody>",
-    	"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech Debuff] is constructed by anybody>",
+    	"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
+    	"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
 
 
 

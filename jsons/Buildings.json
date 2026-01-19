@@ -6842,7 +6842,7 @@
 
 
 	{
-		"name": "Minicake Tech Debuff",
+		"name": "Minicake Tech SlowingDebuff",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
