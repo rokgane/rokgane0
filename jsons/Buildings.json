@@ -8180,7 +8180,7 @@
 
 
 	{
-		"name": "MiniCake Automate Building",
+		"name": "MiniCake Automate Main",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
