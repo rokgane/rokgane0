@@ -562,7 +562,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero2001
 				"name": "KosongZero2001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero1000"],
 				"quote": "'2001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -866,7 +866,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero3001
 				"name": "KosongZero3001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero2000"],
 				"quote": "'3001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -1183,7 +1183,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero4001
 				"name": "KosongZero4001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero3000"],
 				"quote": "'4001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -1494,7 +1494,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero5001
 				"name": "KosongZero5001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero4000"],
 				"quote": "'5001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -1806,7 +1806,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero6001
 				"name": "KosongZero6001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero5000"],
 				"quote": "'6001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -2109,7 +2109,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero7001
 				"name": "KosongZero7001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero6000"],
 				"quote": "'7001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -2403,7 +2403,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZero8001
 				"name": "KosongZero8001",
 				"row": 36,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero7000"],
 				"quote": "'8001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Cannot be hurried",
@@ -3107,7 +3107,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era9UnlockHuman",
-				"row": 32,
+				"row": 34,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -3117,7 +3117,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era9UnlockEnema",
-				"row": 33,
+				"row": 35,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -3128,7 +3128,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero9000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero8000"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3319,7 +3319,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero1000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero1020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3504,7 +3504,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero2000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero2020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3692,7 +3692,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero3000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero3020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -3869,7 +3869,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero4000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero4020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -4066,7 +4066,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero5000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero5020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -4268,7 +4268,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero6000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero6020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -4452,7 +4452,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero7000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero7020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -4642,7 +4642,7 @@ Mixed   techgk   techgk   slower   slower
 			{//xsa//KosongZeroNull
 				"name": "KosongZero8000",
 				"row": 36,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero8020"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -4783,6 +4783,8 @@ E9 Future Tech
 
 
 */
+
+
 
 
 
