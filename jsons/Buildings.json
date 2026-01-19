@@ -6400,7 +6400,8 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
 
-    			"Discover [KosongZeroNull]",//<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+    			"Discover [KosongZeroNull]<before discovering [KosongZeroNull]>",//<for [AI player] Civilizations>",
+    			"Discover [KosongZero0000]<before discovering [KosongZero0000]>",// <for [AI player] Civilizations>",
 
 				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
