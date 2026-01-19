@@ -6045,7 +6045,7 @@
 
 	{
 		"name": "MiniCake Spawn Revealer",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6068,7 +6068,7 @@
 
 	{
 		"name": "MiniCake Spawn Observar",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6089,81 +6089,8 @@
 	},
 
 	{
-		"name": "MiniCake TestSelf Suicide",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Sell [MiniCake TestSelf Suicide] buildings [in this city]",
-
-				"[1] free [TestBallo90] units appear", 
-				"[1] free [TestBallo91] units appear", 
-				"[1] free [TestBallo92] units appear", 
-//				"[1] free [DNS Khan] units appear", 
-
-				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "MiniCake TestUnit status kill",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Sell [MiniCake TestUnit status kill] buildings [in this city]",
-
-				"[1] free [TestBallo93] units appear", 
-				"[1] free [TestBallo94] units appear", 
-				"[1] free [TestBallo95] units appear", 
-//				"[1] free [DNS Khan] units appear", 
-
-				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake TestUnit SelfHurt",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Sell [MiniCake TestUnit SelfHurt] buildings [in this city]",
-
-				"[1] free [TestBallo96] units appear", 
-				"[1] free [TestBallo97] units appear", 
-//				"[1] free [DNS Khan] units appear", 
-
-				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
 		"name": "MiniCake TestUnit spawn workerLand",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6186,7 +6113,7 @@
 	},
 	{
 		"name": "MiniCake TestUnit spawn workerBoat",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6209,7 +6136,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Checkeri",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6237,7 +6164,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Missile",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6262,7 +6189,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Air",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6290,7 +6217,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Navy",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6315,7 +6242,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Land",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6341,7 +6268,7 @@
 
 	{
 		"name": "MiniCake Spawn Fleet Civilian",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6368,7 +6295,7 @@
 	},
 	{
 		"name": "MiniCake Spawn NukA Missile",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6391,7 +6318,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Great People",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6446,22 +6373,36 @@
 
 
 
-
-
-
 	{
-		"name": "MiniCake TrialTown",
+		"name": "MiniCake Experiment",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake Cities]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
-		    	"[Civilian] units gain the [TrialStatus] promotion",
-		    	"[Military] units gain the [TrialStatus] promotion",
+	{
+		"name": "MiniCake Test Research",
+		"requiredBuilding": "MiniCake Experiment",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
 
-				"Limited to [3] per Civilization <hidden from users>",
+    			"Discover [KosongZeroNull]",//<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+
+				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -6470,6 +6411,103 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},	
+
+	{
+		"name": "MiniCake TrialStatus",
+		"requiredBuilding": "MiniCake Experiment",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
+
+		    	"[Civilian] units gain the [TrialStatus] promotion",
+		    	"[Military] units gain the [TrialStatus] promotion",
+
+				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},	
+
+	{
+		"name": "MiniCake TestSelf Suicide",
+		"requiredBuilding": "MiniCake Experiment",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake TestSelf Suicide] buildings [in this city]",
+
+				"[1] free [TestBallo90] units appear", 
+				"[1] free [TestBallo91] units appear", 
+				"[1] free [TestBallo92] units appear", 
+//				"[1] free [DNS Khan] units appear", 
+
+				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake TestUnit status kill",
+		"requiredBuilding": "MiniCake Experiment",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake TestUnit status kill] buildings [in this city]",
+
+				"[1] free [TestBallo93] units appear", 
+				"[1] free [TestBallo94] units appear", 
+				"[1] free [TestBallo95] units appear", 
+//				"[1] free [DNS Khan] units appear", 
+
+				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake TestUnit SelfHurt",
+		"requiredBuilding": "MiniCake Experiment",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake TestUnit SelfHurt] buildings [in this city]",
+
+				"[1] free [TestBallo96] units appear", 
+				"[1] free [TestBallo97] units appear", 
+//				"[1] free [DNS Khan] units appear", 
+
+				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
 
 
 
