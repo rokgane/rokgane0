@@ -4093,6 +4093,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 24,
 				"prerequisites": [
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
@@ -4106,6 +4107,7 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": [
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "41 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4119,6 +4121,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "42 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4133,6 +4136,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "43 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4148,6 +4152,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "44 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4164,6 +4169,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "45 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4181,6 +4187,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "46 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4199,6 +4206,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "47 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4218,6 +4226,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "48 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -4238,6 +4247,7 @@ Mixed   techgk   techgk   slower   slower
 				    "41 TechSlowerEraRenaissance",
 				    "40 TechSlowerEraRenaissance",
 				    "40 InhibitorEra Renaissance"
+				],
 				"quote": "49 Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
