@@ -37,7 +37,25 @@
 		"techs": [
 
 
-			{//TechHumanCheat cheat building
+
+
+			{//TechHumanDebuff cheat building
+				"name": "TechHumanDebuff",
+				"row": 11,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions"
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//TechEnemaDebuff cheat building
+				"name": "TechEnemaDebuff",
+				"row": 12,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions"
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//DaHumanCheat cheat building
 				"name": "TechHumanSwitchGk",
 				"row": 13,
 				"quote": "Cheat tech",
@@ -45,7 +63,7 @@
 					"[-99]% weight to this choice for AI decisions"
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
-			{//TechEnemaCheat cheat building
+			{//DaEnemaCheat cheat building
 				"name": "TechEnemaSwitchGk",
 				"row": 14,
 				"quote": "Cheat tech",

@@ -6721,7 +6721,7 @@
 
 
 	{
-		"name": "TechHumanCheat",
+		"name": "DaHumanCheat",
 //		"requiredBuilding": "MiniCake DNS Vault Tech",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -6761,7 +6761,7 @@
 	},
 
 	{
-		"name": "EnemaCheat",
+		"name": "DaEnemaCheat",
 //		"requiredBuilding": "MiniCake DNS Vault Tech",
 		"cost": 10,
 		"hurryCostModifier": 1,
@@ -6800,6 +6800,517 @@
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "TechEnemaCheat"
+	},
+
+
+	{
+		"name": "Minicake Tech Debuff",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "Human Tech Debuff Activated",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+    	    	"Only available <in cities with a [E0 Palace]> <hidden from users>",
+    			"Gain a free [Minicake Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
+    			"Gain a free [Minicake Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
+    			"Gain a free [Minicake Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
+    			"Gain a free [Minicake Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
+    			"Gain a free [Minicake Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
+    			"Gain a free [Minicake Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
+    			"Gain a free [Minicake Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
+    			"Gain a free [Minicake Tech Debuff E8 Information] [in this city] <during the [Information era]>",
+    			"Gain a free [Minicake Tech Debuff E9 Future] [in this city] <during the [Future era]>",
+    
+    			"Automatically built in all cities where it is buildable",
+    			"Only available <after discovering [TechHumanDebuff]><for [AI player] Civilizations>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+
+
+	{
+		"name": "Human Tech Debuff E1 Ancient",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E2 Classical",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E3 Medieval",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E4 Renaissance",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E5 Industrial",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E6 Modern",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E7 Atomic",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E8 Information",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+	{
+		"name": "Human Tech Debuff E9 Future",
+		"requiredBuilding": "Human Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechHumanDebuff"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "Enema Tech Debuff Activated",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+    	    	"Only available <in cities with a [E0 Palace]> <hidden from users>",
+    			"Gain a free [Minicake Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
+    			"Gain a free [Minicake Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
+    			"Gain a free [Minicake Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
+    			"Gain a free [Minicake Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
+    			"Gain a free [Minicake Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
+    			"Gain a free [Minicake Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
+    			"Gain a free [Minicake Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
+    			"Gain a free [Minicake Tech Debuff E8 Information] [in this city] <during the [Information era]>",
+    			"Gain a free [Minicake Tech Debuff E9 Future] [in this city] <during the [Future era]>",
+    
+    			"Automatically built in all cities where it is buildable",
+    			"Only available <after discovering [TechEnemaDebuff]><for [AI player] Civilizations>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+
+
+	{
+		"name": "Enema Tech Debuff E1 Ancient",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E2 Classical",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E3 Medieval",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E4 Renaissance",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E5 Industrial",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E6 Modern",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E7 Atomic",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E8 Information",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
+	},
+	{
+		"name": "Enema Tech Debuff E9 Future",
+		"requiredBuilding": "Enema Tech Debuff Activated",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+
+                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechEnemaDebuff"
 	},
 
 

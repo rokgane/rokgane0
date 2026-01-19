@@ -40,6 +40,8 @@ added scout xp
 
 
     	"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
+ //   	"Discover [TechHumanSwitchGk] <upon turn end> <for [Human player] Civilizations> <if [HumanSwitchGkOn] is constructed by anybody>",
+
 
     	"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
     	"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemaAdvanceEra Classical] is constructed by anybody>",
@@ -54,7 +56,8 @@ added scout xp
     	"Discover [TechHumanCheat] <upon turn end> <for [Human player] Civilizations> <if [Minicake HumanCheat] is constructed by anybody>",
     	"Discover [TechEnemaCheat] <upon turn end> <for [AI player] Civilizations> <if [Minicake EnemaCheat] is constructed by anybody>",
 
-//    	"Discover [TechAllSlower] <upon turn end> <for [All] Civilizations> <if [Minicake TechAllSlower] is constructed by anybody>",
+    	"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech Debuff] is constructed by anybody>",
+    	"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech Debuff] is constructed by anybody>",
 
 
 
