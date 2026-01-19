@@ -27,6 +27,20 @@ UnlockInhibitorEra
                                 //xtc37  //xtc38  //xtc39  //xtc40           //xtc41
 //UIera  9 Future
                                 //xtc42           //xtc43  //xtc44           //xtc45
+
+
+Mixed   techgk   techgk   slower   slower      
+//xtc00 //xtc01  //xtc02  //xtc03  //xtc04      UnlockInhibitorEra  1 Ancient
+        //xtc05  //xtc06  //xtc07  //xtc08      UnlockInhibitorEra  2 Classical
+        //xtc09  //xtc10  //xtc11  //xtc12      UnlockInhibitorEra  3 Medieval
+        //xtc13  //xtc14  //xtc15  //xtc16      UnlockInhibitorEra  4 Renaissance
+        //xtc17  //xtc18  //xtc19  //xtc20      UnlockInhibitorEra  5 Industrial
+        //xtc21  //xtc22  //xtc23  //xtc24      UnlockInhibitorEra  6 Modern
+        //xtc25  //xtc26  //xtc27  //xtc28      UnlockInhibitorEra  7 Atomic
+        //xtc29  //xtc30  //xtc31  //xtc32      UnlockInhibitorEra  8 Information
+        //xtc33           //xtc34  //xtc35      UnlockInhibitorEra  9 Future
+
+
 */
 
 //xsa//Unlocker
@@ -51,8 +65,10 @@ UnlockInhibitorEra
 
 
 //XSA//Tech Start
-
 [
+//XSA//Tech Start
+
+
 	{
 		"columnNumber": 1,//xtc01//xtc00
 		"era": "Ancient era",
@@ -60,9 +76,11 @@ UnlockInhibitorEra
 		"buildingCost": 40,//xtc00Cost
 		"wonderCost": 185,//xtc00Cost
 		"techs": [
-			{//xsa//KosongZero
+
+			{//xsa//KosongZeroNull
 				"name": "KosongZeroNull",
-				"row": 35,//21,
+				"row": 37,//21,
+				"prerequisites": ["KosongZeroBase"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -211,6 +229,118 @@ UnlockInhibitorEra
 		"buildingCost": 60,//xtc01Cost
 		"wonderCost": 185,//xtc01Cost
 		"techs": [
+
+			{//xsa//KosongZero0001
+				"name": "KosongZero0001",
+				"row": 36,
+				"prerequisites": ["KosongZeroNull"],
+				"quote": "'0001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0002
+				"name": "KosongZero0002",
+				"row": 35,
+				"prerequisites": ["KosongZero0001"],
+				"quote": "'0002 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0003
+				"name": "KosongZero0003",
+				"row": 34,
+				"prerequisites": ["KosongZero0002"],
+				"quote": "'0003 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0004
+				"name": "KosongZero0004",
+				"row": 33,
+				"prerequisites": ["KosongZero0003"],
+				"quote": "'0004 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0005
+				"name": "KosongZero0005",
+				"row": 32,
+				"prerequisites": ["KosongZero0004"],
+				"quote": "'0005 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0006
+				"name": "KosongZero0006",
+				"row": 31,
+				"prerequisites": ["KosongZero0005"],
+				"quote": "'0006 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0007
+				"name": "KosongZero0007",
+				"row": 30,
+				"prerequisites": ["KosongZero0006"],
+				"quote": "'0007 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0008
+				"name": "KosongZero0008",
+				"row": 29,
+				"prerequisites": ["KosongZero0007"],
+				"quote": "'0008 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0009
+				"name": "KosongZero0009",
+				"row": 28,
+				"prerequisites": ["KosongZero0008"],
+				"quote": "'0009 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0010
+				"name": "KosongZero0010",
+				"row": 27,
+				"prerequisites": ["KosongZero0009"],
+				"quote": "'0010 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "E1 Pottery",
 				"row": 12,//2,
@@ -237,119 +367,7 @@ UnlockInhibitorEra
 				"prerequisites": ["E1 Agriculture"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
-			},
-
-			{//xsa//KosongZero0001
-				"name": "KosongZero0001",
-				"row": 35,
-				"prerequisites": ["KosongZeroNull"],
-				"quote": "'0001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0002
-				"name": "KosongZero0002",
-				"row": 34,
-				"prerequisites": ["KosongZero0001"],
-				"quote": "'0002 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0003
-				"name": "KosongZero0003",
-				"row": 33,
-				"prerequisites": ["KosongZero0002"],
-				"quote": "'0003 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0004
-				"name": "KosongZero0004",
-				"row": 32,
-				"prerequisites": ["KosongZero0003"],
-				"quote": "'0004 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0005
-				"name": "KosongZero0005",
-				"row": 31,
-				"prerequisites": ["KosongZero0004"],
-				"quote": "'0005 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0006
-				"name": "KosongZero0006",
-				"row": 30,
-				"prerequisites": ["KosongZero0005"],
-				"quote": "'0006 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0007
-				"name": "KosongZero0007",
-				"row": 29,
-				"prerequisites": ["KosongZero0006"],
-				"quote": "'0007 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0008
-				"name": "KosongZero0008",
-				"row": 28,
-				"prerequisites": ["KosongZero0007"],
-				"quote": "'0008 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0009
-				"name": "KosongZero0009",
-				"row": 27,
-				"prerequisites": ["KosongZero0008"],
-				"quote": "'0009 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0010
-				"name": "KosongZero0010",
-				"row": 26,
-				"prerequisites": ["KosongZero0009"],
-				"quote": "'0010 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
 			}
-
 		]
 	},
 	{
@@ -359,6 +377,119 @@ UnlockInhibitorEra
 		"buildingCost": 75,//xtc02Cost
 		"wonderCost": 185,//xtc02Cost
 		"techs": [
+
+			{//xsa//KosongZero0011
+				"name": "KosongZero0011",
+				"row": 27,
+				"prerequisites": ["KosongZeroNull"],
+				"quote": "'0011 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+//					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0012
+				"name": "KosongZero0012",
+				"row": 28,
+				"prerequisites": ["KosongZero0011"],
+				"quote": "'0012 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0013
+				"name": "KosongZero0013",
+				"row": 29,
+				"prerequisites": ["KosongZero0012"],
+				"quote": "'0013 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0014
+				"name": "KosongZero0014",
+				"row": 30,
+				"prerequisites": ["KosongZero0013"],
+				"quote": "'0014 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0015
+				"name": "KosongZero0015",
+				"row": 31,
+				"prerequisites": ["KosongZero0014"],
+				"quote": "'0015 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0016
+				"name": "KosongZero0016",
+				"row": 32,
+				"prerequisites": ["KosongZero0015"],
+				"quote": "'0016 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0017
+				"name": "KosongZero0017",
+				"row": 33,
+				"prerequisites": ["KosongZero0016"],
+				"quote": "'0017 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0018
+				"name": "KosongZero0018",
+				"row": 34,
+				"prerequisites": ["KosongZero0017"],
+				"quote": "'0018 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0019
+				"name": "KosongZero0019",
+				"row": 35,
+				"prerequisites": ["KosongZero0018"],
+				"quote": "'0019 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{//xsa//KosongZero0020
+				"name": "KosongZero0020",
+				"row": 36,
+				"prerequisites": ["KosongZero0019"],
+				"quote": "'0020 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "E1 Sailing",
 				"row": 11,//1,
@@ -406,118 +537,6 @@ UnlockInhibitorEra
 				"prerequisites": ["E1 Mining"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
-			},
-
-			{//xsa//KosongZero0011
-				"name": "KosongZero0011",
-				"row": 26,
-				"prerequisites": ["KosongZeroNull"],
-				"quote": "'0011 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-//					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0012
-				"name": "KosongZero0012",
-				"row": 27,
-				"prerequisites": ["KosongZero0011"],
-				"quote": "'0012 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0013
-				"name": "KosongZero0013",
-				"row": 28,
-				"prerequisites": ["KosongZero0012"],
-				"quote": "'0013 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0014
-				"name": "KosongZero0014",
-				"row": 29,
-				"prerequisites": ["KosongZero0013"],
-				"quote": "'0014 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0015
-				"name": "KosongZero0015",
-				"row": 30,
-				"prerequisites": ["KosongZero0014"],
-				"quote": "'0015 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0016
-				"name": "KosongZero0016",
-				"row": 31,
-				"prerequisites": ["KosongZero0015"],
-				"quote": "'0016 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0017
-				"name": "KosongZero0017",
-				"row": 32,
-				"prerequisites": ["KosongZero0016"],
-				"quote": "'0017 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0018
-				"name": "KosongZero0018",
-				"row": 33,
-				"prerequisites": ["KosongZero0017"],
-				"quote": "'0018 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0019
-				"name": "KosongZero0019",
-				"row": 34,
-				"prerequisites": ["KosongZero0018"],
-				"quote": "'0019 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0020
-				"name": "KosongZero0020",
-				"row": 35,
-				"prerequisites": ["KosongZero0019"],
-				"quote": "'0020 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
 			}
 
 		]
@@ -1109,6 +1128,16 @@ UnlockInhibitorEra
 		"buildingCost": 750,//xtc35Cost
 		"wonderCost": 1250,//xtc35Cost
 		"techs": [
+			{//xsa//KosongZeroBase
+				"name": "KosongZeroBase",
+				"row": 37,//21,
+				"prerequisites": ["11 FutureTech"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
 			{
 				"name": "Era9UnlockHuman",
 				"row": 32,
@@ -1148,6 +1177,7 @@ UnlockInhibitorEra
 				"row": 15,
 				"prerequisites": [
 					"1X FutureTech", //xsa//added
+					"11 FutureTech", //xsa//added
 
 					"E8 Globalization",
 					"E8 Particle Physics",
@@ -1164,10 +1194,6 @@ UnlockInhibitorEra
 			}
 		]
 	},
-
-
-
-
 
 
 
@@ -1677,7 +1703,7 @@ UnlockInhibitorEra
 		]
 	},
 
-	
+
 	{
 		"columnNumber": 4,//xtc04//xtc03
 		"era": "Ancient era",
@@ -2960,645 +2986,25 @@ UnlockInhibitorEra
 		"buildingCost": 40,//xtc36Cost
 		"wonderCost": 185,//xtc36Cost
 		"techs": [
+/*
+			{
+				"name": "BalkanZero",
+				"row": 37,
+
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+*/
         ]
 	}
-/*//XSA//kosong
-			{//xsa//KosongZero
-				"name": "KosongZeroNull",
-				"row": 51,//21,
-				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>"]
-			},
-
-			{//xsa//KosongZero0001
-				"name": "KosongZero0001",
-				"row": 50,
-				"prerequisites": ["KosongZeroNull"],
-				"quote": "'0001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-//					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0002
-				"name": "KosongZero0002",
-				"row": 49,
-				"prerequisites": ["KosongZero0001"],
-				"quote": "'0002 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0003
-				"name": "KosongZero0003",
-				"row": 48,
-				"prerequisites": ["KosongZero0002"],
-				"quote": "'0003 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0004
-				"name": "KosongZero0004",
-				"row": 47,
-				"prerequisites": ["KosongZero0003"],
-				"quote": "'0004 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0005
-				"name": "KosongZero0005",
-				"row": 46,
-				"prerequisites": ["KosongZero0004"],
-				"quote": "'0005 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0006
-				"name": "KosongZero0006",
-				"row": 45,
-				"prerequisites": ["KosongZero0005"],
-				"quote": "'0006 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0007
-				"name": "KosongZero0007",
-				"row": 44,
-				"prerequisites": ["KosongZero0006"],
-				"quote": "'0007 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0008
-				"name": "KosongZero0008",
-				"row": 43,
-				"prerequisites": ["KosongZero0007"],
-				"quote": "'0008 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0009
-				"name": "KosongZero0009",
-				"row": 42,
-				"prerequisites": ["KosongZero0008"],
-				"quote": "'0009 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0010
-				"name": "KosongZero0010",
-				"row": 41,
-				"prerequisites": ["KosongZero0009"],
-				"quote": "'0010 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{//xsa//KosongZero0011
-				"name": "KosongZero0011",
-				"row": 40,
-				"prerequisites": ["KosongZero0010"],
-				"quote": "'0011 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0012
-				"name": "KosongZero0012",
-				"row": 39,
-				"prerequisites": ["KosongZero0011"],
-				"quote": "'0012 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0013
-				"name": "KosongZero0013",
-				"row": 38,
-				"prerequisites": ["KosongZero0012"],
-				"quote": "'0013 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0014
-				"name": "KosongZero0014",
-				"row": 37,
-				"prerequisites": ["KosongZero0013"],
-				"quote": "'0014 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0015
-				"name": "KosongZero0015",
-				"row": 36,
-				"prerequisites": ["KosongZero0014"],
-				"quote": "'0015 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0016
-				"name": "KosongZero0016",
-				"row": 35,
-				"prerequisites": ["KosongZero0015"],
-				"quote": "'0016 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0017
-				"name": "KosongZero0017",
-				"row": 34,
-				"prerequisites": ["KosongZero0016"],
-				"quote": "'0017 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0018
-				"name": "KosongZero0018",
-				"row": 33,
-				"prerequisites": ["KosongZero0017"],
-				"quote": "'0018 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0019
-				"name": "KosongZero0019",
-				"row": 32,
-				"prerequisites": ["KosongZero0018"],
-				"quote": "'0019 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0020
-				"name": "KosongZero0020",
-				"row": 31,
-				"prerequisites": ["KosongZero0019"],
-				"quote": "'0020 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{//xsa//KosongZero0021
-				"name": "KosongZero0021",
-				"row": 30,
-				"prerequisites": ["KosongZero0020"],
-				"quote": "'0021 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0022
-				"name": "KosongZero0022",
-				"row": 29,
-				"prerequisites": ["KosongZero0021"],
-				"quote": "'0022 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0023
-				"name": "KosongZero0023",
-				"row": 28,
-				"prerequisites": ["KosongZero0022"],
-				"quote": "'0023 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0024
-				"name": "KosongZero0024",
-				"row": 27,
-				"prerequisites": ["KosongZero0023"],
-				"quote": "'0024 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0025
-				"name": "KosongZero0025",
-				"row": 26,
-				"prerequisites": ["KosongZero0024"],
-				"quote": "'0025 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0026
-				"name": "KosongZero0026",
-				"row": 25,
-				"prerequisites": ["KosongZero0025"],
-				"quote": "'0026 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0027
-				"name": "KosongZero0027",
-				"row": 24,
-				"prerequisites": ["KosongZero0026"],
-				"quote": "'0027 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0028
-				"name": "KosongZero0028",
-				"row": 23,
-				"prerequisites": ["KosongZero0027"],
-				"quote": "'0028 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0029
-				"name": "KosongZero0029",
-				"row": 22,
-				"prerequisites": ["KosongZero0028"],
-				"quote": "'0029 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0030
-				"name": "KosongZero0030",
-				"row": 21,
-				"prerequisites": ["KosongZero0029"],
-				"quote": "'0030 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{//xsa//KosongZero0031
-				"name": "KosongZero0031",
-				"row": 20,
-				"prerequisites": ["KosongZero0030"],
-				"quote": "'0031 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0032
-				"name": "KosongZero0032",
-				"row": 19,
-				"prerequisites": ["KosongZero0031"],
-				"quote": "'0032 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0033
-				"name": "KosongZero0033",
-				"row": 18,
-				"prerequisites": ["KosongZero0032"],
-				"quote": "'0033 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0034
-				"name": "KosongZero0034",
-				"row": 17,
-				"prerequisites": ["KosongZero0033"],
-				"quote": "'0034 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0035
-				"name": "KosongZero0035",
-				"row": 16,
-				"prerequisites": ["KosongZero0034"],
-				"quote": "'0035 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0036
-				"name": "KosongZero0036",
-				"row": 15,
-				"prerequisites": ["KosongZero0035"],
-				"quote": "'0036 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0037
-				"name": "KosongZero0037",
-				"row": 14,
-				"prerequisites": ["KosongZero0036"],
-				"quote": "'0037 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0038
-				"name": "KosongZero0038",
-				"row": 13,
-				"prerequisites": ["KosongZero0037"],
-				"quote": "'0038 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0039
-				"name": "KosongZero0039",
-				"row": 12,
-				"prerequisites": ["KosongZero0038"],
-				"quote": "'0039 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0040
-				"name": "KosongZero0040",
-				"row": 11,
-				"prerequisites": ["KosongZero0039"],
-				"quote": "'0040 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{//xsa//KosongZero0041
-				"name": "KosongZero0041",
-				"row": 10,
-				"prerequisites": ["KosongZero0040"],
-				"quote": "'0041 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0042
-				"name": "KosongZero0042",
-				"row": 9,
-				"prerequisites": ["KosongZero0041"],
-				"quote": "'0042 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0043
-				"name": "KosongZero0043",
-				"row": 8,
-				"prerequisites": ["KosongZero0042"],
-				"quote": "'0043 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0044
-				"name": "KosongZero0044",
-				"row": 7,
-				"prerequisites": ["KosongZero0043"],
-				"quote": "'0044 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0045
-				"name": "KosongZero0045",
-				"row": 6,
-				"prerequisites": ["KosongZero0044"],
-				"quote": "'0045 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0046
-				"name": "KosongZero0046",
-				"row": 5,
-				"prerequisites": ["KosongZero0045"],
-				"quote": "'0046 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0047
-				"name": "KosongZero0047",
-				"row": 4,
-				"prerequisites": ["KosongZero0046"],
-				"quote": "'0047 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0048
-				"name": "KosongZero0048",
-				"row": 3,
-				"prerequisites": ["KosongZero0047"],
-				"quote": "'0048 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0049
-				"name": "KosongZero0049",
-				"row": 2,
-				"prerequisites": ["KosongZero0048"],
-				"quote": "'0049 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{//xsa//KosongZero0050
-				"name": "KosongZero0050",
-				"row": 1,
-				"prerequisites": ["KosongZero0049"],
-				"quote": "'0050 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-		]
-	}
-*///XSA//kosong
-
 
 
 //XSA//Tech End
 ]
-
-
-
-
-
-
-/*
-RB01 Cattle
-RB02 Sheep
-RB03 Deer
-RB04 Bananas
-RB05 Wheat
-RB06 Stone
-RB07 Fish
-
-RS01 Horses
-RS02 Iron
-RS03 Coal
-RS04 Oil
-RS05 Aluminum
-RS06 Uranium
-
-RL01 Furs
-RL02 Cotton
-RL03 Dyes
-RL04 Gems
-RL05 Gold
-RL06 Silver
-RL07 Incense
-RL08 Ivory
-RL09 Silk
-RL10 Spices
-RL11 Wine
-RL12 Sugar
-RL13 Marble
-RL14 Whales
-RL15 Pearls
-RL16 Citrus
-RL17 Copper
-RL18 Crab
-RL19 Salt
-RL20 Truffles
-
-RL21 Jewelry
-RL22 Porcelain
-
-RML01 Amber
-RML02 Coffee
-RML03 Coral
-RML04 Jade
-RML05 Lapis
-RML06 Olives
-RML07 Perfume
-RML08 Tea
-RML09 Tobacco
-RML10 Glass
-
-*/
+//XSA//Tech End
 
 
 
@@ -3713,152 +3119,3 @@ E9 Future Tech
 
 
 
-/*
-
-
-		"techCost": 20,//xtc00Cost
-		"buildingCost": 40,//xtc00Cost
-		"wonderCost": 185,//xtc00Cost
-
-		"techCost": 35,//xtc01Cost
-		"buildingCost": 60,//xtc01Cost
-		"wonderCost": 185,//xtc01Cost
-
-		"techCost": 55,//xtc02Cost
-		"buildingCost": 75,//xtc02Cost
-		"wonderCost": 185,//xtc02Cost
-
-		"techCost": 105,//xtc05Cost
-		"buildingCost": 100,//xtc05Cost
-		"wonderCost": 250,//xtc05Cost
-
-		"techCost": 175,//xtc06Cost
-		"buildingCost": 100,//xtc06Cost
-		"wonderCost": 250,//xtc06Cost
-
-		"techCost": 275,//xtc09Cost
-		"buildingCost": 120,//xtc09Cost
-		"wonderCost": 300,//xtc09Cost
-
-		"techCost": 485,//xtc10Cost
-		"buildingCost": 160,//xtc10Cost
-		"wonderCost": 400,//xtc10Cost
-
-		"techCost": 780,//xtc13Cost
-		"buildingCost": 200,//xtc13Cost
-		"wonderCost": 500,//xtc13Cost
-
-		"techCost": 1150,//xtc14Cost
-		"buildingCost": 250,//xtc14Cost
-		"wonderCost": 625,//xtc14Cost
-
-		"techCost": 1600,//xtc17Cost
-		"buildingCost": 300,//xtc17Cost
-		"wonderCost": 750,//xtc17Cost
-
-		"techCost": 2350,//xtc18Cost
-		"buildingCost": 360,//xtc18Cost
-		"wonderCost": 900,//xtc18Cost
-
-		"techCost": 3100,//xtc21Cost
-		"buildingCost": 500,//xtc21Cost
-		"wonderCost": 1060,//xtc21Cost
-
-		"techCost": 4100,//xtc22Cost
-		"buildingCost": 500,//xtc22Cost
-		"wonderCost": 1250,//xtc22Cost
-
-		"techCost": 5100,//xtc25Cost
-		"buildingCost": 500,//xtc25Cost
-		"wonderCost": 1250,//xtc25Cost
-
-		"techCost": 6400,//xtc26Cost
-		"buildingCost": 500,//xtc26Cost
-		"wonderCost": 1250,//xtc26Cost
-
-		"techCost": 7700,//xtc29Cost
-		"buildingCost": 750,//xtc29Cost
-		"wonderCost": 1250,//xtc29Cost
-
-		"techCost": 8800,//xtc30Cost
-		"buildingCost": 750,//xtc30Cost
-		"wonderCost": 1250,//xtc30Cost
-
-		"techCost": 9500,//xtc35Cost
-		"buildingCost": 750,//xtc35Cost
-		"wonderCost": 1250,//xtc35Cost
-
-		"techCost": 55,//xtc04Cost
-		"buildingCost": 75,//xtc04Cost
-		"wonderCost": 185,//xtc04Cost
-
-		"techCost": 175,//xtc08Cost
-		"buildingCost": 100,//xtc08Cost
-		"wonderCost": 250,//xtc08Cost
-
-		"techCost": 485,//xtc12Cost
-		"buildingCost": 160,//xtc12Cost
-		"wonderCost": 400,//xtc12Cost
-
-		"techCost": 1150,//xtc16Cost
-		"buildingCost": 250,//xtc16Cost
-		"wonderCost": 625,//xtc16Cost
-
-		"techCost": 2350,//xtc20Cost
-		"buildingCost": 360,//xtc20Cost
-		"wonderCost": 900,//xtc20Cost
-
-		"techCost": 4100,//xtc24Cost
-		"buildingCost": 500,//xtc24Cost
-		"wonderCost": 1250,//xtc24Cost
-
-		"techCost": 6400,//xtc28Cost
-		"buildingCost": 500,//xtc28Cost
-		"wonderCost": 1250,//xtc28Cost
-
-		"techCost": 8800,//xtc32Cost
-		"buildingCost": 750,//xtc32Cost
-		"wonderCost": 1250,//xtc32Cost
-
-		"techCost": 9500,//xtc34Cost
-		"buildingCost": 750,//xtc34Cost
-		"wonderCost": 1250,//xtc34Cost
-
-		"techCost": 9500,//xtc33Cost
-		"buildingCost": 750,//xtc33Cost
-		"wonderCost": 1250,//xtc33Cost
-
-		"techCost": 35,//xtc03Cost
-		"buildingCost": 60,//xtc03Cost
-		"wonderCost": 185,//xtc03Cost
-
-		"techCost": 105,//xtc07Cost
-		"buildingCost": 100,//xtc07Cost
-		"wonderCost": 250,//xtc07Cost
-
-		"techCost": 275,//xtc11Cost
-		"buildingCost": 120,//xtc11Cost
-		"wonderCost": 300,//xtc11Cost
-
-		"techCost": 780,//xtc15Cost
-		"buildingCost": 200,//xtc15Cost
-		"wonderCost": 500,//xtc15Cost
-
-		"techCost": 1600,//xtc19Cost
-		"buildingCost": 300,//xtc19Cost
-		"wonderCost": 750,//xtc19Cost
-
-		"techCost": 3100,//xtc23Cost
-		"buildingCost": 500,//xtc23Cost
-		"wonderCost": 1060,//xtc23Cost
-
-		"techCost": 5100,//xtc27Cost
-		"buildingCost": 500,//xtc27Cost
-		"wonderCost": 1250,//xtc27Cost
-
-		"techCost": 7700,//xtc31Cost
-		"buildingCost": 750,//xtc31Cost
-		"wonderCost": 1250,//xtc31Cost
-
-
-*/
