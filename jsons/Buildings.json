@@ -8176,8 +8176,28 @@
 
 
 
+	{
+		"name": "MiniCake Automate Fusion",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+        		"Gain a free [MiniCake Automate Main] [in all cities]",
+        		"Gain a free [MiniCake ShowGk Aall] [in all cities]",
+//        		"Gain a free [MiniCake Open Aall] [in all cities]",
 
-
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 	{
 		"name": "MiniCake Automate Main",
@@ -8186,8 +8206,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake Automate Building] [in this city]",
-        		"Gain a free [MiniCake Automate CivSpec] [in this city]",
+        		"Gain a free [MiniCake Automate Building] [in all cities]",
+        		"Gain a free [MiniCake Automate CivSpec] [in all cities]",
         		"Gain a free [MiniCake Automate Wonder] [in this city]",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
