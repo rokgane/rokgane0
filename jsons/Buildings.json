@@ -100,9 +100,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+10]% [Food] [in all cities]", 
 			"[+15]% Production when constructing [E1 Archery] units [in this city]",
 			"[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
@@ -132,9 +131,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"requiredTech": "E1 Calendar",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
@@ -172,9 +169,8 @@
 		"isWonder": true,
 		"requiredTech": "E1 Writing",
 		"uniques": [ 
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Technology", 
 			"Gain a free [E1 Library] [in this city]"],
 		"quote": "'Libraries are as the Shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
@@ -254,9 +250,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Can build [all] improvements at a [+25]% rate",
 			"[2] free [E1 Worker] units appear"],
 		"requiredTech": "E1 Masonry",
@@ -269,9 +264,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [RL13 Marble] tiles [in this city]", 
 			"[+2 Gold] from [RB06 Stone] tiles [in this city]"],
@@ -312,9 +306,8 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "E1 Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -346,9 +339,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Coast]", 
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", 
@@ -379,10 +371,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Colosseum] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Horseback Riding"
 	},
@@ -407,9 +398,8 @@
 		"isWonder": true,
 		"requiredTech": "E2 Mathematics",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [E3 Garden] [in this city]"
 			],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
@@ -432,9 +422,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"requiredTech": "E2 Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
@@ -493,10 +481,9 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Library] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Library] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Library] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Philosophy"
 	},
@@ -507,9 +494,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Social Policy"
 			],
 		"requiredTech": "E2 Philosophy",
@@ -536,10 +522,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Monument] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Monument] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Monument] is constructed in all [non-[Puppeted]] cities>", 
 			"[+25]% Great Person generation [in this city]", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Drama and Poetry"
@@ -593,9 +578,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Desert]", 
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", 
 			"Gain a free [E2 Amphitheater] [in this city]", 
@@ -621,9 +605,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [E5 Dynamite]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [E1 Walls] [in this city]"],
 		"requiredTech": "E2 Engineering",
@@ -636,10 +619,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E1 Barracks] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E1 Barracks] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E1 Barracks] is constructed in all [non-[Puppeted]] cities>", 
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E2 Iron Working"
@@ -653,9 +635,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Must be next to [Coast]", 
 			"[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "E2 Iron Working",
@@ -683,9 +664,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [E2 Temple] [in this city]", 
 			"Free [E0 Great Prophet] appears", 
 			"Only available <when religion is enabled>"],
@@ -700,9 +680,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Gain a free [R03 Mosque] [in this city]", 
 			"Only available <when religion is enabled>",
 			"All newly-trained [E0 Missionary] units [in this city] receive the [Devout] promotion",
@@ -717,10 +696,9 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Temple] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Temple] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Temple] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", 
 			"Only available <when religion is enabled>", 
@@ -736,9 +714,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+50]% Golden Age length"
 			],
 		"requiredTech": "E3 Civil Service",
@@ -752,10 +729,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E2 Market] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E2 Market] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E2 Market] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Guilds"
 	},
@@ -767,9 +743,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% [Gold] from Trade Routes", 
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "E3 Guilds",
@@ -870,10 +845,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E3 University] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E3 University] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E3 University] is constructed in all [non-[Puppeted]] cities>", 
 			"Free Technology", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Education"
@@ -885,9 +859,8 @@
 		"greatPersonPoints": {"E0 Great Engineer": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 			"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "E3 Education",
@@ -932,9 +905,8 @@
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [E3 Castle] [in this city]"],
 		"requiredTech": "E3 Chivalry",
@@ -948,10 +920,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E3 Workshop] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E3 Workshop] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E3 Workshop] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E3 Machinery"
 	},
@@ -962,9 +933,7 @@
 		"happiness": 10,
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-
-			"Only available <if [MiniCake Wonder] is constructed>"
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>"
 			]
 		"isWonder": true,
 		"requiredTech": "E3 Physics",
@@ -1037,9 +1006,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% [Culture] [in all cities]"
 			],
 		"requiredTech": "E4 Acoustics",
@@ -1094,9 +1062,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-10]% Unhappiness from [Population] [in all non-occupied cities]"
 			],
 		"requiredTech": "E4 Banking",
@@ -1121,9 +1088,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% Great Person generation [in all cities]", 
 			"Free Great Person"
 			],
@@ -1137,9 +1103,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Gain a free [E3 Castle] [in this city]"
 			],
@@ -1168,10 +1133,9 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E4 Opera House] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
-			"Only available <if [E4 Opera House] is constructed in all [non-[Puppeted]] cities>", 
+//			"Only available <if [E4 Opera House] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E4 Architecture"
 	},
@@ -1183,9 +1147,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Empire enters Golden age"
 			],
 		"requiredTech": "E4 Architecture",
@@ -1198,9 +1161,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free [E0 Great Scientist] appears",
 			"Science gained from research agreements [+50]%"
 			],
@@ -1258,9 +1220,8 @@
 		"cityStrength": 12,
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+25]% City Strength from defensive buildings"
 			],
 		"requiredTech": "E4 Metallurgy",
@@ -1290,9 +1251,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[2] free [E0 Great Artist] units appear"
 			],
 		"requiredTech": "E5 Archaeology",
@@ -1337,9 +1297,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[Gold] cost of purchasing items in cities [-15]%"
 			],
 		"requiredTech": "E5 Industrialization",
@@ -1365,9 +1324,8 @@
 		"greatPersonPoints": {"E0 Great Scientist": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free [E0 Great General] appears", 
 			"New [Military] units start with [15] XP [in this city]"
 			],
@@ -1461,9 +1419,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Happiness] per [2] social policies adopted"
 			],
 		"requiredTech": "E6 Radio",
@@ -1476,15 +1433,14 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><if [E5 Police Station] is constructed in all [non-[Puppeted]] cities><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"New spies start with [1] level(s)",
 			"Promotes all spies [1] time(s)",
 			"Gain an extra spy", // Order is significant here
 			"[-15]% enemy spy effectiveness [in this city]",
-			"Only available <if [E5 Police Station] is constructed in all [non-[Puppeted]] cities>",
+//			"Only available <if [E5 Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
 		"requiredTech": "E6 Radio"
 	},
@@ -1508,9 +1464,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Production] from every specialist [in all cities]"
 			],
 		"requiredTech": "E6 Replaceable Parts",
@@ -1525,9 +1480,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1 Happiness, +2 Culture, +3 Gold] from every [E3 Castle]",
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "E6 Railroads",
@@ -1553,9 +1507,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-10]% Culture cost of adopting new Policies"
 			],
 		"requiredTech": "E6 Plastics",
@@ -1582,9 +1535,8 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-	    	"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 	    	"Enables nuclear weapon", 
 			"Triggers a global alert upon completion", 
 			"Cannot be hurried"],
@@ -1597,9 +1549,8 @@
 		"culture": 3,
 		"greatPersonPoints": {"E0 Great Engineer": 2},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[-33]% Gold cost of upgrading <for [Military] units>"
 			],
 		"requiredTech": "E7 Combined Arms",
@@ -1637,9 +1588,8 @@
 		"greatPersonPoints": {"E0 Great Artist": 2},
 		"percentStatBonus": {"culture": 50},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Free Social Policy",
 			"Must be next to [Coast]"
 			],
@@ -1666,9 +1616,8 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Enables E2 Construction of Spaceship parts", 
 			"Triggers a global alert upon completion", 
 			"Only available <when [Scientific] Victory is enabled>", 
@@ -1683,9 +1632,8 @@
 		"name": "E7 Great Firewall",
 		"isWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Only available <when espionage is enabled>", 
 			"[-99]% enemy spy effectiveness [in this city]",
 			"[-50]% enemy spy effectiveness [in all cities]"
@@ -1702,9 +1650,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Merchant": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[+1] population [in all cities]", 
 			"[+1 Happiness] [in all cities]", 
 			"Gain a free [E6 Broadcast Tower] [in all cities]"
@@ -1731,9 +1678,8 @@
 		"isWonder": true,
 		"greatPersonPoints": {"E0 Great Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"[2] free [E0 Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
 			"Gain a free [E8 Spaceship Factory] [in this city]"
@@ -1763,9 +1709,8 @@
 		"greatPersonPoints": {"E0 Great Merchant": 2},
 		"requiredTech": "E8 Globalization",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Triggers voting for the Diplomatic Victory", 
 			"Only available <when [Diplomatic] Victory is enabled>", 
 			"Triggers a global alert upon completion"
@@ -1780,9 +1725,8 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
+			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-			"Only available <if [MiniCake Wonder] is constructed> <hidden from users>",
 			"Unavailable <when number of [Completed Policy branches] is less than [5]>", 
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion", 
@@ -1934,8 +1878,6 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
-
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
@@ -2419,9 +2361,9 @@
 		        "Population loss from nuclear attacks [-50]% [in this city]",
 	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
-				"Only available <for [Human player] Civilizations><hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
 				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
-				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Automatically built in all cities where it is buildable<after discovering [TechUnlocker]><hidden from users>",
 
 				"Gain a free [MiniCake DNS Vault] [in this city]",
 
@@ -2525,7 +2467,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "MiniCake TrueCity",
+		"name": "MiniCake FakeCity",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -2541,7 +2483,7 @@
 		"requiredTech": "TechUnlocker"
 	},	
 	{
-		"name": "MiniCake FakeCity",
+		"name": "MiniCake TrueCity",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2577,7 +2519,7 @@
 	},
 
 	{
-		"name": "MiniCake DNS Vault Tech",
+		"name": "MiniCake DNS Vault Tech Main",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2595,7 +2537,7 @@
 	},	
 
 	{
-		"name": "MiniCake DNS Vault Policy",
+		"name": "MiniCake DNS Vault Policy Main",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2670,11 +2612,67 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},	
+    {
+		"name": "MiniCake DNS Lock",
+		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
+    {
+		"name": "MiniCake DNS Lock Unit",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
 
+				"Gain a free [MiniCake DNS Lock Unit] [in this city]",
 
+//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
-
+    {
+		"name": "MiniCake DNS Lock Unit",
+		"requiredBuilding": "MiniCake DNS Lock",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
@@ -4584,6 +4582,241 @@
 
 
 
+	{
+		"name": "FakeCity - Population",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100] population [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Food",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Food] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Gold",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Gold] [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Science",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Science] [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Production",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Production] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Cultural",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Culture] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Happiness",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Happiness] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Faith",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Faith] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Unit Experience",
+		"gold": 1,
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"New [Military] units start with [9999] XP [in this city]"
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - City Defense",
+		"gold": 1,
+		"cityStrength": 1000,
+		"cityHealth": 500000,
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+		        "Population loss from nuclear attacks [-50]% [in this city]",
+	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
+				"[+100]% City Strength from defensive buildings",
+				"[+100]% Strength for cities",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Scientist",
+		"greatPersonPoints": {"E0 Great Scientist": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Engineer",
+		"greatPersonPoints": {"E0 Great Engineer": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Artist",
+		"greatPersonPoints": {"E0 Great Artist": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Merchant",
+		"greatPersonPoints": {"E0 Great Merchant": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "FakeCity - Undertable District",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[-75]% Gold cost of acquiring tiles [in all cities]",
+		    	"[-75]% Gold cost of upgrading <for [Military] units>",
+		    	"[-75]% Gold cost of upgrading <for [Civilian] units>",
+
+				"[Gold] cost of purchasing items in cities [-99]%",
+				"[Gold] cost of purchasing [All] buildings [-99]%",
+				"[Gold] cost of purchasing [All] units [-99]%",
+				
+				"[Culture] cost of purchasing items in cities [-99]%",
+				"[Culture] cost of purchasing [All] buildings [-99]%",
+				"[Culture] cost of purchasing [All] units [-99]%",
+	
+				"[Faith] cost of purchasing items in cities [-99]%",
+				"[Faith] cost of purchasing [All] buildings [-99]%",
+				"[Faith] cost of purchasing [All] units [-99]%",
+
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+	    		"Can only be built <in [in capital] cities> <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Everyday Lab",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+2] Movement <for [All] units>",
+				"[+1] Sight <for [All] units>", 
+				"[+1] Sight <for [{Military} {Water}] units>", 
+				"[+50]% Strength <for [All] units>",
+				"[+50]% to Flank Attack bonuses",
+				"[+50]% XP gained from combat",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Can only be built <in [in capital] cities> <hidden from users>",
+    			"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4968,226 +5201,289 @@
 
 
 
-	{
-		"name": "FakeCity - Population",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100] population [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Food",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Food] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Gold",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Gold] [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Science",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Science] [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Production",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Production] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Cultural",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Culture] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Happiness",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Happiness] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Faith",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Faith] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Unit Experience",
-		"gold": 1,
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"New [Military] units start with [9999] XP [in this city]"
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>",
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - City Defense",
-		"gold": 1,
-		"cityStrength": 1000,
-		"cityHealth": 500000,
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-		        "Population loss from nuclear attacks [-50]% [in this city]",
-	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
-				"[+100]% City Strength from defensive buildings",
-				"[+100]% Strength for cities",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Scientist",
-		"greatPersonPoints": {"E0 Great Scientist": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Engineer",
-		"greatPersonPoints": {"E0 Great Engineer": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Artist",
-		"greatPersonPoints": {"E0 Great Artist": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Merchant",
-		"greatPersonPoints": {"E0 Great Merchant": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
 
-	{
-		"name": "FakeCity - Undertable District",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		"name": "MiniCake DNS Open Aero",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": [
-				"[-75]% Gold cost of acquiring tiles [in all cities]",
-		    	"[-75]% Gold cost of upgrading <for [Military] units>",
-		    	"[-75]% Gold cost of upgrading <for [Civilian] units>",
-
-				"[Gold] cost of purchasing items in cities [-99]%",
-				"[Gold] cost of purchasing [All] buildings [-99]%",
-				"[Gold] cost of purchasing [All] units [-99]%",
-				
-				"[Culture] cost of purchasing items in cities [-99]%",
-				"[Culture] cost of purchasing [All] buildings [-99]%",
-				"[Culture] cost of purchasing [All] units [-99]%",
-	
-				"[Faith] cost of purchasing items in cities [-99]%",
-				"[Faith] cost of purchasing [All] buildings [-99]%",
-				"[Faith] cost of purchasing [All] units [-99]%",
-
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-	    		"Can only be built <in [in capital] cities> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Aero] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "FakeCity - Everyday Lab",
+		"name": "MiniCake DNS Open Land",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": [
-				"[+2] Movement <for [All] units>",
-				"[+1] Sight <for [All] units>", 
-				"[+1] Sight <for [{Military} {Water}] units>", 
-				"[+50]% Strength <for [All] units>",
-				"[+50]% to Flank Attack bonuses",
-				"[+50]% XP gained from combat",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Can only be built <in [in capital] cities> <hidden from users>",
-    			"Moves to new capital when capital changes<hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Land] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Open Navy",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Navy] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Open Nuke",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Nuke] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Open Gman",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Gman] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake DNS Open Rest",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Lock Rest] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		"name": "MiniCake DNS Lock Aero",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Aero] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Lock Land",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Land] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Lock Navy",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Navy] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Lock Nuke",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Nuke] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake DNS Lock Gman",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Gman] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake DNS Lock Rest",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+				"Sell [MiniCake DNS Open Rest] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
@@ -5214,107 +5510,30 @@
 
 
     {
-		"name": "MiniCake Open Main",
+		"name": "MiniCake DNS Aall Unit",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Comment [Open Dns]",
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
 
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+				"Gain a free [MiniCake DNS Open Aero] [in this city]",
+				"Gain a free [MiniCake DNS Open Land] [in this city]",
+				"Gain a free [MiniCake DNS Open Navy] [in this city]",
+				"Gain a free [MiniCake DNS Open Nuke] [in this city]",
+				"Gain a free [MiniCake DNS Open Gman] [in this city]",
+				"Gain a free [MiniCake DNS Open Rest] [in this city]",
 
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
+				"Sell [MiniCake DNS Lock Aero] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Land] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Navy] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Nuke] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Gman] buildings [in this city]",
+				"Sell [MiniCake DNS Lock Rest] buildings [in this city]",
 
-	{
-		"name": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Comment [Lock Dns]",
-
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "MiniCake Open Aall",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-
-				"Sell [MiniCake Lock Land] buildings [in this city]",
-				"Sell [MiniCake Lock Navy] buildings [in this city]",
-				"Sell [MiniCake Lock Aero] buildings [in this city]",
-				"Sell [MiniCake Lock Nuke] buildings [in this city]",
-				"Sell [MiniCake Lock Gman] buildings [in this city]",
-				"Sell [MiniCake Lock Rest] buildings [in this city]",
-
-//				"Sell [MiniCake Lock Main] buildings [in this city]",
-
-				"Sell [MiniCake Open Aall] buildings [in this city]",
-
-				"Gain a free [MiniCake Open Land] [in this city]",
-				"Gain a free [MiniCake Open Navy] [in this city]",
-				"Gain a free [MiniCake Open Aero] [in this city]",
-				"Gain a free [MiniCake Open Nuke] [in this city]",
-				"Gain a free [MiniCake Open Gman] [in this city]",
-				"Gain a free [MiniCake Open Rest] [in this city]",
-
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-    {
-		"name": "MiniCake Lock Aall",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-
-				"Gain a free [MiniCake Lock Land] [in this city]",
-				"Gain a free [MiniCake Lock Navy] [in this city]",
-				"Gain a free [MiniCake Lock Aero] [in this city]",
-				"Gain a free [MiniCake Lock Nuke] [in this city]",
-				"Gain a free [MiniCake Lock Gman] [in this city]",
-				"Gain a free [MiniCake Lock Rest] [in this city]",
-
-//				"Sell [MiniCake Open Main] buildings [in this city]",
-
-				"Sell [MiniCake Lock Aall] buildings [in this city]",
-
-				"Sell [MiniCake Open Land] buildings [in this city]",
-				"Sell [MiniCake Open Navy] buildings [in this city]",
-				"Sell [MiniCake Open Aero] buildings [in this city]",
-				"Sell [MiniCake Open Nuke] buildings [in this city]",
-				"Sell [MiniCake Open Gman] buildings [in this city]",
-				"Sell [MiniCake Open Rest] buildings [in this city]",
+				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
+//				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
 
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -5328,301 +5547,41 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	{
-		"name": "MiniCake Open Land",
-		"requiredBuilding": "MiniCake Open Main",
+		"name": "MiniCake DNS Aall Lock",
+		"requiredBuilding": "MiniCake DNS Lock Unit",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Land] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Unit]> <hidden from users>",
+
+				"Gain a free [MiniCake DNS Lock Aero] [in this city]",
+				"Gain a free [MiniCake DNS Lock Land] [in this city]",
+				"Gain a free [MiniCake DNS Lock Navy] [in this city]",
+				"Gain a free [MiniCake DNS Lock Nuke] [in this city]",
+				"Gain a free [MiniCake DNS Lock Gman] [in this city]",
+				"Gain a free [MiniCake DNS Lock Rest] [in this city]",
+
+				"Sell [MiniCake DNS Open Aero] buildings [in this city]",
+				"Sell [MiniCake DNS Open Land] buildings [in this city]",
+				"Sell [MiniCake DNS Open Navy] buildings [in this city]",
+				"Sell [MiniCake DNS Open Nuke] buildings [in this city]",
+				"Sell [MiniCake DNS Open Gman] buildings [in this city]",
+				"Sell [MiniCake DNS Open Rest] buildings [in this city]",
+
+				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
+//				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
+
+		        "Unbuildable <hidden from users>",
+				"Unavailable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
-	{
-		"name": "MiniCake Open Navy",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Navy] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-    {
-		"name": "MiniCake Open Aero",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Aero] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Open Nuke",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Nuke] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Open Gman",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Gman] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-    {
-		"name": "MiniCake Open Rest",
-		"requiredBuilding": "MiniCake Open Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
-				"Sell [MiniCake Lock Rest] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	{
-		"name": "MiniCake Lock Land",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Land] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Lock Navy",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Navy] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Lock Aero",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Aero] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Lock Nuke",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Nuke] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "MiniCake Lock Gman",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Gman] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-    {
-		"name": "MiniCake Lock Rest",
-		"requiredBuilding": "MiniCake Lock Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
-				"Sell [MiniCake Open Rest] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -5644,71 +5603,14 @@
 
 
     {
-		"name": "MiniCake ShowGk Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Comment [Show Gk]",
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "MiniCake HideGk Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Comment [Hide Gk]",
-
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "MiniCake ShowGk Aall",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"name": "MiniCake ShowGk Roof",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake ShowGk Main]> <hidden from users>",
-
-				"Sell [MiniCake HideGk Land] buildings [in this city]",
-				"Sell [MiniCake HideGk Navy] buildings [in this city]",
-				"Sell [MiniCake HideGk Aero] buildings [in this city]",
-				"Sell [MiniCake HideGk Nuke] buildings [in this city]",
-				"Sell [MiniCake HideGk Gman] buildings [in this city]",
-				"Sell [MiniCake HideGk Rest] buildings [in this city]",
 				"Sell [MiniCake HideGk Roof] buildings [in this city]",
-
-//				"Sell [MiniCake HideGk Main] buildings [in this city]",
-
-				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
-
-				"Gain a free [MiniCake ShowGk Land] [in this city]",
-				"Gain a free [MiniCake ShowGk Navy] [in this city]",
-				"Gain a free [MiniCake ShowGk Aero] [in this city]",
-				"Gain a free [MiniCake ShowGk Nuke] [in this city]",
-				"Gain a free [MiniCake ShowGk Gman] [in this city]",
-				"Gain a free [MiniCake ShowGk Rest] [in this city]",
-				"Gain a free [MiniCake ShowGk Roof] [in this city]",
-
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -5721,34 +5623,14 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake HideGk Aall",
+		"name": "MiniCake HideGk Roof",
 		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake HideGk Main]> <hidden from users>",
-
-				"Gain a free [MiniCake HideGk Land] [in this city]",
-				"Gain a free [MiniCake HideGk Navy] [in this city]",
-				"Gain a free [MiniCake HideGk Aero] [in this city]",
-				"Gain a free [MiniCake HideGk Nuke] [in this city]",
-				"Gain a free [MiniCake HideGk Gman] [in this city]",
-				"Gain a free [MiniCake HideGk Rest] [in this city]",
-				"Gain a free [MiniCake HideGk Roof] [in this city]",
-
-//				"Sell [MiniCake ShowGk Main] buildings [in this city]",
-
-				"Sell [MiniCake HideGk Aall] buildings [in this city]",
-
-				"Sell [MiniCake ShowGk Land] buildings [in this city]",
-				"Sell [MiniCake ShowGk Navy] buildings [in this city]",
-				"Sell [MiniCake ShowGk Aero] buildings [in this city]",
-				"Sell [MiniCake ShowGk Nuke] buildings [in this city]",
-				"Sell [MiniCake ShowGk Gman] buildings [in this city]",
-				"Sell [MiniCake ShowGk Rest] buildings [in this city]",
 				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
-
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -5760,7 +5642,6 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-
 
 
 
@@ -5785,7 +5666,7 @@
 
 	{
 		"name": "MiniCake ShowGk Land",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5805,7 +5686,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Navy",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5825,7 +5706,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Aero",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5845,7 +5726,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Nuke",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5865,7 +5746,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Gman",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5885,7 +5766,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Rest",
-		"requiredBuilding": "MiniCake ShowGk Main",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5904,26 +5785,6 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-    {
-		"name": "MiniCake ShowGk Roof",
-		"requiredBuilding": "MiniCake ShowGk Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake ShowGk Main]> <hidden from users>",
-				"Sell [MiniCake HideGk Roof] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
 
 
 
@@ -6067,27 +5928,96 @@
 		"requiredTech": "TechUnlocker"
 	},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
-		"name": "MiniCake HideGk Roof",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"name": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake HideGk Main]> <hidden from users>",
-				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+				"Sell [MiniCake HideGk Land] buildings [in this city]",
+				"Sell [MiniCake HideGk Navy] buildings [in this city]",
+				"Sell [MiniCake HideGk Aero] buildings [in this city]",
+				"Sell [MiniCake HideGk Nuke] buildings [in this city]",
+				"Sell [MiniCake HideGk Gman] buildings [in this city]",
+				"Sell [MiniCake HideGk Rest] buildings [in this city]",
+				"Sell [MiniCake HideGk Roof] buildings [in this city]",
+
+				"Sell [MiniCake HideGk Main] buildings [in this city]",
+
+				"Gain a free [MiniCake ShowGk Land] [in this city]",
+				"Gain a free [MiniCake ShowGk Navy] [in this city]",
+				"Gain a free [MiniCake ShowGk Aero] [in this city]",
+				"Gain a free [MiniCake ShowGk Nuke] [in this city]",
+				"Gain a free [MiniCake ShowGk Gman] [in this city]",
+				"Gain a free [MiniCake ShowGk Rest] [in this city]",
+				"Gain a free [MiniCake ShowGk Roof] [in this city]",
+
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
 
+	{
+		"name": "MiniCake HideGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+				"Gain a free [MiniCake HideGk Land] [in this city]",
+				"Gain a free [MiniCake HideGk Navy] [in this city]",
+				"Gain a free [MiniCake HideGk Aero] [in this city]",
+				"Gain a free [MiniCake HideGk Nuke] [in this city]",
+				"Gain a free [MiniCake HideGk Gman] [in this city]",
+				"Gain a free [MiniCake HideGk Rest] [in this city]",
+				"Gain a free [MiniCake HideGk Roof] [in this city]",
+
+				"Sell [MiniCake ShowGk Main] buildings [in this city]",
+
+				"Sell [MiniCake ShowGk Land] buildings [in this city]",
+				"Sell [MiniCake ShowGk Navy] buildings [in this city]",
+				"Sell [MiniCake ShowGk Aero] buildings [in this city]",
+				"Sell [MiniCake ShowGk Nuke] buildings [in this city]",
+				"Sell [MiniCake ShowGk Gman] buildings [in this city]",
+				"Sell [MiniCake ShowGk Rest] buildings [in this city]",
+				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
+
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
@@ -6294,7 +6224,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Checkeri",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6322,7 +6252,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Missile",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6347,7 +6277,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Air",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6375,7 +6305,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Navy",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6400,7 +6330,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Fleet Land",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6426,7 +6356,7 @@
 
 	{
 		"name": "MiniCake Spawn Fleet Civilian",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6453,7 +6383,7 @@
 	},
 	{
 		"name": "MiniCake Spawn NukA Missile",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6476,7 +6406,7 @@
 	},
 	{
 		"name": "MiniCake Spawn Great People",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"requiredBuilding": "MiniCake DNS Lock",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6807,7 +6737,7 @@
 
 	{
 		"name": "TechHumanCheat",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6847,7 +6777,7 @@
 
 	{
 		"name": "EnemaCheat",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -7989,14 +7919,14 @@
 
 	{
 		"name": "Minicake Enable AI Diplomacy",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
     			"Discover [Enable AI Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
 
-				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Tech Main]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8008,13 +7938,13 @@
 	},
 
 	{
-		"name": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Tech Main]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8027,8 +7957,8 @@
 	},
 
     {
-		"name": "MiniCake DNS Vault Building 1 Ancient",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 1 Ancient",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8044,7 +7974,7 @@
 				"Gain a free [E1 Circus] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8055,8 +7985,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 2 Classical",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 2 Classical",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8073,7 +8003,7 @@
 				"Gain a free [E2 Aqueduct] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8084,8 +8014,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 3 Medieval",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 3 Medieval",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8099,7 +8029,7 @@
 				"Gain a free [E3 Armory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8110,8 +8040,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 4 Renaissance",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 4 Renaissance",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8127,7 +8057,7 @@
 				"Gain a free [E4 Arsenal] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8138,8 +8068,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 5 Industrial",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 5 Industrial",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8155,7 +8085,7 @@
 				"Gain a free [E5 Police Station] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8166,8 +8096,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 6 Modern",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 6 Modern",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8179,7 +8109,7 @@
 				"Gain a free [E6 Research Lab] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8190,8 +8120,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 7 Atomic",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 7 Atomic",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8203,7 +8133,7 @@
 				"Gain a free [E7 Nuclear Plant] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8214,8 +8144,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 8 Information",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 8 Information",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8225,7 +8155,7 @@
 				"Gain a free [E8 Spaceship Factory] [in this city]",
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8236,8 +8166,8 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake DNS Vault Building 9 Future",
-		"requiredBuilding": "MiniCake DNS Vault Building",
+		"name": "MiniCake DNS Lock Building 9 Future",
+		"requiredBuilding": "MiniCake DNS Lock Building",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -8246,7 +8176,7 @@
 
 
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault Building]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Lock Building]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8281,20 +8211,20 @@
 
 
 	{
-		"name": "MiniCake Automate Building",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Human Automate Building",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities] <during the [Ancient era]>",
-        		"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities] <during the [Classical era]>",
-        		"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities] <during the [Medieval era]>",
-        		"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
-        		"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities] <during the [Industrial era]>",
-        		"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities] <during the [Modern era]>",
-        		"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities] <during the [Atomic era]>",
-        		"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities] <during the [Information era]>",
+        		"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities] <during the [Ancient era]>",
+        		"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities] <during the [Classical era]>",
+        		"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities] <during the [Medieval era]>",
+        		"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
+        		"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities] <during the [Industrial era]>",
+        		"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities] <during the [Modern era]>",
+        		"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities] <during the [Atomic era]>",
+        		"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities] <during the [Information era]>",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8309,67 +8239,67 @@
 	},
 
 	{
-		"name": "MiniCake Automate Wonder",
+		"name": "MiniCake Automate All Wonder",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 
-        		"Gain a free [E2 Circus Maximus] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
-        		"Gain a free [E3 Grand Temple] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 National Treasury] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Oxford University] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Ironworks] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E4 Hermitage] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E6 National Intelligence Agency] [in this city]<during the [Modern era]>",
-        //			"Gain a free [E7 Manhattan Project] [in this city]<during the [Atomic era]>",
-        //			"Gain a free [E7 Apollo Program] [in this city]<during the [Atomic era]>",
-        //			"Gain a free [A01 Utopia Project] [in this city]",
-        
-        		"Gain a free [E1 Temple of Artemis] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Stonehenge] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 The Great Library] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 The Pyramids] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Statue of Zeus] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E2 The Great Lighthouse] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Hanging Gardens] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Terracotta Army] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 The Oracle] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Petra] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Great Wall] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Colossus] [in this city]<during the [Classical era]>",
-        		"Gain a free [E3 Hagia Sophia] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Great Mosque of Djenne] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Chichen Itza] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Machu Picchu] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Angkor Wat] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Alhambra] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Notre Dame] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E4 Sistine Chapel] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Forbidden Palace] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Leaning Tower of Pisa] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Himeji Castle] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Taj Mahal] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Porcelain Tower] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Kremlin] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E5 The Louvre] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E5 Big Ben] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E5 Brandenburg Gate] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E6 Eiffel Tower] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Statue of Liberty] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Neuschwanstein] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Cristo Redentor] [in this city]<during the [Modern era]>",
-        		"Gain a free [E7 Pentagon] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E7 Sydney Opera House] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E7 Great Firewall] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E8 CN Tower] [in this city]<during the [Future era]>",
-        		"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
-        //			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
+			"Gain a free [E2 Circus Maximus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
+			"Gain a free [E3 Grand Temple] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 National Treasury] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Oxford University] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Ironworks] [in this city]<during the [Medieval era]>",
+			"Gain a free [E4 Hermitage] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E6 National Intelligence Agency] [in this city]<during the [Modern era]>",
+//			"Gain a free [E7 Manhattan Project] [in this city]<during the [Atomic era]>",
+//			"Gain a free [E7 Apollo Program] [in this city]<during the [Atomic era]>",
+//			"Gain a free [A01 Utopia Project] [in this city]",
+
+			"Gain a free [E1 Temple of Artemis] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Stonehenge] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 The Great Library] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 The Pyramids] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E1 Statue of Zeus] [in this city]<during the [Ancient era]>",
+			"Gain a free [E2 The Great Lighthouse] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Hanging Gardens] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Terracotta Army] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 The Oracle] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Petra] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Great Wall] [in this city]<during the [Classical era]>",
+			"Gain a free [E2 Colossus] [in this city]<during the [Classical era]>",
+			"Gain a free [E3 Hagia Sophia] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Great Mosque of Djenne] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Chichen Itza] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Machu Picchu] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Angkor Wat] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Alhambra] [in this city]<during the [Medieval era]>",
+			"Gain a free [E3 Notre Dame] [in this city]<during the [Medieval era]>",
+			"Gain a free [E4 Sistine Chapel] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Forbidden Palace] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Leaning Tower of Pisa] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Himeji Castle] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Taj Mahal] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Porcelain Tower] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E4 Kremlin] [in this city]<during the [Renaissance era]>",
+			"Gain a free [E5 The Louvre] [in this city]<during the [Industrial era]>",
+			"Gain a free [E5 Big Ben] [in this city]<during the [Industrial era]>",
+			"Gain a free [E5 Brandenburg Gate] [in this city]<during the [Industrial era]>",
+			"Gain a free [E6 Eiffel Tower] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Statue of Liberty] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Neuschwanstein] [in this city]<during the [Modern era]>",
+			"Gain a free [E6 Cristo Redentor] [in this city]<during the [Modern era]>",
+			"Gain a free [E7 Pentagon] [in this city]<during the [Atomic era]>",
+			"Gain a free [E7 Sydney Opera House] [in this city]<during the [Atomic era]>",
+			"Gain a free [E7 Great Firewall] [in this city]<during the [Atomic era]>",
+			"Gain a free [E8 CN Tower] [in this city]<during the [Future era]>",
+			"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
+//			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8410,7 +8340,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Comment [Enable gk for AI]",
+			"Comment [Enable Unit gk for AI]",
 
 			"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 
@@ -8426,13 +8356,13 @@
 
 	{
 		"name": "EnemaGkEnabler",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 
-			"Gain a free [MiniCake ShowGk Aall] [in this city]",
+			"Gain a free [MiniCake ShowGk Main] [in this city]",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -8473,12 +8403,12 @@
 //xsa//Human Inhibitor
 	{
 		"name": "MiniCake HumanAdvanceEra Main",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Tech Main]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -8500,7 +8430,7 @@
 
 			"Gain a free [1 HumanInhibitorEra Ancient] [in this city]",
 			"Gain a free [1 HumanTechEra Ancient] [in this city]",
-			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8526,8 +8456,8 @@
 			"Gain a free [1 HumanTechEra Ancient] [in this city]",
 			"Gain a free [2 HumanTechEra Classical] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8553,8 +8483,8 @@
 			"Gain a free [2 HumanTechEra Classical] [in this city]",
 			"Gain a free [3 HumanTechEra Medieval] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8580,8 +8510,8 @@
 			"Gain a free [3 HumanTechEra Medieval] [in this city]",
 			"Gain a free [4 HumanTechEra Renaissance] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8607,8 +8537,8 @@
 			"Gain a free [4 HumanTechEra Renaissance] [in this city]",
 			"Gain a free [5 HumanTechEra Industrial] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8634,8 +8564,8 @@
 			"Gain a free [5 HumanTechEra Industrial] [in this city]",
 			"Gain a free [6 HumanTechEra Modern] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8661,8 +8591,8 @@
 			"Gain a free [6 HumanTechEra Modern] [in this city]",
 			"Gain a free [7 HumanTechEra Atomic] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
 
 
 			"Unbuildable <hidden from users>",
@@ -8689,8 +8619,8 @@
 			"Gain a free [7 HumanTechEra Atomic] [in this city]",
 			"Gain a free [8 HumanTechEra Information] [in this city]",
 
-			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8712,9 +8642,9 @@
 
 			"Gain a free [8 HumanInhibitorEra Information] [in this city]",
 			"Gain a free [8 HumanTechEra Information] [in this city]",
-			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
+			"Gain a free [MiniCake DNS Lock Building 8 Information] [in all cities]",
 
-			"Gain a free [MiniCake DNS Vault Building 9 Future] [in this city]",
+			"Gain a free [MiniCake DNS Lock Building 9 Future] [in this city]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -8730,12 +8660,12 @@
 //xsa//Human Tech
 	{
 		"name": "1 HumanTechEra Ancient",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [Human player] Civilizations>",
 			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [Human player] Civilizations>",
@@ -8762,12 +8692,12 @@
 	},
 	{
 		"name": "2 HumanTechEra Classical",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [Human player] Civilizations>",
 			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [Human player] Civilizations>",
@@ -8792,12 +8722,12 @@
 	},
 	{
 		"name": "3 HumanTechEra Medieval",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [Human player] Civilizations>",
 			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [Human player] Civilizations>",
@@ -8823,12 +8753,12 @@
 	},
 	{
 		"name": "4 HumanTechEra Renaissance",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [Human player] Civilizations>",
 			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [Human player] Civilizations>",
@@ -8854,12 +8784,12 @@
 	},
 	{
 		"name": "5 HumanTechEra Industrial",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
 			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [Human player] Civilizations>",
 			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [Human player] Civilizations>",
@@ -8885,12 +8815,12 @@
 	},
 	{
 		"name": "6 HumanTechEra Modern",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
 			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [Human player] Civilizations>",
 			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [Human player] Civilizations>",
@@ -8915,12 +8845,12 @@
 	},
 	{
 		"name": "7 HumanTechEra Atomic",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
 			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [Human player] Civilizations>",
 			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]> <for [Human player] Civilizations>",
@@ -8944,12 +8874,12 @@
 	},
 	{
 		"name": "8 HumanTechEra Information",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
 			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [Human player] Civilizations>",
 			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [Human player] Civilizations>",
@@ -8977,12 +8907,12 @@
 
 	{
 		"name": "9 HumanTechEra Future",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 		"Moves to new capital when capital changes<hidden from users>",
@@ -8994,12 +8924,12 @@
 //xsa//Human Inhibitor
 	{
 		"name": "1 HumanInhibitorEra Ancient",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 //unlock inhibitor
 			"Discover [10 InhibitorEra Ancient] <for [Human player] Civilizations>",
@@ -9028,12 +8958,12 @@
 	},
 	{
 		"name": "2 HumanInhibitorEra Classical",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 //unlock inhibitor
 			"Discover [20 InhibitorEra Classical] <for [Human player] Civilizations>",
@@ -9062,12 +8992,12 @@
 	},
 	{
 		"name": "3 HumanInhibitorEra Medieval",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 //unlock inhibitor
 			"Discover [30 InhibitorEra Medieval] <for [Human player] Civilizations>",
@@ -9096,12 +9026,12 @@
 	},
 	{
 		"name": "4 HumanInhibitorEra Renaissance",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 //unlock inhibitor
 			"Discover [40 InhibitorEra Renaissance] <for [Human player] Civilizations>",
@@ -9130,12 +9060,12 @@
 	},
 	{
 		"name": "5 HumanInhibitorEra Industrial",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
 //unlock inhibitor
 			"Discover [50 InhibitorEra Industrial] <for [Human player] Civilizations>",
@@ -9164,12 +9094,12 @@
 	},
 	{
 		"name": "6 HumanInhibitorEra Modern",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
 //unlock inhibitor
 			"Discover [60 InhibitorEra Modern] <for [Human player] Civilizations>",
@@ -9198,12 +9128,12 @@
 	},
 	{
 		"name": "7 HumanInhibitorEra Atomic",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
 //unlock inhibitor
 			"Discover [70 InhibitorEra Atomic] <for [Human player] Civilizations>",
@@ -9232,12 +9162,12 @@
 	},
 	{
 		"name": "8 HumanInhibitorEra Information",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
 //unlock inhibitor
 			"Discover [80 InhibitorEra Information] <for [Human player] Civilizations>",
@@ -9266,12 +9196,12 @@
 	},
 	{
 		"name": "9 HumanInhibitorEra Future",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era9
 //unlock inhibitor
 //unlock slower
@@ -9338,12 +9268,12 @@
 //xsa//Enema Inhibitor
 	{
 		"name": "MiniCake EnemaAdvanceEra Main",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault Tech Main]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -9572,12 +9502,12 @@
 //xsa//Enema Tech
 	{
 		"name": "1 EnemaTechEra Ancient",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 			"Discover [E1 Pottery]<before discovering [E1 Pottery]> <for [AI player] Civilizations>",
 			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]> <for [AI player] Civilizations>",
@@ -9604,12 +9534,12 @@
 	},
 	{
 		"name": "2 EnemaTechEra Classical",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 			"Discover [E2 Optics]<before discovering [E2 Optics]> <for [AI player] Civilizations>",
 			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]> <for [AI player] Civilizations>",
@@ -9634,12 +9564,12 @@
 	},
 	{
 		"name": "3 EnemaTechEra Medieval",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 			"Discover [E3 Theology]<before discovering [E3 Theology]> <for [AI player] Civilizations>",
 			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]> <for [AI player] Civilizations>",
@@ -9665,12 +9595,12 @@
 	},
 	{
 		"name": "4 EnemaTechEra Renaissance",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]> <for [AI player] Civilizations>",
 			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]> <for [AI player] Civilizations>",
@@ -9696,12 +9626,12 @@
 	},
 	{
 		"name": "5 EnemaTechEra Industrial",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
 			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]> <for [AI player] Civilizations>",
 			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]> <for [AI player] Civilizations>",
@@ -9727,12 +9657,12 @@
 	},
 	{
 		"name": "6 EnemaTechEra Modern",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
 			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]> <for [AI player] Civilizations>",
 			"Discover [E6 Radio]<before discovering [E6 Radio]> <for [AI player] Civilizations>",
@@ -9757,12 +9687,12 @@
 	},
 	{
 		"name": "7 EnemaTechEra Atomic",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
 			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]> <for [AI player] Civilizations>",
 			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]> <for [AI player] Civilizations>",
@@ -9786,12 +9716,12 @@
 	},
 	{
 		"name": "8 EnemaTechEra Information",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
 			"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]> <for [AI player] Civilizations>",
 			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]> <for [AI player] Civilizations>",
@@ -9819,12 +9749,12 @@
 
 	{
 		"name": "9 EnemaTechEra Future",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 		"Moves to new capital when capital changes<hidden from users>",
@@ -9837,13 +9767,13 @@
 //xsa//Enema Inhibitor
 	{
 		"name": "1 EnemaInhibitorEra Ancient",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri1] units appear",
-//			"Only available  <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available  <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era1
 //unlock inhibitor
 			"Discover [10 InhibitorEra Ancient] <for [AI player] Civilizations>",
@@ -9875,13 +9805,13 @@
 	},
 	{
 		"name": "2 EnemaInhibitorEra Classical",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri2] units appear",
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era2
 //unlock inhibitor
 			"Discover [20 InhibitorEra Classical] <for [AI player] Civilizations>",
@@ -9913,13 +9843,13 @@
 	},
 	{
 		"name": "3 EnemaInhibitorEra Medieval",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri3] units appear",
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era3
 //unlock inhibitor
 			"Discover [30 InhibitorEra Medieval] <for [AI player] Civilizations>",
@@ -9951,13 +9881,13 @@
 	},
 	{
 		"name": "4 EnemaInhibitorEra Renaissance",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri4] units appear",
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era4
 //unlock inhibitor
 			"Discover [40 InhibitorEra Renaissance] <for [AI player] Civilizations>",
@@ -9989,14 +9919,14 @@
 	},
 	{
 		"name": "5 EnemaInhibitorEra Industrial",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri5] units appear",
 
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era5
 //unlock inhibitor
 			"Discover [50 InhibitorEra Industrial] <for [AI player] Civilizations>",
@@ -10028,14 +9958,14 @@
 	},
 	{
 		"name": "6 EnemaInhibitorEra Modern",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri6] units appear",
 
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era6
 
 //unlock inhibitor
@@ -10068,14 +9998,14 @@
 	},
 	{
 		"name": "7 EnemaInhibitorEra Atomic",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri7] units appear",
 
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era7
 //unlock inhibitor
 			"Discover [70 InhibitorEra Atomic] <for [AI player] Civilizations>",
@@ -10107,14 +10037,14 @@
 	},
 	{
 		"name": "8 EnemaInhibitorEra Information",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 			"[1] free [DNS Checkeri8] units appear",
 
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era8
 
 //unlock inhibitor
@@ -10148,12 +10078,12 @@
 
 	{
 		"name": "9 EnemaInhibitorEra Future",
-//		"requiredBuilding": "MiniCake DNS Vault Tech",
+//		"requiredBuilding": "MiniCake DNS Vault Tech Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech Main]><hidden from users>",
 //era9
 //unlock inhibitor
 //unlock slower
@@ -10207,12 +10137,12 @@
 
 	{
 		"name": "Adopt Policy Start",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po01 Tradition]<before adopting [Po01 Tradition]>",
 			"Adopt [Po02 Liberty]<before adopting [Po02 Liberty]>",
 			"Adopt [Po03 Honor]<before adopting [Po03 Honor]>",
@@ -10233,12 +10163,12 @@
 
 	{
 		"name": "Adopt P01 Tradition",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po01 Tradition]<before adopting [Po01 Tradition]>",
 			"Adopt [Po01 Aristocracy]<before adopting [Po01 Aristocracy]>",
 			"Adopt [Po01 Legalism]<before adopting [Po01 Legalism]>",
@@ -10254,12 +10184,12 @@
 	},
 	{
 		"name": "Adopt P02 Liberty",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po02 Liberty]<before adopting [Po02 Liberty]>",
 			"Adopt [Po02 Republic]<before adopting [Po02 Republic]>",
 			"Adopt [Po02 Citizenship]<before adopting [Po02 Citizenship]>",
@@ -10275,12 +10205,12 @@
 	},
 	{
 		"name": "Adopt P03 Honor",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
     	"Adopt [Po03 Honor]<before adopting [Po03 Honor]>",
 			"Adopt [Po03 Warrior Code]<before adopting [Po03 Warrior Code]>",
 			"Adopt [Po03 Discipline]<before adopting [Po03 Discipline]>",
@@ -10296,12 +10226,12 @@
 	},
 	{
 		"name": "Adopt P04 Piety",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po04 Piety]<before adopting [Po04 Piety]>",
 			"Adopt [Po04 Organized Religion]<before adopting [Po04 Organized Religion]>",
 			"Adopt [Po04 Mandate Of Heaven]<before adopting [Po04 Mandate Of Heaven]>",
@@ -10317,12 +10247,12 @@
 	},
 	{
 		"name": "Adopt P05 Patronage",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po05 Patronage]<before adopting [Po05 Patronage]>",
 			"Adopt [Po05 Philantropy]<before adopting [Po05 Philantropy]>",
 			"Adopt [Po05 Aesthetics]<before adopting [Po05 Aesthetics]>",
@@ -10338,12 +10268,12 @@
 	},
 	{
 		"name": "Adopt P06 Commerce",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po06 Commerce]<before adopting [Po06 Commerce]>",
 			"Adopt [Po06 Naval Tradition]<before adopting [Po06 Naval Tradition]>",
 			"Adopt [Po06 Trade Unions]<before adopting [Po06 Trade Unions]>",
@@ -10359,12 +10289,12 @@
 	},
 	{
 		"name": "Adopt P07 Rationalism",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po07 Rationalism]<before adopting [Po07 Rationalism]>",
 			"Adopt [Po07 Secularism]<before adopting [Po07 Secularism]>",
 			"Adopt [Po07 Humanism]<before adopting [Po07 Humanism]>",
@@ -10380,12 +10310,12 @@
 	},
 	{
 		"name": "Adopt P08 Freedom",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po08 Freedom]<before adopting [Po08 Freedom]>",
 			"Adopt [Po08 Constitution]<before adopting [Po08 Constitution]>",
 			"Adopt [Po08 Universal Suffrage]<before adopting [Po08 Universal Suffrage]>",
@@ -10402,12 +10332,12 @@
 	},
 	{
 		"name": "Adopt P09 Autocracy",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po09 Autocracy]<before adopting [Po09 Autocracy]>",
 			"Adopt [Po09 Populism]<before adopting [Po09 Populism]>",
 			"Adopt [Po09 Militarism]<before adopting [Po09 Militarism]>",
@@ -10423,12 +10353,12 @@
 	},
 	{
 		"name": "Adopt P10 Order",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po10 Order]<before adopting [Po10 Order]>",
 			"Adopt [Po10 United Front]<before adopting [Po10 United Front]>",
 			"Adopt [Po10 Planned Economy]<before adopting [Po10 Planned Economy]>",
@@ -10447,12 +10377,12 @@
 
 	{
 		"name": "Adopt Policy Complete",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"requiredBuilding": "MiniCake DNS Vault Policy Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+			"Only available <in cities with a [MiniCake DNS Vault Policy Main]>",
 			"Adopt [Po01 Tradition Complete]<before adopting [Po01 Tradition Complete]>",
 			"Adopt [Po02 Liberty Complete]<before adopting [Po02 Liberty Complete]>",
 			"Adopt [Po03 Honor Complete]<before adopting [Po03 Honor Complete]>",
@@ -10470,33 +10400,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-	{
-		"name": "Adopt Policy Aall",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
 
-			"Gain a free [Adopt P01 Tradition] [in this city]",
-			"Gain a free [Adopt P02 Liberty] [in this city]",
-			"Gain a free [Adopt P03 Honor] [in this city]",
-			"Gain a free [Adopt P04 Piety] [in this city]",
-			"Gain a free [Adopt P05 Patronage] [in this city]",
-			"Gain a free [Adopt P06 Commerce] [in this city]",
-			"Gain a free [Adopt P07 Rationalism] [in this city]",
-			"Gain a free [Adopt P08 Freedom] [in this city]",
-			"Gain a free [Adopt P09 Autocracy] [in this city]",
-			"Gain a free [Adopt P10 Order] [in this city]",
-			"Gain a free [Adopt Policy Complete] [in this city]",
-
-			"Unbuildable <hidden from users>",
-		"Moves to new capital when capital changes<hidden from users>",
-		"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
 
 
 
@@ -10798,16 +10702,19 @@ MiniCake DNS Vault
 
 MiniCake Challenges
 MiniCake Wonder
-MiniCake TrueCity
 MiniCake FakeCity
+MiniCake TrueCity
 
 MiniCake UCheat
-MiniCake DNS Vault Tech
+MiniCake DNS Vault Tech Main
 MiniCake DNS Vault Policy
+MiniCake DNS Vault Unit ************************ removed
 
 MiniCake FreeSeal
 MiniCake HackTown
-MiniCake DNS Vault
+MiniCake DNS Lock
+MiniCake DNS Lock Unit
+MiniCake DNS Lock Unit
 
 MiniCake Capitol Booster
 MiniCake Cities Booster
@@ -10817,16 +10724,17 @@ HackTown Capitol Cripple Religion
 HackTown Cities Cripple Religion
 HackTown City State
 
-MiniCake DNS Vault Building
-MiniCake DNS Vault Building 1 Ancient
-MiniCake DNS Vault Building 2 Classical
-MiniCake DNS Vault Building 3 Medieval
-MiniCake DNS Vault Building 4 Renaissance
-MiniCake DNS Vault Building 5 Industrial
-MiniCake DNS Vault Building 6 Modern
-MiniCake DNS Vault Building 7 Atomic
-MiniCake DNS Vault Building 8 Information
+MiniCake DNS Lock Building
+MiniCake DNS Lock Building 1 Ancient
+MiniCake DNS Lock Building 2 Classical
+MiniCake DNS Lock Building 3 Medieval
+MiniCake DNS Lock Building 4 Renaissance
+MiniCake DNS Lock Building 5 Industrial
+MiniCake DNS Lock Building 6 Modern
+MiniCake DNS Lock Building 7 Atomic
+MiniCake DNS Lock Building 8 Information
 
+MiniCake DNS Vault Tech Main
 
 Suez Canal Company
 Panama Canal Company
@@ -10901,31 +10809,22 @@ FakePoint - Great Merchant
 FakeCity - Undertable District
 FakeCity - Everyday Lab
 
+MiniCake DNS Open Aero
+MiniCake DNS Open Land
+MiniCake DNS Open Navy
+MiniCake DNS Open Nuke
+MiniCake DNS Open Gman
+MiniCake DNS Open Rest
 
-MiniCake Open Main
-MiniCake Lock Main
-MiniCake Open Aall
-MiniCake Lock Aall
+MiniCake DNS Lock Aero
+MiniCake DNS Lock Land
+MiniCake DNS Lock Navy
+MiniCake DNS Lock Nuke
+MiniCake DNS Lock Gman
+MiniCake DNS Lock Rest
 
-MiniCake Open Land
-MiniCake Open Navy
-MiniCake Open Aero
-MiniCake Open Nuke
-MiniCake Open Gman
-MiniCake Open Rest
-
-MiniCake Lock Land
-MiniCake Lock Navy
-MiniCake Lock Aero
-MiniCake Lock Nuke
-MiniCake Lock Gman
-MiniCake Lock Rest
-
-
-MiniCake ShowGk Main
-MiniCake HideGk Main
-MiniCake ShowGk Aall
-MiniCake HideGk Aall
+MiniCake DNS Aall Unit
+MiniCake DNS Aall Lock
 
 MiniCake ShowGk Land
 MiniCake ShowGk Navy
@@ -10942,6 +10841,9 @@ MiniCake HideGk Nuke
 MiniCake HideGk Gman
 MiniCake HideGk Rest
 MiniCake HideGk Roof
+
+MiniCake ShowGk Main
+MiniCake HideGk Main
 
 MiniCake TestTown
 MiniCake Spawn Fleet Checkeri
@@ -11079,21 +10981,18 @@ MiniCake EnemaAdvanceEra Main
 
 
 
-Adopt Policy Start
-Adopt P01 Tradition
-Adopt P02 Liberty
-Adopt P03 Honor
-Adopt P04 Piety
-Adopt P05 Patronage
-Adopt P06 Commerce
-Adopt P07 Rationalism
-Adopt P08 Freedom
-Adopt P09 Autocracy
-Adopt P10 Order
-Adopt Policy Complete
-Adopt Policy Aall
+Adopt unlock Policy Main
 
-
+Adopt Complete Tradition
+Adopt Complete Liberty
+Adopt Complete Honor
+Adopt Complete Piety
+Adopt Complete Patronage
+Adopt Complete Commerce
+Adopt Complete Rationalism
+Adopt Complete Freedom
+Adopt Complete Autocracy
+Adopt Complete Order
 
 Era1EnemaAnnounce
 Era2EnemaAnnounce
