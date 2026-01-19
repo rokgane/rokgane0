@@ -6711,7 +6711,7 @@
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake Trigger Endgame]> <after discovering [11 FutureTech]><hidden from users>",
+				"Only available <in cities with a [MiniCake Trigger Endgame]> <after discovering [XX FuturaTech]><hidden from users>",
 			    "Triggers victory"
 		],
 		"requiredTech": "TechUnlocker"
@@ -9840,17 +9840,19 @@
 //era9
 //unlock inhibitor
 //unlock slower
-			"Discover [00 FutureTech] <for [Human player] Civilizations>",
-			"Discover [01 FutureTech] <for [Human player] Civilizations>",
-			"Discover [02 FutureTech] <for [Human player] Civilizations>",
-			"Discover [03 FutureTech] <for [Human player] Civilizations>",
-			"Discover [04 FutureTech] <for [Human player] Civilizations>",
-			"Discover [05 FutureTech] <for [Human player] Civilizations>",
-			"Discover [06 FutureTech] <for [Human player] Civilizations>",
-			"Discover [07 FutureTech] <for [Human player] Civilizations>",
-			"Discover [08 FutureTech] <for [Human player] Civilizations>",
-			"Discover [09 FutureTech] <for [Human player] Civilizations>",
-			"Discover [10 FutureTech] <for [Human player] Civilizations>",
+			"Discover [XX FuturaTech] <for [Human player] Civilizations>",
+			"Discover [E9 Future Tech] <for [Human player] Civilizations>",
+			"Discover [9X FutureTech] <for [Human player] Civilizations>",
+			"Discover [99 FutureTech] <for [Human player] Civilizations>",
+			"Discover [98 FutureTech] <for [Human player] Civilizations>",
+			"Discover [97 FutureTech] <for [Human player] Civilizations>",
+			"Discover [96 FutureTech] <for [Human player] Civilizations>",
+			"Discover [95 FutureTech] <for [Human player] Civilizations>",
+			"Discover [94 FutureTech] <for [Human player] Civilizations>",
+			"Discover [93 FutureTech] <for [Human player] Civilizations>",
+			"Discover [92 FutureTech] <for [Human player] Civilizations>",
+			"Discover [91 FutureTech] <for [Human player] Civilizations>",
+			"Discover [90 FutureTech] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10725,17 +10727,19 @@
 //era9
 //unlock inhibitor
 //unlock slower
-			"Discover [00 FutureTech] <for [AI player] Civilizations>",
-			"Discover [01 FutureTech] <for [AI player] Civilizations>",
-			"Discover [02 FutureTech] <for [AI player] Civilizations>",
-			"Discover [03 FutureTech] <for [AI player] Civilizations>",
-			"Discover [04 FutureTech] <for [AI player] Civilizations>",
-			"Discover [05 FutureTech] <for [AI player] Civilizations>",
-			"Discover [06 FutureTech] <for [AI player] Civilizations>",
-			"Discover [07 FutureTech] <for [AI player] Civilizations>",
-			"Discover [08 FutureTech] <for [AI player] Civilizations>",
-			"Discover [09 FutureTech] <for [AI player] Civilizations>",
-			"Discover [10 FutureTech] <for [AI player] Civilizations>",
+			"Discover [XX FuturaTech] <for [Human player] Civilizations>",
+			"Discover [E9 Future Tech] <for [Human player] Civilizations>",
+			"Discover [9X FutureTech] <for [Human player] Civilizations>",
+			"Discover [99 FutureTech] <for [Human player] Civilizations>",
+			"Discover [98 FutureTech] <for [Human player] Civilizations>",
+			"Discover [97 FutureTech] <for [Human player] Civilizations>",
+			"Discover [96 FutureTech] <for [Human player] Civilizations>",
+			"Discover [95 FutureTech] <for [Human player] Civilizations>",
+			"Discover [94 FutureTech] <for [Human player] Civilizations>",
+			"Discover [93 FutureTech] <for [Human player] Civilizations>",
+			"Discover [92 FutureTech] <for [Human player] Civilizations>",
+			"Discover [91 FutureTech] <for [Human player] Civilizations>",
+			"Discover [90 FutureTech] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
