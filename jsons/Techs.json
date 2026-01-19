@@ -2697,7 +2697,68 @@
 					]
 			},
 		]
+	},
+
+	{
+		"columnNumber": 36,//xtc35
+		"era": "Future era",
+		"techCost": 9500,//xtc35Cost
+		"buildingCost": 750,//xtc35Cost
+		"wonderCost": 1250,//xtc35Cost
+		"techs": [
+			{//xsa//KosongZero
+				"name": "KosongZero0001",
+				"row": 0,//21,
+				"quote": "'0001 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0002",
+				"row": 0,//21,
+				"quote": "'0002 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0003",
+				"row": 0,//21,
+				"quote": "'0003 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0004",
+				"row": 0,//21,
+				"quote": "'0004 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0005",
+				"row": 0,//21,
+				"quote": "'0005 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0006",
+				"row": 0,//21,
+				"quote": "'0006 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0007",
+				"row": 0,//21,
+				"quote": "'0007 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0008",
+				"row": 0,//21,
+				"quote": "'0008 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0009",
+				"row": 0,//21,
+				"quote": "'0009 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+			{//xsa//KosongZero
+				"name": "KosongZero0010",
+				"row": 0,//21,
+				"quote": "'0010 Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao"
+			},
+		]
 	}
+
 ]
 
 
