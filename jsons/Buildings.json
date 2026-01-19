@@ -1806,6 +1806,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 //xsa//classical era E3 Harbor
 	
 /*
@@ -1878,6 +1889,8 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
+
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
@@ -2361,9 +2374,9 @@
 		        "Population loss from nuclear attacks [-50]% [in this city]",
 	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
-				"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Only available <for [Human player] Civilizations><hidden from users>",
 				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
-				"Automatically built in all cities where it is buildable<after discovering [TechUnlocker]><hidden from users>",
+				"Automatically built in all cities where it is buildable<hidden from users>",
 
 				"Gain a free [MiniCake DNS Vault] [in this city]",
 
@@ -2467,7 +2480,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 	{
-		"name": "MiniCake FakeCity",
+		"name": "MiniCake TrueCity",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -2483,7 +2496,7 @@
 		"requiredTech": "TechUnlocker"
 	},	
 	{
-		"name": "MiniCake TrueCity",
+		"name": "MiniCake FakeCity",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2519,7 +2532,7 @@
 	},
 
 	{
-		"name": "MiniCake DNS Vault Tech Main",
+		"name": "MiniCake DNS Vault Tech",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2537,7 +2550,7 @@
 	},	
 
 	{
-		"name": "MiniCake DNS Vault Policy Main",
+		"name": "MiniCake DNS Vault Policy",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -2612,67 +2625,11 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},	
-    {
-		"name": "MiniCake DNS Lock",
-		"requiredBuilding": "MiniCake DNS Vault",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
 
-    {
-		"name": "MiniCake DNS Lock Unit",
-		"requiredBuilding": "MiniCake DNS Lock",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
 
-				"Gain a free [MiniCake DNS Lock Unit] [in this city]",
 
-//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
 
-    {
-		"name": "MiniCake DNS Lock Unit",
-		"requiredBuilding": "MiniCake DNS Lock",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-//				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake DNS Lock]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
+
 
 
 
@@ -4582,241 +4539,6 @@
 
 
 
-	{
-		"name": "FakeCity - Population",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100] population [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Food",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Food] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Gold",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Gold] [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Science",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Science] [in this city]",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Production",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Production] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Cultural",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Culture] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Happiness",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Happiness] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Faith",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+100]% [Faith] [in this city]", 
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Unit Experience",
-		"gold": 1,
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"New [Military] units start with [9999] XP [in this city]"
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>",
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - City Defense",
-		"gold": 1,
-		"cityStrength": 1000,
-		"cityHealth": 500000,
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-		        "Population loss from nuclear attacks [-50]% [in this city]",
-	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
-				"[+100]% City Strength from defensive buildings",
-				"[+100]% Strength for cities",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Scientist",
-		"greatPersonPoints": {"E0 Great Scientist": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Engineer",
-		"greatPersonPoints": {"E0 Great Engineer": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Artist",
-		"greatPersonPoints": {"E0 Great Artist": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakePoint - Great Merchant",
-		"greatPersonPoints": {"E0 Great Merchant": 100},
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "FakeCity - Undertable District",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[-75]% Gold cost of acquiring tiles [in all cities]",
-		    	"[-75]% Gold cost of upgrading <for [Military] units>",
-		    	"[-75]% Gold cost of upgrading <for [Civilian] units>",
-
-				"[Gold] cost of purchasing items in cities [-99]%",
-				"[Gold] cost of purchasing [All] buildings [-99]%",
-				"[Gold] cost of purchasing [All] units [-99]%",
-				
-				"[Culture] cost of purchasing items in cities [-99]%",
-				"[Culture] cost of purchasing [All] buildings [-99]%",
-				"[Culture] cost of purchasing [All] units [-99]%",
-	
-				"[Faith] cost of purchasing items in cities [-99]%",
-				"[Faith] cost of purchasing [All] buildings [-99]%",
-				"[Faith] cost of purchasing [All] units [-99]%",
-
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-	    		"Can only be built <in [in capital] cities> <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-	{
-		"name": "FakeCity - Everyday Lab",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 1,
-		"uniques": [
-				"[+2] Movement <for [All] units>",
-				"[+1] Sight <for [All] units>", 
-				"[+1] Sight <for [{Military} {Water}] units>", 
-				"[+50]% Strength <for [All] units>",
-				"[+50]% to Flank Attack bonuses",
-				"[+50]% XP gained from combat",
-				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Can only be built <in [in capital] cities> <hidden from users>",
-    			"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -5179,6 +4901,252 @@
 		"requiredTech": "TechUnlocker"
 	},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "FakeCity - Population",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100] population [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Food",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Food] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Gold",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Gold] [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Science",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Science] [in this city]",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Production",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Production] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Cultural",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Culture] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Happiness",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Happiness] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Faith",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100]% [Faith] [in this city]", 
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Unit Experience",
+		"gold": 1,
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"New [Military] units start with [9999] XP [in this city]"
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - City Defense",
+		"gold": 1,
+		"cityStrength": 1000,
+		"cityHealth": 500000,
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+		        "Population loss from nuclear attacks [-50]% [in this city]",
+	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
+				"[+100]% City Strength from defensive buildings",
+				"[+100]% Strength for cities",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Scientist",
+		"greatPersonPoints": {"E0 Great Scientist": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Engineer",
+		"greatPersonPoints": {"E0 Great Engineer": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Artist",
+		"greatPersonPoints": {"E0 Great Artist": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakePoint - Great Merchant",
+		"greatPersonPoints": {"E0 Great Merchant": 100},
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "FakeCity - Undertable District",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[-75]% Gold cost of acquiring tiles [in all cities]",
+		    	"[-75]% Gold cost of upgrading <for [Military] units>",
+		    	"[-75]% Gold cost of upgrading <for [Civilian] units>",
+
+				"[Gold] cost of purchasing items in cities [-99]%",
+				"[Gold] cost of purchasing [All] buildings [-99]%",
+				"[Gold] cost of purchasing [All] units [-99]%",
+				
+				"[Culture] cost of purchasing items in cities [-99]%",
+				"[Culture] cost of purchasing [All] buildings [-99]%",
+				"[Culture] cost of purchasing [All] units [-99]%",
+	
+				"[Faith] cost of purchasing items in cities [-99]%",
+				"[Faith] cost of purchasing [All] buildings [-99]%",
+				"[Faith] cost of purchasing [All] units [-99]%",
+
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+	    		"Can only be built <in [in capital] cities> <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "FakeCity - Everyday Lab",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+2] Movement <for [All] units>",
+				"[+1] Sight <for [All] units>", 
+				"[+1] Sight <for [{Military} {Water}] units>", 
+				"[+50]% Strength <for [All] units>",
+				"[+50]% to Flank Attack bonuses",
+				"[+50]% XP gained from combat",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Can only be built <in [in capital] cities> <hidden from users>",
+    			"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
