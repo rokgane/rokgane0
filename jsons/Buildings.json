@@ -5477,72 +5477,34 @@
 
 
 
+
+
     {
-		"name": "MiniCake DNS Aall Unit",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Open Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
-				"Gain a free [MiniCake DNS Open Aero] [in this city]",
-				"Gain a free [MiniCake DNS Open Land] [in this city]",
-				"Gain a free [MiniCake DNS Open Navy] [in this city]",
-				"Gain a free [MiniCake DNS Open Nuke] [in this city]",
-				"Gain a free [MiniCake DNS Open Gman] [in this city]",
-				"Gain a free [MiniCake DNS Open Rest] [in this city]",
-
-				"Sell [MiniCake DNS Lock Aero] buildings [in this city]",
-				"Sell [MiniCake DNS Lock Land] buildings [in this city]",
-				"Sell [MiniCake DNS Lock Navy] buildings [in this city]",
-				"Sell [MiniCake DNS Lock Nuke] buildings [in this city]",
-				"Sell [MiniCake DNS Lock Gman] buildings [in this city]",
-				"Sell [MiniCake DNS Lock Rest] buildings [in this city]",
-
-				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
-//				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
-
-//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
 
 	{
-		"name": "MiniCake DNS Aall Lock",
-		"requiredBuilding": "MiniCake DNS Vault",
+		"name": "MiniCake Lock Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
-				"Gain a free [MiniCake DNS Lock Aero] [in this city]",
-				"Gain a free [MiniCake DNS Lock Land] [in this city]",
-				"Gain a free [MiniCake DNS Lock Navy] [in this city]",
-				"Gain a free [MiniCake DNS Lock Nuke] [in this city]",
-				"Gain a free [MiniCake DNS Lock Gman] [in this city]",
-				"Gain a free [MiniCake DNS Lock Rest] [in this city]",
-
-				"Sell [MiniCake DNS Open Aero] buildings [in this city]",
-				"Sell [MiniCake DNS Open Land] buildings [in this city]",
-				"Sell [MiniCake DNS Open Navy] buildings [in this city]",
-				"Sell [MiniCake DNS Open Nuke] buildings [in this city]",
-				"Sell [MiniCake DNS Open Gman] buildings [in this city]",
-				"Sell [MiniCake DNS Open Rest] buildings [in this city]",
-
-				"Sell [MiniCake DNS Aall Unit] buildings [in this city]",
-//				"Sell [MiniCake DNS Aall Lock] buildings [in this city]",
-
-		        "Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -5551,34 +5513,33 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-		"name": "MiniCake ShowGk Roof",
-		"requiredBuilding": "MiniCake HideGk Main",
+	{
+		"name": "MiniCake Open Aall",
+		"requiredBuilding": "MiniCake Open Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake ShowGk Main]> <hidden from users>",
-				"Sell [MiniCake HideGk Roof] buildings [in this city]",
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+
+				"Sell [MiniCake Lock Land] buildings [in this city]",
+				"Sell [MiniCake Lock Navy] buildings [in this city]",
+				"Sell [MiniCake Lock Aero] buildings [in this city]",
+				"Sell [MiniCake Lock Nuke] buildings [in this city]",
+				"Sell [MiniCake Lock Gman] buildings [in this city]",
+				"Sell [MiniCake Lock Rest] buildings [in this city]",
+
+//				"Sell [MiniCake Lock Main] buildings [in this city]",
+
+				"Sell [MiniCake Open Aall] buildings [in this city]",
+
+				"Gain a free [MiniCake Open Land] [in this city]",
+				"Gain a free [MiniCake Open Navy] [in this city]",
+				"Gain a free [MiniCake Open Aero] [in this city]",
+				"Gain a free [MiniCake Open Nuke] [in this city]",
+				"Gain a free [MiniCake Open Gman] [in this city]",
+				"Gain a free [MiniCake Open Rest] [in this city]",
+
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -5591,14 +5552,32 @@
 		"requiredTech": "TechUnlocker"
 	},
     {
-		"name": "MiniCake HideGk Roof",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"name": "MiniCake Lock Aall",
+		"requiredBuilding": "MiniCake Lock Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake HideGk Main]> <hidden from users>",
-				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+
+				"Gain a free [MiniCake Lock Land] [in this city]",
+				"Gain a free [MiniCake Lock Navy] [in this city]",
+				"Gain a free [MiniCake Lock Aero] [in this city]",
+				"Gain a free [MiniCake Lock Nuke] [in this city]",
+				"Gain a free [MiniCake Lock Gman] [in this city]",
+				"Gain a free [MiniCake Lock Rest] [in this city]",
+
+//				"Sell [MiniCake Open Main] buildings [in this city]",
+
+				"Sell [MiniCake Lock Aall] buildings [in this city]",
+
+				"Sell [MiniCake Open Land] buildings [in this city]",
+				"Sell [MiniCake Open Navy] buildings [in this city]",
+				"Sell [MiniCake Open Aero] buildings [in this city]",
+				"Sell [MiniCake Open Nuke] buildings [in this city]",
+				"Sell [MiniCake Open Gman] buildings [in this city]",
+				"Sell [MiniCake Open Rest] buildings [in this city]",
+
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -5610,6 +5589,437 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "MiniCake Open Land",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Land] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Open Navy",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Navy] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake Open Aero",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Aero] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Open Nuke",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Nuke] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Open Gman",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Gman] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake Open Rest",
+		"requiredBuilding": "MiniCake Open Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Open Main]> <hidden from users>",
+				"Sell [MiniCake Lock Rest] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name": "MiniCake Lock Land",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Land] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Lock Navy",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Navy] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Lock Aero",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Aero] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Lock Nuke",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Nuke] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+	{
+		"name": "MiniCake Lock Gman",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Gman] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake Lock Rest",
+		"requiredBuilding": "MiniCake Lock Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake Lock Main]> <hidden from users>",
+				"Sell [MiniCake Open Rest] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		"name": "MiniCake ShowGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake HideGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake ShowGk Aall",
+		"requiredBuilding": "MiniCake ShowGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake ShowGk Main]> <hidden from users>",
+
+				"Sell [MiniCake HideGk Land] buildings [in this city]",
+				"Sell [MiniCake HideGk Navy] buildings [in this city]",
+				"Sell [MiniCake HideGk Aero] buildings [in this city]",
+				"Sell [MiniCake HideGk Nuke] buildings [in this city]",
+				"Sell [MiniCake HideGk Gman] buildings [in this city]",
+				"Sell [MiniCake HideGk Rest] buildings [in this city]",
+				"Sell [MiniCake HideGk Roof] buildings [in this city]",
+
+//				"Sell [MiniCake HideGk Main] buildings [in this city]",
+
+				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
+
+				"Gain a free [MiniCake ShowGk Land] [in this city]",
+				"Gain a free [MiniCake ShowGk Navy] [in this city]",
+				"Gain a free [MiniCake ShowGk Aero] [in this city]",
+				"Gain a free [MiniCake ShowGk Nuke] [in this city]",
+				"Gain a free [MiniCake ShowGk Gman] [in this city]",
+				"Gain a free [MiniCake ShowGk Rest] [in this city]",
+				"Gain a free [MiniCake ShowGk Roof] [in this city]",
+
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+    {
+		"name": "MiniCake HideGk Aall",
+		"requiredBuilding": "MiniCake HideGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake HideGk Main]> <hidden from users>",
+
+				"Gain a free [MiniCake HideGk Land] [in this city]",
+				"Gain a free [MiniCake HideGk Navy] [in this city]",
+				"Gain a free [MiniCake HideGk Aero] [in this city]",
+				"Gain a free [MiniCake HideGk Nuke] [in this city]",
+				"Gain a free [MiniCake HideGk Gman] [in this city]",
+				"Gain a free [MiniCake HideGk Rest] [in this city]",
+				"Gain a free [MiniCake HideGk Roof] [in this city]",
+
+//				"Sell [MiniCake ShowGk Main] buildings [in this city]",
+
+				"Sell [MiniCake HideGk Aall] buildings [in this city]",
+
+				"Sell [MiniCake ShowGk Land] buildings [in this city]",
+				"Sell [MiniCake ShowGk Navy] buildings [in this city]",
+				"Sell [MiniCake ShowGk Aero] buildings [in this city]",
+				"Sell [MiniCake ShowGk Nuke] buildings [in this city]",
+				"Sell [MiniCake ShowGk Gman] buildings [in this city]",
+				"Sell [MiniCake ShowGk Rest] buildings [in this city]",
+				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
+
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
 
 
 
@@ -5634,7 +6044,7 @@
 
 	{
 		"name": "MiniCake ShowGk Land",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5654,7 +6064,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Navy",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5674,7 +6084,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Aero",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5694,7 +6104,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Nuke",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5714,7 +6124,7 @@
 	},
 	{
 		"name": "MiniCake ShowGk Gman",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5734,7 +6144,7 @@
 	},
     {
 		"name": "MiniCake ShowGk Rest",
-		"requiredBuilding": "MiniCake HideGk Main",
+		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -5753,6 +6163,26 @@
 		"requiredTech": "TechUnlocker"
 	},
 
+    {
+		"name": "MiniCake ShowGk Roof",
+		"requiredBuilding": "MiniCake ShowGk Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Only available <in cities with a [MiniCake ShowGk Main]> <hidden from users>",
+				"Sell [MiniCake HideGk Roof] buildings [in this city]",
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
@@ -5896,96 +6326,28 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
-		"name": "MiniCake ShowGk Main",
+		"name": "MiniCake HideGk Roof",
+		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
-				"Sell [MiniCake HideGk Land] buildings [in this city]",
-				"Sell [MiniCake HideGk Navy] buildings [in this city]",
-				"Sell [MiniCake HideGk Aero] buildings [in this city]",
-				"Sell [MiniCake HideGk Nuke] buildings [in this city]",
-				"Sell [MiniCake HideGk Gman] buildings [in this city]",
-				"Sell [MiniCake HideGk Rest] buildings [in this city]",
-				"Sell [MiniCake HideGk Roof] buildings [in this city]",
-
-				"Sell [MiniCake HideGk Main] buildings [in this city]",
-
-				"Gain a free [MiniCake ShowGk Land] [in this city]",
-				"Gain a free [MiniCake ShowGk Navy] [in this city]",
-				"Gain a free [MiniCake ShowGk Aero] [in this city]",
-				"Gain a free [MiniCake ShowGk Nuke] [in this city]",
-				"Gain a free [MiniCake ShowGk Gman] [in this city]",
-				"Gain a free [MiniCake ShowGk Rest] [in this city]",
-				"Gain a free [MiniCake ShowGk Roof] [in this city]",
-
-				"Unbuildable <hidden from users>",
-				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
-		"requiredTech": "TechUnlocker"
-	},
-
-	{
-		"name": "MiniCake HideGk Main",
-		"cost": 1,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-
-				"Gain a free [MiniCake HideGk Land] [in this city]",
-				"Gain a free [MiniCake HideGk Navy] [in this city]",
-				"Gain a free [MiniCake HideGk Aero] [in this city]",
-				"Gain a free [MiniCake HideGk Nuke] [in this city]",
-				"Gain a free [MiniCake HideGk Gman] [in this city]",
-				"Gain a free [MiniCake HideGk Rest] [in this city]",
-				"Gain a free [MiniCake HideGk Roof] [in this city]",
-
-				"Sell [MiniCake ShowGk Main] buildings [in this city]",
-
-				"Sell [MiniCake ShowGk Land] buildings [in this city]",
-				"Sell [MiniCake ShowGk Navy] buildings [in this city]",
-				"Sell [MiniCake ShowGk Aero] buildings [in this city]",
-				"Sell [MiniCake ShowGk Nuke] buildings [in this city]",
-				"Sell [MiniCake ShowGk Gman] buildings [in this city]",
-				"Sell [MiniCake ShowGk Rest] buildings [in this city]",
+				"Only available <in cities with a [MiniCake HideGk Main]> <hidden from users>",
 				"Sell [MiniCake ShowGk Roof] buildings [in this city]",
-
+//				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+//				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
+
+
 
 
 
