@@ -5214,7 +5214,7 @@
 
 //				"Sell [MiniCake Lock Main] buildings [in this city]",
 
-				"Sell [MiniCake Open Aall] buildings [in this city]",
+				"Sell [MiniCake Lock Aall] buildings [in this city]",
 
 				"Gain a free [MiniCake Open Land] [in this city]",
 				"Gain a free [MiniCake Open Navy] [in this city]",
@@ -5251,7 +5251,7 @@
 
 //				"Sell [MiniCake Open Main] buildings [in this city]",
 
-				"Sell [MiniCake Lock Aall] buildings [in this city]",
+				"Sell [MiniCake Open Aall] buildings [in this city]",
 
 				"Sell [MiniCake Open Land] buildings [in this city]",
 				"Sell [MiniCake Open Navy] buildings [in this city]",
@@ -5630,7 +5630,7 @@
 
 //				"Sell [MiniCake HideGk Main] buildings [in this city]",
 
-				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
+				"Sell [MiniCake HideGk Aall] buildings [in this city]",
 
 				"Gain a free [MiniCake ShowGk Land] [in this city]",
 				"Gain a free [MiniCake ShowGk Navy] [in this city]",
@@ -5669,7 +5669,7 @@
 
 //				"Sell [MiniCake ShowGk Main] buildings [in this city]",
 
-				"Sell [MiniCake HideGk Aall] buildings [in this city]",
+				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
 
 				"Sell [MiniCake ShowGk Land] buildings [in this city]",
 				"Sell [MiniCake ShowGk Navy] buildings [in this city]",
@@ -8784,12 +8784,14 @@
 				"Gain a free [E4 Satrap's Court] [in all cities]<during the [Renaissance era]>",
 				"Gain a free [E4 Coffee House] [in all cities]<during the [Renaissance era]>",
 
-				"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
 			],
 		"requiredTech": "TechUnlocker"
 	},	
@@ -8802,7 +8804,7 @@
 		"maintenance": 0,
 		"uniques": [
 
-        		"Gain a free [E2 Circus Maximus] [in this city]<during the [Ancient era]>",
+        		"Gain a free [E2 Circus Maximus] [in this city]<during the [Classical era]>",
         		"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
         		"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
         		"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
