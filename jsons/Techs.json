@@ -1694,9 +1694,9 @@ Mixed   techgk   techgk   slower   slower
 				"name": "11 TechSlowerEraAncient",
 				"row": 25,
 				"prerequisites": [
-				    "11 TechMirrorEraAncient",
+				    "11 TechMirrorEraAncient"/*,
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "11 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1709,9 +1709,9 @@ Mixed   techgk   techgk   slower   slower
 				"name": "12 TechSlowerEraAncient",
 				"row": 26,
 				"prerequisites": [
-				    "11 TechSlowerEraAncient",
+				    "11 TechSlowerEraAncient"/*,
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "12 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1724,11 +1724,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "13 TechSlowerEraAncient",
 				"row": 27,
 				"prerequisites": [
-				    "13 TechMirrorEraAncient",
+				    "13 TechMirrorEraAncient"/*,
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "13 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1741,11 +1741,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "14 TechSlowerEraAncient",
 				"row": 28,
 				"prerequisites": [
-				    "13 TechSlowerEraAncient",
+				    "13 TechSlowerEraAncient"/*,
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "14 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1758,13 +1758,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "15 TechSlowerEraAncient",
 				"row": 29,
 				"prerequisites": [
-				    "15 TechMirrorEraAncient",
+				    "15 TechMirrorEraAncient"/*,
 				    "14 TechSlowerEraAncient",
 				    "13 TechSlowerEraAncient",
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "15 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1777,13 +1777,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "16 TechSlowerEraAncient",
 				"row": 30,
 				"prerequisites": [
-				    "15 TechSlowerEraAncient",
+				    "15 TechSlowerEraAncient"/*,
 				    "14 TechSlowerEraAncient",
 				    "13 TechSlowerEraAncient",
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "16 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1796,7 +1796,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "17 TechSlowerEraAncient",
 				"row": 31,
 				"prerequisites": [
-				    "17 TechMirrorEraAncient",
+				    "17 TechMirrorEraAncient"/*,
 				    "16 TechSlowerEraAncient",
 				    "15 TechSlowerEraAncient",
 				    "14 TechSlowerEraAncient",
@@ -1804,7 +1804,7 @@ Mixed   techgk   techgk   slower   slower
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "17 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1817,7 +1817,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "18 TechSlowerEraAncient",
 				"row": 32,
 				"prerequisites": [
-				    "17 TechSlowerEraAncient",
+				    "17 TechSlowerEraAncient"/*,
 				    "16 TechSlowerEraAncient",
 				    "15 TechSlowerEraAncient",
 				    "14 TechSlowerEraAncient",
@@ -1825,7 +1825,7 @@ Mixed   techgk   techgk   slower   slower
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "18 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
@@ -1838,7 +1838,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "19 TechSlowerEraAncient",
 				"row": 33,
 				"prerequisites": [
-				    "19 TechMirrorEraAncient",
+				    "19 TechMirrorEraAncient"/*,
 				    "18 TechSlowerEraAncient",
 				    "17 TechSlowerEraAncient",
 				    "16 TechSlowerEraAncient",
@@ -1848,7 +1848,7 @@ Mixed   techgk   techgk   slower   slower
 				    "12 TechSlowerEraAncient",
 				    "11 TechSlowerEraAncient",
 				    "10 TechSlowerEraAncient",
-				    "10 InhibitorEra Ancient"
+				    "10 InhibitorEra Ancient"*/
 				],
 				"quote": "19 Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
