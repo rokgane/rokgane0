@@ -9547,6 +9547,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"Discover [E9 Future Tech] <for [Human player] Civilizations>",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9566,20 +9568,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era1
-//unlock inhibitor
 			"Discover [10 InhibitorEra Ancient] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [10 TechOpenedEraAncient] <for [Human player] Civilizations>",
 			"Discover [10 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [11 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [12 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [13 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [14 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [15 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [16 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [17 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [18 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [19 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [1X TechSlowerEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechMirrorEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechClonedEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechKosongEraAncient] <for [Human player] Civilizations>",
+
+			"Discover [10 TechClozedEraAncient0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9600,20 +9598,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era2
-//unlock inhibitor
 			"Discover [20 InhibitorEra Classical] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [20 TechOpenedEraClassical] <for [Human player] Civilizations>",
 			"Discover [20 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [21 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [22 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [23 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [24 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [25 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [26 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [27 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [28 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [29 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [2X TechSlowerEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechMirrorEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechClonedEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechKosongEraClassical] <for [Human player] Civilizations>",
+
+			"Discover [20 TechClozedEraClassical0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9634,20 +9628,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era3
-//unlock inhibitor
 			"Discover [30 InhibitorEra Medieval] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [30 TechOpenedEraMedieval] <for [Human player] Civilizations>",
 			"Discover [30 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [31 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [32 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [33 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [34 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [35 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [36 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [37 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [38 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [39 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [3X TechSlowerEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechMirrorEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechClonedEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechKosongEraMedieval] <for [Human player] Civilizations>",
+
+			"Discover [30 TechClozedEraMedieval0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9668,20 +9658,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era4
-//unlock inhibitor
 			"Discover [40 InhibitorEra Renaissance] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [40 TechOpenedEraRenaissance] <for [Human player] Civilizations>",
 			"Discover [40 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [41 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [42 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [43 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [44 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [45 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [46 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [47 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [48 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [49 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [4X TechSlowerEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechMirrorEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechClonedEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechKosongEraRenaissance] <for [Human player] Civilizations>",
+
+			"Discover [40 TechClozedEraRenaissance0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9702,20 +9688,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era5
-//unlock inhibitor
 			"Discover [50 InhibitorEra Industrial] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [50 TechOpenedEraIndustrial] <for [Human player] Civilizations>",
 			"Discover [50 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [51 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [52 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [53 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [54 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [55 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [56 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [57 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [58 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [59 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [5X TechSlowerEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechMirrorEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechClonedEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechKosongEraIndustrial] <for [Human player] Civilizations>",
+
+			"Discover [50 TechClozedEraIndustrial0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9736,20 +9718,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era6
-//unlock inhibitor
 			"Discover [60 InhibitorEra Modern] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [60 TechOpenedEraModern] <for [Human player] Civilizations>",
 			"Discover [60 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [61 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [62 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [63 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [64 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [65 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [66 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [67 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [68 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [69 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [6X TechSlowerEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechMirrorEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechClonedEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechKosongEraModern] <for [Human player] Civilizations>",
+
+			"Discover [60 TechClozedEraModern0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9770,20 +9748,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era7
-//unlock inhibitor
 			"Discover [70 InhibitorEra Atomic] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [70 TechOpenedEraAtomic] <for [Human player] Civilizations>",
 			"Discover [70 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [71 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [72 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [73 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [74 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [75 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [76 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [77 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [78 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [79 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [7X TechSlowerEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechMirrorEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechClonedEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechKosongEraAtomic] <for [Human player] Civilizations>",
+
+			"Discover [70 TechClozedEraAtomic0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9804,20 +9778,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era8
-//unlock inhibitor
 			"Discover [80 InhibitorEra Information] <for [Human player] Civilizations>",
-//unlock slower
+
+			"Discover [80 TechOpenedEraInformation] <for [Human player] Civilizations>",
 			"Discover [80 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [81 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [82 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [83 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [84 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [85 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [86 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [87 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [88 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [89 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [8X TechSlowerEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechMirrorEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechClonedEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechKosongEraInformation] <for [Human player] Civilizations>",
+
+			"Discover [80 TechClozedEraInformation0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9838,21 +9808,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era9
-//unlock inhibitor
-//unlock slower
-			"Discover [XX FuturaTech] <for [Human player] Civilizations>",
-			"Discover [E9 Future Tech] <for [Human player] Civilizations>",
-			"Discover [9X FutureTech] <for [Human player] Civilizations>",
-			"Discover [99 FutureTech] <for [Human player] Civilizations>",
-			"Discover [98 FutureTech] <for [Human player] Civilizations>",
-			"Discover [97 FutureTech] <for [Human player] Civilizations>",
-			"Discover [96 FutureTech] <for [Human player] Civilizations>",
-			"Discover [95 FutureTech] <for [Human player] Civilizations>",
-			"Discover [94 FutureTech] <for [Human player] Civilizations>",
-			"Discover [93 FutureTech] <for [Human player] Civilizations>",
-			"Discover [92 FutureTech] <for [Human player] Civilizations>",
-			"Discover [91 FutureTech] <for [Human player] Civilizations>",
-			"Discover [90 FutureTech] <for [Human player] Civilizations>",
+			"Discover [90 InhibitorEra Future] <for [Human player] Civilizations>",
+
+			"Discover [90 TechOpenedEraFuture] <for [Human player] Civilizations>",
+			"Discover [90 TechSlowerEraFuture] <for [Human player] Civilizations>",
+			"Discover [90 TechMirrorEraFuture] <for [Human player] Civilizations>",
+			"Discover [90 TechClonedEraFuture] <for [Human player] Civilizations>",
+			"Discover [90 TechKosongEraFuture] <for [Human player] Civilizations>",
+
+			"Discover [90 TechClozedEraFuture0] <for [Human player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10391,6 +10356,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+			"Discover [E9 Future Tech] <for [AI player] Civilizations>",
+
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10415,20 +10382,16 @@
 			"[1] free [DNS Checkeri1] units appear",
 //			"Only available  <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era1
-//unlock inhibitor
 			"Discover [10 InhibitorEra Ancient] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [10 TechOpenedEraAncient] <for [AI player] Civilizations>",
 			"Discover [10 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [11 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [12 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [13 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [14 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [15 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [16 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [17 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [18 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [19 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [1X TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechMirrorEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechClonedEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechKosongEraAncient] <for [AI player] Civilizations>",
+
+			"Discover [10 TechClozedEraAncient0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10453,20 +10416,16 @@
 			"[1] free [DNS Checkeri2] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era2
-//unlock inhibitor
 			"Discover [20 InhibitorEra Classical] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [20 TechOpenedEraClassical] <for [AI player] Civilizations>",
 			"Discover [20 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [21 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [22 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [23 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [24 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [25 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [26 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [27 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [28 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [29 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [2X TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechMirrorEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechClonedEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechKosongEraClassical] <for [AI player] Civilizations>",
+
+			"Discover [20 TechClozedEraClassical0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10491,20 +10450,16 @@
 			"[1] free [DNS Checkeri3] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era3
-//unlock inhibitor
 			"Discover [30 InhibitorEra Medieval] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [30 TechOpenedEraMedieval] <for [AI player] Civilizations>",
 			"Discover [30 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [31 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [32 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [33 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [34 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [35 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [36 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [37 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [38 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [39 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [3X TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechMirrorEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechClonedEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechKosongEraMedieval] <for [AI player] Civilizations>",
+
+			"Discover [30 TechClozedEraMedieval0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10529,20 +10484,16 @@
 			"[1] free [DNS Checkeri4] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era4
-//unlock inhibitor
 			"Discover [40 InhibitorEra Renaissance] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [40 TechOpenedEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [40 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [41 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [42 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [43 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [44 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [45 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [46 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [47 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [48 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [49 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [4X TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechMirrorEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechClonedEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechKosongEraRenaissance] <for [AI player] Civilizations>",
+
+			"Discover [40 TechClozedEraRenaissance0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10568,20 +10519,16 @@
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era5
-//unlock inhibitor
 			"Discover [50 InhibitorEra Industrial] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [50 TechOpenedEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [50 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [51 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [52 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [53 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [54 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [55 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [56 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [57 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [58 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [59 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [5X TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechMirrorEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechClonedEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechKosongEraIndustrial] <for [AI player] Civilizations>",
+
+			"Discover [50 TechClozedEraIndustrial0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10607,21 +10554,16 @@
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era6
-
-//unlock inhibitor
 			"Discover [60 InhibitorEra Modern] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [60 TechOpenedEraModern] <for [AI player] Civilizations>",
 			"Discover [60 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [61 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [62 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [63 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [64 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [65 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [66 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [67 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [68 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [69 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [6X TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechMirrorEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechClonedEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechKosongEraModern] <for [AI player] Civilizations>",
+
+			"Discover [60 TechClozedEraModern0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10647,20 +10589,16 @@
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era7
-//unlock inhibitor
 			"Discover [70 InhibitorEra Atomic] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [70 TechOpenedEraAtomic] <for [AI player] Civilizations>",
 			"Discover [70 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [71 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [72 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [73 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [74 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [75 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [76 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [77 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [78 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [79 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [7X TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechMirrorEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechClonedEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechKosongEraAtomic] <for [AI player] Civilizations>",
+
+			"Discover [70 TechClozedEraAtomic0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10686,21 +10624,16 @@
 
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era8
-
-//unlock inhibitor
 			"Discover [80 InhibitorEra Information] <for [AI player] Civilizations>",
-//unlock slower
+
+			"Discover [80 TechOpenedEraInformation] <for [AI player] Civilizations>",
 			"Discover [80 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [81 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [82 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [83 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [84 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [85 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [86 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [87 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [88 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [89 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [8X TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechMirrorEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechClonedEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechKosongEraInformation] <for [AI player] Civilizations>",
+
+			"Discover [80 TechClozedEraInformation0] <for [AI player] Civilizations>",
+
 
 			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10725,21 +10658,16 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era9
-//unlock inhibitor
-//unlock slower
-			"Discover [XX FuturaTech] <for [Human player] Civilizations>",
-			"Discover [E9 Future Tech] <for [Human player] Civilizations>",
-			"Discover [9X FutureTech] <for [Human player] Civilizations>",
-			"Discover [99 FutureTech] <for [Human player] Civilizations>",
-			"Discover [98 FutureTech] <for [Human player] Civilizations>",
-			"Discover [97 FutureTech] <for [Human player] Civilizations>",
-			"Discover [96 FutureTech] <for [Human player] Civilizations>",
-			"Discover [95 FutureTech] <for [Human player] Civilizations>",
-			"Discover [94 FutureTech] <for [Human player] Civilizations>",
-			"Discover [93 FutureTech] <for [Human player] Civilizations>",
-			"Discover [92 FutureTech] <for [Human player] Civilizations>",
-			"Discover [91 FutureTech] <for [Human player] Civilizations>",
-			"Discover [90 FutureTech] <for [Human player] Civilizations>",
+			"Discover [90 InhibitorEra Future] <for [AI player] Civilizations>",
+
+			"Discover [90 TechOpenedEraFuture] <for [AI player] Civilizations>",
+			"Discover [90 TechSlowerEraFuture] <for [AI player] Civilizations>",
+			"Discover [90 TechMirrorEraFuture] <for [AI player] Civilizations>",
+			"Discover [90 TechClonedEraFuture] <for [AI player] Civilizations>",
+			"Discover [90 TechKosongEraFuture] <for [AI player] Civilizations>",
+
+			"Discover [90 TechClozedEraFuture0] <for [AI player] Civilizations>",
+
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",

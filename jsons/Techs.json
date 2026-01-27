@@ -938,6 +938,24 @@ Mixed   techgk   techgk   slower   slower
 //					"Only available <before discovering [E1 Agriculture]>"
 				]
 			},
+
+			{
+				"name": "9X FutureTech",
+				"row": 23,
+				"prerequisites": [
+				    "90 FutureTech"
+				],
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions"
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+
+
 			{
 				"name": "XX FuturaTech",
 				"row": 23,
@@ -1050,7 +1068,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},
+			}
 		]
 	},
 
@@ -1062,6 +1080,7 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 75,//zgv06Cost
 		"wonderCost": 185,//zgv06Cost
 		"techs": [
+
 			{
 				"name": "1X TechClozedEraAncient",
 				"row": 23,
@@ -1071,6 +1090,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
+				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1085,16 +1105,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 100,//zgv10Cost
 		"wonderCost": 250,//zgv10Cost
 		"techs": [
+
 			{
-				"name": "2X TechClozedEraClassical",
-				"row": 23,
+				"name": "20 TechOpenedEraClassical",
+				"row": 24,
 				"prerequisites": [
-				    "20 TechClozedEraClassical",
 				    "20 InhibitorEra Classical"
 				],
-				"quote": "2X Classical Tech Slower, slower tech upgrades",
+				"quote": "20 Classical Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechSlowerEraClassical",
+				"row": 25,
+				"prerequisites": [
+				    "20 TechOpenedEraClassical"
+				],
+				"quote": "20 Classical Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechMirrorEraClassical",
+				"row": 26,
+				"prerequisites": [
+				    "20 TechSlowerEraClassical"
+				],
+				"quote": "20 Classical Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechClonedEraClassical",
+				"row": 27,
+				"prerequisites": [
+				    "20 TechMirrorEraClassical"
+				],
+				"quote": "20 Classical Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechKosongEraClassical",
+				"row": 28,
+				"prerequisites": [
+				    "20 TechClonedEraClassical"
+				],
+				"quote": "20 Classical Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1107,16 +1180,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 160,//zgv15Cost
 		"wonderCost": 400,//zgv15Cost
 		"techs": [
+
 			{
-				"name": "3X TechClozedEraMedieval",
-				"row": 23,
+				"name": "30 TechOpenedEraMedieval",
+				"row": 24,
 				"prerequisites": [
-				    "30 TechClozedEraMedieval",
 				    "30 InhibitorEra Medieval"
 				],
-				"quote": "3X Medieval Tech Slower, slower tech upgrades",
+				"quote": "30 Medieval Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechSlowerEraMedieval",
+				"row": 25,
+				"prerequisites": [
+				    "30 TechOpenedEraMedieval"
+				],
+				"quote": "30 Medieval Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechMirrorEraMedieval",
+				"row": 26,
+				"prerequisites": [
+				    "30 TechSlowerEraMedieval"
+				],
+				"quote": "30 Medieval Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechClonedEraMedieval",
+				"row": 27,
+				"prerequisites": [
+				    "30 TechMirrorEraMedieval"
+				],
+				"quote": "30 Medieval Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechKosongEraMedieval",
+				"row": 28,
+				"prerequisites": [
+				    "30 TechClonedEraMedieval"
+				],
+				"quote": "30 Medieval Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1129,16 +1255,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 250,//zgv20Cost
 		"wonderCost": 625,//zgv20Cost
 		"techs": [
+
 			{
-				"name": "4X TechClozedEraRenaissance",
-				"row": 23,
+				"name": "40 TechOpenedEraRenaissance",
+				"row": 24,
 				"prerequisites": [
-				    "40 TechClozedEraRenaissance",
 				    "40 InhibitorEra Renaissance"
 				],
-				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
+				"quote": "40 Renaissance Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechSlowerEraRenaissance",
+				"row": 25,
+				"prerequisites": [
+				    "40 TechOpenedEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechMirrorEraRenaissance",
+				"row": 26,
+				"prerequisites": [
+				    "40 TechSlowerEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechClonedEraRenaissance",
+				"row": 27,
+				"prerequisites": [
+				    "40 TechMirrorEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechKosongEraRenaissance",
+				"row": 28,
+				"prerequisites": [
+				    "40 TechClonedEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1151,16 +1330,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 360,//zgv25Cost
 		"wonderCost": 900,//zgv25Cost
 		"techs": [
+
 			{
-				"name": "5X TechClozedEraIndustrial",
-				"row": 23,
+				"name": "50 TechOpenedEraIndustrial",
+				"row": 24,
 				"prerequisites": [
-				    "50 TechClozedEraIndustrial",
 				    "50 InhibitorEra Industrial"
 				],
-				"quote": "5X Industrial Tech Slower, slower tech upgrades",
+				"quote": "50 Industrial Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechSlowerEraIndustrial",
+				"row": 25,
+				"prerequisites": [
+				    "50 TechOpenedEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechMirrorEraIndustrial",
+				"row": 26,
+				"prerequisites": [
+				    "50 TechSlowerEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechClonedEraIndustrial",
+				"row": 27,
+				"prerequisites": [
+				    "50 TechMirrorEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechKosongEraIndustrial",
+				"row": 28,
+				"prerequisites": [
+				    "50 TechClonedEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1173,16 +1405,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv30Cost
 		"wonderCost": 1250,//zgv30Cost
 		"techs": [
+
 			{
-				"name": "6X TechClozedEraModern",
-				"row": 23,
+				"name": "60 TechOpenedEraModern",
+				"row": 24,
 				"prerequisites": [
-				    "60 TechClozedEraModern",
 				    "60 InhibitorEra Modern"
 				],
-				"quote": "6X Modern Tech Slower, slower tech upgrades",
+				"quote": "60 Modern Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechSlowerEraModern",
+				"row": 25,
+				"prerequisites": [
+				    "60 TechOpenedEraModern"
+				],
+				"quote": "60 Modern Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechMirrorEraModern",
+				"row": 26,
+				"prerequisites": [
+				    "60 TechSlowerEraModern"
+				],
+				"quote": "60 Modern Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechClonedEraModern",
+				"row": 27,
+				"prerequisites": [
+				    "60 TechMirrorEraModern"
+				],
+				"quote": "60 Modern Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechKosongEraModern",
+				"row": 28,
+				"prerequisites": [
+				    "60 TechClonedEraModern"
+				],
+				"quote": "60 Modern Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1195,16 +1480,69 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv35Cost
 		"wonderCost": 1250,//zgv35Cost
 		"techs": [
+
 			{
-				"name": "7X TechClozedEraAtomic",
-				"row": 23,
+				"name": "70 TechOpenedEraAtomic",
+				"row": 24,
 				"prerequisites": [
-				    "70 TechClozedEraAtomic",
 				    "70 InhibitorEra Atomic"
 				],
-				"quote": "7X Atomic Tech Slower, slower tech upgrades",
+				"quote": "70 Atomic Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechSlowerEraAtomic",
+				"row": 25,
+				"prerequisites": [
+				    "70 TechOpenedEraAtomic"
+				],
+				"quote": "70 Atomic Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechMirrorEraAtomic",
+				"row": 26,
+				"prerequisites": [
+				    "70 TechSlowerEraAtomic"
+				],
+				"quote": "70 Atomic Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechClonedEraAtomic",
+				"row": 27,
+				"prerequisites": [
+				    "70 TechMirrorEraAtomic"
+				],
+				"quote": "70 Atomic Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechKosongEraAtomic",
+				"row": 28,
+				"prerequisites": [
+				    "70 TechClonedEraAtomic"
+				],
+				"quote": "70 Atomic Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
@@ -1217,19 +1555,73 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv40Cost
 		"wonderCost": 1250,//zgv40Cost
 		"techs": [
+
 			{
-				"name": "8X TechClozedEraInformation",
-				"row": 23,
+				"name": "80 TechOpenedEraInformation",
+				"row": 24,
 				"prerequisites": [
-				    "80 TechClozedEraInformation",
 				    "80 InhibitorEra Information"
 				],
-				"quote": "8X Information Tech Slower, slower tech upgrades",
+				"quote": "80 Information Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechSlowerEraInformation",
+				"row": 25,
+				"prerequisites": [
+				    "80 TechOpenedEraInformation"
+				],
+				"quote": "80 Information Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechMirrorEraInformation",
+				"row": 26,
+				"prerequisites": [
+				    "80 TechSlowerEraInformation"
+				],
+				"quote": "80 Information Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechClonedEraInformation",
+				"row": 27,
+				"prerequisites": [
+				    "80 TechMirrorEraInformation"
+				],
+				"quote": "80 Information Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechKosongEraInformation",
+				"row": 28,
+				"prerequisites": [
+				    "80 TechClonedEraInformation"
+				],
+				"quote": "80 Information Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
+
 		]
 	},
 
@@ -1243,21 +1635,70 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "9X FutureTech",
-				"row": 23,
+				"name": "90 TechOpenedEraFuture",
+				"row": 24,
 				"prerequisites": [
-				    "90 FutureTech"
+				    "90 InhibitorEra Future"
 				],
+				"quote": "90 Future Tech Opened, Opened tech upgrades",
 				"uniques": [
-					"[-99]% weight to this choice for AI decisions"
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechSlowerEraFuture",
+				"row": 25,
+				"prerequisites": [
+				    "90 TechOpenedEraFuture"
 				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+				"quote": "90 Future Tech Slower, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechMirrorEraFuture",
+				"row": 26,
+				"prerequisites": [
+				    "90 TechSlowerEraFuture"
+				],
+				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechClonedEraFuture",
+				"row": 27,
+				"prerequisites": [
+				    "90 TechMirrorEraFuture"
+				],
+				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechKosongEraFuture",
+				"row": 28,
+				"prerequisites": [
+				    "90 TechClonedEraFuture"
+				],
+				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
-
 
 
 		]
@@ -1362,20 +1803,6 @@ Mixed   techgk   techgk   slower   slower
 
 //zgv04                    "Discover [10 TechClozedEraAncient]"
 //					"[+100]% weight to this choice for AI decisions"
-					]
-			},
-
-			{
-				"name": "10 TechClozedEraAncient",
-				"row": 24,
-				"prerequisites": [
-				    "10 InhibitorEra Ancient"
-				],
-				"quote": "10 Ancient Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 
