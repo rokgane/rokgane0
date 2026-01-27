@@ -994,15 +994,238 @@ Mixed   techgk   techgk   slower   slower
 	},
 
 
+	{
+		"columnNumber": 6,//zgv06
+		"era": "Ancient era",
+		"techCost": 1100,//zgv06Cost
+		"buildingCost": 200,//zgv06Cost
+		"wonderCost": 300,//zgv06Cost
+		"techs": [
+
+			{
+				"name": "1X TechClozedEraAncient",
+				"row": 23,
+				"prerequisites": [
+				    "10 TechKosongEraAncient"
+				],
+				"quote": "1X Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 11,//zgv11
+		"era": "Classical era",
+		"techCost": 2200,//zgv11Cost
+		"buildingCost": 300,//zgv11Cost
+		"wonderCost": 450,//zgv11Cost
+		"techs": [
+
+			{
+				"name": "2X TechClozedEraClassical",
+				"row": 23,
+				"prerequisites": [
+				    "20 TechKosongEraClassical"
+				],
+				"quote": "2X Classical Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 16,//zgv16
+		"era": "Medieval era",
+		"techCost": 3300,//zgv16Cost
+		"buildingCost": 400,//zgv16Cost
+		"wonderCost": 600,//zgv16Cost
+		"techs": [
+
+			{
+				"name": "3X TechClozedEraMedieval",
+				"row": 23,
+				"prerequisites": [
+				    "30 TechKosongEraMedieval"
+				],
+				"quote": "3X Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 21,//zgv21
+		"era": "Renaissance era",
+		"techCost": 4400,//zgv21Cost
+		"buildingCost": 500,//zgv21Cost
+		"wonderCost": 750,//zgv21Cost
+		"techs": [
+
+			{
+				"name": "4X TechClozedEraRenaissance",
+				"row": 23,
+				"prerequisites": [
+				    "40 TechKosongEraRenaissance"
+				],
+				"quote": "4X Renaissance Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 26,//zgv26
+		"era": "Industrial era",
+		"techCost": 5500,//zgv26Cost
+		"buildingCost": 600,//zgv26Cost
+		"wonderCost": 900,//zgv26Cost
+		"techs": [
+
+			{
+				"name": "5X TechClozedEraIndustrial",
+				"row": 23,
+				"prerequisites": [
+				    "50 TechKosongEraIndustrial"
+				],
+				"quote": "5X Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 31,//zgv31
+		"era": "Modern era",
+		"techCost": 6600,//zgv31Cost
+		"buildingCost": 700,//zgv31Cost
+		"wonderCost": 1050,//zgv31Cost
+		"techs": [
+
+			{
+				"name": "6X TechClozedEraModern",
+				"row": 23,
+				"prerequisites": [
+				    "60 TechKosongEraModern"
+				],
+				"quote": "6X Modern Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 36,//zgv36
+		"era": "Atomic era",
+		"techCost": 7700,//zgv36Cost
+		"buildingCost": 800,//zgv36Cost
+		"wonderCost": 1200,//zgv36Cost
+		"techs": [
+
+			{
+				"name": "7X TechClozedEraAtomic",
+				"row": 23,
+				"prerequisites": [
+				    "70 TechKosongEraAtomic"
+				],
+				"quote": "7X Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 41,//zgv41
+		"era": "Information era",
+		"techCost": 8800,//zgv41Cost
+		"buildingCost": 900,//zgv41Cost
+		"wonderCost": 1350,//zgv41Cost
+		"techs": [
+
+			{
+				"name": "8X TechClozedEraInformation",
+				"row": 23,
+				"prerequisites": [
+				    "80 TechKosongEraInformation"
+				],
+				"quote": "8X Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 46,//zgv45
+		"era": "Future era",
+		"techCost": 9900,//zgv45Cost
+		"buildingCost": 1000,//zgv45Cost
+		"wonderCost": 1500,//zgv45Cost
+		"techs": [
+
+			{
+				"name": "9X TechClozedEraFuture",
+				"row": 23,
+				"prerequisites": [
+				    "90 TechKosongEraFuture"
+				],
+				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+
+
+
+
+
+
 
 
 
 	{
 		"columnNumber": 5,//zgv05//xtc04
 		"era": "Ancient era",
-		"techCost": 55,//zgv05Cost
-		"buildingCost": 75,//zgv05Cost
-		"wonderCost": 185,//zgv05Cost
+		"techCost": 1100,//zgv06Cost
+		"buildingCost": 200,//zgv06Cost
+		"wonderCost": 300,//zgv06Cost
 		"techs": [
 			{
 				"name": "10 TechOpenedEraAncient",
@@ -1063,32 +1286,6 @@ Mixed   techgk   techgk   slower   slower
 				    "10 TechClonedEraAncient"
 				],
 				"quote": "10 Ancient Tech Kosong, Kosong tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}
-		]
-	},
-
-
-	{
-		"columnNumber": 6,//zgv06//xtc04
-		"era": "Ancient era",
-		"techCost": 55,//zgv06Cost
-		"buildingCost": 75,//zgv06Cost
-		"wonderCost": 185,//zgv06Cost
-		"techs": [
-
-			{
-				"name": "1X TechClozedEraAncient",
-				"row": 23,
-				"prerequisites": [
-				    "10 TechKosongEraAncient",
-//				    "10 InhibitorEra Ancient"
-				],
-				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions"
