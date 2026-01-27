@@ -955,10 +955,9 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}
 
-
 			{
 				"name": "XX FuturaTech",
-				"row": 23,
+				"row": 22,
 				"prerequisites": ["E9 Future Tech"],
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions"
@@ -985,7 +984,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"uniques": [
 //					"Free Great Person",//xsa//added
-					"Can be continually researched"
+//					"Can be continually researched"
 				],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
@@ -1001,6 +1000,19 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 200,//zgv06Cost
 		"wonderCost": 300,//zgv06Cost
 		"techs": [
+			{
+				"name": "10 TechClozedEraAncient",
+				"row": 24,
+				"prerequisites": [
+				    "10 InhibitorEra Ancient"
+				],
+				"quote": "10 Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "1X TechClozedEraAncient",
@@ -1025,6 +1037,19 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 300,//zgv11Cost
 		"wonderCost": 450,//zgv11Cost
 		"techs": [
+			{
+				"name": "20 TechClozedEraClassical",
+				"row": 24,
+				"prerequisites": [
+				    "20 InhibitorEra Classical"
+				],
+				"quote": "20 Classical Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "2X TechClozedEraClassical",
@@ -1051,6 +1076,20 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "30 TechClozedEraMedieval",
+				"row": 24,
+				"prerequisites": [
+				    "30 InhibitorEra Medieval"
+				],
+				"quote": "30 Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "3X TechClozedEraMedieval",
 				"row": 23,
 				"prerequisites": [
@@ -1073,6 +1112,20 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv21Cost
 		"wonderCost": 750,//zgv21Cost
 		"techs": [
+
+			{
+				"name": "40 TechClozedEraRenaissance",
+				"row": 24,
+				"prerequisites": [
+				    "40 InhibitorEra Renaissance"
+				],
+				"quote": "40 Renaissance Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "4X TechClozedEraRenaissance",
@@ -1099,6 +1152,20 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "50 TechClozedEraIndustrial",
+				"row": 24,
+				"prerequisites": [
+				    "50 InhibitorEra Industrial"
+				],
+				"quote": "50 Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "5X TechClozedEraIndustrial",
 				"row": 23,
 				"prerequisites": [
@@ -1121,6 +1188,20 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 700,//zgv31Cost
 		"wonderCost": 1050,//zgv31Cost
 		"techs": [
+
+			{
+				"name": "60 TechClozedEraModern",
+				"row": 24,
+				"prerequisites": [
+				    "60 InhibitorEra Modern"
+				],
+				"quote": "60 Modern Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "6X TechClozedEraModern",
@@ -1147,6 +1228,20 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "70 TechClozedEraAtomic",
+				"row": 24,
+				"prerequisites": [
+				    "70 InhibitorEra Atomic"
+				],
+				"quote": "70 Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "7X TechClozedEraAtomic",
 				"row": 23,
 				"prerequisites": [
@@ -1171,6 +1266,20 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "80 TechClozedEraInformation",
+				"row": 24,
+				"prerequisites": [
+				    "80 InhibitorEra Information"
+				],
+				"quote": "80 Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "8X TechClozedEraInformation",
 				"row": 23,
 				"prerequisites": [
@@ -1193,6 +1302,20 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 1000,//zgv45Cost
 		"wonderCost": 1500,//zgv45Cost
 		"techs": [
+
+			{
+				"name": "90 TechClozedEraFuture",
+				"row": 24,
+				"prerequisites": [
+				    "90 InhibitorEra Future"
+				],
+				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[-99]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "9X TechClozedEraFuture",
@@ -1832,6 +1955,23 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "90 InhibitorEra Future",
+				"row": 23,
+				"prerequisites": [
+					"E9 Future Tech"
+				],
+				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era9
+        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+
+//zgv43                    "Discover [80 TechClozedEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
 				"name": "90 TechOpenedEraFuture",
 				"row": 24,
 				"prerequisites": [
@@ -2068,19 +2208,6 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "20 TechClozedEraClassical",
-				"row": 24,
-				"prerequisites": [
-				    "20 InhibitorEra Classical"
-				],
-				"quote": "20 Classical Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "Era2UnlockHuman",
@@ -2150,19 +2277,6 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "30 TechClozedEraMedieval",
-				"row": 24,
-				"prerequisites": [
-				    "30 InhibitorEra Medieval"
-				],
-				"quote": "30 Medieval Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "Era3UnlockHuman",
@@ -2228,19 +2342,6 @@ Mixed   techgk   techgk   slower   slower
 
 //zgv19                    "Discover [40 TechClozedEraRenaissance]"
 //					"[+100]% weight to this choice for AI decisions"
-					]
-			},
-			{
-				"name": "40 TechClozedEraRenaissance",
-				"row": 24,
-				"prerequisites": [
-				    "40 InhibitorEra Renaissance"
-				],
-				"quote": "40 Renaissance Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
 
@@ -2329,19 +2430,6 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "50 TechClozedEraIndustrial",
-				"row": 24,
-				"prerequisites": [
-				    "50 InhibitorEra Industrial"
-				],
-				"quote": "50 Industrial Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "Era5UnlockHuman",
@@ -2425,19 +2513,7 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "60 TechClozedEraModern",
-				"row": 24,
-				"prerequisites": [
-				    "60 InhibitorEra Modern"
-				],
-				"quote": "60 Modern Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
+
 			{
 				"name": "Era6UnlockHuman",
 				"row": 34,
@@ -2502,19 +2578,7 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "70 TechClozedEraAtomic",
-				"row": 24,
-				"prerequisites": [
-				    "70 InhibitorEra Atomic"
-				],
-				"quote": "70 Atomic Tech Slower, slower tech upgrades",
-				"uniques": [
-                    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
+
 			{
 				"name": "Era7UnlockHuman",
 				"row": 34,
@@ -2585,19 +2649,6 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 
-			{
-				"name": "80 TechClozedEraInformation",
-				"row": 24,
-				"prerequisites": [
-				    "80 InhibitorEra Information"
-				],
-				"quote": "80 Information Tech Slower, slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 			{
 				"name": "Era8UnlockHuman",
 				"row": 34,
