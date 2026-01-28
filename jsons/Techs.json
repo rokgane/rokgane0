@@ -74,7 +74,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{//xsa//KosongZeroNull
 				"name": "KosongZero0000",
-				"row": 36,//21,
+				"row": 39,//21,
 				"prerequisites": ["KosongZeroNull"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
@@ -85,7 +85,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{//xsa//KosongZeroNull
 				"name": "KosongZeroNull",
-				"row": 37,//21,
+				"row": 40,//21,
 				"prerequisites": ["KosongZeroBase"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
@@ -921,15 +921,15 @@ Mixed   techgk   techgk   slower   slower
 		]
 	},
 	{
-		"columnNumber": 44,//zgv44//xtc35
+		"columnNumber": 45,//zgv45//xtc35
 		"era": "Future era",
-		"techCost": 9500,//zgv44Cost
-		"buildingCost": 750,//zgv44Cost
-		"wonderCost": 1250,//zgv44Cost
+		"techCost": 9500,//zgv45Cost
+		"buildingCost": 750,//zgv45Cost
+		"wonderCost": 1250,//zgv45Cost
 		"techs": [
 			{//xsa//KosongZeroBase
 				"name": "KosongZeroBase",
-				"row": 37,//21,
+				"row": 40,//21,
 				"prerequisites": ["XX FuturaTech"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
@@ -1000,25 +1000,12 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 200,//zgv06Cost
 		"wonderCost": 300,//zgv06Cost
 		"techs": [
-			{
-				"name": "10 TechClozedEraAncient",
-				"row": 24,
-				"prerequisites": [
-				    "10 InhibitorEra Ancient"
-				],
-				"quote": "10 Ancient Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "1X TechClozedEraAncient",
 				"row": 23,
 				"prerequisites": [
-				    "10 TechKosongEraAncient"
+				    "10 TechClozedEraAncient"
 				],
 				"quote": "1X Ancient Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1037,19 +1024,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 300,//zgv11Cost
 		"wonderCost": 450,//zgv11Cost
 		"techs": [
-			{
-				"name": "20 TechClozedEraClassical",
-				"row": 24,
-				"prerequisites": [
-				    "20 InhibitorEra Classical"
-				],
-				"quote": "20 Classical Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "2X TechClozedEraClassical",
@@ -1075,19 +1049,7 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 600,//zgv16Cost
 		"techs": [
 
-			{
-				"name": "30 TechClozedEraMedieval",
-				"row": 24,
-				"prerequisites": [
-				    "30 InhibitorEra Medieval"
-				],
-				"quote": "30 Medieval Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
+
 
 			{
 				"name": "3X TechClozedEraMedieval",
@@ -1112,21 +1074,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv21Cost
 		"wonderCost": 750,//zgv21Cost
 		"techs": [
-
-			{
-				"name": "40 TechClozedEraRenaissance",
-				"row": 24,
-				"prerequisites": [
-				    "40 InhibitorEra Renaissance"
-				],
-				"quote": "40 Renaissance Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
 			{
 				"name": "4X TechClozedEraRenaissance",
 				"row": 23,
@@ -1150,20 +1097,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 600,//zgv26Cost
 		"wonderCost": 900,//zgv26Cost
 		"techs": [
-
-			{
-				"name": "50 TechClozedEraIndustrial",
-				"row": 24,
-				"prerequisites": [
-				    "50 InhibitorEra Industrial"
-				],
-				"quote": "50 Industrial Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "5X TechClozedEraIndustrial",
@@ -1190,20 +1123,6 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "60 TechClozedEraModern",
-				"row": 24,
-				"prerequisites": [
-				    "60 InhibitorEra Modern"
-				],
-				"quote": "60 Modern Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{
 				"name": "6X TechClozedEraModern",
 				"row": 23,
 				"prerequisites": [
@@ -1226,20 +1145,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 800,//zgv36Cost
 		"wonderCost": 1200,//zgv36Cost
 		"techs": [
-
-			{
-				"name": "70 TechClozedEraAtomic",
-				"row": 24,
-				"prerequisites": [
-				    "70 InhibitorEra Atomic"
-				],
-				"quote": "70 Atomic Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-                    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
 
 			{
 				"name": "7X TechClozedEraAtomic",
@@ -1266,20 +1171,6 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "80 TechClozedEraInformation",
-				"row": 24,
-				"prerequisites": [
-				    "80 InhibitorEra Information"
-				],
-				"quote": "80 Information Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[-99]% weight to this choice for AI decisions"
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-
-			{
 				"name": "8X TechClozedEraInformation",
 				"row": 23,
 				"prerequisites": [
@@ -1296,11 +1187,11 @@ Mixed   techgk   techgk   slower   slower
 	},
 
 	{
-		"columnNumber": 46,//zgv45
+		"columnNumber": 44,//zgv44
 		"era": "Future era",
-		"techCost": 9900,//zgv45Cost
-		"buildingCost": 1000,//zgv45Cost
-		"wonderCost": 1500,//zgv45Cost
+		"techCost": 9900,//zgv44Cost
+		"buildingCost": 1000,//zgv44Cost
+		"wonderCost": 1500,//zgv44Cost
 		"techs": [
 
 			{
@@ -1414,7 +1305,21 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			}
+			},
+			{
+				"name": "10 TechClozedEraAncient",
+				"row": 29,
+				"prerequisites": [
+				    "10 TechKosongEraAncient"
+				],
+				"quote": "10 Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
 		]
 	},
 
@@ -1485,6 +1390,19 @@ Mixed   techgk   techgk   slower   slower
 				    "20 TechClonedEraClassical"
 				],
 				"quote": "20 Classical Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechClozedEraClassical",
+				"row": 29,
+				"prerequisites": [
+				    "20 TechKosongEraClassical"
+				],
+				"quote": "20 Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions"
@@ -1565,6 +1483,19 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
+			},
+			{
+				"name": "30 TechClozedEraMedieval",
+				"row": 29,
+				"prerequisites": [
+				    "30 TechKosongEraMedieval"
+				],
+				"quote": "30 Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -1635,6 +1566,19 @@ Mixed   techgk   techgk   slower   slower
 				    "40 TechClonedEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechClozedEraRenaissance",
+				"row": 29,
+				"prerequisites": [
+				    "40 TechKosongEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Clozed, Clozed tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions"
@@ -1715,6 +1659,19 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
+			},
+			{
+				"name": "50 TechClozedEraIndustrial",
+				"row": 29,
+				"prerequisites": [
+				    "50 TechKosongEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -1785,6 +1742,19 @@ Mixed   techgk   techgk   slower   slower
 				    "60 TechClonedEraModern"
 				],
 				"quote": "60 Modern Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechClozedEraModern",
+				"row": 29,
+				"prerequisites": [
+				    "60 TechKosongEraModern"
+				],
+				"quote": "60 Modern Tech Clozed, Clozed tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions"
@@ -1865,6 +1835,19 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
+			},
+			{
+				"name": "70 TechClozedEraAtomic",
+				"row": 29,
+				"prerequisites": [
+				    "70 TechKosongEraAtomic"
+				],
+				"quote": "70 Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+                    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -1940,8 +1923,20 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions"
 //					"[+1000]% Science cost of researching new Technologies"
 					]
+			},
+			{
+				"name": "80 TechClozedEraInformation",
+				"row": 24,
+				"prerequisites": [
+				    "80 TechKosongEraInformation"
+				],
+				"quote": "80 Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions"
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
-
 		]
 	},
 
@@ -1953,23 +1948,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv43Cost
 		"wonderCost": 1250,//zgv43Cost
 		"techs": [
-
-			{
-				"name": "90 InhibitorEra Future",
-				"row": 23,
-				"prerequisites": [
-					"E9 Future Tech"
-				],
-				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-//era9
-        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
-
-//zgv43                    "Discover [80 TechClozedEraInformation]"
-//					"[+100]% weight to this choice for AI decisions"
-					]
-			},
 
 			{
 				"name": "90 TechOpenedEraFuture",
@@ -2048,9 +2026,26 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv42Cost
 		"wonderCost": 1250,//zgv42Cost
 		"techs": [
+			{
+				"name": "90 InhibitorEra Future",
+				"row": 23,
+				"prerequisites": [
+					"E9 Future Tech"
+				],
+				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era9
+        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+
+//zgv43                    "Discover [80 TechClozedEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
 		    {
 				"name": "90 FutureTech",
-				"row": 23,
+				"row": 24,
 				"prerequisites": [
 					"8X TechClozedEraInformation", //xsa//added
 
@@ -2073,7 +2068,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era9UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2083,7 +2078,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era9UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "9X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2145,7 +2140,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era1UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2155,7 +2150,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era1UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2211,7 +2206,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era2UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2221,7 +2216,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era2UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "2X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2280,7 +2275,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era3UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2290,7 +2285,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era3UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "3X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2347,7 +2342,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era4UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2357,7 +2352,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era4UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "4X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2433,7 +2428,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era5UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2443,7 +2438,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era5UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "5X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2516,7 +2511,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era6UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2526,7 +2521,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era6UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "6X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2581,7 +2576,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era7UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2591,7 +2586,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era7UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "7X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2651,7 +2646,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{
 				"name": "Era8UnlockHuman",
-				"row": 34,
+				"row": 37,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
@@ -2661,7 +2656,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era8UnlockEnema",
-				"row": 35,
+				"row": 38,
 				"quote": "8X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
