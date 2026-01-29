@@ -359,27 +359,39 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Optics",
 				"cost": 85,
 				"row": 11,//1,
-				"prerequisites": ["E1 Sailing","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 02"
+				    ],
+//				"prerequisites": ["E1 Sailing","1X TechClozedEraAncient"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
 				"name": "E2 Horseback Riding",
 				"row": 15,//5,
-				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 03"
+				    ],
+//				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "E2 Mathematics",
 				"row": 17,//7,
-				"prerequisites": ["E1 The Wheel","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 04"
+				    ],
+//				"prerequisites": ["E1 The Wheel","1X TechClozedEraAncient"],
 				"quote": "'E2 Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "E2 Construction",
 				"row": 19,//9,
-				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 05"
+				    ],
+//				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},
@@ -407,33 +419,49 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E2 Philosophy",
 				"row": 12,//2,
-				"prerequisites": ["E1 Writing","E1 Calendar","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 02"
+				    ],
+//				"prerequisites": ["E1 Writing","E1 Calendar","1X TechClozedEraAncient"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "E2 Drama and Poetry",
 				"row": 13,//3,
-				"prerequisites": ["E1 Writing","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "10 JesusEra Ancient 02"
+				    ],
+//				"prerequisites": ["E1 Writing","1X TechClozedEraAncient"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
 				"name": "E2 Currency",
 				"row": 17,//7,
-				"prerequisites": ["E2 Mathematics","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "E2 Mathematics",
+				    "10 JesusEra Ancient 03"
+				    ],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "E2 Engineering",
 				"row": 18,//8,
-				"prerequisites": ["E2 Mathematics","E2 Construction","1X TechClozedEraAncient"],
+				"prerequisites": [
+				    "E2 Mathematics",
+				    "E2 Construction",
+				    "10 JesusEra Ancient 04"
+				    ],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
 				"name": "E2 Iron Working",
 				"row": 20,//10,
-				"prerequisites": ["E1 Bronze Working","1X TechClozedEraAncient"],
+				"prerequisites": [
+//				    "E1 Bronze Working",
+				    "10 JesusEra Ancient 05"
+				    ],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			},
@@ -461,13 +489,15 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Theology",
 				"row": 12,
-				"prerequisites": ["E2 Philosophy", "E2 Drama and Poetry","2X TechClozedEraClassical"],
+				"prerequisites": ["2X TechClozedEraAncient"],
+//				"prerequisites": ["E2 Philosophy", "E2 Drama and Poetry","2X TechClozedEraClassical"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "E3 Civil Service",
 				"row": 15,
-				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechClozedEraClassical"],
+				"prerequisites": ["2X TechClozedEraAncient"],
+//				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechClozedEraClassical"],
 				"uniques": [
 //xsa//hated				    "Enables Open Borders agreements",
 				    "[+100]% weight to this choice for AI decisions"],
@@ -476,14 +506,16 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Guilds",
 				"row": 17,
-				"prerequisites": ["E2 Currency","2X TechClozedEraClassical"],
+				"prerequisites": ["2X TechClozedEraAncient"],
+//				"prerequisites": ["E2 Currency","2X TechClozedEraClassical"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
 				"name": "E3 Metal Casting",
 				"row": 19,
-				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechClozedEraClassical"],
+				"prerequisites": ["2X TechClozedEraAncient"],
+//				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechClozedEraClassical"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
@@ -577,34 +609,39 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E4 Astronomy",
 				"row": 12,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
-				"prerequisites": ["E3 Compass","E3 Education","3X TechClozedEraMedieval"],
+				"prerequisites": ["3X TechClozedEraAncient"],
+//				"prerequisites": ["E3 Compass","E3 Education","3X TechClozedEraMedieval"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
 				"name": "E4 Acoustics",
 				"row": 14,
-				"prerequisites": ["E3 Education","3X TechClozedEraMedieval"],
+				"prerequisites": ["3X TechClozedEraAncient"],
+//				"prerequisites": ["E3 Education","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
 			},
 			{
 				"name": "E4 Banking",
 				"row": 16,
-				"prerequisites": ["E3 Chivalry", "E3 Education","3X TechClozedEraMedieval"],
+				"prerequisites": ["3X TechClozedEraAncient"],
+//				"prerequisites": ["E3 Chivalry", "E3 Education","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
 				"name": "E4 Printing Press",
 				"row": 18,
-				"prerequisites": ["E3 Machinery","E3 Physics","E3 Chivalry","3X TechClozedEraMedieval"],
+				"prerequisites": ["3X TechClozedEraAncient"],
+//				"prerequisites": ["E3 Machinery","E3 Physics","E3 Chivalry","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
 				"name": "E4 Gunpowder",
 				"row": 20,
-				"prerequisites": ["E3 Physics","E3 Steel","3X TechClozedEraMedieval"],
+				"prerequisites": ["3X TechClozedEraAncient"],
+//				"prerequisites": ["E3 Physics","E3 Steel","3X TechClozedEraMedieval"],
 				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechClozedEraMedieval"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			},
@@ -686,41 +723,47 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E5 Archaeology",
 				"row": 12,
-				"prerequisites": ["E4 Navigation","E4 Architecture","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Navigation","E4 Architecture","4X TechClozedEraRenaissance"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
 				"name": "E5 Scientific Theory",
 				"row": 14,
-				"prerequisites": ["E4 Architecture","E4 Economics","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Architecture","E4 Economics","4X TechClozedEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
 				"name": "E5 Industrialization",
 				"row": 16,
-				"prerequisites": ["E4 Economics","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Economics","4X TechClozedEraRenaissance"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'E5 Industrialization based on E3 Machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
 				"name": "E5 Rifling",
 				"row": 17,
-				"prerequisites": ["E4 Economics","E4 Metallurgy","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Economics","E4 Metallurgy","4X TechClozedEraRenaissance"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
 			{
 				"name": "E5 Military Science",
 				"row": 19,
-				"prerequisites": ["E4 Metallurgy","E4 Chemistry","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Metallurgy","E4 Chemistry","4X TechClozedEraRenaissance"],
 				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
 			},
 			{
 				"name": "E5 Fertilizer",
 				"row": 20,
-				"prerequisites": ["E4 Chemistry","4X TechClozedEraRenaissance"],
+				"prerequisites": ["4X TechClozedEraAncient"],
+//				"prerequisites": ["E4 Chemistry","4X TechClozedEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			},
@@ -774,7 +817,7 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			},
 			{
-				"name": "Era5DummyGkTech01",
+				"name": "Era5DummyGkTech02",
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
@@ -797,34 +840,39 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Refrigeration",
 				"row": 12,
-				"prerequisites": ["E5 Biology", "E5 Electricity","5X TechClozedEraIndustrial"], //todo: offshore platform should need this
+				"prerequisites": ["5X TechClozedEraAncient"],
+//				"prerequisites": ["E5 Biology", "E5 Electricity","5X TechClozedEraIndustrial"], //todo: offshore platform should need this
 				"uniques": ["[-75]% weight to this choice for AI decisions"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "E6 Radio",
 				"row": 13,
-				"prerequisites": ["E5 Electricity","5X TechClozedEraIndustrial"],
+				"prerequisites": ["5X TechClozedEraAncient"],
+//				"prerequisites": ["E5 Electricity","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The whole country was tied together by E6 Radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
 			},
 			{
 				"name": "E6 Replaceable Parts",
 				"row": 14,
-				"prerequisites": ["E5 Electricity","E5 Steam Power","5X TechClozedEraIndustrial"],
+				"prerequisites": ["5X TechClozedEraAncient"],
+//				"prerequisites": ["E5 Electricity","E5 Steam Power","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
 				"name": "E6 Flight",
 				"row": 16,
-				"prerequisites": ["E5 Steam Power","5X TechClozedEraIndustrial"],
+				"prerequisites": ["5X TechClozedEraAncient"],
+//				"prerequisites": ["E5 Steam Power","5X TechClozedEraIndustrial"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "E6 Railroads",
 				"row": 18,
-				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechClozedEraIndustrial"],
+				"prerequisites": ["5X TechClozedEraAncient"],
+//				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			},
@@ -899,27 +947,31 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E7 Pharmaceuticals",
 				"row": 12,
-				"prerequisites": ["E6 Plastics","E6 Refrigeration","6X TechClozedEraModern"],
+				"prerequisites": ["6X TechClozedEraAncient"],
+//				"prerequisites": ["E6 Plastics","E6 Refrigeration","6X TechClozedEraModern"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
 				"name": "E7 Atomic Theory",
 				"row": 14,
-				"prerequisites": ["E6 Plastics","E6 Electronics","6X TechClozedEraModern"],
+				"prerequisites": ["6X TechClozedEraAncient"],
+//				"prerequisites": ["E6 Plastics","E6 Electronics","6X TechClozedEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
 				"name": "E7 Radar",
 				"row": 16,
-				"prerequisites": ["E6 Ballistics","E6 Electronics","6X TechClozedEraModern"],
+				"prerequisites": ["6X TechClozedEraAncient"],
+//				"prerequisites": ["E6 Ballistics","E6 Electronics","6X TechClozedEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "E7 Combined Arms",
 				"row": 18,
-				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechClozedEraModern"],
+				"prerequisites": ["6X TechClozedEraAncient"],
+//				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechClozedEraModern"],
 				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			},
 			{
@@ -992,38 +1044,44 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E8 Telecommunications",
 				"row": 12,
-				"prerequisites": ["E7 Ecology","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Ecology","7X TechClozedEraAtomic"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "E8 Mobile Tactics",
 				"row": 13,
-				"prerequisites": ["E7 Ecology","E7 Nuclear Fission","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Ecology","E7 Nuclear Fission","7X TechClozedEraAtomic"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
 				"name": "E8 Advanced Ballistics",
 				"row": 15,
-				"prerequisites": ["E7 Nuclear Fission","E7 Rocketry","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Nuclear Fission","E7 Rocketry","7X TechClozedEraAtomic"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
 			{
 				"name": "E8 Satellites",
 				"row": 16,
-				"prerequisites": ["E7 Rocketry","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Rocketry","7X TechClozedEraAtomic"],
 				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
 			{
 				"name": "E8 Robotics",
 				"row": 17,
-				"prerequisites": ["E7 Rocketry","E7 Computers","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Rocketry","E7 Computers","7X TechClozedEraAtomic"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "E8 Lasers",
 				"row": 18,
-				"prerequisites": ["E7 Computers","7X TechClozedEraAtomic"],
+				"prerequisites": ["7X TechClozedEraAncient"],
+//				"prerequisites": ["E7 Computers","7X TechClozedEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
@@ -1185,6 +1243,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 200,//zgv06Cost
 		"wonderCost": 300,//zgv06Cost
 		"techs": [
+
+			{
+				"name": "10 JesusEra Ancient 01",
+				"row": 12,
+				"prerequisites": [
+					"10 JesusEra Ancient 02"
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 JesusEra Ancient 02",
+				"row": 14,
+				"prerequisites": [
+					"10 JesusEra Ancient 03"
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 JesusEra Ancient 03",
+				"row": 16,
+				"prerequisites": [
+					"10 JesusEra Ancient 04"
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 JesusEra Ancient 04",
+				"row": 18,
+				"prerequisites": [
+					"10 JesusEra Ancient 05"
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 JesusEra Ancient 05",
+				"row": 20,
+				"prerequisites": [
+					"1X TechClozedEraAncient",
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
 
 			{
 				"name": "1X TechClozedEraAncient",
