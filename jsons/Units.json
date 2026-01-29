@@ -179,7 +179,7 @@ E3 Longbowman
 		"name": "E1 Scout",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 5,
+		"strength": 1,
 		"cost": 25,
 		"obsoleteTech": "E5 Scientific Theory",
 		"uniques": [

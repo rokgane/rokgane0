@@ -264,6 +264,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E1 Agriculture"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Era1DummyGkTech01",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -322,8 +333,18 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E1 Mining"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},
+			{
+				"name": "Era1DummyGkTech02",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
-
 		]
 	},
 	{
@@ -361,6 +382,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			},
+			{
+				"name": "Era2DummyGkTech01",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -404,6 +436,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E1 Bronze Working","1X TechClozedEraAncient"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},
+			{
+				"name": "Era2DummyGkTech02",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -443,6 +486,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechClozedEraClassical"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Era3DummyGkTech01",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -453,7 +507,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 160,//zgv13Cost
 		"wonderCost": 400,//zgv13Cost
 		"techs": [
-
 			{
 				"name": "E3 Compass",
 				"cost": 375,
@@ -498,6 +551,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
+			},
+			{
+				"name": "Era3DummyGkTech02",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -543,6 +607,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E3 Physics","E3 Steel","3X TechClozedEraMedieval"],
 				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechClozedEraMedieval"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			},
+			{
+				"name": "Era4DummyGkTech01",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -586,6 +661,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E4 Gunpowder","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			},
+			{
+				"name": "Era4DummyGkTech02",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -637,6 +723,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E4 Chemistry","4X TechClozedEraRenaissance"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			},
+			{
+				"name": "Era5DummyGkTech01",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -675,6 +772,17 @@ Mixed   techgk   techgk   slower   slower
 				"row": 19,
 				"prerequisites": ["E5 Fertilizer","E5 Military Science","4X TechClozedEraRenaissance"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+			},
+			{
+				"name": "Era5DummyGkTech01",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -719,6 +827,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			},
+			{
+				"name": "Era6DummyGkTech01",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -755,6 +874,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E6 Railroads","5X TechClozedEraIndustrial"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			},
+			{
+				"name": "Era6DummyGkTech02",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -791,6 +921,17 @@ Mixed   techgk   techgk   slower   slower
 				"row": 18,
 				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechClozedEraModern"],
 				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			},
+			{
+				"name": "Era7DummyGkTech01",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -826,6 +967,17 @@ Mixed   techgk   techgk   slower   slower
 				"row": 18,
 				"prerequisites": ["E7 Combined Arms","E7 Radar","6X TechClozedEraModern"],
 				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+			},
+			{
+				"name": "Era7DummyGkTech02",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -874,6 +1026,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E7 Computers","7X TechClozedEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+			},
+			{
+				"name": "Era8DummyGkTech01",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -917,6 +1080,17 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E8 Robotics", "E8 Lasers","7X TechClozedEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			},
+			{
+				"name": "Era8DummyGkTech02",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			}
 		]
 	},
@@ -1347,9 +1521,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 5,//zgv05//xtc04
 		"era": "Ancient era",
-		"techCost": 1100,//zgv06Cost
-		"buildingCost": 200,//zgv06Cost
-		"wonderCost": 300,//zgv06Cost
+		"techCost": 1100,//zgv05Cost
+		"buildingCost": 200,//zgv05Cost
+		"wonderCost": 300,//zgv05Cost
 		"techs": [
 			{
 				"name": "10 TechOpenedEraAncient",
@@ -2323,16 +2497,81 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 4,//zgv04//xtc03
 		"era": "Ancient era",
-		"techCost": 35,//zgv04Cost
-		"buildingCost": 60,//zgv04Cost
-		"wonderCost": 185,//zgv04Cost
+		"techCost": 1100,//zgv04Cost
+		"buildingCost": 200,//zgv04Cost
+		"wonderCost": 300,//zgv04Cost
 		"techs": [
 //era1
+			{
+				"name": "10 IsraelEra Ancient 01",
+				"row": 12,
+				"prerequisites": [
+					"E1 Sailing",
+					"E1 Calendar",
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 IsraelEra Ancient 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Ancient 01",
+					"E1 Writing"
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 IsraelEra Ancient 03",
+				"row": 16,
+				"prerequisites": [
+					"10 IsraelEra Ancient 02",
+					"E1 Trapping"
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 IsraelEra Ancient 04",
+				"row": 18,
+				"prerequisites": [
+					"10 IsraelEra Ancient 03",
+					"E1 The Wheel"
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+			{
+				"name": "10 IsraelEra Ancient 05",
+				"row": 20,
+				"prerequisites": [
+					"10 IsraelEra Ancient 04",
+					"E1 Masonry",
+					"E1 Bronze Working"
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					]
+			},
+
+
 
 			{
 				"name": "10 InhibitorEra Ancient",
 				"row": 23,
 				"prerequisites": [
+					"10 IsraelEra Ancient 05",
+/*
 					"E1 Pottery",
 					"E1 Animal Husbandry",
 					"E1 Archery",
@@ -2345,7 +2584,8 @@ Mixed   techgk   techgk   slower   slower
 					"E1 The Wheel",
 					"E1 Masonry",
 					"E1 Bronze Working"
-				],
+*/
+],
 				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
