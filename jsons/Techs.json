@@ -360,7 +360,7 @@ Mixed   techgk   techgk   slower   slower
 				"cost": 85,
 				"row": 11,//1,
 				"prerequisites": [
-				    "10 JesusEra Ancient 02"
+				    "10 JesusEra Ancient 01"
 				    ],
 //				"prerequisites": ["E1 Sailing","1X TechClozedEraAncient"],
 				"uniques": ["Enables embarkation for land units"],
@@ -420,7 +420,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Philosophy",
 				"row": 12,//2,
 				"prerequisites": [
-				    "10 JesusEra Ancient 02"
+				    "10 JesusEra Ancient 01"
 				    ],
 //				"prerequisites": ["E1 Writing","E1 Calendar","1X TechClozedEraAncient"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
@@ -438,8 +438,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Currency",
 				"row": 17,//7,
 				"prerequisites": [
-				    "E2 Mathematics",
-				    "10 JesusEra Ancient 03"
+				    "E2 Mathematics"
 				    ],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
@@ -1248,55 +1247,55 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra Ancient 01",
 				"row": 12,
 				"prerequisites": [
-					"10 JesusEra Ancient 02"
+					"20 JesusEra Ancient 02"
 				],
 				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 JesusEra Ancient 02",
+				"name": "20 JesusEra Ancient 02",
 				"row": 14,
 				"prerequisites": [
-					"10 JesusEra Ancient 03"
+					"30 JesusEra Ancient 03"
 				],
-				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"quote": "20 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 JesusEra Ancient 03",
+				"name": "30 JesusEra Ancient 03",
 				"row": 16,
 				"prerequisites": [
-					"10 JesusEra Ancient 04"
+					"40 JesusEra Ancient 04"
 				],
-				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"quote": "30 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 JesusEra Ancient 04",
+				"name": "40 JesusEra Ancient 04",
 				"row": 18,
 				"prerequisites": [
-					"10 JesusEra Ancient 05"
+					"50 JesusEra Ancient 05"
 				],
-				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"quote": "40 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 JesusEra Ancient 05",
+				"name": "50 JesusEra Ancient 05",
 				"row": 20,
 				"prerequisites": [
 					"1X TechClozedEraAncient",
 				],
-				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"quote": "50 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 
@@ -1336,6 +1335,62 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "10 JesusEra Classical 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Classical 02"
+				],
+				"quote": "10 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Classical 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Classical 03"
+				],
+				"quote": "20 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Classical 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Classical 04"
+				],
+				"quote": "30 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Classical 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Classical 05"
+				],
+				"quote": "40 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Classical 05",
+				"row": 20,
+				"prerequisites": [
+					"2X TechClozedEraClassical",
+				],
+				"quote": "50 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
+			{
 				"name": "2X TechClozedEraClassical",
 				"row": 23,
 				"prerequisites": [
@@ -1370,7 +1425,61 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 600,//zgv16Cost
 		"techs": [
 
-
+			{
+				"name": "10 JesusEra Medieval 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Medieval 02"
+				],
+				"quote": "10 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Medieval 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Medieval 03"
+				],
+				"quote": "20 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Medieval 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Medieval 04"
+				],
+				"quote": "30 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Medieval 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Medieval 05"
+				],
+				"quote": "40 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Medieval 05",
+				"row": 20,
+				"prerequisites": [
+					"3X TechClozedEraMedieval",
+				],
+				"quote": "50 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
 
 			{
 				"name": "3X TechClozedEraMedieval",
@@ -1406,6 +1515,63 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv21Cost
 		"wonderCost": 750,//zgv21Cost
 		"techs": [
+
+			{
+				"name": "10 JesusEra Renaissance 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Renaissance 02"
+				],
+				"quote": "10 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Renaissance 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Renaissance 03"
+				],
+				"quote": "20 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Renaissance 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Renaissance 04"
+				],
+				"quote": "30 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Renaissance 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Renaissance 05"
+				],
+				"quote": "40 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Renaissance 05",
+				"row": 20,
+				"prerequisites": [
+					"4X TechClozedEraRenaissance",
+				],
+				"quote": "50 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "4X TechClozedEraRenaissance",
 				"row": 23,
@@ -1440,6 +1606,63 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 600,//zgv26Cost
 		"wonderCost": 900,//zgv26Cost
 		"techs": [
+
+			{
+				"name": "10 JesusEra Industrial 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Industrial 02"
+				],
+				"quote": "10 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Industrial 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Industrial 03"
+				],
+				"quote": "20 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Industrial 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Industrial 04"
+				],
+				"quote": "30 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Industrial 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Industrial 05"
+				],
+				"quote": "40 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Industrial 05",
+				"row": 20,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial",
+				],
+				"quote": "50 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
 
 			{
 				"name": "5X TechClozedEraIndustrial",
@@ -1477,6 +1700,62 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "10 JesusEra Modern 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Modern 02"
+				],
+				"quote": "10 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Modern 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Modern 03"
+				],
+				"quote": "20 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Modern 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Modern 04"
+				],
+				"quote": "30 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Modern 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Modern 05"
+				],
+				"quote": "40 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Modern 05",
+				"row": 20,
+				"prerequisites": [
+					"6X TechClozedEraModern",
+				],
+				"quote": "50 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
+			{
 				"name": "6X TechClozedEraModern",
 				"row": 23,
 				"prerequisites": [
@@ -1512,6 +1791,62 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "10 JesusEra Atomic 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Atomic 02"
+				],
+				"quote": "10 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Atomic 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Atomic 03"
+				],
+				"quote": "20 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Atomic 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Atomic 04"
+				],
+				"quote": "30 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra Atomic 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Atomic 05"
+				],
+				"quote": "40 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Atomic 05",
+				"row": 20,
+				"prerequisites": [
+					"7X TechClozedEraAtomic",
+				],
+				"quote": "50 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
+			{
 				"name": "7X TechClozedEraAtomic",
 				"row": 23,
 				"prerequisites": [
@@ -1545,6 +1880,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 900,//zgv41Cost
 		"wonderCost": 1350,//zgv41Cost
 		"techs": [
+
+			{
+				"name": "10 JesusEra Information 01",
+				"row": 12,
+				"prerequisites": [
+					"20 JesusEra Information 02"
+				],
+				"quote": "10 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra Information 02",
+				"row": 14,
+				"prerequisites": [
+					"30 JesusEra Information 03"
+				],
+				"quote": "20 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra Information 03",
+				"row": 16,
+				"prerequisites": [
+					"40 JesusEra Information 04"
+				],
+				"quote": "30 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			
+				"name": "40 JesusEra Information 04",
+				"row": 18,
+				"prerequisites": [
+					"50 JesusEra Information 05"
+				],
+				"quote": "40 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra Information 05",
+				"row": 20,
+				"prerequisites": [
+					"8X TechClozedEraInformation",
+				],
+				"quote": "50 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
 
 			{
 				"name": "8X TechClozedEraInformation",
@@ -1603,7 +1994,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2625,60 +3016,58 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 IsraelEra Ancient 02",
+				"name": "20 IsraelEra Ancient 02",
 				"row": 14,
 				"prerequisites": [
 					"10 IsraelEra Ancient 01",
 					"E1 Writing"
 				],
-				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"quote": "20 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 IsraelEra Ancient 03",
+				"name": "30 IsraelEra Ancient 03",
 				"row": 16,
 				"prerequisites": [
-					"10 IsraelEra Ancient 02",
+					"20 IsraelEra Ancient 02",
 					"E1 Trapping"
 				],
-				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"quote": "30 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 IsraelEra Ancient 04",
+				"name": "40 IsraelEra Ancient 04",
 				"row": 18,
 				"prerequisites": [
-					"10 IsraelEra Ancient 03",
+					"30 IsraelEra Ancient 03",
 					"E1 The Wheel"
 				],
-				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"quote": "40 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
 			{
-				"name": "10 IsraelEra Ancient 05",
+				"name": "50 IsraelEra Ancient 05",
 				"row": 20,
 				"prerequisites": [
-					"10 IsraelEra Ancient 04",
+					"40 IsraelEra Ancient 04",
 					"E1 Masonry",
 					"E1 Bronze Working"
 				],
-				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"quote": "50 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+				    "Cannot be hurried"
 					]
 			},
-
-
 
 			{
 				"name": "10 InhibitorEra Ancient",
@@ -2743,6 +3132,61 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "10 IsraelEra Classical 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Classical 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Classical 01"
+				],
+				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Classical 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Classical 02"
+				],
+				"quote": "30 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Classical 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Classical 03"
+				],
+				"quote": "40 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Classical 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Classical 04"
+				],
+				"quote": "50 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
+			{
 				"name": "20 InhibitorEra Classical",
 				"row": 23,
 				"prerequisites": [
@@ -2773,7 +3217,7 @@ Mixed   techgk   techgk   slower   slower
         			"Discover [E2 Engineering]<before discovering [E2 Engineering]>",
         			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]>",
 
-//zgv04                    "Discover [20 TechClozedEraClassical]"
+//zgv09                    "Discover [20 TechClozedEraClassical]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -2821,6 +3265,60 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 300,//zgv14Cost
 		"techs": [
 
+			{
+				"name": "10 IsraelEra Medieval 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Medieval 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Medieval 01"
+				],
+				"quote": "20 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Medieval 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Medieval 02"
+				],
+				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Medieval 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Medieval 03"
+				],
+				"quote": "40 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Medieval 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Medieval 04"
+				],
+				"quote": "50 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
 
 			{
 				"name": "30 InhibitorEra Medieval",
@@ -2902,6 +3400,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 200,//zgv19Cost
 		"wonderCost": 500,//zgv19Cost
 		"techs": [
+
+			{
+				"name": "10 IsraelEra Renaissance 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Renaissance 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Renaissance 01"
+				],
+				"quote": "20 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Renaissance 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Renaissance 02"
+				],
+				"quote": "30 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Renaissance 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Renaissance 03"
+				],
+				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Renaissance 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Renaissance 04"
+				],
+				"quote": "50 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "40 InhibitorEra Renaissance",
 				"row": 23,
@@ -2982,6 +3536,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 300,//zgv24Cost
 		"wonderCost": 750,//zgv24Cost
 		"techs": [
+
+			{
+				"name": "10 IsraelEra Industrial 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Industrial 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Industrial 01"
+				],
+				"quote": "20 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Industrial 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Industrial 02"
+				],
+				"quote": "30 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Industrial 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Industrial 03"
+				],
+				"quote": "40 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Industrial 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Industrial 04"
+				],
+				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
 		    {
             	"name": "DNS Tech Landships",
             	"row": 21,
@@ -3081,6 +3691,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv29Cost
 		"wonderCost": 1060,//zgv29Cost
 		"techs": [
+
+			{
+				"name": "10 IsraelEra Modern 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Modern 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Modern 01"
+				],
+				"quote": "20 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Modern 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Modern 02"
+				],
+				"quote": "30 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Modern 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Modern 03"
+				],
+				"quote": "40 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Modern 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Modern 04"
+				],
+				"quote": "50 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
             {
             	"name": "DNS Tech Land Leviathan",
             	"row": 21,
@@ -3180,6 +3846,61 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
+				"name": "10 IsraelEra Atomic 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Atomic 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Atomic 01"
+				],
+				"quote": "20 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Atomic 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Atomic 02"
+				],
+				"quote": "30 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Atomic 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Atomic 03"
+				],
+				"quote": "40 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Atomic 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Atomic 04"
+				],
+				"quote": "50 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
+			{
 				"name": "70 InhibitorEra Atomic",
 				"row": 23,
 				"prerequisites": [
@@ -3256,6 +3977,62 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv39Cost
 		"wonderCost": 1250,//zgv39Cost
 		"techs": [
+
+			{
+				"name": "10 IsraelEra Information 01",
+				"row": 12,
+				"prerequisites": [
+				],
+				"quote": "10 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra Information 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra Information 01"
+				],
+				"quote": "20 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra Information 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra Information 02"
+				],
+				"quote": "30 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra Information 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra Information 03"
+				],
+				"quote": "40 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra Information 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra Information 04"
+				],
+				"quote": "50 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "80 InhibitorEra Information",
 				"row": 23,
