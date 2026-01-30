@@ -370,7 +370,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Horseback Riding",
 				"row": 15,//5,
 				"prerequisites": [
-				    "10 JesusEra Ancient 03"
+				    "30 JesusEra Ancient 03"
 				    ],
 //				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
@@ -380,7 +380,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Mathematics",
 				"row": 17,//7,
 				"prerequisites": [
-				    "10 JesusEra Ancient 04"
+				    "40 JesusEra Ancient 04"
 				    ],
 //				"prerequisites": ["E1 The Wheel","1X TechClozedEraAncient"],
 				"quote": "'E2 Mathematics is the gate and key to the sciences.' - Roger Bacon"
@@ -389,7 +389,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Construction",
 				"row": 19,//9,
 				"prerequisites": [
-				    "10 JesusEra Ancient 05"
+				    "50 JesusEra Ancient 05"
 				    ],
 //				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -429,7 +429,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Drama and Poetry",
 				"row": 13,//3,
 				"prerequisites": [
-				    "10 JesusEra Ancient 02"
+				    "20 JesusEra Ancient 02"
 				    ],
 //				"prerequisites": ["E1 Writing","1X TechClozedEraAncient"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
@@ -449,7 +449,7 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": [
 				    "E2 Mathematics",
 				    "E2 Construction",
-				    "10 JesusEra Ancient 04"
+				    "40 JesusEra Ancient 04"
 				    ],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
@@ -459,7 +459,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 20,//10,
 				"prerequisites": [
 //				    "E1 Bronze Working",
-				    "10 JesusEra Ancient 05"
+				    "50 JesusEra Ancient 05"
 				    ],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
@@ -3135,6 +3135,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Classical 01",
 				"row": 12,
 				"prerequisites": [
+					"E2 Optics",
+					"E2 Philosophy"
 				],
 				"quote": "10 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3145,6 +3147,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Classical 02",
 				"row": 14,
 				"prerequisites": [
+					"E2 Drama and Poetry",
 					"10 IsraelEra Classical 01"
 				],
 				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
@@ -3156,6 +3159,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Classical 03",
 				"row": 16,
 				"prerequisites": [
+					"E2 Horseback Riding",
 					"20 IsraelEra Classical 02"
 				],
 				"quote": "30 Classical Tech Inhibitor, Slower tech upgrades",
@@ -3167,6 +3171,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Classical 04",
 				"row": 18,
 				"prerequisites": [
+					"E2 Currency",
+					"E2 Engineering",
 					"30 IsraelEra Classical 03"
 				],
 				"quote": "40 Classical Tech Inhibitor, Slower tech upgrades",
@@ -3178,6 +3184,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 IsraelEra Classical 05",
 				"row": 20,
 				"prerequisites": [
+					"E2 Construction",
+					"E2 Iron Working",
 					"40 IsraelEra Classical 04"
 				],
 				"quote": "50 Classical Tech Inhibitor, Slower tech upgrades",
