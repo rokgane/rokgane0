@@ -275,21 +275,28 @@ UnitIcons/Observation Balloon
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Observar
+UnitIcons/z0 Observar
   rotate: false
   xy: 1300, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Spreader
+UnitIcons/z0 Spreader
   rotate: false
   xy: 1300, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Revealer
+UnitIcons/z0 Revealer
+  rotate: false
+  xy: 1300, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/z0 TileMage
   rotate: false
   xy: 1300, 220
   size: 100, 100
@@ -379,21 +386,28 @@ TileSets/FantasyHex/Units/Observation Balloon
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Observar
+TileSets/FantasyHex/Units/z0 Observar
   rotate: false
   xy: 1890, 1380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spreader
+TileSets/FantasyHex/Units/z0 Spreader
   rotate: false
   xy: 1890, 1380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Revealer
+TileSets/FantasyHex/Units/z0 Revealer
+  rotate: false
+  xy: 1890, 1380
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/z0 TileMage
   rotate: false
   xy: 1890, 1380
   size: 32, 28

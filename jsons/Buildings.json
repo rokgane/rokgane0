@@ -2245,7 +2245,7 @@
 		"uniques": [
 			"Comment [All of these buildings are Unbuildable for AIs so no need to worry + destroyed if city is captured]",
 
-			"[1] free [Revealer] units appear", 
+			"[1] free [z0 Revealer] units appear", 
 
 			"[-50]% Unhappiness from [Population] [in all cities]",
 			"[+50]% [Happiness] [in all cities]",
@@ -6054,7 +6054,7 @@
 		"uniques": [
 				"Sell [MiniCake Spawn Revealer] buildings [in this city]",
 
-				"[3] free [Revealer] units appear", 
+				"[3] free [z0 Revealer] units appear", 
 //				"[1] free [DNS Khan] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
@@ -6077,7 +6077,7 @@
 		"uniques": [
 				"Sell [MiniCake Spawn Observar] buildings [in this city]",
 
-				"[3] free [Observar] units appear", 
+				"[3] free [z0 Observar] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
