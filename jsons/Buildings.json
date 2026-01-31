@@ -8962,6 +8962,8 @@
 		"uniques": [
 
 			"Gain a free [Enema ShowGk Aall] [in this city]",
+//			"[1] free [E1 Settler] units appear <every [20] turns>",
+			"[3] free [E1 Settler] units appear <every [17] turns>",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -8996,6 +8998,8 @@
 //				"Sell [MiniCake HideGk Main] buildings [in this city]",
 
 				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
+
+
 
 				"Gain a free [MiniCake ShowGk Land] [in this city]",
 				"Gain a free [MiniCake ShowGk Navy] [in this city]",

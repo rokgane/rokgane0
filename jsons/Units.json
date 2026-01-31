@@ -83,9 +83,34 @@ E3 Longbowman
 
 
 
+//Era0 gk switch
 
+	{
+		"name": "E0 Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
 
+//			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
 
+		    "May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+
+			"Limited to [20] per Civilization",
+			"Founds a new city <in tiles without [Badlands]>", 
+			"Excess Food converted to Production when under Construction",
+			"Can move immediately once bought", 
+			"Requires at least [2] population",
+			"[+3] Sight <before the [Classical era]>",
+			"[+2] Movement <before the [Classical era]>",
+			"Can see over obstacles <before the [Classical era]>"
+		],
+		"hurryCostModifier": 20
+	},
 
 
 //xsa//start of gk

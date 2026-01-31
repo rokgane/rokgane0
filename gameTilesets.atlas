@@ -6618,3 +6618,17 @@ TileSets/HexaRealm/Units/E1 Worker-Modern era
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-E0 Settler
+  rotate: false
+  xy: 660, 911
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-E0 Settler-Modern era
+  rotate: false
+  xy: 700, 948
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1

@@ -4140,3 +4140,87 @@ TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-2
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler
+  rotate: false
+  xy: 4, 1457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Ancient era
+  rotate: false
+  xy: 4, 1457
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-1
+  rotate: false
+  xy: 4, 1353
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Ancient era-1
+  rotate: false
+  xy: 4, 1353
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-2
+  rotate: false
+  xy: 4, 1249
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Ancient era-2
+  rotate: false
+  xy: 4, 1249
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Industrial era
+  rotate: false
+  xy: 4, 1962
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Industrial era-1
+  rotate: false
+  xy: 4, 1873
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Industrial era-2
+  rotate: false
+  xy: 112, 1962
+  size: 100, 81
+  orig: 100, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Medieval era
+  rotate: false
+  xy: 1859, 1681
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Medieval era-1
+  rotate: false
+  xy: 1550, 1339
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Settler-Medieval era-2
+  rotate: false
+  xy: 1653, 1414
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1

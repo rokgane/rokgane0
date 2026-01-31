@@ -2894,7 +2894,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
 		"cities": ["Helsinki"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+        "uniques": [
+            "Will not be displayed in Civilopedia",
+            "Will not be chosen for new games",
+            "Excluded from map editor"]
 	},
 	{
 		"name": "CSB03 Manila",
@@ -2919,7 +2922,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [127, 177, 236],
 		"cities": ["Mogadishu"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+        "uniques": [
+            "Will not be displayed in Civilopedia", 
+            "Will not be chosen for new games", 
+            "Excluded from map editor"]
 	},
 	{
 		"name": "CSB05 Mombasa",
@@ -2995,7 +3001,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 16, 216],
 		"cities": ["Ur"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+        "uniques": [
+            "Will not be displayed in Civilopedia", 
+            "Will not be chosen for new games", 
+            "Excluded from map editor"]
 	},
 	{
 		"name": "CSB11 Vancouver", // Introduced in BNW
@@ -3008,7 +3017,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [193, 84, 255],
 		"cities": ["Vancouver"],
-        "uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+        "uniques": [
+            "Will not be displayed in Civilopedia", 
+            "Will not be chosen for new games", 
+            "Excluded from map editor"]
 	},
 	{
 		"name": "CSB12 Venice",
@@ -3183,7 +3195,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"uniques": [
+		    "Will not be displayed in Civilopedia", 
+		    "Will not be chosen for new games", 
+		    "Excluded from map editor"]
 	},
 	{
 		"name": "CSD05 Edinburgh",
@@ -3196,7 +3211,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,102,102],
 		"cities": ["Edinburgh"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"uniques": [
+		    "Will not be displayed in Civilopedia", 
+		    "Will not be chosen for new games", 
+		    "Excluded from map editor"]
 	},
 	{
 		"name": "CSD06 Hanoi",
@@ -3221,7 +3239,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [18, 188, 221],
 		"cities": ["M'Banza-Kongo"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
+		"uniques": [
+		    "Will not be displayed in Civilopedia", 
+		    "Will not be chosen for new games", 
+		    "Excluded from map editor"]
 	},
 	{
 		"name": "CSD08 Sidon",

@@ -488,14 +488,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Theology",
 				"row": 12,
-				"prerequisites": ["2X TechClozedEraClassical"],
+				"prerequisites": ["10 JesusEra Medieval 01"],
 //				"prerequisites": ["E2 Philosophy", "E2 Drama and Poetry","2X TechClozedEraClassical"],
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
 				"name": "E3 Civil Service",
 				"row": 15,
-				"prerequisites": ["2X TechClozedEraClassical"],
+				"prerequisites": ["30 JesusEra Medieval 03"],
 //				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechClozedEraClassical"],
 				"uniques": [
 //xsa//hated				    "Enables Open Borders agreements",
@@ -505,7 +505,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Guilds",
 				"row": 17,
-				"prerequisites": ["2X TechClozedEraClassical"],
+				"prerequisites": ["40 JesusEra Medieval 04"],
 //				"prerequisites": ["E2 Currency","2X TechClozedEraClassical"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
@@ -513,7 +513,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Metal Casting",
 				"row": 19,
-				"prerequisites": ["2X TechClozedEraClassical"],
+				"prerequisites": ["50 JesusEra Medieval 05"],
 //				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechClozedEraClassical"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
@@ -542,14 +542,16 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E3 Compass",
 				"cost": 375,
 				"row": 11,
-				"prerequisites": ["E2 Optics","E3 Theology","2X TechClozedEraClassical"],
+				"prerequisites": ["10 JesusEra Medieval 01","E3 Theology"],
+//				"prerequisites": ["E2 Optics","E3 Theology","2X TechClozedEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			},
 			{
 				"name": "E3 Education",
 				"row": 13,
-				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechClozedEraClassical"],
+				"prerequisites": ["20 JesusEra Medieval 02","E3 Theology","E3 Civil Service"],
+//				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechClozedEraClassical"],
 				"uniques": [
 				    "Enables conversion of city production to [Science]",
 //xsa//hated				    "Enables Research agreements",
@@ -559,27 +561,31 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Chivalry",
 				"row": 16,
-				"prerequisites": ["E3 Civil Service","E3 Guilds","2X TechClozedEraClassical"],
+				"prerequisites": ["30 JesusEra Medieval 03","E3 Civil Service","E3 Guilds"],
+//				"prerequisites": ["E3 Civil Service","E3 Guilds","2X TechClozedEraClassical"],
 //xsa//hated				"uniques": ["Enables Defensive Pacts"],
 				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
 			{
 				"name": "E3 Machinery",
 				"row": 18,
-				"prerequisites": ["E3 Guilds","E2 Engineering","2X TechClozedEraClassical"],
+				"prerequisites": ["40 JesusEra Medieval 04","E3 Guilds","E2 Engineering"],
+//				"prerequisites": ["E3 Guilds","E2 Engineering","2X TechClozedEraClassical"],
 				"uniques": ["Improves movement speed on roads"],
 				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
 			},
 			{
 				"name": "E3 Physics",
 				"row": 19,
-				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
+				"prerequisites": ["50 JesusEra Medieval 05","E3 Metal Casting"],
+//				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
 				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
 			},
 			{
 				"name": "E3 Steel",
 				"row": 20,
-				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
+				"prerequisites": ["50 JesusEra Medieval 05","E3 Metal Casting"],
+//				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
 			},
@@ -608,14 +614,14 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E4 Astronomy",
 				"row": 12,
 				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
-				"prerequisites": ["3X TechClozedEraMedieval"],
+				"prerequisites": ["10 JesusEra Medieval 01"],
 //				"prerequisites": ["E3 Compass","E3 Education","3X TechClozedEraMedieval"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
 			{
 				"name": "E4 Acoustics",
 				"row": 14,
-				"prerequisites": ["3X TechClozedEraMedieval"],
+				"prerequisites": ["20 JesusEra Medieval 02"],
 //				"prerequisites": ["E3 Education","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
@@ -623,7 +629,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E4 Banking",
 				"row": 16,
-				"prerequisites": ["3X TechClozedEraMedieval"],
+				"prerequisites": ["30 JesusEra Medieval 03"],
 //				"prerequisites": ["E3 Chivalry", "E3 Education","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
@@ -631,7 +637,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E4 Printing Press",
 				"row": 18,
-				"prerequisites": ["3X TechClozedEraMedieval"],
+				"prerequisites": ["40 JesusEra Medieval 04"],
 //				"prerequisites": ["E3 Machinery","E3 Physics","E3 Chivalry","3X TechClozedEraMedieval"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
@@ -639,7 +645,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E4 Gunpowder",
 				"row": 20,
-				"prerequisites": ["3X TechClozedEraMedieval"],
+				"prerequisites": ["50 JesusEra Medieval 05"],
 //				"prerequisites": ["E3 Physics","E3 Steel","3X TechClozedEraMedieval"],
 				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechClozedEraMedieval"],
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
@@ -1394,7 +1400,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "2X TechClozedEraClassical",
 				"row": 23,
 				"prerequisites": [
-				    "20 TechKosongEraClassical"
+				    "20 TechClozedEraClassical"
 				],
 				"quote": "2X Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -3277,6 +3283,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Medieval 01",
 				"row": 12,
 				"prerequisites": [
+					"E3 Theology",
+					"E3 Compass"
 				],
 				"quote": "10 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3287,6 +3295,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Medieval 02",
 				"row": 14,
 				"prerequisites": [
+					"E3 Education",
 					"10 IsraelEra Medieval 01"
 				],
 				"quote": "20 Medieval Tech Inhibitor, Slower tech upgrades",
@@ -3298,6 +3307,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Medieval 03",
 				"row": 16,
 				"prerequisites": [
+					"E3 Civil Service",
+					"E3 Chivalry",
 					"20 IsraelEra Medieval 02"
 				],
 				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
@@ -3309,6 +3320,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Medieval 04",
 				"row": 18,
 				"prerequisites": [
+					"E3 Guilds",
+					"E3 Machinery",
 					"30 IsraelEra Medieval 03"
 				],
 				"quote": "40 Medieval Tech Inhibitor, Slower tech upgrades",
@@ -3320,6 +3333,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 IsraelEra Medieval 05",
 				"row": 20,
 				"prerequisites": [
+					"E3 Physics",
+					"E3 Steel",
 					"40 IsraelEra Medieval 04"
 				],
 				"quote": "50 Medieval Tech Inhibitor, Slower tech upgrades",
@@ -3413,6 +3428,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Renaissance 01",
 				"row": 12,
 				"prerequisites": [
+					"E4 Navigation",
 				],
 				"quote": "10 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3423,6 +3439,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Renaissance 02",
 				"row": 14,
 				"prerequisites": [
+					"E4 Architecture",
 					"10 IsraelEra Renaissance 01"
 				],
 				"quote": "20 Renaissance Tech Inhibitor, Slower tech upgrades",
@@ -3434,6 +3451,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Renaissance 03",
 				"row": 16,
 				"prerequisites": [
+					"E4 Economics",
 					"20 IsraelEra Renaissance 02"
 				],
 				"quote": "30 Renaissance Tech Inhibitor, Slower tech upgrades",
@@ -3445,6 +3463,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Renaissance 04",
 				"row": 18,
 				"prerequisites": [
+					"E4 Printing Press",
 					"30 IsraelEra Renaissance 03"
 				],
 				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
@@ -3456,6 +3475,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 IsraelEra Renaissance 05",
 				"row": 20,
 				"prerequisites": [
+					"E4 Metallurgy",
+					"E4 Chemistry",
 					"40 IsraelEra Renaissance 04"
 				],
 				"quote": "50 Renaissance Tech Inhibitor, Slower tech upgrades",
