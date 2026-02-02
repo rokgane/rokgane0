@@ -550,7 +550,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E3 Education",
 				"row": 13,
-				"prerequisites": ["E3 Theology","E3 Civil Service"],
+				"prerequisites": ["20 JesusEra Classical 02","E3 Theology","E3 Civil Service"],
 //				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechClozedEraClassical"],
 				"uniques": [
 				    "Enables conversion of city production to [Science]",
@@ -674,33 +674,33 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E4 Navigation",
 				"row": 12,
-				"prerequisites": ["E4 Astronomy","3X TechClozedEraMedieval"],
+				"prerequisites": ["E4 Astronomy"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
 				"name": "E4 Architecture",
 				"row": 14,
-				"prerequisites": ["E4 Acoustics","E4 Banking","3X TechClozedEraMedieval"],
+				"prerequisites": ["E4 Acoustics","E4 Banking"],
 				"quote": "'E4 Architecture begins where E2 Engineering ends.' - Walter Gropius"
 			},
 			{
 				"name": "E4 Economics",
 				"row": 16,
-				"prerequisites": ["E4 Banking","E4 Printing Press","3X TechClozedEraMedieval"],
+				"prerequisites": ["E4 Banking","E4 Printing Press"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
 			{
 				"name": "E4 Metallurgy",
 				"row": 19,
-				"prerequisites": ["E4 Printing Press","E4 Gunpowder","3X TechClozedEraMedieval"],
+				"prerequisites": ["E4 Printing Press","E4 Gunpowder"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'There never was a good knife made of bad E3 Steel.' - Benjamin Franklin"
 			},
 			{
 				"name": "E4 Chemistry",
 				"row": 20,
-				"prerequisites": ["E4 Gunpowder","3X TechClozedEraMedieval"],
+				"prerequisites": ["E4 Gunpowder"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			},
@@ -811,7 +811,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E5 Steam Power",
 				"row": 16,
-				"uniques": ["[+1] Movement <for [Embarked] units>","4X TechClozedEraRenaissance"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"prerequisites": ["E5 Industrialization","E5 Scientific Theory","E5 Rifling"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
@@ -845,7 +845,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Refrigeration",
 				"row": 12,
-				"prerequisites": ["5X TechClozedEraIndustrial"],
+				"prerequisites": ["10 JesusEra Industrial 01"],
 //				"prerequisites": ["E5 Biology", "E5 Electricity","5X TechClozedEraIndustrial"], //todo: offshore platform should need this
 				"uniques": ["[-75]% weight to this choice for AI decisions"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
@@ -853,7 +853,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Radio",
 				"row": 13,
-				"prerequisites": ["5X TechClozedEraIndustrial"],
+				"prerequisites": ["20 JesusEra Industrial 02"],
 //				"prerequisites": ["E5 Electricity","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The whole country was tied together by E6 Radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
@@ -861,7 +861,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Replaceable Parts",
 				"row": 14,
-				"prerequisites": ["5X TechClozedEraIndustrial"],
+				"prerequisites": ["20 JesusEra Industrial 02"],
 //				"prerequisites": ["E5 Electricity","E5 Steam Power","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
@@ -869,14 +869,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Flight",
 				"row": 16,
-				"prerequisites": ["5X TechClozedEraIndustrial"],
+				"prerequisites": ["30 JesusEra Industrial 03"],
 //				"prerequisites": ["E5 Steam Power","5X TechClozedEraIndustrial"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{
 				"name": "E6 Railroads",
 				"row": 18,
-				"prerequisites": ["5X TechClozedEraIndustrial"],
+				"prerequisites": ["40 JesusEra Industrial 04"],
 //				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechClozedEraIndustrial"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
@@ -952,14 +952,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E7 Pharmaceuticals",
 				"row": 12,
-				"prerequisites": ["6X TechClozedEraModern"],
+				"prerequisites": ["10 JesusEra Modern 01"],
 //				"prerequisites": ["E6 Plastics","E6 Refrigeration","6X TechClozedEraModern"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
 				"name": "E7 Atomic Theory",
 				"row": 14,
-				"prerequisites": ["6X TechClozedEraModern"],
+				"prerequisites": ["20 JesusEra Modern 02"],
 //				"prerequisites": ["E6 Plastics","E6 Electronics","6X TechClozedEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
@@ -967,7 +967,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E7 Radar",
 				"row": 16,
-				"prerequisites": ["6X TechClozedEraModern"],
+				"prerequisites": ["30 JesusEra Modern 03"],
 //				"prerequisites": ["E6 Ballistics","E6 Electronics","6X TechClozedEraModern"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
@@ -975,7 +975,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E7 Combined Arms",
 				"row": 18,
-				"prerequisites": ["6X TechClozedEraModern"],
+				"prerequisites": ["40 JesusEra Modern 04"],
 //				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechClozedEraModern"],
 				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			},
@@ -1049,28 +1049,28 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E8 Telecommunications",
 				"row": 12,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["10 JesusEra Atomic 01],
 //				"prerequisites": ["E7 Ecology","7X TechClozedEraAtomic"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
 				"name": "E8 Mobile Tactics",
 				"row": 13,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["20 JesusEra Atomic 02],
 //				"prerequisites": ["E7 Ecology","E7 Nuclear Fission","7X TechClozedEraAtomic"],
 				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
 				"name": "E8 Advanced Ballistics",
 				"row": 15,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["30 JesusEra Atomic 03],
 //				"prerequisites": ["E7 Nuclear Fission","E7 Rocketry","7X TechClozedEraAtomic"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
 			},
 			{
 				"name": "E8 Satellites",
 				"row": 16,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["30 JesusEra Atomic 03],
 //				"prerequisites": ["E7 Rocketry","7X TechClozedEraAtomic"],
 				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
 				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
@@ -1078,14 +1078,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E8 Robotics",
 				"row": 17,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["40 JesusEra Atomic 04],
 //				"prerequisites": ["E7 Rocketry","E7 Computers","7X TechClozedEraAtomic"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "E8 Lasers",
 				"row": 18,
-				"prerequisites": ["7X TechClozedEraAtomic"],
+				"prerequisites": ["40 JesusEra Atomic 04],
 //				"prerequisites": ["E7 Computers","7X TechClozedEraAtomic"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
@@ -1114,33 +1114,33 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E8 Globalization",
 				"row": 12,
-				"prerequisites": ["E8 Telecommunications","7X TechClozedEraAtomic"],
+				"prerequisites": ["E8 Telecommunications"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
 				"name": "E8 Particle Physics",
 				"row": 13,
-				"prerequisites": ["E8 Telecommunications","E8 Mobile Tactics","E8 Advanced Ballistics","7X TechClozedEraAtomic"],
+				"prerequisites": ["E8 Telecommunications","E8 Mobile Tactics","E8 Advanced Ballistics"],
 				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
 			},
 			{
 				"name": "E8 Nuclear Fusion",
 				"row": 16,
-				"prerequisites": ["E8 Advanced Ballistics", "E8 Satellites", "E8 Robotics","7X TechClozedEraAtomic"],
+				"prerequisites": ["E8 Advanced Ballistics", "E8 Satellites", "E8 Robotics"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
 			{
 				"name": "E8 Nanotechnology",
 				"row": 17,
-				"prerequisites": ["E8 Robotics","7X TechClozedEraAtomic"],
+				"prerequisites": ["E8 Robotics"],
 				"quote": "'The impact of E8 Nanotechnology is expected to exceed the impact that the E6 Electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
 				"name": "E8 Stealth",
 				"row": 18,
-				"prerequisites": ["E8 Robotics", "E8 Lasers","7X TechClozedEraAtomic"],
+				"prerequisites": ["E8 Robotics", "E8 Lasers"],
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			},
@@ -1175,56 +1175,18 @@ Mixed   techgk   techgk   slower   slower
 //					"Only available <before discovering [E1 Agriculture]>"
 				]
 			},
-
 			{
-				"name": "9X FutureTech",
+				"name": "9X TechClozedEraFuture",
 				"row": 23,
 				"prerequisites": [
-				    "90 FutureTech"
+				    "90 TechKosongEraFuture"
 				],
+				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
 				"uniques": [
+				    "Cannot be hurried"
 					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			}
-
-			{
-				"name": "XX FuturaTech",
-				"row": 22,
-				"prerequisites": ["E9 Future Tech"],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},
-			{
-				"name": "E9 Future Tech",
-				"row": 15,
-				"prerequisites": [
-					"9X FutureTech", //xsa//added
-
-//					"E8 Globalization",
-//					"E8 Particle Physics",
-//					"E8 Nuclear Fusion",
-//					"E8 Nanotechnology",
-//					"E8 Stealth"
-
-				],
-				"uniques": [
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+//					"[+1000]% Science cost of researching new Technologies"
+					]
 			},
 			{
 				"name": "Era9DummyTech03",
@@ -1977,30 +1939,80 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 1000,//zgv44Cost
 		"wonderCost": 1500,//zgv44Cost
 		"techs": [
-
 			{
-				"name": "90 TechClozedEraFuture",
+				"name": "90 TechOpenedEraFuture",
 				"row": 24,
 				"prerequisites": [
 				    "90 InhibitorEra Future"
 				],
-				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
+				"quote": "90 Future Tech Opened, Opened tech upgrades",
 				"uniques": [
 				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
-
 			{
-				"name": "9X TechClozedEraFuture",
-				"row": 23,
+				"name": "90 TechSlowerEraFuture",
+				"row": 25,
 				"prerequisites": [
-				    "90 TechKosongEraFuture"
+				    "90 TechOpenedEraFuture"
 				],
-				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
+				"quote": "90 Future Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechMirrorEraFuture",
+				"row": 26,
+				"prerequisites": [
+				    "90 TechSlowerEraFuture"
+				],
+				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechClonedEraFuture",
+				"row": 27,
+				"prerequisites": [
+				    "90 TechMirrorEraFuture"
+				],
+				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechKosongEraFuture",
+				"row": 28,
+				"prerequisites": [
+				    "90 TechClonedEraFuture"
+				],
+				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechClozedEraFuture",
+				"row": 29,
+				"prerequisites": [
+				    "90 InhibitorEra Future"
+				],
+				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3036,72 +3048,23 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv43Cost
 		"wonderCost": 1250,//zgv43Cost
 		"techs": [
+			{
+				"name": "90 InhibitorEra Future",
+				"row": 23,
+				"prerequisites": [
+					"E9 Future Tech"
+				],
+				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+				    "Cannot be hurried",
+//era9
+        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
 
-			{
-				"name": "90 TechOpenedEraFuture",
-				"row": 24,
-				"prerequisites": [
-				    "90 InhibitorEra Future"
-				],
-				"quote": "90 Future Tech Opened, Opened tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
+//zgv43                    "Discover [80 TechClozedEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "90 TechSlowerEraFuture",
-				"row": 25,
-				"prerequisites": [
-				    "90 TechOpenedEraFuture"
-				],
-				"quote": "90 Future Tech Slower, Slower tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{
-				"name": "90 TechMirrorEraFuture",
-				"row": 26,
-				"prerequisites": [
-				    "90 TechSlowerEraFuture"
-				],
-				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{
-				"name": "90 TechClonedEraFuture",
-				"row": 27,
-				"prerequisites": [
-				    "90 TechMirrorEraFuture"
-				],
-				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{
-				"name": "90 TechKosongEraFuture",
-				"row": 28,
-				"prerequisites": [
-				    "90 TechClonedEraFuture"
-				],
-				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
-				"uniques": [
-				    "Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
+
 			{
 				"name": "Era9DummyTech01",
 				"row": 41,
@@ -3124,20 +3087,54 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 1250,//zgv42Cost
 		"techs": [
 			{
-				"name": "90 InhibitorEra Future",
+				"name": "9X FutureTech",
 				"row": 23,
 				"prerequisites": [
-					"E9 Future Tech"
+				    "90 FutureTech"
 				],
-				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
-//era9
-        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
 
-//zgv43                    "Discover [80 TechClozedEraInformation]"
-//					"[+100]% weight to this choice for AI decisions"
-					]
+			{
+				"name": "XX FuturaTech",
+				"row": 22,
+				"prerequisites": ["E9 Future Tech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "E9 Future Tech",
+				"row": 15,
+				"prerequisites": [
+					"9X FutureTech", //xsa//added
+
+//					"E8 Globalization",
+//					"E8 Particle Physics",
+//					"E8 Nuclear Fusion",
+//					"E8 Nanotechnology",
+//					"E8 Stealth"
+
+				],
+				"uniques": [
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 
 		    {
@@ -3146,11 +3143,13 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": [
 					"8X TechClozedEraInformation", //xsa//added
 
+/*
 					"E8 Globalization",
 					"E8 Particle Physics",
 					"E8 Nuclear Fusion",
 					"E8 Nanotechnology",
 					"E8 Stealth"
+*/
 //					"E9 Future Tech"
 					],
 				"uniques": [
@@ -3302,7 +3301,6 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Classical 01",
 				"row": 12,
 				"prerequisites": [
-					"E2 Optics",
 					"E2 Philosophy"
 				],
 				"quote": "10 Classical Tech Inhibitor, Slower tech upgrades",
@@ -3450,7 +3448,6 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Medieval 03",
 				"row": 16,
 				"prerequisites": [
-					"E3 Civil Service",
 					"E3 Chivalry",
 					"20 IsraelEra Medieval 02"
 				],
@@ -3463,7 +3460,6 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Medieval 04",
 				"row": 18,
 				"prerequisites": [
-					"E3 Guilds",
 					"E3 Machinery",
 					"30 IsraelEra Medieval 03"
 				],
@@ -3675,6 +3671,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Industrial 01",
 				"row": 12,
 				"prerequisites": [
+					"E5 Biology"
 				],
 				"quote": "10 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3685,6 +3682,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Industrial 02",
 				"row": 14,
 				"prerequisites": [
+					"E5 Electricity",
 					"10 IsraelEra Industrial 01"
 				],
 				"quote": "20 Industrial Tech Inhibitor, Slower tech upgrades",
@@ -3696,6 +3694,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Industrial 03",
 				"row": 16,
 				"prerequisites": [
+					"E5 Steam Power",
 					"20 IsraelEra Industrial 02"
 				],
 				"quote": "30 Industrial Tech Inhibitor, Slower tech upgrades",
@@ -3718,6 +3717,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 IsraelEra Industrial 05",
 				"row": 20,
 				"prerequisites": [
+					"E5 Dynamite",
 					"40 IsraelEra Industrial 04"
 				],
 				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
@@ -3833,6 +3833,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Modern 01",
 				"row": 12,
 				"prerequisites": [
+					"E6 Refrigeration"
 				],
 				"quote": "10 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3843,6 +3844,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Modern 02",
 				"row": 14,
 				"prerequisites": [
+					"E6 Plastics",
 					"10 IsraelEra Modern 01"
 				],
 				"quote": "20 Modern Tech Inhibitor, Slower tech upgrades",
@@ -3854,6 +3856,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Modern 03",
 				"row": 16,
 				"prerequisites": [
+					"E6 Electronics",
+					"E6 Ballistics",
 					"20 IsraelEra Modern 02"
 				],
 				"quote": "30 Modern Tech Inhibitor, Slower tech upgrades",
@@ -3865,6 +3869,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Modern 04",
 				"row": 18,
 				"prerequisites": [
+					"E6 Combustion",
 					"30 IsraelEra Modern 03"
 				],
 				"quote": "40 Modern Tech Inhibitor, Slower tech upgrades",
@@ -3967,6 +3972,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Atomic 01",
 				"row": 12,
 				"prerequisites": [
+					"E7 Ecology"
 				],
 				"quote": "10 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3977,6 +3983,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Atomic 02",
 				"row": 14,
 				"prerequisites": [
+					"E7 Nuclear Fission",
 					"10 IsraelEra Atomic 01"
 				],
 				"quote": "20 Atomic Tech Inhibitor, Slower tech upgrades",
@@ -3988,6 +3995,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Atomic 03",
 				"row": 16,
 				"prerequisites": [
+					"E7 Rocketry",
 					"20 IsraelEra Atomic 02"
 				],
 				"quote": "30 Atomic Tech Inhibitor, Slower tech upgrades",
@@ -3999,6 +4007,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Atomic 04",
 				"row": 18,
 				"prerequisites": [
+					"E7 Computers",
 					"30 IsraelEra Atomic 03"
 				],
 				"quote": "40 Atomic Tech Inhibitor, Slower tech upgrades",
@@ -4080,6 +4089,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 IsraelEra Information 01",
 				"row": 12,
 				"prerequisites": [
+					"E8 Globalization"
 				],
 				"quote": "10 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4090,6 +4100,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 IsraelEra Information 02",
 				"row": 14,
 				"prerequisites": [
+					"E8 Particle Physics",
 					"10 IsraelEra Information 01"
 				],
 				"quote": "20 Information Tech Inhibitor, Slower tech upgrades",
@@ -4101,6 +4112,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 IsraelEra Information 03",
 				"row": 16,
 				"prerequisites": [
+					"E8 Nuclear Fusion",
 					"20 IsraelEra Information 02"
 				],
 				"quote": "30 Information Tech Inhibitor, Slower tech upgrades",
@@ -4112,6 +4124,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 IsraelEra Information 04",
 				"row": 18,
 				"prerequisites": [
+					"E8 Nanotechnology",
+					"E8 Stealth",
 					"30 IsraelEra Information 03"
 				],
 				"quote": "40 Information Tech Inhibitor, Slower tech upgrades",
