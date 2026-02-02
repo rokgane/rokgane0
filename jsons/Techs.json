@@ -1208,7 +1208,20 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}
-
+			{
+				"name": "ZZ FuturaTech",
+				"row": 15,
+				"prerequisites": ["9X FutureTech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
 			{
 				"name": "XX FuturaTech",
 				"row": 26,
@@ -1216,7 +1229,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <for [Human player] Civilizations> <hidden from users>"
-	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],

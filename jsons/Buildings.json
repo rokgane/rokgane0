@@ -1881,7 +1881,7 @@
 		"uniques": [
 			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
 
-			"[1] free [E1 Settler] units appear <every [17] turns>",
+			"[5] free [E1 Settler] units appear<for [AI player] Civilizations>",
 
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
@@ -6713,7 +6713,7 @@
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-				"Only available <in cities with a [MiniCake Trigger Endgame]> <after discovering [XX FuturaTech]><hidden from users>",
+				"Only available <in cities with a [MiniCake Trigger Endgame]> <after discovering [ZZ FuturaTech]><hidden from users>",
 			    "Triggers victory"
 		],
 		"requiredTech": "TechUnlocker"
@@ -8963,7 +8963,7 @@
 
 			"Gain a free [Enema ShowGk Aall] [in this city]",
 //			"[1] free [E1 Settler] units appear <every [20] turns>",
-			"[3] free [E1 Settler] units appear <every [17] turns>",
+			"[1] free [E1 Settler] units appear",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
