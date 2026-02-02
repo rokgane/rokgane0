@@ -1049,7 +1049,7 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E8 Telecommunications",
 				"row": 12,
-				"prerequisites": ["10 JesusEra Atomic 01],
+				"prerequisites": ["10 JesusEra Atomic 01"],
 //				"prerequisites": ["E7 Ecology","7X TechClozedEraAtomic"],
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
