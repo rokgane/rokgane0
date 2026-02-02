@@ -905,26 +905,26 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E6 Plastics",
 				"row": 13,
-				"prerequisites": ["E6 Radio","E6 Replaceable Parts","5X TechClozedEraIndustrial"],
+				"prerequisites": ["E6 Radio","E6 Replaceable Parts"],
 				"uniques": ["[+200]% weight to this choice for AI decisions"],
 				"quote": "'Ben, I want to say one word to you, just one word: E6 Plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
 				"name": "E6 Electronics",
 				"row": 15,
-				"prerequisites": ["E6 Replaceable Parts", "E6 Flight","5X TechClozedEraIndustrial"],
+				"prerequisites": ["E6 Replaceable Parts", "E6 Flight"],
 				"quote": "'There's a basic principle about consumer E6 Electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
 				"name": "E6 Ballistics",
 				"row": 16,
-				"prerequisites": ["E6 Flight","5X TechClozedEraIndustrial"],
+				"prerequisites": ["E6 Flight"],
 				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
 			},
 			{
 				"name": "E6 Combustion",
 				"row": 18,
-				"prerequisites": ["E6 Railroads","5X TechClozedEraIndustrial"],
+				"prerequisites": ["E6 Railroads"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			},
@@ -1003,26 +1003,26 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "E7 Ecology",
 				"row": 12,
-				"prerequisites": ["E7 Atomic Theory","E7 Pharmaceuticals","6X TechClozedEraModern"],
+				"prerequisites": ["E7 Atomic Theory","E7 Pharmaceuticals"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
 				"name": "E7 Nuclear Fission",
 				"row": 14,
-				"prerequisites": ["E7 Atomic Theory","E7 Radar","6X TechClozedEraModern"],
+				"prerequisites": ["E7 Atomic Theory","E7 Radar"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
 				"name": "E7 Rocketry",
 				"row": 16,
-				"prerequisites": ["E7 Radar","6X TechClozedEraModern"],
+				"prerequisites": ["E7 Radar"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
 				"name": "E7 Computers",
 				"row": 18,
-				"prerequisites": ["E7 Combined Arms","E7 Radar","6X TechClozedEraModern"],
+				"prerequisites": ["E7 Combined Arms","E7 Radar"],
 				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			},
 			{
@@ -1168,7 +1168,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "KosongZeroBase",
 				"row": 40,//21,
 				"prerequisites": [
-//				    "XX FuturaTech"
+				    "XX FuturaTech"
 				    ],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
@@ -3886,8 +3886,8 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 				    "Cannot be hurried",
 
-        			"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
-        			"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
+//        			"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
+//        			"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
 //era6
         			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]>",
         			"Discover [E6 Radio]<before discovering [E6 Radio]>",
@@ -4046,7 +4046,7 @@ Mixed   techgk   techgk   slower   slower
             	"name": "DNS Tech Land Leviathan",
             	"row": 35,
             	"prerequisites": [
-            	    "5X TechClozedEraIndustrial",
+ //           	    "5X TechClozedEraIndustrial",
             	    "DNS Tech Landships"
             	    ],
             	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
@@ -4055,7 +4055,7 @@ Mixed   techgk   techgk   slower   slower
             	"name": "DNS Tech Sky Fortress",
             	"row": 36,
             	"prerequisites": [
-            	    "5X TechClozedEraIndustrial",
+//            	    "5X TechClozedEraIndustrial",
             	    "DNS Tech Airships"
             	    ],
             	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
