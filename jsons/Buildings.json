@@ -8963,7 +8963,7 @@
 
 			"Gain a free [Enema ShowGk Aall] [in this city]",
 //			"[1] free [E1 Settler] units appear <every [20] turns>",
-			"[1] free [E1 Settler] units appear",
+			"[1] free [E1 Settler] units appear<for [AI player] Civilizations>",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",

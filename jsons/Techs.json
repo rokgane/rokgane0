@@ -542,7 +542,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E3 Compass",
 				"cost": 375,
 				"row": 11,
-				"prerequisites": ["E3 Theology"],
+				"prerequisites": ["E2 Optics","E3 Theology"],
 //				"prerequisites": ["E2 Optics","E3 Theology","2X TechClozedEraClassical"],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
@@ -928,6 +928,24 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			},
+
+		    {
+            	"name": "DNS Tech Landships",
+            	"row": 35,
+            	"prerequisites": [
+            	    "5X TechClozedEraIndustrial"
+            	    ],
+            	"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
+            },
+            {
+            	"name": "DNS Tech Airships",
+            	"row": 36,
+            	"prerequisites": [
+            	    "5X TechClozedEraIndustrial"
+            	    ],
+            	"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+            },
+
 			{
 				"name": "Era6DummyGkTech02",
 				"row": 41,
@@ -1025,6 +1043,26 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E7 Combined Arms","E7 Radar"],
 				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			},
+
+            {
+            	"name": "DNS Tech Land Leviathan",
+            	"row": 35,
+            	"prerequisites": [
+ //           	    "5X TechClozedEraIndustrial",
+            	    "DNS Tech Landships"
+            	    ],
+            	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
+            },
+            {
+            	"name": "DNS Tech Sky Fortress",
+            	"row": 36,
+            	"prerequisites": [
+//            	    "5X TechClozedEraIndustrial",
+            	    "DNS Tech Airships"
+            	    ],
+            	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
+            },
+
 			{
 				"name": "Era7DummyGkTech02",
 				"row": 41,
@@ -3919,23 +3957,6 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 
-		    {
-            	"name": "DNS Tech Landships",
-            	"row": 35,
-            	"prerequisites": [
-            	    "5X TechClozedEraIndustrial"
-            	    ],
-            	"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
-            },
-            {
-            	"name": "DNS Tech Airships",
-            	"row": 36,
-            	"prerequisites": [
-            	    "5X TechClozedEraIndustrial"
-            	    ],
-            	"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-            },
-
 			{
 				"name": "Era6DummyTech01",
 				"row": 41,
@@ -4021,6 +4042,9 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 InhibitorEra Atomic",
 				"row": 23,
 				"prerequisites": [
+
+                    "DNS Tech Land Leviathan",
+                    "DNS Tech Sky Fortress",
 					"50 IsraelEra Atomic 05",
 /*
 					"E7 Pharmaceuticals",
@@ -4054,25 +4078,6 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-
-            {
-            	"name": "DNS Tech Land Leviathan",
-            	"row": 35,
-            	"prerequisites": [
- //           	    "5X TechClozedEraIndustrial",
-            	    "DNS Tech Landships"
-            	    ],
-            	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
-            },
-            {
-            	"name": "DNS Tech Sky Fortress",
-            	"row": 36,
-            	"prerequisites": [
-//            	    "5X TechClozedEraIndustrial",
-            	    "DNS Tech Airships"
-            	    ],
-            	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
-            },
 
 			{
 				"name": "Era7DummyTech01",
