@@ -1,5 +1,6 @@
 /*
 
+                                                            Clozed
                                                             Kosong 
                                                             Cloned 
                                                             Mirror               
@@ -204,13 +205,17 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
 			{//xsa//reenable diplomacy for AI
-            	"name": "Enable AI Diplomacy",
+            	"name": "Enable Diplomacy",
             	"row": 33,//23,
 				"quote": "Cheat tech",
 				"uniques": [
+				    "Enables establishment of embassies",
+				    "Enables Open Borders agreements",
+				    "Enables Research agreements",
+				    "Enables Defensive Pacts"
+
+					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-		        	"Only available <if [Minicake Enable AI Diplomacy] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -3234,7 +3239,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 //era1
 			{
-				"name": "10 IsraelEra Ancient 01",
+				"name": "10 IsraelEra E1 Ancient 01",
 				"row": 12,
 				"prerequisites": [
 					"E1 Sailing",
@@ -3246,10 +3251,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Ancient 02",
+				"name": "20 IsraelEra E1 Ancient 02",
 				"row": 14,
 				"prerequisites": [
-					"10 IsraelEra Ancient 01",
+					"10 IsraelEra E1 Ancient 01",
 					"E1 Writing"
 				],
 				"quote": "20 Ancient Tech Inhibitor, Slower tech upgrades",
@@ -3258,10 +3263,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Ancient 03",
+				"name": "30 IsraelEra E1 Ancient 03",
 				"row": 16,
 				"prerequisites": [
-					"20 IsraelEra Ancient 02",
+					"20 IsraelEra E1 Ancient 02",
 					"E1 Trapping"
 				],
 				"quote": "30 Ancient Tech Inhibitor, Slower tech upgrades",
@@ -3270,10 +3275,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Ancient 04",
+				"name": "40 IsraelEra E1 Ancient 04",
 				"row": 18,
 				"prerequisites": [
-					"30 IsraelEra Ancient 03",
+					"30 IsraelEra E1 Ancient 03",
 					"E1 The Wheel"
 				],
 				"quote": "40 Ancient Tech Inhibitor, Slower tech upgrades",
@@ -3282,10 +3287,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Ancient 05",
+				"name": "50 IsraelEra E1 Ancient 05",
 				"row": 20,
 				"prerequisites": [
-					"40 IsraelEra Ancient 04",
+					"40 IsraelEra E1 Ancient 04",
 					"E1 Masonry",
 					"E1 Bronze Working"
 				],
@@ -3299,7 +3304,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 InhibitorEra Ancient",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Ancient 05",
+					"50 IsraelEra E1 Ancient 05",
 /*
 					"E1 Pottery",
 					"E1 Animal Husbandry",
@@ -3358,7 +3363,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Classical 01",
+				"name": "10 IsraelEra E2 Classical 01",
 				"row": 12,
 				"prerequisites": [
 					"E2 Philosophy"
@@ -3369,11 +3374,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Classical 02",
+				"name": "20 IsraelEra E2 Classical 02",
 				"row": 14,
 				"prerequisites": [
 					"E2 Drama and Poetry",
-					"10 IsraelEra Classical 01"
+					"10 IsraelEra E2 Classical 01"
 				],
 				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3381,11 +3386,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Classical 03",
+				"name": "30 IsraelEra E2 Classical 03",
 				"row": 16,
 				"prerequisites": [
 					"E2 Horseback Riding",
-					"20 IsraelEra Classical 02"
+					"20 IsraelEra E2 Classical 02"
 				],
 				"quote": "30 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3393,12 +3398,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Classical 04",
+				"name": "40 IsraelEra E2 Classical 04",
 				"row": 18,
 				"prerequisites": [
 					"E2 Currency",
 					"E2 Engineering",
-					"30 IsraelEra Classical 03"
+					"30 IsraelEra E2 Classical 03"
 				],
 				"quote": "40 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3406,12 +3411,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Classical 05",
+				"name": "50 IsraelEra E2 Classical 05",
 				"row": 20,
 				"prerequisites": [
 					"E2 Construction",
 					"E2 Iron Working",
-					"40 IsraelEra Classical 04"
+					"40 IsraelEra E2 Classical 04"
 				],
 				"quote": "50 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3423,7 +3428,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 InhibitorEra Classical",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Classical 05",
+					"50 IsraelEra E2 Classical 05",
 /*
 					"E2 Optics",
 					"E2 Horseback Riding",
@@ -3481,7 +3486,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Medieval 01",
+				"name": "10 IsraelEra E3 Medieval 01",
 				"row": 12,
 				"prerequisites": [
 					"E3 Theology",
@@ -3493,11 +3498,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Medieval 02",
+				"name": "20 IsraelEra E3 Medieval 02",
 				"row": 14,
 				"prerequisites": [
 					"E3 Education",
-					"10 IsraelEra Medieval 01"
+					"10 IsraelEra E3 Medieval 01"
 				],
 				"quote": "20 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3505,11 +3510,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Medieval 03",
+				"name": "30 IsraelEra E3 Medieval 03",
 				"row": 16,
 				"prerequisites": [
 					"E3 Chivalry",
-					"20 IsraelEra Medieval 02"
+					"20 IsraelEra E3 Medieval 02"
 				],
 				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3517,11 +3522,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Medieval 04",
+				"name": "40 IsraelEra E3 Medieval 04",
 				"row": 18,
 				"prerequisites": [
 					"E3 Machinery",
-					"30 IsraelEra Medieval 03"
+					"30 IsraelEra E3 Medieval 03"
 				],
 				"quote": "40 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3529,12 +3534,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Medieval 05",
+				"name": "50 IsraelEra E3 Medieval 05",
 				"row": 20,
 				"prerequisites": [
 					"E3 Physics",
 					"E3 Steel",
-					"40 IsraelEra Medieval 04"
+					"40 IsraelEra E3 Medieval 04"
 				],
 				"quote": "50 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3546,7 +3551,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 InhibitorEra Medieval",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Medieval 05",
+					"50 IsraelEra E3 Medieval 05",
 /*
 					"E3 Theology",
 					"E3 Civil Service",
@@ -3605,7 +3610,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Renaissance 01",
+				"name": "10 IsraelEra E4 Renaissance 01",
 				"row": 12,
 				"prerequisites": [
 					"E4 Navigation",
@@ -3616,11 +3621,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Renaissance 02",
+				"name": "20 IsraelEra E4 Renaissance 02",
 				"row": 14,
 				"prerequisites": [
 					"E4 Architecture",
-					"10 IsraelEra Renaissance 01"
+					"10 IsraelEra E4 Renaissance 01"
 				],
 				"quote": "20 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3628,11 +3633,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Renaissance 03",
+				"name": "30 IsraelEra E4 Renaissance 03",
 				"row": 16,
 				"prerequisites": [
 					"E4 Economics",
-					"20 IsraelEra Renaissance 02"
+					"20 IsraelEra E4 Renaissance 02"
 				],
 				"quote": "30 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3640,11 +3645,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Renaissance 04",
+				"name": "40 IsraelEra E4 Renaissance 04",
 				"row": 18,
 				"prerequisites": [
 					"E4 Printing Press",
-					"30 IsraelEra Renaissance 03"
+					"30 IsraelEra E4 Renaissance 03"
 				],
 				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3652,12 +3657,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Renaissance 05",
+				"name": "50 IsraelEra E4 Renaissance 05",
 				"row": 20,
 				"prerequisites": [
 					"E4 Metallurgy",
 					"E4 Chemistry",
-					"40 IsraelEra Renaissance 04"
+					"40 IsraelEra E4 Renaissance 04"
 				],
 				"quote": "50 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3669,7 +3674,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 InhibitorEra Renaissance",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Renaissance 05",
+					"50 IsraelEra E4 Renaissance 05",
 /*
 					"E4 Astronomy",
 					"E4 Acoustics",
@@ -3728,7 +3733,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Industrial 01",
+				"name": "10 IsraelEra E5 Industrial 01",
 				"row": 12,
 				"prerequisites": [
 					"E5 Biology"
@@ -3739,11 +3744,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Industrial 02",
+				"name": "20 IsraelEra E5 Industrial 02",
 				"row": 14,
 				"prerequisites": [
 					"E5 Electricity",
-					"10 IsraelEra Industrial 01"
+					"10 IsraelEra E5 Industrial 01"
 				],
 				"quote": "20 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3751,11 +3756,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Industrial 03",
+				"name": "30 IsraelEra E5 Industrial 03",
 				"row": 16,
 				"prerequisites": [
 					"E5 Steam Power",
-					"20 IsraelEra Industrial 02"
+					"20 IsraelEra E5 Industrial 02"
 				],
 				"quote": "30 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3763,10 +3768,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Industrial 04",
+				"name": "40 IsraelEra E5 Industrial 04",
 				"row": 18,
 				"prerequisites": [
-					"30 IsraelEra Industrial 03"
+					"30 IsraelEra E5 Industrial 03"
 				],
 				"quote": "40 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3774,11 +3779,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Industrial 05",
+				"name": "50 IsraelEra E5 Industrial 05",
 				"row": 20,
 				"prerequisites": [
 					"E5 Dynamite",
-					"40 IsraelEra Industrial 04"
+					"40 IsraelEra E5 Industrial 04"
 				],
 				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3790,7 +3795,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 InhibitorEra Industrial",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Industrial 05"
+					"50 IsraelEra E5 Industrial 05"
 /*
 					"E5 Archaeology",
 					"E5 Scientific Theory",
@@ -3853,7 +3858,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Modern 01",
+				"name": "10 IsraelEra E6 Modern 01",
 				"row": 12,
 				"prerequisites": [
 					"E6 Refrigeration"
@@ -3864,11 +3869,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Modern 02",
+				"name": "20 IsraelEra E6 Modern 02",
 				"row": 14,
 				"prerequisites": [
 					"E6 Plastics",
-					"10 IsraelEra Modern 01"
+					"10 IsraelEra E6 Modern 01"
 				],
 				"quote": "20 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3876,12 +3881,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Modern 03",
+				"name": "30 IsraelEra E6 Modern 03",
 				"row": 16,
 				"prerequisites": [
 					"E6 Electronics",
 					"E6 Ballistics",
-					"20 IsraelEra Modern 02"
+					"20 IsraelEra E6 Modern 02"
 				],
 				"quote": "30 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3889,11 +3894,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Modern 04",
+				"name": "40 IsraelEra E6 Modern 04",
 				"row": 18,
 				"prerequisites": [
 					"E6 Combustion",
-					"30 IsraelEra Modern 03"
+					"30 IsraelEra E6 Modern 03"
 				],
 				"quote": "40 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3901,10 +3906,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Modern 05",
+				"name": "50 IsraelEra E6 Modern 05",
 				"row": 20,
 				"prerequisites": [
-					"40 IsraelEra Modern 04"
+					"40 IsraelEra E6 Modern 04"
 				],
 				"quote": "50 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3916,7 +3921,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 InhibitorEra Modern",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Modern 05",
+					"50 IsraelEra E6 Modern 05",
 /*
 					"E6 Refrigeration",
 					"E6 Radio",
@@ -3980,7 +3985,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Atomic 01",
+				"name": "10 IsraelEra E7 Atomic 01",
 				"row": 12,
 				"prerequisites": [
 					"E7 Ecology"
@@ -3991,11 +3996,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Atomic 02",
+				"name": "20 IsraelEra E7 Atomic 02",
 				"row": 14,
 				"prerequisites": [
 					"E7 Nuclear Fission",
-					"10 IsraelEra Atomic 01"
+					"10 IsraelEra E7 Atomic 01"
 				],
 				"quote": "20 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4003,11 +4008,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Atomic 03",
+				"name": "30 IsraelEra E7 Atomic 03",
 				"row": 16,
 				"prerequisites": [
 					"E7 Rocketry",
-					"20 IsraelEra Atomic 02"
+					"20 IsraelEra E7 Atomic 02"
 				],
 				"quote": "30 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4015,11 +4020,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Atomic 04",
+				"name": "40 IsraelEra E7 Atomic 04",
 				"row": 18,
 				"prerequisites": [
 					"E7 Computers",
-					"30 IsraelEra Atomic 03"
+					"30 IsraelEra E7 Atomic 03"
 				],
 				"quote": "40 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4027,10 +4032,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Atomic 05",
+				"name": "50 IsraelEra E7 Atomic 05",
 				"row": 20,
 				"prerequisites": [
-					"40 IsraelEra Atomic 04"
+					"40 IsraelEra E7 Atomic 04"
 				],
 				"quote": "50 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4045,7 +4050,7 @@ Mixed   techgk   techgk   slower   slower
 
                     "DNS Tech Land Leviathan",
                     "DNS Tech Sky Fortress",
-					"50 IsraelEra Atomic 05",
+					"50 IsraelEra E7 Atomic 05",
 /*
 					"E7 Pharmaceuticals",
 					"E7 Atomic Theory",
@@ -4101,7 +4106,7 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{
-				"name": "10 IsraelEra Information 01",
+				"name": "10 IsraelEra E8 Information 01",
 				"row": 12,
 				"prerequisites": [
 					"E8 Globalization"
@@ -4112,11 +4117,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "20 IsraelEra Information 02",
+				"name": "20 IsraelEra E8 Information 02",
 				"row": 14,
 				"prerequisites": [
 					"E8 Particle Physics",
-					"10 IsraelEra Information 01"
+					"10 IsraelEra E8 Information 01"
 				],
 				"quote": "20 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4124,11 +4129,11 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "30 IsraelEra Information 03",
+				"name": "30 IsraelEra E8 Information 03",
 				"row": 16,
 				"prerequisites": [
 					"E8 Nuclear Fusion",
-					"20 IsraelEra Information 02"
+					"20 IsraelEra E8 Information 02"
 				],
 				"quote": "30 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4136,12 +4141,12 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "40 IsraelEra Information 04",
+				"name": "40 IsraelEra E8 Information 04",
 				"row": 18,
 				"prerequisites": [
 					"E8 Nanotechnology",
 					"E8 Stealth",
-					"30 IsraelEra Information 03"
+					"30 IsraelEra E8 Information 03"
 				],
 				"quote": "40 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4149,10 +4154,10 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "50 IsraelEra Information 05",
+				"name": "50 IsraelEra E8 Information 05",
 				"row": 20,
 				"prerequisites": [
-					"40 IsraelEra Information 04"
+					"40 IsraelEra E8 Information 04"
 				],
 				"quote": "50 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4164,7 +4169,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 InhibitorEra Information",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra Information 05",
+					"50 IsraelEra E8 Information 05",
 /*
 					"E8 Telecommunications",
 					"E8 Mobile Tactics",

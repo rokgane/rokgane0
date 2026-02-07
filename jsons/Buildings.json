@@ -8452,16 +8452,34 @@
 
 
 
-
-
 	{
-		"name": "Minicake Enable AI Diplomacy",
+		"name": "Minicake Enable Human Diplomacy",
 //		"requiredBuilding": "MiniCake DNS Vault Tech",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"Discover [Enable AI Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+//    			"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+
+				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "Minicake Enable Enema Diplomacy",
+//		"requiredBuilding": "MiniCake DNS Vault Tech",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+//    			"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
 
 				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -9574,16 +9592,26 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era1
+			"Discover [10 IsraelEra E1 Ancient 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E1 Ancient 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E1 Ancient 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E1 Ancient 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E1 Ancient 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E1 Ancient 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E1 Ancient 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E1 Ancient 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E1 Ancient 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E1 Ancient 05] <for [Human player] Civilizations>",
+
+			"Discover [1X TechClozedEraAncient] <for [Human player] Civilizations>",
 			"Discover [10 InhibitorEra Ancient] <for [Human player] Civilizations>",
 
-			"Discover [10 TechOpenedEraAncient] <for [Human player] Civilizations>",
-			"Discover [10 TechSlowerEraAncient] <for [Human player] Civilizations>",
-			"Discover [10 TechMirrorEraAncient] <for [Human player] Civilizations>",
-			"Discover [10 TechClonedEraAncient] <for [Human player] Civilizations>",
-			"Discover [10 TechKosongEraAncient] <for [Human player] Civilizations>",
-
 			"Discover [10 TechClozedEraAncient] <for [Human player] Civilizations>",
-
+			"Discover [10 TechKosongEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechClonedEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechMirrorEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechSlowerEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechOpenedEraAncient] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9604,17 +9632,27 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era2
+			"Discover [10 IsraelEra E2 Classical 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E2 Classical 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E2 Classical 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E2 Classical 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E2 Classical 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E2 Classical 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E2 Classical 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E2 Classical 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E2 Classical 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E2 Classical 05] <for [Human player] Civilizations>",
+
+			"Discover [2X TechClozedEraClassical] <for [Human player] Civilizations>",
 			"Discover [20 InhibitorEra Classical] <for [Human player] Civilizations>",
 
-			"Discover [20 TechOpenedEraClassical] <for [Human player] Civilizations>",
-			"Discover [20 TechSlowerEraClassical] <for [Human player] Civilizations>",
-			"Discover [20 TechMirrorEraClassical] <for [Human player] Civilizations>",
-			"Discover [20 TechClonedEraClassical] <for [Human player] Civilizations>",
-			"Discover [20 TechKosongEraClassical] <for [Human player] Civilizations>",
-
 			"Discover [20 TechClozedEraClassical] <for [Human player] Civilizations>",
-
-
+			"Discover [20 TechKosongEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechClonedEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechMirrorEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechSlowerEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechOpenedEraClassical] <for [Human player] Civilizations>",
+ 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -9634,17 +9672,27 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era3
+			"Discover [10 IsraelEra E3 Medieval 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E3 Medieval 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E3 Medieval 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E3 Medieval 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E3 Medieval 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E3 Medieval 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E3 Medieval 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E3 Medieval 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E3 Medieval 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E3 Medieval 05] <for [Human player] Civilizations>",
+
+			"Discover [3X TechClozedEraMedieval] <for [Human player] Civilizations>",
 			"Discover [30 InhibitorEra Medieval] <for [Human player] Civilizations>",
 
-			"Discover [30 TechOpenedEraMedieval] <for [Human player] Civilizations>",
-			"Discover [30 TechSlowerEraMedieval] <for [Human player] Civilizations>",
-			"Discover [30 TechMirrorEraMedieval] <for [Human player] Civilizations>",
-			"Discover [30 TechClonedEraMedieval] <for [Human player] Civilizations>",
-			"Discover [30 TechKosongEraMedieval] <for [Human player] Civilizations>",
-
 			"Discover [30 TechClozedEraMedieval] <for [Human player] Civilizations>",
-
-
+			"Discover [30 TechKosongEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechClonedEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechMirrorEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechSlowerEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechOpenedEraMedieval] <for [Human player] Civilizations>",
+ 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -9664,17 +9712,27 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era4
+			"Discover [10 IsraelEra E4 Renaissance 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E4 Renaissance 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E4 Renaissance 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E4 Renaissance 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E4 Renaissance 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E4 Renaissance 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E4 Renaissance 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E4 Renaissance 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E4 Renaissance 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E4 Renaissance 05] <for [Human player] Civilizations>",
+
+			"Discover [4X TechClozedEraRenaissance] <for [Human player] Civilizations>",
 			"Discover [40 InhibitorEra Renaissance] <for [Human player] Civilizations>",
 
-			"Discover [40 TechOpenedEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [40 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [40 TechMirrorEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [40 TechClonedEraRenaissance] <for [Human player] Civilizations>",
-			"Discover [40 TechKosongEraRenaissance] <for [Human player] Civilizations>",
-
 			"Discover [40 TechClozedEraRenaissance] <for [Human player] Civilizations>",
-
-
+			"Discover [40 TechKosongEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechClonedEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechMirrorEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechOpenedEraRenaissance] <for [Human player] Civilizations>",
+ 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -9694,16 +9752,26 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era5
+			"Discover [10 IsraelEra E5 Industrial 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E5 Industrial 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E5 Industrial 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E5 Industrial 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E5 Industrial 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E5 Industrial 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E5 Industrial 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E5 Industrial 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E5 Industrial 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E5 Industrial 05] <for [Human player] Civilizations>",
+
+			"Discover [5X TechClozedEraIndustrial] <for [Human player] Civilizations>",
 			"Discover [50 InhibitorEra Industrial] <for [Human player] Civilizations>",
 
-			"Discover [50 TechOpenedEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [50 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [50 TechMirrorEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [50 TechClonedEraIndustrial] <for [Human player] Civilizations>",
-			"Discover [50 TechKosongEraIndustrial] <for [Human player] Civilizations>",
-
 			"Discover [50 TechClozedEraIndustrial] <for [Human player] Civilizations>",
-
+			"Discover [50 TechKosongEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechClonedEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechMirrorEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechOpenedEraIndustrial] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9724,16 +9792,26 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era6
+			"Discover [10 IsraelEra E6 Modern 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E6 Modern 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E6 Modern 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E6 Modern 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E6 Modern 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E6 Modern 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E6 Modern 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E6 Modern 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E6 Modern 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E6 Modern 05] <for [Human player] Civilizations>",
+
+			"Discover [6X TechClozedEraModern] <for [Human player] Civilizations>",
 			"Discover [60 InhibitorEra Modern] <for [Human player] Civilizations>",
 
-			"Discover [60 TechOpenedEraModern] <for [Human player] Civilizations>",
-			"Discover [60 TechSlowerEraModern] <for [Human player] Civilizations>",
-			"Discover [60 TechMirrorEraModern] <for [Human player] Civilizations>",
-			"Discover [60 TechClonedEraModern] <for [Human player] Civilizations>",
-			"Discover [60 TechKosongEraModern] <for [Human player] Civilizations>",
-
 			"Discover [60 TechClozedEraModern] <for [Human player] Civilizations>",
-
+			"Discover [60 TechKosongEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechClonedEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechMirrorEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechSlowerEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechOpenedEraModern] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9754,16 +9832,26 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era7
+			"Discover [10 IsraelEra E7 Atomic 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E7 Atomic 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E7 Atomic 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E7 Atomic 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E7 Atomic 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E7 Atomic 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E7 Atomic 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E7 Atomic 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E7 Atomic 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E7 Atomic 05] <for [Human player] Civilizations>",
+
+			"Discover [7X TechClozedEraAtomic] <for [Human player] Civilizations>",
 			"Discover [70 InhibitorEra Atomic] <for [Human player] Civilizations>",
 
-			"Discover [70 TechOpenedEraAtomic] <for [Human player] Civilizations>",
-			"Discover [70 TechSlowerEraAtomic] <for [Human player] Civilizations>",
-			"Discover [70 TechMirrorEraAtomic] <for [Human player] Civilizations>",
-			"Discover [70 TechClonedEraAtomic] <for [Human player] Civilizations>",
-			"Discover [70 TechKosongEraAtomic] <for [Human player] Civilizations>",
-
 			"Discover [70 TechClozedEraAtomic] <for [Human player] Civilizations>",
-
+			"Discover [70 TechKosongEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechClonedEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechMirrorEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechSlowerEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechOpenedEraAtomic] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9784,16 +9872,26 @@
 		"uniques": [
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era8
+			"Discover [10 IsraelEra E8 Information 01] <for [Human player] Civilizations>",
+			"Discover [20 IsraelEra E8 Information 02] <for [Human player] Civilizations>",
+			"Discover [30 IsraelEra E8 Information 03] <for [Human player] Civilizations>",
+			"Discover [40 IsraelEra E8 Information 04] <for [Human player] Civilizations>",
+			"Discover [50 IsraelEra E8 Information 05] <for [Human player] Civilizations>",
+			"Discover [10 JesusEra E8 Information 01] <for [Human player] Civilizations>",
+			"Discover [20 JesusEra E8 Information 02] <for [Human player] Civilizations>",
+			"Discover [30 JesusEra E8 Information 03] <for [Human player] Civilizations>",
+			"Discover [40 JesusEra E8 Information 04] <for [Human player] Civilizations>",
+			"Discover [50 JesusEra E8 Information 05] <for [Human player] Civilizations>",
+
+			"Discover [8X TechClozedEraInformation] <for [Human player] Civilizations>",
 			"Discover [80 InhibitorEra Information] <for [Human player] Civilizations>",
 
-			"Discover [80 TechOpenedEraInformation] <for [Human player] Civilizations>",
-			"Discover [80 TechSlowerEraInformation] <for [Human player] Civilizations>",
-			"Discover [80 TechMirrorEraInformation] <for [Human player] Civilizations>",
-			"Discover [80 TechClonedEraInformation] <for [Human player] Civilizations>",
-			"Discover [80 TechKosongEraInformation] <for [Human player] Civilizations>",
-
 			"Discover [80 TechClozedEraInformation] <for [Human player] Civilizations>",
-
+			"Discover [80 TechKosongEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechClonedEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechMirrorEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechSlowerEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechOpenedEraInformation] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -9821,9 +9919,14 @@
 			"Discover [90 TechMirrorEraFuture] <for [Human player] Civilizations>",
 			"Discover [90 TechClonedEraFuture] <for [Human player] Civilizations>",
 			"Discover [90 TechKosongEraFuture] <for [Human player] Civilizations>",
-
 			"Discover [90 TechClozedEraFuture] <for [Human player] Civilizations>",
 
+			"Discover [9X TechClozedEraFuture] <for [Human player] Civilizations>",
+			"Discover [90 FutureTech] <for [Human player] Civilizations>",
+			"Discover [9X FutureTech] <for [Human player] Civilizations>",
+			"Discover [XX FuturaTech] <for [Human player] Civilizations>",
+
+//			"Discover [ZZ FuturaTech] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",

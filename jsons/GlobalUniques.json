@@ -37,6 +37,8 @@ added scout xp
 		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
 */		
 
+    	"Discover [Enable Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
+    	"Discover [Enable Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
 
 
     	"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
