@@ -1627,6 +1627,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Mountain] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1637,6 +1665,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Desert] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1647,6 +1703,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Snow] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1657,7 +1741,35 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
-			"Turn this tile into a [Mountain] tile",
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Turn this tile into a [Plains] tile",
 			"Can be built outside your borders"
 		        ],
 	},
@@ -1667,7 +1779,35 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
-			"Turn this tile into a [Mountain] tile",
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Turn this tile into a [Grassland] tile",
 			"Can be built outside your borders"
 		        ],
 	},
@@ -1677,13 +1817,38 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
-			"Turn this tile into a [Mountain] tile",
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
+			"Turn this tile into a [Tundra] tile",
 			"Can be built outside your borders"
 		        ],
 	},
-
-
-
 
 	{
 		"name": "T21 Oceanify",
@@ -1691,6 +1856,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Ocean] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1701,6 +1894,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Coast] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1711,6 +1932,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Lakes] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1721,6 +1970,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Ice] tile",
 			"Cannot be built on [Land] tiles <hidden from users>",
 			"Can be built outside your borders"
@@ -1728,10 +2005,38 @@
 	},
 	{
 		"name": "T25 Atollify",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Atoll] tile",
 			"Cannot be built on [Land] tiles <hidden from users>",
 			"Can be built outside your borders"
@@ -1776,6 +2081,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Hill] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1786,16 +2119,72 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Forest] tile",
 			"Can be built outside your borders"
 		        ],
 	},
 	{
-		"name": "T43 Junglify",
+		"name": "T43 Jungleify",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Jungle] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1806,6 +2195,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Oasis] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1816,6 +2233,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Flood plains] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1826,6 +2271,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Marsh] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1837,6 +2310,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Great Barrier Reef] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1847,6 +2348,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Old Faithful] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1857,6 +2386,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [El Dorado] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1867,6 +2424,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Fountain of Youth] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1877,6 +2462,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Grand Mesa] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1887,6 +2500,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Mount Fuji] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1897,6 +2538,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Krakatoa] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1907,6 +2576,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Rock of Gibraltar] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1917,6 +2614,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Cerro de Potosi] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1927,6 +2652,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Barringer Crater] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1937,6 +2690,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Mount Kailash] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1947,6 +2728,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Mount Sinai] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1957,6 +2766,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Sri Pada] tile",
 			"Can be built outside your borders"
 		        ],
@@ -1967,6 +2804,34 @@
 		"turnsToBuild": 2,
 		"techRequired": "TechUnlocker",
 		"uniques": [
+//			"Unbuildable <in [Foreign] tiles>",
+//			"Unbuildable <in tiles adjacent to [Foreign] tiles>",
+			"Unbuildable <in [TI11 Camp] tiles>",
+			"Unbuildable <in [TI12 Oil well] tiles>",
+			"Unbuildable <in [TI13 Offshore Platform] tiles>",
+			"Unbuildable <in [TI14 Pasture] tiles>",
+			"Unbuildable <in [TI15 Plantation] tiles>",
+			"Unbuildable <in [TI16 Quarry] tiles>",
+			"Unbuildable <in [TI17 Fishing Boats] tiles>",
+			"Unbuildable <in [TI18 Farm] tiles>",
+			"Unbuildable <in [TI19 Mine] tiles>",
+//			"Unbuildable <in [TI20 Fort] tiles>",
+
+//			"Unbuildable <in [DNS FunFort01] tiles>",
+//			"Unbuildable <in [DNS FunFort02] tiles>",
+//			"Unbuildable <in [DNS FunFort03] tiles>",
+
+			"Unbuildable <in [DNS Academy] tiles>",
+			"Unbuildable <in [DNS Landmark] tiles>",
+			"Unbuildable <in [DNS Manufactory] tiles>",
+			"Unbuildable <in [DNS Customs house] tiles>",
+			"Unbuildable <in [DNS Holy site] tiles>",
+			"Unbuildable <in [DNS Citadel] tiles>",
+
+            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+
 			"Turn this tile into a [Uluru] tile",
 			"Can be built outside your borders"
 		        ],
