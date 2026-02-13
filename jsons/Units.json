@@ -150,6 +150,12 @@ E3 Longbowman
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+
 			"Can build [TI11 Camp] improvements on tiles",
 			"Can build [TI12 Oil well] improvements on tiles",
 //			"Can build [TI13 Offshore Platform] improvements on tiles",
@@ -2729,7 +2735,7 @@ E3 Longbowman
 		"name": "E0 Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2829,7 +2835,7 @@ E3 Longbowman
 		"name": "E0 Missionary",
 		"unitType": "Civilian",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -2848,7 +2854,7 @@ E3 Longbowman
 		"name": "E0 Inquisitor",
 		"unitType": "Civilian",
 		"uniques": [
-			"Only available <in cities with a [MiniCake ShowGk Civil]><hidden from users>",
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
@@ -3877,6 +3883,12 @@ E3 Longbowman
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+
 			"Can build [Install Tunnel] improvements on tiles",
 			"Can build [Remove Ice] improvements on tiles",
 			"Can build [Remove Fallout] improvements on tiles",
@@ -4067,6 +4079,10 @@ E3 Longbowman
 			"Can build [Install Tunnel] improvements on tiles",
 			"Can build [Remove Ice] improvements on tiles",
 			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+
 //			"Can build [Plant Forest] improvements on tiles",
 //			"Can build [Plant Jungle] improvements on tiles",
 
@@ -4079,7 +4095,7 @@ E3 Longbowman
 			"Can build [TI17 Fishing Boats] improvements on tiles",
 			"Can build [TI18 Farm] improvements on tiles",
 			"Can build [TI19 Mine] improvements on tiles",
-//			"Can build [TI20 Fort] improvements on tiles",
+			"Can build [TI20 Fort] improvements on tiles",
 
 			"Can build [Bioculture] improvements on tiles",
 			"Can build [DNS FunFort01] improvements on tiles",
@@ -4817,6 +4833,12 @@ E3 Longbowman
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
 
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+
 			"Can build [TI11 Camp] improvements on tiles",
 			"Can build [TI12 Oil well] improvements on tiles",
 //			"Can build [TI13 Offshore Platform] improvements on tiles",
@@ -5534,6 +5556,12 @@ E3 Longbowman
 			//"Can build [Land] improvements on tiles", 
 			"Can build [Road] improvements on tiles",
 			"Can build [Railroad] improvements on tiles",
+
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
 
 			"Can build [TI11 Camp] improvements on tiles",
 			"Can build [TI12 Oil well] improvements on tiles",

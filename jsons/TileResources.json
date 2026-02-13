@@ -1368,6 +1368,95 @@
 
 
 
+//
+//xsa//more luxuries
+
+	// Luxury res
+
+	{
+		"name": "RML01 Amber",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "TI19 Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML02 Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "TI15 Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML03 Coral",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Coast" ],
+		"gold": 2,
+		"improvement": "TI17 Fishing Boats",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML04 Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "TI19 Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML05 Lapis Lazuli",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
+		"gold": 2,
+		"improvement": "TI19 Mine",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML06 Olives",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 1,
+		"food": 1,
+		"improvement": "TI15 Plantation",
+		"improvementStats": {
+			"gold": 1,
+			"food": 1
+		}
+	},
+	{
+		"name": "RML07 Perfume",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "TI15 Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML08 Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "TI15 Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	{
+		"name": "RML09 Tobacco",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
+		"gold": 2,
+		"improvement": "TI15 Plantation",
+		"improvementStats": { "gold": 1 }
+	},
+	// Unique res
+	{
+		"name": "RML10 Glass",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+//
 
 
 
@@ -1615,95 +1704,6 @@
 
 
 
-//
-//xsa//more luxuries
-
-	// Luxury res
-
-	{
-		"name": "RML01 Amber",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
-		"gold": 2,
-		"improvement": "TI19 Mine",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML02 Coffee",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
-		"gold": 2,
-		"improvement": "TI15 Plantation",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML03 Coral",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Coast" ],
-		"gold": 2,
-		"improvement": "TI17 Fishing Boats",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML04 Jade",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
-		"gold": 2,
-		"improvement": "TI19 Mine",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML05 Lapis Lazuli",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Tundra", "Grassland", "Plains", "Desert", "Hill" ],
-		"gold": 2,
-		"improvement": "TI19 Mine",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML06 Olives",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
-		"gold": 1,
-		"food": 1,
-		"improvement": "TI15 Plantation",
-		"improvementStats": {
-			"gold": 1,
-			"food": 1
-		}
-	},
-	{
-		"name": "RML07 Perfume",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
-		"gold": 2,
-		"improvement": "TI15 Plantation",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML08 Tea",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
-		"gold": 2,
-		"improvement": "TI15 Plantation",
-		"improvementStats": { "gold": 1 }
-	},
-	{
-		"name": "RML09 Tobacco",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": [ "Wasteland","Badlands","Permafrost"],//"Grassland", "Plains" ],
-		"gold": 2,
-		"improvement": "TI15 Plantation",
-		"improvementStats": { "gold": 1 }
-	},
-	// Unique res
-	{
-		"name": "RML10 Glass",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-//
 
 
 ]//xsa//end
