@@ -16,7 +16,7 @@
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
-	    	]
+		]
     },
 
     {
@@ -32,12 +32,12 @@
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
-            ]
+        ]
     },
 
     {
-        "name": "ENH00 Will of Cendabi",
-        "type": "Enhancer",
+        "name": "Fol00 Will of Cendabi",
+        "type": "Follower",
         "uniques": [
             "[+3]% [Production] from every follower, up to [30]%",
             "[+10 Production] [in cities following this religion] <in cities with at least [5] [Specialists]>",
@@ -45,12 +45,12 @@
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
-            ]
+        ]
     },
 
     {
-        "name": "Fol00 Military of Cendabi",
-        "type": "Follower",
+        "name": "ENH00 Military of Cendabi",
+        "type": "Enhancer",
         "uniques": [
             "[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
             "[+50]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
@@ -59,7 +59,7 @@
 			"Only available <for [Human player] Civilizations> <hidden from users>",
             "Only available <after discovering [TechUnlocker]> <hidden from users>",
             "[-100]% weight to this choice for AI decisions <hidden from users>"
-            ]
+        ]
     },
 
     {
