@@ -89,7 +89,7 @@ E3 Longbowman
 		"name": "E0 Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
+		"cost": 1060,
 		"uniques": [
 
 	    	"Only available <before turn number [40]>",
@@ -110,7 +110,7 @@ E3 Longbowman
 			"[+2] Movement <before the [Classical era]>",
 			"Can see over obstacles <before the [Classical era]>"
 		],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 200
 	},
 
 

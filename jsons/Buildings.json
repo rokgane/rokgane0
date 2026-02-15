@@ -6047,6 +6047,29 @@
 	},	
 
 	{
+		"name": "MiniCake Spawn E0 Settler",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn E0 Settler] buildings [in this city]",
+
+				"[3] free [E0 Settler] units appear", 
+//				"[1] free [DNS Khan] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
 		"name": "MiniCake Spawn Revealer",
 		"requiredBuilding": "MiniCake TestTown",
 		"cost": 1,
