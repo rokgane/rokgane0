@@ -558,8 +558,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
@@ -605,8 +606,9 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
@@ -649,6 +651,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -693,6 +696,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1140,6 +1144,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1187,6 +1192,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1234,6 +1240,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1281,6 +1288,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1331,6 +1339,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1378,6 +1387,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1437,6 +1447,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1497,6 +1508,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1541,6 +1553,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1585,6 +1598,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1651,6 +1665,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1689,6 +1704,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1727,6 +1743,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1765,6 +1782,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1803,6 +1821,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1841,6 +1860,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1880,6 +1900,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1918,6 +1939,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1956,6 +1978,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -1994,6 +2017,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2033,6 +2057,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2105,6 +2130,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2143,6 +2169,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2181,6 +2208,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2219,6 +2247,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2257,6 +2286,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2295,6 +2325,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2334,6 +2365,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2372,6 +2404,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2410,6 +2443,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2448,6 +2482,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2486,6 +2521,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2524,6 +2560,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2562,6 +2599,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2600,6 +2638,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2638,6 +2677,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2676,6 +2716,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2714,6 +2755,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2752,6 +2794,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2790,6 +2833,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2828,6 +2872,7 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -2987,6 +3032,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -3036,6 +3082,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -3083,6 +3130,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -3131,6 +3179,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -3180,6 +3229,7 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -3227,13 +3277,12 @@
 		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
  		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
+            "Cannot be built on [resource] tiles",
             "Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
+            "Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
-
-
 
 			"Great Improvement",
 

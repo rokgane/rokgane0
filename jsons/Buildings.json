@@ -1881,7 +1881,7 @@
 		"uniques": [
 			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
 
-			"[5] free [E1 Settler] units appear<for [AI player] Civilizations>",
+			"[5] free [E0 Settler] units appear<for [AI player] Civilizations>",
 
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
@@ -2361,7 +2361,7 @@
 		"maintenance": 0,
 		"uniques": [
 
-		    	"[-20]% Culture cost of natural border growth [in this city]",
+		    	"[-50]% Culture cost of natural border growth [in this city]",
 
               	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
 		        "Population loss from nuclear attacks [-50]% [in this city]",
@@ -2393,7 +2393,7 @@
             	"Roads connect tiles across rivers",
             	"Connects trade routes over water",
 
-		    	"[-20]% Culture cost of natural border growth [in this city]",
+		    	"[-25]% Culture cost of natural border growth [in this city]",
 
 		    	"[+9999]% Strength for cities <when defending> <hidden from users>",
 
@@ -3499,7 +3499,7 @@
 		"uniques": [
 				"[+1000]% [Culture] [in this city]", 
 
-		    	"[-50]% Culture cost of natural border growth [in this city]",
+		    	"[-25]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
@@ -10006,8 +10006,8 @@
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
 			"Gain a free [1 EnemaInhibitorEra Ancient] [in this city]",
-
 			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10033,6 +10033,9 @@
 			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
 			"Gain a free [2 EnemaTechEra Classical] [in this city]",
 
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
+
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10056,6 +10059,9 @@
 
 			"Gain a free [2 EnemaTechEra Classical] [in this city]",
 			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10081,6 +10087,9 @@
 			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
 			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
 
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
+
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10104,6 +10113,9 @@
 
 			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
 			"Gain a free [5 EnemaTechEra Industrial] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10129,6 +10141,9 @@
 			"Gain a free [5 EnemaTechEra Industrial] [in this city]",
 			"Gain a free [6 EnemaTechEra Modern] [in this city]",
 
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
+
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10152,6 +10167,10 @@
 
 			"Gain a free [6 EnemaTechEra Modern] [in this city]",
 			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
+
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10177,6 +10196,9 @@
 			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
 			"Gain a free [8 EnemaTechEra Information] [in this city]",
 
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
+
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10188,7 +10210,7 @@
 	},
 	{
 		"name": "9 EnemaAdvanceEra Future",
-//		"requiredBuilding": "MiniCake HumanAdvanceEra Main",
+//		"requiredBuilding": "MiniCake EnemaAdvanceEra Main",
 		"cost": 10,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -10197,8 +10219,9 @@
 
 			"Gain a free [8 EnemaInhibitorEra Information] [in this city]",
 			"Gain a free [8 EnemaTechEra Information] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
 
-			"Gain a free [9 EnemaInhibitorEra Future] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 9 Future] [in this city]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10471,14 +10494,10 @@
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
-			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-			"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>"
+		"Moves to new capital when capital changes<hidden from users>",
+		"Destroyed when the city is captured <hidden from users>"
 		]
 	},
-
 
 
 //xsa//Enema Inhibitor
@@ -10489,32 +10508,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri1] units appear",
-//			"Only available  <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
+//			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era1
+			"Discover [10 IsraelEra E1 Ancient 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E1 Ancient 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E1 Ancient 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E1 Ancient 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E1 Ancient 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E1 Ancient 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E1 Ancient 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E1 Ancient 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E1 Ancient 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E1 Ancient 05] <for [AI player] Civilizations>",
+
+			"Discover [1X TechClozedEraAncient] <for [AI player] Civilizations>",
 			"Discover [10 InhibitorEra Ancient] <for [AI player] Civilizations>",
 
-			"Discover [10 TechOpenedEraAncient] <for [AI player] Civilizations>",
-			"Discover [10 TechSlowerEraAncient] <for [AI player] Civilizations>",
-			"Discover [10 TechMirrorEraAncient] <for [AI player] Civilizations>",
-			"Discover [10 TechClonedEraAncient] <for [AI player] Civilizations>",
-			"Discover [10 TechKosongEraAncient] <for [AI player] Civilizations>",
-
 			"Discover [10 TechClozedEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechKosongEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechClonedEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechMirrorEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechSlowerEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechOpenedEraAncient] <for [AI player] Civilizations>",
 
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era1UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era1UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "2 EnemaInhibitorEra Classical",
@@ -10523,32 +10548,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri2] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era2
+			"Discover [10 IsraelEra E2 Classical 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E2 Classical 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E2 Classical 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E2 Classical 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E2 Classical 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E2 Classical 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E2 Classical 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E2 Classical 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E2 Classical 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E2 Classical 05] <for [AI player] Civilizations>",
+
+			"Discover [2X TechClozedEraClassical] <for [AI player] Civilizations>",
 			"Discover [20 InhibitorEra Classical] <for [AI player] Civilizations>",
 
-			"Discover [20 TechOpenedEraClassical] <for [AI player] Civilizations>",
-			"Discover [20 TechSlowerEraClassical] <for [AI player] Civilizations>",
-			"Discover [20 TechMirrorEraClassical] <for [AI player] Civilizations>",
-			"Discover [20 TechClonedEraClassical] <for [AI player] Civilizations>",
-			"Discover [20 TechKosongEraClassical] <for [AI player] Civilizations>",
-
 			"Discover [20 TechClozedEraClassical] <for [AI player] Civilizations>",
-
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era2UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Discover [20 TechKosongEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechClonedEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechMirrorEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechSlowerEraClassical] <for [AI player] Civilizations>",
+			"Discover [20 TechOpenedEraClassical] <for [AI player] Civilizations>",
+ 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era2UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "3 EnemaInhibitorEra Medieval",
@@ -10557,32 +10588,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri3] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era3
+			"Discover [10 IsraelEra E3 Medieval 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E3 Medieval 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E3 Medieval 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E3 Medieval 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E3 Medieval 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E3 Medieval 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E3 Medieval 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E3 Medieval 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E3 Medieval 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E3 Medieval 05] <for [AI player] Civilizations>",
+
+			"Discover [3X TechClozedEraMedieval] <for [AI player] Civilizations>",
 			"Discover [30 InhibitorEra Medieval] <for [AI player] Civilizations>",
 
-			"Discover [30 TechOpenedEraMedieval] <for [AI player] Civilizations>",
-			"Discover [30 TechSlowerEraMedieval] <for [AI player] Civilizations>",
-			"Discover [30 TechMirrorEraMedieval] <for [AI player] Civilizations>",
-			"Discover [30 TechClonedEraMedieval] <for [AI player] Civilizations>",
-			"Discover [30 TechKosongEraMedieval] <for [AI player] Civilizations>",
-
 			"Discover [30 TechClozedEraMedieval] <for [AI player] Civilizations>",
-
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era3UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Discover [30 TechKosongEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechClonedEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechMirrorEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechSlowerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechOpenedEraMedieval] <for [AI player] Civilizations>",
+ 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era3UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "4 EnemaInhibitorEra Renaissance",
@@ -10591,32 +10628,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri4] units appear",
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era4
+			"Discover [10 IsraelEra E4 Renaissance 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E4 Renaissance 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E4 Renaissance 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E4 Renaissance 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E4 Renaissance 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E4 Renaissance 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E4 Renaissance 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E4 Renaissance 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E4 Renaissance 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E4 Renaissance 05] <for [AI player] Civilizations>",
+
+			"Discover [4X TechClozedEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [40 InhibitorEra Renaissance] <for [AI player] Civilizations>",
 
-			"Discover [40 TechOpenedEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [40 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [40 TechMirrorEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [40 TechClonedEraRenaissance] <for [AI player] Civilizations>",
-			"Discover [40 TechKosongEraRenaissance] <for [AI player] Civilizations>",
-
 			"Discover [40 TechClozedEraRenaissance] <for [AI player] Civilizations>",
-
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era4UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Discover [40 TechKosongEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechClonedEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechMirrorEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechOpenedEraRenaissance] <for [AI player] Civilizations>",
+ 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era4UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "5 EnemaInhibitorEra Industrial",
@@ -10625,33 +10668,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri5] units appear",
-
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era5
+			"Discover [10 IsraelEra E5 Industrial 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E5 Industrial 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E5 Industrial 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E5 Industrial 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E5 Industrial 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E5 Industrial 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E5 Industrial 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E5 Industrial 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E5 Industrial 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E5 Industrial 05] <for [AI player] Civilizations>",
+
+			"Discover [5X TechClozedEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [50 InhibitorEra Industrial] <for [AI player] Civilizations>",
 
-			"Discover [50 TechOpenedEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [50 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [50 TechMirrorEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [50 TechClonedEraIndustrial] <for [AI player] Civilizations>",
-			"Discover [50 TechKosongEraIndustrial] <for [AI player] Civilizations>",
-
 			"Discover [50 TechClozedEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechKosongEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechClonedEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechMirrorEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechOpenedEraIndustrial] <for [AI player] Civilizations>",
 
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era5UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era5UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "6 EnemaInhibitorEra Modern",
@@ -10660,33 +10708,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri6] units appear",
-
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era6
+			"Discover [10 IsraelEra E6 Modern 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E6 Modern 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E6 Modern 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E6 Modern 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E6 Modern 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E6 Modern 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E6 Modern 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E6 Modern 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E6 Modern 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E6 Modern 05] <for [AI player] Civilizations>",
+
+			"Discover [6X TechClozedEraModern] <for [AI player] Civilizations>",
 			"Discover [60 InhibitorEra Modern] <for [AI player] Civilizations>",
 
-			"Discover [60 TechOpenedEraModern] <for [AI player] Civilizations>",
-			"Discover [60 TechSlowerEraModern] <for [AI player] Civilizations>",
-			"Discover [60 TechMirrorEraModern] <for [AI player] Civilizations>",
-			"Discover [60 TechClonedEraModern] <for [AI player] Civilizations>",
-			"Discover [60 TechKosongEraModern] <for [AI player] Civilizations>",
-
 			"Discover [60 TechClozedEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechKosongEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechClonedEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechMirrorEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechSlowerEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechOpenedEraModern] <for [AI player] Civilizations>",
 
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era6UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era6UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "7 EnemaInhibitorEra Atomic",
@@ -10695,33 +10748,38 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri7] units appear",
-
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era7
+			"Discover [10 IsraelEra E7 Atomic 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E7 Atomic 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E7 Atomic 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E7 Atomic 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E7 Atomic 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E7 Atomic 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E7 Atomic 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E7 Atomic 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E7 Atomic 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E7 Atomic 05] <for [AI player] Civilizations>",
+
+			"Discover [7X TechClozedEraAtomic] <for [AI player] Civilizations>",
 			"Discover [70 InhibitorEra Atomic] <for [AI player] Civilizations>",
 
-			"Discover [70 TechOpenedEraAtomic] <for [AI player] Civilizations>",
-			"Discover [70 TechSlowerEraAtomic] <for [AI player] Civilizations>",
-			"Discover [70 TechMirrorEraAtomic] <for [AI player] Civilizations>",
-			"Discover [70 TechClonedEraAtomic] <for [AI player] Civilizations>",
-			"Discover [70 TechKosongEraAtomic] <for [AI player] Civilizations>",
-
 			"Discover [70 TechClozedEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechKosongEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechClonedEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechMirrorEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechSlowerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechOpenedEraAtomic] <for [AI player] Civilizations>",
 
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era7UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era7UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
 	{
 		"name": "8 EnemaInhibitorEra Information",
@@ -10730,35 +10788,39 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-			"[1] free [DNS Checkeri8] units appear",
-
 //			"Only available <in cities with a [MiniCake DNS Vault Tech]><hidden from users>",
 //era8
+			"Discover [10 IsraelEra E8 Information 01] <for [AI player] Civilizations>",
+			"Discover [20 IsraelEra E8 Information 02] <for [AI player] Civilizations>",
+			"Discover [30 IsraelEra E8 Information 03] <for [AI player] Civilizations>",
+			"Discover [40 IsraelEra E8 Information 04] <for [AI player] Civilizations>",
+			"Discover [50 IsraelEra E8 Information 05] <for [AI player] Civilizations>",
+			"Discover [10 JesusEra E8 Information 01] <for [AI player] Civilizations>",
+			"Discover [20 JesusEra E8 Information 02] <for [AI player] Civilizations>",
+			"Discover [30 JesusEra E8 Information 03] <for [AI player] Civilizations>",
+			"Discover [40 JesusEra E8 Information 04] <for [AI player] Civilizations>",
+			"Discover [50 JesusEra E8 Information 05] <for [AI player] Civilizations>",
+
+			"Discover [8X TechClozedEraInformation] <for [AI player] Civilizations>",
 			"Discover [80 InhibitorEra Information] <for [AI player] Civilizations>",
 
-			"Discover [80 TechOpenedEraInformation] <for [AI player] Civilizations>",
-			"Discover [80 TechSlowerEraInformation] <for [AI player] Civilizations>",
-			"Discover [80 TechMirrorEraInformation] <for [AI player] Civilizations>",
-			"Discover [80 TechClonedEraInformation] <for [AI player] Civilizations>",
-			"Discover [80 TechKosongEraInformation] <for [AI player] Civilizations>",
-
 			"Discover [80 TechClozedEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechKosongEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechClonedEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechMirrorEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechSlowerEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechOpenedEraInformation] <for [AI player] Civilizations>",
 
-
-			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable",
-			"Only available <after discovering [Era8UnlockEnema]><for [AI player] Civilizations>",
-//			"Unavailable <hidden from users>",
-//			"Unbuildable <hidden from users>",
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
-		"requiredTech": "Era8UnlockEnema"
+		"requiredTech": "TechUnlocker"
 	},
-
 	{
 		"name": "9 EnemaInhibitorEra Future",
 //		"requiredBuilding": "MiniCake DNS Vault Tech",
@@ -10775,9 +10837,14 @@
 			"Discover [90 TechMirrorEraFuture] <for [AI player] Civilizations>",
 			"Discover [90 TechClonedEraFuture] <for [AI player] Civilizations>",
 			"Discover [90 TechKosongEraFuture] <for [AI player] Civilizations>",
-
 			"Discover [90 TechClozedEraFuture] <for [AI player] Civilizations>",
 
+			"Discover [9X TechClozedEraFuture] <for [AI player] Civilizations>",
+			"Discover [90 FutureTech] <for [AI player] Civilizations>",
+			"Discover [9X FutureTech] <for [AI player] Civilizations>",
+			"Discover [XX FuturaTech] <for [AI player] Civilizations>",
+
+//			"Discover [ZZ FuturaTech] <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10789,8 +10856,6 @@
 		],
 		"requiredTech": "TechUnlocker"
 	},
-
-
 
 
 
@@ -10833,6 +10898,35 @@
 			"Adopt [Po08 Freedom]<before adopting [Po08 Freedom]>",
 			"Adopt [Po09 Autocracy]<before adopting [Po09 Autocracy]>",
 			"Adopt [Po10 Order]<before adopting [Po10 Order]>",
+			"Unbuildable <hidden from users>",
+		"Moves to new capital when capital changes<hidden from users>",
+		"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechUnlocker"
+	},
+
+
+	{
+		"name": "Adopt Policy Aall",
+		"requiredBuilding": "MiniCake DNS Vault Policy",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
+
+			"Gain a free [Adopt P01 Tradition] [in this city]",
+			"Gain a free [Adopt P02 Liberty] [in this city]",
+			"Gain a free [Adopt P03 Honor] [in this city]",
+			"Gain a free [Adopt P04 Piety] [in this city]",
+			"Gain a free [Adopt P05 Patronage] [in this city]",
+			"Gain a free [Adopt P06 Commerce] [in this city]",
+			"Gain a free [Adopt P07 Rationalism] [in this city]",
+			"Gain a free [Adopt P08 Freedom] [in this city]",
+			"Gain a free [Adopt P09 Autocracy] [in this city]",
+			"Gain a free [Adopt P10 Order] [in this city]",
+			"Gain a free [Adopt Policy Complete] [in this city]",
+
 			"Unbuildable <hidden from users>",
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>"
@@ -11080,33 +11174,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-	{
-		"name": "Adopt Policy Aall",
-		"requiredBuilding": "MiniCake DNS Vault Policy",
-		"cost": 10,
-		"hurryCostModifier": 1,
-		"maintenance": 0,
-		"uniques": [
-			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
 
-			"Gain a free [Adopt P01 Tradition] [in this city]",
-			"Gain a free [Adopt P02 Liberty] [in this city]",
-			"Gain a free [Adopt P03 Honor] [in this city]",
-			"Gain a free [Adopt P04 Piety] [in this city]",
-			"Gain a free [Adopt P05 Patronage] [in this city]",
-			"Gain a free [Adopt P06 Commerce] [in this city]",
-			"Gain a free [Adopt P07 Rationalism] [in this city]",
-			"Gain a free [Adopt P08 Freedom] [in this city]",
-			"Gain a free [Adopt P09 Autocracy] [in this city]",
-			"Gain a free [Adopt P10 Order] [in this city]",
-			"Gain a free [Adopt Policy Complete] [in this city]",
-
-			"Unbuildable <hidden from users>",
-		"Moves to new capital when capital changes<hidden from users>",
-		"Destroyed when the city is captured <hidden from users>"
-		],
-		"requiredTech": "TechUnlocker"
-	},
 
 
 
@@ -11690,6 +11758,7 @@ MiniCake EnemaAdvanceEra Main
 
 
 Adopt Policy Start
+Adopt Policy Aall
 Adopt P01 Tradition
 Adopt P02 Liberty
 Adopt P03 Honor
@@ -11701,7 +11770,6 @@ Adopt P08 Freedom
 Adopt P09 Autocracy
 Adopt P10 Order
 Adopt Policy Complete
-Adopt Policy Aall
 
 
 

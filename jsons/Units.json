@@ -92,8 +92,8 @@ E3 Longbowman
 		"cost": 106,
 		"uniques": [
 
-//			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
-			"Unavailable <hidden from users>",
+	    	"Only available <before turn number [40]>",
+			"Unavailable <hidden from users> <after turn number [40]>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
 			"Never appears as a Barbarian unit",
@@ -101,7 +101,7 @@ E3 Longbowman
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
 
-			"Limited to [20] per Civilization",
+			"Limited to [3] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
 			"Excess Food converted to Production when under Construction",
 			"Can move immediately once bought", 
