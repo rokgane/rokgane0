@@ -34,12 +34,12 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
 		"name": "E1 Stele",
-        "replaces": "E1 Monument",
+		"replaces": "E1 Monument",
 		"uniqueTo": "Ethiopia",
 		"culture": 2,
 		"faith": 2,
@@ -49,8 +49,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"] 
-		    //"Only available <when religion is enabled>"
+			"Destroyed when the city is captured"] 
+			//"Only available <when religion is enabled>"
 	},
 
 	{
@@ -61,7 +61,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Food] from [RB03 Deer] tiles [in this city]",
+			"[+1 Food] from [RB03 Deer] tiles [in this city]",
 			"[+1 Food] from [RB04 Bananas] tiles [in this city]",
 			"[+1 Food] from [RB05 Wheat] tiles [in this city]"],
 		"requiredTech": "E1 Pottery"
@@ -76,7 +76,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Only available <when religion is enabled>"]
+			"Only available <when religion is enabled>"]
 	},
 
 	{
@@ -91,7 +91,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Only available <when religion is enabled>"]
+			"Only available <when religion is enabled>"]
 	},
 
 	{
@@ -119,7 +119,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must not be on [Plains]",
+			"Must not be on [Plains]",
 			"[+1 Production] from [RB06 Stone] tiles [in this city]",
 			"[+1 Production] from [RL13 Marble] tiles [in this city]"],
 		"requiredTech": "E1 Calendar"
@@ -144,7 +144,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Science] per [2] population [in this city]"],
+			"[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "E1 Writing"
 	},
 
@@ -157,7 +157,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Science] per [2] population [in this city]"],
+			"[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "E1 Writing"
 	},
 
@@ -184,7 +184,7 @@
 		"requiredTech": "E1 Trapping",
 		"uniques": [ 
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -196,7 +196,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must be on [River]"],
+			"Must be on [River]"],
 		"requiredTech": "E1 The Wheel"
 	},
 
@@ -209,8 +209,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+2 Food] from [Lakes] tiles [in this city]", 
-		    "Must be next to [Fresh Water]"],
+			"[+2 Food] from [Lakes] tiles [in this city]", 
+			"Must be next to [Fresh Water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
@@ -226,7 +226,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -241,7 +241,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -280,8 +280,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "New [Military] units start with [15] XP [in this city]", 
-		    "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]", 
+			"Destroyed when the city is captured"],
 		"requiredTech": "E1 Bronze Working"
 	},
 
@@ -294,8 +294,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[-25]% Culture cost of natural border growth [in this city]",
-		    "[-25]% Gold cost of acquiring tiles [in this city]",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]", 
 			"Destroyed when the city is captured"],
 		"requiredTech": "E1 Bronze Working"
@@ -325,8 +325,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must be next to [Coast]", 
-		    "[+1 Food] from [Ocean] tiles [in this city]",
+			"Must be next to [Coast]", 
+			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", 
 			"[+1 Food] from [RB07 Fish] tiles [in this city]" ],
 		"requiredTech": "E2 Optics"
@@ -357,7 +357,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [RB01 Cattle] tiles [in this city]",
 			"[+1 Production] from [RS01 Horses] tiles [in this city]",
 			"[+1 Production] from [RB02 Sheep] tiles [in this city]"],
@@ -385,7 +385,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Removes extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "E2 Mathematics"
 	},
@@ -413,7 +413,7 @@
 		"requiredTech": "E2 Construction",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -438,8 +438,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Only available <when religion is enabled>", 
-		    "Destroyed when the city is captured"]
+			"Only available <when religion is enabled>", 
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -450,7 +450,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+100]% Gold given to enemy if city is captured <in this city>"],
+			"[+100]% Gold given to enemy if city is captured <in this city>"],
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "E1 Shrine",
@@ -470,7 +470,7 @@
 		"requiredTech": "E2 Philosophy"
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -512,7 +512,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"],
+			"Destroyed when the city is captured"],
 		"requiredTech": "E2 Drama and Poetry"
 	},
 
@@ -539,7 +539,7 @@
 		"requiredTech": "E2 Currency",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -553,7 +553,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Provides 1 extra copy of each improved luxury resource near this City",
+			"Provides 1 extra copy of each improved luxury resource near this City",
 			"[+2 Gold] from [RS04 Oil] tiles [in this city]", 
 			"[+2 Gold] from [Oasis] tiles [in this city]"],
 		"requiredTech": "E2 Currency"
@@ -567,8 +567,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+2 Gold] from [RL05 Gold Ore] tiles [in this city]", 
-		    "[+2 Gold] from [RL06 Silver] tiles [in this city]"],
+			"[+2 Gold] from [RL05 Gold Ore] tiles [in this city]", 
+			"[+2 Gold] from [RL06 Silver] tiles [in this city]"],
 		"requiredTech": "E2 Currency"
 	},
 
@@ -595,7 +595,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[40]% Food is carried over after population increases [in this city]"],
+			"[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "E2 Engineering"
 	},
 
@@ -651,8 +651,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+25]% Great Person generation [in this city]", 
-		    "Must be next to [Fresh Water]"],
+			"[+25]% Great Person generation [in this city]", 
+			"Must be next to [Fresh Water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "E3 Theology"
@@ -761,7 +761,7 @@
 		"requiredTech": "E3 Metal Casting",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -776,7 +776,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Production] from [Forest] tiles [in this city]"],
+			"[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "E3 Metal Casting"
 	},
 
@@ -789,7 +789,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+15]% Production when constructing [Land] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [RS02 Iron] tiles [in this city]"]
 	},
 
@@ -801,7 +801,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Production] from [Water resource] tiles [in this city]",
+			"[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over Water",
 			"Must be next to [Coast]"],
 		"requiredTech": "E3 Compass"
@@ -817,7 +817,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+2 Science] from [Jungle] tiles [in this city]"],
+			"[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "E3 Education"
 	},
 
@@ -834,7 +834,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+2 Science] from [Jungle] tiles [in this city]"],
+			"[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "E3 Education"
 	},
 
@@ -877,7 +877,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -893,8 +893,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Gold] [in this city] <after discovering [E6 Flight]>",
-		    "Destroyed when the city is captured"],
+			"[+1 Gold] [in this city] <after discovering [E6 Flight]>",
+			"Destroyed when the city is captured"],
 		"requiredTech": "E3 Chivalry"
 	},
 
@@ -948,8 +948,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "New [Military] units start with [15] XP [in this city]",
-		    "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]",
+			"Destroyed when the city is captured"],
 		"requiredTech": "E3 Steel"
 	},
 
@@ -965,7 +965,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must be next to [Mountain]"],
+			"Must be next to [Mountain]"],
 		"requiredTech": "E4 Astronomy"
 	},
 
@@ -980,7 +980,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -997,7 +997,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -1024,7 +1024,7 @@
 		"requiredTech": "E4 Banking",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1040,21 +1040,21 @@
 		"requiredTech": "E4 Banking",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
-    {
-        "name": "E4 Constabulary",
-        "cost": 160,
-        "maintenance": 1,
-        "hurryCostModifier": 10,
-        "uniques": [
+	{
+		"name": "E4 Constabulary",
+		"cost": 160,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-            "Only available <when espionage is enabled>", 
-            "[-25]% enemy spy effectiveness [in this city]"],
-        "requiredTech": "E4 Banking"
-    },
+			"Only available <when espionage is enabled>", 
+			"[-25]% enemy spy effectiveness [in this city]"],
+		"requiredTech": "E4 Banking"
+	},
 
 	{
 		"name": "E4 Forbidden Palace",
@@ -1079,7 +1079,7 @@
 		"requiredTech": "E4 Printing Press",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1120,7 +1120,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", 
 			"[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "E4 Navigation"
@@ -1179,8 +1179,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must not be on [Hill]", 
-		    "[+10]% Production when constructing [All] buildings [in this city]"],
+			"Must not be on [Hill]", 
+			"[+10]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "E4 Economics"
 	},
 
@@ -1196,7 +1196,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+25]% Great Person generation [in this city]"],
+			"[+25]% Great Person generation [in this city]"],
 		"requiredTech": "E4 Economics"
 	},
 
@@ -1211,7 +1211,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -1242,7 +1242,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -1269,7 +1269,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Science] per [2] population [in this city]"],
+			"[+1 Science] per [2] population [in this city]"],
 		"requiredTech": 
 		"E5 Scientific Theory"
 	},
@@ -1287,7 +1287,7 @@
 		"requiredTech": "E5 Industrialization",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1313,8 +1313,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "New [Military] units start with [15] XP [in this city]", 
-		    "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]", 
+			"Destroyed when the city is captured"],
 		"requiredTech": "E5 Military Science"
 	},
 
@@ -1342,7 +1342,7 @@
 		"requiredTech": "E5 Biology",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1355,7 +1355,7 @@
 		"requiredTech": "E5 Electricity",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1366,24 +1366,24 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must be on [River]",
-		    "[+1 Production] from [River] tiles [in this city]"],
+			"Must be on [River]",
+			"[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "E5 Electricity"
 	},
 
-    {
-        "name": "E5 Police Station",
-        "cost": 300,
-        "maintenance": 1,
-        "hurryCostModifier": 10,
-        "uniques": [
+	{
+		"name": "E5 Police Station",
+		"cost": 300,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-            "Only available <when espionage is enabled>", 
-            "[-25]% enemy spy effectiveness [in this city]"],
-        "requiredBuilding": "E4 Constabulary",
-        "requiredTech": "E5 Electricity"
-    },
+			"Only available <when espionage is enabled>", 
+			"[-25]% enemy spy effectiveness [in this city]"],
+		"requiredBuilding": "E4 Constabulary",
+		"requiredTech": "E5 Electricity"
+	},
 
 
 
@@ -1396,7 +1396,7 @@
 		"requiredTech": "E6 Refrigeration",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1409,7 +1409,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -1455,7 +1455,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Destroyed when the city is captured"]
+			"Destroyed when the city is captured"]
 	},
 
 	{
@@ -1498,7 +1498,7 @@
 		"requiredTech": "E6 Plastics",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
-        ]
+		]
 	},
 
 	{
@@ -1527,7 +1527,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[25]% Food is carried over after population increases [in this city]"]
+			"[25]% Food is carried over after population increases [in this city]"]
 	},
 
 	{
@@ -1537,7 +1537,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake Wonder]><in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-	    	"Enables nuclear weapon", 
+			"Enables nuclear weapon", 
 			"Triggers a global alert upon completion", 
 			"Cannot be hurried"],
 		"requiredTech": "E7 Combined Arms"
@@ -1567,8 +1567,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Must be next to [Desert]", 
-		    "Only available <in cities without a [E7 Nuclear Plant]>"]
+			"Must be next to [Desert]", 
+			"Only available <in cities without a [E7 Nuclear Plant]>"]
 	},
 
 	{
@@ -1578,8 +1578,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Provides [2] [RS05 Aluminum]",
-		    "Limited to [5] per Civilization"]
+			"Provides [2] [RS05 Aluminum]",
+			"Limited to [5] per Civilization"]
 	},
 
 	{
@@ -1608,7 +1608,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Only available <in cities without a [E7 Solar Plant]>"]
+			"Only available <in cities without a [E7 Solar Plant]>"]
 	},
 
 	{
@@ -1668,7 +1668,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Population loss from nuclear attacks [-75]% [in this city]",
+			"Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Only available <when nuclear weapons are enabled> <hidden from users>"]
 	},
@@ -1691,14 +1691,14 @@
 	{
 		"name": "E8 Spaceship Factory",
 		"production": 3,
-        "maintenance": 3,
+		"maintenance": 3,
 		"requiredResource": "RS05 Aluminum",
 		"cost": 360,
 		"requiredBuilding": "E5 Factory",
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+50]% Production when constructing [Spaceship part] units [in this city]"],
+			"[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "E8 Robotics"
 	},
 
@@ -1746,8 +1746,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Unbuildable", 
-		    "Only available <when religion is enabled>"]
+			"Unbuildable", 
+			"Only available <when religion is enabled>"]
 	},
 
 	{
@@ -1758,7 +1758,7 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "[+1 Culture, +1 Faith] from [RL11 Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [RL11 Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [RL07 Incense] tiles [in this city]",
 			"Unbuildable", 
 			"Only available <when religion is enabled>", 
@@ -1774,8 +1774,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Unbuildable", 
-		    "Only available <when religion is enabled>"]
+			"Unbuildable", 
+			"Only available <when religion is enabled>"]
 	},
 
 	{
@@ -1787,8 +1787,8 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Roof]><hidden from users>",
 
-		    "Unbuildable", 
-		    "Only available <when religion is enabled>"]
+			"Unbuildable", 
+			"Only available <when religion is enabled>"]
 	},
 
 //xsa//end of gk
@@ -1816,7 +1816,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-		    "[+1 Production] from [E3 Water resource] tiles [in this city]",
+			"[+1 Production] from [E3 Water resource] tiles [in this city]",
 			"Connects trade routes over Water",
 			"Must be next to [Coast]"],
 //		"requiredTech": "E3 Compass"
@@ -1896,7 +1896,7 @@
 				"Only available <in cities with a [MiniCake Challenges]> <hidden from users>",
 //				"Unsellable",
 
-		    	"Adopt [Px00 PChallenges]<before adopting [Px00 PChallenges]>",
+				"Adopt [Px00 PChallenges]<before adopting [Px00 PChallenges]>",
 				"Discover [Treats Human]",
 //		 		"Free Social Policy",
 
@@ -1908,8 +1908,8 @@
 //				"Only available <before turn number [5]>",
 				"Only available <in cities with a [E0 Palace]>",
 
-	        	"Moves to new capital when capital changes<hidden from users>",
-	        	"Destroyed when the city is captured <hidden from users>"
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
 		 	],
 		"requiredTech": "TechUnlocker"
 	},
@@ -1918,8 +1918,8 @@
 			"cost": 1,
 			"uniques": [
 				"Only available <in cities with a [MiniCake Challenges]> <hidden from users>",
-            	"Moves to new capital when capital changes<hidden from users>",
-            	"Destroyed when the city is captured <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
 				"[41]% growth [in this city] <during We Love The King Day>",
 				"Nullifies [Science] [in this city] <during We Love The King Day>",
 				"Nullifies [Production] [in this city] <during We Love The King Day>",
@@ -1987,16 +1987,16 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 				"uniques": [
-		            	"Only available <in cities with a [National Espionage Agency]> <hidden from users>",
-        				"Automatically built in all cities where it is buildable<hidden from users>",
+						"Only available <in cities with a [National Espionage Agency]> <hidden from users>",
+						"Automatically built in all cities where it is buildable<hidden from users>",
 
-    		        	"Only available <when espionage is enabled>",
-            			"[-999]% enemy spy effectiveness [in this city]",
+						"Only available <when espionage is enabled>",
+						"[-999]% enemy spy effectiveness [in this city]",
 
-        				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
-        				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
-        				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-        				"Destroyed when the city is captured <hidden from users>"
+						"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+						"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+						"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+						"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
@@ -2251,10 +2251,10 @@
 			"[+50]% [Happiness] [in all cities]",
 
 			"Discover [TechUnlocker]",
-		    "Discover [TechParadrop]",
-		    "Discover [TechOpenBorder]",
+			"Discover [TechParadrop]",
+			"Discover [TechOpenBorder]",
 
-	    	"Enemy [All] units must spend [2] extra movement points when inside your territory",
+			"Enemy [All] units must spend [2] extra movement points when inside your territory",
 
 			"[5] free [DNS Settler] units appear", 
 //			"[2] free [DNS Worker] units appear",
@@ -2268,14 +2268,14 @@
 */
 
 			"May buy [Military] units with [Gold] for [1] times their normal Production cost",
-            "May buy [Civilian] units with [Gold] for [1] times their normal Production cost",
+			"May buy [Civilian] units with [Gold] for [1] times their normal Production cost",
 
-            "May buy [Military] units with [Culture] for [1] times their normal Production cost",
-            "May buy [Civilian] units with [Culture] for [1] times their normal Production cost",
+			"May buy [Military] units with [Culture] for [1] times their normal Production cost",
+			"May buy [Civilian] units with [Culture] for [1] times their normal Production cost",
 
-            "May buy [Military] units with [Faith] for [1] times their normal Production cost",
-            "May buy [Civilian] units with [Faith] for [1] times their normal Production cost",
-//            "May buy [All] units with [Faith] for [1] times their normal Production cost",
+			"May buy [Military] units with [Faith] for [1] times their normal Production cost",
+			"May buy [Civilian] units with [Faith] for [1] times their normal Production cost",
+//			"May buy [All] units with [Faith] for [1] times their normal Production cost",
 
 			"Unbuildable <hidden from users>",
 
@@ -2334,8 +2334,8 @@
 				"Adopt [ENH00 Military of Cendabi]",
 */
 
-		    	"[Civilian] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
-		    	"[Military] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
+				"[Civilian] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
+				"[Military] units gain the [FakeWeak] promotion<for [Human player] Civilizations>",
 
 				"Gain a free [MiniCake DNS Vault] [in this city]",
 				"Gain a free [MiniCake Wonder] [in this city]",
@@ -2361,11 +2361,11 @@
 		"maintenance": 0,
 		"uniques": [
 
-		    	"[-50]% Culture cost of natural border growth [in this city]",
+				"[-50]% Culture cost of natural border growth [in this city]",
 
-              	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
-		        "Population loss from nuclear attacks [-50]% [in this city]",
-	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
+			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
+				"Population loss from nuclear attacks [-50]% [in this city]",
+				"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
 				"Only available <for [Human player] Civilizations><hidden from users>",
 				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
@@ -2390,12 +2390,12 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-            	"Roads connect tiles across rivers",
-            	"Connects trade routes over water",
+				"Roads connect tiles across rivers",
+				"Connects trade routes over water",
 
-		    	"[-25]% Culture cost of natural border growth [in this city]",
+				"[-25]% Culture cost of natural border growth [in this city]",
 
-		    	"[+9999]% Strength for cities <when defending> <hidden from users>",
+				"[+9999]% Strength for cities <when defending> <hidden from users>",
 
 				"[-50]% Unhappiness from [Population] [in this city]",
 				"[+100]% [Happiness] [in this city]",
@@ -2586,8 +2586,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <when religion is enabled>",
-	    		"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <when religion is enabled>",
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -2675,63 +2675,63 @@
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
 //HackTown city eraser
-            	"Cities are razed [5] times as fast",
+				"Cities are razed [5] times as fast",
 //HackTown Unit Xp
-    			"[+100]% XP gained from combat <for [Military] units>",
-    			"New [Military] units start with [1000] XP [in this city]",
+				"[+100]% XP gained from combat <for [Military] units>",
+				"New [Military] units start with [1000] XP [in this city]",
 //HackTown resources
-    			"[+100]% Yield from every [Terrain] <for [Human player] Civilizations>",
-    			"Provides 10 copy of each improved luxury resource near this City",
-    			"[+100]% [Strategic] resource production",
+				"[+100]% Yield from every [Terrain] <for [Human player] Civilizations>",
+				"Provides 10 copy of each improved luxury resource near this City",
+				"[+100]% [Strategic] resource production",
 //HackTown maintenance
-            	"No Maintenance costs for improvements in [All] tiles", 
-            	"[-100]% maintenance costs <for [All] units>", 
-            	"[-100]% maintenance on road & railroads", 
-            	"[-100]% maintenance cost for [All] buildings [in this city]", 
+				"No Maintenance costs for improvements in [All] tiles", 
+				"[-100]% maintenance costs <for [All] units>", 
+				"[-100]% maintenance on road & railroads", 
+				"[-100]% maintenance cost for [All] buildings [in this city]", 
 //HackTown population
-    			"[+100] population [in this city]",
-    			"[+100]% growth [in this city]",
+				"[+100] population [in this city]",
+				"[+100]% growth [in this city]",
 //HackTown supply
-    			"[+100] Unit Supply",
+				"[+100] Unit Supply",
 //HackTown Construction Time
-	    		"[-75]% construction time for [All] improvements",
+				"[-75]% construction time for [All] improvements",
 
 //HackTown Gold
-            	"[+1 Gold] per [1] population [in this city]", 
-            	"[+100]% [Gold] [in this city]",
-            	"May buy [All] buildings for [0] [Gold] [in this city]", 
-            	"May buy [All] units for [0] [Gold] [in this city]",
+				"[+1 Gold] per [1] population [in this city]", 
+				"[+100]% [Gold] [in this city]",
+				"May buy [All] buildings for [0] [Gold] [in this city]", 
+				"May buy [All] units for [0] [Gold] [in this city]",
 //HackTown culture
-            	"[+1 Culture] per [1] population [in this city]", 
-            	"[+100]% [Culture] [in this city]", 
-            	"May buy [All] buildings for [0] [Culture] [in this city]", 
-            	"May buy [All] units for [0] [Culture] [in this city]",
-            	"[+100]% Golden Age length", 
-            	"[-100]% Culture cost of adopting new Policies",
+				"[+1 Culture] per [1] population [in this city]", 
+				"[+100]% [Culture] [in this city]", 
+				"May buy [All] buildings for [0] [Culture] [in this city]", 
+				"May buy [All] units for [0] [Culture] [in this city]",
+				"[+100]% Golden Age length", 
+				"[-100]% Culture cost of adopting new Policies",
 //HackTown faith
-            	"[+1 Faith] per [1] population [in this city]", 
-            	"[+100]% [Faith] [in this city]", 
-            	"May buy [All] buildings for [0] [Faith] [in this city]", 
-            	"May buy [All] units for [0] [Faith] [in this city]",
-            	"May not generate great prophet equivalents naturally", 
-            	"May choose [2] additional belief(s) of any type when [founding] a religion",
-            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
+				"[+1 Faith] per [1] population [in this city]", 
+				"[+100]% [Faith] [in this city]", 
+				"May buy [All] buildings for [0] [Faith] [in this city]", 
+				"May buy [All] units for [0] [Faith] [in this city]",
+				"May not generate great prophet equivalents naturally", 
+				"May choose [2] additional belief(s) of any type when [founding] a religion",
+				"May choose [2] additional belief(s) of any type when [enhancing] a religion",
 //HackTown Happiness
-            	"[+1 Happiness] per [1] population [in this city]", 
-            	"[+100]% [Happiness] [in this city]", 
-            	"[+10] Happiness from each type of luxury resource", 
-            	"[-99]% Unhappiness from [Population] [in this city]",
+				"[+1 Happiness] per [1] population [in this city]", 
+				"[+100]% [Happiness] [in this city]", 
+				"[+10] Happiness from each type of luxury resource", 
+				"[-99]% Unhappiness from [Population] [in this city]",
 //HackTown Food
-            	"[+1 Food] per [1] population [in this city]", 
-            	"[+100]% [Food] [in this city]", 
+				"[+1 Food] per [1] population [in this city]", 
+				"[+100]% [Food] [in this city]", 
 //HackTown Science
-            	"[+1 Science] per [1] population [in this city]", 
-            	"[+100]% [Science] [in this city]",
+				"[+1 Science] per [1] population [in this city]", 
+				"[+100]% [Science] [in this city]",
 //HackTown Production
-            	"[+1 Production] per [1] population [in this city]", 
-            	"[+100]% [Production] [in this city]", 
-            	"[+100]% [Strategic] resource production",
-            	"[-100]% construction time for [All] improvements",
+				"[+1 Production] per [1] population [in this city]", 
+				"[+100]% [Production] [in this city]", 
+				"[+100]% [Strategic] resource production",
+				"[-100]% construction time for [All] improvements",
 
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -2753,17 +2753,17 @@
 				"Unbuildable <hidden from users>",
 				"Only available <in cities with a [MiniCake Cities]> <hidden from users>",
 				"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
-              	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city] <during the [Ancient era]>",
-              	"[+2 Gold, +2 Production, +2 Science, +2 Food, +2 Culture, +2 Faith, +2 Happiness] per [1] population [in this city] <during the [Classical era]>",
-              	"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] per [1] population [in this city] <during the [Medieval era]>",
-              	"[+4 Gold, +4 Production, +4 Science, +4 Food, +4 Culture, +4 Faith, +4 Happiness] per [1] population [in this city] <during the [Renaissance era]>",
-              	"[+5 Gold, +5 Production, +5 Science, +5 Food, +5 Culture, +5 Faith, +5 Happiness] per [1] population [in this city] <during the [Industrial era]>",
-              	"[+6 Gold, +6 Production, +6 Science, +6 Food, +6 Culture, +6 Faith, +6 Happiness] per [1] population [in this city] <during the [Modern era]>",
-              	"[+7 Gold, +7 Production, +7 Science, +7 Food, +7 Culture, +7 Faith, +7 Happiness] per [1] population [in this city] <during the [Atomic era]>",
-              	"[+8 Gold, +8 Production, +8 Science, +8 Food, +8 Culture, +8 Faith, +8 Happiness] per [1] population [in this city] <during the [Information era]>",
-              	"[+9 Gold, +9 Production, +9 Science, +9 Food, +9 Culture, +9 Faith, +9 Happiness] per [1] population [in this city] <during the [Future era]>",
+			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city] <during the [Ancient era]>",
+			  	"[+2 Gold, +2 Production, +2 Science, +2 Food, +2 Culture, +2 Faith, +2 Happiness] per [1] population [in this city] <during the [Classical era]>",
+			  	"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] per [1] population [in this city] <during the [Medieval era]>",
+			  	"[+4 Gold, +4 Production, +4 Science, +4 Food, +4 Culture, +4 Faith, +4 Happiness] per [1] population [in this city] <during the [Renaissance era]>",
+			  	"[+5 Gold, +5 Production, +5 Science, +5 Food, +5 Culture, +5 Faith, +5 Happiness] per [1] population [in this city] <during the [Industrial era]>",
+			  	"[+6 Gold, +6 Production, +6 Science, +6 Food, +6 Culture, +6 Faith, +6 Happiness] per [1] population [in this city] <during the [Modern era]>",
+			  	"[+7 Gold, +7 Production, +7 Science, +7 Food, +7 Culture, +7 Faith, +7 Happiness] per [1] population [in this city] <during the [Atomic era]>",
+			  	"[+8 Gold, +8 Production, +8 Science, +8 Food, +8 Culture, +8 Faith, +8 Happiness] per [1] population [in this city] <during the [Information era]>",
+			  	"[+9 Gold, +9 Production, +9 Science, +9 Food, +9 Culture, +9 Faith, +9 Happiness] per [1] population [in this city] <during the [Future era]>",
 //HackTown maintenance
-            	"[-100]% maintenance cost for [All] buildings [in this city]", 
+				"[-100]% maintenance cost for [All] buildings [in this city]", 
 
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -2829,8 +2829,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//            	"May choose [2] additional belief(s) of any type when [founding] a religion",
-//            	"May choose [2] additional belief(s) of any type when [enhancing] a religion",
+//				"May choose [2] additional belief(s) of any type when [founding] a religion",
+//				"May choose [2] additional belief(s) of any type when [enhancing] a religion",
 
 				"[3] free [DNS Great Prophet] units appear",
 				"[-500000]% Natural religion spread [in this city]",
@@ -2858,14 +2858,14 @@
 		"maintenance": 0,
 		"uniques": [ 
 //HackTown Cripple Religion
-            	"[-500000]% Natural religion spread [in this city]",
-            	"[-500000]% Spread Religion Strength <for [All] units>",
-            	"[-5000]% Unhappiness from [Population] [in this city]",
-            	"[+5000]% [Science] [in this city]",
-//xsa//broken?            	"[+1 Culture] per every [1] [Faith] [in this city]",
-            	"Nullifies [Faith] [in this city]",
+				"[-500000]% Natural religion spread [in this city]",
+				"[-500000]% Spread Religion Strength <for [All] units>",
+				"[-5000]% Unhappiness from [Population] [in this city]",
+				"[+5000]% [Science] [in this city]",
+//xsa//broken?				"[+1 Culture] per every [1] [Faith] [in this city]",
+				"Nullifies [Faith] [in this city]",
 
-	    		"Discover [xsaCrippleReligion] <for [Human player] Civilizations>",
+				"Discover [xsaCrippleReligion] <for [Human player] Civilizations>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
@@ -2885,16 +2885,16 @@
 		"maintenance": 0,
 		"uniques": [ 
 //HackTown Cripple Religion
-            	"[-500000]% Natural religion spread [in this city]",
-            	"[-5000]% Unhappiness from [Population] [in this city]",
-            	"[+5000]% [Science] [in this city]",
-//            	"[+1 Culture] per every [1] [Faith] [in this city]",
-            	"Nullifies [Faith] [in this city]",
+				"[-500000]% Natural religion spread [in this city]",
+				"[-5000]% Unhappiness from [Population] [in this city]",
+				"[+5000]% [Science] [in this city]",
+//				"[+1 Culture] per every [1] [Faith] [in this city]",
+				"Nullifies [Faith] [in this city]",
 
 				"Unavailable <in cities with a [MiniCake Capitol]><hidden from users>",
 				"Automatically built in all cities where it is buildable<hidden from users>",
 
-//            	"Only available <in cities with a [HackTown Capitol Cripple Religion]> <hidden from users>",
+//				"Only available <in cities with a [HackTown Capitol Cripple Religion]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -2911,24 +2911,24 @@
 		"hurryCostModifier": 0,
 		"maintenance": 0,
 		"uniques": [ 
-            	"Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns", 
-            	"City-State territory always counts as friendly territory", 
-            	"[100]% resources gifted by City-States", 
-            	"[-100]% City-State Influence degradation", 
-            	"Resting point for Influence with City-States is increased by [100]", 
-            	"Influence of all other civilizations with all city-states degrades [100]% faster", 
-            	"Gifts of Gold to City-States generate [1000]% more Influence",
-            	"Military Units gifted from City-States start with [100000] XP",
-            	"Removes extra unhappiness from annexed cities",
+				"Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns", 
+				"City-State territory always counts as friendly territory", 
+				"[100]% resources gifted by City-States", 
+				"[-100]% City-State Influence degradation", 
+				"Resting point for Influence with City-States is increased by [100]", 
+				"Influence of all other civilizations with all city-states degrades [100]% faster", 
+				"Gifts of Gold to City-States generate [1000]% more Influence",
+				"Military Units gifted from City-States start with [100000] XP",
+				"Removes extra unhappiness from annexed cities",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 //				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
-	    		"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
+				"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-	    		"Destroyed when the city is captured <hidden from users>"
+				"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "TechUnlocker"
 	},
@@ -2964,7 +2964,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Gain a free [MiniCake Cloned Bonus] [in this city]",
 				"Gain a free [MiniCake Cloned Strategic] [in this city]",
@@ -2991,9 +2991,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
-		    	
-		    	"Provides [10] [RB01 Cattle]",
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				
+				"Provides [10] [RB01 Cattle]",
 				"Provides [10] [RB02 Sheep]",
 				"Provides [10] [RB03 Deer]",
 				"Provides [10] [RB04 Bananas]",
@@ -3023,7 +3023,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Only available <in cities with a [MiniCake Cloned Resource]> <hidden from users>",
 
@@ -3057,7 +3057,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Only available <in cities with a [MiniCake Cloned Resource]> <hidden from users>",
 
@@ -3144,7 +3144,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Gain a free [MiniCake Reserve Bonus] [in this city]",
 				"Gain a free [MiniCake Reserve Strategic] [in this city]",
@@ -3171,9 +3171,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
-		    	
-		    	"Provides [8000] [RB01 Cattle]",
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				
+				"Provides [8000] [RB01 Cattle]",
 				"Provides [8000] [RB02 Sheep]",
 				"Provides [8000] [RB03 Deer]",
 				"Provides [8000] [RB04 Bananas]",
@@ -3203,7 +3203,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Only available <in cities with a [MiniCake Cloned Resource]> <hidden from users>",
 
@@ -3237,7 +3237,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Can only be built <in [Capital] cities> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
 
 				"Only available <in cities with a [MiniCake Cloned Resource]> <hidden from users>",
 
@@ -3330,12 +3330,12 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    		    "Discover [TechBorderEater]",
-				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
-//				"Only available <for [Human player] Civilizations> <hidden from users>",
-//				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
-//				"Automatically built in all cities where it is buildable<hidden from users>",
-//				"Unavailable <hidden from users>",
+			"Discover [TechBorderEater]",
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"Can only be built <in [Capital] cities> <hidden from users>",
+
+			"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -3498,7 +3498,7 @@
 		"uniques": [
 				"[+1000]% [Culture] [in this city]", 
 
-		    	"[-25]% Culture cost of natural border growth [in this city]",
+				"[-25]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
@@ -3525,7 +3525,7 @@
 		"uniques": [
 				"[+9999]% [Culture] [in this city]", 
 
-		    	"[-20]% Culture cost of natural border growth [in this city]",
+				"[-20]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
@@ -3552,7 +3552,7 @@
 		"uniques": [
 				"[+999999]% [Culture] [in this city]", 
 
-		    	"[-20]% Culture cost of natural border growth [in this city]",
+				"[-20]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
@@ -3579,7 +3579,7 @@
 		"uniques": [
 				"[+99999999]% [Culture] [in this city]", 
 
-//		    	"[-50]% Culture cost of natural border growth [in this city]",
+//				"[-50]% Culture cost of natural border growth [in this city]",
 
 //				"Gain control over [all] tiles in a [25]-tile radius",
 
@@ -4099,7 +4099,7 @@
 		"All newly-trained [Siege] units [in all cities] receive the [March] promotion",
 		"All newly-trained [Mounted] units [in all cities] receive the [March] promotion",
 
-        "All newly-trained [Mounted] units [in all cities] receive the [Mobility] promotion",
+		"All newly-trained [Mounted] units [in all cities] receive the [Mobility] promotion",
 		"All newly-trained [Melee Water] units [in all cities] receive the [Mobility] promotion",
 		"All newly-trained [Ranged Water] units [in all cities] receive the [Mobility] promotion",
 		"All newly-trained [Armored] units [in all cities] receive the [Mobility] promotion",
@@ -4501,10 +4501,10 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"[3] free [E9 SS Booster] units appear", 
-		    	"[1] free [E9 SS Cockpit] units appear", 
-		    	"[1] free [E9 SS Engine] units appear", 
-		    	"[1] free [E9 SS Stasis Chamber] units appear", 
+				"[3] free [E9 SS Booster] units appear", 
+				"[1] free [E9 SS Cockpit] units appear", 
+				"[1] free [E9 SS Engine] units appear", 
+				"[1] free [E9 SS Stasis Chamber] units appear", 
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
@@ -5033,8 +5033,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 1,
 		"uniques": [
-		        "Population loss from nuclear attacks [-50]% [in this city]",
-	    		"Damage to garrison from nuclear attacks [-50]% [in this city]",
+				"Population loss from nuclear attacks [-50]% [in this city]",
+				"Damage to garrison from nuclear attacks [-50]% [in this city]",
 				"[+100]% City Strength from defensive buildings",
 				"[+100]% Strength for cities",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
@@ -5098,8 +5098,8 @@
 		"maintenance": 1,
 		"uniques": [
 				"[-75]% Gold cost of acquiring tiles [in all cities]",
-		    	"[-75]% Gold cost of upgrading <for [Military] units>",
-		    	"[-75]% Gold cost of upgrading <for [Civilian] units>",
+				"[-75]% Gold cost of upgrading <for [Military] units>",
+				"[-75]% Gold cost of upgrading <for [Civilian] units>",
 
 				"[Gold] cost of purchasing items in cities [-99]%",
 				"[Gold] cost of purchasing [All] buildings [-99]%",
@@ -5114,7 +5114,7 @@
 				"[Faith] cost of purchasing [All] units [-99]%",
 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-	    		"Can only be built <in [in capital] cities> <hidden from users>",
+				"Can only be built <in [in capital] cities> <hidden from users>",
 				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
@@ -5134,7 +5134,7 @@
 				"[+50]% XP gained from combat",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
 				"Can only be built <in [in capital] cities> <hidden from users>",
-    			"Moves to new capital when capital changes<hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
@@ -5160,7 +5160,7 @@
 
 
 
-    {
+	{
 		"name": "MiniCake Open Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -5235,7 +5235,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake Lock Aall",
 		"requiredBuilding": "MiniCake Lock Main",
 		"cost": 1,
@@ -5333,7 +5333,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake Open Aero",
 		"requiredBuilding": "MiniCake Open Main",
 		"cost": 1,
@@ -5390,7 +5390,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake Open Rest",
 		"requiredBuilding": "MiniCake Open Main",
 		"cost": 1,
@@ -5527,7 +5527,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake Lock Rest",
 		"requiredBuilding": "MiniCake Lock Main",
 		"cost": 1,
@@ -5576,7 +5576,7 @@
 
 
 
-    {
+	{
 		"name": "MiniCake ShowGk Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
@@ -5652,7 +5652,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake HideGk Aall",
 		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
@@ -5752,7 +5752,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake ShowGk Aero",
 		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
@@ -5809,7 +5809,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake ShowGk Rest",
 		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
@@ -5829,7 +5829,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-    {
+	{
 		"name": "MiniCake ShowGk Roof",
 		"requiredBuilding": "MiniCake ShowGk Main",
 		"cost": 1,
@@ -5965,7 +5965,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake HideGk Rest",
 		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
@@ -5985,7 +5985,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-    {
+	{
 		"name": "MiniCake HideGk Roof",
 		"requiredBuilding": "MiniCake HideGk Main",
 		"cost": 1,
@@ -6122,9 +6122,9 @@
 		"uniques": [
 				"Sell [MiniCake TestUnit spawn workerLand] buildings [in this city]",
 
-	    	"[5] free [DNS Worker Land Class 3] units appear", 
+			"[5] free [DNS Worker Land Class 3] units appear", 
 //			"Gain a free [DNS Worker Land Class 3] [in capital] <by consuming this unit>",
-//            "Free [DNS Worker Land Class 3] appears <by consuming this unit>",
+//			"Free [DNS Worker Land Class 3] appears <by consuming this unit>",
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
@@ -6145,9 +6145,9 @@
 		"uniques": [
 				"Sell [MiniCake TestUnit spawn workerBoat] buildings [in this city]",
 
-	    	"[5] free [DNS Worker Boat Class 3] units appear", 
+			"[5] free [DNS Worker Boat Class 3] units appear", 
 //			"Gain a free [DNS Worker Boat Class 3] [in capital] <by consuming this unit>",
-//            "Free [DNS Worker Boat Class 3] appears <by consuming this unit>",
+//			"Free [DNS Worker Boat Class 3] appears <by consuming this unit>",
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 				"Limited to [1] per Civilization <hidden from users>",
@@ -6166,16 +6166,16 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Checkeri] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Checkeri] buildings [in this city]",
 
-		    	"[1] free [DNS Checkeri1] units appear", 
-		    	"[1] free [DNS Checkeri2] units appear", 
-		    	"[1] free [DNS Checkeri3] units appear", 
-		    	"[1] free [DNS Checkeri4] units appear", 
-		    	"[1] free [DNS Checkeri5] units appear", 
-		    	"[1] free [DNS Checkeri6] units appear", 
-		    	"[1] free [DNS Checkeri7] units appear", 
-		    	"[1] free [DNS Checkeri8] units appear", 
+				"[1] free [DNS Checkeri1] units appear", 
+				"[1] free [DNS Checkeri2] units appear", 
+				"[1] free [DNS Checkeri3] units appear", 
+				"[1] free [DNS Checkeri4] units appear", 
+				"[1] free [DNS Checkeri5] units appear", 
+				"[1] free [DNS Checkeri6] units appear", 
+				"[1] free [DNS Checkeri7] units appear", 
+				"[1] free [DNS Checkeri8] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6194,13 +6194,13 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Missile] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Missile] buildings [in this city]",
 
-		    	"[5] free [DNS Guided Rocket] units appear", 
-		    	"[5] free [DNS Guided Missile] units appear", 
-//		    	"[1] free [DNS Nuclear Missile P2] units appear", 
-//		    	"[1] free [DNS Nuclear Missile P5] units appear", 
-//		    	"[1] free [DNS Nuclear Missile P8] units appear", 
+				"[5] free [DNS Guided Rocket] units appear", 
+				"[5] free [DNS Guided Missile] units appear", 
+//				"[1] free [DNS Nuclear Missile P2] units appear", 
+//				"[1] free [DNS Nuclear Missile P5] units appear", 
+//				"[1] free [DNS Nuclear Missile P8] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6219,16 +6219,16 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Air] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Air] buildings [in this city]",
 
-		    	"[1] free [DNS Flyer] units appear", 
-		    	"[1] free [DNS War Bomber] units appear", 
-		    	"[1] free [Zeppelin Terraformer] units appear", 
+				"[1] free [DNS Flyer] units appear", 
+				"[1] free [DNS War Bomber] units appear", 
+				"[1] free [Zeppelin Terraformer] units appear", 
 
-		    	"[1] free [DNS Helicopter Gunship] units appear", 
-		    	"[1] free [DNS Jet Fighter] units appear", 
-		    	"[1] free [DNS Stealth Bomber] units appear", 
-		    	"[1] free [DNS Sky Carrier] units appear", 
+				"[1] free [DNS Helicopter Gunship] units appear", 
+				"[1] free [DNS Jet Fighter] units appear", 
+				"[1] free [DNS Stealth Bomber] units appear", 
+				"[1] free [DNS Sky Carrier] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6247,13 +6247,13 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Navy] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Navy] buildings [in this city]",
 
-		    	"[1] free [DNS Destroyer] units appear", 
-		    	"[1] free [DNS Battleship] units appear", 
-		    	"[1] free [DNS Missile Cruiser] units appear", 
-		    	"[1] free [DNS Nuclear Submarine] units appear", 
-		    	"[1] free [DNS Carrier] units appear", 
+				"[1] free [DNS Destroyer] units appear", 
+				"[1] free [DNS Battleship] units appear", 
+				"[1] free [DNS Missile Cruiser] units appear", 
+				"[1] free [DNS Nuclear Submarine] units appear", 
+				"[1] free [DNS Carrier] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6272,13 +6272,13 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Land] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Land] buildings [in this city]",
 
-		    	"[1] free [DNS Modern Armor] units appear", 
-		    	"[1] free [DNS Mechanized Infantry] units appear", 
-		    	"[1] free [DNS Land Leviathan] units appear", 
-		    	"[1] free [DNS Mobile SAM] units appear", 
-		    	"[1] free [DNS Rocket Artillery] units appear", 
+				"[1] free [DNS Modern Armor] units appear", 
+				"[1] free [DNS Mechanized Infantry] units appear", 
+				"[1] free [DNS Land Leviathan] units appear", 
+				"[1] free [DNS Mobile SAM] units appear", 
+				"[1] free [DNS Rocket Artillery] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6298,17 +6298,17 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Fleet Civilian] buildings [in this city]",
+				"Sell [MiniCake Spawn Fleet Civilian] buildings [in this city]",
 
-		        "[1] free [DNS Worker] units appear", 
-		    	"[1] free [DNS Work Boats] units appear", 
-		    	"[1] free [DNS Settler] units appear", 
-		    	"[1] free [DNS Scout] units appear", 
-		    	"[1] free [DNS Missionary] units appear", 
-		    	"[1] free [DNS Inquisitor] units appear", 
-		    	"[1] free [DNS Khan] units appear", 
+				"[1] free [DNS Worker] units appear", 
+				"[1] free [DNS Work Boats] units appear", 
+				"[1] free [DNS Settler] units appear", 
+				"[1] free [DNS Scout] units appear", 
+				"[1] free [DNS Missionary] units appear", 
+				"[1] free [DNS Inquisitor] units appear", 
+				"[1] free [DNS Khan] units appear", 
 
-                "Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -6325,11 +6325,11 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn NukA Missile] buildings [in this city]",
+				"Sell [MiniCake Spawn NukA Missile] buildings [in this city]",
 
-		    	"[5] free [DNS Nuclear Missile P02] units appear", 
-		    	"[3] free [DNS Nuclear Missile P05] units appear", 
-		    	"[2] free [DNS Nuclear Missile P08] units appear", 
+				"[5] free [DNS Nuclear Missile P02] units appear", 
+				"[3] free [DNS Nuclear Missile P05] units appear", 
+				"[2] free [DNS Nuclear Missile P08] units appear", 
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -6348,26 +6348,26 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-                "Sell [MiniCake Spawn Great People] buildings [in this city]",
+				"Sell [MiniCake Spawn Great People] buildings [in this city]",
 
-		    	"[1] free [DNS Great Artist] units appear", 
-		    	"[1] free [DNS Great Scientist] units appear", 
-		    	"[1] free [DNS Great Merchant] units appear", 
-		    	"[1] free [DNS Great Engineer] units appear", 
-		    	"[1] free [DNS Great Prophet] units appear", 
-		    	"[1] free [DNS Great General] units appear", 
-		    	"[1] free [DNS Great Admiral] units appear", 
-//		    	"[1] free [DNS Khan] units appear", 
+				"[1] free [DNS Great Artist] units appear", 
+				"[1] free [DNS Great Scientist] units appear", 
+				"[1] free [DNS Great Merchant] units appear", 
+				"[1] free [DNS Great Engineer] units appear", 
+				"[1] free [DNS Great Prophet] units appear", 
+				"[1] free [DNS Great General] units appear", 
+				"[1] free [DNS Great Admiral] units appear", 
+//				"[1] free [DNS Khan] units appear", 
 
 /*
-		    	"[1] free [Great Artist] units appear", 
-		    	"[1] free [Great Scientist] units appear", 
-		    	"[1] free [Great Merchant] units appear", 
-		    	"[1] free [Great Engineer] units appear", 
-		    	"[1] free [Great Prophet] units appear", 
-		    	"[1] free [Great General] units appear", 
-		    	"[1] free [Khan] units appear", 
-		    	"[1] free [Great Admiral] units appear", 
+				"[1] free [Great Artist] units appear", 
+				"[1] free [Great Scientist] units appear", 
+				"[1] free [Great Merchant] units appear", 
+				"[1] free [Great Engineer] units appear", 
+				"[1] free [Great Prophet] units appear", 
+				"[1] free [Great General] units appear", 
+				"[1] free [Khan] units appear", 
+				"[1] free [Great Admiral] units appear", 
 */
 
 				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
@@ -6425,8 +6425,8 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
 
-    			"Discover [KosongZeroNull]<before discovering [KosongZeroNull]>",//<for [AI player] Civilizations>",
-    			"Discover [KosongZero0000]<before discovering [KosongZero0000]>",// <for [AI player] Civilizations>",
+				"Discover [KosongZeroNull]<before discovering [KosongZeroNull]>",//<for [AI player] Civilizations>",
+				"Discover [KosongZero0000]<before discovering [KosongZero0000]>",// <for [AI player] Civilizations>",
 
 				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -6447,8 +6447,8 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake Experiment]> <hidden from users>",
 
-		    	"[Civilian] units gain the [TrialStatus] promotion",
-		    	"[Military] units gain the [TrialStatus] promotion",
+				"[Civilian] units gain the [TrialStatus] promotion",
+				"[Military] units gain the [TrialStatus] promotion",
 
 				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -6737,7 +6737,7 @@
 		"uniques": [
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Only available <in cities with a [MiniCake Trigger Endgame]> <after discovering [ZZ FuturaTech]><hidden from users>",
-			    "Triggers victory"
+				"Triggers victory"
 		],
 		"requiredTech": "TechUnlocker"
 	},
@@ -6874,7 +6874,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
+				"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -6918,19 +6918,19 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    	    	"Only available <in cities with a [E0 Palace]> <hidden from users>",
-    			"Gain a free [Human Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
-    			"Gain a free [Human Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
-    			"Gain a free [Human Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
-    			"Gain a free [Human Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
-    			"Gain a free [Human Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
-    			"Gain a free [Human Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
-    			"Gain a free [Human Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
-    			"Gain a free [Human Tech Debuff E8 Information] [in this city] <during the [Information era]>",
-    			"Gain a free [Human Tech Debuff E9 Future] [in this city] <during the [Future era]>",
-    
-    			"Automatically built in all cities where it is buildable",
-    			"Only available <after discovering [TechHumanDebuff]><for [AI player] Civilizations>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Gain a free [Human Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
+				"Gain a free [Human Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
+				"Gain a free [Human Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
+				"Gain a free [Human Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
+				"Gain a free [Human Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
+				"Gain a free [Human Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
+				"Gain a free [Human Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
+				"Gain a free [Human Tech Debuff E8 Information] [in this city] <during the [Information era]>",
+				"Gain a free [Human Tech Debuff E9 Future] [in this city] <during the [Future era]>",
+	
+				"Automatically built in all cities where it is buildable",
+				"Only available <after discovering [TechHumanDebuff]><for [AI player] Civilizations>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -6949,9 +6949,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -6970,9 +6970,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
+				 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -6991,9 +6991,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7012,9 +7012,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7033,9 +7033,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7054,9 +7054,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7075,9 +7075,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7096,9 +7096,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7117,9 +7117,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7163,19 +7163,19 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    	    	"Only available <in cities with a [E0 Palace]> <hidden from users>",
-    			"Gain a free [Enema Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
-    			"Gain a free [Enema Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
-    			"Gain a free [Enema Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
-    			"Gain a free [Enema Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
-    			"Gain a free [Enema Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
-    			"Gain a free [Enema Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
-    			"Gain a free [Enema Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
-    			"Gain a free [Enema Tech Debuff E8 Information] [in this city] <during the [Information era]>",
-    			"Gain a free [Enema Tech Debuff E9 Future] [in this city] <during the [Future era]>",
-    
-    			"Automatically built in all cities where it is buildable",
-    			"Only available <after discovering [TechEnemaDebuff]><for [AI player] Civilizations>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Gain a free [Enema Tech Debuff E1 Ancient] [in this city] <during the [Ancient era]>",
+				"Gain a free [Enema Tech Debuff E2 Classical] [in this city] <during the [Classical era]>",
+				"Gain a free [Enema Tech Debuff E3 Medieval] [in this city] <during the [Medieval era]>",
+				"Gain a free [Enema Tech Debuff E4 Renaissance] [in this city] <during the [Renaissance era]>",
+				"Gain a free [Enema Tech Debuff E5 Industrial] [in this city] <during the [Industrial era]>",
+				"Gain a free [Enema Tech Debuff E6 Modern] [in this city] <during the [Modern era]>",
+				"Gain a free [Enema Tech Debuff E7 Atomic] [in this city] <during the [Atomic era]>",
+				"Gain a free [Enema Tech Debuff E8 Information] [in this city] <during the [Information era]>",
+				"Gain a free [Enema Tech Debuff E9 Future] [in this city] <during the [Future era]>",
+	
+				"Automatically built in all cities where it is buildable",
+				"Only available <after discovering [TechEnemaDebuff]><for [AI player] Civilizations>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -7194,9 +7194,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Ancient era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7215,9 +7215,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
+				 "[+10000000]% Science cost of researching new Technologies<during the [Classical era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7236,9 +7236,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Medieval era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7257,9 +7257,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Renaissance era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7278,9 +7278,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Industrial era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7299,9 +7299,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Modern era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7320,9 +7320,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Atomic era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7341,9 +7341,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7362,9 +7362,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [E0 Palace]> <hidden from users>",
+				"Only available <in cities with a [E0 Palace]> <hidden from users>",
 
-                "[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
+				"[+10000000]% Science cost of researching new Technologies<during the [Information era]>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7405,7 +7405,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	    		"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
+				"Only available <in cities with a [MiniCake HackTown]> <hidden from users>",
 
 //				"Limited to [1] per Civilization <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -7425,9 +7425,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Gold] per every [1] [Gold]",
+				"[-1 Gold] per every [1] [Gold]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Gold] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7448,9 +7448,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Culture] per every [1] [Culture]",
+				"[-1 Culture] per every [1] [Culture]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Culture] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7471,9 +7471,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Faith] per every [1] [Faith]",
+				"[-1 Faith] per every [1] [Faith]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Faith] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7494,9 +7494,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Food] per every [1] [Food]",
+				"[-1 Food] per every [1] [Food]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Food] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7517,9 +7517,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Happiness] per every [1] [Happiness]",
+				"[-1 Happiness] per every [1] [Happiness]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Happiness] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7540,9 +7540,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Production] per every [1] [Production]",
+				"[-1 Production] per every [1] [Production]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Production] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -7563,9 +7563,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-    			"[-1 Science] per every [1] [Science]",
+				"[-1 Science] per every [1] [Science]",
 
-	    		"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Depletion]> <hidden from users>",
 				"Sell [MiniCake Depletion Science] buildings [in this city]",
 
 //				"Limited to [1] per Civilization <hidden from users>",
@@ -8087,7 +8087,7 @@
 		"Destroyed when the city is captured <hidden from users>",
 			"[Military] units gain the [Omnipotence] promotion <every [1] turns> <if [Immortal Units] is constructed>" ]
 	},
-    {
+	{
 		"name": "Invulnerable Units",
 				"requiredBuilding": "MiniCake UCheat",
 		"cost": 0,
@@ -8482,7 +8482,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//    			"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+//				"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
 
 				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -8502,7 +8502,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//    			"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+//				"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
 
 				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
 				"Unbuildable <hidden from users>",
@@ -8533,7 +8533,7 @@
 		"requiredTech": "TechUnlocker"
 	},
 
-    {
+	{
 		"name": "MiniCake DNS Vault Building 1 Ancient",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8560,7 +8560,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 2 Classical",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8588,7 +8588,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 3 Medieval",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8613,7 +8613,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 4 Renaissance",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8640,7 +8640,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 5 Industrial",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8667,7 +8667,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 6 Modern",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8690,7 +8690,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 7 Atomic",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8713,7 +8713,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 8 Information",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8734,7 +8734,7 @@
 			],
 		"requiredTech": "TechUnlocker"
 	},
-    {
+	{
 		"name": "MiniCake DNS Vault Building 9 Future",
 		"requiredBuilding": "MiniCake DNS Vault Building",
 		"cost": 1,
@@ -8776,9 +8776,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake Automate Main] [in all cities]",
-        		"Gain a free [MiniCake ShowGk Aall] [in all cities]",
-//        		"Gain a free [MiniCake Open Aall] [in all cities]",
+				"Gain a free [MiniCake Automate Main] [in all cities]",
+				"Gain a free [MiniCake ShowGk Aall] [in all cities]",
+//				"Gain a free [MiniCake Open Aall] [in all cities]",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8799,9 +8799,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake Automate Building] [in all cities]",
-        		"Gain a free [MiniCake Automate CivSpec] [in all cities]",
-        		"Gain a free [MiniCake Automate Wonder] [in capital]",
+				"Gain a free [MiniCake Automate Building] [in all cities]",
+				"Gain a free [MiniCake Automate CivSpec] [in all cities]",
+				"Gain a free [MiniCake Automate Wonder] [in capital]",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8822,14 +8822,14 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-        		"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities] <during the [Ancient era]>",
-        		"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities] <during the [Classical era]>",
-        		"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities] <during the [Medieval era]>",
-        		"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
-        		"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities] <during the [Industrial era]>",
-        		"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities] <during the [Modern era]>",
-        		"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities] <during the [Atomic era]>",
-        		"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities] <during the [Information era]>",
+				"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities] <during the [Ancient era]>",
+				"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities] <during the [Classical era]>",
+				"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities] <during the [Medieval era]>",
+				"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities] <during the [Renaissance era]>",
+				"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities] <during the [Industrial era]>",
+				"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities] <during the [Modern era]>",
+				"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities] <during the [Atomic era]>",
+				"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities] <during the [Information era]>",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -8886,60 +8886,60 @@
 		"maintenance": 0,
 		"uniques": [
 
-        		"Gain a free [E2 Circus Maximus] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
-        		"Gain a free [E3 Grand Temple] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 National Treasury] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Oxford University] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Ironworks] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E4 Hermitage] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E6 National Intelligence Agency] [in this city]<during the [Modern era]>",
-        //			"Gain a free [E7 Manhattan Project] [in this city]<during the [Atomic era]>",
-        //			"Gain a free [E7 Apollo Program] [in this city]<during the [Atomic era]>",
-        //			"Gain a free [A01 Utopia Project] [in this city]",
-        
-        		"Gain a free [E1 Temple of Artemis] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Stonehenge] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 The Great Library] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 The Pyramids] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E1 Statue of Zeus] [in this city]<during the [Ancient era]>",
-        		"Gain a free [E2 The Great Lighthouse] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Hanging Gardens] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Terracotta Army] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 The Oracle] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Petra] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Great Wall] [in this city]<during the [Classical era]>",
-        		"Gain a free [E2 Colossus] [in this city]<during the [Classical era]>",
-        		"Gain a free [E3 Hagia Sophia] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Great Mosque of Djenne] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Chichen Itza] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Machu Picchu] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Angkor Wat] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Alhambra] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E3 Notre Dame] [in this city]<during the [Medieval era]>",
-        		"Gain a free [E4 Sistine Chapel] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Forbidden Palace] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Leaning Tower of Pisa] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Himeji Castle] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Taj Mahal] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Porcelain Tower] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E4 Kremlin] [in this city]<during the [Renaissance era]>",
-        		"Gain a free [E5 The Louvre] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E5 Big Ben] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E5 Brandenburg Gate] [in this city]<during the [Industrial era]>",
-        		"Gain a free [E6 Eiffel Tower] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Statue of Liberty] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Neuschwanstein] [in this city]<during the [Modern era]>",
-        		"Gain a free [E6 Cristo Redentor] [in this city]<during the [Modern era]>",
-        		"Gain a free [E7 Pentagon] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E7 Sydney Opera House] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E7 Great Firewall] [in this city]<during the [Atomic era]>",
-        		"Gain a free [E8 CN Tower] [in this city]<during the [Future era]>",
-        		"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
-        //			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
+				"Gain a free [E2 Circus Maximus] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 National College] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 National Epic] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Heroic Epic] [in this city]<during the [Classical era]>",
+				"Gain a free [E3 Grand Temple] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 National Treasury] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Oxford University] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Ironworks] [in this city]<during the [Medieval era]>",
+				"Gain a free [E4 Hermitage] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E6 National Intelligence Agency] [in this city]<during the [Modern era]>",
+		//			"Gain a free [E7 Manhattan Project] [in this city]<during the [Atomic era]>",
+		//			"Gain a free [E7 Apollo Program] [in this city]<during the [Atomic era]>",
+		//			"Gain a free [A01 Utopia Project] [in this city]",
+		
+				"Gain a free [E1 Temple of Artemis] [in this city]<during the [Ancient era]>",
+				"Gain a free [E1 Stonehenge] [in this city]<during the [Ancient era]>",
+				"Gain a free [E1 The Great Library] [in this city]<during the [Ancient era]>",
+				"Gain a free [E1 The Pyramids] [in this city]<during the [Ancient era]>",
+				"Gain a free [E1 Mausoleum of Halicarnassus] [in this city]<during the [Ancient era]>",
+				"Gain a free [E1 Statue of Zeus] [in this city]<during the [Ancient era]>",
+				"Gain a free [E2 The Great Lighthouse] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Hanging Gardens] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Terracotta Army] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 The Oracle] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Petra] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Great Wall] [in this city]<during the [Classical era]>",
+				"Gain a free [E2 Colossus] [in this city]<during the [Classical era]>",
+				"Gain a free [E3 Hagia Sophia] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Great Mosque of Djenne] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Chichen Itza] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Machu Picchu] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Angkor Wat] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Alhambra] [in this city]<during the [Medieval era]>",
+				"Gain a free [E3 Notre Dame] [in this city]<during the [Medieval era]>",
+				"Gain a free [E4 Sistine Chapel] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Forbidden Palace] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Leaning Tower of Pisa] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Himeji Castle] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Taj Mahal] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Porcelain Tower] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E4 Kremlin] [in this city]<during the [Renaissance era]>",
+				"Gain a free [E5 The Louvre] [in this city]<during the [Industrial era]>",
+				"Gain a free [E5 Big Ben] [in this city]<during the [Industrial era]>",
+				"Gain a free [E5 Brandenburg Gate] [in this city]<during the [Industrial era]>",
+				"Gain a free [E6 Eiffel Tower] [in this city]<during the [Modern era]>",
+				"Gain a free [E6 Statue of Liberty] [in this city]<during the [Modern era]>",
+				"Gain a free [E6 Neuschwanstein] [in this city]<during the [Modern era]>",
+				"Gain a free [E6 Cristo Redentor] [in this city]<during the [Modern era]>",
+				"Gain a free [E7 Pentagon] [in this city]<during the [Atomic era]>",
+				"Gain a free [E7 Sydney Opera House] [in this city]<during the [Atomic era]>",
+				"Gain a free [E7 Great Firewall] [in this city]<during the [Atomic era]>",
+				"Gain a free [E8 CN Tower] [in this city]<during the [Future era]>",
+				"Gain a free [E8 Hubble Space Telescope] [in this city]<during the [Future era]>",
+		//			"Gain a free [E8 United Nations] [in this city]<during the [Future era]>",
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -11007,7 +11007,7 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in cities with a [MiniCake DNS Vault Policy]>",
-    	"Adopt [Po03 Honor]<before adopting [Po03 Honor]>",
+		"Adopt [Po03 Honor]<before adopting [Po03 Honor]>",
 			"Adopt [Po03 Warrior Code]<before adopting [Po03 Warrior Code]>",
 			"Adopt [Po03 Discipline]<before adopting [Po03 Discipline]>",
 			"Adopt [Po03 Military Tradition]<before adopting [Po03 Military Tradition]>",
@@ -11231,8 +11231,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era1UnlockEnema"
 	},
@@ -11246,8 +11246,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era2UnlockEnema"
 	},
@@ -11261,8 +11261,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era3UnlockEnema"
 	},
@@ -11276,8 +11276,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era4UnlockEnema"
 	},
@@ -11291,8 +11291,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era5UnlockEnema"
 	},
@@ -11306,8 +11306,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era6UnlockEnema"
 	},
@@ -11321,8 +11321,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era7UnlockEnema"
 	},
@@ -11336,8 +11336,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era8UnlockEnema"
 	},
@@ -11351,8 +11351,8 @@
 			"Automatically built in all cities where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
-	    	"Moves to new capital when capital changes<hidden from users>",
-	    	"Destroyed when the city is captured <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
 		"requiredTech": "Era8UnlockEnema"
 	},
@@ -11988,15 +11988,15 @@ Coffee House
 
 
 /*
-        		"[+150]% Strength <during the [Ancient era]>",
-        		"[+165]% Strength <during the [Classical era]>",
-        		"[+175]% Strength <during the [Medieval era]>",
-        		"[+190]% Strength <during the [Renaissance era]>",
-        		"[+220]% Strength <during the [Industrial era]>",
-        		"[+300]% Strength <during the [Modern era]>",
-        		"[+400]% Strength <during the [Atomic era]>",
-        		"[+450]% Strength <during the [Information era]>",
-        		"[+500]% Strength <during the [Future era]>",
+				"[+150]% Strength <during the [Ancient era]>",
+				"[+165]% Strength <during the [Classical era]>",
+				"[+175]% Strength <during the [Medieval era]>",
+				"[+190]% Strength <during the [Renaissance era]>",
+				"[+220]% Strength <during the [Industrial era]>",
+				"[+300]% Strength <during the [Modern era]>",
+				"[+400]% Strength <during the [Atomic era]>",
+				"[+450]% Strength <during the [Information era]>",
+				"[+500]% Strength <during the [Future era]>",
 */
 
 
