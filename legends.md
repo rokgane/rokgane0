@@ -69,8 +69,3 @@ Zepnaut.png
 
 ############ ############ sort list
 
-E3 E2 Burial Tomb",
-E3 E2 Mud Pyramid Mosque",
-E3 E2 Bazaar",
-E7 Sydney E4 Opera House",
-E8 Spaceship E5 Factory",
