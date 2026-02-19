@@ -10,7 +10,8 @@
 			"May Paradrop to [All] tiles up to [20] tiles away", 
 
 		"uniques": [
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			
 
 //XSA//Gun Ranged Fixing 
@@ -99,7 +100,8 @@ E3 Longbowman
 			"Never appears as a Barbarian unit",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
 			"Limited to [3] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
@@ -142,7 +144,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
 			"Uncapturable", 
 
@@ -195,7 +198,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
 			"Limited to [5] per Civilization",
 			"Founds a new city <in tiles without [Badlands]>", 
@@ -221,7 +225,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
 			"Limited to [5] per Civilization",
 			"May upgrade to [E1 Archer] through ruins-like effects", 
@@ -243,7 +248,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
 			"May upgrade to [E1 Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
@@ -421,7 +427,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles <before discovering [E4 Astronomy]>", 
 
 			"May create improvements on water resources",
@@ -445,7 +453,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles", 
 			"Never appears as a Barbarian unit"],
 //xsa		"upgradesTo": "E4 Caravel",
@@ -466,7 +476,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles"],
 //xsa		"upgradesTo": "E4 Caravel",
 		"obsoleteTech": "E4 Astronomy",
@@ -487,7 +499,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles", 
 			"[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "E3 Galleass",
@@ -504,7 +518,9 @@ E3 Longbowman
 		"cost": 40,
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles"],
 		"upgradesTo": "E1 Trireme",
 		"obsoleteTech": "E4 Astronomy",
@@ -527,7 +543,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"No defensive terrain bonus", 
 			"Rough terrain penalty", 
 			"Never appears as a Barbarian unit"],
@@ -550,7 +568,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"No defensive terrain bonus", 
 			"Rough terrain penalty"],
 		"attackSound": "arrow"
@@ -572,7 +592,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
@@ -594,7 +616,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"No defensive terrain bonus"],
 		"attackSound": "elephant"
 	},
@@ -612,7 +636,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -632,7 +658,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -652,7 +680,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
@@ -673,7 +703,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+300]% Strength <vs cities> <when attacking>", 
 			"No defensive terrain bonus", 
 			"[-33]% Strength <when defending>",
@@ -698,7 +730,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
@@ -717,7 +751,9 @@ E3 Longbowman
 		"upgradesTo": "E3 Pikeman",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -739,7 +775,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>" ],
@@ -764,7 +802,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"[-33]% Strength <vs cities> <when attacking>"],
@@ -788,7 +828,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -813,7 +855,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking", 
 			"[-25]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
@@ -834,7 +878,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+200]% Strength <vs cities> <when attacking>", 
 			"No defensive terrain bonus",
 			"Must set up to ranged attack", 
@@ -860,7 +906,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+200]% Strength <vs cities> <when attacking>", 
 			"No defensive terrain bonus",
 			"Must set up to ranged attack", 
@@ -924,7 +972,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can build [Road] improvements on tiles", 
 			"Can build [TI20 Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
@@ -967,7 +1017,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "E4 Lancer",
 		"obsoleteTech": "E4 Metallurgy",
@@ -987,7 +1039,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>", 
 			"Can move immediately once bought" ],
 		"upgradesTo": "E4 Lancer",
@@ -1010,7 +1064,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
@@ -1029,7 +1085,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>", 
@@ -1054,7 +1112,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus"],
 		"attackSound": "arrow"
@@ -1077,7 +1137,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Founds a new city <on foreign continents>", 
@@ -1103,7 +1165,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Mounted] units>",
@@ -1127,7 +1191,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus"],
 		"attackSound": "horse"
@@ -1151,7 +1217,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
@@ -1237,7 +1305,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1262,7 +1332,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"No defensive terrain bonus",
 			"Must set up to ranged attack"],
 		"attackSound": "throw"
@@ -1304,7 +1376,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can instantly construct a [TI17 Fishing Boats] improvement"
 			],
 		"attackSound": "metalhit"
@@ -1352,7 +1426,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+1] Sight", 
 			"Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
@@ -1376,7 +1452,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot enter ocean tiles"],
 		"hurryCostModifier": 30,
 		"attackSound": "Cannon"
@@ -1465,7 +1543,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Ignores terrain cost"],
 		"promotions": [
 			"Drill I"],
@@ -1489,7 +1569,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
 	},
@@ -1579,7 +1661,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+1] Sight"],
 		"requiredTech": "E4 Navigation",
 		"obsoleteTech": "E6 Electronics",
@@ -1600,7 +1684,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1625,7 +1711,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1650,7 +1738,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"],
@@ -1675,7 +1765,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1810,7 +1902,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>", 
@@ -1834,7 +1928,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>"],
@@ -1858,7 +1954,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -1883,7 +1981,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+33]% Strength <vs cities>",
 			"Double movement in [Coast]", 
 			"Never appears as a Barbarian unit"],
@@ -1904,7 +2004,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
@@ -1930,7 +2032,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+75]% Strength <when attacking>", 
 			"Can only attack [Water] tiles", 
 			"Never appears as a Barbarian unit"],
@@ -1974,7 +2078,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"attackSound": "shot"
 	},
@@ -2050,7 +2156,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Cannot attack", 
 			"Can carry [2] [Aircraft] units"]
 	},
@@ -2069,7 +2177,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -2112,7 +2222,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Air] units>", 
 			"[+150]% Strength <vs [Helicopter] units>", 
@@ -2136,7 +2248,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -2157,7 +2271,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can see invisible [E6 Submarine] units", 
 			"[40]% chance to intercept air attacks",
 			"Withdraws before melee combat <with [80]% chance>", 
@@ -2183,7 +2299,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"[+1] Sight <when [Embarked]>", 
 			"[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
@@ -2284,7 +2402,8 @@ E3 Longbowman
 		"uniques": [
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
@@ -2306,7 +2425,9 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -2330,7 +2451,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can move after attacking",
 			"No defensive terrain bonus"],
 		"attackSound": "Tankshot"
@@ -2351,7 +2473,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[+100]% Strength <vs [Armored] units>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
@@ -2394,7 +2517,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight", 
@@ -2417,7 +2541,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>", 
@@ -2477,7 +2602,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Aero]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"May travel on Water tiles without embarking",
 			//xsa//added hovering
 			"Eliminates combat penalty for attacking across a coast",
@@ -2513,7 +2639,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[+75]% Strength <when attacking>", 
 			"Can only attack [Water] tiles", 
 			"[+1] Sight", 
@@ -2535,7 +2662,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "Tankshot"
 	},
@@ -2554,7 +2682,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Navy]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[100]% chance to intercept air attacks", 
 			"Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", 
@@ -2577,7 +2706,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -2618,7 +2748,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Land]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -2658,7 +2789,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 
@@ -2679,7 +2811,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can hurry technology research", 
 			"Can instantly construct a [Academy] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
@@ -2699,7 +2832,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -2719,7 +2853,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can speed up Construction of a building", 
 			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
@@ -2738,7 +2873,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
 			"Can instantly construct a [DNS Holy site] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
@@ -2766,7 +2902,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
@@ -2789,7 +2926,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
@@ -2813,7 +2951,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
@@ -2838,7 +2977,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [3] per Civilization",
 			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
@@ -2857,7 +2997,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
@@ -2887,7 +3028,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Spaceship part", 
 			"Cannot be purchased", 
 			"Only available <if [E7 Apollo Program] is constructed>", 
@@ -2908,7 +3050,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Spaceship part", 
 			"Cannot be purchased", 
 			"Only available <if [E7 Apollo Program] is constructed>", 
@@ -2928,7 +3071,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Spaceship part", 
 			"Cannot be purchased", 
 			"Only available <if [E7 Apollo Program] is constructed>", 
@@ -2948,7 +3092,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Spaceship part", 
 			"Cannot be purchased", 
 			"Only available <if [E7 Apollo Program] is constructed>", 
@@ -3010,7 +3155,8 @@ E3 Longbowman
 		"obsoleteTech": "DNS Tech Land Leviathan",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -3029,7 +3175,8 @@ E3 Longbowman
 		"obsoleteTech": "DNS Tech Sky Fortress",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
 			"Unable to capture cities",
@@ -3047,7 +3194,8 @@ E3 Longbowman
 		"requiredResource": "RM02 Luboric",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can move after attacking",
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"],
@@ -3064,7 +3212,8 @@ E3 Longbowman
 		"requiredResource": "RM01 Aetherium",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Can carry [2] [Aircraft] units",
 			"[+100]% Strength <vs [Armored] units>",
 			"No defensive terrain bonus",
@@ -3110,7 +3259,8 @@ E3 Longbowman
 		"requiredTech": "E8 Advanced Ballistics",
 		"uniques": [
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Uncapturable",
 			"May Paradrop to [Land] tiles up to [30] tiles away <in [{Friendly} {Land}] tiles>", 
 //			"May Paradrop up to [20] tiles from inside friendly territory", 

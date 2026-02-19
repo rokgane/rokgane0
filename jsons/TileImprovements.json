@@ -3001,7 +3001,8 @@
 	// Great Person improvements
 	{
 		"name": "DNS Academy",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
+
 		"science": 16,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -3051,7 +3052,7 @@
 	},
 	{
 		"name": "DNS Landmark",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"culture": 12,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -3099,7 +3100,7 @@
 	},
 	{
 		"name": "DNS Manufactory",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"production": 8,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -3148,7 +3149,7 @@
 	},
 	{
 		"name": "DNS Customs house",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"gold": 8,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -3198,7 +3199,7 @@
 	},
 	{
 		"name": "DNS Holy site",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"faith": 12,
 		"techRequired": "TechUnlocker",
 		"uniques": [
@@ -3247,7 +3248,7 @@
 	},
 	{
 		"name": "DNS Citadel",
-		"terrainsCanBeBuiltOn": ["Plains","Desert","Grassland","Tundra","Snow","Wasteland","Badlands","Permafrost"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle","Wasteland","Badlands","Permafrost"],
 		"techRequired": "TechUnlocker",
 		"uniques": [
 //			"Unbuildable <in [Foreign] tiles>",

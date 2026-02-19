@@ -1,7 +1,6 @@
 
 
 
-
 //xsa//start of gk
 //xsa//end of gk
 
@@ -1987,7 +1986,7 @@
 				"uniques": [
 						"Only available <in cities with a [National Espionage Agency]><when espionage is enabled> <hidden from users>",
 						"Automatically built in all cities where it is buildable<hidden from users>",
-
+						"Unavailable <in [in cities being razed] cities>",
 						"[-999]% enemy spy effectiveness [in this city]",
 
 						"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -2238,7 +2237,7 @@
 			"[+50]% [Happiness] [in all cities]",
 
 			"Discover [TechUnlocker]",
-			"Discover [TechParadrop]",
+			"Discover [TechParadropBase]",
 			"Discover [TechOpenBorder]",
 
 			"Enemy [All] units must spend [2] extra movement points when inside your territory",
@@ -2278,6 +2277,7 @@
 //			"Unavailable <in cities with a [Twilight of the Gods]> <hidden from users>",
 //			"Unavailable <in cities with a [True Asgarheim]> <hidden from users>",
 			"Automatically built in all cities where it is buildable",
+			"Unavailable <in [in cities being razed] cities>",
 
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -2332,6 +2332,7 @@
 //				"Gain a free [MiniCake BuffUnit] [in this city]",
 
 				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <in [in cities being razed] cities>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -2358,8 +2359,8 @@
 				"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
 				"Only available <for [Human player] Civilizations><hidden from users>",
-				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
 				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <in cities with a [E0 Palace]><in [in cities being razed] cities>",
 
 				"Gain a free [MiniCake DNS Vault] [in this city]",
 
@@ -3315,6 +3316,27 @@
 
 
 
+	{
+		"name": "MiniCake Paradrop Tech Maxd",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Discover [TechParadropMaxd]",
+			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+
+			"Can only be built <in [Capital] cities> <hidden from users>",
+
+			"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 	{

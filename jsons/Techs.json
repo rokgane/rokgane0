@@ -195,16 +195,16 @@ Mixed   techgk   techgk   slower   slower
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
 
-			{//TechParadrop
-				"name": "TechParadrop",
+			{//xsa//Unlocker
+				"name": "TechUnlocker",
 				"row": 31,//19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
-			{//TechEnemaCheat cheat building
-				"name": "TechBorderEater",
+			{//TechParadrop
+				"name": "TechParadropBase",
 				"row": 32,//20,
 				"quote": "Cheat tech",
 				"uniques": [
@@ -212,8 +212,8 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
-			{//xsa//Unlocker
-				"name": "TechUnlocker",
+			{//TechParadrop
+				"name": "TechParadropMaxd",
 				"row": 33,//21,
 				"quote": "Cheat tech",
 				"uniques": [
@@ -232,6 +232,13 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
 
+			{//TechEnemaCheat cheat building
+				"name": "TechBorderEater",				"row": 35,//19,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
 			{
 				"name": "E1 Agriculture",
 				"row": 16,//6,
