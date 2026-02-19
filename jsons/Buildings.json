@@ -4901,18 +4901,35 @@
 
 
 	{
-		"name": "FakeCity - Supply",
+		"name": "FakeCity - 50 Supply",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 1,
 		"uniques": [
-				"[+100] Unit Supply",
+				"[+50] Unit Supply",
+			"Unavailable <in cities with a [FakeCity - 5 Supply each PopCount]> <hidden from users>",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>",
 				"Unbuildable <hidden from users>" 
 		],
 		"requiredTech": "TechUnlocker"
 	},
+
+	{
+		"name": "FakeCity - 5 Supply each PopCount",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[5] Unit Supply per [1] population [in this city] <hidden from users>"
+			"Unavailable <in cities with a [FakeCity - 50 Supply]> <hidden from users>",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
+		"requiredTech": "TechUnlocker"
+	},
+
 	{
 		"name": "FakeCity - Population",
 		"cost": 1,
