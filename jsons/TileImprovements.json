@@ -8,14 +8,14 @@
 		"turnsToBuild": 7,
 		"techRequired": "E1 Agriculture",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Can also be built on tiles adjacent to fresh water",
+			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -25,12 +25,12 @@
 		"turnsToBuild": 7,
 		"techRequired": "E2 Construction",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [E5 Scientific Theory]>", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Production] <after discovering [E5 Scientific Theory]>", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
@@ -40,12 +40,12 @@
 		"turnsToBuild": 7,
 		"techRequired": "E1 Mining",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -55,12 +55,12 @@
 		"turnsToBuild": 7,
 		"techRequired": "E3 Guilds",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Gold] <after discovering [E4 Economics]>", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Gold] <after discovering [E4 Economics]>", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
 
@@ -70,15 +70,15 @@
 		"turnsToBuild": 7,
 		"techRequired": "E1 Trapping",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Does not need removal of [Forest]",
-		    "Does not need removal of [Jungle]",
-		    "[+1 Gold] <after discovering [E4 Economics]>", 
-		    "Can only be built to improve a resource",
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Gold] <after discovering [E4 Economics]>", 
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
@@ -86,13 +86,13 @@
 		"turnsToBuild": 9,
 		"techRequired": "E5 Biology",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Can only be built to improve a resource", 
-		    "Cannot be built on [Water] tiles", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"Can only be built to improve a resource", 
+			"Cannot be built on [Water] tiles", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
@@ -100,13 +100,13 @@
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"techRequired": "E6 Refrigeration",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Can only be built to improve a resource",
-		    "Can only be built on [Water] tiles", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -114,13 +114,13 @@
 		"turnsToBuild": 8,
 		"techRequired": "E1 Animal Husbandry",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Food] <after discovering [E5 Fertilizer]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -129,13 +129,13 @@
 		"gold": 1,
 		"techRequired": "E1 Calendar",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Food] <after discovering [E5 Fertilizer]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -143,13 +143,13 @@
 		"turnsToBuild": 8,
 		"techRequired": "E1 Masonry",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -159,13 +159,13 @@
 		"food": 1,
 		"techRequired": "E1 Sailing",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Gold] <after discovering [E3 Compass]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Gold] <after discovering [E3 Compass]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 
@@ -176,12 +176,12 @@
 		"turnsToBuild": 6,
 		"techRequired": "E2 Engineering",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [50]%"],
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
 	},
 
@@ -193,14 +193,14 @@
 		"culture": 1,
 		"turnsToBuild": 4,
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Can only be built on [Coastal] tiles", 
-		    "[+1 Culture] for each adjacent [Moai]", 
-		    "[+1 Gold] <after discovering [E6 Flight]>", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"Can only be built on [Coastal] tiles", 
+			"[+1 Culture] for each adjacent [Moai]", 
+			"[+1 Gold] <after discovering [E6 Flight]>", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"techRequired": "E2 Construction",
 		"shortcutKey": "M"
 	},
@@ -211,15 +211,15 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "E2 Construction",
 		"shortcutKey": "F"
 	},
@@ -230,12 +230,12 @@
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
 		"turnsToBuild": 7,
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
-		    "[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
-		    "Pillaging this improvement yields approximately [+18 Gold]"],
+			"[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "E3 Guilds",
 		"shortcutKey": "F"
 	},
@@ -244,11 +244,11 @@
 
 
 /*
-    {
+	{
 		"name": "Dirt Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
@@ -263,7 +263,7 @@
 		"name": "Concrete Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra","Dirt Canal"],
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
@@ -284,7 +284,7 @@
 		"turnsToBuild": 3,
 		"techRequired": "TechUnlocker",
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
@@ -305,7 +305,7 @@
 		"name": "Panama Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
@@ -321,7 +321,7 @@
 		"name": "National Canal E2 Construction Site",
 		"terrainsCanBeBuiltOn": ["Hill","Plains","Grassland","Desert","Tundra"],
 		"uniques": [
-                "Excluded from map editor",
+				"Excluded from map editor",
 				"Unbuildable <hidden from users>",
 				"Unavailable <hidden from users>",
 
@@ -353,10 +353,10 @@
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-//		    "Unpillagable",
-		    "Unbuildable"
-		    ],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+//			"Unpillagable",
+			"Unbuildable"
+			],
+		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 */
 
@@ -366,17 +366,17 @@
 		"turnsToBuild": 4,
 		"techRequired": "E1 The Wheel",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-		    "Can be built outside your borders", 
-		    "Costs [1] [Gold] per turn"],
+			"Can be built outside your borders", 
+			"Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with E3 Machinery", "link":"Technology/E3 Machinery"},
-            {"text":"Requires E2 Engineering to bridge rivers", "link":"Technology/E2 Engineering"}
-        ]
+		"civilopediaText": [
+			{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+			{"text":"Reduces movement cost to ⅓ with E3 Machinery", "link":"Technology/E3 Machinery"},
+			{"text":"Requires E2 Engineering to bridge rivers", "link":"Technology/E2 Engineering"}
+		]
 	},
 	{
 		"name": "Railroad",
@@ -384,16 +384,16 @@
 		"turnsToBuild": 4,
 		"techRequired": "E6 Railroads",
 		"uniques": [
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-		    "Can be built outside your borders", 
-		    "Costs [2] [Gold] per turn"],
+			"Can be built outside your borders", 
+			"Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
-            {"text":"Provides a +25% [Production] bonus to cities connected to the capital by Railroads"}
-        ]
+		"civilopediaText": [
+			{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
+			{"text":"Provides a +25% [Production] bonus to cities connected to the capital by Railroads"}
+		]
 	},
 
 
@@ -402,111 +402,111 @@
 
 
 
-    // Great Person improvements
+	// Great Person improvements
 
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": [
-            "Excluded from map editor",
-            "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-		    "Great Improvement", 
-		    "[+2 Science] <after discovering [E5 Scientific Theory]>",
-            "[+2 Science] <after discovering [E7 Atomic Theory]>", 
-            "Removes removable features when built",
-            "Will not be replaced by automated units", 
-            "Pillaging this improvement yields approximately [+20 Gold]"]
+			"Great Improvement", 
+			"[+2 Science] <after discovering [E5 Scientific Theory]>",
+			"[+2 Science] <after discovering [E7 Atomic Theory]>", 
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": [
-            "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-		    "Great Improvement", 
-		    "Removes removable features when built",
-            "Will not be replaced by automated units", 
-            "Pillaging this improvement yields approximately [+20 Gold]"]
+			"Great Improvement", 
+			"Removes removable features when built",
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": [
-            "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-		    "Great Improvement", 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Will not be replaced by automated units",
-            "Removes removable features when built", 
-            "Pillaging this improvement yields approximately [+20 Gold]"]
+			"Great Improvement", 
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Will not be replaced by automated units",
+			"Removes removable features when built", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": [
-            "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-		    "Great Improvement", 
-		    "[+1 Gold] <after discovering [E4 Economics]>", 
-		    "Removes removable features when built",
-            "Will not be replaced by automated units",
-            "Pillaging this improvement yields approximately [+20 Gold]"]
+			"Great Improvement", 
+			"[+1 Gold] <after discovering [E4 Economics]>", 
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": [
-            "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
-		    "Great Improvement",
-		    "Removes removable features when built", 
-		    "Will not be replaced by automated units", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"]
+			"Great Improvement",
+			"Removes removable features when built", 
+			"Will not be replaced by automated units", 
+			"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-            "Excluded from map editor",
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Excluded from map editor",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
- 		    "Cannot be built on [Bonus resource] tiles",
+ 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
@@ -516,7 +516,7 @@
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
-            "Will not be replaced by automated units"
+			"Will not be replaced by automated units"
 		]
 	},
 
@@ -555,20 +555,20 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
-            "Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "Can also be built on tiles adjacent to fresh water",
+			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -603,18 +603,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
-            "Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [E5 Scientific Theory]>", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Production] <after discovering [E5 Scientific Theory]>", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
@@ -648,18 +648,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
@@ -693,18 +693,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "[+1 Gold] <after discovering [E4 Economics]>", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Gold] <after discovering [E4 Economics]>", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
 
@@ -738,20 +738,20 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Does not need removal of [Forest]",
-		    "Does not need removal of [Jungle]",
-		    "[+1 Gold] <after discovering [E4 Economics]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Gold] <after discovering [E4 Economics]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "C"
 	},
 	{
@@ -783,18 +783,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Can only be built to improve a resource", 
-		    "Cannot be built on [Water] tiles", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"Can only be built to improve a resource", 
+			"Cannot be built on [Water] tiles", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
@@ -826,18 +826,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Can only be built to improve a resource", 
-		    "Can only be built on [Water] tiles", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"Can only be built to improve a resource", 
+			"Can only be built on [Water] tiles", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -869,18 +869,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Food] <after discovering [E5 Fertilizer]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -913,18 +913,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Food] <after discovering [E5 Fertilizer]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Food] <after discovering [E5 Fertilizer]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -956,18 +956,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -1001,18 +1001,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Gold] <after discovering [E3 Compass]>", 
-		    "Can only be built to improve a resource", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"[+1 Gold] <after discovering [E3 Compass]>", 
+			"Can only be built to improve a resource", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 
@@ -1047,20 +1047,20 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Can only be built to improve a resource", 
+			"Can only be built to improve a resource", 
 
 			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -1094,19 +1094,19 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-//          "Cannot be built on [Bonus resource] tiles",
+//		  "Cannot be built on [Bonus resource] tiles",
 //			"Cannot be built on [Strategic resource] tiles",
 //			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Can only be built to improve a resource", 
+			"Can only be built to improve a resource", 
 
-		    "[+1 Production] <after discovering [E4 Chemistry]>", 
-		    "Pillaging this improvement yields approximately [+20 Gold]"],
+			"[+1 Production] <after discovering [E4 Chemistry]>", 
+			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 
@@ -1141,18 +1141,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [50]%"],
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [50]%"],
 		"shortcutKey": "O"
 	},
 
@@ -1189,20 +1189,20 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "Can only be built on [Coastal] tiles", 
-		    "[+1 Culture] for each adjacent [Moai]", 
-		    "[+1 Gold] <after discovering [E6 Flight]>", 
-		    "Pillaging this improvement yields approximately [+10 Gold]"],
+			"Can only be built on [Coastal] tiles", 
+			"[+1 Culture] for each adjacent [Moai]", 
+			"[+1 Gold] <after discovering [E6 Flight]>", 
+			"Pillaging this improvement yields approximately [+10 Gold]"],
 		"techRequired": "E2 Construction",
 		"shortcutKey": "M"
 	},
@@ -1237,11 +1237,11 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
@@ -1250,7 +1250,7 @@
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] from [Fresh water] tiles <after discovering [E3 Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [E5 Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "E2 Construction",
 		"shortcutKey": "F"
 	},
@@ -1285,18 +1285,18 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-		    "[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
-		    "Pillaging this improvement yields approximately [+18 Gold]"],
+			"[+1 Production, +2 Gold] <after discovering [E4 Economics]>", 
+			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "E3 Guilds",
 		"shortcutKey": "F"
 	},
@@ -1336,11 +1336,11 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
@@ -1351,7 +1351,7 @@
 			"Does not need removal of [Trading post] <hidden from users>",
 			//"Cannot be built on [Desert] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
-		        ],
+				],
 		"shortcutkey": "P"
 	},
 	{
@@ -1384,11 +1384,11 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
@@ -1399,7 +1399,7 @@
 			"Does not need removal of [Trading post] <hidden from users>",
 			//"Cannot be built on [Desert] tiles <hidden from users>",
 			//"Cannot be built on [Snow] tiles <hidden from users>"
-		        ],
+				],
 		"shortcutkey": "P"
 	},
 */
@@ -1411,14 +1411,14 @@
 		"name": "Bioculture",
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"techRequired": "TechUnlocker",
-        "Gold": 1, 
-        "Production": 1, 
-        "Science": 1, 
-        "Food": 1, 
-        "Culture": 1, 
-        "Faith": 1, 
-        "Happiness": 1
-        "turnsToBuild": 5,
+		"Gold": 1, 
+		"Production": 1, 
+		"Science": 1, 
+		"Food": 1, 
+		"Culture": 1, 
+		"Faith": 1, 
+		"Happiness": 1
+		"turnsToBuild": 5,
 		"uniques": [
 			"Unbuildable <in [Foreign] tiles><in tiles adjacent to [Foreign] tiles>",
 
@@ -1444,27 +1444,27 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [1] tiles of a [City center]>",
+			"Only available <within [1] tiles of a [City center]>",
 			"Unavailable <in tiles adjacent to [Foreign] tiles>",
 
-//            "Food source",
+//			"Food source",
 //			"Can only be built to improve a resource",
 
-            "[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations><after discovering [TechUnlocker]>",
+			"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] <for [Human player] Civilizations><after discovering [TechUnlocker]>",
 			"[+3 Gold, +3 Production, +3 Science, +3 Food, +3 Culture, +3 Faith, +3 Happiness] for each adjacent [Bioculture]<after discovering [TechUnlocker]>",
 
 /*
-            "[+1 Gold] <after discovering [TechUnlocker]>",
+			"[+1 Gold] <after discovering [TechUnlocker]>",
 			"[+1 Production] <after discovering [TechUnlocker]>",
 			"[+1 Science] <after discovering [TechUnlocker]>",
 			"[+1 Food] <after discovering [TechUnlocker]>",
@@ -1508,19 +1508,19 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [80] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [160]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [80] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [160]% <after discovering [TechUnlocker]>",
 
 			"Gain control over [all] tiles in a [1]-tile radius <after discovering [TechUnlocker]>",
-		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 	{
@@ -1553,19 +1553,19 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [90] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [180]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [90] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [180]% <after discovering [TechUnlocker]>",
 
 			"Gain control over [all] tiles in a [2]-tile radius <after discovering [TechUnlocker]>",
-		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 	{
@@ -1598,19 +1598,19 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 //			"Will not be replaced by automated units", 
 
-		    "Adjacent enemy units ending their turn take [100] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [200]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [100] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [200]% <after discovering [TechUnlocker]>",
 
 			"Gain control over [all] tiles in a [3]-tile radius <after discovering [TechUnlocker]>",
-		    "Can be built outside your borders", 
-		    "Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [100]% <after discovering [TechUnlocker]>"],
 		"shortcutKey": "O"
 	},
 
@@ -1665,14 +1665,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Mountain] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T12 Desertify",
@@ -1704,14 +1704,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Desert] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T13 Snowify",
@@ -1743,14 +1743,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Snow] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T14 Plainsify",
@@ -1782,14 +1782,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Plains] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T15 Grasslandify",
@@ -1821,14 +1821,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Grassland] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T16 Tundraify",
@@ -1860,14 +1860,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Tundra] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 
 	{
@@ -1900,14 +1900,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Ocean] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T22 Coastify",
@@ -1939,14 +1939,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Coast] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T23 Lakesify",
@@ -1978,14 +1978,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Lakes] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T24 Iciiify",
@@ -2017,15 +2017,15 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Ice] tile",
 			"Cannot be built on [Land] tiles <hidden from users>",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T25 Atollify",
@@ -2057,15 +2057,15 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Atoll] tile",
 			"Cannot be built on [Land] tiles <hidden from users>",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 
 
@@ -2077,7 +2077,7 @@
 		"uniques": [
 			"Turn this tile into a [Wasteland] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T32 Badlandsify",
@@ -2087,7 +2087,7 @@
 		"uniques": [
 			"Turn this tile into a [Badlands] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T33 Permafrostify",
@@ -2097,7 +2097,7 @@
 		"uniques": [
 			"Turn this tile into a [Permafrost] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	
 	{
@@ -2130,14 +2130,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Hill] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T42 Forestify",
@@ -2169,14 +2169,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Forest] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T43 Jungleify",
@@ -2208,14 +2208,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Jungle] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T44 Oasisify",
@@ -2247,14 +2247,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Oasis] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T45 Flood plainsify",
@@ -2286,14 +2286,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Flood plains] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T46 Marshify",
@@ -2325,14 +2325,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Marsh] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 
 	{
@@ -2365,14 +2365,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Great Barrier Reef] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T52 Old Faithful",
@@ -2404,14 +2404,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Old Faithful] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T53 El Dorado",
@@ -2443,14 +2443,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [El Dorado] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T54 Fountain of Youth",
@@ -2482,14 +2482,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Fountain of Youth] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T55 Grand Mesa",
@@ -2521,14 +2521,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Grand Mesa] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T56 Mount Fuji",
@@ -2560,14 +2560,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Mount Fuji] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T57 Krakatoa",
@@ -2599,14 +2599,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Krakatoa] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T58 Rock of Gibraltar",
@@ -2638,14 +2638,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Rock of Gibraltar] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T59 Cerro de Potosi",
@@ -2677,14 +2677,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Cerro de Potosi] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T60 Barringer Crater",
@@ -2716,14 +2716,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Barringer Crater] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T61 Mount Kailash",
@@ -2755,14 +2755,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Mount Kailash] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T62 Mount Sinai",
@@ -2794,14 +2794,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Mount Sinai] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T63 Sri Pada",
@@ -2833,14 +2833,14 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Sri Pada] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 	{
 		"name": "T64 Uluru",
@@ -2872,42 +2872,42 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Turn this tile into a [Uluru] tile",
 			"Can be built outside your borders"
-		        ],
+				],
 	},
 
 
 
 
 /*
-    {
+	{
 		"name": "DNS Farmyard",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 60,
 		"uniques": [
-            "Great Improvement",
-            "Can also be built on tiles adjacent to fresh water",
-            "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+20 Gold]",
-            "[+10 Food] <after discovering [E3 Civil Service]>",
-            "[+10 Food] <after discovering [E5 Fertilizer]>"
-        ]
+			"Great Improvement",
+			"Can also be built on tiles adjacent to fresh water",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"[+10 Food] <after discovering [E3 Civil Service]>",
+			"[+10 Food] <after discovering [E5 Fertilizer]>"
+		]
 	},
 */
-    {
+	{
 		"name": "Remove Ice",
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Ice"],
 		"techRequired": "E1 Agriculture",
 		"uniques": [
-		    "Can be built outside your borders", 
-		    "Excluded from map editor"],
+			"Can be built outside your borders", 
+			"Excluded from map editor"],
 	},
 	{
 		"name": "Remove Fallout",
@@ -2915,8 +2915,8 @@
 		// Has no tech requirements as it can always be built
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		"uniques": [
-		    "Can be built outside your borders", 
-		    "Excluded from map editor"],
+			"Can be built outside your borders", 
+			"Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 
@@ -2927,7 +2927,7 @@
 		"techRequired": "E1 Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
@@ -3029,17 +3029,17 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [5] tiles of a [City center]>",
+			"Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+4 Science] <after discovering [E5 Scientific Theory]>",
@@ -3079,17 +3079,17 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [5] tiles of a [City center]>",
+			"Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+10 Culture] <after discovering [TechUnlocker]>",
@@ -3127,17 +3127,17 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [5] tiles of a [City center]>",
+			"Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+2 Production] <after discovering [E4 Chemistry]>", 
@@ -3176,17 +3176,17 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [5] tiles of a [City center]>",
+			"Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+2 Gold] <after discovering [E4 Economics]>", 
@@ -3226,17 +3226,17 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
 
-            "Only available <within [5] tiles of a [City center]>",
+			"Only available <within [5] tiles of a [City center]>",
 
 			"Great Improvement", 
 			"[+10 Faith] <after discovering [TechUnlocker]>",
@@ -3274,12 +3274,12 @@
 			"Unbuildable <in [DNS Holy site] tiles>",
 			"Unbuildable <in [DNS Citadel] tiles>",
 
-		    "Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
- 		    "Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
+			"Adjacent enemy units ending their turn take [75] damage <after discovering [TechUnlocker]>",
+ 			"Gives a defensive bonus of [75]% <after discovering [TechUnlocker]>",
 
-            "Cannot be built on [resource] tiles",
-            "Cannot be built on [Bonus resource] tiles",
-            "Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [resource] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 
 			"Will not be replaced by automated units", 
@@ -3308,12 +3308,12 @@
 
 //			"[3] free [Brute] units appear<every [3] turns><in tiles adjacent to [Land] tiles>", 
 //			"[2] free [Galley] units appear<every [2] turns><in tiles adjacent to [Water] tiles>", 
-            
-		    "Unpillagable", 
-		    "Unbuildable", 
-		    "Excluded from map editor"],
+			
+			"Unpillagable", 
+			"Unbuildable", 
+			"Excluded from map editor"],
 		"requiredTech": "TechUnlocker",
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 
 
@@ -3325,9 +3325,9 @@
 		   	"Only available <after discovering [TechUnlocker]><hidden from users>",
 //		   	"Doesn't generate naturally", 
 
-//		    "Unbuildable",
-		    "Unpillagable", 
-		    "Provides a random bonus when entered", 
+//			"Unbuildable",
+			"Unpillagable", 
+			"Provides a random bonus when entered", 
 			"Does not need removal of [Forest]", 
 			"Does not need removal of [Jungle]"
 			]
@@ -3375,9 +3375,9 @@
 
 /*
 
-//            "Only available <within [4] tiles of a [City center]> <in [Your] cities><in [Your] tiles>",
-// 		    "Cannot be built on [Foreign] tiles",
-// 		    "Cannot be built on [Foreign Land] tiles",
+//			"Only available <within [4] tiles of a [City center]> <in [Your] cities><in [Your] tiles>",
+// 			"Cannot be built on [Foreign] tiles",
+// 			"Cannot be built on [Foreign Land] tiles",
 //			"Can only be built on [Friendly] tiles",
 //			"Can only be built on [Friendly Land] tiles",
 

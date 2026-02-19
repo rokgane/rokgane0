@@ -1,41 +1,41 @@
 /*
 
-                                                            Clozed
-                                                            Kosong 
-                                                            Cloned 
-                                                            Mirror               
-                                                            Slower
-               Tester   Mixed   techgk   techgk   Inhibit   Opened            Clozed
+															Clozed
+															Kosong 
+															Cloned 
+															Mirror			   
+															Slower
+			   Tester   Mixed   techgk   techgk   Inhibit   Opened			Clozed
 //UIera  1 Ancient
-               //zgv00 //zgv01  //zgv02  //zgv03  //zgv04  //zgv05           //zgv06
+			   //zgv00 //zgv01  //zgv02  //zgv03  //zgv04  //zgv05		   //zgv06
 //UIera  2 Classical
-                                //zgv07  //zgv08  //zgv09  //zgv10           //zgv11
+								//zgv07  //zgv08  //zgv09  //zgv10		   //zgv11
 //UIera  3 Medieval
-                                //zgv12  //zgv13  //zgv14  //zgv15           //zgv16
+								//zgv12  //zgv13  //zgv14  //zgv15		   //zgv16
 //UIera  4 Renaissance
-                                //zgv17  //zgv18  //zgv19  //zgv20           //zgv21
+								//zgv17  //zgv18  //zgv19  //zgv20		   //zgv21
 //UIera  5 Industrial
-                                //zgv22  //zgv23  //zgv24  //zgv25           //zgv26
+								//zgv22  //zgv23  //zgv24  //zgv25		   //zgv26
 //UIera  6 Modern
-                                //zgv27  //zgv28  //zgv29  //zgv30           //zgv31
+								//zgv27  //zgv28  //zgv29  //zgv30		   //zgv31
 //UIera  7 Atomic
-                                //zgv32  //zgv33  //zgv34  //zgv35           //zgv36
+								//zgv32  //zgv33  //zgv34  //zgv35		   //zgv36
 //UIera  8 Information
-                                //zgv37  //zgv38  //zgv39  //zgv40           //zgv41
+								//zgv37  //zgv38  //zgv39  //zgv40		   //zgv41
 //UIera  9 Future
-                                //zgv42           //zgv43  //zgv44           //zgv45
+								//zgv42		   //zgv43  //zgv44		   //zgv45
 
 
-Mixed   techgk   techgk   slower   slower      
-//xtc00 //xtc01  //xtc02  //xtc03  //xtc04      UnlockInhibitorEra  1 Ancient
-        //xtc05  //xtc06  //xtc07  //xtc08      UnlockInhibitorEra  2 Classical
-        //xtc09  //xtc10  //xtc11  //xtc12      UnlockInhibitorEra  3 Medieval
-        //xtc13  //xtc14  //xtc15  //xtc16      UnlockInhibitorEra  4 Renaissance
-        //xtc17  //xtc18  //xtc19  //xtc20      UnlockInhibitorEra  5 Industrial
-        //xtc21  //xtc22  //xtc23  //xtc24      UnlockInhibitorEra  6 Modern
-        //xtc25  //xtc26  //xtc27  //xtc28      UnlockInhibitorEra  7 Atomic
-        //xtc29  //xtc30  //xtc31  //xtc32      UnlockInhibitorEra  8 Information
-        //xtc33           //xtc34  //xtc35      UnlockInhibitorEra  9 Future
+Mixed   techgk   techgk   slower   slower	  
+//xtc00 //xtc01  //xtc02  //xtc03  //xtc04	  UnlockInhibitorEra  1 Ancient
+		//xtc05  //xtc06  //xtc07  //xtc08	  UnlockInhibitorEra  2 Classical
+		//xtc09  //xtc10  //xtc11  //xtc12	  UnlockInhibitorEra  3 Medieval
+		//xtc13  //xtc14  //xtc15  //xtc16	  UnlockInhibitorEra  4 Renaissance
+		//xtc17  //xtc18  //xtc19  //xtc20	  UnlockInhibitorEra  5 Industrial
+		//xtc21  //xtc22  //xtc23  //xtc24	  UnlockInhibitorEra  6 Modern
+		//xtc25  //xtc26  //xtc27  //xtc28	  UnlockInhibitorEra  7 Atomic
+		//xtc29  //xtc30  //xtc31  //xtc32	  UnlockInhibitorEra  8 Information
+		//xtc33		   //xtc34  //xtc35	  UnlockInhibitorEra  9 Future
 
 */
 
@@ -43,8 +43,8 @@ Mixed   techgk   techgk   slower   slower
 //xsa//more challenges
 
 //xsa//hated				"uniques": ["Enables establishment of embassies"],
-//xsa//hated			    "Enables Open Borders agreements",
-//xsa//hated			    "Enables Research agreements",
+//xsa//hated				"Enables Open Borders agreements",
+//xsa//hated				"Enables Research agreements",
 //xsa//hated				"uniques": ["Enables Defensive Pacts"],
 
 //XSA//Tech Start
@@ -130,7 +130,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 
 			{//xsa//more challenges for AI
-				"name": "Treats AI",
+				"name": "Treats Enema",
 				"row": 25,//15,
 				"quote": "Cheat tech",
 				"uniques": [
@@ -169,22 +169,22 @@ Mixed   techgk   techgk   slower   slower
 				"row": 29,//22,
 				"quote": "Cheat tech",
 				"prerequisites": [
-//XSA                    "FutureTech 10"
-                    ],
-                "uniques": [
+//XSA					"FutureTech 10"
+					],
+				"uniques": [
 					"Only available <before discovering [E1 Agriculture]>",
 					"[-99]% weight to this choice for AI decisions <hidden from users>",
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
 			{//xsa//reenable diplomacy for AI
-            	"name": "Enable Diplomacy",
-            	"row": 30,//23,
+				"name": "Enable Diplomacy",
+				"row": 30,//23,
 				"quote": "Cheat tech",
 				"uniques": [
-				    "Enables establishment of embassies",
-				    "Enables Open Borders agreements",
-				    "Enables Research agreements",
-				    "Enables Defensive Pacts"
+					"Enables establishment of embassies",
+					"Enables Open Borders agreements",
+					"Enables Research agreements",
+					"Enables Defensive Pacts",
 
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
@@ -193,7 +193,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-            },
+			},
 
 			{//TechParadrop
 				"name": "TechParadrop",
@@ -217,9 +217,9 @@ Mixed   techgk   techgk   slower   slower
 				"row": 33,//21,
 				"quote": "Cheat tech",
 				"uniques": [
-        			"Enables embarkation for land units",
-        	    	"Enables [All] units to enter ocean tiles",
-            		"[-99]% weight to this choice for AI decisions",
+					"Enables embarkation for land units",
+					"Enables [All] units to enter ocean tiles",
+					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>",
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
@@ -237,10 +237,10 @@ Mixed   techgk   techgk   slower   slower
 				"row": 16,//6,
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": [
-				    "[-99]% weight to this choice for AI decisions",
+					"[-99]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies",
-				    "Starting tech"
-				    ]
+					"Starting tech"
+					]
 			}
 		]
 	},
@@ -284,7 +284,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -353,7 +353,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -374,8 +374,8 @@ Mixed   techgk   techgk   slower   slower
 				"cost": 85,
 				"row": 11,//1,
 				"prerequisites": [
-				    "10 JesusEra E1 Ancient 01"
-				    ],
+					"10 JesusEra E1 Ancient 01"
+					],
 //				"prerequisites": ["E1 Sailing","1X TechClozedEraAncient"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
@@ -384,8 +384,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Horseback Riding",
 				"row": 15,//5,
 				"prerequisites": [
-				    "30 JesusEra E1 Ancient 03"
-				    ],
+					"30 JesusEra E1 Ancient 03"
+					],
 //				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
@@ -394,8 +394,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Mathematics",
 				"row": 17,//7,
 				"prerequisites": [
-				    "40 JesusEra E1 Ancient 04"
-				    ],
+					"40 JesusEra E1 Ancient 04"
+					],
 //				"prerequisites": ["E1 The Wheel","1X TechClozedEraAncient"],
 				"quote": "'E2 Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
@@ -403,8 +403,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Construction",
 				"row": 19,//9,
 				"prerequisites": [
-				    "50 JesusEra E1 Ancient 05"
-				    ],
+					"50 JesusEra E1 Ancient 05"
+					],
 //				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
@@ -414,7 +414,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -434,8 +434,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Philosophy",
 				"row": 12,//2,
 				"prerequisites": [
-				    "10 JesusEra E1 Ancient 01"
-				    ],
+					"10 JesusEra E1 Ancient 01"
+					],
 //				"prerequisites": ["E1 Writing","E1 Calendar","1X TechClozedEraAncient"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
@@ -443,8 +443,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Drama and Poetry",
 				"row": 13,//3,
 				"prerequisites": [
-				    "20 JesusEra E1 Ancient 02"
-				    ],
+					"20 JesusEra E1 Ancient 02"
+					],
 //				"prerequisites": ["E1 Writing","1X TechClozedEraAncient"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
@@ -452,8 +452,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Currency",
 				"row": 17,//7,
 				"prerequisites": [
-				    "E2 Mathematics"
-				    ],
+					"E2 Mathematics"
+					],
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
@@ -461,10 +461,10 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Engineering",
 				"row": 18,//8,
 				"prerequisites": [
-				    "E2 Mathematics",
-				    "E2 Construction",
-				    "40 JesusEra E1 Ancient 04"
-				    ],
+					"E2 Mathematics",
+					"E2 Construction",
+					"40 JesusEra E1 Ancient 04"
+					],
 				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
@@ -472,9 +472,9 @@ Mixed   techgk   techgk   slower   slower
 				"name": "E2 Iron Working",
 				"row": 20,//10,
 				"prerequisites": [
-//				    "E1 Bronze Working",
-				    "50 JesusEra E1 Ancient 05"
-				    ],
+//					"E1 Bronze Working",
+					"50 JesusEra E1 Ancient 05"
+					],
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			},
@@ -483,7 +483,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -512,8 +512,8 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["30 JesusEra E2 Classical 03"],
 //				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechClozedEraClassical"],
 				"uniques": [
-//xsa//hated				    "Enables Open Borders agreements",
-				    "[+100]% weight to this choice for AI decisions"],
+//xsa//hated					"Enables Open Borders agreements",
+					"[+100]% weight to this choice for AI decisions"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
@@ -537,7 +537,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -567,9 +567,9 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["20 JesusEra E2 Classical 02","E3 Theology","E3 Civil Service"],
 //				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechClozedEraClassical"],
 				"uniques": [
-				    "Enables conversion of city production to [Science]",
-//xsa//hated				    "Enables Research agreements",
-				    "[+100]% weight to this choice for AI decisions"],
+					"Enables conversion of city production to [Science]",
+//xsa//hated					"Enables Research agreements",
+					"[+100]% weight to this choice for AI decisions"],
 				"quote": "'E3 Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -608,7 +608,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -669,7 +669,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -723,7 +723,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -791,7 +791,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -840,7 +840,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -900,7 +900,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -943,29 +943,29 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
 			},
 
-		    {
-            	"name": "DNS Tech Landships",
-            	"row": 35,
-            	"prerequisites": [
-            	    "5X TechClozedEraIndustrial"
-            	    ],
-            	"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
-            },
-            {
-            	"name": "DNS Tech Airships",
-            	"row": 36,
-            	"prerequisites": [
-            	    "5X TechClozedEraIndustrial"
-            	    ],
-            	"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
-            },
+			{
+				"name": "DNS Tech Landships",
+				"row": 35,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial"
+					],
+				"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
+			},
+			{
+				"name": "DNS Tech Airships",
+				"row": 36,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial"
+					],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
 
 			{
 				"name": "Era6DummyGkTech02",
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1016,7 +1016,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1058,31 +1058,31 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			},
 
-            {
-            	"name": "DNS Tech Land Leviathan",
-            	"row": 35,
-            	"prerequisites": [
- //           	    "5X TechClozedEraIndustrial",
-            	    "DNS Tech Landships"
-            	    ],
-            	"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
-            },
-            {
-            	"name": "DNS Tech Sky Fortress",
-            	"row": 36,
-            	"prerequisites": [
-//            	    "5X TechClozedEraIndustrial",
-            	    "DNS Tech Airships"
-            	    ],
-            	"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
-            },
+			{
+				"name": "DNS Tech Land Leviathan",
+				"row": 35,
+				"prerequisites": [
+ //		   		"5X TechClozedEraIndustrial",
+					"DNS Tech Landships"
+					],
+				"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
+			},
+			{
+				"name": "DNS Tech Sky Fortress",
+				"row": 36,
+				"prerequisites": [
+//					"5X TechClozedEraIndustrial",
+					"DNS Tech Airships"
+					],
+				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
+			},
 
 			{
 				"name": "Era7DummyGkTech02",
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1147,7 +1147,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1201,7 +1201,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1220,8 +1220,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "KosongZeroBase",
 				"row": 40,//21,
 				"prerequisites": [
-				    "XX FuturaTech"
-				    ],
+					"XX FuturaTech"
+					],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -1230,14 +1230,14 @@ Mixed   techgk   techgk   slower   slower
 				]
 			},
 
-		    {
+			{
 				"name": "90 FutureTech",
 				"row": 24,
 				"prerequisites": [
 					"9X TechClozedEraFuture", //xsa//added
 					],
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
@@ -1249,7 +1249,7 @@ Mixed   techgk   techgk   slower   slower
 				"name": "9X FutureTech",
 				"row": 25,
 				"prerequisites": [
-				    "90 FutureTech"
+					"90 FutureTech"
 				],
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
@@ -1267,7 +1267,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <for [Human player] Civilizations> <hidden from users>"
-	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1281,7 +1281,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <for [Human player] Civilizations> <hidden from users>"
-//	            	"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
 //					"Free Great Person",//xsa//added
 //					"Can be continually researched"
 				],
@@ -1295,11 +1295,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "9X TechClozedEraFuture",
 				"row": 23,
 				"prerequisites": [
-				    "90 TechClozedEraFuture"
+					"90 TechClozedEraFuture"
 				],
 				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1309,7 +1309,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1335,7 +1335,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1346,7 +1346,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1357,7 +1357,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1368,7 +1368,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1379,7 +1379,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1387,11 +1387,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "1X TechClozedEraAncient",
 				"row": 23,
 				"prerequisites": [
-				    "10 TechClozedEraAncient"
+					"10 TechClozedEraAncient"
 				],
 				"quote": "1X Ancient Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1401,7 +1401,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1426,7 +1426,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1437,7 +1437,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1448,7 +1448,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1459,7 +1459,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1470,7 +1470,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1478,11 +1478,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "2X TechClozedEraClassical",
 				"row": 23,
 				"prerequisites": [
-				    "20 TechClozedEraClassical"
+					"20 TechClozedEraClassical"
 				],
 				"quote": "2X Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1492,7 +1492,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1517,7 +1517,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1528,7 +1528,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1539,7 +1539,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1550,7 +1550,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1561,7 +1561,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1569,11 +1569,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "3X TechClozedEraMedieval",
 				"row": 23,
 				"prerequisites": [
-				    "30 TechClozedEraMedieval"
+					"30 TechClozedEraMedieval"
 				],
 				"quote": "3X Medieval Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1583,7 +1583,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1608,7 +1608,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1619,7 +1619,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1630,7 +1630,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1641,7 +1641,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1652,7 +1652,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1660,11 +1660,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "4X TechClozedEraRenaissance",
 				"row": 23,
 				"prerequisites": [
-				    "40 TechClozedEraRenaissance"
+					"40 TechClozedEraRenaissance"
 				],
 				"quote": "4X Renaissance Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1674,7 +1674,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1699,7 +1699,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1710,7 +1710,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1721,7 +1721,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1732,7 +1732,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1743,7 +1743,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1752,11 +1752,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "5X TechClozedEraIndustrial",
 				"row": 23,
 				"prerequisites": [
-				    "50 TechClozedEraIndustrial"
+					"50 TechClozedEraIndustrial"
 				],
 				"quote": "5X Industrial Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1766,7 +1766,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1791,7 +1791,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1802,7 +1802,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1813,7 +1813,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1824,7 +1824,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1835,7 +1835,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1843,11 +1843,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "6X TechClozedEraModern",
 				"row": 23,
 				"prerequisites": [
-				    "60 TechClozedEraModern"
+					"60 TechClozedEraModern"
 				],
 				"quote": "6X Modern Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1857,7 +1857,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1882,7 +1882,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1893,7 +1893,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1904,7 +1904,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1915,7 +1915,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1926,7 +1926,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -1934,11 +1934,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "7X TechClozedEraAtomic",
 				"row": 23,
 				"prerequisites": [
-				    "70 TechClozedEraAtomic"
+					"70 TechClozedEraAtomic"
 				],
 				"quote": "7X Atomic Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -1948,7 +1948,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -1973,7 +1973,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1984,7 +1984,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -1995,7 +1995,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -2006,7 +2006,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -2017,7 +2017,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -2025,11 +2025,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "8X TechClozedEraInformation",
 				"row": 23,
 				"prerequisites": [
-				    "80 TechClozedEraInformation"
+					"80 TechClozedEraInformation"
 				],
 				"quote": "8X Information Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2039,7 +2039,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2059,11 +2059,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechOpenedEraFuture",
 				"row": 24,
 				"prerequisites": [
-				    "90 InhibitorEra Future"
+					"90 InhibitorEra Future"
 				],
 				"quote": "90 Future Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2072,11 +2072,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechSlowerEraFuture",
 				"row": 25,
 				"prerequisites": [
-				    "90 TechOpenedEraFuture"
+					"90 TechOpenedEraFuture"
 				],
 				"quote": "90 Future Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2085,11 +2085,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechMirrorEraFuture",
 				"row": 26,
 				"prerequisites": [
-				    "90 TechSlowerEraFuture"
+					"90 TechSlowerEraFuture"
 				],
 				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2098,11 +2098,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechClonedEraFuture",
 				"row": 27,
 				"prerequisites": [
-				    "90 TechMirrorEraFuture"
+					"90 TechMirrorEraFuture"
 				],
 				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2111,11 +2111,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechKosongEraFuture",
 				"row": 28,
 				"prerequisites": [
-				    "90 TechClonedEraFuture"
+					"90 TechClonedEraFuture"
 				],
 				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2124,11 +2124,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 TechClozedEraFuture",
 				"row": 29,
 				"prerequisites": [
-				    "90 TechKosongEraFuture"
+					"90 TechKosongEraFuture"
 				],
 				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2139,7 +2139,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "9X Future Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2150,7 +2150,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "9X Future Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2161,7 +2161,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2191,11 +2191,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechOpenedEraAncient",
 				"row": 24,
 				"prerequisites": [
-				    "10 InhibitorEra Ancient"
+					"10 InhibitorEra Ancient"
 				],
 				"quote": "10 Ancient Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2204,11 +2204,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechSlowerEraAncient",
 				"row": 25,
 				"prerequisites": [
-				    "10 TechOpenedEraAncient"
+					"10 TechOpenedEraAncient"
 				],
 				"quote": "10 Ancient Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2217,11 +2217,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechMirrorEraAncient",
 				"row": 26,
 				"prerequisites": [
-				    "10 TechSlowerEraAncient"
+					"10 TechSlowerEraAncient"
 				],
 				"quote": "10 Ancient Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2230,11 +2230,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechClonedEraAncient",
 				"row": 27,
 				"prerequisites": [
-				    "10 TechMirrorEraAncient"
+					"10 TechMirrorEraAncient"
 				],
 				"quote": "10 Ancient Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2243,11 +2243,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechKosongEraAncient",
 				"row": 28,
 				"prerequisites": [
-				    "10 TechClonedEraAncient"
+					"10 TechClonedEraAncient"
 				],
 				"quote": "10 Ancient Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2256,11 +2256,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 TechClozedEraAncient",
 				"row": 29,
 				"prerequisites": [
-				    "10 TechKosongEraAncient"
+					"10 TechKosongEraAncient"
 				],
 				"quote": "10 Ancient Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2270,7 +2270,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2281,7 +2281,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2292,7 +2292,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2313,11 +2313,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechOpenedEraClassical",
 				"row": 24,
 				"prerequisites": [
-				    "20 InhibitorEra Classical"
+					"20 InhibitorEra Classical"
 				],
 				"quote": "20 Classical Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2326,11 +2326,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechSlowerEraClassical",
 				"row": 25,
 				"prerequisites": [
-				    "20 TechOpenedEraClassical"
+					"20 TechOpenedEraClassical"
 				],
 				"quote": "20 Classical Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2339,11 +2339,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechMirrorEraClassical",
 				"row": 26,
 				"prerequisites": [
-				    "20 TechSlowerEraClassical"
+					"20 TechSlowerEraClassical"
 				],
 				"quote": "20 Classical Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2352,11 +2352,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechClonedEraClassical",
 				"row": 27,
 				"prerequisites": [
-				    "20 TechMirrorEraClassical"
+					"20 TechMirrorEraClassical"
 				],
 				"quote": "20 Classical Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2365,11 +2365,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechKosongEraClassical",
 				"row": 28,
 				"prerequisites": [
-				    "20 TechClonedEraClassical"
+					"20 TechClonedEraClassical"
 				],
 				"quote": "20 Classical Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2378,11 +2378,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 TechClozedEraClassical",
 				"row": 29,
 				"prerequisites": [
-				    "20 TechKosongEraClassical"
+					"20 TechKosongEraClassical"
 				],
 				"quote": "20 Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2393,7 +2393,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "2X Classical Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2404,7 +2404,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "2X Classical Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2415,7 +2415,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2435,11 +2435,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechOpenedEraMedieval",
 				"row": 24,
 				"prerequisites": [
-				    "30 InhibitorEra Medieval"
+					"30 InhibitorEra Medieval"
 				],
 				"quote": "30 Medieval Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2448,11 +2448,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechSlowerEraMedieval",
 				"row": 25,
 				"prerequisites": [
-				    "30 TechOpenedEraMedieval"
+					"30 TechOpenedEraMedieval"
 				],
 				"quote": "30 Medieval Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2461,11 +2461,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechMirrorEraMedieval",
 				"row": 26,
 				"prerequisites": [
-				    "30 TechSlowerEraMedieval"
+					"30 TechSlowerEraMedieval"
 				],
 				"quote": "30 Medieval Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2474,11 +2474,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechClonedEraMedieval",
 				"row": 27,
 				"prerequisites": [
-				    "30 TechMirrorEraMedieval"
+					"30 TechMirrorEraMedieval"
 				],
 				"quote": "30 Medieval Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2487,11 +2487,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechKosongEraMedieval",
 				"row": 28,
 				"prerequisites": [
-				    "30 TechClonedEraMedieval"
+					"30 TechClonedEraMedieval"
 				],
 				"quote": "30 Medieval Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2500,11 +2500,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 TechClozedEraMedieval",
 				"row": 29,
 				"prerequisites": [
-				    "30 TechKosongEraMedieval"
+					"30 TechKosongEraMedieval"
 				],
 				"quote": "30 Medieval Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2515,7 +2515,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "3X Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2526,7 +2526,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "3X Medieval Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2537,7 +2537,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2557,11 +2557,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechOpenedEraRenaissance",
 				"row": 24,
 				"prerequisites": [
-				    "40 InhibitorEra Renaissance"
+					"40 InhibitorEra Renaissance"
 				],
 				"quote": "40 Renaissance Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2570,11 +2570,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechSlowerEraRenaissance",
 				"row": 25,
 				"prerequisites": [
-				    "40 TechOpenedEraRenaissance"
+					"40 TechOpenedEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2583,11 +2583,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechMirrorEraRenaissance",
 				"row": 26,
 				"prerequisites": [
-				    "40 TechSlowerEraRenaissance"
+					"40 TechSlowerEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2596,11 +2596,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechClonedEraRenaissance",
 				"row": 27,
 				"prerequisites": [
-				    "40 TechMirrorEraRenaissance"
+					"40 TechMirrorEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2609,11 +2609,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechKosongEraRenaissance",
 				"row": 28,
 				"prerequisites": [
-				    "40 TechClonedEraRenaissance"
+					"40 TechClonedEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2622,11 +2622,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 TechClozedEraRenaissance",
 				"row": 29,
 				"prerequisites": [
-				    "40 TechKosongEraRenaissance"
+					"40 TechKosongEraRenaissance"
 				],
 				"quote": "40 Renaissance Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2637,7 +2637,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2648,7 +2648,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2659,7 +2659,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2679,11 +2679,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechOpenedEraIndustrial",
 				"row": 24,
 				"prerequisites": [
-				    "50 InhibitorEra Industrial"
+					"50 InhibitorEra Industrial"
 				],
 				"quote": "50 Industrial Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2692,11 +2692,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechSlowerEraIndustrial",
 				"row": 25,
 				"prerequisites": [
-				    "50 TechOpenedEraIndustrial"
+					"50 TechOpenedEraIndustrial"
 				],
 				"quote": "50 Industrial Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2705,11 +2705,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechMirrorEraIndustrial",
 				"row": 26,
 				"prerequisites": [
-				    "50 TechSlowerEraIndustrial"
+					"50 TechSlowerEraIndustrial"
 				],
 				"quote": "50 Industrial Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2718,11 +2718,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechClonedEraIndustrial",
 				"row": 27,
 				"prerequisites": [
-				    "50 TechMirrorEraIndustrial"
+					"50 TechMirrorEraIndustrial"
 				],
 				"quote": "50 Industrial Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2731,11 +2731,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechKosongEraIndustrial",
 				"row": 28,
 				"prerequisites": [
-				    "50 TechClonedEraIndustrial"
+					"50 TechClonedEraIndustrial"
 				],
 				"quote": "50 Industrial Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2744,11 +2744,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 TechClozedEraIndustrial",
 				"row": 29,
 				"prerequisites": [
-				    "50 TechKosongEraIndustrial"
+					"50 TechKosongEraIndustrial"
 				],
 				"quote": "50 Industrial Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2759,7 +2759,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "5X Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2770,7 +2770,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "5X Industrial Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2781,7 +2781,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2801,11 +2801,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechOpenedEraModern",
 				"row": 24,
 				"prerequisites": [
-				    "60 InhibitorEra Modern"
+					"60 InhibitorEra Modern"
 				],
 				"quote": "60 Modern Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2814,11 +2814,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechSlowerEraModern",
 				"row": 25,
 				"prerequisites": [
-				    "60 TechOpenedEraModern"
+					"60 TechOpenedEraModern"
 				],
 				"quote": "60 Modern Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2827,11 +2827,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechMirrorEraModern",
 				"row": 26,
 				"prerequisites": [
-				    "60 TechSlowerEraModern"
+					"60 TechSlowerEraModern"
 				],
 				"quote": "60 Modern Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2840,11 +2840,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechClonedEraModern",
 				"row": 27,
 				"prerequisites": [
-				    "60 TechMirrorEraModern"
+					"60 TechMirrorEraModern"
 				],
 				"quote": "60 Modern Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2853,11 +2853,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechKosongEraModern",
 				"row": 28,
 				"prerequisites": [
-				    "60 TechClonedEraModern"
+					"60 TechClonedEraModern"
 				],
 				"quote": "60 Modern Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2866,11 +2866,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "60 TechClozedEraModern",
 				"row": 29,
 				"prerequisites": [
-				    "60 TechKosongEraModern"
+					"60 TechKosongEraModern"
 				],
 				"quote": "60 Modern Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2881,7 +2881,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "6X Modern Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2892,7 +2892,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "6X Modern Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2903,7 +2903,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -2923,11 +2923,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechOpenedEraAtomic",
 				"row": 24,
 				"prerequisites": [
-				    "70 InhibitorEra Atomic"
+					"70 InhibitorEra Atomic"
 				],
 				"quote": "70 Atomic Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2936,11 +2936,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechSlowerEraAtomic",
 				"row": 25,
 				"prerequisites": [
-				    "70 TechOpenedEraAtomic"
+					"70 TechOpenedEraAtomic"
 				],
 				"quote": "70 Atomic Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2949,11 +2949,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechMirrorEraAtomic",
 				"row": 26,
 				"prerequisites": [
-				    "70 TechSlowerEraAtomic"
+					"70 TechSlowerEraAtomic"
 				],
 				"quote": "70 Atomic Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2962,11 +2962,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechClonedEraAtomic",
 				"row": 27,
 				"prerequisites": [
-				    "70 TechMirrorEraAtomic"
+					"70 TechMirrorEraAtomic"
 				],
 				"quote": "70 Atomic Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2975,11 +2975,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechKosongEraAtomic",
 				"row": 28,
 				"prerequisites": [
-				    "70 TechClonedEraAtomic"
+					"70 TechClonedEraAtomic"
 				],
 				"quote": "70 Atomic Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -2988,11 +2988,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "70 TechClozedEraAtomic",
 				"row": 29,
 				"prerequisites": [
-				    "70 TechKosongEraAtomic"
+					"70 TechKosongEraAtomic"
 				],
 				"quote": "70 Atomic Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-                    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3003,7 +3003,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "7X Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3014,7 +3014,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "7X Atomic Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3025,7 +3025,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3045,11 +3045,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechOpenedEraInformation",
 				"row": 24,
 				"prerequisites": [
-				    "80 InhibitorEra Information"
+					"80 InhibitorEra Information"
 				],
 				"quote": "80 Information Tech Opened, Opened tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3058,11 +3058,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechSlowerEraInformation",
 				"row": 25,
 				"prerequisites": [
-				    "80 TechOpenedEraInformation"
+					"80 TechOpenedEraInformation"
 				],
 				"quote": "80 Information Tech Slower, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3071,11 +3071,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechMirrorEraInformation",
 				"row": 26,
 				"prerequisites": [
-				    "80 TechSlowerEraInformation"
+					"80 TechSlowerEraInformation"
 				],
 				"quote": "80 Information Tech Mirror, Mirror tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3084,11 +3084,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechClonedEraInformation",
 				"row": 27,
 				"prerequisites": [
-				    "80 TechMirrorEraInformation"
+					"80 TechMirrorEraInformation"
 				],
 				"quote": "80 Information Tech Cloned, Cloned tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3097,11 +3097,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechKosongEraInformation",
 				"row": 28,
 				"prerequisites": [
-				    "80 TechClonedEraInformation"
+					"80 TechClonedEraInformation"
 				],
 				"quote": "80 Information Tech Kosong, Kosong tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3110,11 +3110,11 @@ Mixed   techgk   techgk   slower   slower
 				"name": "80 TechClozedEraInformation",
 				"row": 29,
 				"prerequisites": [
-				    "80 TechKosongEraInformation"
+					"80 TechKosongEraInformation"
 				],
 				"quote": "80 Information Tech Clozed, Clozed tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
@@ -3125,7 +3125,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 				"quote": "8X Information Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3136,7 +3136,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 38,
 				"quote": "8X Information Tech Slower, slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3147,7 +3147,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3172,11 +3172,11 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era9
-        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+					"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
 
-//zgv43                    "Discover [80 TechClozedEraInformation]"
+//zgv43					"Discover [80 TechClozedEraInformation]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3186,7 +3186,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3229,7 +3229,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3256,7 +3256,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3268,7 +3268,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3280,7 +3280,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3292,7 +3292,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3305,7 +3305,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3331,22 +3331,22 @@ Mixed   techgk   techgk   slower   slower
 ],
 				"quote": "50 Ancient Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era1
-        			"Discover [E1 Pottery]<before discovering [E1 Pottery]>",
-        			"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]>",
-        			"Discover [E1 Archery]<before discovering [E1 Archery]>",
-        			"Discover [E1 Mining]<before discovering [E1 Mining]>",
-        
-        			"Discover [E1 Sailing]<before discovering [E1 Sailing]>",
-        			"Discover [E1 Calendar]<before discovering [E1 Calendar]>",
-        			"Discover [E1 Writing]<before discovering [E1 Writing]>",
-        			"Discover [E1 Trapping]<before discovering [E1 Trapping]>",
-        			"Discover [E1 The Wheel]<before discovering [E1 The Wheel]>",
-        			"Discover [E1 Masonry]<before discovering [E1 Masonry]>",
-        			"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]>",
+					"Discover [E1 Pottery]<before discovering [E1 Pottery]>",
+					"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]>",
+					"Discover [E1 Archery]<before discovering [E1 Archery]>",
+					"Discover [E1 Mining]<before discovering [E1 Mining]>",
+		
+					"Discover [E1 Sailing]<before discovering [E1 Sailing]>",
+					"Discover [E1 Calendar]<before discovering [E1 Calendar]>",
+					"Discover [E1 Writing]<before discovering [E1 Writing]>",
+					"Discover [E1 Trapping]<before discovering [E1 Trapping]>",
+					"Discover [E1 The Wheel]<before discovering [E1 The Wheel]>",
+					"Discover [E1 Masonry]<before discovering [E1 Masonry]>",
+					"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]>",
 
-//zgv04                    "Discover [10 TechClozedEraAncient]"
+//zgv04					"Discover [10 TechClozedEraAncient]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3355,7 +3355,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3379,7 +3379,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3391,7 +3391,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3403,7 +3403,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3416,7 +3416,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3429,7 +3429,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3455,20 +3455,20 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era2
-        			"Discover [E2 Optics]<before discovering [E2 Optics]>",
-        			"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]>",
-        			"Discover [E2 Mathematics]<before discovering [E2 Mathematics]>",
-        			"Discover [E2 Construction]<before discovering [E2 Construction]>",
-        
-        			"Discover [E2 Philosophy]<before discovering [E2 Philosophy]>",
-        			"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]>",
-        			"Discover [E2 Currency]<before discovering [E2 Currency]>",
-        			"Discover [E2 Engineering]<before discovering [E2 Engineering]>",
-        			"Discover [E2 Iron Working]<before discovering [E2 Iron Working]>",
+					"Discover [E2 Optics]<before discovering [E2 Optics]>",
+					"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]>",
+					"Discover [E2 Mathematics]<before discovering [E2 Mathematics]>",
+					"Discover [E2 Construction]<before discovering [E2 Construction]>",
+		
+					"Discover [E2 Philosophy]<before discovering [E2 Philosophy]>",
+					"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]>",
+					"Discover [E2 Currency]<before discovering [E2 Currency]>",
+					"Discover [E2 Engineering]<before discovering [E2 Engineering]>",
+					"Discover [E2 Iron Working]<before discovering [E2 Iron Working]>",
 
-//zgv09                    "Discover [20 TechClozedEraClassical]"
+//zgv09					"Discover [20 TechClozedEraClassical]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3478,7 +3478,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3503,7 +3503,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3515,7 +3515,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3527,7 +3527,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3539,7 +3539,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3552,7 +3552,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3578,21 +3578,21 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era3
-        			"Discover [E3 Theology]<before discovering [E3 Theology]>",
-        			"Discover [E3 Civil Service]<before discovering [E3 Civil Service]>",
-        			"Discover [E3 Guilds]<before discovering [E3 Guilds]>",
-        			"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]>",
-        			
-        			"Discover [E3 Compass]<before discovering [E3 Compass]>",
-        			"Discover [E3 Education]<before discovering [E3 Education]>",
-        			"Discover [E3 Chivalry]<before discovering [E3 Chivalry]>",
-        			"Discover [E3 Machinery]<before discovering [E3 Machinery]>",
-        			"Discover [E3 Physics]<before discovering [E3 Physics]>",
-        			"Discover [E3 Steel]<before discovering [E3 Steel]>",
+					"Discover [E3 Theology]<before discovering [E3 Theology]>",
+					"Discover [E3 Civil Service]<before discovering [E3 Civil Service]>",
+					"Discover [E3 Guilds]<before discovering [E3 Guilds]>",
+					"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]>",
 					
-//zgv14                    "Discover [30 TechClozedEraMedieval]"
+					"Discover [E3 Compass]<before discovering [E3 Compass]>",
+					"Discover [E3 Education]<before discovering [E3 Education]>",
+					"Discover [E3 Chivalry]<before discovering [E3 Chivalry]>",
+					"Discover [E3 Machinery]<before discovering [E3 Machinery]>",
+					"Discover [E3 Physics]<before discovering [E3 Physics]>",
+					"Discover [E3 Steel]<before discovering [E3 Steel]>",
+					
+//zgv14					"Discover [30 TechClozedEraMedieval]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3602,7 +3602,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3626,7 +3626,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3638,7 +3638,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3650,7 +3650,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3662,7 +3662,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3675,7 +3675,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3701,21 +3701,21 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era4
-        			"Discover [E4 Astronomy]<before discovering [E4 Astronomy]>",
-        			"Discover [E4 Acoustics]<before discovering [E4 Acoustics]>",
-        			"Discover [E4 Banking]<before discovering [E4 Banking]>",
-        			"Discover [E4 Printing Press]<before discovering [E4 Printing Press]>",
-        			"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]>",
-        
-        			"Discover [E4 Navigation]<before discovering [E4 Navigation]>",
-        			"Discover [E4 Architecture]<before discovering [E4 Architecture]>",
-        			"Discover [E4 Economics]<before discovering [E4 Economics]>",
-        			"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]>",
-        			"Discover [E4 Chemistry]<before discovering [E4 Chemistry]>",
+					"Discover [E4 Astronomy]<before discovering [E4 Astronomy]>",
+					"Discover [E4 Acoustics]<before discovering [E4 Acoustics]>",
+					"Discover [E4 Banking]<before discovering [E4 Banking]>",
+					"Discover [E4 Printing Press]<before discovering [E4 Printing Press]>",
+					"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]>",
+		
+					"Discover [E4 Navigation]<before discovering [E4 Navigation]>",
+					"Discover [E4 Architecture]<before discovering [E4 Architecture]>",
+					"Discover [E4 Economics]<before discovering [E4 Economics]>",
+					"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]>",
+					"Discover [E4 Chemistry]<before discovering [E4 Chemistry]>",
 
-//zgv19                    "Discover [40 TechClozedEraRenaissance]"
+//zgv19					"Discover [40 TechClozedEraRenaissance]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3725,7 +3725,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3749,7 +3749,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3761,7 +3761,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3773,7 +3773,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3784,7 +3784,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3796,7 +3796,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3823,24 +3823,24 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 
-//        			"Discover [DNS Tech Landships]<before discovering [DNS Tech Landships]>",
-//        			"Discover [DNS Tech Airships]<before discovering [DNS Tech Airships]>",
+//					"Discover [DNS Tech Landships]<before discovering [DNS Tech Landships]>",
+//					"Discover [DNS Tech Airships]<before discovering [DNS Tech Airships]>",
 //era5
-        			"Discover [E5 Archaeology]<before discovering [E5 Archaeology]>",
-        			"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]>",
-        			"Discover [E5 Industrialization]<before discovering [E5 Industrialization]>",
-        			"Discover [E5 Rifling]<before discovering [E5 Rifling]>",
-        			"Discover [E5 Military Science]<before discovering [E5 Military Science]>",
-        			"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]>",
-        
-        			"Discover [E5 Biology]<before discovering [E5 Biology]>",
-        			"Discover [E5 Electricity]<before discovering [E5 Electricity]>",
-        			"Discover [E5 Steam Power]<before discovering [E5 Steam Power]>",
-        			"Discover [E5 Dynamite]<before discovering [E5 Dynamite]>",
+					"Discover [E5 Archaeology]<before discovering [E5 Archaeology]>",
+					"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]>",
+					"Discover [E5 Industrialization]<before discovering [E5 Industrialization]>",
+					"Discover [E5 Rifling]<before discovering [E5 Rifling]>",
+					"Discover [E5 Military Science]<before discovering [E5 Military Science]>",
+					"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]>",
+		
+					"Discover [E5 Biology]<before discovering [E5 Biology]>",
+					"Discover [E5 Electricity]<before discovering [E5 Electricity]>",
+					"Discover [E5 Steam Power]<before discovering [E5 Steam Power]>",
+					"Discover [E5 Dynamite]<before discovering [E5 Dynamite]>",
 
-//zgv24                    "Discover [50 TechClozedEraIndustrial]"
+//zgv24					"Discover [50 TechClozedEraIndustrial]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3850,7 +3850,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -3874,7 +3874,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3886,7 +3886,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3899,7 +3899,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3911,7 +3911,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -3922,7 +3922,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -3944,29 +3944,29 @@ Mixed   techgk   techgk   slower   slower
 					"E6 Combustion",
 */
 //					"50 InhibitorEra Industrial"
-//                    "DNS Tech Land Leviathan",
-//                    "DNS Tech Sky Fortress"
+//					"DNS Tech Land Leviathan",
+//					"DNS Tech Sky Fortress"
 				],
 				"quote": "60 Modern Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 
-//        			"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
-//        			"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
+//					"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
+//					"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
 //era6
-        			"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]>",
-        			"Discover [E6 Radio]<before discovering [E6 Radio]>",
-        			"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]>",
-        			"Discover [E6 Flight]<before discovering [E6 Flight]>",
-        			"Discover [E6 Railroads]<before discovering [E6 Railroads]>",
-        			
-        			"Discover [E6 Plastics]<before discovering [E6 Plastics]>",
-        			"Discover [E6 Electronics]<before discovering [E6 Electronics]>",
-        			"Discover [E6 Ballistics]<before discovering [E6 Ballistics]>",
-        			"Discover [E6 Combustion]<before discovering [E6 Combustion]>",
+					"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]>",
+					"Discover [E6 Radio]<before discovering [E6 Radio]>",
+					"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]>",
+					"Discover [E6 Flight]<before discovering [E6 Flight]>",
+					"Discover [E6 Railroads]<before discovering [E6 Railroads]>",
+					
+					"Discover [E6 Plastics]<before discovering [E6 Plastics]>",
+					"Discover [E6 Electronics]<before discovering [E6 Electronics]>",
+					"Discover [E6 Ballistics]<before discovering [E6 Ballistics]>",
+					"Discover [E6 Combustion]<before discovering [E6 Combustion]>",
 
 
-//zgv29                    "Discover [60 TechClozedEraModern]"
+//zgv29					"Discover [60 TechClozedEraModern]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -3976,7 +3976,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -4001,7 +4001,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4013,7 +4013,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4025,7 +4025,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4037,7 +4037,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4048,7 +4048,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -4057,8 +4057,8 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 
-                    "DNS Tech Land Leviathan",
-                    "DNS Tech Sky Fortress",
+					"DNS Tech Land Leviathan",
+					"DNS Tech Sky Fortress",
 					"50 IsraelEra E7 Atomic 05",
 /*
 					"E7 Pharmaceuticals",
@@ -4075,20 +4075,20 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "70 Atomic Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-                    "Cannot be hurried",
+					"Cannot be hurried",
 //era7
 
-        			"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]>",
-        			"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]>",
-        			"Discover [E7 Radar]<before discovering [E7 Radar]>",
-        			"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]>",
-        
-        			"Discover [E7 Ecology]<before discovering [E7 Ecology]>",
-        			"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]>",
-        			"Discover [E7 Rocketry]<before discovering [E7 Rocketry]>",
-        			"Discover [E7 Computers]<before discovering [E7 Computers]>",
+					"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]>",
+					"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]>",
+					"Discover [E7 Radar]<before discovering [E7 Radar]>",
+					"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]>",
+		
+					"Discover [E7 Ecology]<before discovering [E7 Ecology]>",
+					"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]>",
+					"Discover [E7 Rocketry]<before discovering [E7 Rocketry]>",
+					"Discover [E7 Computers]<before discovering [E7 Computers]>",
 
-//zgv34                    "Discover [70 TechClozedEraAtomic]"
+//zgv34					"Discover [70 TechClozedEraAtomic]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -4098,7 +4098,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -4122,7 +4122,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "10 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4134,7 +4134,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "20 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4146,7 +4146,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "30 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4159,7 +4159,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "40 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -4170,7 +4170,7 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "50 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried"
+					"Cannot be hurried"
 					]
 			},
 
@@ -4197,22 +4197,22 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "80 Information Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 //era8
-                    "Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]>",
-        			"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]>",
-        			"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]>",
-        			"Discover [E8 Satellites]<before discovering [E8 Satellites]>",
-        			"Discover [E8 Robotics]<before discovering [E8 Robotics]>",
-        			"Discover [E8 Lasers]<before discovering [E8 Lasers]>",
-        
-        			"Discover [E8 Globalization]<before discovering [E8 Globalization]>",
-        			"Discover [E8 Particle Physics]<before discovering [E8 Particle Physics]>",
-        			"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]>",
-        			"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]>",
-        			"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+					"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]>",
+					"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]>",
+					"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]>",
+					"Discover [E8 Satellites]<before discovering [E8 Satellites]>",
+					"Discover [E8 Robotics]<before discovering [E8 Robotics]>",
+					"Discover [E8 Lasers]<before discovering [E8 Lasers]>",
+		
+					"Discover [E8 Globalization]<before discovering [E8 Globalization]>",
+					"Discover [E8 Particle Physics]<before discovering [E8 Particle Physics]>",
+					"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]>",
+					"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]>",
+					"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
 
-//zgv39                    "Discover [80 TechClozedEraInformation]"
+//zgv39					"Discover [80 TechClozedEraInformation]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -4222,7 +4222,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
 				"uniques": [
-				    "Cannot be hurried",
+					"Cannot be hurried",
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
@@ -4246,13 +4246,13 @@ Mixed   techgk   techgk   slower   slower
 				"row": 37,
 
 				"uniques": [
-                    "Cannot be hurried",
+					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
 */
-        ]
+		]
 	}
 
 
@@ -4266,16 +4266,36 @@ Mixed   techgk   techgk   slower   slower
 
 
 
+//Lista Tech
 
 /*
 
 
-
+//Era0
+KosongZero0000
+KosongZeroNull
+TechHumanDebuff
+TechEnemaDebuff
+TechHumanSwitchGk
+TechEnemaSwitchGk
+Treats Enema
+Treats Human
+TechHumanCheat
+TechEnemaCheat
+xsaCrippleReligion
+Enable Diplomacy
+TechParadrop
+TechBorderEater
+TechUnlocker
+TechOpenBorder
 E1 Agriculture
+
+//Era1
 E1 Pottery
 E1 Animal Husbandry
 E1 Archery
 E1 Mining
+
 E1 Sailing
 E1 Calendar
 E1 Writing
@@ -4284,20 +4304,24 @@ E1 The Wheel
 E1 Masonry
 E1 Bronze Working
 
+//Era2
 E2 Optics
 E2 Horseback Riding
 E2 Mathematics
 E2 Construction
+
 E2 Philosophy
 E2 Drama and Poetry
 E2 Currency
 E2 Engineering
 E2 Iron Working
 
+//Era3
 E3 Theology
 E3 Civil Service
 E3 Guilds
 E3 Metal Casting
+
 E3 Compass
 E3 Education
 E3 Chivalry
@@ -4305,59 +4329,267 @@ E3 Machinery
 E3 Physics
 E3 Steel
 
+//Era4
 E4 Astronomy
 E4 Acoustics
 E4 Banking
 E4 Printing Press
 E4 Gunpowder
+
 E4 Navigation
 E4 Architecture
 E4 Economics
 E4 Metallurgy
 E4 Chemistry
 
+//Era5
 E5 Archaeology
 E5 Scientific Theory
 E5 Industrialization
 E5 Rifling
 E5 Military Science
 E5 Fertilizer
+
 E5 Biology
 E5 Electricity
 E5 Steam Power
 E5 Dynamite
 
+//Era6
 E6 Refrigeration
 E6 Radio
 E6 Replaceable Parts
 E6 Flight
 E6 Railroads
+
 E6 Plastics
 E6 Electronics
 E6 Ballistics
 E6 Combustion
 
+//Era7
 E7 Pharmaceuticals
 E7 Atomic Theory
 E7 Radar
 E7 Combined Arms
+
 E7 Ecology
 E7 Nuclear Fission
 E7 Rocketry
 E7 Computers
 
+//Era8
 E8 Telecommunications
 E8 Mobile Tactics
 E8 Advanced Ballistics
 E8 Satellites
 E8 Robotics
 E8 Lasers
+
 E8 Globalization
 E8 Particle Physics
 E8 Nuclear Fusion
 E8 Nanotechnology
 E8 Stealth
-E9 Future Tech
+
+//Era9
+E9 Future Tech 
+
+
+
+//Era1 slower
+10 IsraelEra E1 Ancient 01
+20 IsraelEra E1 Ancient 02
+30 IsraelEra E1 Ancient 03
+40 IsraelEra E1 Ancient 04
+50 IsraelEra E1 Ancient 05
+10 JesusEra E1 Ancient 01
+20 JesusEra E1 Ancient 02
+30 JesusEra E1 Ancient 03
+40 JesusEra E1 Ancient 04
+50 JesusEra E1 Ancient 05
+
+1X TechClozedEraAncient
+10 InhibitorEra Ancient
+
+10 TechClozedEraAncient
+10 TechKosongEraAncient
+10 TechClonedEraAncient
+10 TechMirrorEraAncient
+10 TechSlowerEraAncient
+10 TechOpenedEraAncient
+
+//Era2 slower
+10 IsraelEra E2 Classical 01
+20 IsraelEra E2 Classical 02
+30 IsraelEra E2 Classical 03
+40 IsraelEra E2 Classical 04
+50 IsraelEra E2 Classical 05
+10 JesusEra E2 Classical 01
+20 JesusEra E2 Classical 02
+30 JesusEra E2 Classical 03
+40 JesusEra E2 Classical 04
+50 JesusEra E2 Classical 05
+
+2X TechClozedEraClassical
+20 InhibitorEra Classical
+
+20 TechClozedEraClassical
+20 TechKosongEraClassical
+20 TechClonedEraClassical
+20 TechMirrorEraClassical
+20 TechSlowerEraClassical
+20 TechOpenedEraClassical
+
+//Era3 slower
+10 IsraelEra E3 Medieval 01
+20 IsraelEra E3 Medieval 02
+30 IsraelEra E3 Medieval 03
+40 IsraelEra E3 Medieval 04
+50 IsraelEra E3 Medieval 05
+10 JesusEra E3 Medieval 01
+20 JesusEra E3 Medieval 02
+30 JesusEra E3 Medieval 03
+40 JesusEra E3 Medieval 04
+50 JesusEra E3 Medieval 05
+
+3X TechClozedEraMedieval
+30 InhibitorEra Medieval
+
+30 TechClozedEraMedieval
+30 TechKosongEraMedieval
+30 TechClonedEraMedieval
+30 TechMirrorEraMedieval
+30 TechSlowerEraMedieval
+30 TechOpenedEraMedieval
+
+//Era4 slower
+10 IsraelEra E4 Renaissance 01
+20 IsraelEra E4 Renaissance 02
+30 IsraelEra E4 Renaissance 03
+40 IsraelEra E4 Renaissance 04
+50 IsraelEra E4 Renaissance 05
+10 JesusEra E4 Renaissance 01
+20 JesusEra E4 Renaissance 02
+30 JesusEra E4 Renaissance 03
+40 JesusEra E4 Renaissance 04
+50 JesusEra E4 Renaissance 05
+
+4X TechClozedEraRenaissance
+40 InhibitorEra Renaissance
+
+40 TechClozedEraRenaissance
+40 TechKosongEraRenaissance
+40 TechClonedEraRenaissance
+40 TechMirrorEraRenaissance
+40 TechSlowerEraRenaissance
+40 TechOpenedEraRenaissance
+
+//Era5 slower
+10 IsraelEra E5 Industrial 01
+20 IsraelEra E5 Industrial 02
+30 IsraelEra E5 Industrial 03
+40 IsraelEra E5 Industrial 04
+50 IsraelEra E5 Industrial 05
+10 JesusEra E5 Industrial 01
+20 JesusEra E5 Industrial 02
+30 JesusEra E5 Industrial 03
+40 JesusEra E5 Industrial 04
+50 JesusEra E5 Industrial 05
+
+5X TechClozedEraIndustrial
+50 InhibitorEra Industrial
+
+50 TechClozedEraIndustrial
+50 TechKosongEraIndustrial
+50 TechClonedEraIndustrial
+50 TechMirrorEraIndustrial
+50 TechSlowerEraIndustrial
+50 TechOpenedEraIndustrial
+
+//Era6 slower
+10 IsraelEra E6 Modern 01
+20 IsraelEra E6 Modern 02
+30 IsraelEra E6 Modern 03
+40 IsraelEra E6 Modern 04
+50 IsraelEra E6 Modern 05
+10 JesusEra E6 Modern 01
+20 JesusEra E6 Modern 02
+30 JesusEra E6 Modern 03
+40 JesusEra E6 Modern 04
+50 JesusEra E6 Modern 05
+
+6X TechClozedEraModern
+60 InhibitorEra Modern
+
+60 TechClozedEraModern
+60 TechKosongEraModern
+60 TechClonedEraModern
+60 TechMirrorEraModern
+60 TechSlowerEraModern
+60 TechOpenedEraModern
+
+//Era7 slower
+10 IsraelEra E7 Atomic 01
+20 IsraelEra E7 Atomic 02
+30 IsraelEra E7 Atomic 03
+40 IsraelEra E7 Atomic 04
+50 IsraelEra E7 Atomic 05
+10 JesusEra E7 Atomic 01
+20 JesusEra E7 Atomic 02
+30 JesusEra E7 Atomic 03
+40 JesusEra E7 Atomic 04
+50 JesusEra E7 Atomic 05
+
+7X TechClozedEraAtomic
+70 InhibitorEra Atomic
+
+70 TechClozedEraAtomic
+70 TechKosongEraAtomic
+70 TechClonedEraAtomic
+70 TechMirrorEraAtomic
+70 TechSlowerEraAtomic
+70 TechOpenedEraAtomic
+
+//Era8 slower
+10 IsraelEra E8 Information 01
+20 IsraelEra E8 Information 02
+30 IsraelEra E8 Information 03
+40 IsraelEra E8 Information 04
+50 IsraelEra E8 Information 05
+10 JesusEra E8 Information 01
+20 JesusEra E8 Information 02
+30 JesusEra E8 Information 03
+40 JesusEra E8 Information 04
+50 JesusEra E8 Information 05
+
+8X TechClozedEraInformation
+80 InhibitorEra Information
+
+80 TechClozedEraInformation
+80 TechKosongEraInformation
+80 TechClonedEraInformation
+80 TechMirrorEraInformation
+80 TechSlowerEraInformation
+80 TechOpenedEraInformation
+
+//Era9 slower
+90 InhibitorEra Future
+
+90 TechOpenedEraFuture
+90 TechSlowerEraFuture
+90 TechMirrorEraFuture
+90 TechClonedEraFuture
+90 TechKosongEraFuture
+90 TechClozedEraFuture
+
+9X TechClozedEraFuture
+90 FutureTech
+9X FutureTech
+XX FuturaTech
+
+
+
 
 
 
@@ -4376,4 +4608,13 @@ E9 Future Tech
 
 
 
-
+//Lista Tech
+//Era1 slower
+//Era2 slower
+//Era3 slower
+//Era4 slower
+//Era5 slower
+//Era6 slower
+//Era7 slower
+//Era8 slower
+//Era9 slower

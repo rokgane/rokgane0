@@ -20,10 +20,10 @@
 		"improvement": "TI14 Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
@@ -37,10 +37,10 @@
 		"improvement": "TI14 Pasture",
 		"improvementStats": {"food": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -54,10 +54,10 @@
 		"improvement": "TI11 Camp",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
@@ -75,10 +75,10 @@
 		"improvement": "TI15 Plantation",
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [14] tiles <in [Jungle] tiles>",
@@ -91,10 +91,10 @@
 		"food": 1,
 		"improvement": "TI18 Farm",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
@@ -110,10 +110,10 @@
 		"improvement": "TI16 Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
@@ -127,10 +127,10 @@
 		"food": 1,
 		"improvement": "TI17 Fishing Boats",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
@@ -156,10 +156,10 @@
 		"improvement": "TI14 Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Guaranteed with Strategic Balance resource option",
@@ -181,10 +181,10 @@
 		"production": 1,
 		"improvement": "TI19 Mine",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Guaranteed with Strategic Balance resource option",
@@ -213,10 +213,10 @@
 		"improvement": "TI19 Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Hill] tiles>",
@@ -242,10 +242,10 @@
 		"improvedBy": ["TI12 Oil well", "TI13 Offshore Platform"],
 		"improvementStats": {"production": 3},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Deposits in [Coast] tiles always provide [4] resources",
@@ -272,10 +272,10 @@
 		"improvement": "TI19 Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
@@ -295,10 +295,10 @@
 		"improvement": "TI19 Mine",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -320,10 +320,10 @@
 		"improvement": "TI11 Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -337,10 +337,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [15] <in [Desert] Regions>",
@@ -356,10 +356,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [5] <in [Tundra] Regions>",
@@ -375,10 +375,10 @@
 		"gold": 3,
 		"improvement": "TI19 Mine",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [5] <in [Tundra] Regions>",
@@ -396,10 +396,10 @@
 		"gold": 2,
 		"improvement": "TI19 Mine",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [25] <in [Desert] Regions>",
@@ -417,10 +417,10 @@
 		"gold": 2,
 		"improvement": "TI19 Mine",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [25] <in [Tundra] Regions>",
@@ -442,10 +442,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Desert] Regions>",
@@ -461,10 +461,10 @@
 		"improvement": "TI11 Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Plains] Regions>",
@@ -479,10 +479,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [5] <in [Jungle] Regions>",
@@ -498,10 +498,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -520,10 +520,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Plains] Regions>",
@@ -538,10 +538,10 @@
 		"gold": 2,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [20] <in [Jungle] Regions>",
@@ -559,10 +559,10 @@
 		"improvement": "TI16 Quarry",
 		"improvementStats": {"production": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"[+15]% Production when constructing [All] wonders [in this city]",
@@ -577,10 +577,10 @@
 		"gold": 1,
 		"improvement": "TI17 Fishing Boats",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Tundra] Regions>",
@@ -598,10 +598,10 @@
 		"gold": 2,
 		"improvement": "TI17 Fishing Boats",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [20] <in [Jungle] Regions>",
@@ -618,10 +618,10 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 //			"Can only be created by Mercantile City-States"
@@ -632,10 +632,10 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 //			"Can only be created by Mercantile City-States"
@@ -649,10 +649,10 @@
 		"gold": 1,
 		"improvement": "TI15 Plantation",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [35] <in [Jungle] Regions>",
@@ -669,10 +669,10 @@
 		"gold": 2,
 		"improvement": "TI19 Mine",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [15] <in [Tundra] Regions>",
@@ -705,10 +705,10 @@
 		"gold": 1,
 		"improvement": "TI17 Fishing Boats",
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [30] <in [Tundra] Regions>",
@@ -729,10 +729,10 @@
 		"improvement": "TI19 Mine",
 		"improvementStats": {"food": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [15] <in [Tundra] Regions>",
@@ -752,10 +752,10 @@
 		"improvement": "TI11 Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": [
-            "Excluded from map editor",
+			"Excluded from map editor",
 			"Not shown on world screen",
-            "Stockpiled",
-            "Cannot be traded",
+			"Stockpiled",
+			"Cannot be traded",
 			"Doesn't generate naturally <in [All] tiles>", 
 
 			"Generated with weight [5] <in [Jungle] Regions>",
@@ -1484,129 +1484,145 @@
 				"name": "RuS01 -Unhappiness",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS02 +Unhappiness",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS03 +stats1",
 				"resourceType": "Strategic",
 				"uniques": [
-				 "Stockpiled",
-				 "Cannot be traded",
-				 "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS04 -stats1",
 				"resourceType": "Strategic",
 				"uniques": [
-				 "Stockpiled",
-				 "Cannot be traded",
-				 "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS05 -Culture Cost Border",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS06 +Culture Cost Border",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS07 +Food Carry",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS08 -Food Carry",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS09 -Maintenance",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS10 +Maintenance",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS11 +Unit Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS12 -Unit Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS13 +Buildings Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS14 -Buildings Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS15 +Wonders Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 	{
 				"name": "RuS16 -Wonders Production",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"],
+					"Excluded from map editor",
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"],
 	},
 
 
@@ -1660,9 +1676,9 @@
 				"name": "RD00 Dummy Stuff",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"]
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"]
 	},
 
 
@@ -1670,18 +1686,18 @@
 				"name": "RD01 uCount",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"]
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"]
 	},
 
 	{
 				"name": "RD02 P0Pcap",
 				"resourceType": "Strategic",
 				"uniques": [
-				  "Stockpiled",
-				  "Cannot be traded",
-				  "Not shown on world screen"]
+					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen"]
 	},
 
 

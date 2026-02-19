@@ -37,29 +37,29 @@ added scout xp
 		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
 */		
 
-    	"Discover [Enable Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
-    	"Discover [Enable Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
+		"Discover [Enable Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
+		"Discover [Enable Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
 
 
-    	"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
+		"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
  //   	"Discover [TechHumanSwitchGk] <upon turn end> <for [Human player] Civilizations> <if [HumanSwitchGkOn] is constructed by anybody>",
 
 
-    	"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
-    	"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemaAdvanceEra Classical] is constructed by anybody>",
-    	"Discover [Era3UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [3 EnemaAdvanceEra Medieval] is constructed by anybody>",
-    	"Discover [Era4UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [4 EnemaAdvanceEra Renaissance] is constructed by anybody>",
-    	"Discover [Era5UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [5 EnemaAdvanceEra Industrial] is constructed by anybody>",
-    	"Discover [Era6UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [6 EnemaAdvanceEra Modern] is constructed by anybody>",
-    	"Discover [Era7UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [7 EnemaAdvanceEra Atomic] is constructed by anybody>",
-    	"Discover [Era8UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [8 EnemaAdvanceEra Information] is constructed by anybody>",
-    	"Discover [Era9UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [9 EnemaAdvanceEra Future] is constructed by anybody>",
+		"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
+		"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemaAdvanceEra Classical] is constructed by anybody>",
+		"Discover [Era3UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [3 EnemaAdvanceEra Medieval] is constructed by anybody>",
+		"Discover [Era4UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [4 EnemaAdvanceEra Renaissance] is constructed by anybody>",
+		"Discover [Era5UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [5 EnemaAdvanceEra Industrial] is constructed by anybody>",
+		"Discover [Era6UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [6 EnemaAdvanceEra Modern] is constructed by anybody>",
+		"Discover [Era7UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [7 EnemaAdvanceEra Atomic] is constructed by anybody>",
+		"Discover [Era8UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [8 EnemaAdvanceEra Information] is constructed by anybody>",
+		"Discover [Era9UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [9 EnemaAdvanceEra Future] is constructed by anybody>",
 
-    	"Discover [TechHumanCheat] <upon turn end> <for [Human player] Civilizations> <if [Minicake HumanCheat] is constructed by anybody>",
-    	"Discover [TechEnemaCheat] <upon turn end> <for [AI player] Civilizations> <if [Minicake EnemaCheat] is constructed by anybody>",
+		"Discover [TechHumanCheat] <upon turn end> <for [Human player] Civilizations> <if [Minicake HumanCheat] is constructed by anybody>",
+		"Discover [TechEnemaCheat] <upon turn end> <for [AI player] Civilizations> <if [Minicake EnemaCheat] is constructed by anybody>",
 
-    	"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
-    	"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
+		"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
+		"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
 
 
 
@@ -169,3 +169,98 @@ added scout xp
 			"[+10]% Production when constructing [Military] units [in all cities] <when at war>",
 */
 //		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+
+
+
+
+
+
+/*
+
+
+Enema
+Tech                    Enable Diplomacy
+Building                Minicake Enable Enema Diplomacy
+ 
+Human
+Tech                    Enable Diplomacy
+Building                Minicake Enable Human Diplomacy
+
+Enema
+Tech                    TechEnemaSwitchGk
+Building                EnemaSwitchGkOn
+automatically built     EnemaGkEnabler
+
+Enema
+Tech                    TechHumanSwitchGk
+Building                HumanSwitchGkOn
+automatically built     HumanGkEnabler
+
+Enema
+Tech                    Era1UnlockEnema
+Building                1 EnemaAdvanceEra Ancient
+automatically built     Era1EnemaAnnounce
+
+Enema
+Tech                    Era2UnlockEnema
+Building                2 EnemaAdvanceEra Classical
+automatically built     Era2EnemaAnnounce
+
+Enema
+Tech                    Era3UnlockEnema
+Building                3 EnemaAdvanceEra Medieval
+automatically built     Era3EnemaAnnounce
+
+Enema
+Tech                    Era4UnlockEnema
+Building                4 EnemaAdvanceEra Renaissance
+automatically built     Era4EnemaAnnounce
+
+Enema
+Tech                    Era5UnlockEnema
+Building                5 EnemaAdvanceEra Industrial
+automatically built     Era5EnemaAnnounce
+
+Enema
+Tech                    Era6UnlockEnema
+Building                6 EnemaAdvanceEra Modern
+automatically built     Era6EnemaAnnounce
+
+Enema
+Tech                    Era7UnlockEnema
+Building                7 EnemaAdvanceEra Atomic
+automatically built     Era7EnemaAnnounce
+
+Enema
+Tech                    Era8UnlockEnema
+Building                8 EnemaAdvanceEra Information
+automatically built     Era8EnemaAnnounce
+
+Enema
+Tech                    Era9UnlockEnema
+Building                9 EnemaAdvanceEra Future
+automatically built     Era9EnemaAnnounce
+
+Enema
+Tech                    TechHumanCheat
+Building                Minicake HumanCheat
+automatically built     DaHumanCheat
+
+Enema
+Tech                    TechEnemaCheat
+Building                Minicake EnemaCheat
+automatically built     DaEnemaCheat
+
+Enema
+Tech                    TechHumanDebuff
+Building                Minicake Tech SlowingDebuff
+automatically built     Human Tech Debuff Activated
+
+Enema
+Tech                    TechEnemaDebuff
+Building                Minicake Tech SlowingDebuff
+automatically built     Enema Tech Debuff Activated
+
+
+*/
+

@@ -92,7 +92,7 @@ E3 Longbowman
 		"cost": 1060,
 		"uniques": [
 
-	    	"Only available <before turn number [40]>",
+			"Only available <before turn number [40]>",
 			"Unavailable <hidden from users> <after turn number [40]>",
 			"Unbuildable <hidden from users>",
 			"Uncapturable <hidden from users>",
@@ -2627,7 +2627,7 @@ E3 Longbowman
 
 
 
-//Era8
+//Era9
 	{
 		"name": "E8 Stealth Bomber",
 		"unitType": "Bomber",
@@ -2872,7 +2872,7 @@ E3 Longbowman
 //xsa//spaceparts//100x costs
 //reverted to default
 	
-  /* Spaceship Parts */
+/* Spaceship Parts */
 
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
@@ -5403,10 +5403,10 @@ E3 Longbowman
 
  {
 		"name": "Stronger General",
-				"requiredBuilding": "MiniCake UCheat",
+				"requiredBuilding": "MiniCake UType",
 		"unitType": "Class S Great People",
 		"uniques": [ 
-			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			"Only available <in cities with a [MiniCake UType]> <hidden from users>",
 			"Empire enters a [50]-turn Golden Age <by consuming this unit>",
 			"[+667]% Strength bonus for [Military] units within [5] tiles",
 			"All adjacent units heal [+100] HP when healing", 
@@ -5421,10 +5421,10 @@ E3 Longbowman
 
  {
 	"name": "Invulnerable Trooper",
-				"requiredBuilding": "MiniCake UCheat",
+				"requiredBuilding": "MiniCake UType",
 	 "unitType": "Class S Trooper",
 	 "uniques": [ 
-		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+		 "Only available <in cities with a [MiniCake UType]> <hidden from users>",
 		 "Can be purchased for [0] [Gold] [in this city]",
 		 "[Invulnerable Trooper] units gain the [More Invulnerability] promotion",
 		 "Uncapturable",
@@ -5726,8 +5726,22 @@ E3 Longbowman
 
 
 
-
-
+	{
+		"name": "Wonder Archer",
+		"unitType": "Archery",
+		"movement": 20,
+		"strength": 500,
+		"rangedStrength": 700,
+		"cost": 40,
+		"requiredTech": "TechUnlocker",
+		"attackSound": "arrow",
+		"uniques": [
+			"Only available <after turn number [400]>",
+			"Unavailable <hidden from users> <before turn number [400]>",
+			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadrop]>"
+			]
+	},
 
 
 
@@ -5750,324 +5764,278 @@ E3 Longbowman
 
 
 
-
-
-
-/*
-//90
-			"[This Unit] takes [10] damage <upon turn end>",
-//91
-			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [5] turns>",
-//92
-			"[This Unit] takes [24] damage <every [1] turns>",
-			"[This Unit] takes [100] damage <every [4] turns>",
-
-//93
-			"[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [3] turns>",
-
-//94
-			"[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns>",
-//95
-			"[This Unit] gains the [JihadSuicide] promotion <for [5] turns>",
-			"[This Unit] takes [100] damage <upon losing the [JihadSuicide] status><every [6] turns><upon turn end>",
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//xsa//
-//xsa//adding paradrop
-
-//changed required resource
-
-//xsa//added requiredResource
-//xsa//added hovering
-//xsa//rangeMod
-
-//xsa//increased range 1 to 2 for Gatling gun,Machine gun
-//xsa//spaceparts//100x costs
-//xsa//airunit
-//xsa//civilian
-/*
-added icebreaker
-added mountain tunnel
-added Great People
-*/
-
-
-
-
-/*//XSA//The Root Out
-
-
-@@@Land Ironclad###
-@@@Airship###
-@@@Land Leviathan###
-@@@Sky Fortress###
-
-
-@@@Astronaut###
-
-
-DNS Checkeri1
-DNS Checkeri2
-DNS Checkeri3
-DNS Checkeri4
-DNS Checkeri5
-DNS Checkeri6
-DNS Checkeri7
-DNS Checkeri8
-DNS Checkeri9
-
-
-TestBallo90
-TestBallo91
-TestBallo92
-TestBallo93
-TestBallo94
-TestBallo95
-TestBallo96
-TestBallo97
-TestBallo98
-TestBallo99
-
-Observar
-Revealer
-
-DNS Flyer
-DNS War Bomber
-
-Zeppelin Terraformer
-
-DNS Guided Rocket
-DNS Guided Missile
-DNS Nuclear Missile P2
-DNS Nuclear Missile P5
-DNS Nuclear Missile P8
-DNS Nuclear Missile P11
-DNS Nuclear Missile P13
-
-DNS Helicopter Gunship
-DNS Jet Fighter
-DNS Stealth Bomber
-DNS Sky Carrier
-
-DNS Destroyer
-DNS Battleship
-DNS Missile Cruiser
-DNS Submarine
-DNS Nuclear Submarine
-DNS Carrier
-
-DNS Modern Armor
-DNS Mechanized Infantry
-DNS Land Leviathan
-DNS Mobile SAM
-DNS Rocket Artillery
-
-DNS Worker
-DNS Work Boats
-DNS Settler
-DNS Scout
-
-DNS Missionary
-DNS Inquisitor
-
-DNS Great Artist
-DNS Great Scientist
-DNS Great Merchant
-DNS Great Engineer
-DNS Great Prophet
-DNS Great General
-DNS Great Admiral
-DNS Khan
-
-High Brute
-High Skirmisher
-High Galley
-High Marauder
-
-Stronger General
-Normal Worker
-Prophet
-Invulnerable Trooper
-Normal Settler
-
-Angel
-DNS Worker Land Class 3
-DNS Worker Boat Class 3
-DNS Fighter Zero
-DNS Bomber B17
-DNS Firework Flare
-
-
-
-
-*/
-
-
-
-
+//Lista Unit
 
 
 /*
-E1 Worker
-E1 Settler
-E1 Scout
-E1 Warrior
-E1 Maori Warrior
-E1 Jaguar
-B01 Brute
-E1 Archer
-E1 Bowman
-E1 Slinger
-E1 Atlatlist
-B02 Skirmisher
-E1 Work Boats
-E1 Trireme
-E1 Quinquereme
-E1 Dromon
-B03 Galley
-E1 Chariot Archer
-E1 War Chariot
-E1 Horse Archer
-E1 War Elephant
-E1 Spearman
-E1 Hoplite
-E1 Persian Immortal
-E1 Battering Ram
-E1 Pictish Warrior
-B04 Marauder
 
-E2 Horseman
-E2 Companion Cavalry
-E2 African Forest Elephant
-E2 Cataphract
-E2 Catapult
-E2 Ballista
-E2 Composite Bowman
-E2 Swordsman
-E2 Legion
-E2 Mohawk Warrior
+//Era0 gk switch
+"E0 Settler",
+//Era1
+"E1 Worker",
+"E1 Settler",
+"E1 Scout",
+"E1 Warrior",
+"E1 Maori Warrior",
+"E1 Jaguar",
+"Brute",//B01 Brute",
+"E1 Archer",
+"E1 Bowman",
+"E1 Slinger",
+"E1 Atlatlist",
+"Skirmisher",//B02 Skirmisher",
+"E1 Work Boats",
+"E1 Trireme",
+"E1 Quinquereme",
+"E1 Dromon",
+"Galley",//B03 Galley",
+"E1 Chariot Archer",
+"E1 War Chariot",
+"E1 Horse Archer",
+"E1 War Elephant",
+"E1 Spearman",
+"E1 Hoplite",
+"E1 Persian Immortal",
+"E1 Battering Ram",
+"E1 Pictish Warrior",
+"Marauder",//B04 Marauder",
 
-E3 Pikeman
-E3 Landsknecht
-E3 Galleass
-E3 Knight
-E3 Camel Archer
-E3 Conquistador
-E3 Naresuan's Elephant
-E3 Mandekalu Cavalry
-E3 Keshik
-E3 Crossbowman
-E3 Chu-Ko-Nu
-E3 Longbowman
-E3 Trebuchet
-E3 Hwach'a
-E3 Longswordsman
-E3 Samurai
-E3 Berserker
+//Era2
+"E2 Horseman",
+"E2 Companion Cavalry",
+"E2 African Forest Elephant",
+"E2 Cataphract",
+"E2 Catapult",
+"E2 Ballista",
+"E2 Composite Bowman",
+"E2 Swordsman",
+"E2 Legion",
+"E2 Mohawk Warrior",
 
-E4 Caravel
-E4 Turtle Ship
-E4 Musketman
-E4 Musketeer
-E4 Janissary
-E4 Minuteman
-E4 Tercio
-E4 Privateer
-E4 Sea Beggar
-E4 Frigate
-E4 Ship of the Line
-E4 Lancer
-E4 Sipahi
-E4 Hakkapeliitta
-E4 Cannon
+//Era3
+"E3 Pikeman",
+"E3 Landsknecht",
+"E3 Galleass",
+"E3 Knight",
+"E3 Camel Archer",
+"E3 Conquistador",
+"E3 Naresuan's Elephant",
+"E3 Mandekalu Cavalry",
+"E3 Keshik",
+"E3 Crossbowman",
+"E3 Chu-Ko-Nu",
+"E3 Longbowman",
+"E3 Trebuchet",
+"E3 Hwach'a",
+"E3 Longswordsman",
+"E3 Samurai",
+"E3 Berserker",
 
-E5 Gatling Gun
-E5 Rifleman
-E5 Norwegian Ski Infantry
-E5 Carolean
-E5 Mehal Sefari
-E5 Cavalry
-E5 Cossack
-E5 Hussar
-E5 Ironclad
-E5 Artillery
+//Era4
+"E4 Caravel",
+"E4 Turtle Ship",
+"E4 Musketman",
+"E4 Musketeer",
+"E4 Janissary",
+"E4 Minuteman",
+"E4 Tercio",
+"E4 Privateer",
+"E4 Sea Beggar",
+"E4 Frigate",
+"E4 Ship of the Line",
+"E4 Lancer",
+"E4 Sipahi",
+"E4 Hakkapeliitta",
+"E4 Cannon",
 
-E6 Submarine
-E6 Great War Infantry
-E6 Foreign Legion
-E6 Triplane
-E6 Great War Bomber
-E6 Infantry
-E6 Carrier
-E6 Battleship
-E6 Machine Gun
-E6 Anti-Aircraft Gun
-E6 Landship
-E6 Destroyer
+//Era5
+"E5 Gatling Gun",
+"E5 Rifleman",
+"E5 Norwegian Ski Infantry",
+"E5 Carolean",
+"E5 Mehal Sefari",
+"E5 Cavalry",
+"E5 Cossack",
+"E5 Hussar",
+"E5 Ironclad",
+"E5 Artillery",
 
-E7 Marine
-E7 Fighter
-E7 Zero
-E7 Bomber
-E7 B17
-E7 Paratrooper
-E7 Tank
-E7 Panzer
-E7 Anti-Tank Gun
-E7 Atomic Bomb
-E7 Rocket Artillery
-E7 Mobile SAM
-E7 Guided Missile
-E7 Nuclear Missile
-E7 Helicopter Gunship
+//Era6
+"E6 Submarine",
+"E6 Great War Infantry",
+"E6 Foreign Legion",
+"E6 Triplane",
+"E6 Great War Bomber",
+"E6 Infantry",
+"E6 Carrier",
+"E6 Battleship",
+"E6 Machine Gun",
+"E6 Anti-Aircraft Gun",
+"E6 Landship",
+"E6 Destroyer",
 
-E8 Nuclear Submarine
-E8 Mechanized Infantry
-E8 Missile Cruiser
-E8 Modern Armor
-E8 Jet Fighter
-E8 Giant Death Robot
-E8 Stealth Bomber
+//Era7
+"E7 Marine",
+"E7 Fighter",
+"E7 Zero",
+"E7 Bomber",
+"E7 B17",
+"E7 Paratrooper",
+"E7 Tank",
+"E7 Panzer",
+"E7 Anti-Tank Gun",
+"E7 Atomic Bomb",
+"E7 Rocket Artillery",
+"E7 Mobile SAM",
+"E7 Guided Missile",
+"E7 Nuclear Missile",
+"E7 Helicopter Gunship",
 
-E0 Great Artist
-E0 Great Scientist
-E0 Great Merchant
-E0 Great Engineer
-E0 Great Prophet
-E0 Great General
-E0 Great Admiral
-E0 Khan
-E0 Missionary
-E0 Inquisitor
+//Era8
+"E8 Nuclear Submarine",
+"E8 Mechanized Infantry",
+"E8 Missile Cruiser",
+"E8 Modern Armor",
+"E8 Jet Fighter",
+"E8 Giant Death Robot",
 
-E9 SS Booster
-E9 SS Cockpit
-E9 SS Engine
-E9 SS Stasis Chamber
+//Era9
+"E8 Stealth Bomber",
+
+
+//Great people
+"E0 Great Artist",
+"E0 Great Scientist",
+"E0 Great Merchant",
+"E0 Great Engineer",
+"E0 Great Prophet",
+"E0 Great General",
+"E0 Great Admiral",
+"E0 Khan",
+
+//Religious units
+"E0 Missionary",
+"E0 Inquisitor",
+
+//Spaceship Parts
+"E9 SS Booster",
+"E9 SS Cockpit",
+"E9 SS Engine",
+"E9 SS Stasis Chamber",
+
+//xsa//end of gk
+
+
+
+"Land Ironclad",
+"Airship",
+"Land Leviathan",
+"Sky Fortress",
+
+"Astronaut",
+"DNS Checkeri1",
+"DNS Checkeri2",
+"DNS Checkeri3",
+"DNS Checkeri4",
+"DNS Checkeri5",
+"DNS Checkeri6",
+"DNS Checkeri7",
+"DNS Checkeri8",
+"DNS Checkeri9",
+
+"TestBallo90",
+"TestBallo91",
+"TestBallo92",
+"TestBallo93",
+"TestBallo94",
+"TestBallo95",
+"TestBallo96",
+"TestBallo97",
+"TestBallo98",
+"TestBallo99",
+
+"z0 Observar",
+"z0 Spreader",
+"z0 Revealer",
+"z0 TileMage",
+
+"DNS Flyer",
+"DNS War Bomber",
+"Zeppelin Terraformer",
+"DNS Guided Rocket",
+"DNS Guided Missile",
+
+"DNS Nuclear Missile P02",
+"DNS Nuclear Missile P05",
+"DNS Nuclear Missile P08",
+"DNS Nuclear Missile P11",
+"DNS Nuclear Missile P13",
+
+"DNS Helicopter Gunship",
+"DNS Jet Fighter",
+"DNS Stealth Bomber",
+"DNS Sky Carrier",
+
+"DNS Destroyer",
+"DNS Battleship",
+"DNS Missile Cruiser",
+"DNS Submarine",
+"DNS Nuclear Submarine",
+"DNS Carrier",
+
+"DNS Modern Armor",
+"DNS Mechanized Infantry",
+"DNS Land Leviathan",
+"DNS Mobile SAM",
+"DNS Rocket Artillery",
+
+"DNS Worker",
+"DNS Work Boats",
+"DNS Settler",
+"DNS Scout",
+"DNS Missionary",
+"DNS Inquisitor",
+
+"DNS Great Artist",
+"DNS Great Scientist",
+"DNS Great Merchant",
+"DNS Great Engineer",
+"DNS Great Prophet",
+"DNS Great General",
+"DNS Great Admiral",
+"DNS Khan",
+
+"High Brute",
+"High Skirmisher",
+"High Galley",
+"High Marauder",
+
+"Stronger General",
+"Invulnerable Trooper",
+
+"Angel",
+"DNS Worker Land Class 3",
+"DNS Worker Boat Class 3",
+
+"DNS Fighter Zero",
+"DNS Bomber B17",
+"DNS Firework Flare",
+
+"Wonder Archer",
+
 */
 
+
+
+
+
+
+
+
+
+
+
+//Lista Unit
 
 
 

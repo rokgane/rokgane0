@@ -42,7 +42,7 @@ added
 		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [
-		    "Treats AI"
+		    "Treats Enema"
 		],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -80,7 +80,7 @@ added
 		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [
-		    "Treats AI"
+		    "Treats Enema"
 		],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -118,7 +118,7 @@ added
 		"aiUnitMaintenanceModifier": 1,
 		"aiUnitSupplyModifier": 0.1,
 		"aiFreeTechs": [
-		    "Treats AI"
+		    "Treats Enema"
 		],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -156,7 +156,7 @@ added
 		"aiUnitMaintenanceModifier": 0.85,
 		"aiUnitSupplyModifier": 0.2,
 		"aiFreeTechs": [
-		    "Treats AI"
+		    "Treats Enema"
 		],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],
@@ -234,7 +234,7 @@ added
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": [
-		    "Treats AI",
+		    "Treats Enema",
 		    "E1 Pottery",
 		    "E1 Animal Husbandry"
 		],
@@ -277,7 +277,7 @@ added
 		"aiUnitMaintenanceModifier": 0.65,
 		"aiUnitSupplyModifier": 0.4,
 		"aiFreeTechs": [
-		    "Treats AI",
+		    "Treats Enema",
 		    "E1 Pottery",
 		    "E1 Animal Husbandry",
 		    "E1 Mining"
@@ -323,7 +323,7 @@ added
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
 		"aiFreeTechs": [
-		    "Treats AI",
+		    "Treats Enema",
 		    "E1 Pottery",
 		    "E1 Animal Husbandry",
 		    "E1 Mining",
@@ -372,7 +372,7 @@ added
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
 		"aiFreeTechs": [
-		    "Treats AI",
+		    "Treats Enema",
 		    "E1 Pottery",
 		    "E1 Animal Husbandry",
 		    "E1 Mining",

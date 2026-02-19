@@ -1,8 +1,8 @@
 {
 	"modUrl": "gargel.ncr.or.plio.otg.org.ccr.yyz.qqe.666.btu",
-<	"author": "ArchCake",
+	"author": "ArchCake",
 	"isBaseRuleset": false,
-    "uniques": [
+	"uniques": [
 //				  "Mod requires [rokgane0]",
 				  "Diplomatic relationdhips cannot change",
 				  "Allow city States to spawn with additional units",
@@ -20,11 +20,11 @@
 		"cityStrengthFromTechsExponent": 2.8,
 		"cityStrengthFromTechsFullMultiplier": 1.0,
 		"cityStrengthFromGarrison": 0.2,
-    // Supply = unitSupplyBase (difficulties.json)
-    //          unitSupplyPerCity * amountOfCities + (difficulties.json)
-    //          unitSupplyPerPopulation * amountOfPopulationInAllCities
-    // unitSupplyBase and unitSupplyPerCity can be found in difficulties.json
-    // unitSupplyBase, unitSupplyPerCity and unitSupplyPerPopulation can also be increased through uniques
+	// Supply = unitSupplyBase (difficulties.json)
+	//		  unitSupplyPerCity * amountOfCities + (difficulties.json)
+	//		  unitSupplyPerPopulation * amountOfPopulationInAllCities
+	// unitSupplyBase and unitSupplyPerCity can be found in difficulties.json
+	// unitSupplyBase, unitSupplyPerCity and unitSupplyPerPopulation can also be increased through uniques
 		"unitSupplyPerPopulation": 0.5,
 
 		"naturalWonderCountAddedConstant":14,
@@ -42,172 +42,172 @@
 
 	"policyBranchesToRemove": [
 
-            "Tradition",
-            		"Aristocracy",
-            		"Legalism",
-            		"Oligarchy",
-            		"Landed Elite",
-            		"Monarchy",
-            		"Tradition Complete",
-            
-            "Liberty",
-            		"Republic",
-            		"Citizenship",
-            		"Collective Rule",
-            		"Representation",
-            		"Meritocracy",
-            		"Liberty Complete",
-            
-            "Honor",
-            		"Warrior Code",
-            		"Discipline",
-            		"Military Tradition",
-            		"Military Caste",
-            		"Professional Army",
-            		"Organized Religion",
-            		"Honor Complete",
-            
-            "Piety",
-            		"Organized Religion",
-            		"Mandate Of Heaven",
-            		"Theocracy",
-            		"Reformation",
-            		"Free Religion",
-            		"Piety Complete",
-            
-            "Patronage",
-            		"Philantropy",
-            		"Aesthetics",
-            		"Scholasticism",
-            		"Cultural Diplomacy",
-            		"Educated Elite",
-            		"Patronage Complete",
-            
-            "Commerce",
-            		"Naval Tradition",
-            		"Trade Unions",
-            		"Merchant Navy",
-            		"Mercantilism",
-            		"Protectionism",
-            		"Commerce Complete",
-            
-            "Rationalism",
-            		"Secularism",
-            		"Humanism",
-            		"Free Thought",
-            		"Sovereignty",
-            		"Scientific Revolution",
-            		"Rationalism Complete",
-            
-            "Freedom",
-            		"Constitution",
-            		"Universal Suffrage",
-            		"Civil Society",
-            		"Free Speech",
-            		"Democracy",
-            		"Freedom Complete",
-            
-            "Autocracy",
-            		"Populism",
-            		"Militarism",
-            		"Fascism",
-            		"Police State",
-            		"Total War",
-            		"Autocracy Complete",
-            
-            "Order",
-            		"United Front",
-            		"Planned Economy",
-            		"Nationalism",
-            		"Socialism",
-            		"Communism",
-            		"Order Complete",
-    ],
+			"Tradition",
+					"Aristocracy",
+					"Legalism",
+					"Oligarchy",
+					"Landed Elite",
+					"Monarchy",
+					"Tradition Complete",
+			
+			"Liberty",
+					"Republic",
+					"Citizenship",
+					"Collective Rule",
+					"Representation",
+					"Meritocracy",
+					"Liberty Complete",
+			
+			"Honor",
+					"Warrior Code",
+					"Discipline",
+					"Military Tradition",
+					"Military Caste",
+					"Professional Army",
+					"Organized Religion",
+					"Honor Complete",
+			
+			"Piety",
+					"Organized Religion",
+					"Mandate Of Heaven",
+					"Theocracy",
+					"Reformation",
+					"Free Religion",
+					"Piety Complete",
+			
+			"Patronage",
+					"Philantropy",
+					"Aesthetics",
+					"Scholasticism",
+					"Cultural Diplomacy",
+					"Educated Elite",
+					"Patronage Complete",
+			
+			"Commerce",
+					"Naval Tradition",
+					"Trade Unions",
+					"Merchant Navy",
+					"Mercantilism",
+					"Protectionism",
+					"Commerce Complete",
+			
+			"Rationalism",
+					"Secularism",
+					"Humanism",
+					"Free Thought",
+					"Sovereignty",
+					"Scientific Revolution",
+					"Rationalism Complete",
+			
+			"Freedom",
+					"Constitution",
+					"Universal Suffrage",
+					"Civil Society",
+					"Free Speech",
+					"Democracy",
+					"Freedom Complete",
+			
+			"Autocracy",
+					"Populism",
+					"Militarism",
+					"Fascism",
+					"Police State",
+					"Total War",
+					"Autocracy Complete",
+			
+			"Order",
+					"United Front",
+					"Planned Economy",
+					"Nationalism",
+					"Socialism",
+					"Communism",
+					"Order Complete",
+	],
 
 
 	"policiesToRemove": [
 
-           "Tradition",
-            		"Aristocracy",
-            		"Legalism",
-            		"Oligarchy",
-            		"Landed Elite",
-            		"Monarchy",
-            		"Tradition Complete",
-            
-            "Liberty",
-            		"Republic",
-            		"Citizenship",
-            		"Collective Rule",
-            		"Representation",
-            		"Meritocracy",
-            		"Liberty Complete",
-            
-            "Honor",
-            		"Warrior Code",
-            		"Discipline",
-            		"Military Tradition",
-            		"Military Caste",
-            		"Professional Army",
-            		"Organized Religion",
-            		"Honor Complete",
-            
-            "Piety",
-            		"Organized Religion",
-            		"Mandate Of Heaven",
-            		"Theocracy",
-            		"Reformation",
-            		"Free Religion",
-            		"Piety Complete",
-            
-            "Patronage",
-            		"Philantropy",
-            		"Aesthetics",
-            		"Scholasticism",
-            		"Cultural Diplomacy",
-            		"Educated Elite",
-            		"Patronage Complete",
-            
-            "Commerce",
-            		"Naval Tradition",
-            		"Trade Unions",
-            		"Merchant Navy",
-            		"Mercantilism",
-            		"Protectionism",
-            		"Commerce Complete",
-            
-            "Rationalism",
-            		"Secularism",
-            		"Humanism",
-            		"Free Thought",
-            		"Sovereignty",
-            		"Scientific Revolution",
-            		"Rationalism Complete",
-            
-            "Freedom",
-            		"Constitution",
-            		"Universal Suffrage",
-            		"Civil Society",
-            		"Free Speech",
-            		"Democracy",
-            		"Freedom Complete",
-            
-            "Autocracy",
-            		"Populism",
-            		"Militarism",
-            		"Fascism",
-            		"Police State",
-            		"Total War",
-            		"Autocracy Complete",
-            
-            "Order",
-            		"United Front",
-            		"Planned Economy",
-            		"Nationalism",
-            		"Socialism",
-            		"Communism",
-            		"Order Complete",
-    ],
+		   "Tradition",
+					"Aristocracy",
+					"Legalism",
+					"Oligarchy",
+					"Landed Elite",
+					"Monarchy",
+					"Tradition Complete",
+			
+			"Liberty",
+					"Republic",
+					"Citizenship",
+					"Collective Rule",
+					"Representation",
+					"Meritocracy",
+					"Liberty Complete",
+			
+			"Honor",
+					"Warrior Code",
+					"Discipline",
+					"Military Tradition",
+					"Military Caste",
+					"Professional Army",
+					"Organized Religion",
+					"Honor Complete",
+			
+			"Piety",
+					"Organized Religion",
+					"Mandate Of Heaven",
+					"Theocracy",
+					"Reformation",
+					"Free Religion",
+					"Piety Complete",
+			
+			"Patronage",
+					"Philantropy",
+					"Aesthetics",
+					"Scholasticism",
+					"Cultural Diplomacy",
+					"Educated Elite",
+					"Patronage Complete",
+			
+			"Commerce",
+					"Naval Tradition",
+					"Trade Unions",
+					"Merchant Navy",
+					"Mercantilism",
+					"Protectionism",
+					"Commerce Complete",
+			
+			"Rationalism",
+					"Secularism",
+					"Humanism",
+					"Free Thought",
+					"Sovereignty",
+					"Scientific Revolution",
+					"Rationalism Complete",
+			
+			"Freedom",
+					"Constitution",
+					"Universal Suffrage",
+					"Civil Society",
+					"Free Speech",
+					"Democracy",
+					"Freedom Complete",
+			
+			"Autocracy",
+					"Populism",
+					"Militarism",
+					"Fascism",
+					"Police State",
+					"Total War",
+					"Autocracy Complete",
+			
+			"Order",
+					"United Front",
+					"Planned Economy",
+					"Nationalism",
+					"Socialism",
+					"Communism",
+					"Order Complete",
+	],
 
 
 
@@ -300,7 +300,7 @@
 		"Nanotechnology",
 		"Stealth",
 		"Future Tech",
-    ],
+	],
 
 
 
@@ -432,7 +432,7 @@
 		"Monastery",
 		"Mosque",
 		"Pagoda"
-    ],
+	],
 
 
 
@@ -576,11 +576,11 @@
 		"SS Cockpit",
 		"SS Engine",
 		"SS Stasis Chamber",
-    ],
+	],
 
 
 
-    "beliefsToRemove": [
+	"beliefsToRemove": [
 		"Ancestor Worship",
 		"Dance of the Aurora",
 		"Desert Folklore",
@@ -640,7 +640,7 @@
 		"Religious Texts",
 		"Religious Unity",
 		"Reliquary",
-    ],
+	],
 
 	"nationsToRemove": [
 		"Babylon",
@@ -758,15 +758,15 @@
 
 /*
 {
-    "isBaseRuleset": false,
-    "uniques": [
+	"isBaseRuleset": false,
+	"uniques": [
 	"Cannot be used as permanent audiovisual mod",
 	"Mod is incompatible with [Civ V - Vanilla]",
 	"Can trade civilization introductions for [200] Gold",
 	"Mod requires [Civ V - Gods & Kings]",
 	"Suppress warning [is supposed to automatically upgrade]",
 	],
-    "constants": {
+	"constants": {
 		"unitUpgradeCost": {}
 		}
 }
