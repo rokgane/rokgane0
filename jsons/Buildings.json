@@ -2489,7 +2489,7 @@
 		"maintenance": 0,
 		"uniques": [
 				"Comment [Activate Access Fake]",
-				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -4900,7 +4900,19 @@
 
 
 
-
+	{
+		"name": "FakeCity - Supply",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"[+100] Unit Supply",
+				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
+		"requiredTech": "TechUnlocker"
+	},
 	{
 		"name": "FakeCity - Population",
 		"cost": 1,
@@ -4909,8 +4921,9 @@
 		"uniques": [
 				"[+100] population [in this city]",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4921,8 +4934,9 @@
 		"uniques": [
 				"[+100]% [Food] [in this city]", 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4933,8 +4947,9 @@
 		"uniques": [
 				"[+100]% [Gold] [in this city]",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4945,8 +4960,9 @@
 		"uniques": [
 				"[+100]% [Science] [in this city]",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4957,8 +4973,9 @@
 		"uniques": [
 				"[+100]% [Production] [in this city]", 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4969,8 +4986,9 @@
 		"uniques": [
 				"[+100]% [Culture] [in this city]", 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4981,8 +4999,9 @@
 		"uniques": [
 				"[+100]% [Happiness] [in this city]", 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -4993,8 +5012,9 @@
 		"uniques": [
 				"[+100]% [Faith] [in this city]", 
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5006,7 +5026,8 @@
 				"New [Military] units start with [9999] XP [in this city]"
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>",
-			],
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5022,8 +5043,9 @@
 				"[+100]% City Strength from defensive buildings",
 				"[+100]% Strength for cities",
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5034,8 +5056,9 @@
 		"maintenance": 1,
 		"uniques": [
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5046,8 +5069,9 @@
 		"maintenance": 1,
 		"uniques": [
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5058,8 +5082,9 @@
 		"maintenance": 1,
 		"uniques": [
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5070,8 +5095,9 @@
 		"maintenance": 1,
 		"uniques": [
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 
@@ -5100,8 +5126,9 @@
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
 				"Can only be built <in [in capital] cities> <hidden from users>",
 				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 	{
@@ -5119,8 +5146,9 @@
 				"Only available <in cities with a [MiniCake FakeCity]> <hidden from users>",
 				"Can only be built <in [in capital] cities> <hidden from users>",
 				"Moves to new capital when capital changes<hidden from users>",
-				"Destroyed when the city is captured <hidden from users>"
-			],
+				"Destroyed when the city is captured <hidden from users>",
+				"Unbuildable <hidden from users>" 
+		],
 		"requiredTech": "TechUnlocker"
 	},
 
