@@ -5726,6 +5726,7 @@
 
 //				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 //				"Limited to [1] per Civilization <hidden from users>",
+				"Unavailable <in [in cities being razed] cities>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -9016,6 +9017,7 @@
 
 				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Unavailable <in [in cities being razed] cities>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
