@@ -38,11 +38,11 @@ added scout xp
 */		
 
 //limitation for unit
-"Instantly consumes [3] [RD01 CityCount]<upon losing a cities>",
+"Instantly consumes [3] [RD01 CityCount]<upon losing a city>",
 
-"Instantly provides [3] [RD01 CityCount]<upon conquering a cities>",
+"Instantly provides [3] [RD01 CityCount]<upon conquering a city>",
 
-"Instantly provides [3] [RD01 CityCount]<upon founding a cities>",
+"Instantly provides [3] [RD01 CityCount]<upon founding a city>",
 
 		"Discover [Enable Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
 		"Discover [Enable Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
