@@ -5801,9 +5801,11 @@ E3 Longbowman
 		"rangedStrength": 45,
 		"range": 2,
 		"interceptRange": 3,
+		"requiredResource": "RD01 CityCount",
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Bomber] units>", 
 			"[+150]% Strength <vs [Helicopter] units>"
@@ -5824,9 +5826,11 @@ E3 Longbowman
 		"strength": 70,
 		"rangedStrength": 70,
 		"range": 3,
+		"requiredResource": "RD01 CityCount",
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+
 			"Damage taken from interception reduced by [80]%",
 
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
@@ -5848,6 +5852,7 @@ E3 Longbowman
 		"strength": 80,
 		"rangedStrength": 90,
 		"range": 4,
+		"requiredResource": "RD01 CityCount",
 		"cost": 150,
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",

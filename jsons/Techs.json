@@ -74,9 +74,9 @@ Mixed   techgk   techgk   slower   slower
 		"techs": [
 
 			{//xsa//KosongZeroNull
-				"name": "KosongZero0000",
+				"name": "KosongZeroNull",
 				"row": 39,//21,
-				"prerequisites": ["KosongZeroNull"],
+				"prerequisites": ["KosongZero0000"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -84,10 +84,10 @@ Mixed   techgk   techgk   slower   slower
 //					"Only available <before discovering [E1 Agriculture]>"
 					]
 			},
-			{//xsa//KosongZeroNull
-				"name": "KosongZeroNull",
+			{//xsa//KosongZero0000
+				"name": "KosongZero0000",
 				"row": 40,//21,
-				"prerequisites": ["KosongZeroBase"],
+				"prerequisites": ["KosongZero0001"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -217,8 +217,6 @@ Mixed   techgk   techgk   slower   slower
 				"row": 33,//21,
 				"quote": "Cheat tech",
 				"uniques": [
-					"Enables embarkation for land units",
-					"Enables [All] units to enter ocean tiles",
 					"[-99]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>",
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
@@ -2273,17 +2271,6 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "Era1DummyTech02",
-				"row": 41,
-				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},
-			{
 				"name": "Era1UnlockHuman",
 				"row": 37,
 				"quote": "1X Ancient Tech Slower, slower tech upgrades",
@@ -2305,6 +2292,29 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			}
+
+			{//xsa//KosongZero0001
+				"name": "KosongZero0001",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0002"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era1DummyTech02",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 		]
 	},
 
@@ -2406,6 +2416,18 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0002
+				"name": "KosongZero0002",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0003"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "Era2UnlockEnema",
 				"row": 38,
@@ -2539,6 +2561,18 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0003
+				"name": "KosongZero0003",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0004"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "Era3DummyTech02",
 				"row": 41,
@@ -2659,6 +2693,17 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <before discovering [E1 Agriculture]>",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0004
+				"name": "KosongZero0004",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0005"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
 					]
 			},
 			{
@@ -2783,6 +2828,17 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0005
+				"name": "KosongZero0005",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0006"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
 			{
 				"name": "Era5DummyTech02",
 				"row": 41,
@@ -2905,6 +2961,18 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0006
+				"name": "KosongZero0006",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0007"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "Era6DummyTech02",
 				"row": 41,
@@ -3027,6 +3095,18 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0007
+				"name": "KosongZero0007",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0008"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "Era7DummyTech02",
 				"row": 41,
@@ -3149,6 +3229,18 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+
+			{//xsa//KosongZero0008
+				"name": "KosongZero0008",
+				"row": 40,//21,
+				"prerequisites": ["KosongZeroBase"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
 			{
 				"name": "Era8DummyTech02",
 				"row": 41,
