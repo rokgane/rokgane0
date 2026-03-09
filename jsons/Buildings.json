@@ -2381,6 +2381,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+				"Provides [3] [RD01 CityCount]",
+				"Provides [3] [RD02 P0Pcap]",
+
 				"Roads connect tiles across rivers",
 				"Connects trade routes over water",
 
