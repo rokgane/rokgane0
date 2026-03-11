@@ -1686,9 +1686,9 @@
 				"name": "RD01 CityCount",
 				"resourceType": "Strategic",
 				"uniques": [
-					"Stockpiled",
-					"Cannot be traded"
-//					"Not shown on world screen"
+//					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen <when number of [Cities] is more than [Units]>",
 				]
 	},
 
@@ -1696,9 +1696,9 @@
 				"name": "RD02 P0Pcap",
 				"resourceType": "Strategic",
 				"uniques": [
-					"Stockpiled",
-					"Cannot be traded"
-//					"Not shown on world screen"
+//					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen <when number of [Cities] is more than [Units]>",
 				]
 	},
 
@@ -1706,9 +1706,9 @@
 				"name": "RD03 Limit Aero",
 				"resourceType": "Strategic",
 				"uniques": [
-					"Stockpiled",
-					"Cannot be traded"
-//					"Not shown on world screen"
+//					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen <when number of [Cities] is more than [Units]>",
 				]
 	},
 
@@ -1716,9 +1716,9 @@
 				"name": "RD04 Limit Navy",
 				"resourceType": "Strategic",
 				"uniques": [
-					"Stockpiled",
-					"Cannot be traded"
-//					"Not shown on world screen"
+//					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen <when number of [Cities] is more than [Units]>",
 				]
 	},
 
@@ -1726,9 +1726,9 @@
 				"name": "RD05 Limit Land",
 				"resourceType": "Strategic",
 				"uniques": [
-					"Stockpiled",
-					"Cannot be traded"
-//					"Not shown on world screen"
+//					"Stockpiled",
+					"Cannot be traded",
+					"Not shown on world screen <when number of [Cities] is more than [Units]>",
 				]
 	},
 
