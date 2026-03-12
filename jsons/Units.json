@@ -5805,6 +5805,7 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+			"Limited to [50] per Civilization",
 
 			"[100]% chance to intercept air attacks", 
 			"[+150]% Strength <vs [Bomber] units>", 
@@ -5830,6 +5831,7 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+			"Limited to [50] per Civilization",
 
 			"Damage taken from interception reduced by [80]%",
 
@@ -5857,6 +5859,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
+			"Limited to [50] per Civilization",
 
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 

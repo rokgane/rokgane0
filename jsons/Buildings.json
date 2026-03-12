@@ -2291,7 +2291,7 @@
 		"name": "MiniCake Capitol",
 		"requiredBuilding": "MiniCake Main",
 //		"cityStrength": 5000,
-		"cityHealth": 5000,
+//		"cityHealth": 5000,
 		"cost": 1,
 		"happiness": 300,
 		"production": 300,
@@ -2346,7 +2346,7 @@
 		"name": "MiniCake Cities",
 //		"requiredBuilding": "MiniCake Main",
 //		"cityStrength": 1000,
-		"cityHealth": 1000,
+//		"cityHealth": 1000,
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -2377,6 +2377,7 @@
 	{
 		"name": "MiniCake DNS Vault",
 //		"requiredBuilding": "MiniCake Main",
+		"cityHealth": 300,
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -6130,7 +6131,25 @@
 
 
 
-
+	{
+		"name": "MiniCake City Defender",
+		"cityStrength": 1000,
+		"cityHealth": 500,
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 1,
+		"uniques": [
+				"Gain control over [all] tiles in a [5]-tile radius",
+				"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
