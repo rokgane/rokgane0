@@ -2382,8 +2382,8 @@
 		"maintenance": 0,
 		"uniques": [
 				"Provides [1] [RD01 CityCount]",
-				"Provides [1] [RD02 P0Pcap]",
-
+				"Provides [2] [RD02 P0Pcap]",
+//				"[5] Unit Supply per [1] population [in all cities] <hidden from users>",
 				"Roads connect tiles across rivers",
 				"Connects trade routes over water",
 
@@ -6542,6 +6542,159 @@
 
 
 
+	{
+		"name": "MiniCake Spawn 5 Great Artist",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Artist] buildings [in this city]",
+
+				"[5] free [DNS Great Artist] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great Scientist",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Scientist] buildings [in this city]",
+
+				"[5] free [DNS Great Scientist] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great Merchant",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Merchant] buildings [in this city]",
+
+				"[5] free [DNS Great Merchant] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great Engineer",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Engineer] buildings [in this city]",
+
+				"[5] free [DNS Great Engineer] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great Prophet",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Prophet] buildings [in this city]",
+
+				"[5] free [DNS Great Prophet] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great General",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great General] buildings [in this city]",
+
+				"[5] free [DNS Great General] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "MiniCake Spawn 5 Great Admiral",
+		"requiredBuilding": "MiniCake TestTown",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Sell [MiniCake Spawn 5 Great Admiral] buildings [in this city]",
+
+				"[5] free [DNS Great Admiral] units appear", 
+
+				"Only available <in cities with a [MiniCake TestTown]> <hidden from users>",
+//				"Limited to [1] per Civilization <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 
