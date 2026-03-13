@@ -9154,6 +9154,19 @@
 
 
 
+	{
+		"name": "MiniCake Automate Manual ShowGk Aall Human",
+//		"requiredBuilding": "MiniCake DNS Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Gain a free [MiniCake ShowGk Aall] [in all city]",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 	{
@@ -12322,7 +12335,7 @@ Coffee House
 "Ore Refinery",
 "E0 Palace",
 "ChallengesActivate",
-	"ChallengesParty",
+"ChallengesParty",
 
 "National Espionage Agency",
 "Espionage Liaison Office",
@@ -12408,17 +12421,18 @@ Coffee House
 "MiniCake Free United Nations",
 "MiniCake Free Spaceship Parts",
 
-	"name":"Twilight of the Gods",
-	"name":"Glory of the Aesir",
-	"name":"True Asgarheim",
-	"name":"True Resources",
-	"name":"True Culture",
-	"name":"True Faith",
-	"name":"True Food",
-	"name":"True Gold",
-	"name":"True Happiness",
-	"name":"True Production",
-	"name":"True Science",
+
+"Twilight of the Gods",
+"Glory of the Aesir",
+"True Asgarheim",
+"True Resources",
+"True Culture",
+"True Faith",
+"True Food",
+"True Gold",
+"True Happiness",
+"True Production",
+"True Science",
 
 "FakeCity - Population",
 "FakeCity - Food",
