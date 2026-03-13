@@ -9161,10 +9161,16 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Gain a free [MiniCake ShowGk Aall] [in all city]",
+				"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+				"Can only be built <in [Capital] cities> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
-			],
+				],
 		"requiredTech": "TechUnlocker"
 	},
 
@@ -9187,7 +9193,7 @@
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Moves to new capital when capital changes <hidden from users>",
-				"Destroyed when the city is captured <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
 			],
 		"requiredTech": "TechUnlocker"
 	},
