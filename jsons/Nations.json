@@ -1729,7 +1729,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "River Warlord",
 		"uniques": [
-			"Receive [200%] Gold from Barbarian encampments and pillaging Cities", 
+			"Receive [200]% Gold from Barbarian encampments and pillaging Cities",
 			"[+100]% Strength <when defending> <for [Embarked] units>",
 			"[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"cities": [
@@ -1854,10 +1854,10 @@
 		"preferredVictoryType": "Domination",
 		"perAZTc0sonality": "Montezuma I",
 
-        "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
+		"startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
 		"startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
 
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
+		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
 		"attacked": "Excellent! Let the blood flow in raging torrents!",
 		"defeated": "Monster! Who are you to destroy my greatness?",
 		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
@@ -2894,10 +2894,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,178,102],
 		"cities": ["Helsinki"],
-        "uniques": [
-            "Will not be displayed in Civilopedia",
-            "Will not be chosen for new games",
-            "Excluded from map editor"]
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Will not be chosen for new games",
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSB03 Manila",
@@ -2922,10 +2922,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [127, 177, 236],
 		"cities": ["Mogadishu"],
-        "uniques": [
-            "Will not be displayed in Civilopedia", 
-            "Will not be chosen for new games", 
-            "Excluded from map editor"]
+		"uniques": [
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSB05 Mombasa",
@@ -3001,10 +3001,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 16, 216],
 		"cities": ["Ur"],
-        "uniques": [
-            "Will not be displayed in Civilopedia", 
-            "Will not be chosen for new games", 
-            "Excluded from map editor"]
+		"uniques": [
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSB11 Vancouver", // Introduced in BNW
@@ -3017,10 +3017,10 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [193, 84, 255],
 		"cities": ["Vancouver"],
-        "uniques": [
-            "Will not be displayed in Civilopedia", 
-            "Will not be chosen for new games", 
-            "Excluded from map editor"]
+		"uniques": [
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSB12 Venice",
@@ -3196,9 +3196,9 @@
 		"innerColor": [211,180,113],
 		"cities": ["Dublin"],
 		"uniques": [
-		    "Will not be displayed in Civilopedia", 
-		    "Will not be chosen for new games", 
-		    "Excluded from map editor"]
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSD05 Edinburgh",
@@ -3212,9 +3212,9 @@
 		"innerColor": [0,102,102],
 		"cities": ["Edinburgh"],
 		"uniques": [
-		    "Will not be displayed in Civilopedia", 
-		    "Will not be chosen for new games", 
-		    "Excluded from map editor"]
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSD06 Hanoi",
@@ -3240,9 +3240,9 @@
 		"innerColor": [18, 188, 221],
 		"cities": ["M'Banza-Kongo"],
 		"uniques": [
-		    "Will not be displayed in Civilopedia", 
-		    "Will not be chosen for new games", 
-		    "Excluded from map editor"]
+			"Will not be displayed in Civilopedia", 
+			"Will not be chosen for new games", 
+			"Excluded from map editor"]
 	},
 	{
 		"name": "CSD08 Sidon",

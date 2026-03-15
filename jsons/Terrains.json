@@ -651,7 +651,8 @@
 		"defenceBonus": -0.1,
 		"RGB": [97, 171, 58],
 		"uniques": [
-			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+	    		"Doesn't generate naturally",
+    			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
 				"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
 				"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
 				"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
@@ -676,7 +677,8 @@
 		"defenceBonus": -0.1,
 		"RGB": [168, 185, 102],
 		"uniques": [
-			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+	    		"Doesn't generate naturally",
+    			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
 				"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
 				"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
 				"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -703,7 +705,8 @@
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
 		"uniques": [
-			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+	    		"Doesn't generate naturally",
+	    		"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
 				"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
 				"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
 				"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
