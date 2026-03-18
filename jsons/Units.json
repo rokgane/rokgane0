@@ -2789,8 +2789,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 
@@ -2811,8 +2811,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can hurry technology research", 
 			"Can instantly construct a [Academy] improvement <before discovering [TechUnlocker]> <by consuming this unit>",  
@@ -2832,8 +2832,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -2853,8 +2853,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can speed up Construction of a building", 
 			"Can instantly construct a [Manufactory] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
@@ -2873,8 +2873,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Can instantly construct a [Holy site] improvement <before discovering [TechUnlocker]> <by consuming this unit>",   
 			"Can instantly construct a [DNS Holy site] improvement <after discovering [TechUnlocker]> <by consuming this unit>",
@@ -2902,8 +2902,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
@@ -2926,8 +2926,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
@@ -2951,8 +2951,8 @@ E3 Longbowman
 			"Only available <in cities with a [MiniCake ShowGk Gman]><hidden from users>",
 
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
-			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
-			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+			"May Paradrop to [All] tiles up to [41] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [61] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 			"Limited to [7] per Civilization",
 			"Empire enters a [10]-turn Golden Age <by consuming this unit><when not in a Golden Age>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 

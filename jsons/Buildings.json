@@ -1882,6 +1882,15 @@
 
 			"[5] free [E0 Settler] units appear<for [AI player] Civilizations>",
 
+				"Provides [1] [RS01 Horses]",
+				"Provides [1] [RS02 Iron]",
+				"Provides [1] [RS03 Coal]",
+				"Provides [1] [RS04 Oil]",
+				"Provides [1] [RS05 Aluminum]",
+				"Provides [1] [RS06 Uranium]",
+
+				"Provides [1] [RM01 Aetherium]",
+				"Provides [1] [RM02 Luboric]",
 //			"May not generate Great Prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
@@ -2293,13 +2302,15 @@
 //		"cityStrength": 5000,
 //		"cityHealth": 5000,
 		"cost": 1,
-		"happiness": 300,
-		"production": 300,
-		"gold": 300,
-		"culture": 300,
-		"faith": 300,
-		"science": 300,
-		"food": 300,
+/*
+		"happiness": 100,
+		"production": 100,
+		"gold": 100,
+		"culture": 100,
+		"faith": 100,
+		"science": 100,
+		"food": 100,
+*/
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
@@ -2312,6 +2323,7 @@
 		"percentStatBonus": {"science": 100},
 		"percentStatBonus": {"food": 100},
 */
+			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
