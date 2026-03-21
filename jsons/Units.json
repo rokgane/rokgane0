@@ -121,13 +121,14 @@ E3 Longbowman
 		"movement": 2,
 		"uniques": [
 
-			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
-
 			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
 			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
-			"Uncapturable", 
+			"Unavailable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit",
 
 			//"Can build [Land] improvements on tiles", 
 			"Can build [Road] improvements on tiles",
@@ -155,15 +156,8 @@ E3 Longbowman
 			"Can build [DNS FunFort02] improvements on tiles",
 			"Can build [DNS FunFort03] improvements on tiles",
 
-			"Can build [DNS Academy] improvements on tiles",
-			"Can build [DNS Landmark] improvements on tiles",
-			"Can build [DNS Manufactory] improvements on tiles",
-			"Can build [DNS Customs house] improvements on tiles",
-			"Can build [DNS Holy site] improvements on tiles",
-			"Can build [DNS Citadel] improvements on tiles",
-
 			"Automation is a primary action",
-			"Limited to [0] per Civilization"
+//			"Limited to [0] per Civilization"
 			],
 		"cost": 70,
 	},
