@@ -6990,7 +6990,7 @@
 		"isNationalWonder": true, 
 		"cost": 1, 
 		"uniques": [ 
-			"Gain a free [Hacktown Enema Vault] [in all cities]"],
+			"Gain a free [Hacktown Enema Vault] [in all cities]",
 
 //for human
 				"Only available <for [Human player] Civilizations>",
@@ -7028,7 +7028,7 @@
 		"isNationalWonder": true, 
 		"cost": 1, 
 		"uniques": [ 
-			"Gain a free [Hacktown Enema Vault] [in all cities]"],
+			"Gain a free [Hacktown Enema Vault] [in all cities]",
 
 //for enema
 				"Unavailable <for [Human player] Civilizations>",
