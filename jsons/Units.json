@@ -115,6 +115,60 @@ E3 Longbowman
 		"hurryCostModifier": 200
 	},
 
+	{
+		"name": "E0 Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+
+			"Only available <in cities with a [MiniCake ShowGk Rest]><hidden from users>",
+
+			"May enter foreign tiles without open borders <hidden from users><after discovering [TechOpenBorder]>",
+			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
+			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
+
+			"Uncapturable", 
+
+			//"Can build [Land] improvements on tiles", 
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+
+			"Can build [Remove Ice] improvements on tiles",
+			"Can build [Remove Fallout] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
+			"Can build [Remove Marsh] improvements on tiles",
+
+			"Can build [TI11 Camp] improvements on tiles",
+			"Can build [TI12 Oil well] improvements on tiles",
+//			"Can build [TI13 Offshore Platform] improvements on tiles",
+			"Can build [TI14 Pasture] improvements on tiles",
+			"Can build [TI15 Plantation] improvements on tiles",
+			"Can build [TI16 Quarry] improvements on tiles",
+//			"Can build [TI17 Fishing Boats] improvements on tiles",
+			"Can build [TI18 Farm] improvements on tiles",
+			"Can build [TI19 Mine] improvements on tiles",
+			"Can build [TI20 Fort] improvements on tiles",
+
+			"Can build [Bioculture] improvements on tiles",
+			"Can build [DNS FunFort01] improvements on tiles",
+			"Can build [DNS FunFort02] improvements on tiles",
+			"Can build [DNS FunFort03] improvements on tiles",
+
+			"Can build [DNS Academy] improvements on tiles",
+			"Can build [DNS Landmark] improvements on tiles",
+			"Can build [DNS Manufactory] improvements on tiles",
+			"Can build [DNS Customs house] improvements on tiles",
+			"Can build [DNS Holy site] improvements on tiles",
+			"Can build [DNS Citadel] improvements on tiles",
+
+			"Automation is a primary action",
+			"Limited to [5] per Civilization"
+			],
+		"cost": 70,
+	},
+
+
 
 //xsa//start of gk
 
@@ -147,7 +201,7 @@ E3 Longbowman
 			"May Paradrop to [All] tiles up to [20] tiles away<hidden from users><after discovering [TechParadropBase]>",
 			"May Paradrop to [All] tiles up to [40] tiles away<hidden from users><after discovering [TechParadropMaxd]>",
 
-			"Uncapturable", 
+//			"Uncapturable", 
 
 			//"Can build [Land] improvements on tiles", 
 			"Can build [Road] improvements on tiles",
@@ -5929,6 +5983,7 @@ E3 Longbowman
 
 //Era0 gk switch
 "E0 Settler",
+"E0 Worker",
 //Era1
 "E1 Worker",
 "E1 Settler",

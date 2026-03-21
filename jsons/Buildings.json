@@ -2323,7 +2323,7 @@
 		"percentStatBonus": {"science": 100},
 		"percentStatBonus": {"food": 100},
 */
-			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
+			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in this city]",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
@@ -2366,7 +2366,7 @@
 
 				"[-50]% Culture cost of natural border growth [in this city]",
 
-			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]",
+			  	"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [3] population [in this city]",
 				"Population loss from nuclear attacks [-50]% [in this city]",
 				"Damage to garrison from nuclear attacks [-50]% [in this city]",
 
@@ -2389,7 +2389,7 @@
 	{
 		"name": "MiniCake DNS Vault",
 //		"requiredBuilding": "MiniCake Main",
-		"cityHealth": 300,
+		"cityHealth": 100,
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -3007,15 +3007,15 @@
 		"maintenance": 0,
 		"uniques": [
 				"Can only be built <in [Capital] cities> <hidden from users>",
-				
-				"Provides [10] [RB01 Cattle]",
-				"Provides [10] [RB02 Sheep]",
-				"Provides [10] [RB03 Deer]",
-				"Provides [10] [RB04 Bananas]",
-				"Provides [10] [RB05 Wheat]",
-				"Provides [10] [RB06 Stone]",
-				"Provides [10] [RB07 Fish]",
-				"Provides [10] [RB08 Bison]",
+
+				"Provides [1] [RB01 Cattle]",
+				"Provides [1] [RB02 Sheep]",
+				"Provides [1] [RB03 Deer]",
+				"Provides [1] [RB04 Bananas]",
+				"Provides [1] [RB05 Wheat]",
+				"Provides [1] [RB06 Stone]",
+				"Provides [1] [RB07 Fish]",
+				"Provides [1] [RB08 Bison]",
 
 //				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
@@ -3040,15 +3040,15 @@
 		"uniques": [
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
-				"Provides [10] [RS01 Horses]",
-				"Provides [10] [RS02 Iron]",
-				"Provides [10] [RS03 Coal]",
-				"Provides [10] [RS04 Oil]",
-				"Provides [10] [RS05 Aluminum]",
-				"Provides [10] [RS06 Uranium]",
+				"Provides [1] [RS01 Horses]",
+				"Provides [1] [RS02 Iron]",
+				"Provides [1] [RS03 Coal]",
+				"Provides [1] [RS04 Oil]",
+				"Provides [1] [RS05 Aluminum]",
+				"Provides [1] [RS06 Uranium]",
 
-				"Provides [10] [RM01 Aetherium]",
-				"Provides [10] [RM02 Luboric]",
+				"Provides [1] [RM01 Aetherium]",
+				"Provides [1] [RM02 Luboric]",
 
 //				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
@@ -3072,30 +3072,30 @@
 		"uniques": [
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
-				"Provides [10] [RL01 Furs]",
-				"Provides [10] [RL02 Cotton]",
-				"Provides [10] [RL03 Dyes]",
-				"Provides [10] [RL04 Gems]",
-				"Provides [10] [RL05 Gold Ore]",
-				"Provides [10] [RL06 Silver]",
-				"Provides [10] [RL07 Incense]",
-				"Provides [10] [RL08 Ivory]",
-				"Provides [10] [RL09 Silk]",
-				"Provides [10] [RL10 Spices]",
-				"Provides [10] [RL11 Wine]",
-				"Provides [10] [RL12 Sugar]",
-				"Provides [10] [RL13 Marble]",
-				"Provides [10] [RL14 Whales]",
-				"Provides [10] [RL15 Pearls]",
-				"Provides [10] [RL16 Citrus]",
-				"Provides [10] [RL17 Copper]",
-				"Provides [10] [RL18 Crab]",
-				"Provides [10] [RL19 Salt]",
-				"Provides [10] [RL20 Truffles]",
-				"Provides [10] [RL21 Cocoa]",
+				"Provides [1] [RL01 Furs]",
+				"Provides [1] [RL02 Cotton]",
+				"Provides [1] [RL03 Dyes]",
+				"Provides [1] [RL04 Gems]",
+				"Provides [1] [RL05 Gold Ore]",
+				"Provides [1] [RL06 Silver]",
+				"Provides [1] [RL07 Incense]",
+				"Provides [1] [RL08 Ivory]",
+				"Provides [1] [RL09 Silk]",
+				"Provides [1] [RL10 Spices]",
+				"Provides [1] [RL11 Wine]",
+				"Provides [1] [RL12 Sugar]",
+				"Provides [1] [RL13 Marble]",
+				"Provides [1] [RL14 Whales]",
+				"Provides [1] [RL15 Pearls]",
+				"Provides [1] [RL16 Citrus]",
+				"Provides [1] [RL17 Copper]",
+				"Provides [1] [RL18 Crab]",
+				"Provides [1] [RL19 Salt]",
+				"Provides [1] [RL20 Truffles]",
+				"Provides [1] [RL21 Cocoa]",
 
-				"Provides [10] [RLCS01 Jewelry]",
-				"Provides [10] [RLCS02 Porcelain]",
+				"Provides [1] [RLCS01 Jewelry]",
+				"Provides [1] [RLCS02 Porcelain]",
 
 //				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
@@ -3119,16 +3119,16 @@
 		"uniques": [
 				"Can only be built <in [Capital] cities> <hidden from users>",
 
-				"Provides [10] [RML01 Amber]",
-				"Provides [10] [RML02 Coffee]",
-				"Provides [10] [RML03 Coral]",
-				"Provides [10] [RML04 Jade]",
-				"Provides [10] [RML05 Lapis Lazuli]",
-				"Provides [10] [RML06 Olives]",
-				"Provides [10] [RML07 Perfume]",
-				"Provides [10] [RML08 Tea]",
-				"Provides [10] [RML09 Tobacco]",
-				"Provides [10] [RML10 Glass]",
+				"Provides [1] [RML01 Amber]",
+				"Provides [1] [RML02 Coffee]",
+				"Provides [1] [RML03 Coral]",
+				"Provides [1] [RML04 Jade]",
+				"Provides [1] [RML05 Lapis Lazuli]",
+				"Provides [1] [RML06 Olives]",
+				"Provides [1] [RML07 Perfume]",
+				"Provides [1] [RML08 Tea]",
+				"Provides [1] [RML09 Tobacco]",
+				"Provides [1] [RML10 Glass]",
 
 //				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [E0 Palace]><hidden from users>",
@@ -6999,7 +6999,6 @@
 				"Destroyed when the city is captured <hidden from users>", 
 				"Can only be built <in [Capital] cities>", 
 				"\",Borrows\",city names from other civilizations in the game", 
-				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]", 
 				"Enables conversion of city production to [Gold]", 
 				"Enables conversion of city production to [Science]", 
 				"Enables conversion of city production to [Culture]", 
@@ -7037,7 +7036,6 @@
 				"Destroyed when the city is captured <hidden from users>", 
 				"Can only be built <in [Capital] cities>", 
 				"\",Borrows\",city names from other civilizations in the game", 
-				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]", 
 				"Enables conversion of city production to [Gold]", 
 				"Enables conversion of city production to [Science]", 
 				"Enables conversion of city production to [Culture]", 
@@ -7061,6 +7059,62 @@
 				"May buy [All] buildings with [Faith] for [3] times their normal Production cost"
 	]
 },
+
+
+	{
+		"name": "Hacktown Human Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"[1] free [E0 Worker] units appear", 
+				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [10] population [in this city]", 
+
+//for human
+				"Only available <for [Human player] Civilizations>",
+				"Unavailable <for [AI player] Civilizations>",
+				"Automatically built in all cities where it is buildable <hidden from users>",
+				//				"Unbuildable <hidden from users>",
+				"Unavailable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+//		"requiredTech": "TechUnlocker"
+	},
+
+	{
+		"name": "Hacktown Enema Vault",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"[1] free [E0 Worker] units appear", 
+				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]", 
+
+//for enema
+				"Unavailable <for [Human player] Civilizations>",
+				"Only available <for [AI player] Civilizations>",
+				"Automatically built in all cities where it is buildable <hidden from users>",
+				"Unavailable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			],
+//		"requiredTech": "TechUnlocker"
+	},
+
+
+
+
+
+
+
+
 
 //xsa//sandboxer
 	{

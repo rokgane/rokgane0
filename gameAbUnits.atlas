@@ -4140,6 +4140,55 @@ TileSets/AbsoluteUnits/Units/DNS Checkeri1-Industrial era-2
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker
+  rotate: false
+  xy: 829, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-1
+  rotate: false
+  xy: 932, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-2
+  rotate: false
+  xy: 1035, 1133
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-Barbarians
+  rotate: false
+  xy: 4, 1145
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-Industrial era
+  rotate: false
+  xy: 1138, 1147
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-Industrial era-1
+  rotate: false
+  xy: 1241, 1161
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/E0 Worker-Industrial era-2
+  rotate: false
+  xy: 1344, 1161
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/E0 Settler
   rotate: false
   xy: 4, 1457

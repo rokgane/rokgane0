@@ -2138,7 +2138,14 @@ UnitIcons/DNS Bomber B17
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/E1 Settler
+UnitIcons/E0 Worker
+  rotate: false
+  xy: 1918, 316
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/E0 Settler
   rotate: false
   xy: 1270, 538
   size: 100, 100

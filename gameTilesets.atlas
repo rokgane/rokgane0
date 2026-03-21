@@ -6632,3 +6632,108 @@ TileSets/FantasyHex/Units/EmbarkedUnit-E0 Settler-Modern era
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/E0 Settler
+  rotate: false
+  xy: 980, 630
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Settler-Barbarians
+  rotate: false
+  xy: 1020, 705
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Settler-Modern era
+  rotate: false
+  xy: 980, 594
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Settler-Modern era-Barbarians
+  rotate: false
+  xy: 1020, 669
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E0 Settler
+  rotate: false
+  xy: 76, 148
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E0 Settler-Modern era
+  rotate: false
+  xy: 76, 76
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/EmbarkedUnit-E0 Settler-Renaissance era
+  rotate: false
+  xy: 76, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Settler
+  rotate: false
+  xy: 1725, 791
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Settler-Modern era
+  rotate: false
+  xy: 1797, 795
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Worker
+  rotate: false
+  xy: 1180, 625
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Worker-Barbarians
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Worker-Barbarians-Modern era
+  rotate: false
+  xy: 1220, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/E0 Worker-Modern era
+  rotate: false
+  xy: 1220, 940
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Worker
+  rotate: false
+  xy: 1534, 1692
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/E0 Worker-Modern era
+  rotate: false
+  xy: 580, 352
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
