@@ -7027,6 +7027,7 @@
 		"isNationalWonder": true, 
 		"cost": 1, 
 		"uniques": [ 
+			"Gain a free [Hacktown Enema Vault] [in this city]"],
 
 //for enema
 				"Unavailable <for [Human player] Civilizations>",
@@ -7063,51 +7064,53 @@
 
 	{
 		"name": "Hacktown Human Vault",
+//		"requiredBuilding": "MiniCake Main",
+//		"cityStrength": 1000,
+//		"cityHealth": 1000,
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-
 				"[1] free [E0 Worker] units appear", 
 				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [10] population [in this city]", 
 
-//for human
-				"Only available <for [Human player] Civilizations>",
 				"Unavailable <for [AI player] Civilizations>",
-				"Automatically built in all cities where it is buildable <hidden from users>",
-				//				"Unbuildable <hidden from users>",
-				"Unavailable <hidden from users>",
+				"Only available <for [Human player] Civilizations><hidden from users>",
+				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <in cities with a [E0 Palace]><in [in cities being razed] cities>",
+
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
-//		"requiredTech": "TechUnlocker"
 	},
+
 
 	{
 		"name": "Hacktown Enema Vault",
+//		"requiredBuilding": "MiniCake Main",
+//		"cityStrength": 1000,
+//		"cityHealth": 1000,
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-
 				"[1] free [E0 Worker] units appear", 
-				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in this city]", 
+				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [10] population [in this city]", 
 
 //for enema
 				"Unavailable <for [Human player] Civilizations>",
 				"Only available <for [AI player] Civilizations>",
-				"Automatically built in all cities where it is buildable <hidden from users>",
-				"Unavailable <hidden from users>",
+				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <in cities with a [E0 Palace]><in [in cities being razed] cities>",
+
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
-//		"requiredTech": "TechUnlocker"
 	},
-
 
 
 
