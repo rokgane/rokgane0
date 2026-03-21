@@ -163,7 +163,7 @@ E3 Longbowman
 			"Can build [DNS Citadel] improvements on tiles",
 
 			"Automation is a primary action",
-			"Limited to [5] per Civilization"
+			"Limited to [0] per Civilization"
 			],
 		"cost": 70,
 	},
