@@ -1357,7 +1357,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E1 Ancient 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E1 Ancient 02"
+					"10 TechLickerEraAncient"
+//					"20 JesusEra E1 Ancient 02"
 				],
 				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1368,7 +1369,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E1 Ancient 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E1 Ancient 03"
+					"10 TechLickerEraAncient"
+//					"30 JesusEra E1 Ancient 03"
 				],
 				"quote": "20 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1379,7 +1381,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E1 Ancient 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E1 Ancient 04"
+					"10 TechLickerEraAncient"
+//					"40 JesusEra E1 Ancient 04"
 				],
 				"quote": "30 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1390,7 +1393,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E1 Ancient 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E1 Ancient 05"
+					"10 TechLickerEraAncient"
+//					"50 JesusEra E1 Ancient 05"
 				],
 				"quote": "40 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1401,7 +1405,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E1 Ancient 05",
 				"row": 20,
 				"prerequisites": [
-					"1X TechClozedEraAncient",
+					"10 TechLickerEraAncient"
+//					"1X TechClozedEraAncient",
 				],
 				"quote": "50 Ancient Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2214,6 +2219,20 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 200,//zgv05Cost
 		"wonderCost": 300,//zgv05Cost
 		"techs": [
+			{
+				"name": "10 TechLickerEraAncient",
+				"row": 11,
+				"prerequisites": [
+					"1X TechClozedEraAncient",
+				],
+				"quote": "10 Ancient Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "10 TechLockerEraAncient",
 				"row": 23,
