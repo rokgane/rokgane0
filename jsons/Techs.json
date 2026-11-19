@@ -1417,9 +1417,14 @@ Mixed   techgk   techgk   slower   slower
 			{
 				"name": "1X TechClozedEraAncient",
 				"row": 23,
-				"prerequisites": [
+				"prerequisite": [
 					"10 TechLockerEraAncient",
-					"10 TechClozedEraAncient"
+					"10 TechOpenedEraAncient",
+					"10 TechSlowerEraAncient",
+					"10 TechMirrorEraAncient",
+					"10 TechClonedEraAncient",
+					"10 TechKosongEraAncient",
+					"10 TechClozedEraAncient",
 				],
 				"quote": "1X Ancient Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1454,7 +1459,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E2 Classical 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E2 Classical 02"
+					"20 TechLickerEraClassical"
+//					"20 JesusEra E2 Classical 02"
 				],
 				"quote": "10 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1465,7 +1471,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E2 Classical 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E2 Classical 03"
+					"20 TechLickerEraClassical"
+//					"30 JesusEra E2 Classical 03"
 				],
 				"quote": "20 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1476,7 +1483,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E2 Classical 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E2 Classical 04"
+					"20 TechLickerEraClassical"
+//					"40 JesusEra E2 Classical 04"
 				],
 				"quote": "30 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1487,7 +1495,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E2 Classical 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E2 Classical 05"
+					"20 TechLickerEraClassical"
+//					"50 JesusEra E2 Classical 05"
 				],
 				"quote": "40 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1498,7 +1507,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E2 Classical 05",
 				"row": 20,
 				"prerequisites": [
-					"2X TechClozedEraClassical",
+					"20 TechLickerEraClassical"
+//					"2X TechClozedEraClassical",
 				],
 				"quote": "50 Classical Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1510,7 +1520,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "2X TechClozedEraClassical",
 				"row": 23,
 				"prerequisites": [
-					"20 TechClozedEraClassical"
+					"20 TechLockerEraClassical",
+					"20 TechOpenedEraClassical",
+					"20 TechSlowerEraClassical",
+					"20 TechMirrorEraClassical",
+					"20 TechClonedEraClassical",
+					"20 TechKosongEraClassical",
+					"20 TechClozedEraClassical",
 				],
 				"quote": "2X Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1545,7 +1561,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E3 Medieval 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E3 Medieval 02"
+					"30 TechLickerEraMedieval"
+//					"20 JesusEra E3 Medieval 02"
 				],
 				"quote": "10 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1556,7 +1573,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E3 Medieval 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E3 Medieval 03"
+					"30 TechLickerEraMedieval"
+//					"30 JesusEra E3 Medieval 03"
 				],
 				"quote": "20 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1567,7 +1585,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E3 Medieval 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E3 Medieval 04"
+					"30 TechLickerEraMedieval"
+//					"40 JesusEra E3 Medieval 04"
 				],
 				"quote": "30 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1578,7 +1597,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E3 Medieval 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E3 Medieval 05"
+					"30 TechLickerEraMedieval"
+//					"50 JesusEra E3 Medieval 05"
 				],
 				"quote": "40 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1589,7 +1609,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E3 Medieval 05",
 				"row": 20,
 				"prerequisites": [
-					"3X TechClozedEraMedieval",
+					"30 TechLickerEraMedieval"
+//					"3X TechClozedEraMedieval",
 				],
 				"quote": "50 Medieval Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1601,7 +1622,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "3X TechClozedEraMedieval",
 				"row": 23,
 				"prerequisites": [
-					"30 TechClozedEraMedieval"
+					"30 TechLockerEraMedieval",
+					"30 TechOpenedEraMedieval",
+					"30 TechSlowerEraMedieval",
+					"30 TechMirrorEraMedieval",
+					"30 TechClonedEraMedieval",
+					"30 TechKosongEraMedieval",
+					"30 TechClozedEraMedieval",
 				],
 				"quote": "3X Medieval Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1636,7 +1663,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E4 Renaissance 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E4 Renaissance 02"
+					"40 TechLickerEraRenaissance"
+//					"20 JesusEra E4 Renaissance 02"
 				],
 				"quote": "10 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1647,7 +1675,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E4 Renaissance 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E4 Renaissance 03"
+					"40 TechLickerEraRenaissance"
+//					"30 JesusEra E4 Renaissance 03"
 				],
 				"quote": "20 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1658,7 +1687,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E4 Renaissance 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E4 Renaissance 04"
+					"40 TechLickerEraRenaissance"
+//					"40 JesusEra E4 Renaissance 04"
 				],
 				"quote": "30 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1669,7 +1699,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E4 Renaissance 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E4 Renaissance 05"
+					"40 TechLickerEraRenaissance"
+//					"50 JesusEra E4 Renaissance 05"
 				],
 				"quote": "40 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1680,7 +1711,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E4 Renaissance 05",
 				"row": 20,
 				"prerequisites": [
-					"4X TechClozedEraRenaissance",
+					"40 TechLickerEraRenaissance"
+//					"4X TechClozedEraRenaissance",
 				],
 				"quote": "50 Renaissance Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1692,7 +1724,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "4X TechClozedEraRenaissance",
 				"row": 23,
 				"prerequisites": [
-					"40 TechClozedEraRenaissance"
+					"40 TechLockerEraRenaissance",
+					"40 TechOpenedEraRenaissance",
+					"40 TechSlowerEraRenaissance",
+					"40 TechMirrorEraRenaissance",
+					"40 TechClonedEraRenaissance",
+					"40 TechKosongEraRenaissance",
+					"40 TechClozedEraRenaissance",
 				],
 				"quote": "4X Renaissance Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1727,7 +1765,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E5 Industrial 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E5 Industrial 02"
+					"50 TechLickerEraIndustrial"
+//					"20 JesusEra E5 Industrial 02"
 				],
 				"quote": "10 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1738,7 +1777,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E5 Industrial 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E5 Industrial 03"
+					"50 TechLickerEraIndustrial"
+//					"30 JesusEra E5 Industrial 03"
 				],
 				"quote": "20 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1749,7 +1789,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E5 Industrial 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E5 Industrial 04"
+					"50 TechLickerEraIndustrial"
+//					"40 JesusEra E5 Industrial 04"
 				],
 				"quote": "30 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1760,7 +1801,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E5 Industrial 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E5 Industrial 05"
+					"50 TechLickerEraIndustrial"
+//					"50 JesusEra E5 Industrial 05"
 				],
 				"quote": "40 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1771,7 +1813,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E5 Industrial 05",
 				"row": 20,
 				"prerequisites": [
-					"5X TechClozedEraIndustrial",
+					"50 TechLickerEraIndustrial"
+//					"5X TechClozedEraIndustrial",
 				],
 				"quote": "50 Industrial Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1784,7 +1827,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "5X TechClozedEraIndustrial",
 				"row": 23,
 				"prerequisites": [
-					"50 TechClozedEraIndustrial"
+					"50 TechLockerEraIndustrial",
+					"50 TechOpenedEraIndustrial",
+					"50 TechSlowerEraIndustrial",
+					"50 TechMirrorEraIndustrial",
+					"50 TechClonedEraIndustrial",
+					"50 TechKosongEraIndustrial",
+					"50 TechClozedEraIndustrial",
 				],
 				"quote": "5X Industrial Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1819,7 +1868,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E6 Modern 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E6 Modern 02"
+					"60 TechLickerEraModern"
+//					"20 JesusEra E6 Modern 02"
 				],
 				"quote": "10 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1830,7 +1880,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E6 Modern 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E6 Modern 03"
+					"60 TechLickerEraModern"
+//					"30 JesusEra E6 Modern 03"
 				],
 				"quote": "20 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1841,7 +1892,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E6 Modern 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E6 Modern 04"
+					"60 TechLickerEraModern"
+//					"40 JesusEra E6 Modern 04"
 				],
 				"quote": "30 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1852,7 +1904,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E6 Modern 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E6 Modern 05"
+					"60 TechLickerEraModern"
+//					"50 JesusEra E6 Modern 05"
 				],
 				"quote": "40 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1863,7 +1916,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E6 Modern 05",
 				"row": 20,
 				"prerequisites": [
-					"6X TechClozedEraModern",
+					"60 TechLickerEraModern"
+//					"6X TechClozedEraModern",
 				],
 				"quote": "50 Modern Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1875,7 +1929,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "6X TechClozedEraModern",
 				"row": 23,
 				"prerequisites": [
-					"60 TechClozedEraModern"
+					"60 TechLockerEraModern",
+					"60 TechOpenedEraModern",
+					"60 TechSlowerEraModern",
+					"60 TechMirrorEraModern",
+					"60 TechClonedEraModern",
+					"60 TechKosongEraModern",
+					"60 TechClozedEraModern",
 				],
 				"quote": "6X Modern Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1910,7 +1970,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E7 Atomic 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E7 Atomic 02"
+					"70 TechLickerEraAtomic"
+//					"20 JesusEra E7 Atomic 02"
 				],
 				"quote": "10 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1921,7 +1982,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E7 Atomic 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E7 Atomic 03"
+					"70 TechLickerEraAtomic"
+//					"30 JesusEra E7 Atomic 03"
 				],
 				"quote": "20 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1932,7 +1994,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E7 Atomic 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E7 Atomic 04"
+					"70 TechLickerEraAtomic"
+//					"40 JesusEra E7 Atomic 04"
 				],
 				"quote": "30 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1943,7 +2006,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E7 Atomic 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E7 Atomic 05"
+					"70 TechLickerEraAtomic"
+//					"50 JesusEra E7 Atomic 05"
 				],
 				"quote": "40 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1954,7 +2018,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E7 Atomic 05",
 				"row": 20,
 				"prerequisites": [
-					"7X TechClozedEraAtomic",
+					"70 TechLickerEraAtomic"
+//					"7X TechClozedEraAtomic",
 				],
 				"quote": "50 Atomic Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -1966,7 +2031,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "7X TechClozedEraAtomic",
 				"row": 23,
 				"prerequisites": [
-					"70 TechClozedEraAtomic"
+					"70 TechLockerEraAtomic",
+					"70 TechOpenedEraAtomic",
+					"70 TechSlowerEraAtomic",
+					"70 TechMirrorEraAtomic",
+					"70 TechClonedEraAtomic",
+					"70 TechKosongEraAtomic",
+					"70 TechClozedEraAtomic",
 				],
 				"quote": "7X Atomic Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -2001,7 +2072,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "10 JesusEra E8 Information 01",
 				"row": 12,
 				"prerequisites": [
-					"20 JesusEra E8 Information 02"
+					"80 TechLickerEraInformation"
+//					"20 JesusEra E8 Information 02"
 				],
 				"quote": "10 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2012,7 +2084,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "20 JesusEra E8 Information 02",
 				"row": 14,
 				"prerequisites": [
-					"30 JesusEra E8 Information 03"
+					"80 TechLickerEraInformation"
+//					"30 JesusEra E8 Information 03"
 				],
 				"quote": "20 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2023,7 +2096,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "30 JesusEra E8 Information 03",
 				"row": 16,
 				"prerequisites": [
-					"40 JesusEra E8 Information 04"
+					"80 TechLickerEraInformation"
+//					"40 JesusEra E8 Information 04"
 				],
 				"quote": "30 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2034,7 +2108,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "40 JesusEra E8 Information 04",
 				"row": 18,
 				"prerequisites": [
-					"50 JesusEra E8 Information 05"
+					"80 TechLickerEraInformation"
+//					"50 JesusEra E8 Information 05"
 				],
 				"quote": "40 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2045,7 +2120,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "50 JesusEra E8 Information 05",
 				"row": 20,
 				"prerequisites": [
-					"8X TechClozedEraInformation",
+					"80 TechLickerEraInformation"
+//					"8X TechClozedEraInformation",
 				],
 				"quote": "50 Information Tech Linker, Slower tech upgrades",
 				"uniques": [
@@ -2057,7 +2133,13 @@ Mixed   techgk   techgk   slower   slower
 				"name": "8X TechClozedEraInformation",
 				"row": 23,
 				"prerequisites": [
-					"80 TechClozedEraInformation"
+					"80 TechLockerEraInformation",
+					"80 TechOpenedEraInformation",
+					"80 TechSlowerEraInformation",
+					"80 TechMirrorEraInformation",
+					"80 TechClonedEraInformation",
+					"80 TechKosongEraInformation",
+					"80 TechClozedEraInformation",
 				],
 				"quote": "8X Information Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -2384,6 +2466,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 100,//zgv10Cost
 		"wonderCost": 250,//zgv10Cost
 		"techs": [
+			{
+				"name": "20 TechLickerEraClassical",
+				"row": 11,
+				"prerequisites": [
+					"2X TechClozedEraClassical",
+				],
+				"quote": "20 Classical Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "20 TechLockerEraClassical",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E2 Classical 01",
+					"20 IsraelEra E2 Classical 02",
+					"30 IsraelEra E2 Classical 03",
+					"40 IsraelEra E2 Classical 04",
+					"50 IsraelEra E2 Classical 05",
+
+				],
+				"quote": "20 Classical Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "20 TechOpenedEraClassical",
@@ -2518,6 +2632,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 160,//zgv15Cost
 		"wonderCost": 400,//zgv15Cost
 		"techs": [
+			{
+				"name": "30 TechLickerEraMedieval",
+				"row": 11,
+				"prerequisites": [
+					"3X TechClozedEraMedieval",
+				],
+				"quote": "30 Medieval Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "30 TechLockerEraMedieval",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E3 Medieval 01",
+					"20 IsraelEra E3 Medieval 02",
+					"30 IsraelEra E3 Medieval 03",
+					"40 IsraelEra E3 Medieval 04",
+					"50 IsraelEra E3 Medieval 05",
+
+				],
+				"quote": "30 Medieval Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "30 TechOpenedEraMedieval",
@@ -2652,6 +2798,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 250,//zgv20Cost
 		"wonderCost": 625,//zgv20Cost
 		"techs": [
+			{
+				"name": "40 TechLickerEraRenaissance",
+				"row": 11,
+				"prerequisites": [
+					"4X TechClozedEraRenaissance",
+				],
+				"quote": "40 Renaissance Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "40 TechLockerEraRenaissance",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E4 Renaissance 01",
+					"20 IsraelEra E4 Renaissance 02",
+					"30 IsraelEra E4 Renaissance 03",
+					"40 IsraelEra E4 Renaissance 04",
+					"50 IsraelEra E4 Renaissance 05",
+
+				],
+				"quote": "40 Renaissance Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "40 TechOpenedEraRenaissance",
@@ -2785,6 +2963,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 360,//zgv25Cost
 		"wonderCost": 900,//zgv25Cost
 		"techs": [
+			{
+				"name": "50 TechLickerEraIndustrial",
+				"row": 11,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial",
+				],
+				"quote": "50 Industrial Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "50 TechLockerEraIndustrial",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E5 Industrial 01",
+					"20 IsraelEra E5 Industrial 02",
+					"30 IsraelEra E5 Industrial 03",
+					"40 IsraelEra E5 Industrial 04",
+					"50 IsraelEra E5 Industrial 05",
+
+				],
+				"quote": "50 Industrial Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "50 TechOpenedEraIndustrial",
@@ -2918,7 +3128,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv30Cost
 		"wonderCost": 1250,//zgv30Cost
 		"techs": [
+			{
+				"name": "60 TechLickerEraModern",
+				"row": 11,
+				"prerequisites": [
+					"6X TechClozedEraModern",
+				],
+				"quote": "60 Modern Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
+			{
+				"name": "60 TechLockerEraModern",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E6 Modern 01",
+					"20 IsraelEra E6 Modern 02",
+					"30 IsraelEra E6 Modern 03",
+					"40 IsraelEra E6 Modern 04",
+					"50 IsraelEra E6 Modern 05",
+
+				],
+				"quote": "60 Modern Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 			{
 				"name": "60 TechOpenedEraModern",
 				"row": 24,
@@ -3052,7 +3293,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv35Cost
 		"wonderCost": 1250,//zgv35Cost
 		"techs": [
+			{
+				"name": "70 TechLickerEraAtomic",
+				"row": 11,
+				"prerequisites": [
+					"7X TechClozedEraAtomic",
+				],
+				"quote": "70 Atomic Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
+			{
+				"name": "70 TechLockerEraAtomic",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E7 Atomic 01",
+					"20 IsraelEra E7 Atomic 02",
+					"30 IsraelEra E7 Atomic 03",
+					"40 IsraelEra E7 Atomic 04",
+					"50 IsraelEra E7 Atomic 05",
+
+				],
+				"quote": "70 Atomic Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 			{
 				"name": "70 TechOpenedEraAtomic",
 				"row": 24,
@@ -3186,6 +3458,38 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 750,//zgv40Cost
 		"wonderCost": 1250,//zgv40Cost
 		"techs": [
+			{
+				"name": "80 TechLickerEraInformation",
+				"row": 11,
+				"prerequisites": [
+					"8X TechClozedEraInformation",
+				],
+				"quote": "80 Information Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "80 TechLockerEraInformation",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E8 Information 01",
+					"20 IsraelEra E8 Information 02",
+					"30 IsraelEra E8 Information 03",
+					"40 IsraelEra E8 Information 04",
+					"50 IsraelEra E8 Information 05",
+
+				],
+				"quote": "80 Information Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
 
 			{
 				"name": "80 TechOpenedEraInformation",

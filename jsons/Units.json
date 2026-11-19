@@ -3558,6 +3558,8 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
+
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3593,6 +3595,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3629,6 +3632,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3665,6 +3669,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3701,6 +3706,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3737,6 +3743,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3775,6 +3782,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3812,6 +3820,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3848,6 +3857,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3884,6 +3894,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"[+6] Sight",
 
 			"Can see over obstacles",
@@ -3942,6 +3953,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
 			"[+6] Sight",
@@ -4026,6 +4038,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
 			"[+30] Sight",
@@ -4069,6 +4082,7 @@ E3 Longbowman
 //		"obsoleteTech":"Advanced Ballistics",
 		"cost": 200,
 		"uniques": [
+			"Comment [12 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
 			"[+6] Sight",
@@ -4252,6 +4266,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [6 limit per Civ]",
 			"May enter foreign tiles without open borders",
 
 			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
@@ -4423,6 +4438,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake Open Aero",
 		"uniques": [
+			"Comment [20 limit per Civ]",
 			"Only available <in cities with a [MiniCake Open Aero]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aero]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -4445,6 +4461,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+			"Comment [20 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -4468,6 +4485,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+			"Comment [20 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -4491,6 +4509,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+			"Comment [10 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -4514,6 +4533,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+			"Comment [10 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -4537,6 +4557,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Unit Nuke",
 		"uniques": [
+			"Comment [10 limit per Civ]",
 			
 			"Only available <in cities with a [MiniCake DNS Unit Nuke]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake DNS locked Nuke]> <hidden from users>",
@@ -4778,9 +4799,10 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [9 limit per Civ]",
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
 
-			"Limited to [6] per Civilization <hidden from users>",
+			"Limited to [9] per Civilization <hidden from users>",
 
 //			"Invisible to non-adjacent units",
 //			"Invisible to others",
@@ -5018,6 +5040,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [3 limit per Civ]",
 			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -5077,6 +5100,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [3 limit per Civ]",
 			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -5200,6 +5224,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [7 limit per Civ]",
 			"Only available <in cities with a [MiniCake Open Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Rest]> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake Lock Aall]> <hidden from users>",
@@ -5714,6 +5739,7 @@ E3 Longbowman
 		"strength": 100,
 		"rangedStrength": 100,
 		"uniques": [
+			"Comment [1 limit per Civ]",
 /*
 			"Adopt [Pan00 Worship of Cendabi]",
 			"Adopt [Fou00 Faith of Cendabi]",
@@ -5746,6 +5772,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
+			"Comment [50 limit per Civ]",
 
 			"Limited to [50] per Civilization <hidden from users>",
 			"Withdraws before melee combat <with [99]% chance>",
@@ -5805,6 +5832,7 @@ E3 Longbowman
 //		"requiredBuilding": "MiniCake DNS Vault",
 		"uniques": [
 
+			"Comment [50 limit per Civ]",
 			"Limited to [50] per Civilization <hidden from users>",
 //			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 			"Withdraws before melee combat <with [99]% chance>",
@@ -5855,6 +5883,7 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+			"Comment [50 limit per Civ]",
 			"Limited to [50] per Civilization",
 
 			"[100]% chance to intercept air attacks", 
@@ -5881,6 +5910,7 @@ E3 Longbowman
 		"cost": 375,
 		"requiredTech": "TechUnlocker",
 		"uniques": [
+			"Comment [50 limit per Civ]",
 			"Limited to [50] per Civilization",
 
 			"Damage taken from interception reduced by [80]%",
@@ -5909,6 +5939,7 @@ E3 Longbowman
 		"requiredTech": "TechUnlocker",
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
+			"Comment [50 limit per Civ]",
 			"Limited to [50] per Civilization",
 
 			"Only available <in cities with a [MiniCake DNS Vault]> <hidden from users>",
