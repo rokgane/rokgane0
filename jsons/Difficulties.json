@@ -194,6 +194,7 @@ added
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": [
+		    "Treats Enema"
 		    "E1 Pottery"
 		],
 		"aiMajorCivBonusStartingUnits": [

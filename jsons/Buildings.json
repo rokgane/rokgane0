@@ -2239,6 +2239,7 @@
 //		"specialistSlots": {"Townie": 10},
 		"uniques": [
 			"Comment [All of these buildings are Unbuildable for AIs so no need to worry + destroyed if city is captured]",
+			"Comment []",
 
 			"[2] free [z0 Revealer] units appear", 
 
@@ -6990,7 +6991,7 @@
 		"isNationalWonder": true, 
 		"cost": 1, 
 		"uniques": [ 
-			"Gain a free [Hacktown Human Vault] [in all cities]",
+			"Gain a free [Hacktown Human Vault] [in all cities connected to capital]",
 
 //for human
 				"Only available <for [Human player] Civilizations>",
@@ -7072,6 +7073,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+				"Unavailable <for [AI player] Civilizations>",
+				"Only available <for [Human player] Civilizations>",
+
 				"[1] free [E0 Worker] units appear", 
 				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [10] population [in this city]", 
 
@@ -7094,6 +7098,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+				"Unavailable <for [Human player] Civilizations>",
+				"Only available <for [AI player] Civilizations>",
+
 				"[1] free [E0 Worker] units appear", 
 				"[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [10] population [in this city]", 
 
@@ -8931,7 +8938,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//				"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+				"Discover [Enable Human Diplomacy]<before discovering [Enable Human Diplomacy]> <for [Human player] Civilizations>",
 				"Comment [Enable Diplomacy for Human]",
 
 				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
@@ -8952,7 +8959,8 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-//				"Discover [Enable Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
+
+				"Discover [Enable AI Diplomacy]<before discovering [Enable AI Diplomacy]> <for [AI player] Civilizations>",
 				"Comment [Enable Diplomacy for AI]",
 
 				"Only available <in cities with a [MiniCake DNS Vault Tech]> <hidden from users>",
@@ -9453,6 +9461,9 @@
 		"uniques": [
 			"Comment [Enable gk for AI]",
 
+			"Unavailable <for [Human player] Civilizations>",
+			"Only available <for [AI player] Civilizations>",
+
 			"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
 
 			"Unbuildable <hidden from users>",
@@ -9498,7 +9509,7 @@
 		"maintenance": 0,
 		"uniques": [
 				"Only available <in cities with a [EnemaGkEnabler]> <hidden from users>",
-
+/*
 				"Sell [MiniCake HideGk Land] buildings [in this city]",
 				"Sell [MiniCake HideGk Navy] buildings [in this city]",
 				"Sell [MiniCake HideGk Aero] buildings [in this city]",
@@ -9509,6 +9520,7 @@
 
 				"Sell [MiniCake HideGk Main] buildings [in this city]",
 				"Sell [MiniCake HideGk Aall] buildings [in this city]",
+*/
 
 //				"Sell [MiniCake ShowGk Aall] buildings [in this city]",
 				"Gain a free [MiniCake ShowGk Aall] [in this city]",
@@ -9530,7 +9542,7 @@
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
-		"requiredTech": "TechUnlocker"
+		"requiredTech": "TechEnemaSwitchGk"
 	},
 
 
@@ -9553,6 +9565,28 @@
 
 
 
+	{
+		"name": "HumanSwitchGkOn",
+		"cost": 10,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Comment [Enable gk for Human]",
+
+			"Unavailable <for [AI player] Civilizations>",
+			"Only available <for [Human player] Civilizations>",
+
+			"Only available <in cities with a [MiniCake Capitol]> <hidden from users>",
+
+			"Unbuildable <hidden from users>",
+			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+			"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+			"Moves to new capital when capital changes<hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "TechUnlocker"
+	},
 
 
 	{
@@ -9619,7 +9653,7 @@
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			],
-		"requiredTech": "TechUnlocker"
+		"requiredTech": "TechHumanSwitchGk"
 	},
 
 
@@ -12542,6 +12576,7 @@ Coffee House
 "MiniCake HideGk Main",
 "MiniCake ShowGk Aall",
 "MiniCake HideGk Aall",
+
 "MiniCake ShowGk Land",
 "MiniCake ShowGk Navy",
 "MiniCake ShowGk Aero",
@@ -12675,6 +12710,7 @@ Coffee House
 
 "Minicake Enable Human Diplomacy",
 "Minicake Enable Enema Diplomacy",
+
 "MiniCake DNS Vault Building",
 "MiniCake DNS Vault Building 1 Ancient",
 "MiniCake DNS Vault Building 2 Classical",

@@ -134,6 +134,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 25,//15,
 				"quote": "Cheat tech",
 				"uniques": [
+		        	"Comment [Enable Enema to travel over water tiles]",
 					"Enables embarkation for land units",
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
@@ -143,6 +144,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 26,//16,
 				"quote": "Cheat tech",
 				"uniques": [
+		        	"Comment [Empty Tech]",
 					"[+9999]% weight to this choice for AI decisions",
 					"Only available <before discovering [E1 Agriculture]>"]
 			},
@@ -177,7 +179,25 @@ Mixed   techgk   techgk   slower   slower
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
 			{//xsa//reenable diplomacy for AI
-				"name": "Enable Diplomacy",
+				"name": "Enable Human Diplomacy",
+				"row": 30,//23,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables establishment of embassies",
+					"Enables Open Borders agreements",
+					"Enables Research agreements",
+					"Enables Defensive Pacts",
+
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{//xsa//reenable diplomacy for AI
+				"name": "Enable AI Diplomacy",
 				"row": 30,//23,
 				"quote": "Cheat tech",
 				"uniques": [
@@ -4382,7 +4402,8 @@ Treats Human
 TechHumanCheat
 TechEnemaCheat
 xsaCrippleReligion
-Enable Diplomacy
+Enable Human Diplomacy
+Enable AI Diplomacy
 TechParadrop
 TechBorderEater
 TechUnlocker

@@ -53,12 +53,12 @@ added scout xp
 */
 
 
-		"Discover [Enable Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
-		"Discover [Enable Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
+		"Discover [Enable AI Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
+		"Discover [Enable Human Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
 
 
 		"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
- //   	"Discover [TechHumanSwitchGk] <upon turn end> <for [Human player] Civilizations> <if [HumanSwitchGkOn] is constructed by anybody>",
+		"Discover [TechHumanSwitchGk] <upon turn end> <for [Human player] Civilizations> <if [HumanSwitchGkOn] is constructed by anybody>",
 
 
 		"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
@@ -195,11 +195,11 @@ added scout xp
 
 
 Enema
-Tech                    Enable Diplomacy
+Tech                    Enable AI Diplomacy
 Building                Minicake Enable Enema Diplomacy
  
 Human
-Tech                    Enable Diplomacy
+Tech                    Enable Human Diplomacy
 Building                Minicake Enable Human Diplomacy
 
 Enema
@@ -257,7 +257,7 @@ Tech                    Era9UnlockEnema
 Building                9 EnemaAdvanceEra Future
 automatically built     Era9EnemaAnnounce
 
-Enema
+Human
 Tech                    TechHumanCheat
 Building                Minicake HumanCheat
 automatically built     DaHumanCheat
@@ -267,7 +267,7 @@ Tech                    TechEnemaCheat
 Building                Minicake EnemaCheat
 automatically built     DaEnemaCheat
 
-Enema
+Human
 Tech                    TechHumanDebuff
 Building                Minicake Tech SlowingDebuff
 automatically built     Human Tech Debuff Activated
@@ -277,6 +277,20 @@ Tech                    TechEnemaDebuff
 Building                Minicake Tech SlowingDebuff
 automatically built     Enema Tech Debuff Activated
 
+autobuilt by palace for enema, linked to globalunique
+EnemaSwitchGkOn
+TechEnemaSwitchGk
 
+autobuilt and enable gk for enema
+EnemaGkEnabler
+Enema ShowGk Aall
+
+manual built for Human, linked to globalunique
+HumanSwitchGkOn
+TechHumanSwitchGk
+
+autobuilt and enable gk for Human
+HumanGkEnabler
+Human ShowGk Aall
 */
 

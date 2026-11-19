@@ -5711,6 +5711,8 @@ E3 Longbowman
 	{
 		"name": "Angel",
 		"unitType": "DNSCivilian",
+		"strength": 100,
+		"rangedStrength": 100,
 		"uniques": [
 /*
 			"Adopt [Pan00 Worship of Cendabi]",
@@ -5720,8 +5722,8 @@ E3 Longbowman
 */
 			"Gain a free [MiniCake Main] [in capital] <by consuming this unit>",
 
-			"[+150]% Strength <when attacking>", 
-			"[+450]% Strength <when defending>", 
+			"[+1500]% Strength <when attacking>", 
+			"[+4500]% Strength <when defending>", 
 			"Limited to [1] per Civilization <hidden from users>",
 			"May Paradrop to [All] tiles up to [20] tiles away", 
 			"Unavailable <hidden from users>",
