@@ -1878,7 +1878,9 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
+			"Gain a free [HumanSwitchGkOn] [in this city]<for [Human player] Civilizations>",//silema2026
 			"Gain a free [EnemaSwitchGkOn] [in this city]<for [AI player] Civilizations>",//silema2026
+
 
 			"[5] free [E0 Settler] units appear<for [AI player] Civilizations>",
 
@@ -9599,7 +9601,7 @@
 
 			"Gain a free [Human ShowGk Aall] [in this city]<for [Human player] Civilizations>",
 //			"[1] free [E1 Settler] units appear <every [20] turns>",
-			"[1] free [E1 Settler] units appear<for [Human player] Civilizations>",
+//			"[1] free [E1 Settler] units appear<for [Human player] Civilizations>",
 
 //			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Automatically built in all cities where it is buildable",
@@ -10625,10 +10627,6 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
-			"Gain a free [1 EnemaInhibitorEra Ancient] [in this city]",
-			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
-			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
-
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10646,15 +10644,6 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
-
-			"Gain a free [1 EnemaInhibitorEra Ancient] [in this city]",
-			"Gain a free [2 EnemaInhibitorEra Classical] [in this city]",
-
-			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
-			"Gain a free [2 EnemaTechEra Classical] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10674,15 +10663,6 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
-			"Gain a free [2 EnemaInhibitorEra Classical] [in this city]",
-			"Gain a free [3 EnemaInhibitorEra Medieval] [in this city]",
-
-			"Gain a free [2 EnemaTechEra Classical] [in this city]",
-			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
-
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10701,15 +10681,6 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
-			"Gain a free [3 EnemaInhibitorEra Medieval] [in this city]",
-			"Gain a free [4 EnemaInhibitorEra Renaissance] [in this city]",
-
-			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
-			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
-
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10727,15 +10698,6 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
-
-			"Gain a free [4 EnemaInhibitorEra Renaissance] [in this city]",
-			"Gain a free [5 EnemaInhibitorEra Industrial] [in this city]",
-
-			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
-			"Gain a free [5 EnemaTechEra Industrial] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10782,16 +10744,6 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
-			"Gain a free [6 EnemaInhibitorEra Modern] [in this city]",
-			"Gain a free [7 EnemaInhibitorEra Atomic] [in this city]",
-
-			"Gain a free [6 EnemaTechEra Modern] [in this city]",
-			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
-
-
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 			"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -10809,15 +10761,6 @@
 		"maintenance": 0,
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
-
-			"Gain a free [7 EnemaInhibitorEra Atomic] [in this city]",
-			"Gain a free [8 EnemaInhibitorEra Information] [in this city]",
-
-			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
-			"Gain a free [8 EnemaTechEra Information] [in this city]",
-
-			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in all cities]",
-			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10837,11 +10780,13 @@
 		"uniques": [
 			"Only available <in cities with a [MiniCake EnemaAdvanceEra Main]> <hidden from users>",
 
-			"Gain a free [8 EnemaInhibitorEra Information] [in this city]",
-			"Gain a free [8 EnemaTechEra Information] [in this city]",
-			"Gain a free [MiniCake DNS Vault Building 8 Information] [in all cities]",
-
-			"Gain a free [MiniCake DNS Vault Building 9 Future] [in this city]",
+ 			"Comment [
+     			autobuilt for enema with Era9UnlockEnema:
+         			8 EnemaInhibitorEra Information
+         			8 EnemaTechEra Information
+         			MiniCake DNS Vault Building 8 Information
+         			MiniCake DNS Vault Building 9 Future
+ 			]",
 
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11825,8 +11770,13 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era1UnlockEnema]><hidden from users>",
+
+			"Gain a free [1 EnemaInhibitorEra Ancient] [in this city]",
+			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11840,8 +11790,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era2UnlockEnema]><hidden from users>",
+
+			"Gain a free [1 EnemaInhibitorEra Ancient] [in this city]",
+			"Gain a free [2 EnemaInhibitorEra Classical] [in this city]",
+
+			"Gain a free [1 EnemaTechEra Ancient] [in this city]",
+			"Gain a free [2 EnemaTechEra Classical] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 1 Ancient] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11855,8 +11815,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era3UnlockEnema]><hidden from users>",
+
+			"Gain a free [2 EnemaInhibitorEra Classical] [in this city]",
+			"Gain a free [3 EnemaInhibitorEra Medieval] [in this city]",
+
+			"Gain a free [2 EnemaTechEra Classical] [in this city]",
+			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 2 Classical] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11870,8 +11840,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era4UnlockEnema]><hidden from users>",
+
+			"Gain a free [3 EnemaInhibitorEra Medieval] [in this city]",
+			"Gain a free [4 EnemaInhibitorEra Renaissance] [in this city]",
+
+			"Gain a free [3 EnemaTechEra Medieval] [in this city]",
+			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 3 Medieval] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11885,8 +11865,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era5UnlockEnema]><hidden from users>",
+
+			"Gain a free [4 EnemaInhibitorEra Renaissance] [in this city]",
+			"Gain a free [5 EnemaInhibitorEra Industrial] [in this city]",
+
+			"Gain a free [4 EnemaTechEra Renaissance] [in this city]",
+			"Gain a free [5 EnemaTechEra Industrial] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 4 Renaissance] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11900,8 +11890,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era6UnlockEnema]><hidden from users>",
+
+			"Gain a free [5 EnemaInhibitorEra Industrial] [in this city]",
+			"Gain a free [6 EnemaInhibitorEra Modern] [in this city]",
+
+			"Gain a free [5 EnemaTechEra Industrial] [in this city]",
+			"Gain a free [6 EnemaTechEra Modern] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 5 Industrial] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11915,8 +11915,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era7UnlockEnema]><hidden from users>",
+
+			"Gain a free [6 EnemaInhibitorEra Modern] [in this city]",
+			"Gain a free [7 EnemaInhibitorEra Atomic] [in this city]",
+
+			"Gain a free [6 EnemaTechEra Modern] [in this city]",
+			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 6 Modern] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11930,8 +11940,18 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after discovering [Era8UnlockEnema]><hidden from users>",
+
+			"Gain a free [7 EnemaInhibitorEra Atomic] [in this city]",
+			"Gain a free [8 EnemaInhibitorEra Information] [in this city]",
+
+			"Gain a free [7 EnemaTechEra Atomic] [in this city]",
+			"Gain a free [8 EnemaTechEra Information] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 7 Atomic] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
@@ -11944,15 +11964,22 @@
 		"cost": 10,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <after discovering [Era8UnlockEnema]><hidden from users>",
+			"Only available <after discovering [Era9UnlockEnema]><hidden from users>",
+
+			"Gain a free [8 EnemaInhibitorEra Information] [in this city]",
+			"Gain a free [8 EnemaTechEra Information] [in this city]",
+			"Gain a free [MiniCake DNS Vault Building 8 Information] [in this city]",
+
+			"Gain a free [MiniCake DNS Vault Building 9 Future] [in this city]",
+
 			"Can only be built <in [Capital] cities> <hidden from users>"
-			"Automatically built in all cities where it is buildable<hidden from users>",
+			"Automatically built in this city where it is buildable<hidden from users>",
 			"Triggers a global alert upon completion", 
 			"Unbuildable <hidden from users>",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Cannot be hurried"],
-		"requiredTech": "Era8UnlockEnema"
+		"requiredTech": "Era9UnlockEnema"
 	},
 
 

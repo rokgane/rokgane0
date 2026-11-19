@@ -198,7 +198,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{//xsa//reenable diplomacy for AI
 				"name": "Enable AI Diplomacy",
-				"row": 30,//23,
+				"row": 31,//23,
 				"quote": "Cheat tech",
 				"uniques": [
 					"Enables establishment of embassies",
@@ -217,7 +217,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{//xsa//Unlocker
 				"name": "TechUnlocker",
-				"row": 31,//19,
+				"row": 32,//19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
@@ -225,7 +225,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{//TechParadrop
 				"name": "TechParadropBase",
-				"row": 32,//20,
+				"row": 33,//20,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
@@ -234,7 +234,7 @@ Mixed   techgk   techgk   slower   slower
 
 			{//TechParadrop
 				"name": "TechParadropMaxd",
-				"row": 33,//21,
+				"row": 34,//21,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[-99]% weight to this choice for AI decisions",
@@ -243,7 +243,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{//TechOpenBorder
 				"name": "TechOpenBorder",
-				"row": 34,//19,
+				"row": 35,//19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",
@@ -251,7 +251,8 @@ Mixed   techgk   techgk   slower   slower
 			},
 
 			{//TechEnemaCheat cheat building
-				"name": "TechBorderEater",				"row": 35,//19,
+				"name": "TechBorderEater",
+				"row": 36,//19,
 				"quote": "Cheat tech",
 				"uniques": [
 					"[+9999]% weight to this choice for AI decisions",

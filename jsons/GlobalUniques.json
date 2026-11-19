@@ -207,7 +207,7 @@ Tech                    TechEnemaSwitchGk
 Building                EnemaSwitchGkOn
 automatically built     EnemaGkEnabler
 
-Enema
+Human
 Tech                    TechHumanSwitchGk
 Building                HumanSwitchGkOn
 automatically built     HumanGkEnabler
@@ -285,7 +285,7 @@ autobuilt and enable gk for enema
 EnemaGkEnabler
 Enema ShowGk Aall
 
-manual built for Human, linked to globalunique
+autobuilt by palace for Human, linked to globalunique
 HumanSwitchGkOn
 TechHumanSwitchGk
 
