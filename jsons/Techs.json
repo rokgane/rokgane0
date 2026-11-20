@@ -1,0 +1,5083 @@
+/*
+
+															Clozed
+															Kosong 
+															Cloned 
+															Mirror			   
+															Slower
+			   Tester   Mixed   techgk   techgk   Inhibit   Opened			Clozed
+//UIera  1 Ancient
+			   //zgv00 //zgv01  //zgv02  //zgv03  //zgv04  //zgv05		   //zgv06
+//UIera  2 Classical
+								//zgv07  //zgv08  //zgv09  //zgv10		   //zgv11
+//UIera  3 Medieval
+								//zgv12  //zgv13  //zgv14  //zgv15		   //zgv16
+//UIera  4 Renaissance
+								//zgv17  //zgv18  //zgv19  //zgv20		   //zgv21
+//UIera  5 Industrial
+								//zgv22  //zgv23  //zgv24  //zgv25		   //zgv26
+//UIera  6 Modern
+								//zgv27  //zgv28  //zgv29  //zgv30		   //zgv31
+//UIera  7 Atomic
+								//zgv32  //zgv33  //zgv34  //zgv35		   //zgv36
+//UIera  8 Information
+								//zgv37  //zgv38  //zgv39  //zgv40		   //zgv41
+//UIera  9 Future
+								//zgv42		   //zgv43  //zgv44		   //zgv45
+
+
+Mixed   techgk   techgk   slower   slower	  
+//xtc00 //xtc01  //xtc02  //xtc03  //xtc04	  UnlockInhibitorEra  1 Ancient
+		//xtc05  //xtc06  //xtc07  //xtc08	  UnlockInhibitorEra  2 Classical
+		//xtc09  //xtc10  //xtc11  //xtc12	  UnlockInhibitorEra  3 Medieval
+		//xtc13  //xtc14  //xtc15  //xtc16	  UnlockInhibitorEra  4 Renaissance
+		//xtc17  //xtc18  //xtc19  //xtc20	  UnlockInhibitorEra  5 Industrial
+		//xtc21  //xtc22  //xtc23  //xtc24	  UnlockInhibitorEra  6 Modern
+		//xtc25  //xtc26  //xtc27  //xtc28	  UnlockInhibitorEra  7 Atomic
+		//xtc29  //xtc30  //xtc31  //xtc32	  UnlockInhibitorEra  8 Information
+		//xtc33		   //xtc34  //xtc35	  UnlockInhibitorEra  9 Future
+
+*/
+
+//xsa//Unlocker
+//xsa//more challenges
+
+//xsa//hated				"uniques": ["Enables establishment of embassies"],
+//xsa//hated				"Enables Open Borders agreements",
+//xsa//hated				"Enables Research agreements",
+//xsa//hated				"uniques": ["Enables Defensive Pacts"],
+
+//XSA//Tech Start
+//XSA//Tech End
+
+
+
+
+
+
+
+
+
+
+
+//XSA//Tech Start
+[
+//XSA//Tech Start
+
+
+	{
+		"columnNumber": 1,//zgv01//xtc00
+		"era": "Ancient era",
+		"techCost": 20,//zgv01Cost
+		"buildingCost": 40,//zgv01Cost
+		"wonderCost": 185,//zgv01Cost
+		"techs": [
+
+			{//xsa//KosongZeroNull
+				"name": "KosongZeroNull",
+				"row": 39,//21,
+				"prerequisites": ["KosongZero0000"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+//					"Only available <before discovering [E1 Agriculture]>"
+					]
+			},
+			{//xsa//KosongZero0000
+				"name": "KosongZero0000",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0001"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+//					"Only available <before discovering [E1 Agriculture]>"
+					]
+			},
+
+			{//TechHumanDebuff cheat building
+				"name": "TechHumanDebuff",
+				"row": 21,//11,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//TechEnemaDebuff cheat building
+				"name": "TechEnemaDebuff",
+				"row": 22,//12,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//DaHumanCheat cheat building
+				"name": "TechHumanSwitchGk",
+				"row": 23,//13,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//DaEnemaCheat cheat building
+				"name": "TechEnemaSwitchGk",
+				"row": 24,//14,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
+			{//xsa//more challenges for AI
+				"name": "Treats Enema",
+				"row": 25,//15,
+				"quote": "Cheat tech",
+				"uniques": [
+		        	"Comment [Enable Enema to travel over water tiles]",
+					"Enables embarkation for land units",
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//xsa//more challenges for Human
+				"name": "Treats Human",
+				"row": 26,//16,
+				"quote": "Cheat tech",
+				"uniques": [
+		        	"Comment [Empty Tech]",
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
+			{//TechHumanCheat cheat building
+				"name": "TechHumanCheat",
+				"row": 27,//17,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//TechEnemaCheat cheat building
+				"name": "TechEnemaCheat",
+				"row": 28,//18,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
+			{//xsa//CrippleReligion
+				"name": "xsaCrippleReligion",
+				"row": 29,//22,
+				"quote": "Cheat tech",
+				"prerequisites": [
+//XSA					"FutureTech 10"
+					],
+				"uniques": [
+					"Only available <before discovering [E1 Agriculture]>",
+					"[-99]% weight to this choice for AI decisions <hidden from users>",
+					"Only available <for [Human player] Civilizations> <hidden from users>"]
+			},
+			{//xsa//reenable diplomacy for AI
+				"name": "Enable Human Diplomacy",
+				"row": 30,//23,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables establishment of embassies",
+					"Enables Open Borders agreements",
+					"Enables Research agreements",
+					"Enables Defensive Pacts",
+
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{//xsa//reenable diplomacy for AI
+				"name": "Enable AI Diplomacy",
+				"row": 31,//23,
+				"quote": "Cheat tech",
+				"uniques": [
+					"Enables establishment of embassies",
+					"Enables Open Borders agreements",
+					"Enables Research agreements",
+					"Enables Defensive Pacts",
+
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+
+			{//xsa//Unlocker
+				"name": "TechUnlocker",
+				"row": 32,//19,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{//TechParadrop
+				"name": "TechParadropBase",
+				"row": 33,//20,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
+			{//TechParadrop
+				"name": "TechParadropMaxd",
+				"row": 34,//21,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>",
+					"Only available <for [Human player] Civilizations> <hidden from users>"]
+			},
+			{//TechOpenBorder
+				"name": "TechOpenBorder",
+				"row": 35,//19,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+
+			{//TechEnemaCheat cheat building
+				"name": "TechBorderEater",
+				"row": 36,//19,
+				"quote": "Cheat tech",
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <before discovering [E1 Agriculture]>"]
+			},
+			{
+				"name": "E1 Agriculture",
+				"row": 16,//6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [
+					"[-99]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies",
+					"Starting tech"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,//zgv02//xtc01
+		"era": "Ancient era",
+		"techCost": 35,//zgv02Cost
+		"buildingCost": 60,//zgv02Cost
+		"wonderCost": 185,//zgv02Cost
+		"techs": [
+
+			{
+				"name": "E1 Pottery",
+				"row": 12,//2,
+				"prerequisites": ["E1 Agriculture"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			},
+			{
+				"name": "E1 Animal Husbandry",
+				"row": 15,//5,
+				"prerequisites": ["E1 Agriculture"],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+			},
+			{
+				"name": "E1 Archery",
+				"row": 17,//7,
+				"prerequisites": ["E1 Agriculture"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			},
+			{
+				"name": "E1 Mining",
+				"row": 19,//9,
+				"prerequisites": ["E1 Agriculture"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Era1DummyGkTech01",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,//zgv03//xtc02
+		"era": "Ancient era",
+		"techCost": 55,//zgv03Cost
+		"buildingCost": 75,//zgv03Cost
+		"wonderCost": 185,//zgv03Cost
+		"techs": [
+
+			{
+				"name": "E1 Sailing",
+				"row": 11,//1,
+				"prerequisites": ["E1 Pottery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			},
+			{
+				"name": "E1 Calendar",
+				"row": 12,//2,
+				"prerequisites": ["E1 Pottery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			},
+			{
+				"name": "E1 Writing",
+				"row": 13,//3,
+				"prerequisites": ["E1 Pottery"],
+//xsa//hated				"uniques": ["Enables establishment of embassies"],
+				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+			},
+			{
+				"name": "E1 Trapping",
+				"row": 15,//5,
+				"prerequisites": ["E1 Animal Husbandry"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
+			},
+			{
+				"name": "E1 The Wheel",
+				"row": 17,//7,
+				"prerequisites": ["E1 Animal Husbandry", "E1 Archery"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "E1 Masonry",
+				"row": 19,//9,
+				"prerequisites": ["E1 Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "E1 Bronze Working",
+				"row": 20,//10,
+				"prerequisites": ["E1 Mining"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+			},
+			{
+				"name": "Era1DummyGkTech02",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,//zgv07//xtc05
+		"era": "Classical era",
+		"techCost": 105,//zgv07Cost
+		"buildingCost": 100,//zgv07Cost
+		"wonderCost": 250,//zgv07Cost
+		"techs": [
+
+			{
+				"name": "E2 Optics",
+				"cost": 85,
+				"row": 11,//1,
+				"prerequisites": [
+					"10 JesusEra E1 Ancient 01"
+					],
+//				"prerequisites": ["E1 Sailing","1X TechClozedEraAncient"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+			},
+			{
+				"name": "E2 Horseback Riding",
+				"row": 15,//5,
+				"prerequisites": [
+					"30 JesusEra E1 Ancient 03"
+					],
+//				"prerequisites": ["E1 Trapping","E1 The Wheel","1X TechClozedEraAncient"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "E2 Mathematics",
+				"row": 17,//7,
+				"prerequisites": [
+					"40 JesusEra E1 Ancient 04"
+					],
+//				"prerequisites": ["E1 The Wheel","1X TechClozedEraAncient"],
+				"quote": "'E2 Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "E2 Construction",
+				"row": 19,//9,
+				"prerequisites": [
+					"50 JesusEra E1 Ancient 05"
+					],
+//				"prerequisites": ["E1 Masonry","E1 The Wheel","1X TechClozedEraAncient"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
+			},
+			{
+				"name": "Era2DummyGkTech01",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,//zgv08//xtc06
+		"era": "Classical era",
+		"techCost": 175,//zgv08Cost
+		"buildingCost": 100,//zgv08Cost
+		"wonderCost": 250,//zgv08Cost
+		"techs": [
+
+			{
+				"name": "E2 Philosophy",
+				"row": 12,//2,
+				"prerequisites": [
+					"10 JesusEra E1 Ancient 01"
+					],
+//				"prerequisites": ["E1 Writing","E1 Calendar","1X TechClozedEraAncient"],
+				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
+			},
+			{
+				"name": "E2 Drama and Poetry",
+				"row": 13,//3,
+				"prerequisites": [
+					"20 JesusEra E1 Ancient 02"
+					],
+//				"prerequisites": ["E1 Writing","1X TechClozedEraAncient"],
+				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
+			},
+			{
+				"name": "E2 Currency",
+				"row": 17,//7,
+				"prerequisites": [
+					"E2 Mathematics"
+					],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
+			},
+			{
+				"name": "E2 Engineering",
+				"row": 18,//8,
+				"prerequisites": [
+					"E2 Mathematics",
+					"E2 Construction",
+					"40 JesusEra E1 Ancient 04"
+					],
+				"uniques": ["Roads connect tiles across rivers","[+100]% weight to this choice for AI decisions"],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			},
+			{
+				"name": "E2 Iron Working",
+				"row": 20,//10,
+				"prerequisites": [
+//					"E1 Bronze Working",
+					"50 JesusEra E1 Ancient 05"
+					],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
+			},
+			{
+				"name": "Era2DummyGkTech02",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 12,//zgv12//xtc09
+		"era": "Medieval era",
+		"techCost": 275,//zgv12Cost
+		"buildingCost": 120,//zgv12Cost
+		"wonderCost": 300,//zgv12Cost
+		"techs": [
+
+			{
+				"name": "E3 Theology",
+				"row": 12,
+				"prerequisites": ["10 JesusEra E2 Classical 01"],
+//				"prerequisites": ["E2 Philosophy", "E2 Drama and Poetry","2X TechClozedEraClassical"],
+				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
+			},
+			{
+				"name": "E3 Civil Service",
+				"row": 15,
+				"prerequisites": ["30 JesusEra E2 Classical 03"],
+//				"prerequisites": ["E2 Currency","E2 Horseback Riding","E2 Drama and Poetry","2X TechClozedEraClassical"],
+				"uniques": [
+//xsa//hated					"Enables Open Borders agreements",
+					"[+100]% weight to this choice for AI decisions"],
+				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "E3 Guilds",
+				"row": 17,
+				"prerequisites": ["40 JesusEra E2 Classical 04"],
+//				"prerequisites": ["E2 Currency","2X TechClozedEraClassical"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
+				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "E3 Metal Casting",
+				"row": 19,
+				"prerequisites": ["50 JesusEra E2 Classical 05"],
+//				"prerequisites": ["E2 Engineering","E2 Iron Working","2X TechClozedEraClassical"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+			},
+			{
+				"name": "Era3DummyGkTech01",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 13,//zgv13//xtc10
+		"era": "Medieval era",
+		"techCost": 485,//zgv13Cost
+		"buildingCost": 160,//zgv13Cost
+		"wonderCost": 400,//zgv13Cost
+		"techs": [
+			{
+				"name": "E3 Compass",
+				"cost": 375,
+				"row": 11,
+				"prerequisites": ["E2 Optics","E3 Theology"],
+//				"prerequisites": ["E2 Optics","E3 Theology","2X TechClozedEraClassical"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			},
+			{
+				"name": "E3 Education",
+				"row": 13,
+				"prerequisites": ["20 JesusEra E2 Classical 02","E3 Theology","E3 Civil Service"],
+//				"prerequisites": ["E3 Theology","E3 Civil Service","2X TechClozedEraClassical"],
+				"uniques": [
+					"Enables conversion of city production to [Science]",
+//xsa//hated					"Enables Research agreements",
+					"[+100]% weight to this choice for AI decisions"],
+				"quote": "'E3 Education is the best provision for old age.' - Aristotle"
+			},
+			{
+				"name": "E3 Chivalry",
+				"row": 16,
+				"prerequisites": ["E3 Civil Service","E3 Guilds"],
+//				"prerequisites": ["E3 Civil Service","E3 Guilds","2X TechClozedEraClassical"],
+//xsa//hated				"uniques": ["Enables Defensive Pacts"],
+				"quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
+			},
+			{
+				"name": "E3 Machinery",
+				"row": 18,
+				"prerequisites": ["E3 Guilds"],
+//				"prerequisites": ["E3 Guilds","E2 Engineering","2X TechClozedEraClassical"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "'The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.' - Thomas Jefferson"
+			},
+			{
+				"name": "E3 Physics",
+				"row": 19,
+				"prerequisites": ["E3 Metal Casting"],
+//				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "E3 Steel",
+				"row": 20,
+				"prerequisites": ["E3 Metal Casting"],
+//				"prerequisites": ["E3 Metal Casting","2X TechClozedEraClassical"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
+			},
+			{
+				"name": "Era3DummyGkTech02",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 17,//zgv17//xtc13
+		"era": "Renaissance era",
+		"techCost": 780,//zgv17Cost
+		"buildingCost": 200,//zgv17Cost
+		"wonderCost": 500,//zgv17Cost
+		"techs": [
+
+			{
+				"name": "E4 Astronomy",
+				"row": 12,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+				"prerequisites": ["10 JesusEra E3 Medieval 01"],
+//				"prerequisites": ["E3 Compass","E3 Education","3X TechClozedEraMedieval"],
+				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
+			},
+			{
+				"name": "E4 Acoustics",
+				"row": 14,
+				"prerequisites": ["20 JesusEra E3 Medieval 02"],
+//				"prerequisites": ["E3 Education","3X TechClozedEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+			},
+			{
+				"name": "E4 Banking",
+				"row": 16,
+				"prerequisites": ["30 JesusEra E3 Medieval 03"],
+//				"prerequisites": ["E3 Chivalry", "E3 Education","3X TechClozedEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			},
+			{
+				"name": "E4 Printing Press",
+				"row": 18,
+				"prerequisites": ["40 JesusEra E3 Medieval 04"],
+//				"prerequisites": ["E3 Machinery","E3 Physics","E3 Chivalry","3X TechClozedEraMedieval"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
+			},
+			{
+				"name": "E4 Gunpowder",
+				"row": 20,
+				"prerequisites": ["50 JesusEra E3 Medieval 05"],
+//				"prerequisites": ["E3 Physics","E3 Steel","3X TechClozedEraMedieval"],
+				"uniques": ["[-50]% weight to this choice for AI decisions","3X TechClozedEraMedieval"],
+				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+			},
+			{
+				"name": "Era4DummyGkTech01",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 18,//zgv18//xtc14
+		"era": "Renaissance era",
+		"techCost": 1150,//zgv18Cost
+		"buildingCost": 250,//zgv18Cost
+		"wonderCost": 625,//zgv18Cost
+		"techs": [
+
+			{
+				"name": "E4 Navigation",
+				"row": 12,
+				"prerequisites": ["E4 Astronomy"],
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
+			},
+			{
+				"name": "E4 Architecture",
+				"row": 14,
+				"prerequisites": ["E4 Acoustics","E4 Banking"],
+				"quote": "'E4 Architecture begins where E2 Engineering ends.' - Walter Gropius"
+			},
+			{
+				"name": "E4 Economics",
+				"row": 16,
+				"prerequisites": ["E4 Banking","E4 Printing Press"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "E4 Metallurgy",
+				"row": 19,
+				"prerequisites": ["E4 Printing Press","E4 Gunpowder"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'There never was a good knife made of bad E3 Steel.' - Benjamin Franklin"
+			},
+			{
+				"name": "E4 Chemistry",
+				"row": 20,
+				"prerequisites": ["E4 Gunpowder"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
+			},
+			{
+				"name": "Era4DummyGkTech02",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 22,//zgv22//xtc17
+		"era": "Industrial era",
+		"techCost": 1600,//zgv22Cost
+		"buildingCost": 300,//zgv22Cost
+		"wonderCost": 750,//zgv22Cost
+		"techs": [
+
+			{
+				"name": "E5 Archaeology",
+				"row": 12,
+				"prerequisites": ["10 JesusEra E4 Renaissance 01"],
+//				"prerequisites": ["E4 Navigation","E4 Architecture","4X TechClozedEraRenaissance"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
+			},
+			{
+				"name": "E5 Scientific Theory",
+				"row": 14,
+				"prerequisites": ["20 JesusEra E4 Renaissance 02"],
+//				"prerequisites": ["E4 Architecture","E4 Economics","4X TechClozedEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
+			},
+			{
+				"name": "E5 Industrialization",
+				"row": 16,
+				"prerequisites": ["30 JesusEra E4 Renaissance 03"],
+//				"prerequisites": ["E4 Economics","4X TechClozedEraRenaissance"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "'E5 Industrialization based on E3 Machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
+			},
+			{
+				"name": "E5 Rifling",
+				"row": 17,
+				"prerequisites": ["30 JesusEra E4 Renaissance 03"],
+//				"prerequisites": ["E4 Economics","E4 Metallurgy","4X TechClozedEraRenaissance"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
+			},
+			{
+				"name": "E5 Military Science",
+				"row": 19,
+				"prerequisites": ["50 JesusEra E4 Renaissance 05"],
+//				"prerequisites": ["E4 Metallurgy","E4 Chemistry","4X TechClozedEraRenaissance"],
+				"quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton"
+			},
+			{
+				"name": "E5 Fertilizer",
+				"row": 20,
+				"prerequisites": ["50 JesusEra E4 Renaissance 05"],
+//				"prerequisites": ["E4 Chemistry","4X TechClozedEraRenaissance"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			},
+			{
+				"name": "Era5DummyGkTech01",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 23,//zgv23//xtc18
+		"era": "Industrial era",
+		"techCost": 2350,//zgv23Cost
+		"buildingCost": 360,//zgv23Cost
+		"wonderCost": 900,//zgv23Cost
+ // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techs": [
+
+			{
+				"name": "E5 Biology",
+				"row": 12,
+				"prerequisites": ["E5 Archaeology","E5 Scientific Theory"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+			{
+				"name": "E5 Electricity",
+				"row": 13,
+				"prerequisites": ["E5 Scientific Theory"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Is it a fact - or have I dreamt it - that, by means of E5 Electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
+			},
+			{
+				"name": "E5 Steam Power",
+				"row": 16,
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
+				"prerequisites": ["E5 Industrialization","E5 Scientific Theory","E5 Rifling"],
+				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
+			},
+			{
+				"name": "E5 Dynamite",
+				"row": 19,
+				"prerequisites": ["E5 Fertilizer","E5 Military Science"],
+				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
+			},
+			{
+				"name": "Era5DummyGkTech02",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 27,//zgv27//xtc21
+		"era": "Modern era",
+		"techCost": 3100,//zgv27Cost
+		"buildingCost": 500,//zgv27Cost
+		"wonderCost": 1060,//zgv27Cost
+		"techs": [
+
+			{
+				"name": "E6 Refrigeration",
+				"row": 12,
+				"prerequisites": ["10 JesusEra E5 Industrial 01"],
+//				"prerequisites": ["E5 Biology", "E5 Electricity","5X TechClozedEraIndustrial"], //todo: offshore platform should need this
+				"uniques": ["[-75]% weight to this choice for AI decisions"],
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+			{
+				"name": "E6 Radio",
+				"row": 13,
+				"prerequisites": ["20 JesusEra E5 Industrial 02"],
+//				"prerequisites": ["E5 Electricity","5X TechClozedEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The whole country was tied together by E6 Radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
+			},
+			{
+				"name": "E6 Replaceable Parts",
+				"row": 14,
+				"prerequisites": ["20 JesusEra E5 Industrial 02"],
+//				"prerequisites": ["E5 Electricity","E5 Steam Power","5X TechClozedEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+			},
+			{
+				"name": "E6 Flight",
+				"row": 16,
+				"prerequisites": ["30 JesusEra E5 Industrial 03"],
+//				"prerequisites": ["E5 Steam Power","5X TechClozedEraIndustrial"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "E6 Railroads",
+				"row": 18,
+				"prerequisites": ["40 JesusEra E5 Industrial 04"],
+//				"prerequisites": ["E5 Steam Power","E5 Dynamite","5X TechClozedEraIndustrial"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			},
+			{
+				"name": "Era6DummyGkTech01",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 28,//zgv28//xtc22
+		"era": "Modern era",
+		"techCost": 4100,//zgv28Cost
+		"buildingCost": 500,//zgv28Cost
+		"wonderCost": 1250,//zgv28Cost
+		"techs": [
+
+			{
+				"name": "E6 Plastics",
+				"row": 13,
+				"prerequisites": ["E6 Radio","E6 Replaceable Parts"],
+				"uniques": ["[+200]% weight to this choice for AI decisions"],
+				"quote": "'Ben, I want to say one word to you, just one word: E6 Plastics.' - Buck Henry and Calder Willingham, The Graduate"
+			},
+			{
+				"name": "E6 Electronics",
+				"row": 15,
+				"prerequisites": ["E6 Replaceable Parts", "E6 Flight"],
+				"quote": "'There's a basic principle about consumer E6 Electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+			},
+			{
+				"name": "E6 Ballistics",
+				"row": 16,
+				"prerequisites": ["E6 Flight"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+			{
+				"name": "E6 Combustion",
+				"row": 18,
+				"prerequisites": ["E6 Railroads"],
+				"uniques": ["[-50]% weight to this choice for AI decisions"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			},
+
+			{
+				"name": "DNS Tech Landships",
+				"row": 35,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial"
+					],
+				"quote": "'The defenders had been driven right and left as soon as the prow of this land Ironclad had loomed up over the front of the trench.' - H.G Wells"
+			},
+			{
+				"name": "DNS Tech Airships",
+				"row": 36,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial"
+					],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+
+			{
+				"name": "Era6DummyGkTech02",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 32,//zgv32//xtc25
+		"era": "Atomic era",
+		"techCost": 5100,//zgv32Cost
+		"buildingCost": 500,//zgv32Cost
+		"wonderCost": 1250,//zgv32Cost
+		"techs": [
+
+			{
+				"name": "E7 Pharmaceuticals",
+				"row": 12,
+				"prerequisites": ["10 JesusEra E6 Modern 01"],
+//				"prerequisites": ["E6 Plastics","E6 Refrigeration","6X TechClozedEraModern"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			},
+			{
+				"name": "E7 Atomic Theory",
+				"row": 14,
+				"prerequisites": ["20 JesusEra E6 Modern 02"],
+//				"prerequisites": ["E6 Plastics","E6 Electronics","6X TechClozedEraModern"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+			},
+			{
+				"name": "E7 Radar",
+				"row": 16,
+				"prerequisites": ["30 JesusEra E6 Modern 03"],
+//				"prerequisites": ["E6 Ballistics","E6 Electronics","6X TechClozedEraModern"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
+			},
+			{
+				"name": "E7 Combined Arms",
+				"row": 18,
+				"prerequisites": ["40 JesusEra E6 Modern 04"],
+//				"prerequisites": ["E6 Ballistics","E6 Combustion","6X TechClozedEraModern"],
+				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			},
+			{
+				"name": "Era7DummyGkTech01",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 33,//zgv33//xtc26
+		"era": "Atomic era",
+		"techCost": 6400,//zgv33Cost
+		"buildingCost": 500,//zgv33Cost
+		"wonderCost": 1250,//zgv33Cost
+		"techs": [
+
+			{
+				"name": "E7 Ecology",
+				"row": 12,
+				"prerequisites": ["E7 Atomic Theory","E7 Pharmaceuticals"],
+				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+			},
+			{
+				"name": "E7 Nuclear Fission",
+				"row": 14,
+				"prerequisites": ["E7 Atomic Theory","E7 Radar"],
+				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+			},
+			{
+				"name": "E7 Rocketry",
+				"row": 16,
+				"prerequisites": ["E7 Radar"],
+				"uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "E7 Computers",
+				"row": 18,
+				"prerequisites": ["E7 Combined Arms","E7 Radar"],
+				"quote": "'E7 Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+			},
+
+			{
+				"name": "DNS Tech Land Leviathan",
+				"row": 35,
+				"prerequisites": [
+ //		   		"5X TechClozedEraIndustrial",
+					"DNS Tech Landships"
+					],
+				"quote": "'Speak softly and carry a big stick; you will go far.' - Theodore Roosevelt"
+			},
+			{
+				"name": "DNS Tech Sky Fortress",
+				"row": 36,
+				"prerequisites": [
+//					"5X TechClozedEraIndustrial",
+					"DNS Tech Airships"
+					],
+				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
+			},
+
+			{
+				"name": "Era7DummyGkTech02",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 37,//zgv37//xtc29
+		"era": "Information era",
+		"techCost": 7700,//zgv37Cost
+		"buildingCost": 750,//zgv37Cost
+		"wonderCost": 1250,//zgv37Cost
+		"techs": [
+
+			{
+				"name": "E8 Telecommunications",
+				"row": 12,
+				"prerequisites": ["10 JesusEra E7 Atomic 01"],
+//				"prerequisites": ["E7 Ecology","7X TechClozedEraAtomic"],
+				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
+			},
+			{
+				"name": "E8 Mobile Tactics",
+				"row": 13,
+				"prerequisites": ["20 JesusEra E7 Atomic 02"],
+//				"prerequisites": ["E7 Ecology","E7 Nuclear Fission","7X TechClozedEraAtomic"],
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+			},
+			{
+				"name": "E8 Advanced Ballistics",
+				"row": 15,
+				"prerequisites": ["30 JesusEra E7 Atomic 03"],
+//				"prerequisites": ["E7 Nuclear Fission","E7 Rocketry","7X TechClozedEraAtomic"],
+				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
+			},
+			{
+				"name": "E8 Satellites",
+				"row": 16,
+				"prerequisites": ["30 JesusEra E7 Atomic 03"],
+//				"prerequisites": ["E7 Rocketry","7X TechClozedEraAtomic"],
+				"uniques": ["Reveals the entire map","[+200]% weight to this choice for AI decisions"],
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "E8 Robotics",
+				"row": 17,
+				"prerequisites": ["40 JesusEra E7 Atomic 04"],
+//				"prerequisites": ["E7 Rocketry","E7 Computers","7X TechClozedEraAtomic"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "E8 Lasers",
+				"row": 18,
+				"prerequisites": ["40 JesusEra E7 Atomic 04"],
+//				"prerequisites": ["E7 Computers","7X TechClozedEraAtomic"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
+			},
+			{
+				"name": "Era8DummyGkTech01",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 38,//zgv38//xtc30
+		"era": "Information era",
+		"techCost": 8800,//zgv38Cost
+		"buildingCost": 750,//zgv38Cost
+		"wonderCost": 1250,//zgv38Cost
+		"techs": [
+
+			{
+				"name": "E8 Globalization",
+				"row": 12,
+				"prerequisites": ["E8 Telecommunications"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
+			},
+			{
+				"name": "E8 Particle Physics",
+				"row": 13,
+				"prerequisites": ["E8 Telecommunications","E8 Mobile Tactics","E8 Advanced Ballistics"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "E8 Nuclear Fusion",
+				"row": 16,
+				"prerequisites": ["E8 Advanced Ballistics", "E8 Satellites", "E8 Robotics"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
+			},
+			{
+				"name": "E8 Nanotechnology",
+				"row": 17,
+				"prerequisites": ["E8 Robotics"],
+				"quote": "'The impact of E8 Nanotechnology is expected to exceed the impact that the E6 Electronics revolution has had on our lives.' - Richard Schwartz"
+			},
+			{
+				"name": "E8 Stealth",
+				"row": 18,
+				"prerequisites": ["E8 Robotics", "E8 Lasers"],
+				"uniques": ["[-100]% weight to this choice for AI decisions"],
+				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+			},
+			{
+				"name": "Era8DummyGkTech02",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 45,//zgv45//xtc35
+		"era": "Future era",
+		"techCost": 9500,//zgv45Cost
+		"buildingCost": 750,//zgv45Cost
+		"wonderCost": 1250,//zgv45Cost
+		"techs": [
+			{//xsa//KosongZeroBase
+				"name": "KosongZeroBase",
+				"row": 40,//21,
+				"prerequisites": [
+					"XX FuturaTech"
+					],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+//					"Only available <before discovering [E1 Agriculture]>"
+				]
+			},
+
+			{
+				"name": "90 FutureTech",
+				"row": 24,
+				"prerequisites": [
+					"9X TechClozedEraFuture", //xsa//added
+					],
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+			{
+				"name": "9X FutureTech",
+				"row": 25,
+				"prerequisites": [
+					"90 FutureTech"
+				],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+			{
+				"name": "ZZ FuturaTech",
+				"row": 15,
+				"prerequisites": ["9X FutureTech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "XX FuturaTech",
+				"row": 26,
+				"prerequisites": ["9X FutureTech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+
+
+
+			{
+				"name": "9X TechClozedEraFuture",
+				"row": 23,
+				"prerequisites": [
+					"90 TechClozedEraFuture"
+				],
+				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era9DummyTech03",
+				"row": 41,
+				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+	{
+		"columnNumber": 6,//zgv06
+		"era": "Ancient era",
+		"techCost": 1100,//zgv06Cost
+		"buildingCost": 200,//zgv06Cost
+		"wonderCost": 300,//zgv06Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E1 Ancient 01",
+				"row": 12,
+				"prerequisites": [
+					"10 TechLickerEraAncient"
+//					"20 JesusEra E1 Ancient 02"
+				],
+				"quote": "10 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E1 Ancient 02",
+				"row": 14,
+				"prerequisites": [
+					"10 TechLickerEraAncient"
+//					"30 JesusEra E1 Ancient 03"
+				],
+				"quote": "20 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E1 Ancient 03",
+				"row": 16,
+				"prerequisites": [
+					"10 TechLickerEraAncient"
+//					"40 JesusEra E1 Ancient 04"
+				],
+				"quote": "30 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E1 Ancient 04",
+				"row": 18,
+				"prerequisites": [
+					"10 TechLickerEraAncient"
+//					"50 JesusEra E1 Ancient 05"
+				],
+				"quote": "40 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E1 Ancient 05",
+				"row": 20,
+				"prerequisites": [
+					"10 TechLickerEraAncient"
+//					"1X TechClozedEraAncient",
+				],
+				"quote": "50 Ancient Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "1X TechClozedEraAncient",
+				"row": 23,
+				"prerequisite": [
+					"10 TechLockerEraAncient",
+					"10 TechOpenedEraAncient",
+					"10 TechSlowerEraAncient",
+					"10 TechMirrorEraAncient",
+					"10 TechClonedEraAncient",
+					"10 TechKosongEraAncient",
+					"10 TechClozedEraAncient",
+				],
+				"quote": "1X Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+			{
+				"name": "Era1DummyTech03",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 11,//zgv11
+		"era": "Classical era",
+		"techCost": 2200,//zgv11Cost
+		"buildingCost": 300,//zgv11Cost
+		"wonderCost": 450,//zgv11Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E2 Classical 01",
+				"row": 12,
+				"prerequisites": [
+					"20 TechLickerEraClassical"
+//					"20 JesusEra E2 Classical 02"
+				],
+				"quote": "10 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E2 Classical 02",
+				"row": 14,
+				"prerequisites": [
+					"20 TechLickerEraClassical"
+//					"30 JesusEra E2 Classical 03"
+				],
+				"quote": "20 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E2 Classical 03",
+				"row": 16,
+				"prerequisites": [
+					"20 TechLickerEraClassical"
+//					"40 JesusEra E2 Classical 04"
+				],
+				"quote": "30 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E2 Classical 04",
+				"row": 18,
+				"prerequisites": [
+					"20 TechLickerEraClassical"
+//					"50 JesusEra E2 Classical 05"
+				],
+				"quote": "40 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E2 Classical 05",
+				"row": 20,
+				"prerequisites": [
+					"20 TechLickerEraClassical"
+//					"2X TechClozedEraClassical",
+				],
+				"quote": "50 Classical Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "2X TechClozedEraClassical",
+				"row": 23,
+				"prerequisites": [
+					"20 TechLockerEraClassical",
+					"20 TechOpenedEraClassical",
+					"20 TechSlowerEraClassical",
+					"20 TechMirrorEraClassical",
+					"20 TechClonedEraClassical",
+					"20 TechKosongEraClassical",
+					"20 TechClozedEraClassical",
+				],
+				"quote": "2X Classical Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era2DummyTech03",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 16,//zgv16
+		"era": "Medieval era",
+		"techCost": 3300,//zgv16Cost
+		"buildingCost": 400,//zgv16Cost
+		"wonderCost": 600,//zgv16Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E3 Medieval 01",
+				"row": 12,
+				"prerequisites": [
+					"30 TechLickerEraMedieval"
+//					"20 JesusEra E3 Medieval 02"
+				],
+				"quote": "10 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E3 Medieval 02",
+				"row": 14,
+				"prerequisites": [
+					"30 TechLickerEraMedieval"
+//					"30 JesusEra E3 Medieval 03"
+				],
+				"quote": "20 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E3 Medieval 03",
+				"row": 16,
+				"prerequisites": [
+					"30 TechLickerEraMedieval"
+//					"40 JesusEra E3 Medieval 04"
+				],
+				"quote": "30 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E3 Medieval 04",
+				"row": 18,
+				"prerequisites": [
+					"30 TechLickerEraMedieval"
+//					"50 JesusEra E3 Medieval 05"
+				],
+				"quote": "40 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E3 Medieval 05",
+				"row": 20,
+				"prerequisites": [
+					"30 TechLickerEraMedieval"
+//					"3X TechClozedEraMedieval",
+				],
+				"quote": "50 Medieval Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "3X TechClozedEraMedieval",
+				"row": 23,
+				"prerequisites": [
+					"30 TechLockerEraMedieval",
+					"30 TechOpenedEraMedieval",
+					"30 TechSlowerEraMedieval",
+					"30 TechMirrorEraMedieval",
+					"30 TechClonedEraMedieval",
+					"30 TechKosongEraMedieval",
+					"30 TechClozedEraMedieval",
+				],
+				"quote": "3X Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era3DummyTech03",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 21,//zgv21
+		"era": "Renaissance era",
+		"techCost": 4400,//zgv21Cost
+		"buildingCost": 500,//zgv21Cost
+		"wonderCost": 750,//zgv21Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E4 Renaissance 01",
+				"row": 12,
+				"prerequisites": [
+					"40 TechLickerEraRenaissance"
+//					"20 JesusEra E4 Renaissance 02"
+				],
+				"quote": "10 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E4 Renaissance 02",
+				"row": 14,
+				"prerequisites": [
+					"40 TechLickerEraRenaissance"
+//					"30 JesusEra E4 Renaissance 03"
+				],
+				"quote": "20 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E4 Renaissance 03",
+				"row": 16,
+				"prerequisites": [
+					"40 TechLickerEraRenaissance"
+//					"40 JesusEra E4 Renaissance 04"
+				],
+				"quote": "30 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E4 Renaissance 04",
+				"row": 18,
+				"prerequisites": [
+					"40 TechLickerEraRenaissance"
+//					"50 JesusEra E4 Renaissance 05"
+				],
+				"quote": "40 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E4 Renaissance 05",
+				"row": 20,
+				"prerequisites": [
+					"40 TechLickerEraRenaissance"
+//					"4X TechClozedEraRenaissance",
+				],
+				"quote": "50 Renaissance Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "4X TechClozedEraRenaissance",
+				"row": 23,
+				"prerequisites": [
+					"40 TechLockerEraRenaissance",
+					"40 TechOpenedEraRenaissance",
+					"40 TechSlowerEraRenaissance",
+					"40 TechMirrorEraRenaissance",
+					"40 TechClonedEraRenaissance",
+					"40 TechKosongEraRenaissance",
+					"40 TechClozedEraRenaissance",
+				],
+				"quote": "4X Renaissance Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era4DummyTech03",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 26,//zgv26
+		"era": "Industrial era",
+		"techCost": 5500,//zgv26Cost
+		"buildingCost": 600,//zgv26Cost
+		"wonderCost": 900,//zgv26Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E5 Industrial 01",
+				"row": 12,
+				"prerequisites": [
+					"50 TechLickerEraIndustrial"
+//					"20 JesusEra E5 Industrial 02"
+				],
+				"quote": "10 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E5 Industrial 02",
+				"row": 14,
+				"prerequisites": [
+					"50 TechLickerEraIndustrial"
+//					"30 JesusEra E5 Industrial 03"
+				],
+				"quote": "20 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E5 Industrial 03",
+				"row": 16,
+				"prerequisites": [
+					"50 TechLickerEraIndustrial"
+//					"40 JesusEra E5 Industrial 04"
+				],
+				"quote": "30 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E5 Industrial 04",
+				"row": 18,
+				"prerequisites": [
+					"50 TechLickerEraIndustrial"
+//					"50 JesusEra E5 Industrial 05"
+				],
+				"quote": "40 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E5 Industrial 05",
+				"row": 20,
+				"prerequisites": [
+					"50 TechLickerEraIndustrial"
+//					"5X TechClozedEraIndustrial",
+				],
+				"quote": "50 Industrial Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+
+			{
+				"name": "5X TechClozedEraIndustrial",
+				"row": 23,
+				"prerequisites": [
+					"50 TechLockerEraIndustrial",
+					"50 TechOpenedEraIndustrial",
+					"50 TechSlowerEraIndustrial",
+					"50 TechMirrorEraIndustrial",
+					"50 TechClonedEraIndustrial",
+					"50 TechKosongEraIndustrial",
+					"50 TechClozedEraIndustrial",
+				],
+				"quote": "5X Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era5DummyTech03",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 31,//zgv31
+		"era": "Modern era",
+		"techCost": 6600,//zgv31Cost
+		"buildingCost": 700,//zgv31Cost
+		"wonderCost": 1050,//zgv31Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E6 Modern 01",
+				"row": 12,
+				"prerequisites": [
+					"60 TechLickerEraModern"
+//					"20 JesusEra E6 Modern 02"
+				],
+				"quote": "10 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E6 Modern 02",
+				"row": 14,
+				"prerequisites": [
+					"60 TechLickerEraModern"
+//					"30 JesusEra E6 Modern 03"
+				],
+				"quote": "20 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E6 Modern 03",
+				"row": 16,
+				"prerequisites": [
+					"60 TechLickerEraModern"
+//					"40 JesusEra E6 Modern 04"
+				],
+				"quote": "30 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E6 Modern 04",
+				"row": 18,
+				"prerequisites": [
+					"60 TechLickerEraModern"
+//					"50 JesusEra E6 Modern 05"
+				],
+				"quote": "40 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E6 Modern 05",
+				"row": 20,
+				"prerequisites": [
+					"60 TechLickerEraModern"
+//					"6X TechClozedEraModern",
+				],
+				"quote": "50 Modern Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "6X TechClozedEraModern",
+				"row": 23,
+				"prerequisites": [
+					"60 TechLockerEraModern",
+					"60 TechOpenedEraModern",
+					"60 TechSlowerEraModern",
+					"60 TechMirrorEraModern",
+					"60 TechClonedEraModern",
+					"60 TechKosongEraModern",
+					"60 TechClozedEraModern",
+				],
+				"quote": "6X Modern Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era6DummyTech03",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 36,//zgv36
+		"era": "Atomic era",
+		"techCost": 7700,//zgv36Cost
+		"buildingCost": 800,//zgv36Cost
+		"wonderCost": 1200,//zgv36Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E7 Atomic 01",
+				"row": 12,
+				"prerequisites": [
+					"70 TechLickerEraAtomic"
+//					"20 JesusEra E7 Atomic 02"
+				],
+				"quote": "10 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E7 Atomic 02",
+				"row": 14,
+				"prerequisites": [
+					"70 TechLickerEraAtomic"
+//					"30 JesusEra E7 Atomic 03"
+				],
+				"quote": "20 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E7 Atomic 03",
+				"row": 16,
+				"prerequisites": [
+					"70 TechLickerEraAtomic"
+//					"40 JesusEra E7 Atomic 04"
+				],
+				"quote": "30 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E7 Atomic 04",
+				"row": 18,
+				"prerequisites": [
+					"70 TechLickerEraAtomic"
+//					"50 JesusEra E7 Atomic 05"
+				],
+				"quote": "40 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E7 Atomic 05",
+				"row": 20,
+				"prerequisites": [
+					"70 TechLickerEraAtomic"
+//					"7X TechClozedEraAtomic",
+				],
+				"quote": "50 Atomic Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "7X TechClozedEraAtomic",
+				"row": 23,
+				"prerequisites": [
+					"70 TechLockerEraAtomic",
+					"70 TechOpenedEraAtomic",
+					"70 TechSlowerEraAtomic",
+					"70 TechMirrorEraAtomic",
+					"70 TechClonedEraAtomic",
+					"70 TechKosongEraAtomic",
+					"70 TechClozedEraAtomic",
+				],
+				"quote": "7X Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era7DummyTech03",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 41,//zgv41
+		"era": "Information era",
+		"techCost": 8800,//zgv41Cost
+		"buildingCost": 900,//zgv41Cost
+		"wonderCost": 1350,//zgv41Cost
+		"techs": [
+
+			{
+				"name": "10 JesusEra E8 Information 01",
+				"row": 12,
+				"prerequisites": [
+					"80 TechLickerEraInformation"
+//					"20 JesusEra E8 Information 02"
+				],
+				"quote": "10 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 JesusEra E8 Information 02",
+				"row": 14,
+				"prerequisites": [
+					"80 TechLickerEraInformation"
+//					"30 JesusEra E8 Information 03"
+				],
+				"quote": "20 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 JesusEra E8 Information 03",
+				"row": 16,
+				"prerequisites": [
+					"80 TechLickerEraInformation"
+//					"40 JesusEra E8 Information 04"
+				],
+				"quote": "30 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 JesusEra E8 Information 04",
+				"row": 18,
+				"prerequisites": [
+					"80 TechLickerEraInformation"
+//					"50 JesusEra E8 Information 05"
+				],
+				"quote": "40 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 JesusEra E8 Information 05",
+				"row": 20,
+				"prerequisites": [
+					"80 TechLickerEraInformation"
+//					"8X TechClozedEraInformation",
+				],
+				"quote": "50 Information Tech Linker, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "8X TechClozedEraInformation",
+				"row": 23,
+				"prerequisites": [
+					"80 TechLockerEraInformation",
+					"80 TechOpenedEraInformation",
+					"80 TechSlowerEraInformation",
+					"80 TechMirrorEraInformation",
+					"80 TechClonedEraInformation",
+					"80 TechKosongEraInformation",
+					"80 TechClozedEraInformation",
+				],
+				"quote": "8X Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era8DummyTech03",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 44,//zgv44
+		"era": "Future era",
+		"techCost": 9900,//zgv44Cost
+		"buildingCost": 1000,//zgv44Cost
+		"wonderCost": 1500,//zgv44Cost
+		"techs": [
+			{
+				"name": "90 TechOpenedEraFuture",
+				"row": 24,
+				"prerequisites": [
+					"90 InhibitorEra Future"
+				],
+				"quote": "90 Future Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechSlowerEraFuture",
+				"row": 25,
+				"prerequisites": [
+					"90 TechOpenedEraFuture"
+				],
+				"quote": "90 Future Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechMirrorEraFuture",
+				"row": 26,
+				"prerequisites": [
+					"90 TechSlowerEraFuture"
+				],
+				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechClonedEraFuture",
+				"row": 27,
+				"prerequisites": [
+					"90 TechMirrorEraFuture"
+				],
+				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechKosongEraFuture",
+				"row": 28,
+				"prerequisites": [
+					"90 TechClonedEraFuture"
+				],
+				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "90 TechClozedEraFuture",
+				"row": 29,
+				"prerequisites": [
+					"90 TechKosongEraFuture"
+				],
+				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era9UnlockHuman",
+				"row": 37,
+				"quote": "9X Future Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era9UnlockEnema",
+				"row": 38,
+				"quote": "9X Future Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era9DummyTech02",
+				"row": 41,
+				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"columnNumber": 5,//zgv05//xtc04
+		"era": "Ancient era",
+		"techCost": 1100,//zgv05Cost
+		"buildingCost": 200,//zgv05Cost
+		"wonderCost": 300,//zgv05Cost
+		"techs": [
+			{
+				"name": "10 TechLickerEraAncient",
+				"row": 11,
+				"prerequisites": [
+					"1X TechClozedEraAncient",
+				],
+				"quote": "10 Ancient Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "10 TechLockerEraAncient",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E1 Ancient 01",
+					"20 IsraelEra E1 Ancient 02",
+					"30 IsraelEra E1 Ancient 03",
+					"40 IsraelEra E1 Ancient 04",
+					"50 IsraelEra E1 Ancient 05",
+
+				],
+				"quote": "10 Ancient Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechOpenedEraAncient",
+				"row": 24,
+				"prerequisites": [
+					"10 InhibitorEra Ancient"
+				],
+				"quote": "10 Ancient Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechSlowerEraAncient",
+				"row": 25,
+				"prerequisites": [
+					"10 TechOpenedEraAncient"
+				],
+				"quote": "10 Ancient Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechMirrorEraAncient",
+				"row": 26,
+				"prerequisites": [
+					"10 TechSlowerEraAncient"
+				],
+				"quote": "10 Ancient Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechClonedEraAncient",
+				"row": 27,
+				"prerequisites": [
+					"10 TechMirrorEraAncient"
+				],
+				"quote": "10 Ancient Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechKosongEraAncient",
+				"row": 28,
+				"prerequisites": [
+					"10 TechClonedEraAncient"
+				],
+				"quote": "10 Ancient Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "10 TechClozedEraAncient",
+				"row": 29,
+				"prerequisites": [
+					"10 TechKosongEraAncient"
+				],
+				"quote": "10 Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era1UnlockHuman",
+				"row": 37,
+				"quote": "1X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era1UnlockEnema",
+				"row": 38,
+				"quote": "1X Ancient Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
+			{//xsa//KosongZero0001
+				"name": "KosongZero0001",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0002"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era1DummyTech02",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+		]
+	},
+
+	{
+		"columnNumber": 10,//zgv10//xtc08
+		"era": "Classical era",
+		"techCost": 175,//zgv10Cost
+		"buildingCost": 100,//zgv10Cost
+		"wonderCost": 250,//zgv10Cost
+		"techs": [
+			{
+				"name": "20 TechLickerEraClassical",
+				"row": 11,
+				"prerequisites": [
+					"2X TechClozedEraClassical",
+				],
+				"quote": "20 Classical Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "20 TechLockerEraClassical",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E2 Classical 01",
+					"20 IsraelEra E2 Classical 02",
+					"30 IsraelEra E2 Classical 03",
+					"40 IsraelEra E2 Classical 04",
+					"50 IsraelEra E2 Classical 05",
+
+				],
+				"quote": "20 Classical Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "20 TechOpenedEraClassical",
+				"row": 24,
+				"prerequisites": [
+					"20 InhibitorEra Classical"
+				],
+				"quote": "20 Classical Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechSlowerEraClassical",
+				"row": 25,
+				"prerequisites": [
+					"20 TechOpenedEraClassical"
+				],
+				"quote": "20 Classical Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechMirrorEraClassical",
+				"row": 26,
+				"prerequisites": [
+					"20 TechSlowerEraClassical"
+				],
+				"quote": "20 Classical Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechClonedEraClassical",
+				"row": 27,
+				"prerequisites": [
+					"20 TechMirrorEraClassical"
+				],
+				"quote": "20 Classical Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechKosongEraClassical",
+				"row": 28,
+				"prerequisites": [
+					"20 TechClonedEraClassical"
+				],
+				"quote": "20 Classical Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "20 TechClozedEraClassical",
+				"row": 29,
+				"prerequisites": [
+					"20 TechKosongEraClassical"
+				],
+				"quote": "20 Classical Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era2UnlockHuman",
+				"row": 37,
+				"quote": "2X Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0002
+				"name": "KosongZero0002",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0003"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era2UnlockEnema",
+				"row": 38,
+				"quote": "2X Classical Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era2DummyTech02",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,//zgv15//xtc12
+		"era": "Medieval era",
+		"techCost": 485,//zgv15Cost
+		"buildingCost": 160,//zgv15Cost
+		"wonderCost": 400,//zgv15Cost
+		"techs": [
+			{
+				"name": "30 TechLickerEraMedieval",
+				"row": 11,
+				"prerequisites": [
+					"3X TechClozedEraMedieval",
+				],
+				"quote": "30 Medieval Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "30 TechLockerEraMedieval",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E3 Medieval 01",
+					"20 IsraelEra E3 Medieval 02",
+					"30 IsraelEra E3 Medieval 03",
+					"40 IsraelEra E3 Medieval 04",
+					"50 IsraelEra E3 Medieval 05",
+
+				],
+				"quote": "30 Medieval Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "30 TechOpenedEraMedieval",
+				"row": 24,
+				"prerequisites": [
+					"30 InhibitorEra Medieval"
+				],
+				"quote": "30 Medieval Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechSlowerEraMedieval",
+				"row": 25,
+				"prerequisites": [
+					"30 TechOpenedEraMedieval"
+				],
+				"quote": "30 Medieval Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechMirrorEraMedieval",
+				"row": 26,
+				"prerequisites": [
+					"30 TechSlowerEraMedieval"
+				],
+				"quote": "30 Medieval Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechClonedEraMedieval",
+				"row": 27,
+				"prerequisites": [
+					"30 TechMirrorEraMedieval"
+				],
+				"quote": "30 Medieval Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechKosongEraMedieval",
+				"row": 28,
+				"prerequisites": [
+					"30 TechClonedEraMedieval"
+				],
+				"quote": "30 Medieval Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "30 TechClozedEraMedieval",
+				"row": 29,
+				"prerequisites": [
+					"30 TechKosongEraMedieval"
+				],
+				"quote": "30 Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era3UnlockHuman",
+				"row": 37,
+				"quote": "3X Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era3UnlockEnema",
+				"row": 38,
+				"quote": "3X Medieval Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0003
+				"name": "KosongZero0003",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0004"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era3DummyTech02",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 20,//zgv20//xtc16
+		"era": "Renaissance era",
+		"techCost": 1150,//zgv20Cost
+		"buildingCost": 250,//zgv20Cost
+		"wonderCost": 625,//zgv20Cost
+		"techs": [
+			{
+				"name": "40 TechLickerEraRenaissance",
+				"row": 11,
+				"prerequisites": [
+					"4X TechClozedEraRenaissance",
+				],
+				"quote": "40 Renaissance Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "40 TechLockerEraRenaissance",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E4 Renaissance 01",
+					"20 IsraelEra E4 Renaissance 02",
+					"30 IsraelEra E4 Renaissance 03",
+					"40 IsraelEra E4 Renaissance 04",
+					"50 IsraelEra E4 Renaissance 05",
+
+				],
+				"quote": "40 Renaissance Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "40 TechOpenedEraRenaissance",
+				"row": 24,
+				"prerequisites": [
+					"40 InhibitorEra Renaissance"
+				],
+				"quote": "40 Renaissance Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechSlowerEraRenaissance",
+				"row": 25,
+				"prerequisites": [
+					"40 TechOpenedEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechMirrorEraRenaissance",
+				"row": 26,
+				"prerequisites": [
+					"40 TechSlowerEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechClonedEraRenaissance",
+				"row": 27,
+				"prerequisites": [
+					"40 TechMirrorEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechKosongEraRenaissance",
+				"row": 28,
+				"prerequisites": [
+					"40 TechClonedEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "40 TechClozedEraRenaissance",
+				"row": 29,
+				"prerequisites": [
+					"40 TechKosongEraRenaissance"
+				],
+				"quote": "40 Renaissance Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era4UnlockHuman",
+				"row": 37,
+				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era4UnlockEnema",
+				"row": 38,
+				"quote": "4X Renaissance Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0004
+				"name": "KosongZero0004",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0005"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "Era4DummyTech02",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 25,//zgv25//xtc20
+		"era": "Industrial era",
+		"techCost": 2350,//zgv25Cost
+		"buildingCost": 360,//zgv25Cost
+		"wonderCost": 900,//zgv25Cost
+		"techs": [
+			{
+				"name": "50 TechLickerEraIndustrial",
+				"row": 11,
+				"prerequisites": [
+					"5X TechClozedEraIndustrial",
+				],
+				"quote": "50 Industrial Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "50 TechLockerEraIndustrial",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E5 Industrial 01",
+					"20 IsraelEra E5 Industrial 02",
+					"30 IsraelEra E5 Industrial 03",
+					"40 IsraelEra E5 Industrial 04",
+					"50 IsraelEra E5 Industrial 05",
+
+				],
+				"quote": "50 Industrial Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "50 TechOpenedEraIndustrial",
+				"row": 24,
+				"prerequisites": [
+					"50 InhibitorEra Industrial"
+				],
+				"quote": "50 Industrial Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechSlowerEraIndustrial",
+				"row": 25,
+				"prerequisites": [
+					"50 TechOpenedEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechMirrorEraIndustrial",
+				"row": 26,
+				"prerequisites": [
+					"50 TechSlowerEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechClonedEraIndustrial",
+				"row": 27,
+				"prerequisites": [
+					"50 TechMirrorEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechKosongEraIndustrial",
+				"row": 28,
+				"prerequisites": [
+					"50 TechClonedEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "50 TechClozedEraIndustrial",
+				"row": 29,
+				"prerequisites": [
+					"50 TechKosongEraIndustrial"
+				],
+				"quote": "50 Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era5UnlockHuman",
+				"row": 37,
+				"quote": "5X Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era5UnlockEnema",
+				"row": 38,
+				"quote": "5X Industrial Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0005
+				"name": "KosongZero0005",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0006"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "Era5DummyTech02",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 30,//zgv30//xtc24
+		"era": "Modern era",
+		"techCost": 4100,//zgv30Cost
+		"buildingCost": 500,//zgv30Cost
+		"wonderCost": 1250,//zgv30Cost
+		"techs": [
+			{
+				"name": "60 TechLickerEraModern",
+				"row": 11,
+				"prerequisites": [
+					"6X TechClozedEraModern",
+				],
+				"quote": "60 Modern Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "60 TechLockerEraModern",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E6 Modern 01",
+					"20 IsraelEra E6 Modern 02",
+					"30 IsraelEra E6 Modern 03",
+					"40 IsraelEra E6 Modern 04",
+					"50 IsraelEra E6 Modern 05",
+
+				],
+				"quote": "60 Modern Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechOpenedEraModern",
+				"row": 24,
+				"prerequisites": [
+					"60 InhibitorEra Modern"
+				],
+				"quote": "60 Modern Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechSlowerEraModern",
+				"row": 25,
+				"prerequisites": [
+					"60 TechOpenedEraModern"
+				],
+				"quote": "60 Modern Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechMirrorEraModern",
+				"row": 26,
+				"prerequisites": [
+					"60 TechSlowerEraModern"
+				],
+				"quote": "60 Modern Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechClonedEraModern",
+				"row": 27,
+				"prerequisites": [
+					"60 TechMirrorEraModern"
+				],
+				"quote": "60 Modern Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechKosongEraModern",
+				"row": 28,
+				"prerequisites": [
+					"60 TechClonedEraModern"
+				],
+				"quote": "60 Modern Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "60 TechClozedEraModern",
+				"row": 29,
+				"prerequisites": [
+					"60 TechKosongEraModern"
+				],
+				"quote": "60 Modern Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era6UnlockHuman",
+				"row": 37,
+				"quote": "6X Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era6UnlockEnema",
+				"row": 38,
+				"quote": "6X Modern Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0006
+				"name": "KosongZero0006",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0007"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era6DummyTech02",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 35,//zgv35//xtc28
+		"era": "Atomic era",
+		"techCost": 6400,//zgv35Cost
+		"buildingCost": 500,//zgv35Cost
+		"wonderCost": 1250,//zgv35Cost
+		"techs": [
+			{
+				"name": "70 TechLickerEraAtomic",
+				"row": 11,
+				"prerequisites": [
+					"7X TechClozedEraAtomic",
+				],
+				"quote": "70 Atomic Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "70 TechLockerEraAtomic",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E7 Atomic 01",
+					"20 IsraelEra E7 Atomic 02",
+					"30 IsraelEra E7 Atomic 03",
+					"40 IsraelEra E7 Atomic 04",
+					"50 IsraelEra E7 Atomic 05",
+
+				],
+				"quote": "70 Atomic Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechOpenedEraAtomic",
+				"row": 24,
+				"prerequisites": [
+					"70 InhibitorEra Atomic"
+				],
+				"quote": "70 Atomic Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechSlowerEraAtomic",
+				"row": 25,
+				"prerequisites": [
+					"70 TechOpenedEraAtomic"
+				],
+				"quote": "70 Atomic Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechMirrorEraAtomic",
+				"row": 26,
+				"prerequisites": [
+					"70 TechSlowerEraAtomic"
+				],
+				"quote": "70 Atomic Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechClonedEraAtomic",
+				"row": 27,
+				"prerequisites": [
+					"70 TechMirrorEraAtomic"
+				],
+				"quote": "70 Atomic Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechKosongEraAtomic",
+				"row": 28,
+				"prerequisites": [
+					"70 TechClonedEraAtomic"
+				],
+				"quote": "70 Atomic Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "70 TechClozedEraAtomic",
+				"row": 29,
+				"prerequisites": [
+					"70 TechKosongEraAtomic"
+				],
+				"quote": "70 Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era7UnlockHuman",
+				"row": 37,
+				"quote": "7X Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era7UnlockEnema",
+				"row": 38,
+				"quote": "7X Atomic Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0007
+				"name": "KosongZero0007",
+				"row": 40,//21,
+				"prerequisites": ["KosongZero0008"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era7DummyTech02",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 40,//zgv40//xtc32
+		"era": "Information era",
+		"techCost": 8800,//zgv40Cost
+		"buildingCost": 750,//zgv40Cost
+		"wonderCost": 1250,//zgv40Cost
+		"techs": [
+			{
+				"name": "80 TechLickerEraInformation",
+				"row": 11,
+				"prerequisites": [
+					"8X TechClozedEraInformation",
+				],
+				"quote": "80 Information Tech Licker, Licker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "80 TechLockerEraInformation",
+				"row": 23,
+				"prerequisites": [
+					"10 IsraelEra E8 Information 01",
+					"20 IsraelEra E8 Information 02",
+					"30 IsraelEra E8 Information 03",
+					"40 IsraelEra E8 Information 04",
+					"50 IsraelEra E8 Information 05",
+
+				],
+				"quote": "80 Information Tech Locker, Locker tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "80 TechOpenedEraInformation",
+				"row": 24,
+				"prerequisites": [
+					"80 InhibitorEra Information"
+				],
+				"quote": "80 Information Tech Opened, Opened tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechSlowerEraInformation",
+				"row": 25,
+				"prerequisites": [
+					"80 TechOpenedEraInformation"
+				],
+				"quote": "80 Information Tech Slower, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechMirrorEraInformation",
+				"row": 26,
+				"prerequisites": [
+					"80 TechSlowerEraInformation"
+				],
+				"quote": "80 Information Tech Mirror, Mirror tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechClonedEraInformation",
+				"row": 27,
+				"prerequisites": [
+					"80 TechMirrorEraInformation"
+				],
+				"quote": "80 Information Tech Cloned, Cloned tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechKosongEraInformation",
+				"row": 28,
+				"prerequisites": [
+					"80 TechClonedEraInformation"
+				],
+				"quote": "80 Information Tech Kosong, Kosong tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "80 TechClozedEraInformation",
+				"row": 29,
+				"prerequisites": [
+					"80 TechKosongEraInformation"
+				],
+				"quote": "80 Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
+				"name": "Era8UnlockHuman",
+				"row": 37,
+				"quote": "8X Information Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "Era8UnlockEnema",
+				"row": 38,
+				"quote": "8X Information Tech Slower, slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{//xsa//KosongZero0008
+				"name": "KosongZero0008",
+				"row": 40,//21,
+				"prerequisites": ["KosongZeroBase"],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "Era8DummyTech02",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+	{
+		"columnNumber": 43,//zgv43//xtc34
+		"era": "Future era",
+		"techCost": 9500,//zgv43Cost
+		"buildingCost": 750,//zgv43Cost
+		"wonderCost": 1250,//zgv43Cost
+		"techs": [
+			{
+				"name": "90 InhibitorEra Future",
+				"row": 23,
+				"prerequisites": [
+					"E9 Future Tech"
+				],
+				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era9
+					"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+
+//zgv43					"Discover [80 TechClozedEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era9DummyTech01",
+				"row": 41,
+				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+	{
+		"columnNumber": 42,//zgv42//xtc33
+		"era": "Future era",
+		"techCost": 9500,//zgv42Cost
+		"buildingCost": 750,//zgv42Cost
+		"wonderCost": 1250,//zgv42Cost
+		"techs": [
+
+			{
+				"name": "E9 Future Tech",
+				"row": 15,
+				"prerequisites": [
+					"10 JesusEra E8 Information 01", //xsa//added
+
+//					"E8 Globalization",
+//					"E8 Particle Physics",
+//					"E8 Nuclear Fusion",
+//					"E8 Nanotechnology",
+//					"E8 Stealth"
+
+				],
+				"uniques": [
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+
+			{
+				"name": "Era9DummyGkTech01",
+				"row": 41,
+				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+	{
+		"columnNumber": 4,//zgv04//xtc03
+		"era": "Ancient era",
+		"techCost": 1100,//zgv04Cost
+		"buildingCost": 200,//zgv04Cost
+		"wonderCost": 300,//zgv04Cost
+		"techs": [
+//era1
+			{
+				"name": "10 IsraelEra E1 Ancient 01",
+				"row": 12,
+				"prerequisites": [
+					"E1 Sailing",
+					"E1 Calendar",
+				],
+				"quote": "10 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E1 Ancient 02",
+				"row": 14,
+				"prerequisites": [
+					"10 IsraelEra E1 Ancient 01",
+					"E1 Writing"
+				],
+				"quote": "20 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E1 Ancient 03",
+				"row": 16,
+				"prerequisites": [
+					"20 IsraelEra E1 Ancient 02",
+					"E1 Trapping"
+				],
+				"quote": "30 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E1 Ancient 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra E1 Ancient 03",
+					"E1 The Wheel"
+				],
+				"quote": "40 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E1 Ancient 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra E1 Ancient 04",
+					"E1 Masonry",
+					"E1 Bronze Working"
+				],
+				"quote": "50 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "10 InhibitorEra Ancient",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E1 Ancient 05",
+/*
+					"E1 Pottery",
+					"E1 Animal Husbandry",
+					"E1 Archery",
+					"E1 Mining",
+
+					"E1 Sailing",
+					"E1 Calendar",
+					"E1 Writing",
+					"E1 Trapping",
+					"E1 The Wheel",
+					"E1 Masonry",
+					"E1 Bronze Working"
+*/
+],
+				"quote": "50 Ancient Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era1
+					"Discover [E1 Pottery]<before discovering [E1 Pottery]>",
+					"Discover [E1 Animal Husbandry]<before discovering [E1 Animal Husbandry]>",
+					"Discover [E1 Archery]<before discovering [E1 Archery]>",
+					"Discover [E1 Mining]<before discovering [E1 Mining]>",
+		
+					"Discover [E1 Sailing]<before discovering [E1 Sailing]>",
+					"Discover [E1 Calendar]<before discovering [E1 Calendar]>",
+					"Discover [E1 Writing]<before discovering [E1 Writing]>",
+					"Discover [E1 Trapping]<before discovering [E1 Trapping]>",
+					"Discover [E1 The Wheel]<before discovering [E1 The Wheel]>",
+					"Discover [E1 Masonry]<before discovering [E1 Masonry]>",
+					"Discover [E1 Bronze Working]<before discovering [E1 Bronze Working]>",
+
+//zgv04					"Discover [10 TechClozedEraAncient]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+			{
+				"name": "Era1DummyTech01",
+				"row": 41,
+				"quote": "10 Ancient Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,//zgv09//xtc07
+		"era": "Classical era",
+		"techCost": 105,//zgv09Cost
+		"buildingCost": 100,//zgv09Cost
+		"wonderCost": 250,//zgv09Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E2 Classical 01",
+				"row": 12,
+				"prerequisites": [
+					"E2 Philosophy"
+				],
+				"quote": "10 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E2 Classical 02",
+				"row": 14,
+				"prerequisites": [
+					"E2 Drama and Poetry",
+					"10 IsraelEra E2 Classical 01"
+				],
+				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E2 Classical 03",
+				"row": 16,
+				"prerequisites": [
+					"E2 Horseback Riding",
+					"20 IsraelEra E2 Classical 02"
+				],
+				"quote": "30 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E2 Classical 04",
+				"row": 18,
+				"prerequisites": [
+					"E2 Currency",
+					"E2 Engineering",
+					"30 IsraelEra E2 Classical 03"
+				],
+				"quote": "40 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E2 Classical 05",
+				"row": 20,
+				"prerequisites": [
+					"E2 Construction",
+					"E2 Iron Working",
+					"40 IsraelEra E2 Classical 04"
+				],
+				"quote": "50 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "20 InhibitorEra Classical",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E2 Classical 05",
+/*
+					"E2 Optics",
+					"E2 Horseback Riding",
+					"E2 Mathematics",
+					"E2 Construction",
+
+					"E2 Philosophy",
+					"E2 Drama and Poetry",
+					"E2 Currency",
+					"E2 Engineering",
+					"E2 Iron Working"
+*/
+
+//XSA					"10 InhibitorEra Ancient"
+				],
+				"quote": "20 Classical Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era2
+					"Discover [E2 Optics]<before discovering [E2 Optics]>",
+					"Discover [E2 Horseback Riding]<before discovering [E2 Horseback Riding]>",
+					"Discover [E2 Mathematics]<before discovering [E2 Mathematics]>",
+					"Discover [E2 Construction]<before discovering [E2 Construction]>",
+		
+					"Discover [E2 Philosophy]<before discovering [E2 Philosophy]>",
+					"Discover [E2 Drama and Poetry]<before discovering [E2 Drama and Poetry]>",
+					"Discover [E2 Currency]<before discovering [E2 Currency]>",
+					"Discover [E2 Engineering]<before discovering [E2 Engineering]>",
+					"Discover [E2 Iron Working]<before discovering [E2 Iron Working]>",
+
+//zgv09					"Discover [20 TechClozedEraClassical]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era2DummyTech01",
+				"row": 41,
+				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 14,//zgv14//xtc11
+		"era": "Medieval era",
+		"techCost": 275,//zgv14Cost
+		"buildingCost": 120,//zgv14Cost
+		"wonderCost": 300,//zgv14Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E3 Medieval 01",
+				"row": 12,
+				"prerequisites": [
+					"E3 Theology",
+					"E3 Compass"
+				],
+				"quote": "10 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E3 Medieval 02",
+				"row": 14,
+				"prerequisites": [
+					"E3 Education",
+					"10 IsraelEra E3 Medieval 01"
+				],
+				"quote": "20 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E3 Medieval 03",
+				"row": 16,
+				"prerequisites": [
+					"E3 Chivalry",
+					"20 IsraelEra E3 Medieval 02"
+				],
+				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E3 Medieval 04",
+				"row": 18,
+				"prerequisites": [
+					"E3 Machinery",
+					"30 IsraelEra E3 Medieval 03"
+				],
+				"quote": "40 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E3 Medieval 05",
+				"row": 20,
+				"prerequisites": [
+					"E3 Physics",
+					"E3 Steel",
+					"40 IsraelEra E3 Medieval 04"
+				],
+				"quote": "50 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "30 InhibitorEra Medieval",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E3 Medieval 05",
+/*
+					"E3 Theology",
+					"E3 Civil Service",
+					"E3 Guilds",
+					"E3 Metal Casting",
+
+					"E3 Compass",
+					"E3 Education",
+					"E3 Chivalry",
+					"E3 Machinery",
+					"E3 Physics",
+					"E3 Steel"
+*/
+//					"20 InhibitorEra Classical"
+				],
+				"quote": "30 Medieval Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era3
+					"Discover [E3 Theology]<before discovering [E3 Theology]>",
+					"Discover [E3 Civil Service]<before discovering [E3 Civil Service]>",
+					"Discover [E3 Guilds]<before discovering [E3 Guilds]>",
+					"Discover [E3 Metal Casting]<before discovering [E3 Metal Casting]>",
+					
+					"Discover [E3 Compass]<before discovering [E3 Compass]>",
+					"Discover [E3 Education]<before discovering [E3 Education]>",
+					"Discover [E3 Chivalry]<before discovering [E3 Chivalry]>",
+					"Discover [E3 Machinery]<before discovering [E3 Machinery]>",
+					"Discover [E3 Physics]<before discovering [E3 Physics]>",
+					"Discover [E3 Steel]<before discovering [E3 Steel]>",
+					
+//zgv14					"Discover [30 TechClozedEraMedieval]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era3DummyTech01",
+				"row": 41,
+				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 19,//zgv19//xtc15
+		"era": "Renaissance era",
+		"techCost": 780,//zgv19Cost
+		"buildingCost": 200,//zgv19Cost
+		"wonderCost": 500,//zgv19Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E4 Renaissance 01",
+				"row": 12,
+				"prerequisites": [
+					"E4 Navigation",
+				],
+				"quote": "10 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E4 Renaissance 02",
+				"row": 14,
+				"prerequisites": [
+					"E4 Architecture",
+					"10 IsraelEra E4 Renaissance 01"
+				],
+				"quote": "20 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E4 Renaissance 03",
+				"row": 16,
+				"prerequisites": [
+					"E4 Economics",
+					"20 IsraelEra E4 Renaissance 02"
+				],
+				"quote": "30 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E4 Renaissance 04",
+				"row": 18,
+				"prerequisites": [
+					"E4 Printing Press",
+					"30 IsraelEra E4 Renaissance 03"
+				],
+				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E4 Renaissance 05",
+				"row": 20,
+				"prerequisites": [
+					"E4 Metallurgy",
+					"E4 Chemistry",
+					"40 IsraelEra E4 Renaissance 04"
+				],
+				"quote": "50 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "40 InhibitorEra Renaissance",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E4 Renaissance 05",
+/*
+					"E4 Astronomy",
+					"E4 Acoustics",
+					"E4 Banking",
+					"E4 Printing Press",
+					"E4 Gunpowder",
+
+					"E4 Navigation",
+					"E4 Architecture",
+					"E4 Economics",
+					"E4 Metallurgy",
+					"E4 Chemistry"
+*/
+//					"30 InhibitorEra Medieval"
+				],
+				"quote": "40 Renaissance Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era4
+					"Discover [E4 Astronomy]<before discovering [E4 Astronomy]>",
+					"Discover [E4 Acoustics]<before discovering [E4 Acoustics]>",
+					"Discover [E4 Banking]<before discovering [E4 Banking]>",
+					"Discover [E4 Printing Press]<before discovering [E4 Printing Press]>",
+					"Discover [E4 Gunpowder]<before discovering [E4 Gunpowder]>",
+		
+					"Discover [E4 Navigation]<before discovering [E4 Navigation]>",
+					"Discover [E4 Architecture]<before discovering [E4 Architecture]>",
+					"Discover [E4 Economics]<before discovering [E4 Economics]>",
+					"Discover [E4 Metallurgy]<before discovering [E4 Metallurgy]>",
+					"Discover [E4 Chemistry]<before discovering [E4 Chemistry]>",
+
+//zgv19					"Discover [40 TechClozedEraRenaissance]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era4DummyTech01",
+				"row": 41,
+				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 24,//zgv24//xtc19
+		"era": "Industrial era",
+		"techCost": 1600,//zgv24Cost
+		"buildingCost": 300,//zgv24Cost
+		"wonderCost": 750,//zgv24Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E5 Industrial 01",
+				"row": 12,
+				"prerequisites": [
+					"E5 Biology"
+				],
+				"quote": "10 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E5 Industrial 02",
+				"row": 14,
+				"prerequisites": [
+					"E5 Electricity",
+					"10 IsraelEra E5 Industrial 01"
+				],
+				"quote": "20 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E5 Industrial 03",
+				"row": 16,
+				"prerequisites": [
+					"E5 Steam Power",
+					"20 IsraelEra E5 Industrial 02"
+				],
+				"quote": "30 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E5 Industrial 04",
+				"row": 18,
+				"prerequisites": [
+					"30 IsraelEra E5 Industrial 03"
+				],
+				"quote": "40 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E5 Industrial 05",
+				"row": 20,
+				"prerequisites": [
+					"E5 Dynamite",
+					"40 IsraelEra E5 Industrial 04"
+				],
+				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "50 InhibitorEra Industrial",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E5 Industrial 05"
+/*
+					"E5 Archaeology",
+					"E5 Scientific Theory",
+					"E5 Industrialization",
+					"E5 Rifling",
+					"E5 Military Science",
+					"E5 Fertilizer",
+				
+					"E5 Biology",
+					"E5 Electricity",
+					"E5 Steam Power",
+					"E5 Dynamite",
+*/
+//					"40 InhibitorEra Renaissance"
+
+				],
+				"quote": "50 Industrial Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+
+//					"Discover [DNS Tech Landships]<before discovering [DNS Tech Landships]>",
+//					"Discover [DNS Tech Airships]<before discovering [DNS Tech Airships]>",
+//era5
+					"Discover [E5 Archaeology]<before discovering [E5 Archaeology]>",
+					"Discover [E5 Scientific Theory]<before discovering [E5 Scientific Theory]>",
+					"Discover [E5 Industrialization]<before discovering [E5 Industrialization]>",
+					"Discover [E5 Rifling]<before discovering [E5 Rifling]>",
+					"Discover [E5 Military Science]<before discovering [E5 Military Science]>",
+					"Discover [E5 Fertilizer]<before discovering [E5 Fertilizer]>",
+		
+					"Discover [E5 Biology]<before discovering [E5 Biology]>",
+					"Discover [E5 Electricity]<before discovering [E5 Electricity]>",
+					"Discover [E5 Steam Power]<before discovering [E5 Steam Power]>",
+					"Discover [E5 Dynamite]<before discovering [E5 Dynamite]>",
+
+//zgv24					"Discover [50 TechClozedEraIndustrial]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era5DummyTech01",
+				"row": 41,
+				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 29,//zgv29//xtc23
+		"era": "Modern era",
+		"techCost": 3100,//zgv29Cost
+		"buildingCost": 500,//zgv29Cost
+		"wonderCost": 1060,//zgv29Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E6 Modern 01",
+				"row": 12,
+				"prerequisites": [
+					"E6 Refrigeration"
+				],
+				"quote": "10 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E6 Modern 02",
+				"row": 14,
+				"prerequisites": [
+					"E6 Plastics",
+					"10 IsraelEra E6 Modern 01"
+				],
+				"quote": "20 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E6 Modern 03",
+				"row": 16,
+				"prerequisites": [
+					"E6 Electronics",
+					"E6 Ballistics",
+					"20 IsraelEra E6 Modern 02"
+				],
+				"quote": "30 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E6 Modern 04",
+				"row": 18,
+				"prerequisites": [
+					"E6 Combustion",
+					"30 IsraelEra E6 Modern 03"
+				],
+				"quote": "40 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E6 Modern 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra E6 Modern 04"
+				],
+				"quote": "50 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "60 InhibitorEra Modern",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E6 Modern 05",
+/*
+					"E6 Refrigeration",
+					"E6 Radio",
+					"E6 Replaceable Parts",
+					"E6 Flight",
+					"E6 Railroads",
+
+					"E6 Plastics",
+					"E6 Electronics",
+					"E6 Ballistics",
+					"E6 Combustion",
+*/
+//					"50 InhibitorEra Industrial"
+//					"DNS Tech Land Leviathan",
+//					"DNS Tech Sky Fortress"
+				],
+				"quote": "60 Modern Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+
+//					"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
+//					"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
+//era6
+					"Discover [E6 Refrigeration]<before discovering [E6 Refrigeration]>",
+					"Discover [E6 Radio]<before discovering [E6 Radio]>",
+					"Discover [E6 Replaceable Parts]<before discovering [E6 Replaceable Parts]>",
+					"Discover [E6 Flight]<before discovering [E6 Flight]>",
+					"Discover [E6 Railroads]<before discovering [E6 Railroads]>",
+					
+					"Discover [E6 Plastics]<before discovering [E6 Plastics]>",
+					"Discover [E6 Electronics]<before discovering [E6 Electronics]>",
+					"Discover [E6 Ballistics]<before discovering [E6 Ballistics]>",
+					"Discover [E6 Combustion]<before discovering [E6 Combustion]>",
+
+
+//zgv29					"Discover [60 TechClozedEraModern]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era6DummyTech01",
+				"row": 41,
+				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
+		]
+	},
+	{
+		"columnNumber": 34,//zgv34//xtc27
+		"era": "Atomic era",
+		"techCost": 5100,//zgv34Cost
+		"buildingCost": 500,//zgv34Cost
+		"wonderCost": 1250,//zgv34Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E7 Atomic 01",
+				"row": 12,
+				"prerequisites": [
+					"E7 Ecology"
+				],
+				"quote": "10 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E7 Atomic 02",
+				"row": 14,
+				"prerequisites": [
+					"E7 Nuclear Fission",
+					"10 IsraelEra E7 Atomic 01"
+				],
+				"quote": "20 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E7 Atomic 03",
+				"row": 16,
+				"prerequisites": [
+					"E7 Rocketry",
+					"20 IsraelEra E7 Atomic 02"
+				],
+				"quote": "30 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E7 Atomic 04",
+				"row": 18,
+				"prerequisites": [
+					"E7 Computers",
+					"30 IsraelEra E7 Atomic 03"
+				],
+				"quote": "40 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E7 Atomic 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra E7 Atomic 04"
+				],
+				"quote": "50 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "70 InhibitorEra Atomic",
+				"row": 23,
+				"prerequisites": [
+
+					"DNS Tech Land Leviathan",
+					"DNS Tech Sky Fortress",
+					"50 IsraelEra E7 Atomic 05",
+/*
+					"E7 Pharmaceuticals",
+					"E7 Atomic Theory",
+					"E7 Radar",
+					"E7 Combined Arms",
+
+					"E7 Ecology",
+					"E7 Nuclear Fission",
+					"E7 Rocketry",
+					"E7 Computers"
+*/
+//					"60 InhibitorEra Modern"
+				],
+				"quote": "70 Atomic Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era7
+
+					"Discover [E7 Pharmaceuticals]<before discovering [E7 Pharmaceuticals]>",
+					"Discover [E7 Atomic Theory]<before discovering [E7 Atomic Theory]>",
+					"Discover [E7 Radar]<before discovering [E7 Radar]>",
+					"Discover [E7 Combined Arms]<before discovering [E7 Combined Arms]>",
+		
+					"Discover [E7 Ecology]<before discovering [E7 Ecology]>",
+					"Discover [E7 Nuclear Fission]<before discovering [E7 Nuclear Fission]>",
+					"Discover [E7 Rocketry]<before discovering [E7 Rocketry]>",
+					"Discover [E7 Computers]<before discovering [E7 Computers]>",
+
+//zgv34					"Discover [70 TechClozedEraAtomic]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era7DummyTech01",
+				"row": 41,
+				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+	{
+		"columnNumber": 39,//zgv39//xtc31
+		"era": "Information era",
+		"techCost": 7700,//zgv39Cost
+		"buildingCost": 750,//zgv39Cost
+		"wonderCost": 1250,//zgv39Cost
+		"techs": [
+
+			{
+				"name": "10 IsraelEra E8 Information 01",
+				"row": 12,
+				"prerequisites": [
+					"E8 Globalization"
+				],
+				"quote": "10 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "20 IsraelEra E8 Information 02",
+				"row": 14,
+				"prerequisites": [
+					"E8 Particle Physics",
+					"10 IsraelEra E8 Information 01"
+				],
+				"quote": "20 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "30 IsraelEra E8 Information 03",
+				"row": 16,
+				"prerequisites": [
+					"E8 Nuclear Fusion",
+					"20 IsraelEra E8 Information 02"
+				],
+				"quote": "30 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "40 IsraelEra E8 Information 04",
+				"row": 18,
+				"prerequisites": [
+					"E8 Nanotechnology",
+					"E8 Stealth",
+					"30 IsraelEra E8 Information 03"
+				],
+				"quote": "40 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+			{
+				"name": "50 IsraelEra E8 Information 05",
+				"row": 20,
+				"prerequisites": [
+					"40 IsraelEra E8 Information 04"
+				],
+				"quote": "50 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried"
+					]
+			},
+
+			{
+				"name": "80 InhibitorEra Information",
+				"row": 23,
+				"prerequisites": [
+					"50 IsraelEra E8 Information 05",
+/*
+					"E8 Telecommunications",
+					"E8 Mobile Tactics",
+					"E8 Advanced Ballistics",
+					"E8 Satellites",
+					"E8 Robotics",
+					"E8 Lasers",
+
+					"E8 Globalization",
+					"E8 Particle Physics",
+					"E8 Nuclear Fusion",
+					"E8 Nanotechnology",
+					"E8 Stealth"
+*/
+//					"70 InhibitorEra Atomic",
+				],
+				"quote": "80 Information Tech Inhibitor, Slower tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+//era8
+					"Discover [E8 Telecommunications]<before discovering [E8 Telecommunications]>",
+					"Discover [E8 Mobile Tactics]<before discovering [E8 Mobile Tactics]>",
+					"Discover [E8 Advanced Ballistics]<before discovering [E8 Advanced Ballistics]>",
+					"Discover [E8 Satellites]<before discovering [E8 Satellites]>",
+					"Discover [E8 Robotics]<before discovering [E8 Robotics]>",
+					"Discover [E8 Lasers]<before discovering [E8 Lasers]>",
+		
+					"Discover [E8 Globalization]<before discovering [E8 Globalization]>",
+					"Discover [E8 Particle Physics]<before discovering [E8 Particle Physics]>",
+					"Discover [E8 Nuclear Fusion]<before discovering [E8 Nuclear Fusion]>",
+					"Discover [E8 Nanotechnology]<before discovering [E8 Nanotechnology]>",
+					"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
+
+//zgv39					"Discover [80 TechClozedEraInformation]"
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			},
+
+			{
+				"name": "Era8DummyTech01",
+				"row": 41,
+				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},
+
+
+
+	{
+		"columnNumber": 0,//zgv00//xtc36
+		"era": "Ancient era",
+		"techCost": 20,//zgv00Cost
+		"buildingCost": 40,//zgv00Cost
+		"wonderCost": 185,//zgv00Cost
+		"techs": [
+/*
+			{
+				"name": "BalkanZero",
+				"row": 37,
+
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+*/
+		]
+	}
+
+
+//XSA//Tech End
+]
+//XSA//Tech End
+
+
+
+
+
+
+
+//Lista Tech
+
+/*
+
+
+//Era0
+KosongZero0000
+KosongZeroNull
+TechHumanDebuff
+TechEnemaDebuff
+TechHumanSwitchGk
+TechEnemaSwitchGk
+Treats Enema
+Treats Human
+TechHumanCheat
+TechEnemaCheat
+xsaCrippleReligion
+Enable Human Diplomacy
+Enable AI Diplomacy
+TechParadrop
+TechBorderEater
+TechUnlocker
+TechOpenBorder
+E1 Agriculture
+
+//Era1
+E1 Pottery
+E1 Animal Husbandry
+E1 Archery
+E1 Mining
+
+E1 Sailing
+E1 Calendar
+E1 Writing
+E1 Trapping
+E1 The Wheel
+E1 Masonry
+E1 Bronze Working
+
+//Era2
+E2 Optics
+E2 Horseback Riding
+E2 Mathematics
+E2 Construction
+
+E2 Philosophy
+E2 Drama and Poetry
+E2 Currency
+E2 Engineering
+E2 Iron Working
+
+//Era3
+E3 Theology
+E3 Civil Service
+E3 Guilds
+E3 Metal Casting
+
+E3 Compass
+E3 Education
+E3 Chivalry
+E3 Machinery
+E3 Physics
+E3 Steel
+
+//Era4
+E4 Astronomy
+E4 Acoustics
+E4 Banking
+E4 Printing Press
+E4 Gunpowder
+
+E4 Navigation
+E4 Architecture
+E4 Economics
+E4 Metallurgy
+E4 Chemistry
+
+//Era5
+E5 Archaeology
+E5 Scientific Theory
+E5 Industrialization
+E5 Rifling
+E5 Military Science
+E5 Fertilizer
+
+E5 Biology
+E5 Electricity
+E5 Steam Power
+E5 Dynamite
+
+//Era6
+E6 Refrigeration
+E6 Radio
+E6 Replaceable Parts
+E6 Flight
+E6 Railroads
+
+E6 Plastics
+E6 Electronics
+E6 Ballistics
+E6 Combustion
+
+//Era7
+E7 Pharmaceuticals
+E7 Atomic Theory
+E7 Radar
+E7 Combined Arms
+
+E7 Ecology
+E7 Nuclear Fission
+E7 Rocketry
+E7 Computers
+
+//Era8
+E8 Telecommunications
+E8 Mobile Tactics
+E8 Advanced Ballistics
+E8 Satellites
+E8 Robotics
+E8 Lasers
+
+E8 Globalization
+E8 Particle Physics
+E8 Nuclear Fusion
+E8 Nanotechnology
+E8 Stealth
+
+//Era9
+E9 Future Tech 
+
+
+
+//Era1 slower
+10 IsraelEra E1 Ancient 01
+20 IsraelEra E1 Ancient 02
+30 IsraelEra E1 Ancient 03
+40 IsraelEra E1 Ancient 04
+50 IsraelEra E1 Ancient 05
+10 JesusEra E1 Ancient 01
+20 JesusEra E1 Ancient 02
+30 JesusEra E1 Ancient 03
+40 JesusEra E1 Ancient 04
+50 JesusEra E1 Ancient 05
+
+1X TechClozedEraAncient
+10 InhibitorEra Ancient
+
+10 TechClozedEraAncient
+10 TechKosongEraAncient
+10 TechClonedEraAncient
+10 TechMirrorEraAncient
+10 TechSlowerEraAncient
+10 TechOpenedEraAncient
+
+//Era2 slower
+10 IsraelEra E2 Classical 01
+20 IsraelEra E2 Classical 02
+30 IsraelEra E2 Classical 03
+40 IsraelEra E2 Classical 04
+50 IsraelEra E2 Classical 05
+10 JesusEra E2 Classical 01
+20 JesusEra E2 Classical 02
+30 JesusEra E2 Classical 03
+40 JesusEra E2 Classical 04
+50 JesusEra E2 Classical 05
+
+2X TechClozedEraClassical
+20 InhibitorEra Classical
+
+20 TechClozedEraClassical
+20 TechKosongEraClassical
+20 TechClonedEraClassical
+20 TechMirrorEraClassical
+20 TechSlowerEraClassical
+20 TechOpenedEraClassical
+
+//Era3 slower
+10 IsraelEra E3 Medieval 01
+20 IsraelEra E3 Medieval 02
+30 IsraelEra E3 Medieval 03
+40 IsraelEra E3 Medieval 04
+50 IsraelEra E3 Medieval 05
+10 JesusEra E3 Medieval 01
+20 JesusEra E3 Medieval 02
+30 JesusEra E3 Medieval 03
+40 JesusEra E3 Medieval 04
+50 JesusEra E3 Medieval 05
+
+3X TechClozedEraMedieval
+30 InhibitorEra Medieval
+
+30 TechClozedEraMedieval
+30 TechKosongEraMedieval
+30 TechClonedEraMedieval
+30 TechMirrorEraMedieval
+30 TechSlowerEraMedieval
+30 TechOpenedEraMedieval
+
+//Era4 slower
+10 IsraelEra E4 Renaissance 01
+20 IsraelEra E4 Renaissance 02
+30 IsraelEra E4 Renaissance 03
+40 IsraelEra E4 Renaissance 04
+50 IsraelEra E4 Renaissance 05
+10 JesusEra E4 Renaissance 01
+20 JesusEra E4 Renaissance 02
+30 JesusEra E4 Renaissance 03
+40 JesusEra E4 Renaissance 04
+50 JesusEra E4 Renaissance 05
+
+4X TechClozedEraRenaissance
+40 InhibitorEra Renaissance
+
+40 TechClozedEraRenaissance
+40 TechKosongEraRenaissance
+40 TechClonedEraRenaissance
+40 TechMirrorEraRenaissance
+40 TechSlowerEraRenaissance
+40 TechOpenedEraRenaissance
+
+//Era5 slower
+10 IsraelEra E5 Industrial 01
+20 IsraelEra E5 Industrial 02
+30 IsraelEra E5 Industrial 03
+40 IsraelEra E5 Industrial 04
+50 IsraelEra E5 Industrial 05
+10 JesusEra E5 Industrial 01
+20 JesusEra E5 Industrial 02
+30 JesusEra E5 Industrial 03
+40 JesusEra E5 Industrial 04
+50 JesusEra E5 Industrial 05
+
+5X TechClozedEraIndustrial
+50 InhibitorEra Industrial
+
+50 TechClozedEraIndustrial
+50 TechKosongEraIndustrial
+50 TechClonedEraIndustrial
+50 TechMirrorEraIndustrial
+50 TechSlowerEraIndustrial
+50 TechOpenedEraIndustrial
+
+//Era6 slower
+10 IsraelEra E6 Modern 01
+20 IsraelEra E6 Modern 02
+30 IsraelEra E6 Modern 03
+40 IsraelEra E6 Modern 04
+50 IsraelEra E6 Modern 05
+10 JesusEra E6 Modern 01
+20 JesusEra E6 Modern 02
+30 JesusEra E6 Modern 03
+40 JesusEra E6 Modern 04
+50 JesusEra E6 Modern 05
+
+6X TechClozedEraModern
+60 InhibitorEra Modern
+
+60 TechClozedEraModern
+60 TechKosongEraModern
+60 TechClonedEraModern
+60 TechMirrorEraModern
+60 TechSlowerEraModern
+60 TechOpenedEraModern
+
+//Era7 slower
+10 IsraelEra E7 Atomic 01
+20 IsraelEra E7 Atomic 02
+30 IsraelEra E7 Atomic 03
+40 IsraelEra E7 Atomic 04
+50 IsraelEra E7 Atomic 05
+10 JesusEra E7 Atomic 01
+20 JesusEra E7 Atomic 02
+30 JesusEra E7 Atomic 03
+40 JesusEra E7 Atomic 04
+50 JesusEra E7 Atomic 05
+
+7X TechClozedEraAtomic
+70 InhibitorEra Atomic
+
+70 TechClozedEraAtomic
+70 TechKosongEraAtomic
+70 TechClonedEraAtomic
+70 TechMirrorEraAtomic
+70 TechSlowerEraAtomic
+70 TechOpenedEraAtomic
+
+//Era8 slower
+10 IsraelEra E8 Information 01
+20 IsraelEra E8 Information 02
+30 IsraelEra E8 Information 03
+40 IsraelEra E8 Information 04
+50 IsraelEra E8 Information 05
+10 JesusEra E8 Information 01
+20 JesusEra E8 Information 02
+30 JesusEra E8 Information 03
+40 JesusEra E8 Information 04
+50 JesusEra E8 Information 05
+
+8X TechClozedEraInformation
+80 InhibitorEra Information
+
+80 TechClozedEraInformation
+80 TechKosongEraInformation
+80 TechClonedEraInformation
+80 TechMirrorEraInformation
+80 TechSlowerEraInformation
+80 TechOpenedEraInformation
+
+//Era9 slower
+90 InhibitorEra Future
+
+90 TechOpenedEraFuture
+90 TechSlowerEraFuture
+90 TechMirrorEraFuture
+90 TechClonedEraFuture
+90 TechKosongEraFuture
+90 TechClozedEraFuture
+
+9X TechClozedEraFuture
+90 FutureTech
+9X FutureTech
+XX FuturaTech
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Lista Tech
+//Era1 slower
+//Era2 slower
+//Era3 slower
+//Era4 slower
+//Era5 slower
+//Era6 slower
+//Era7 slower
+//Era8 slower
+//Era9 slower

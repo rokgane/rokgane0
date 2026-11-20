@@ -1,0 +1,296 @@
+/*
+added scout xp
+
+
+*/
+
+
+
+{
+	"name": "Global Uniques",
+	"uniques": [
+		
+		"[+1] Sight <for [All] units> <before turn number [5]>",
+		"Enables embarkation for land units <before the [Classical era]>",
+
+//		"[+1 Gold] per every [200] [Gold] <after discovering [xsaUnlocker]>",//xsahumancheat
+/*
+		"[-10000 Gold] per every [10000] [Gold]",//<every [1] turns>",
+		"[-500 Science] per every [500] [Science]",//<every [1] turns>",
+		"[-500 Culture] per every [500] [Culture]",//<every [1] turns>",
+		"[-500 Faith] per every [500] [Faith]",//<every [1] turns>",
+		"[-500 Happiness] per every [500] [Happiness]",//<every [1] turns>",
+/*
+
+/*			
+		//xsa//compound interest
+		"[+1 Gold] per every [200] [Gold] <after discovering [Banking]>",
+		"[+1 Gold] per every [200] [Gold] <after discovering [Economics]>",
+		"[+1 Gold] per every [200] [Gold] <starting from the [Industrial era]>",
+		"[+1 Gold] per every [200] [Gold] <starting from the [Modern era]>",
+		"[+1 Gold] per every [200] [Gold] <starting from the [Atomic era]>",
+
+		
+		//xsa//vanilla
+		// Golden Age Bonuses
+		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Industrial era]>",
+		"[+1 Gold] per every [200] [Gold] <during a Golden Age> <starting from the [Atomic era]>",
+*/		
+
+//limitation for unit
+/*
+"Instantly consumes [3] [RD01 CityCount]<upon losing a city>",
+
+"Instantly provides [3] [RD01 CityCount]<upon conquering a city>",
+
+"Instantly provides [3] [RD01 CityCount]<upon founding a city>",
+
+"Instantly consumes [7] [RD02 P0Pcap]<upon losing a city>",
+
+"Instantly provides [7] [RD02 P0Pcap]<upon conquering a city>",
+
+"Instantly provides [7] [RD02 P0Pcap]<upon founding a city>",
+*/
+
+
+		"Discover [Enable AI Diplomacy] <upon turn end> <for [AI player] Civilizations> <if [Minicake Enable Enema Diplomacy] is constructed by anybody>",
+		"Discover [Enable Human Diplomacy] <upon turn end> <for [Human player] Civilizations> <if [Minicake Enable Human Diplomacy] is constructed by anybody>",
+
+
+		"Discover [TechEnemaSwitchGk] <upon turn end> <for [AI player] Civilizations> <if [EnemaSwitchGkOn] is constructed by anybody>",
+		"Discover [TechHumanSwitchGk] <upon turn end> <for [Human player] Civilizations> <if [HumanSwitchGkOn] is constructed by anybody>",
+
+
+		"Discover [Era1UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [1 EnemaAdvanceEra Ancient] is constructed by anybody>",
+		"Discover [Era2UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [2 EnemaAdvanceEra Classical] is constructed by anybody>",
+		"Discover [Era3UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [3 EnemaAdvanceEra Medieval] is constructed by anybody>",
+		"Discover [Era4UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [4 EnemaAdvanceEra Renaissance] is constructed by anybody>",
+		"Discover [Era5UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [5 EnemaAdvanceEra Industrial] is constructed by anybody>",
+		"Discover [Era6UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [6 EnemaAdvanceEra Modern] is constructed by anybody>",
+		"Discover [Era7UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [7 EnemaAdvanceEra Atomic] is constructed by anybody>",
+		"Discover [Era8UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [8 EnemaAdvanceEra Information] is constructed by anybody>",
+		"Discover [Era9UnlockEnema] <upon turn end> <for [AI player] Civilizations> <if [9 EnemaAdvanceEra Future] is constructed by anybody>",
+
+		"Discover [TechHumanCheat] <upon turn end> <for [Human player] Civilizations> <if [Minicake HumanCheat] is constructed by anybody>",
+		"Discover [TechEnemaCheat] <upon turn end> <for [AI player] Civilizations> <if [Minicake EnemaCheat] is constructed by anybody>",
+
+		"Discover [TechHumanDebuff] <upon turn end> <for [Human player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
+		"Discover [TechEnemaDebuff] <upon turn end> <for [AI player] Civilizations> <if [Minicake Tech SlowingDebuff] is constructed by anybody>",
+
+
+
+
+
+
+
+		"Requires establishing embassies to conduct advanced diplomacy",
+		"[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+		"[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+		"Cannot build [E1 Settler] units <when below [-10] [Happiness]>",
+		"Rebel units may spawn <when below [-20] [Happiness]>",
+		"[-1] Sight <for [Embarked] units>",
+
+		// TODO: Implement the uniques below
+		// "[+20]% [Culture] [in all cities] <during a golden age>",
+		// "[+20]% [Production] [in all cities] <during a golden age>",
+
+		// "[+10]% growth [in all cities] <during We Love The King Day>",
+
+		// "Nullifies All Yield <while is in resistance>",
+
+		// "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
+		// "[-25]% [Culture] [in pupetted cities]"
+
+		// "[+20]% [Production] [in cities connected via railroad]"
+		// something something unit supply
+	],
+	"civilopediaText": [
+		{"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+	]
+}
+
+
+
+
+
+//		"[Scout] units gain the [Exploration] promotion"
+//		"[+99] population [in capital] <upon founding a city> <before turn number [5]>"
+//"Reveal up to [All] [Natural Wonder] within a [999] tile radius <upon founding a city>",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+   "Hidden until [2] social policy branches have been completed"
+   
+   
+  "Invisible to non-adjacent units",
+  
+  
+  "Cannot be purchased",
+  "Unbuildable",
+  "Can move after attacking",
+  "Never appears as a Barbarian unit",
+	"[-30]% Strength for enemy [Military] units in adjacent [All] tiles",
+  "[70]% chance to intercept air attacks",
+  "Cannot be intercepted",
+	"[2] additional attacks per turn"
+	
+	
+	"[-100]% weight to this choice for AI decisions <when religion is disabled>"
+	[+1] population [in all cities]",
+
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+ */
+ 
+//"[10]% Food is carried over after population increases [in this city]"
+
+
+//["[+99] population [in capital] <upon founding a city> <before turn number [5]>"]
+
+
+/*
+			"[+10]% Production when constructing [All] buildings [in all cities] <during a Golden Age>",
+			"[+10]% Production when constructing [Military] units [in all cities] <during a Golden Age>",
+			"[+10]% Production when constructing [Military] units [in all cities] <when at war>",
+*/
+//		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+
+
+
+
+
+
+/*
+
+
+Enema
+Tech                    Enable AI Diplomacy
+Building                Minicake Enable Enema Diplomacy
+ 
+Human
+Tech                    Enable Human Diplomacy
+Building                Minicake Enable Human Diplomacy
+
+Enema
+Tech                    TechEnemaSwitchGk
+Building                EnemaSwitchGkOn
+automatically built     EnemaGkEnabler
+
+Human
+Tech                    TechHumanSwitchGk
+Building                HumanSwitchGkOn
+automatically built     HumanGkEnabler
+
+Enema
+Tech                    Era1UnlockEnema
+Building                1 EnemaAdvanceEra Ancient
+automatically built     Era1EnemaAnnounce
+
+Enema
+Tech                    Era2UnlockEnema
+Building                2 EnemaAdvanceEra Classical
+automatically built     Era2EnemaAnnounce
+
+Enema
+Tech                    Era3UnlockEnema
+Building                3 EnemaAdvanceEra Medieval
+automatically built     Era3EnemaAnnounce
+
+Enema
+Tech                    Era4UnlockEnema
+Building                4 EnemaAdvanceEra Renaissance
+automatically built     Era4EnemaAnnounce
+
+Enema
+Tech                    Era5UnlockEnema
+Building                5 EnemaAdvanceEra Industrial
+automatically built     Era5EnemaAnnounce
+
+Enema
+Tech                    Era6UnlockEnema
+Building                6 EnemaAdvanceEra Modern
+automatically built     Era6EnemaAnnounce
+
+Enema
+Tech                    Era7UnlockEnema
+Building                7 EnemaAdvanceEra Atomic
+automatically built     Era7EnemaAnnounce
+
+Enema
+Tech                    Era8UnlockEnema
+Building                8 EnemaAdvanceEra Information
+automatically built     Era8EnemaAnnounce
+
+Enema
+Tech                    Era9UnlockEnema
+Building                9 EnemaAdvanceEra Future
+automatically built     Era9EnemaAnnounce
+
+Human
+Tech                    TechHumanCheat
+Building                Minicake HumanCheat
+automatically built     DaHumanCheat
+
+Enema
+Tech                    TechEnemaCheat
+Building                Minicake EnemaCheat
+automatically built     DaEnemaCheat
+
+Human
+Tech                    TechHumanDebuff
+Building                Minicake Tech SlowingDebuff
+automatically built     Human Tech Debuff Activated
+
+Enema
+Tech                    TechEnemaDebuff
+Building                Minicake Tech SlowingDebuff
+automatically built     Enema Tech Debuff Activated
+
+autobuilt by palace for enema, linked to globalunique
+EnemaSwitchGkOn
+TechEnemaSwitchGk
+
+autobuilt and enable gk for enema
+EnemaGkEnabler
+Enema ShowGk Aall
+
+autobuilt by palace for Human, linked to globalunique
+HumanSwitchGkOn
+TechHumanSwitchGk
+
+autobuilt and enable gk for Human
+HumanGkEnabler
+Human ShowGk Aall
+*/
+
