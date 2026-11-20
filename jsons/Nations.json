@@ -6,7 +6,8 @@
 		"name": "N00 Aliens",
 		"leaderName": "Zyxxyz",
 		"adjective": ["alien"],
-		"startBias": ["Permafrost"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid
+		[Permafrost]"],//, "Permafrost"],
 		"preferredVictoryType": "Annihilation",
 		
 		"startIntroPart1": "We come in peace!",
@@ -103,7 +104,7 @@
 		"name": "N01 Babylon",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
-		"startBias": ["Avoid [Tundra]"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Nebuchadnezzar II",
 
@@ -184,7 +185,7 @@
 		"name": "N02 Greece",
 		"leaderName": "Alexander",
 		"adjective": ["Greek"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType":"Diplomatic",
 		"personality": "Alexander",
 
@@ -348,7 +349,7 @@
 		"name": "N04 Egypt",
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
-		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Ramesses II",
 
@@ -436,7 +437,7 @@
 		"name": "N05 England",
 		"leaderName": "Elizabeth",
 		"adjective": ["English"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Elizabeth",
 
@@ -589,7 +590,7 @@
 		"name": "N07 Russia",
 		"leaderName": "Catherine",
 		"adjective": ["Russian"],
-		"startBias": ["Tundra"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Tundra"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Catherine",
 
@@ -747,7 +748,7 @@
 		"name": "N09 Arabia",
 		"leaderName": "Harun al-Rashid",
 		"adjective": ["Arabian"],
-		"startBias": ["Desert"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Desert"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Harun al-Rashid",
 
@@ -913,7 +914,7 @@
 		"name": "N11 Japan",
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Oda Nobunaga",
 
@@ -991,7 +992,7 @@
 		"name": "N12 India",
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
-		"startBias": ["Grassland"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Grassland"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Gandhi",
 
@@ -1157,7 +1158,7 @@
 		"name": "N14 The Ottomans",
 		"leaderName": "Suleiman I",
 		"adjective": ["Ottoman"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Suleiman I",
 
@@ -1232,7 +1233,7 @@
 		"name": "N15 Korea",
 		"leaderName": "Sejong",
 		"adjective": ["Korean"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Sejong",
 
@@ -1302,7 +1303,7 @@
 		"name": "N16 Iroquois",
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquoise"],
-		"startBias": ["Forest"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Forest"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Hiawatha",
 
@@ -1478,7 +1479,7 @@
 		"name": "N18 Polynesia",
 		"leaderName": "Kamehameha I",
 		"adjective": ["Polynesia"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Kamehameha I",
 
@@ -1559,7 +1560,7 @@
 		"name": "N19 Siam",
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
-		"startBias": ["Avoid [Forest]"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid [Forest]"],
 		"preferredVictoryType":"Diplomatic",
 		"personality": "Ramkhamhaeng",
 
@@ -1629,7 +1630,7 @@
 		"name": "N20 Spain",
 		"leaderName": "Isabella",
 		"adjective": ["Spanish"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Isabella",
 
@@ -1709,7 +1710,7 @@
 		"name": "N21 Songhai",
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
-		"startBias": ["Avoid [Tundra]"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Askia",
 
@@ -1779,7 +1780,7 @@
 		"name": "N22 Mongolia",
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
-		"startBias": ["Plains"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Plains"],
 		"preferredVictoryType": "Domination",
 		"personality": "Genghis Khan",
 
@@ -1850,7 +1851,7 @@
 		"name": "N23 Aztecs",
 		"leaderName": "Montezuma I",
 		"adjective": ["Aztec"],
-		"startBias": ["Jungle"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Jungle"],
 		"preferredVictoryType": "Domination",
 		"perAZTc0sonality": "Montezuma I",
 
@@ -1926,7 +1927,7 @@
 		"name": "N24 Inca",
 		"leaderName": "Pachacuti",
 		"adjective": ["Incan"],
-		"startBias": ["Hill"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Hill"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Pachacuti",
 
@@ -2002,7 +2003,7 @@
 		"name": "N25 Denmark",
 		"leaderName": "Harald Bluetooth",
 		"adjective": ["Danish"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Harald Bluetooth",
 
@@ -2093,7 +2094,7 @@
 		"name": "N26 The Huns",
 		"leaderName": "Attila the Hun",
 		"adjective": ["Hunnic"],
-		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Avoid [Jungle]", "Avoid [Forest]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Attila the Hun",
 
@@ -2149,7 +2150,7 @@
 		"name": "N27 The Netherlands",
 		"leaderName": "William of Orange",
 		"adjective": ["Dutch"],
-		"startBias": ["Grassland"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Grassland"],
 		"preferredVictoryType": "Cultural",
 		"personality": "William of Orange",
 
@@ -2220,7 +2221,7 @@
 		"name": "N28 Sweden",
 		"leaderName": "Gustavus Adolphus",
 		"adjective": ["Swedish"],
-		"startBias": ["Tundra"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Tundra"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Gustavus Adolphus",
 
@@ -2309,7 +2310,7 @@
 		"name": "N29 Austria",
 		"leaderName": "Maria Theresa",
 		"adjective": ["Austrian"],
-		"startBias": ["Hill"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Hill"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Maria Theresa",
 
@@ -2381,7 +2382,7 @@
 		"name": "N30 Carthage",
 		"leaderName": "Dido",
 		"adjective": ["Carthaginian"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Dido",
 
@@ -2452,7 +2453,7 @@
 		"name": "N31 Byzantium",
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Theodora",
 
@@ -2524,7 +2525,7 @@
 		"name": "N32 Celts",
 		"leaderName": "Boudicca",
 		"adjective": ["celtic"],
-		"startBias": ["Forest"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Forest"],
 		"preferredVictoryType": "Domination",
 		"personality": "Boudicca",
 
@@ -2602,7 +2603,7 @@
 		"name": "N33 Ethiopia",
 		"leaderName": "Haile Selassie",
 		"adjective": ["ethiopian"],
-		"startBias": ["Jungle"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Jungle"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Haile Selassie",
 
@@ -2677,7 +2678,7 @@
 		"name": "N34 The Maya",
 		"leaderName": "Pacal",
 		"adjective": ["mayan"],
-		"startBias": ["Jungle"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Jungle"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Pacal",
 
@@ -2955,7 +2956,7 @@
 		"name": "CSB07 Ragusa",
 		"adjective": ["Ragusan"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2968,7 +2969,7 @@
 		"name": "CSB08 Rio de Janeiro",
 		"adjective": ["Carioca"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -2993,7 +2994,7 @@
 		"name": "CSB10 Ur", // Introduced in BNW
 		"adjective": ["Urian"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
@@ -3026,7 +3027,7 @@
 		"name": "CSB12 Venice",
 		"adjective": ["Venetian"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3040,7 +3041,7 @@
 		"name": "CSC01 Antwerp",
 		"adjective": ["Antwerpenaar", "Antwerpian"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3077,7 +3078,7 @@
 		"name": "CSC04 Genoa",
 		"adjective": ["Genoese"],
 		"cityStateType": "Mercantile", // Changed from Maritime to Mercantile in GK
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3114,7 +3115,7 @@
 		"name": "CSC07 Tyre",
 		"adjective": ["Tyrian"],
 		"cityStateType": "Mercantile", // Changed from Militaristic to Mercantile in GK
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3260,7 +3261,7 @@
 		"name": "CSD09 Valletta",
 		"adjective": ["Beltin"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
+		"startBias": ["Avoid [Wasteland]", "Avoid [Badlands]", "Coast"],
 
 		"declaringWar": "We don't like your face. To arms!",
 		"attacked": "You will see you have just bitten off more than you can chew.",

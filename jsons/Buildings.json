@@ -10227,6 +10227,7 @@
 			"Discover [50 JesusEra E1 Ancient 05] <for [Human player] Civilizations>",
 
 			"Discover [1X TechClozedEraAncient] <for [Human player] Civilizations>",
+			"Discover [1Y TechClozedEraAncient] <for [Human player] Civilizations>",
 			"Discover [10 InhibitorEra Ancient] <for [Human player] Civilizations>",
 
 			"Discover [10 TechClozedEraAncient] <for [Human player] Civilizations>",
@@ -10235,6 +10236,9 @@
 			"Discover [10 TechMirrorEraAncient] <for [Human player] Civilizations>",
 			"Discover [10 TechSlowerEraAncient] <for [Human player] Civilizations>",
 			"Discover [10 TechOpenedEraAncient] <for [Human player] Civilizations>",
+
+			"Discover [10 TechLickerEraAncient] <for [Human player] Civilizations>",
+			"Discover [10 TechLockerEraAncient] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10267,6 +10271,7 @@
 			"Discover [50 JesusEra E2 Classical 05] <for [Human player] Civilizations>",
 
 			"Discover [2X TechClozedEraClassical] <for [Human player] Civilizations>",
+			"Discover [2Y TechClozedEraClassical] <for [Human player] Civilizations>",
 			"Discover [20 InhibitorEra Classical] <for [Human player] Civilizations>",
 
 			"Discover [20 TechClozedEraClassical] <for [Human player] Civilizations>",
@@ -10275,7 +10280,10 @@
 			"Discover [20 TechMirrorEraClassical] <for [Human player] Civilizations>",
 			"Discover [20 TechSlowerEraClassical] <for [Human player] Civilizations>",
 			"Discover [20 TechOpenedEraClassical] <for [Human player] Civilizations>",
- 
+
+			"Discover [20 TechLickerEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechLockerEraClassical] <for [Human player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10307,6 +10315,7 @@
 			"Discover [50 JesusEra E3 Medieval 05] <for [Human player] Civilizations>",
 
 			"Discover [3X TechClozedEraMedieval] <for [Human player] Civilizations>",
+			"Discover [3Y TechClozedEraMedieval] <for [Human player] Civilizations>",
 			"Discover [30 InhibitorEra Medieval] <for [Human player] Civilizations>",
 
 			"Discover [30 TechClozedEraMedieval] <for [Human player] Civilizations>",
@@ -10315,7 +10324,10 @@
 			"Discover [30 TechMirrorEraMedieval] <for [Human player] Civilizations>",
 			"Discover [30 TechSlowerEraMedieval] <for [Human player] Civilizations>",
 			"Discover [30 TechOpenedEraMedieval] <for [Human player] Civilizations>",
- 
+
+			"Discover [30 TechLickerEraMedieval] <for [Human player] Civilizations>",
+			"Discover [30 TechLockerEraMedieval] <for [Human player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10347,6 +10359,7 @@
 			"Discover [50 JesusEra E4 Renaissance 05] <for [Human player] Civilizations>",
 
 			"Discover [4X TechClozedEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [4Y TechClozedEraRenaissance] <for [Human player] Civilizations>",
 			"Discover [40 InhibitorEra Renaissance] <for [Human player] Civilizations>",
 
 			"Discover [40 TechClozedEraRenaissance] <for [Human player] Civilizations>",
@@ -10355,7 +10368,10 @@
 			"Discover [40 TechMirrorEraRenaissance] <for [Human player] Civilizations>",
 			"Discover [40 TechSlowerEraRenaissance] <for [Human player] Civilizations>",
 			"Discover [40 TechOpenedEraRenaissance] <for [Human player] Civilizations>",
- 
+
+			"Discover [40 TechLickerEraRenaissance] <for [Human player] Civilizations>",
+			"Discover [40 TechLockerEraRenaissance] <for [Human player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -10387,6 +10403,7 @@
 			"Discover [50 JesusEra E5 Industrial 05] <for [Human player] Civilizations>",
 
 			"Discover [5X TechClozedEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [5Y TechClozedEraIndustrial] <for [Human player] Civilizations>",
 			"Discover [50 InhibitorEra Industrial] <for [Human player] Civilizations>",
 
 			"Discover [50 TechClozedEraIndustrial] <for [Human player] Civilizations>",
@@ -10395,6 +10412,9 @@
 			"Discover [50 TechMirrorEraIndustrial] <for [Human player] Civilizations>",
 			"Discover [50 TechSlowerEraIndustrial] <for [Human player] Civilizations>",
 			"Discover [50 TechOpenedEraIndustrial] <for [Human player] Civilizations>",
+
+			"Discover [50 TechLickerEraIndustrial] <for [Human player] Civilizations>",
+			"Discover [50 TechLockerEraIndustrial] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10427,6 +10447,7 @@
 			"Discover [50 JesusEra E6 Modern 05] <for [Human player] Civilizations>",
 
 			"Discover [6X TechClozedEraModern] <for [Human player] Civilizations>",
+			"Discover [6Y TechClozedEraModern] <for [Human player] Civilizations>",
 			"Discover [60 InhibitorEra Modern] <for [Human player] Civilizations>",
 
 			"Discover [60 TechClozedEraModern] <for [Human player] Civilizations>",
@@ -10435,6 +10456,9 @@
 			"Discover [60 TechMirrorEraModern] <for [Human player] Civilizations>",
 			"Discover [60 TechSlowerEraModern] <for [Human player] Civilizations>",
 			"Discover [60 TechOpenedEraModern] <for [Human player] Civilizations>",
+
+			"Discover [60 TechLickerEraModern] <for [Human player] Civilizations>",
+			"Discover [60 TechLockerEraModern] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10467,6 +10491,7 @@
 			"Discover [50 JesusEra E7 Atomic 05] <for [Human player] Civilizations>",
 
 			"Discover [7X TechClozedEraAtomic] <for [Human player] Civilizations>",
+			"Discover [7Y TechClozedEraAtomic] <for [Human player] Civilizations>",
 			"Discover [70 InhibitorEra Atomic] <for [Human player] Civilizations>",
 
 			"Discover [70 TechClozedEraAtomic] <for [Human player] Civilizations>",
@@ -10475,6 +10500,9 @@
 			"Discover [70 TechMirrorEraAtomic] <for [Human player] Civilizations>",
 			"Discover [70 TechSlowerEraAtomic] <for [Human player] Civilizations>",
 			"Discover [70 TechOpenedEraAtomic] <for [Human player] Civilizations>",
+
+			"Discover [70 TechLickerEraAtomic] <for [Human player] Civilizations>",
+			"Discover [70 TechLockerEraAtomic] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -10507,6 +10535,7 @@
 			"Discover [50 JesusEra E8 Information 05] <for [Human player] Civilizations>",
 
 			"Discover [8X TechClozedEraInformation] <for [Human player] Civilizations>",
+			"Discover [8Y TechClozedEraInformation] <for [Human player] Civilizations>",
 			"Discover [80 InhibitorEra Information] <for [Human player] Civilizations>",
 
 			"Discover [80 TechClozedEraInformation] <for [Human player] Civilizations>",
@@ -10515,6 +10544,9 @@
 			"Discover [80 TechMirrorEraInformation] <for [Human player] Civilizations>",
 			"Discover [80 TechSlowerEraInformation] <for [Human player] Civilizations>",
 			"Discover [80 TechOpenedEraInformation] <for [Human player] Civilizations>",
+
+			"Discover [80 TechLickerEraInformation] <for [Human player] Civilizations>",
+			"Discover [80 TechLockerEraInformation] <for [Human player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -11096,6 +11128,9 @@
 			"Discover [10 TechSlowerEraAncient] <for [AI player] Civilizations>",
 			"Discover [10 TechOpenedEraAncient] <for [AI player] Civilizations>",
 
+			"Discover [10 TechLickerEraAncient] <for [AI player] Civilizations>",
+			"Discover [10 TechLockerEraAncient] <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11135,7 +11170,10 @@
 			"Discover [20 TechMirrorEraClassical] <for [AI player] Civilizations>",
 			"Discover [20 TechSlowerEraClassical] <for [AI player] Civilizations>",
 			"Discover [20 TechOpenedEraClassical] <for [AI player] Civilizations>",
- 
+
+			"Discover [20 TechLickerEraClassical] <for [Human player] Civilizations>",
+			"Discover [20 TechLockerEraClassical] <for [Human player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11175,7 +11213,10 @@
 			"Discover [30 TechMirrorEraMedieval] <for [AI player] Civilizations>",
 			"Discover [30 TechSlowerEraMedieval] <for [AI player] Civilizations>",
 			"Discover [30 TechOpenedEraMedieval] <for [AI player] Civilizations>",
- 
+
+			"Discover [30 TechLickerEraMedieval] <for [AI player] Civilizations>",
+			"Discover [30 TechLockerEraMedieval] <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11215,7 +11256,10 @@
 			"Discover [40 TechMirrorEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [40 TechSlowerEraRenaissance] <for [AI player] Civilizations>",
 			"Discover [40 TechOpenedEraRenaissance] <for [AI player] Civilizations>",
- 
+
+			"Discover [40 TechLickerEraRenaissance] <for [AI player] Civilizations>",
+			"Discover [40 TechLockerEraRenaissance] <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11255,6 +11299,9 @@
 			"Discover [50 TechMirrorEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [50 TechSlowerEraIndustrial] <for [AI player] Civilizations>",
 			"Discover [50 TechOpenedEraIndustrial] <for [AI player] Civilizations>",
+
+			"Discover [50 TechLickerEraIndustrial] <for [AI player] Civilizations>",
+			"Discover [50 TechLockerEraIndustrial] <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -11296,6 +11343,9 @@
 			"Discover [60 TechSlowerEraModern] <for [AI player] Civilizations>",
 			"Discover [60 TechOpenedEraModern] <for [AI player] Civilizations>",
 
+			"Discover [60 TechLickerEraModern] <for [AI player] Civilizations>",
+			"Discover [60 TechLockerEraModern] <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11336,6 +11386,9 @@
 			"Discover [70 TechSlowerEraAtomic] <for [AI player] Civilizations>",
 			"Discover [70 TechOpenedEraAtomic] <for [AI player] Civilizations>",
 
+			"Discover [70 TechLickerEraAtomic] <for [AI player] Civilizations>",
+			"Discover [70 TechLockerEraAtomic] <for [AI player] Civilizations>",
+
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -11375,6 +11428,9 @@
 			"Discover [80 TechMirrorEraInformation] <for [AI player] Civilizations>",
 			"Discover [80 TechSlowerEraInformation] <for [AI player] Civilizations>",
 			"Discover [80 TechOpenedEraInformation] <for [AI player] Civilizations>",
+
+			"Discover [80 TechLickerEraInformation] <for [AI player] Civilizations>",
+			"Discover [80 TechLockerEraInformation] <for [AI player] Civilizations>",
 
 			"Unavailable <hidden from users>",
 			"Unbuildable <hidden from users>",

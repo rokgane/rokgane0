@@ -435,6 +435,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},
+
 			{
 				"name": "Era2DummyGkTech01",
 				"row": 41,
@@ -504,6 +505,26 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats"
 			},
+
+			{
+				"name": "1Y TechClozedEraAncient",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E1 Ancient 01",
+					"20 JesusEra E1 Ancient 02",
+					"30 JesusEra E1 Ancient 03",
+					"40 JesusEra E1 Ancient 04",
+					"50 JesusEra E1 Ancient 05",
+                    "1X TechClozedEraAncient",
+				],
+				"quote": "1Y Ancient Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
 			{
 				"name": "Era2DummyGkTech02",
 				"row": 41,
@@ -629,6 +650,26 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
 			},
+
+			{
+				"name": "2Y TechClozedEraClassical",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E2 Classical 01",
+					"20 JesusEra E2 Classical 02",
+					"30 JesusEra E2 Classical 03",
+					"40 JesusEra E2 Classical 04",
+					"50 JesusEra E2 Classical 05",
+                    "1X TechClozedEraClassical",
+				],
+				"quote": "2Y Classical Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
 			{
 				"name": "Era3DummyGkTech02",
 				"row": 41,
@@ -744,6 +785,26 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			},
+
+			{
+				"name": "3Y TechClozedEraMedieval",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E3 Medieval 01",
+					"20 JesusEra E3 Medieval 02",
+					"30 JesusEra E3 Medieval 03",
+					"40 JesusEra E3 Medieval 04",
+					"50 JesusEra E3 Medieval 05",
+                    "1X TechClozedEraMedieval",
+				],
+				"quote": "3Y Medieval Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
 			{
 				"name": "Era4DummyGkTech02",
 				"row": 41,
@@ -861,6 +922,26 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E5 Fertilizer","E5 Military Science"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			},
+
+			{
+				"name": "4Y TechClozedEraRenaissance",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E4 Renaissance 01",
+					"20 JesusEra E4 Renaissance 02",
+					"30 JesusEra E4 Renaissance 03",
+					"40 JesusEra E4 Renaissance 04",
+					"50 JesusEra E4 Renaissance 05",
+                    "1X TechClozedEraRenaissance",
+				],
+				"quote": "4Y Renaissance Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
 			{
 				"name": "Era5DummyGkTech02",
 				"row": 41,
@@ -987,6 +1068,25 @@ Mixed   techgk   techgk   slower   slower
 			},
 
 			{
+				"name": "5Y TechClozedEraIndustrial",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E5 Industrial 01",
+					"20 JesusEra E5 Industrial 02",
+					"30 JesusEra E5 Industrial 03",
+					"40 JesusEra E5 Industrial 04",
+					"50 JesusEra E5 Industrial 05",
+                    "1X TechClozedEraIndustrial",
+				],
+				"quote": "5Y Industrial Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
+			{
 				"name": "Era6DummyGkTech02",
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
@@ -1104,6 +1204,25 @@ Mixed   techgk   techgk   slower   slower
 			},
 
 			{
+				"name": "6Y TechClozedEraModern",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E6 Modern 01",
+					"20 JesusEra E6 Modern 02",
+					"30 JesusEra E6 Modern 03",
+					"40 JesusEra E6 Modern 04",
+					"50 JesusEra E6 Modern 05",
+                    "1X TechClozedEraModern",
+				],
+				"quote": "6Y Modern Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
+			{
 				"name": "Era7DummyGkTech02",
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
@@ -1168,6 +1287,26 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
+
+			{
+				"name": "7Y TechClozedEraAtomic",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E7 Atomic 01",
+					"20 JesusEra E7 Atomic 02",
+					"30 JesusEra E7 Atomic 03",
+					"40 JesusEra E7 Atomic 04",
+					"50 JesusEra E7 Atomic 05",
+                    "1X TechClozedEraAtomic",
+				],
+				"quote": "7Y Atomic Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+
 			{
 				"name": "Era8DummyGkTech01",
 				"row": 41,
@@ -3631,6 +3770,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"E9 Future Tech"
+                    "8Y TechClozedEraInformation",
 				],
 				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3685,6 +3825,25 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},
+
+			{
+				"name": "8Y TechClozedEraInformation",
+				"row": 23,
+				"prerequisite": [
+					"10 JesusEra E8 Information 01",
+					"20 JesusEra E8 Information 02",
+					"30 JesusEra E8 Information 03",
+					"40 JesusEra E8 Information 04",
+					"50 JesusEra E8 Information 05",
+                    "1X TechClozedEraInformation",
+				],
+				"quote": "8Y Information Tech Clozed, Clozed tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
 
 			{
 				"name": "Era9DummyGkTech01",
@@ -3900,6 +4059,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E2 Classical 05",
+                    "1Y TechClozedEraAncient",
 /*
 					"E2 Optics",
 					"E2 Horseback Riding",
@@ -4023,6 +4183,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E3 Medieval 05",
+                    "2Y TechClozedEraClassical",
 /*
 					"E3 Theology",
 					"E3 Civil Service",
@@ -4146,6 +4307,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E4 Renaissance 05",
+                    "3Y TechClozedEraMedieval",
 /*
 					"E4 Astronomy",
 					"E4 Acoustics",
@@ -4267,6 +4429,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E5 Industrial 05"
+                    "4Y TechClozedEraRenaissance",
 /*
 					"E5 Archaeology",
 					"E5 Scientific Theory",
@@ -4393,6 +4556,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E6 Modern 05",
+                    "5Y TechClozedEraIndustrial",
 /*
 					"E6 Refrigeration",
 					"E6 Radio",
@@ -4522,6 +4686,7 @@ Mixed   techgk   techgk   slower   slower
 					"DNS Tech Land Leviathan",
 					"DNS Tech Sky Fortress",
 					"50 IsraelEra E7 Atomic 05",
+                    "6Y TechClozedEraModern",
 /*
 					"E7 Pharmaceuticals",
 					"E7 Atomic Theory",
@@ -4641,6 +4806,8 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E8 Information 05",
+                    "7Y TechClozedEraAtomic",
+
 /*
 					"E8 Telecommunications",
 					"E8 Mobile Tactics",
