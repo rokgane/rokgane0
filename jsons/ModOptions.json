@@ -6,7 +6,13 @@
 //				  "Mod requires [rokgane0]",
 				  "Diplomatic relationdhips cannot change",
 				  "Allow city States to spawn with additional units",
-				  "Suppress warning [is supposed to automatically upgrade]"
+				  "Suppress warning [is supposed to automatically upgrade]",
+				  "Suppress warning [*is supposed to automatically upgrade*]"
+        		"Suppress warning [ is supposed to automatically upgrade at*]",
+        		"Suppress warning [*and therefore*]",
+        		"Suppress warning [*for its upgrade*]",
+        		"Suppress warning [ *may not yet be researched!]",
+
 	],
 	"constants": {
 		"minimumWarDuration": 999999,
