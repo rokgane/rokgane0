@@ -3992,7 +3992,7 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
-				"name": "Era2CheckeriGkTech01",
+				"name": "Era2CheckeriGkTech02",
 				"row": 24,
 				"prerequisite": [
 					"10 JesusEra E2 Classical 01",
@@ -4020,7 +4020,7 @@ Mixed   techgk   techgk   slower   slower
 			}
 
 			{
-				"name": "Era2DummyTech02",
+				"name": "Era2DummyTech01",
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
 				"uniques": [
