@@ -510,12 +510,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "1Y TechClozedEraAncient",
 				"row": 23,
 				"prerequisite": [
+                    "1X TechClozedEraAncient",
 					"10 JesusEra E1 Ancient 01",
 					"20 JesusEra E1 Ancient 02",
 					"30 JesusEra E1 Ancient 03",
 					"40 JesusEra E1 Ancient 04",
 					"50 JesusEra E1 Ancient 05",
-                    "1X TechClozedEraAncient",
 				],
 				"quote": "1Y Ancient Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -655,12 +655,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "2Y TechClozedEraClassical",
 				"row": 23,
 				"prerequisite": [
+                    "2X TechClozedEraClassical",
 					"10 JesusEra E2 Classical 01",
 					"20 JesusEra E2 Classical 02",
 					"30 JesusEra E2 Classical 03",
 					"40 JesusEra E2 Classical 04",
 					"50 JesusEra E2 Classical 05",
-                    "1X TechClozedEraClassical",
 				],
 				"quote": "2Y Classical Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -790,12 +790,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "3Y TechClozedEraMedieval",
 				"row": 23,
 				"prerequisite": [
+                    "3X TechClozedEraMedieval",
 					"10 JesusEra E3 Medieval 01",
 					"20 JesusEra E3 Medieval 02",
 					"30 JesusEra E3 Medieval 03",
 					"40 JesusEra E3 Medieval 04",
 					"50 JesusEra E3 Medieval 05",
-                    "1X TechClozedEraMedieval",
 				],
 				"quote": "3Y Medieval Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -927,12 +927,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "4Y TechClozedEraRenaissance",
 				"row": 23,
 				"prerequisite": [
+                    "4X TechClozedEraRenaissance",
 					"10 JesusEra E4 Renaissance 01",
 					"20 JesusEra E4 Renaissance 02",
 					"30 JesusEra E4 Renaissance 03",
 					"40 JesusEra E4 Renaissance 04",
 					"50 JesusEra E4 Renaissance 05",
-                    "1X TechClozedEraRenaissance",
 				],
 				"quote": "4Y Renaissance Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1071,12 +1071,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "5Y TechClozedEraIndustrial",
 				"row": 23,
 				"prerequisite": [
+                    "5X TechClozedEraIndustrial",
 					"10 JesusEra E5 Industrial 01",
 					"20 JesusEra E5 Industrial 02",
 					"30 JesusEra E5 Industrial 03",
 					"40 JesusEra E5 Industrial 04",
 					"50 JesusEra E5 Industrial 05",
-                    "1X TechClozedEraIndustrial",
 				],
 				"quote": "5Y Industrial Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1207,12 +1207,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "6Y TechClozedEraModern",
 				"row": 23,
 				"prerequisite": [
+                    "6X TechClozedEraModern",
 					"10 JesusEra E6 Modern 01",
 					"20 JesusEra E6 Modern 02",
 					"30 JesusEra E6 Modern 03",
 					"40 JesusEra E6 Modern 04",
 					"50 JesusEra E6 Modern 05",
-                    "1X TechClozedEraModern",
 				],
 				"quote": "6Y Modern Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -1292,12 +1292,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "7Y TechClozedEraAtomic",
 				"row": 23,
 				"prerequisite": [
+                    "7X TechClozedEraAtomic",
 					"10 JesusEra E7 Atomic 01",
 					"20 JesusEra E7 Atomic 02",
 					"30 JesusEra E7 Atomic 03",
 					"40 JesusEra E7 Atomic 04",
 					"50 JesusEra E7 Atomic 05",
-                    "1X TechClozedEraAtomic",
 				],
 				"quote": "7Y Atomic Tech Clozed, Clozed tech upgrades",
 				"uniques": [
@@ -3769,8 +3769,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "90 InhibitorEra Future",
 				"row": 23,
 				"prerequisites": [
-					"E9 Future Tech"
                     "8Y TechClozedEraInformation",
+					"E9 Future Tech"
 				],
 				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -3830,12 +3830,12 @@ Mixed   techgk   techgk   slower   slower
 				"name": "8Y TechClozedEraInformation",
 				"row": 23,
 				"prerequisite": [
+                    "8X TechClozedEraInformation",
 					"10 JesusEra E8 Information 01",
 					"20 JesusEra E8 Information 02",
 					"30 JesusEra E8 Information 03",
 					"40 JesusEra E8 Information 04",
 					"50 JesusEra E8 Information 05",
-                    "1X TechClozedEraInformation",
 				],
 				"quote": "8Y Information Tech Clozed, Clozed tech upgrades",
 				"uniques": [
