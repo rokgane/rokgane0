@@ -437,7 +437,7 @@ Mixed   techgk   techgk   slower   slower
 			},
 			{
 				"name": "Era2CheckeriGkTech",
-				"row": 23,
+				"row": 29,
 				"prerequisite": [
 					"10 TechLockerEraAncient",
 					"10 TechOpenedEraAncient",
