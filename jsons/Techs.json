@@ -3952,6 +3952,33 @@ Mixed   techgk   techgk   slower   slower
 			},
 
 			{
+				"name": "Era2CheckeriGkTech02",
+				"row": 24,
+				"prerequisite": [
+					"10 JesusEra E2 Classical 01",
+					"20 JesusEra E2 Classical 02",
+					"30 JesusEra E2 Classical 03",
+					"40 JesusEra E2 Classical 04",
+					"50 JesusEra E2 Classical 05",
+/*
+                    "1X TechClozedEraAncient",
+"10 TechLockerEraAncient",
+					"10 TechOpenedEraAncient",
+					"10 TechSlowerEraAncient",
+					"10 TechMirrorEraAncient",
+					"10 TechClonedEraAncient",
+					"10 TechKosongEraAncient",
+					"10 TechClozedEraAncient",
+*/
+],
+				"quote": "E2 Classical Tech Checkeri, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			},
+			{
 				"name": "20 InhibitorEra Classical",
 				"row": 23,
 				"prerequisites": [
@@ -3991,33 +4018,6 @@ Mixed   techgk   techgk   slower   slower
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
-			{
-				"name": "Era2CheckeriGkTech02",
-				"row": 24,
-				"prerequisite": [
-					"10 JesusEra E2 Classical 01",
-					"20 JesusEra E2 Classical 02",
-					"30 JesusEra E2 Classical 03",
-					"40 JesusEra E2 Classical 04",
-					"50 JesusEra E2 Classical 05",
-/*
-                    "1X TechClozedEraAncient",
-"10 TechLockerEraAncient",
-					"10 TechOpenedEraAncient",
-					"10 TechSlowerEraAncient",
-					"10 TechMirrorEraAncient",
-					"10 TechClonedEraAncient",
-					"10 TechKosongEraAncient",
-					"10 TechClozedEraAncient",
-*/
-],
-				"quote": "E2 Classical Tech Checkeri, Checkeri tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}
 
 			{
 				"name": "Era2DummyTech01",
