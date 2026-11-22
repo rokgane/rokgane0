@@ -594,6 +594,24 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			},
 			{
+				"name": "2Z TechCheckeriEraClassical02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E2 Classical 01"
+					"20 JesusEra E2 Classical 02"
+					"30 JesusEra E2 Classical 03"
+					"40 JesusEra E2 Classical 04"
+					"50 JesusEra E2 Classical 05"
+				],
+				"quote": "2Z Classical Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era3DummyGkTech01",
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
@@ -665,6 +683,20 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'John Henry said to his Captain, / 'A man ain't nothin' but a man, / And before I'll let your steam drill beat me down, / I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the E3 Steel-Drivin' Man"
 			},
 			{
+				"name": "2Z TechCheckeriEraClassical03",
+				"row": 29,
+				"prerequisites": [
+					"2Z TechCheckeriEraClassical01",
+					"2Z TechCheckeriEraClassical02",
+				],
+				"quote": "2Z Classical Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+			{
 				"name": "Era3DummyGkTech02",
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
@@ -726,6 +758,23 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			},
 			{
+				"name": "3Z TechCheckeriEraMedieval02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E3 Medieval 01"
+					"20 JesusEra E3 Medieval 02"
+					"30 JesusEra E3 Medieval 03"
+					"40 JesusEra E3 Medieval 04"
+					"50 JesusEra E3 Medieval 05"
+				],
+				"quote": "3Z Medieval Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+			{
 				"name": "Era4DummyGkTech01",
 				"row": 41,
 				"quote": "40 Renaissance Tech Dummy, Dummy tech upgrades",
@@ -779,6 +828,21 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			},
+			{
+				"name": "3Z TechCheckeriEraMedieval03",
+				"row": 29,
+				"prerequisites": [
+					"3Z TechCheckeriEraMedieval01",
+					"3Z TechCheckeriEraMedieval02",
+				],
+				"quote": "3Z Medieval Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era4DummyGkTech02",
 				"row": 41,
@@ -848,6 +912,24 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			},
 			{
+				"name": "4Z TechCheckeriEraRenaissance02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E4 Renaissance 01"
+					"20 JesusEra E4 Renaissance 02"
+					"30 JesusEra E4 Renaissance 03"
+					"40 JesusEra E4 Renaissance 04"
+					"50 JesusEra E4 Renaissance 05"
+				],
+				"quote": "4Z Renaissance Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era5DummyGkTech01",
 				"row": 41,
 				"quote": "50 Industrial Tech Dummy, Dummy tech upgrades",
@@ -896,6 +978,21 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": ["E5 Fertilizer","E5 Military Science"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			},
+			{
+				"name": "4Z TechCheckeriEraRenaissance03",
+				"row": 29,
+				"prerequisites": [
+					"4Z TechCheckeriEraRenaissance01",
+					"4Z TechCheckeriEraRenaissance02",
+				],
+				"quote": "4Z Renaissance Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era5DummyGkTech02",
 				"row": 41,
@@ -1688,6 +1785,26 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
+				"name": "2Z TechCheckeriEraClassical01",
+				"row": 29,
+				"prerequisites": [
+					"20 TechLockerEraClassical",
+					"20 TechOpenedEraClassical",
+					"20 TechSlowerEraClassical",
+					"20 TechMirrorEraClassical",
+					"20 TechClonedEraClassical",
+					"20 TechKosongEraClassical",
+					"20 TechClozedEraClassical",
+				],
+				"quote": "2Z Classical Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era2DummyTech03",
 				"row": 41,
 				"quote": "20 Classical Tech Dummy, Dummy tech upgrades",
@@ -1790,6 +1907,26 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
+				"name": "3Z TechCheckeriEraMedieval01",
+				"row": 29,
+				"prerequisites": [
+					"30 TechLockerEraMedieval",
+					"30 TechOpenedEraMedieval",
+					"30 TechSlowerEraMedieval",
+					"30 TechMirrorEraMedieval",
+					"30 TechClonedEraMedieval",
+					"30 TechKosongEraMedieval",
+					"30 TechClozedEraMedieval",
+				],
+				"quote": "3Z Medieval Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era3DummyTech03",
 				"row": 41,
 				"quote": "30 Medieval Tech Dummy, Dummy tech upgrades",
@@ -1891,6 +2028,26 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+			{
+				"name": "4Z TechCheckeriEraRenaissance01",
+				"row": 29,
+				"prerequisites": [
+					"40 TechLockerEraRenaissance",
+					"40 TechOpenedEraRenaissance",
+					"40 TechSlowerEraRenaissance",
+					"40 TechMirrorEraRenaissance",
+					"40 TechClonedEraRenaissance",
+					"40 TechKosongEraRenaissance",
+					"40 TechClozedEraRenaissance",
+				],
+				"quote": "4Z Renaissance Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era4DummyTech03",
 				"row": 41,
@@ -3863,6 +4020,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"E9 Future Tech"
+					"8Z TechCheckeriEraInformation03",
 				],
 				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -4287,6 +4445,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E3 Medieval 05",
+					"2Z TechCheckeriEraClassical03",
 /*
 					"E3 Theology",
 					"E3 Civil Service",
@@ -4410,6 +4569,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E4 Renaissance 05",
+					"3Z TechCheckeriEraMedieval03",
 /*
 					"E4 Astronomy",
 					"E4 Acoustics",
@@ -4531,6 +4691,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E5 Industrial 05"
+					"4Z TechCheckeriEraRenaissance03",
 /*
 					"E5 Archaeology",
 					"E5 Scientific Theory",
@@ -4787,6 +4948,8 @@ Mixed   techgk   techgk   slower   slower
 					"DNS Tech Land Leviathan",
 					"DNS Tech Sky Fortress",
 					"50 IsraelEra E7 Atomic 05",
+					"6Z TechCheckeriEraModern03",
+
 /*
 					"E7 Pharmaceuticals",
 					"E7 Atomic Theory",
@@ -4906,6 +5069,8 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E8 Information 05",
+					"7Z TechCheckeriEraAtomic03",
+
 /*
 					"E8 Telecommunications",
 					"E8 Mobile Tactics",
