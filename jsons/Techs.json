@@ -446,7 +446,7 @@ Mixed   techgk   techgk   slower   slower
 					"40 JesusEra E1 Ancient 04"
 					"50 JesusEra E1 Ancient 05"
 				],
-				"quote": "1Z Ancient Tech Clozed, Clozed tech upgrades",
+				"quote": "1Z Ancient Tech Checkeri 02, Checkeri tech upgrades",
 				"uniques": [
 					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
@@ -531,7 +531,7 @@ Mixed   techgk   techgk   slower   slower
 					"1Z TechCheckeriEraAncient01",
 					"1Z TechCheckeriEraAncient02",
 				],
-				"quote": "1Z Ancient Tech Clozed, Clozed tech upgrades",
+				"quote": "1Z Ancient Tech Checkeri 03, Checkeri tech upgrades",
 				"uniques": [
 					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
@@ -957,6 +957,24 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			},
 			{
+				"name": "5Z TechCheckeriEraIndustrial02",
+				"row": 28,
+				"prerequisites": [
+					"50 JesusEra E1 Industrial 01"
+					"50 JesusEra E1 Industrial 02"
+					"30 JesusEra E1 Industrial 03"
+					"40 JesusEra E1 Industrial 04"
+					"50 JesusEra E1 Industrial 05"
+				],
+				"quote": "5Z Industrial Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era6DummyGkTech01",
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
@@ -1019,6 +1037,20 @@ Mixed   techgk   techgk   slower   slower
 					"5X TechClozedEraIndustrial"
 					],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "5Z TechCheckeriEraIndustrial03",
+				"row": 29,
+				"prerequisites": [
+					"5Z TechCheckeriEraIndustrial01",
+					"5Z TechCheckeriEraIndustrial02",
+				],
+				"quote": "5Z Industrial Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
 			},
 
 			{
@@ -1481,7 +1513,7 @@ Mixed   techgk   techgk   slower   slower
 					"10 TechKosongEraAncient",
 					"10 TechClozedEraAncient",
 				],
-				"quote": "1Z Ancient Tech Clozed, Clozed tech upgrades",
+				"quote": "1Z Ancient Tech Checkeri 01, Checkeri tech upgrades",
 				"uniques": [
 					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
@@ -1898,6 +1930,26 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+			{
+				"name": "5Z TechCheckeriEraIndustrial01",
+				"row": 29,
+				"prerequisites": [
+					"50 TechLockerEraIndustrial",
+					"50 TechOpenedEraIndustrial",
+					"50 TechSlowerEraIndustrial",
+					"50 TechMirrorEraIndustrial",
+					"50 TechClonedEraIndustrial",
+					"50 TechKosongEraIndustrial",
+					"50 TechClozedEraIndustrial",
+				],
+				"quote": "5Z Industrial Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era5DummyTech03",
 				"row": 41,
@@ -3957,7 +4009,6 @@ Mixed   techgk   techgk   slower   slower
 				"prerequisites": [
 					"50 IsraelEra E2 Classical 05",
 					"1Z TechCheckeriEraAncient03",
-
 /*
 					"E2 Optics",
 					"E2 Horseback Riding",
@@ -4451,6 +4502,7 @@ Mixed   techgk   techgk   slower   slower
 				"row": 23,
 				"prerequisites": [
 					"50 IsraelEra E6 Modern 05",
+					"5Z TechCheckeriEraIndustrial03",
 /*
 					"E6 Refrigeration",
 					"E6 Radio",
@@ -5111,7 +5163,15 @@ XX FuturaTech
 
 
 
-
+Ancient
+Classical
+Medieval
+Renaissance
+Industrial
+Modern
+Atomic
+Information
+Future
 
 
 */
