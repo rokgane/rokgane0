@@ -1105,6 +1105,23 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'The root of the evil is not the E2 Construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			},
 			{
+				"name": "6Z TechCheckeriEraModern02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E6 Modern 01"
+					"20 JesusEra E6 Modern 02"
+					"30 JesusEra E6 Modern 03"
+					"40 JesusEra E6 Modern 04"
+					"50 JesusEra E6 Modern 05"
+				],
+				"quote": "6Z Modern Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+			{
 				"name": "Era7DummyGkTech01",
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
@@ -1168,6 +1185,20 @@ Mixed   techgk   techgk   slower   slower
 					"DNS Tech Airships"
 					],
 				"quote": "'Any sufficiently advanced technology is indistinguishable from magic.' - Arthur C. Clarke"
+			},
+			{
+				"name": "6Z TechCheckeriEraModern03",
+				"row": 29,
+				"prerequisites": [
+					"6Z TechCheckeriEraModern01",
+					"6Z TechCheckeriEraModern02",
+				],
+				"quote": "6Z Modern Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
 			},
 
 			{
@@ -1236,6 +1267,24 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
 			{
+				"name": "7Z TechCheckeriEraAtomic02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E7 Atomic 01"
+					"20 JesusEra E7 Atomic 02"
+					"30 JesusEra E7 Atomic 03"
+					"40 JesusEra E7 Atomic 04"
+					"50 JesusEra E7 Atomic 05"
+				],
+				"quote": "7Z Atomic Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era8DummyGkTech01",
 				"row": 41,
 				"quote": "80 Information Tech Dummy, Dummy tech upgrades",
@@ -1289,6 +1338,21 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
 			},
+			{
+				"name": "7Z TechCheckeriEraAtomic03",
+				"row": 29,
+				"prerequisites": [
+					"7Z TechCheckeriEraAtomic01",
+					"7Z TechCheckeriEraAtomic02",
+				],
+				"quote": "7Z Atomic Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era8DummyGkTech02",
 				"row": 41,
@@ -2053,6 +2117,26 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
+				"name": "6Z TechCheckeriEraModern01",
+				"row": 29,
+				"prerequisites": [
+					"60 TechLockerEraModern",
+					"60 TechOpenedEraModern",
+					"60 TechSlowerEraModern",
+					"60 TechMirrorEraModern",
+					"60 TechClonedEraModern",
+					"60 TechKosongEraModern",
+					"60 TechClozedEraModern",
+				],
+				"quote": "6Z Modern Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era6DummyTech03",
 				"row": 41,
 				"quote": "60 Modern Tech Dummy, Dummy tech upgrades",
@@ -2155,6 +2239,26 @@ Mixed   techgk   techgk   slower   slower
 					]
 			},
 			{
+				"name": "7Z TechCheckeriEraAtomic01",
+				"row": 29,
+				"prerequisites": [
+					"70 TechLockerEraAtomic",
+					"70 TechOpenedEraAtomic",
+					"70 TechSlowerEraAtomic",
+					"70 TechMirrorEraAtomic",
+					"70 TechClonedEraAtomic",
+					"70 TechKosongEraAtomic",
+					"70 TechClozedEraAtomic",
+				],
+				"quote": "7Z Atomic Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
+			{
 				"name": "Era7DummyTech03",
 				"row": 41,
 				"quote": "70 Atomic Tech Dummy, Dummy tech upgrades",
@@ -2256,6 +2360,26 @@ Mixed   techgk   techgk   slower   slower
 //					"[+1000]% Science cost of researching new Technologies"
 					]
 			},
+			{
+				"name": "8Z TechCheckeriEraInformation01",
+				"row": 29,
+				"prerequisites": [
+					"80 TechLockerEraInformation",
+					"80 TechOpenedEraInformation",
+					"80 TechSlowerEraInformation",
+					"80 TechMirrorEraInformation",
+					"80 TechClonedEraInformation",
+					"80 TechKosongEraInformation",
+					"80 TechClozedEraInformation",
+				],
+				"quote": "8Z Information Tech Checkeri 01, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+
 			{
 				"name": "Era8DummyTech03",
 				"row": 41,
@@ -3792,6 +3916,37 @@ Mixed   techgk   techgk   slower   slower
 				],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+			{
+				"name": "8Z TechCheckeriEraInformation02",
+				"row": 28,
+				"prerequisites": [
+					"10 JesusEra E8 Information 01"
+					"20 JesusEra E8 Information 02"
+					"30 JesusEra E8 Information 03"
+					"40 JesusEra E8 Information 04"
+					"50 JesusEra E8 Information 05"
+				],
+				"quote": "8Z Information Tech Checkeri 02, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
+			},
+			{
+				"name": "8Z TechCheckeriEraInformation03",
+				"row": 29,
+				"prerequisites": [
+					"8Z TechCheckeriEraInformation01",
+					"8Z TechCheckeriEraInformation02",
+				],
+				"quote": "8Z Information Tech Checkeri 03, Checkeri tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+5000]% Science cost of researching new Technologies"
+					]
 			},
 
 			{
