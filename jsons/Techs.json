@@ -960,8 +960,8 @@ Mixed   techgk   techgk   slower   slower
 				"name": "5Z TechCheckeriEraIndustrial02",
 				"row": 28,
 				"prerequisites": [
-					"50 JesusEra E5 Industrial 01"
-					"50 JesusEra E5 Industrial 02"
+					"10 JesusEra E5 Industrial 01"
+					"20 JesusEra E5 Industrial 02"
 					"30 JesusEra E5 Industrial 03"
 					"40 JesusEra E5 Industrial 04"
 					"50 JesusEra E5 Industrial 05"
