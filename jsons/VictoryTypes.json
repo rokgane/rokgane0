@@ -1,4 +1,3 @@
-
 [
 	{
 		"name": "Annihilation",
@@ -8,7 +7,7 @@
 		],
 		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Annihilation
 	{
 		"name": "Scientific",
 		"victoryScreenHeader": "Complete all the spaceship parts to win!",
@@ -26,7 +25,7 @@
 		],
 		"victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Scientific
 	{
 		"name": "Cultural",
 		"victoryScreenHeader": "Complete 7 policy branches and build the Utopia Project to win!",
@@ -36,7 +35,7 @@
 			],
 		"victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Cultural
 	{
 		"name": "Religion",
 		"victoryScreenHeader": "Have your religion be the majority religion in a majority cities of all civs to win!",
@@ -45,7 +44,7 @@
 		],
 		"victoryString": "You have achieved victory through the awesome power of your religion. Your civilization's greatness - the magnificence of its monuments and the power of its religion - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Religion
 	{
 		"name": "Domination",
 		"victoryScreenHeader": "Capture all enemy Capitals to win!",
@@ -54,7 +53,7 @@
 		],
 		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Domination
 	{
 		"name": "Diplomatic",
 		"victoryScreenHeader": "Build the UN and be voted world leader to win!",
@@ -64,7 +63,7 @@
 		],
 		"victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	},
+	},//Diplomatic
 	{
 		"name": "Time",
 		"hiddenInVictoryScreen": true,
@@ -73,6 +72,10 @@
 		],
 		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-	}
+	}//Time
 ]
+
+
+
+
 
