@@ -4039,6 +4039,25 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 1250,//zgv43Cost
 		"techs": [
 			{
+				"name": "E9 Future Tech",
+				"row": 15,
+				"prerequisites": [
+					"10 JesusEra E8 Information 01"
+					"20 JesusEra E8 Information 02"
+					"30 JesusEra E8 Information 03"
+					"40 JesusEra E8 Information 04"
+					"50 JesusEra E8 Information 05"
+
+				],
+				"uniques": [
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+
+			{
 				"name": "8Z TechCheckeriEraInformation03",
 				"row": 29,
 				"prerequisites": [
@@ -4074,26 +4093,6 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 500,//zgv42Cost
 		"wonderCost": 1060,//zgv42Cost
 		"techs": [
-			{
-				"name": "E9 Future Tech",
-				"row": 15,
-				"prerequisites": [
-					"10 JesusEra E8 Information 01", //xsa//added
-
-//					"E8 Globalization",
-//					"E8 Particle Physics",
-//					"E8 Nuclear Fusion",
-//					"E8 Nanotechnology",
-//					"E8 Stealth"
-
-				],
-				"uniques": [
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},
 
 			{
 				"name": "8Z TechCheckeriEraInformation02",
@@ -5272,32 +5271,17 @@ Mixed   techgk   techgk   slower   slower
 				]
 			},//KosongZeroBase
 
-		    {
-				"name": "ZZ FuturaTech",
-				"row": 15,
+			{
+				"name": "90 FutureTech",
+				"row": 24,
 				"prerequisites": [
                     "10 JesusEra E9 Future 01",
                     "20 JesusEra E9 Future 02",
                     "30 JesusEra E9 Future 03",
                     "40 JesusEra E9 Future 04",
                     "50 JesusEra E9 Future 05",
-				    "9X FutureTech"
-				],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//ZZ FuturaTech
-			{
-				"name": "90 FutureTech",
-				"row": 24,
-				"prerequisites": [
-					"9X TechClozedEraFuture", //xsa//added
+                    "9Z TechCheckeriEraFuture01"
+                    "9X TechClozedEraFuture", //xsa//added
 					],
 				"uniques": [
 					"Cannot be hurried",
@@ -5337,6 +5321,27 @@ Mixed   techgk   techgk   slower   slower
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			},//XX FuturaTech
+		    {
+				"name": "ZZ FuturaTech",
+				"row": 15,
+				"prerequisites": [
+                    "10 JesusEra E9 Future 01",
+                    "20 JesusEra E9 Future 02",
+                    "30 JesusEra E9 Future 03",
+                    "40 JesusEra E9 Future 04",
+                    "50 JesusEra E9 Future 05",
+				],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},//ZZ FuturaTech
+
 			{
 				"name": "Era9DummyTech04",
 				"row": 41,
@@ -5512,7 +5517,7 @@ E8 Nanotechnology
 E8 Stealth
 
 //Era9
-E9 Future Tech 
+E9 Future Tech
 
 
 
@@ -5725,16 +5730,6 @@ Future
 
 
 
-
-
-
-
-
-
-
-
-
-
 //Lista Tech
 //Era1 slower
 //Era2 slower
@@ -5749,138 +5744,5 @@ Future
 
 
 
-/*
-samerow
-9X FutureTech
-90 TechSlowerEraFuture
-
-samerow
-XX FuturaTech
-90 TechMirrorEraFuture
-
-requureseachother
-9X TechClozedEraFuture
-90 TechLickerEraFuture
-
-requureseachother
-90 TechOpenedEraFuture
-90 InhibitorEra Future
-
-samerow
-90 TechOpenedEraFuture
-90 FutureTech
-
-requureseachother
-90 TechSlowerEraFuture
-90 TechOpenedEraFuture
-
-requureseachother
-90 TechMirrorEraFuture
-90 TechSlowerEraFuture
-
-requureseachother
-90 TechClonedEraFuture
-90 TechMirrorEraFuture
-
-requureseachother
-90 TechKosongEraFuture
-90 TechClonedEraFuture
-
-requureseachother
-90 TechClozedEraFuture
-90 TechKosongEraFuture
-
-requureseachother
-90 InhibitorEra Future
-9Z TechCheckeriEraFuture03
-
-requureseachother
-9X TechClozedEraFuture
-90 TechKosongEraFuture
-
-requureseachother
-9X TechClozedEraFuture
-90 TechSlowerEraFuture
-
-requureseachother
-9X TechClozedEraFuture
-90 TechClonedEraFuture
-
-requureseachother
-9X TechClozedEraFuture
-90 TechOpenedEraFuture
-
-requureseachother
-9X TechClozedEraFuture
-90 TechMirrorEraFuture
-
-requureseachother
-9Z TechCheckeriEraFuture01
-90 TechKosongEraFuture
-
-requureseachother
-9Z TechCheckeriEraFuture01
-90 TechSlowerEraFuture
-
-requureseachother
-9Z TechCheckeriEraFuture01
-90 TechClonedEraFuture
-
-requureseachother
-9Z TechCheckeriEraFuture01
-90 TechOpenedEraFuture
-
-requureseachother
-9Z TechCheckeriEraFuture01
-90 TechMirrorEraFuture
-
-
-
-
-errorprerequisite
-
-
-//Era9 slower
-90 InhibitorEra Future
-44,23
-90 TechOpenedEraFuture
-45,24
-90 TechSlowerEraFuture
-45,25
-90 TechMirrorEraFuture
-45,26
-90 TechClonedEraFuture
-45,27
-90 TechKosongEraFuture
-45,28
-90 TechClozedEraFuture
-45,23
-
-9X TechClozedEraFuture
-46,23
-90 FutureTech
-45,24
-9X FutureTech
-45,25
-XX FuturaTech
-45,26
-
-
-90 TechLickerEraFuture
-45,24
-90 TechLockerEraFuture
-45,23
-
-9Z TechCheckeriEraFuture01
-46,29
-9Z TechCheckeriEraFuture02
-42,28
-9Z TechCheckeriEraFuture03
-43,29
-
-
-
-
-*/
 
 
