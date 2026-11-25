@@ -1464,214 +1464,12 @@ Mixed   techgk   techgk   slower   slower
 		]
 	},//zgv38//xtc30
 	{
-		"columnNumber": 45,//zgv45//xtc35
+		"columnNumber": 45,//zgv45//xtc24
 		"era": "Future era",
-		"techCost": 9500,//zgv45Cost
-		"buildingCost": 750,//zgv45Cost
+		"techCost": 4100,//zgv45Cost
+		"buildingCost": 500,//zgv45Cost
 		"wonderCost": 1250,//zgv45Cost
 		"techs": [
-/*
-			{
-				"name": "10 JesusEra E9 Future 01",
-				"row": 12,
-				"prerequisites": [
-					"90 TechLickerEraFuture"
-//					"20 JesusEra E9 Future 02"
-				],
-				"quote": "10 Future Tech Linker, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					]
-			},//10 JesusEra E9 Future 01
-			{
-				"name": "20 JesusEra E9 Future 02",
-				"row": 14,
-				"prerequisites": [
-					"90 TechLickerEraFuture"
-//					"30 JesusEra E9 Future 03"
-				],
-				"quote": "20 Future Tech Linker, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					]
-			},//20 JesusEra E9 Future 02
-			{
-				"name": "30 JesusEra E9 Future 03",
-				"row": 16,
-				"prerequisites": [
-					"90 TechLickerEraFuture"
-//					"40 JesusEra E9 Future 04"
-				],
-				"quote": "30 Future Tech Linker, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					]
-			},//30 JesusEra E9 Future 03
-			{
-				"name": "40 JesusEra E9 Future 04",
-				"row": 18,
-				"prerequisites": [
-					"90 TechLickerEraFuture"
-//					"50 JesusEra E9 Future 05"
-				],
-				"quote": "40 Future Tech Linker, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					]
-			},//40 JesusEra E9 Future 04
-			{
-				"name": "50 JesusEra E9 Future 05",
-				"row": 20,
-				"prerequisites": [
-					"90 TechLickerEraFuture"
-//					"8X TechClozedEraFuture",
-				],
-				"quote": "50 Future Tech Linker, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					]
-			},//50 JesusEra E9 Future 05
-
-
-			{
-				"name": "90 FutureTech",
-				"row": 24,
-				"prerequisites": [
-					"9X TechClozedEraFuture", //xsa//added
-					],
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//90 FutureTech
-			{
-				"name": "9X FutureTech",
-				"row": 25,
-				"prerequisites": [
-					"90 FutureTech"
-				],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//9X FutureTech
-			{
-				"name": "XX FuturaTech",
-				"row": 26,
-				"prerequisites": ["9X FutureTech"],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//XX FuturaTech
-
-			{
-				"name": "9X TechClozedEraFuture",
-				"row": 23,
-				"prerequisites": [
-					"90 TechClozedEraFuture"
-				],
-				"quote": "9X Future Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-					"Cannot be hurried"
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//9X TechClozedEraFuture
-
-			{
-				"name": "9Z TechCheckeriEraFuture01",
-				"row": 29,
-				"prerequisites": [
-					"90 TechLockerEraFuture",
-					"90 TechOpenedEraFuture",
-					"90 TechSlowerEraFuture",
-					"90 TechMirrorEraFuture",
-					"90 TechClonedEraFuture",
-					"90 TechKosongEraFuture",
-					"90 TechClozedEraFuture",
-				],
-				"quote": "9Z Future Tech Checkeri 01, Checkeri tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+5000]% Science cost of researching new Technologies"
-					]
-			},//9Z TechCheckeriEraFuture01
-
-			{
-				"name": "Era9DummyTech03",
-				"row": 41,
-				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}//Era9DummyTech03
-		]
-	},//zgv45//xtc35
-*/
-			{
-				"name": "90 FutureTech",
-				"row": 24,
-				"prerequisites": [
-					"9X TechClozedEraFuture", //xsa//added
-					],
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//90 FutureTech
-			{
-				"name": "9X FutureTech",
-				"row": 25,
-				"prerequisites": [
-					"90 FutureTech"
-				],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//9X FutureTech
-			{
-				"name": "XX FuturaTech",
-				"row": 26,
-				"prerequisites": ["9X FutureTech"],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-//					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//XX FuturaTech
-
-
 			{
 				"name": "90 TechLickerEraFuture",
 				"row": 11,
@@ -1684,8 +1482,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechLickerEraFuture
-
+			},
 			{
 				"name": "90 TechLockerEraFuture",
 				"row": 23,
@@ -1694,8 +1491,7 @@ Mixed   techgk   techgk   slower   slower
 					"20 IsraelEra E9 Future 02",
 					"30 IsraelEra E9 Future 03",
 					"40 IsraelEra E9 Future 04",
-					"50 IsraelEra E9 Future 05",
-
+					"80 IsraelEra E9 Future 05",
 				],
 				"quote": "90 Future Tech Locker, Locker tech upgrades",
 				"uniques": [
@@ -1703,8 +1499,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechLockerEraFuture
-
+			},
 			{
 				"name": "90 TechOpenedEraFuture",
 				"row": 24,
@@ -1717,7 +1512,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechOpenedEraFuture
+			},
 			{
 				"name": "90 TechSlowerEraFuture",
 				"row": 25,
@@ -1730,7 +1525,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechSlowerEraFuture
+			},
 			{
 				"name": "90 TechMirrorEraFuture",
 				"row": 26,
@@ -1743,7 +1538,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechMirrorEraFuture
+			},
 			{
 				"name": "90 TechClonedEraFuture",
 				"row": 27,
@@ -1756,7 +1551,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechClonedEraFuture
+			},
 			{
 				"name": "90 TechKosongEraFuture",
 				"row": 28,
@@ -1769,7 +1564,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechKosongEraFuture
+			},
 			{
 				"name": "90 TechClozedEraFuture",
 				"row": 29,
@@ -1782,7 +1577,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//90 TechClozedEraFuture
+			},
 
 			{
 				"name": "Era9UnlockHuman",
@@ -1794,7 +1589,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//Era9UnlockHuman
+			},
 			{
 				"name": "Era9UnlockEnema",
 				"row": 38,
@@ -1805,18 +1600,18 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//Era9UnlockEnema
+			},
 
-			{//xsa//KosongZero0009
-				"name": "KosongZero0009",
+			{//xsa//KosongZero0006
+				"name": "KosongZero0006",
 				"row": 40,//21,
-				"prerequisites": ["KosongZeroBase"],
+				"prerequisites": ["KosongZero0007"],
 				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
 				"uniques": [
 					"Only available <for [Human player] Civilizations> <hidden from users>"
 					"Cannot be hurried"
 					]
-			},//KosongZero0009
+			},
 
 			{
 				"name": "Era9DummyTech02",
@@ -1828,9 +1623,9 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			}//Era9DummyTech02
+			}
 		]
-	},//zgv40//zgv45
+	},//zgv45
 
 
 	{
@@ -2804,238 +2599,101 @@ Mixed   techgk   techgk   slower   slower
 		]
 	},//zgv41
 	{
-		"columnNumber": 44,//zgv44
+		"columnNumber": 44,//zgv44//xtc23
 		"era": "Future era",
-		"techCost": 9900,//zgv44Cost
-		"buildingCost": 1000,//zgv44Cost
-		"wonderCost": 1500,//zgv44Cost
+		"techCost": 3100,//zgv44Cost
+		"buildingCost": 500,//zgv44Cost
+		"wonderCost": 1060,//zgv44Cost
 		"techs": [
-/*
-			{
-				"name": "90 TechLickerEraInformation",
-				"row": 11,
-				"prerequisites": [
-					"8X TechClozedEraInformation",
-				],
-				"quote": "80 Information Tech Licker, Licker tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechLickerEraInformation
-
-			{
-				"name": "90 TechLockerEraInformation",
-				"row": 23,
-				"prerequisites": [
-					"10 IsraelEra E8 Information 01",
-					"20 IsraelEra E8 Information 02",
-					"30 IsraelEra E8 Information 03",
-					"40 IsraelEra E8 Information 04",
-					"50 IsraelEra E8 Information 05",
-
-				],
-				"quote": "80 Information Tech Locker, Locker tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechLockerEraInformation
-			{
-				"name": "90 TechOpenedEraFuture",
-				"row": 24,
-				"prerequisites": [
-					"90 InhibitorEra Future"
-				],
-				"quote": "90 Future Tech Opened, Opened tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechOpenedEraFuture
-			{
-				"name": "90 TechSlowerEraFuture",
-				"row": 25,
-				"prerequisites": [
-					"90 TechOpenedEraFuture"
-				],
-				"quote": "90 Future Tech Slower, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechSlowerEraFuture
-			{
-				"name": "90 TechMirrorEraFuture",
-				"row": 26,
-				"prerequisites": [
-					"90 TechSlowerEraFuture"
-				],
-				"quote": "90 Future Tech Mirror, Mirror tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechMirrorEraFuture
-			{
-				"name": "90 TechClonedEraFuture",
-				"row": 27,
-				"prerequisites": [
-					"90 TechMirrorEraFuture"
-				],
-				"quote": "90 Future Tech Cloned, Cloned tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechClonedEraFuture
-			{
-				"name": "90 TechKosongEraFuture",
-				"row": 28,
-				"prerequisites": [
-					"90 TechClonedEraFuture"
-				],
-				"quote": "90 Future Tech Kosong, Kosong tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechKosongEraFuture
-			{
-				"name": "90 TechClozedEraFuture",
-				"row": 29,
-				"prerequisites": [
-					"90 TechKosongEraFuture"
-				],
-				"quote": "90 Future Tech Clozed, Clozed tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//90 TechClozedEraFuture
-
-			{
-				"name": "Era9UnlockHuman",
-				"row": 37,
-				"quote": "9X Future Tech Slower, slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//Era9UnlockHuman
-			{
-				"name": "Era9UnlockEnema",
-				"row": 38,
-				"quote": "9X Future Tech Slower, slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			},//Era9UnlockEnema
-			{
-				"name": "Era9DummyTech02",
-				"row": 41,
-				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}//Era9DummyTech02
-*/
 
 			{
 				"name": "10 IsraelEra E9 Future 01",
 				"row": 12,
 				"prerequisites": [
-					"E9 Globalization"
 				],
 				"quote": "10 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//10 IsraelEra E9 Future 01
+			},
 			{
 				"name": "20 IsraelEra E9 Future 02",
 				"row": 14,
 				"prerequisites": [
-					"E9 Particle Physics",
 					"10 IsraelEra E9 Future 01"
 				],
 				"quote": "20 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//20 IsraelEra E9 Future 02
+			},
 			{
 				"name": "30 IsraelEra E9 Future 03",
 				"row": 16,
 				"prerequisites": [
-					"E9 Nuclear Fusion",
 					"20 IsraelEra E9 Future 02"
 				],
 				"quote": "30 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//30 IsraelEra E9 Future 03
+			},
 			{
 				"name": "40 IsraelEra E9 Future 04",
 				"row": 18,
 				"prerequisites": [
-					"E9 Nanotechnology",
-					"E9 Stealth",
 					"30 IsraelEra E9 Future 03"
 				],
 				"quote": "40 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//40 IsraelEra E9 Future 04
+			},
 			{
-				"name": "50 IsraelEra E9 Future 05",
+				"name": "80 IsraelEra E9 Future 05",
 				"row": 20,
 				"prerequisites": [
 					"40 IsraelEra E9 Future 04"
 				],
-				"quote": "50 Future Tech Inhibitor, Slower tech upgrades",
+				"quote": "80 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//50 IsraelEra E9 Future 05
+			},
 
 			{
 				"name": "90 InhibitorEra Future",
 				"row": 23,
 				"prerequisites": [
-					"50 IsraelEra E9 Future 05",
-					"9Z TechCheckeriEraFuture03",
-
-//					"70 InhibitorEra Future",
+					"80 IsraelEra E9 Future 05",
+					"8Z TechCheckeriEraInformation03",
+//					"80 InhibitorEra Information"
+//					"DNS Tech Land Leviathan",
+//					"DNS Tech Sky Fortress"
 				],
 				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried",
+
+//					"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
+//					"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
 //Era9
+					"Discover [E9 Refrigeration]<before discovering [E9 Refrigeration]>",
+					"Discover [E9 Radio]<before discovering [E9 Radio]>",
+					"Discover [E9 Replaceable Parts]<before discovering [E9 Replaceable Parts]>",
+					"Discover [E9 Flight]<before discovering [E9 Flight]>",
+					"Discover [E9 Railroads]<before discovering [E9 Railroads]>",
+					
+					"Discover [E9 Plastics]<before discovering [E9 Plastics]>",
+					"Discover [E9 Electronics]<before discovering [E9 Electronics]>",
+					"Discover [E9 Ballistics]<before discovering [E9 Ballistics]>",
+					"Discover [E9 Combustion]<before discovering [E9 Combustion]>",
 
 
-//zgv39					"Discover [80 TechClozedEraFuture]"
+//zgv44					"Discover [60 TechClozedEraFuture]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
-			},//80 InhibitorEra Future
+			},
 
 			{
 				"name": "Era9DummyTech01",
@@ -3047,9 +2705,10 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			}//Era9DummyTech01
+			}
+
 		]
-	},//zgv39//zgv44
+	},//zgv44
 
 
 
@@ -4377,117 +4036,12 @@ Mixed   techgk   techgk   slower   slower
 		]
 	},//zgv40//xtc32
 	{
-		"columnNumber": 43,//zgv43//xtc34
+		"columnNumber": 43,//zgv43
 		"era": "Future era",
-		"techCost": 9500,//zgv43Cost
-		"buildingCost": 750,//zgv43Cost
+		"techCost": 4100,//zgv43Cost
+		"buildingCost": 500,//zgv43Cost
 		"wonderCost": 1250,//zgv43Cost
 		"techs": [
-/*
-			{
-				"name": "90 InhibitorEra Future",
-				"row": 23,
-				"prerequisites": [
-					"E9 Future Tech"
-					"8Z TechCheckeriEraInformation03",
-				],
-				"quote": "90 Future Tech Inhibitor, Slower tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-//era9
-					"Discover [E8 Stealth]<before discovering [E8 Stealth]>",
-
-//zgv43					"Discover [80 TechClozedEraInformation]"
-//					"[+100]% weight to this choice for AI decisions"
-					]
-			},//90 InhibitorEra Future
-			{
-				"name": "Era9DummyTech01",
-				"row": 41,
-				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}//Era9DummyTech01
-*/
-			{
-				"name": "9Z TechCheckeriEraFuture03",
-				"row": 29,
-				"prerequisites": [
-					"9Z TechCheckeriEraFuture01",
-					"9Z TechCheckeriEraFuture02",
-				],
-				"quote": "9Z Future Tech Checkeri 03, Checkeri tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+5000]% Science cost of researching new Technologies"
-					]
-			},//9Z TechCheckeriEraFuture03
-
-			{
-				"name": "Era9DummyGkTech02",
-				"row": 41,
-				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"Only available <before discovering [E1 Agriculture]>",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+1000]% Science cost of researching new Technologies"
-					]
-			}//Era9DummyGkTech02
-		]
-	},//zgv38//zgv43
-
-	{
-		"columnNumber": 42,//zgv42//xtc33
-		"era": "Future era",
-		"techCost": 9500,//zgv42Cost
-		"buildingCost": 750,//zgv42Cost
-		"wonderCost": 1250,//zgv42Cost
-		"techs": [
-
-			{
-				"name": "E9 Future Tech",
-				"row": 15,
-				"prerequisites": [
-					"10 JesusEra E8 Information 01", //xsa//added
-
-//					"E8 Globalization",
-//					"E8 Particle Physics",
-//					"E8 Nuclear Fusion",
-//					"E8 Nanotechnology",
-//					"E8 Stealth"
-
-				],
-				"uniques": [
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//E9 Future Tech
-/*
-			{
-				"name": "8Z TechCheckeriEraInformation02",
-				"row": 28,
-				"prerequisites": [
-					"10 JesusEra E8 Information 01"
-					"20 JesusEra E8 Information 02"
-					"30 JesusEra E8 Information 03"
-					"40 JesusEra E8 Information 04"
-					"50 JesusEra E8 Information 05"
-				],
-				"quote": "8Z Information Tech Checkeri 02, Checkeri tech upgrades",
-				"uniques": [
-					"Cannot be hurried",
-					"[+9999]% weight to this choice for AI decisions",
-//					"[+5000]% Science cost of researching new Technologies"
-					]
-			},//8Z TechCheckeriEraInformation02
 			{
 				"name": "8Z TechCheckeriEraInformation03",
 				"row": 29,
@@ -4501,26 +4055,46 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+5000]% Science cost of researching new Technologies"
 					]
-			},//8Z TechCheckeriEraInformation03
-*/
+			},
+
 			{
-				"name": "9Z TechCheckeriEraFuture02",
+				"name": "Era9DummyGkTech02",
+				"row": 41,
+				"quote": "90 Future Tech Dummy, Dummy tech upgrades",
+				"uniques": [
+					"Cannot be hurried",
+					"Only available <before discovering [E1 Agriculture]>",
+					"[+9999]% weight to this choice for AI decisions",
+//					"[+1000]% Science cost of researching new Technologies"
+					]
+			}
+		]
+	},//zgv43
+
+	{
+		"columnNumber": 42,//zgv42
+		"era": "Future era",
+		"techCost": 3100,//zgv42Cost
+		"buildingCost": 500,//zgv42Cost
+		"wonderCost": 1060,//zgv42Cost
+		"techs": [
+			{
+				"name": "8Z TechCheckeriEraInformation02",
 				"row": 28,
 				"prerequisites": [
-					"10 JesusEra E9 Future 01"
-					"20 JesusEra E9 Future 02"
-					"30 JesusEra E9 Future 03"
-					"40 JesusEra E9 Future 04"
-					"50 JesusEra E9 Future 05"
+					"10 JesusEra E8 Information 01"
+					"20 JesusEra E8 Information 02"
+					"30 JesusEra E8 Information 03"
+					"40 JesusEra E8 Information 04"
+					"80 JesusEra E8 Information 05"
 				],
-				"quote": "9Z Future Tech Checkeri 02, Checkeri tech upgrades",
+				"quote": "8Z Information Tech Checkeri 02, Checkeri tech upgrades",
 				"uniques": [
 					"Cannot be hurried",
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+5000]% Science cost of researching new Technologies"
 					]
-			},//9Z TechCheckeriEraFuture02
-
+			},
 			{
 				"name": "Era9DummyGkTech01",
 				"row": 41,
@@ -4531,9 +4105,9 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			}//Era9DummyGkTech01
+			}
 		]
-	},//zgv37//zgv42
+	},//zgv42
 
 
 
@@ -5541,56 +5115,11 @@ Mixed   techgk   techgk   slower   slower
 
 	{
 		"columnNumber": 46,//zgv46
-		"era": "Information era",
-		"techCost": 9999,//zgv46Cost
-		"buildingCost": 750,//zgv46Cost
-		"wonderCost": 1250,//zgv46Cost
+		"era": "Future era",
+		"techCost": 6600,//zgv46Cost
+		"buildingCost": 700,//zgv46Cost
+		"wonderCost": 1050,//zgv46Cost
 		"techs": [
-/*
-		    {
-				"name": "ZZ FuturaTech",
-				"row": 15,
-				"prerequisites": ["9X FutureTech"],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//ZZ FuturaTech
-		]
-	},//zgv46
-*/
-		    {
-				"name": "ZZ FuturaTech",
-				"row": 15,
-				"prerequisites": ["9X FutureTech"],
-				"uniques": [
-					"[+9999]% weight to this choice for AI decisions",
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
-//					"Free Great Person",//xsa//added
-//					"Can be continually researched"
-				],
-				"quote": "'I think we agree, the past is over.' - George W. Bush",
-				"civilopediaText": [{"text": "Who knows what the future holds?"}]
-			},//ZZ FuturaTech
-			{//xsa//KosongZeroBase
-				"name": "KosongZeroBase",
-				"row": 40,//21,
-				"prerequisites": [
-					"XX FuturaTech"
-					],
-				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
-				"uniques": [
-					"Only available <for [Human player] Civilizations> <hidden from users>"
-					"Cannot be hurried"
-//					"Only available <before discovering [E1 Agriculture]>"
-				]
-			},//KosongZeroBase
 
 			{
 				"name": "10 JesusEra E9 Future 01",
@@ -5603,7 +5132,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//10 JesusEra E9 Future 01
+			},
 			{
 				"name": "20 JesusEra E9 Future 02",
 				"row": 14,
@@ -5615,7 +5144,7 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//20 JesusEra E9 Future 02
+			},
 			{
 				"name": "30 JesusEra E9 Future 03",
 				"row": 16,
@@ -5627,31 +5156,31 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//30 JesusEra E9 Future 03
+			},
 			{
 				"name": "40 JesusEra E9 Future 04",
 				"row": 18,
 				"prerequisites": [
 					"90 TechLickerEraFuture"
-//					"50 JesusEra E9 Future 05"
+//					"80 JesusEra E9 Future 05"
 				],
 				"quote": "40 Future Tech Linker, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//40 JesusEra E9 Future 04
+			},
 			{
-				"name": "50 JesusEra E9 Future 05",
+				"name": "80 JesusEra E9 Future 05",
 				"row": 20,
 				"prerequisites": [
 					"90 TechLickerEraFuture"
 //					"9X TechClozedEraFuture",
 				],
-				"quote": "50 Future Tech Linker, Slower tech upgrades",
+				"quote": "80 Future Tech Linker, Slower tech upgrades",
 				"uniques": [
 					"Cannot be hurried"
 					]
-			},//50 JesusEra E9 Future 05
+			},
 
 			{
 				"name": "9X TechClozedEraFuture",
@@ -5671,7 +5200,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			},//9X TechClozedEraFuture
+			},
 			{
 				"name": "9Z TechCheckeriEraFuture01",
 				"row": 29,
@@ -5690,7 +5219,7 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+5000]% Science cost of researching new Technologies"
 					]
-			},//9Z TechCheckeriEraFuture01
+			},
 
 			{
 				"name": "Era9DummyTech03",
@@ -5702,9 +5231,9 @@ Mixed   techgk   techgk   slower   slower
 					"[+9999]% weight to this choice for AI decisions",
 //					"[+1000]% Science cost of researching new Technologies"
 					]
-			}//Era9DummyTech03
+			}
 		]
-	},//zgv41//zgv46
+	},//zgv46
 
 	{
 		"columnNumber": 0,//zgv00//xtc36
@@ -6100,3 +5629,142 @@ Future
 //Era7 slower
 //Era8 slower
 //Era9 slower
+
+
+
+
+/*
+samerow
+9X FutureTech
+90 TechSlowerEraFuture
+
+samerow
+XX FuturaTech
+90 TechMirrorEraFuture
+
+requureseachother
+9X TechClozedEraFuture
+90 TechLickerEraFuture
+
+requureseachother
+90 TechOpenedEraFuture
+90 InhibitorEra Future
+
+samerow
+90 TechOpenedEraFuture
+90 FutureTech
+
+requureseachother
+90 TechSlowerEraFuture
+90 TechOpenedEraFuture
+
+requureseachother
+90 TechMirrorEraFuture
+90 TechSlowerEraFuture
+
+requureseachother
+90 TechClonedEraFuture
+90 TechMirrorEraFuture
+
+requureseachother
+90 TechKosongEraFuture
+90 TechClonedEraFuture
+
+requureseachother
+90 TechClozedEraFuture
+90 TechKosongEraFuture
+
+requureseachother
+90 InhibitorEra Future
+9Z TechCheckeriEraFuture03
+
+requureseachother
+9X TechClozedEraFuture
+90 TechKosongEraFuture
+
+requureseachother
+9X TechClozedEraFuture
+90 TechSlowerEraFuture
+
+requureseachother
+9X TechClozedEraFuture
+90 TechClonedEraFuture
+
+requureseachother
+9X TechClozedEraFuture
+90 TechOpenedEraFuture
+
+requureseachother
+9X TechClozedEraFuture
+90 TechMirrorEraFuture
+
+requureseachother
+9Z TechCheckeriEraFuture01
+90 TechKosongEraFuture
+
+requureseachother
+9Z TechCheckeriEraFuture01
+90 TechSlowerEraFuture
+
+requureseachother
+9Z TechCheckeriEraFuture01
+90 TechClonedEraFuture
+
+requureseachother
+9Z TechCheckeriEraFuture01
+90 TechOpenedEraFuture
+
+requureseachother
+9Z TechCheckeriEraFuture01
+90 TechMirrorEraFuture
+
+
+
+
+errorprerequisite
+
+
+//Era9 slower
+90 InhibitorEra Future
+44,23
+90 TechOpenedEraFuture
+45,24
+90 TechSlowerEraFuture
+45,25
+90 TechMirrorEraFuture
+45,26
+90 TechClonedEraFuture
+45,27
+90 TechKosongEraFuture
+45,28
+90 TechClozedEraFuture
+45,23
+
+9X TechClozedEraFuture
+46,23
+90 FutureTech
+45,24
+9X FutureTech
+45,25
+XX FuturaTech
+45,26
+
+
+90 TechLickerEraFuture
+45,24
+90 TechLockerEraFuture
+45,23
+
+9Z TechCheckeriEraFuture01
+46,29
+9Z TechCheckeriEraFuture02
+42,28
+9Z TechCheckeriEraFuture03
+43,29
+
+
+
+
+*/
+
+
