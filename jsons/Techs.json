@@ -2675,22 +2675,6 @@ Mixed   techgk   techgk   slower   slower
 				"uniques": [
 					"Cannot be hurried",
 
-//					"Discover [DNS Tech Land Leviathan]<before discovering [DNS Tech Land Leviathan]>",
-//					"Discover [DNS Tech Sky Fortress]<before discovering [DNS Tech Sky Fortress]>",
-//Era9
-					"Discover [E9 Refrigeration]<before discovering [E9 Refrigeration]>",
-					"Discover [E9 Radio]<before discovering [E9 Radio]>",
-					"Discover [E9 Replaceable Parts]<before discovering [E9 Replaceable Parts]>",
-					"Discover [E9 Flight]<before discovering [E9 Flight]>",
-					"Discover [E9 Railroads]<before discovering [E9 Railroads]>",
-					
-					"Discover [E9 Plastics]<before discovering [E9 Plastics]>",
-					"Discover [E9 Electronics]<before discovering [E9 Electronics]>",
-					"Discover [E9 Ballistics]<before discovering [E9 Ballistics]>",
-					"Discover [E9 Combustion]<before discovering [E9 Combustion]>",
-
-
-//zgv44					"Discover [60 TechClozedEraFuture]"
 //					"[+100]% weight to this choice for AI decisions"
 					]
 			},
@@ -4079,6 +4063,27 @@ Mixed   techgk   techgk   slower   slower
 		"wonderCost": 1060,//zgv42Cost
 		"techs": [
 			{
+				"name": "E9 Future Tech",
+				"row": 15,
+				"prerequisites": [
+					"10 JesusEra E8 Information 01", //xsa//added
+
+//					"E8 Globalization",
+//					"E8 Particle Physics",
+//					"E8 Nuclear Fusion",
+//					"E8 Nanotechnology",
+//					"E8 Stealth"
+
+				],
+				"uniques": [
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},
+
+			{
 				"name": "8Z TechCheckeriEraInformation02",
 				"row": 28,
 				"prerequisites": [
@@ -4086,7 +4091,7 @@ Mixed   techgk   techgk   slower   slower
 					"20 JesusEra E8 Information 02"
 					"30 JesusEra E8 Information 03"
 					"40 JesusEra E8 Information 04"
-					"80 JesusEra E8 Information 05"
+					"50 JesusEra E8 Information 05"
 				],
 				"quote": "8Z Information Tech Checkeri 02, Checkeri tech upgrades",
 				"uniques": [
@@ -5120,6 +5125,78 @@ Mixed   techgk   techgk   slower   slower
 		"buildingCost": 700,//zgv46Cost
 		"wonderCost": 1050,//zgv46Cost
 		"techs": [
+			{//xsa//KosongZeroBase
+				"name": "KosongZeroBase",
+				"row": 40,//21,
+				"prerequisites": [
+					"XX FuturaTech"
+					],
+				"quote": "'Measure what is thoughtable, and make thoughtable what is not so.' - Gagalai Gululao",
+				"uniques": [
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Cannot be hurried"
+//					"Only available <before discovering [E1 Agriculture]>"
+				]
+			},//KosongZeroBase
+
+		    {
+				"name": "ZZ FuturaTech",
+				"row": 15,
+				"prerequisites": ["9X FutureTech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},//ZZ FuturaTech
+			{
+				"name": "90 FutureTech",
+				"row": 24,
+				"prerequisites": [
+					"9X TechClozedEraFuture", //xsa//added
+					],
+				"uniques": [
+					"Cannot be hurried",
+					"[+9999]% weight to this choice for AI decisions",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},//90 FutureTech
+			{
+				"name": "9X FutureTech",
+				"row": 25,
+				"prerequisites": [
+					"90 FutureTech"
+				],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},//9X FutureTech
+			{
+				"name": "XX FuturaTech",
+				"row": 26,
+				"prerequisites": ["9X FutureTech"],
+				"uniques": [
+					"[+9999]% weight to this choice for AI decisions",
+					"Only available <for [Human player] Civilizations> <hidden from users>"
+//					"Only available <if [MiniCake Trigger Endgame] is constructed> <hidden from users>",
+//					"Free Great Person",//xsa//added
+//					"Can be continually researched"
+				],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+				"civilopediaText": [{"text": "Who knows what the future holds?"}]
+			},//XX FuturaTech
 
 			{
 				"name": "10 JesusEra E9 Future 01",
