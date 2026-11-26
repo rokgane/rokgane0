@@ -68,8 +68,8 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 1,//zgv01//xtc00
 		"era": "Ancient era",
-		"techCost": 20,//zgv01Cost
-		"buildingCost": 40,//zgv01Cost
+		"techCost": 55,//zgv01Cost
+		"buildingCost": 75,//zgv01Cost
 		"wonderCost": 185,//zgv01Cost
 		"techs": [
 
@@ -273,9 +273,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 2,//zgv02//xtc01
 		"era": "Ancient era",
-		"techCost": 35,//zgv02Cost
-		"buildingCost": 60,//zgv02Cost
-		"wonderCost": 185,//zgv02Cost
+		"techCost": 55,//zgv01Cost
+		"buildingCost": 75,//zgv01Cost
+		"wonderCost": 185,//zgv01Cost
 		"techs": [
 
 			{
@@ -321,9 +321,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 3,//zgv03//xtc02
 		"era": "Ancient era",
-		"techCost": 55,//zgv03Cost
-		"buildingCost": 75,//zgv03Cost
-		"wonderCost": 185,//zgv03Cost
+		"techCost": 55,//zgv01Cost
+		"buildingCost": 75,//zgv01Cost
+		"wonderCost": 185,//zgv01Cost
 		"techs": [
 
 			{
@@ -390,7 +390,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 7,//zgv07//xtc05
 		"era": "Classical era",
-		"techCost": 105,//zgv07Cost
+		"techCost": 175,//zgv07Cost
 		"buildingCost": 100,//zgv07Cost
 		"wonderCost": 250,//zgv07Cost
 		"techs": [
@@ -555,9 +555,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 12,//zgv12//xtc09
 		"era": "Medieval era",
-		"techCost": 275,//zgv12Cost
-		"buildingCost": 120,//zgv12Cost
-		"wonderCost": 300,//zgv12Cost
+		"techCost": 485,//zgv12Cost
+		"buildingCost": 160,//zgv12Cost
+		"wonderCost": 400,//zgv12Cost
 		"techs": [
 
 			{
@@ -712,9 +712,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 17,//zgv17//xtc13
 		"era": "Renaissance era",
-		"techCost": 780,//zgv17Cost
-		"buildingCost": 200,//zgv17Cost
-		"wonderCost": 500,//zgv17Cost
+		"techCost": 1150,//zgv17Cost
+		"buildingCost": 250,//zgv17Cost
+		"wonderCost": 625,//zgv17Cost
 		"techs": [
 
 			{
@@ -859,9 +859,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 22,//zgv22//xtc17
 		"era": "Industrial era",
-		"techCost": 1600,//zgv22Cost
-		"buildingCost": 300,//zgv22Cost
-		"wonderCost": 750,//zgv22Cost
+		"techCost": 2350,//zgv22Cost
+		"buildingCost": 360,//zgv22Cost
+		"wonderCost": 900,//zgv22Cost
 		"techs": [
 
 			{
@@ -1009,9 +1009,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 27,//zgv27//xtc21
 		"era": "Modern era",
-		"techCost": 3100,//zgv27Cost
+		"techCost": 4100,//zgv27Cost
 		"buildingCost": 500,//zgv27Cost
-		"wonderCost": 1060,//zgv27Cost
+		"wonderCost": 1250,//zgv27Cost
 		"techs": [
 
 			{
@@ -1166,7 +1166,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 32,//zgv32//xtc25
 		"era": "Atomic era",
-		"techCost": 5100,//zgv32Cost
+		"techCost": 6400,//zgv32Cost
 		"buildingCost": 500,//zgv32Cost
 		"wonderCost": 1250,//zgv32Cost
 		"techs": [
@@ -1314,7 +1314,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 37,//zgv37//xtc29
 		"era": "Information era",
-		"techCost": 7700,//zgv37Cost
+		"techCost": 8800,//zgv37Cost
 		"buildingCost": 750,//zgv37Cost
 		"wonderCost": 1250,//zgv37Cost
 		"techs": [
@@ -1466,8 +1466,8 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 45,//zgv45//xtc24
 		"era": "Future era",
-		"techCost": 4100,//zgv45Cost
-		"buildingCost": 500,//zgv45Cost
+		"techCost": 95000,//zgv45Cost
+		"buildingCost": 750,//zgv45Cost
 		"wonderCost": 1250,//zgv45Cost
 		"techs": [
 			{
@@ -1642,9 +1642,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 6,//zgv06
 		"era": "Ancient era",
-		"techCost": 1100,//zgv06Cost
-		"buildingCost": 200,//zgv06Cost
-		"wonderCost": 300,//zgv06Cost
+		"techCost": 550,//zgv06Cost
+		"buildingCost": 75,//zgv06Cost
+		"wonderCost": 185,//zgv06Cost
 		"techs": [
 
 			{
@@ -1764,9 +1764,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 11,//zgv11
 		"era": "Classical era",
-		"techCost": 2200,//zgv11Cost
-		"buildingCost": 300,//zgv11Cost
-		"wonderCost": 450,//zgv11Cost
+		"techCost": 1750,//zgv11Cost
+		"buildingCost": 100,//zgv11Cost
+		"wonderCost": 250,//zgv11Cost
 		"techs": [
 
 			{
@@ -1885,9 +1885,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 16,//zgv16
 		"era": "Medieval era",
-		"techCost": 3300,//zgv16Cost
-		"buildingCost": 400,//zgv16Cost
-		"wonderCost": 600,//zgv16Cost
+		"techCost": 4850,//zgv16Cost
+		"buildingCost": 160,//zgv16Cost
+		"wonderCost": 400,//zgv16Cost
 		"techs": [
 
 			{
@@ -2006,9 +2006,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 21,//zgv21
 		"era": "Renaissance era",
-		"techCost": 4400,//zgv21Cost
-		"buildingCost": 500,//zgv21Cost
-		"wonderCost": 750,//zgv21Cost
+		"techCost": 11500,//zgv21Cost
+		"buildingCost": 250,//zgv21Cost
+		"wonderCost": 625,//zgv21Cost
 		"techs": [
 
 			{
@@ -2127,8 +2127,8 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 26,//zgv26
 		"era": "Industrial era",
-		"techCost": 5500,//zgv26Cost
-		"buildingCost": 600,//zgv26Cost
+		"techCost": 23500,//zgv26Cost
+		"buildingCost": 360,//zgv26Cost
 		"wonderCost": 900,//zgv26Cost
 		"techs": [
 
@@ -2249,9 +2249,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 31,//zgv31
 		"era": "Modern era",
-		"techCost": 6600,//zgv31Cost
-		"buildingCost": 700,//zgv31Cost
-		"wonderCost": 1050,//zgv31Cost
+		"techCost": 41000,//zgv31Cost
+		"buildingCost": 500,//zgv31Cost
+		"wonderCost": 1250,//zgv31Cost
 		"techs": [
 
 			{
@@ -2370,9 +2370,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 36,//zgv36
 		"era": "Atomic era",
-		"techCost": 7700,//zgv36Cost
-		"buildingCost": 800,//zgv36Cost
-		"wonderCost": 1200,//zgv36Cost
+		"techCost": 64000,//zgv36Cost
+		"buildingCost": 500,//zgv36Cost
+		"wonderCost": 1250,//zgv36Cost
 		"techs": [
 
 			{
@@ -2491,9 +2491,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 41,//zgv41
 		"era": "Information era",
-		"techCost": 8800,//zgv41Cost
-		"buildingCost": 900,//zgv41Cost
-		"wonderCost": 1350,//zgv41Cost
+		"techCost": 88000,//zgv41Cost
+		"buildingCost": 750,//zgv41Cost
+		"wonderCost": 1250,//zgv41Cost
 		"techs": [
 
 			{
@@ -2612,9 +2612,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 44,//zgv44//xtc23
 		"era": "Future era",
-		"techCost": 3100,//zgv44Cost
-		"buildingCost": 500,//zgv44Cost
-		"wonderCost": 1060,//zgv44Cost
+		"techCost": 95000,//zgv44Cost
+		"buildingCost": 750,//zgv44Cost
+		"wonderCost": 1250,//zgv44Cost
 		"techs": [
 
 			{
@@ -2712,9 +2712,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 5,//zgv05//xtc04
 		"era": "Ancient era",
-		"techCost": 1100,//zgv05Cost
-		"buildingCost": 200,//zgv05Cost
-		"wonderCost": 300,//zgv05Cost
+		"techCost": 550,//zgv05Cost
+		"buildingCost": 75,//zgv05Cost
+		"wonderCost": 185,//zgv05Cost
 		"techs": [
 			{
 				"name": "10 TechLickerEraAncient",
@@ -2876,7 +2876,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 10,//zgv10//xtc08
 		"era": "Classical era",
-		"techCost": 175,//zgv10Cost
+		"techCost": 1750,//zgv10Cost
 		"buildingCost": 100,//zgv10Cost
 		"wonderCost": 250,//zgv10Cost
 		"techs": [
@@ -3042,7 +3042,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 15,//zgv15//xtc12
 		"era": "Medieval era",
-		"techCost": 485,//zgv15Cost
+		"techCost": 4850,//zgv15Cost
 		"buildingCost": 160,//zgv15Cost
 		"wonderCost": 400,//zgv15Cost
 		"techs": [
@@ -3208,7 +3208,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 20,//zgv20//xtc16
 		"era": "Renaissance era",
-		"techCost": 1150,//zgv20Cost
+		"techCost": 11500,//zgv20Cost
 		"buildingCost": 250,//zgv20Cost
 		"wonderCost": 625,//zgv20Cost
 		"techs": [
@@ -3373,7 +3373,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 25,//zgv25//xtc20
 		"era": "Industrial era",
-		"techCost": 2350,//zgv25Cost
+		"techCost": 23500,//zgv25Cost
 		"buildingCost": 360,//zgv25Cost
 		"wonderCost": 900,//zgv25Cost
 		"techs": [
@@ -3538,7 +3538,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 30,//zgv30//xtc24
 		"era": "Modern era",
-		"techCost": 4100,//zgv30Cost
+		"techCost": 41000,//zgv30Cost
 		"buildingCost": 500,//zgv30Cost
 		"wonderCost": 1250,//zgv30Cost
 		"techs": [
@@ -3703,7 +3703,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 35,//zgv35//xtc28
 		"era": "Atomic era",
-		"techCost": 6400,//zgv35Cost
+		"techCost": 64000,//zgv35Cost
 		"buildingCost": 500,//zgv35Cost
 		"wonderCost": 1250,//zgv35Cost
 		"techs": [
@@ -3868,7 +3868,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 40,//zgv40//xtc32
 		"era": "Information era",
-		"techCost": 8800,//zgv40Cost
+		"techCost": 88000,//zgv40Cost
 		"buildingCost": 750,//zgv40Cost
 		"wonderCost": 1250,//zgv40Cost
 		"techs": [
@@ -4034,8 +4034,8 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 43,//zgv43
 		"era": "Future era",
-		"techCost": 4100,//zgv43Cost
-		"buildingCost": 500,//zgv43Cost
+		"techCost": 9500,//zgv43Cost
+		"buildingCost": 750,//zgv43Cost
 		"wonderCost": 1250,//zgv43Cost
 		"techs": [
 			{
@@ -4089,9 +4089,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 42,//zgv42
 		"era": "Future era",
-		"techCost": 3100,//zgv42Cost
-		"buildingCost": 500,//zgv42Cost
-		"wonderCost": 1060,//zgv42Cost
+		"techCost": 95000,//zgv42Cost
+		"buildingCost": 750,//zgv42Cost
+		"wonderCost": 1250,//zgv42Cost
 		"techs": [
 
 			{
@@ -4130,9 +4130,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 4,//zgv04//xtc03
 		"era": "Ancient era",
-		"techCost": 1100,//zgv04Cost
-		"buildingCost": 200,//zgv04Cost
-		"wonderCost": 300,//zgv04Cost
+		"techCost": 550,//zgv04Cost
+		"buildingCost": 75,//zgv04Cost
+		"wonderCost": 185,//zgv04Cost
 		"techs": [
 //era1
 			{
@@ -4254,7 +4254,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 9,//zgv09//xtc07
 		"era": "Classical era",
-		"techCost": 105,//zgv09Cost
+		"techCost": 1750,//zgv09Cost
 		"buildingCost": 100,//zgv09Cost
 		"wonderCost": 250,//zgv09Cost
 		"techs": [
@@ -4378,9 +4378,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 14,//zgv14//xtc11
 		"era": "Medieval era",
-		"techCost": 275,//zgv14Cost
-		"buildingCost": 120,//zgv14Cost
-		"wonderCost": 300,//zgv14Cost
+		"techCost": 4850,//zgv14Cost
+		"buildingCost": 160,//zgv14Cost
+		"wonderCost": 400,//zgv14Cost
 		"techs": [
 
 			{
@@ -4503,9 +4503,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 19,//zgv19//xtc15
 		"era": "Renaissance era",
-		"techCost": 780,//zgv19Cost
-		"buildingCost": 200,//zgv19Cost
-		"wonderCost": 500,//zgv19Cost
+		"techCost": 11500,//zgv19Cost
+		"buildingCost": 250,//zgv19Cost
+		"wonderCost": 625,//zgv19Cost
 		"techs": [
 
 			{
@@ -4627,9 +4627,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 24,//zgv24//xtc19
 		"era": "Industrial era",
-		"techCost": 1600,//zgv24Cost
-		"buildingCost": 300,//zgv24Cost
-		"wonderCost": 750,//zgv24Cost
+		"techCost": 23500,//zgv24Cost
+		"buildingCost": 360,//zgv24Cost
+		"wonderCost": 900,//zgv24Cost
 		"techs": [
 
 			{
@@ -4753,9 +4753,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 29,//zgv29//xtc23
 		"era": "Modern era",
-		"techCost": 3100,//zgv29Cost
+		"techCost": 41000,//zgv29Cost
 		"buildingCost": 500,//zgv29Cost
-		"wonderCost": 1060,//zgv29Cost
+		"wonderCost": 1250,//zgv29Cost
 		"techs": [
 
 			{
@@ -4881,7 +4881,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 34,//zgv34//xtc27
 		"era": "Atomic era",
-		"techCost": 5100,//zgv34Cost
+		"techCost": 64000,//zgv34Cost
 		"buildingCost": 500,//zgv34Cost
 		"wonderCost": 1250,//zgv34Cost
 		"techs": [
@@ -5004,7 +5004,7 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 39,//zgv39//xtc31
 		"era": "Information era",
-		"techCost": 7700,//zgv39Cost
+		"techCost": 88000,//zgv39Cost
 		"buildingCost": 750,//zgv39Cost
 		"wonderCost": 1250,//zgv39Cost
 		"techs": [
@@ -5132,9 +5132,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 46,//zgv46
 		"era": "Future era",
-		"techCost": 6600,//zgv46Cost
-		"buildingCost": 700,//zgv46Cost
-		"wonderCost": 1050,//zgv46Cost
+		"techCost": 95000,//zgv46Cost
+		"buildingCost": 750,//zgv46Cost
+		"wonderCost": 1250,//zgv46Cost
 		"techs": [
 			{
 				"name": "10 JesusEra E9 Future 01",
@@ -5253,9 +5253,9 @@ Mixed   techgk   techgk   slower   slower
 	{
 		"columnNumber": 47,//zgv47
 		"era": "Future era",
-		"techCost": 3100,//zgv47Cost
-		"buildingCost": 500,//zgv47Cost
-		"wonderCost": 1060,//zgv47Cost
+		"techCost": 95000,//zgv47Cost
+		"buildingCost": 750,//zgv47Cost
+		"wonderCost": 1250,//zgv47Cost
 		"techs": [
 			{//xsa//KosongZeroBase
 				"name": "KosongZeroBase",
@@ -5740,9 +5740,6 @@ Future
 //Era7 slower
 //Era8 slower
 //Era9 slower
-
-
-
 
 
 
